@@ -90,7 +90,7 @@ echo -ne "
 [[ ! -d Music ]] && git clone https://github.com/nemo256/Music
 [[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates
 [[ ! -d .build ]] && mkdir .build && cd .build
-[[ ! -d dwm ]] && git clone https://github.com/nemo256/dwm
+[[ ! -d tily ]] && git clone https://github.com/nemo256/tily
 [[ ! -d st ]] && git clone https://github.com/nemo256/st
 [[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu
 [[ ! -d slock ]] && git clone https://github.com/nemo256/slock
