@@ -82,6 +82,15 @@ fi
 
 echo -ne "
 ------------------------------------------------------------------------------------------
+                                    Font Configuration
+------------------------------------------------------------------------------------------
+"
+cd /usr/share/fonts
+sudo curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
+sudo fc-cache -fv
+
+echo -ne "
+------------------------------------------------------------------------------------------
                                   Restoring from github
 ------------------------------------------------------------------------------------------
 "
