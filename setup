@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-source .env
+# Env vars
+USERNAME=n3m0
+SHELL=zsh
+# Github token (optional)
+TOKEN=
 
 clear
 echo -ne "
@@ -70,9 +74,11 @@ echo -ne "
                                    Github Configuration      
 ------------------------------------------------------------------------------------------
 "
-cd ${HOME}
-echo -ne "https://nemo256:${TOKEN}@github.com" > ${HOME}/.git-credentials
-git config --global credential.helper store
+if [ -v TOKEN ]; then
+  cd ${HOME}
+  echo -ne "https://nemo256:${TOKEN}@github.com" > ${HOME}/.git-credentials
+  git config --global credential.helper store
+fi
 
 echo -ne "
 ------------------------------------------------------------------------------------------
