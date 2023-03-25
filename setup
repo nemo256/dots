@@ -65,3 +65,12 @@ sudo sed -ni "/^root/{a\
   ${USERNAME} ALL=(ALL:ALL) NOPASSWD: ALL
 p}" /etc/sudoers
 
+echo -ne "
+------------------------------------------------------------------------------------------
+                                   Github Configuration      
+------------------------------------------------------------------------------------------
+"
+cd ${HOME}
+echo -ne "https://nemo256:${TOKEN}@github.com" > ${HOME}/.git-credentials
+git config --global credential.helper store
+
