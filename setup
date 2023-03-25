@@ -89,3 +89,25 @@ echo -ne "
   && git clone https://github.com/nemo256/Templates
 [[ ! -d .build ]] && mkdir .build
 
+cd .build
+[[ ! -d dwm ]] \
+  && git clone https://github.com/nemo256/dwm
+[[ ! -d st ]] \
+  && git clone https://github.com/nemo256/st
+[[ ! -d dmenu ]] \
+  && git clone https://github.com/nemo256/dmenu
+[[ ! -d slock ]] \
+  && git clone https://github.com/nemo256/slock
+[[ ! -d slstatus ]] \
+  && git clone https://github.com/nemo256/slstatus
+[[ ! -d fetchy ]] \
+  && git clone https://github.com/nemo256/fetchy
+[[ ! -d ani-cli ]] \
+  && git clone https://github.com/pystardust/ani-cli
+[[ ! -d tty-clock ]] \
+  && git clone https://github.com/xorg62/tty-clock
+[[ ! -d grabc ]] \
+  && git clone https://github.com/muquit/grabc
+[[ ! -d tremc ]] \
+  && git clone https://github.com/tremc/tremc
+
