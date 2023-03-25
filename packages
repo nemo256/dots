@@ -1,0 +1,103 @@
+#######################
+#      Necessary      #
+#######################
+alsa-utils
+bind-tools
+bluez
+bluez-utils
+brightnessctl
+btrfs-progs
+cmake
+cryptsetup
+dkms
+dmidecode
+dosfstools
+edk2-shell
+exfatprogs
+f2fs-tools
+fatresize
+jfsutils
+libx11
+libxft
+libxinerama
+man-db
+man-pages
+mtools
+networkmanager
+nfs-utils
+nilfs-utils
+openssh
+openvpn
+python-pip
+squashfs-tools
+tcpdump
+usbutils
+wireless_tools
+
+#######################
+#    User specific    #
+#######################
+docker
+dsniff
+dunst
+edk2-ovmf
+exa
+firefox
+fzf
+git
+gnu-netcat
+gptfdisk
+gtk2
+htop
+irssi
+lynx
+mpc
+mpd
+mpv
+nano
+ncdu
+ncmpcpp
+neofetch
+neovim
+newsboat
+nmap
+nodejs
+noto-fonts
+noto-fonts-cjk
+noto-fonts-extra
+picom
+ranger
+reflector
+rsync
+scrot
+stow
+sxiv
+terminus-font
+the_silver_searcher
+tmux
+transmission-cli
+tree
+ttf-fira-code
+ttf-nerd-fonts-symbols-2048-em
+unrar
+unzip
+upower
+webkit2gtk
+yarn
+yt-dlp
+zathura
+zip
+zsh
+
+#######################
+#       Drivers       #
+#######################
+# broadcom-wl-dkms
+# intel-ucode
+# libva-intel-driver
+# libva-utils
+# libvdpau-va-gl
+# qemu-guest-agent
+# vulkan-intel
+# xf86-video-intel
+virtualbox-guest-utils
