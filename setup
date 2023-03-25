@@ -2,7 +2,7 @@
 
 # Env vars
 USERNAME=n3m0
-SHELL=/bin/zsh
+SHELL=/bin/bash
 # Github token (optional)
 TOKEN=
 
@@ -88,6 +88,7 @@ echo -ne "
 cd /usr/share/fonts
 sudo curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
 sudo fc-cache -fv
+cd ${HOME}
 
 echo -ne "
 ------------------------------------------------------------------------------------------
