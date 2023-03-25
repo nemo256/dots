@@ -100,7 +100,7 @@ echo -ne "
 [[ ! -d tty-clock ]] && git clone https://github.com/xorg62/tty-clock
 [[ ! -d grabc ]] && git clone https://github.com/muquit/grabc
 [[ ! -d tremc ]] && git clone https://github.com/tremc/tremc
-cd dwm && sudo make clean install
+cd tily && sudo make clean install
 cd ../st && sudo make clean install
 cd ../dmenu && sudo make clean install
 cd ../slock && sudo make clean install
