@@ -23,7 +23,6 @@ libxinerama
 man-db
 man-pages
 mtools
-networkmanager
 nfs-utils
 nilfs-utils
 openssh
@@ -57,7 +56,6 @@ mpv
 nano
 ncdu
 ncmpcpp
-neofetch
 neovim
 newsboat
 nmap
