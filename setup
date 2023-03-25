@@ -2,7 +2,7 @@
 
 # Env vars
 USERNAME=n3m0
-SHELL=zsh
+SHELL=/bin/zsh
 # Github token (optional)
 TOKEN=
 
