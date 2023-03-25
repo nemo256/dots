@@ -150,7 +150,6 @@ stow git
 stow gtk-2.0
 stow gtk-3.0
 stow htop
-stow mpd
 stow mpv
 stow ncmpcpp
 stow newsboat
