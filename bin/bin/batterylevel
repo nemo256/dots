@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Icons from nerd fonts
+batstat="$(cat /sys/class/power_supply/BAT0/status)"
+battery="$(cat /sys/class/power_supply/BAT0/capacity)"
+
+if [[ $batstat = 'Unknown' ]] || [[ $batstat = 'Charging' ]]; then
+  notify-send "Charging: $(cat /sys/class/power_supply/BAT0/capacity)%  "
+elif [[ $battery -ge 6 ]] && [[ $battery -le 24 ]]; then
+  notify-send "Battery level is: $(cat /sys/class/power_supply/BAT0/capacity)%  "
+elif [[ $battery -ge 25 ]] && [[ $battery -le 44 ]]; then
+  notify-send "Battery level is: $(cat /sys/class/power_supply/BAT0/capacity)%  "
+elif [[ $battery -ge 45 ]] && [[ $battery -le 70 ]]; then
+  notify-send "Battery level is: $(cat /sys/class/power_supply/BAT0/capacity)%  "
+elif [[ $battery -ge 71 ]]; then
+  notify-send "Battery level is: $(cat /sys/class/power_supply/BAT0/capacity)%  "
+fi
+

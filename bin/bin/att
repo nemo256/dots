@@ -1,0 +1,3 @@
+#!/bin/sh
+
+messer --command='file "'"$2"'" "'"$1"'"'

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if `ps -e | grep -q ffmpeg`;
+then
+    notify-send "  Stoping Record!"
+    kill `ps -e | grep ffmpeg | awk '{print $1}'`
+else
+    notify-send "  Starting Record!"
+    ffmpeg -f x11grab -s 1440x900 -i :0.0 ~/out.mp4 -y
+fi
+

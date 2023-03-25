@@ -1,0 +1,11 @@
+#!/bin/sh
+
+
+if `transmission-remote -l | grep -q Stopped`;
+then
+    notify-send "  Starting Download"
+    transmission-remote -tall -s
+else
+    notify-send "  Stoping Download!"
+    transmission-remote -tall -S
+fi

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Icons depend on FontAwesome being installed
+vol() {
+	volonoff="$(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $6}')"
+	vol="$(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')"
+
+	if [[ $volonoff = 'off' ]]; then
+		echo "󰖁 "
+	elif [[ $vol -eq 0 ]]; then
+		echo " "
+	elif [[ $vol -ge 1 ]] && [[ $vol -le 49 ]]; then
+		echo " "
+	elif [[ $vol -ge 50 ]]; then
+		echo " "
+	fi
+}
+
+vol

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Icons depend on nerdfonts being installed
+bat() {
+	batstat="$(cat /sys/class/power_supply/BAT0/status)"
+	battery="$(cat /sys/class/power_supply/BAT0/capacity)"
+
+	if [[ $batstat = 'Unknown' ]] || [[ $batstat = 'Charging' ]]; then
+		echo " "
+	elif [[ $battery -le 5 ]] && [[ $batstat = 'Discharging' ]]; then
+		notify-send '  Battery Dyiiing...' -u 'critical'
+		sleep 1m
+	elif [[ $battery -ge 6 ]] && [[ $battery -le 24 ]]; then
+		echo " "
+	elif [[ $battery -ge 25 ]] && [[ $battery -le 44 ]]; then
+		echo " "
+	elif [[ $battery -ge 45 ]] && [[ $battery -le 70 ]]; then
+		echo " "
+	elif [[ $battery -ge 71 ]]; then
+		echo " "
+	elif [[ $batstat = 'Full' ]]; then
+		notify-send '  Battery Charged...' -u 'low'
+		sleep 1m
+	fi
+}
+
+bat

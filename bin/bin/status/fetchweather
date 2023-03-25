@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Recommend putting this script in a cronjob that runs at least once a day.
+curl wttr.in/algiers?format=j1 -o ~/.config/weather.json

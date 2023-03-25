@@ -1,0 +1,35 @@
+#           _   _
+#  ______ _| |_| |__  _   _ _ __ __ _
+# |_  / _` | __| '_ \| | | | '__/ _` |
+#  / / (_| | |_| | | | |_| | | | (_| |
+# /___\__,_|\__|_| |_|\__,_|_|  \__,_|
+#
+# ~/.config/zathura/zathurarc
+set guioptions none
+set window-height 3000
+set window-width 3000
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set recolor true
+
+# remaps
+map u scroll half-up
+map [fullscreen] u scroll half-up
+map d scroll half-down
+map [fullscreen] d scroll half-down
+map D toggle_page_mode
+map [fullscreen] D toggle_page_mode
+map r reload
+map [fullscreen] r reload
+map R rotate
+map [fullscreen] R rotate
+map K zoom in
+map [fullscreen] K zoom in
+map J zoom out
+map [fullscreen] J zoom out
+map p print
+map [fullscreen] p print
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+map <C-i> recolor

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Play [Touhou] bad apple in the terminal
+# mpv --no-config --really-quiet --vo=tct https://www.youtube.com/watch?v=UkgK8eUdpAo
+mpv --no-config --really-quiet --vo=tct https://www.youtube.com/watch?v=ThHvx5a9IYA

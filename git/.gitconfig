@@ -1,0 +1,10 @@
+[user]
+	username = nemo256
+	name = Amine Neggazi
+	email = neggazimedlamine@gmail.com
+[pull]
+	rebase = false
+[credential]
+	helper = store
+[init]
+	defaultBranch = master

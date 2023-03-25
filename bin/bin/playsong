@@ -1,0 +1,5 @@
+#!/bin/sh
+
+NP=$(mpc current) 
+
+notify-send "  NoW PLaY'iN:  ${NP}"

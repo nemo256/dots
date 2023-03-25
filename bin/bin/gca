@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# ############################################## #
+# Script to automatically add and push to github
+# ############################################## #
+
+# get all the passed arguments
+msg=$@
+
+# if no argument is passed, initialize default commit.
+[[ -z $msg ]] && msg='Default commit message!'
+
+# add, commit, and push to github
+git add -vA
+git commit -vm "$msg"
+git push origin master

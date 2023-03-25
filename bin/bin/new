@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+currWD=$(pwd)
+
+git clone https://github.com/nemo256/bp \
+  $currWD/$1
+
+cd $currWD/$1
+rm -fvr .git
+git init
+git add --all
+git commit -m 'initial commit'
+git remote add origin https://github.com/nemo256/$1
+git push origin master

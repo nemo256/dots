@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if `ps -e | grep -q screenkey`;
+then
+    notify-send "  Screenkey Off!"
+    kill `ps -e | grep screenkey | awk '{print $1}'`
+else
+    notify-send "  Screenkey On!"
+    screenkey 
+fi

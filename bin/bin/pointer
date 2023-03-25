@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ "$(xinput --list-props 11 | grep 'Device Enabled' | awk '{print $4}')" -eq "1" ]
+then
+    xinput set-prop 11 "Device Enabled" 0
+    notify-send "  Pointer Off"
+else
+    xinput set-prop 11 "Device Enabled" 1
+    notify-send "  Pointer On"
+fi

@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# for mimeapps app entry!
+if `ps -ef | grep -q "[t]ransmission-daemon -f"`;
+then
+    systemctl stop transmission-daemon
+    transmission-daemon --no-auth
+    transmission-remote -a "$@" && notify-send "  Torrent added!"
+else
+    if `ps -e | grep -q transmission`;
+    then
+        transmission-remote -a "$@" && notify-send "  Torrent added!"
+    else
+        transmission-daemon --no-auth
+        transmission-remote -a "$@" && notify-send "  Torrent added!"
+    fi
+fi

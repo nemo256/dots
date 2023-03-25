@@ -140,15 +140,11 @@ stow gtk-2.0
 stow gtk-3.0
 stow htop
 stow irssi
-stow mbsync
-stow mimeapps
 stow mpd
 stow mpv
-stow mutt
 stow ncmpcpp
 stow neofetch
 stow newsboat
-stow notmuch
 stow nvim
 stow picom
 stow ranger

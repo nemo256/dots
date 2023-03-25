@@ -1,0 +1,33 @@
+#!/bin/bash
+
+weather=$(cat ~/.config/weather.json | sed 22q | grep value | awk '{print $2 $3}' | sed 's/\"//g')
+temp=$(cat ~/.config/weather.json | grep temp_C | awk '{print $2}' | sed 's/\"//g' | sed 's/,//')
+
+sunny=""
+cloud=""
+rain=""
+storm=""
+lotempicon="° "
+midtempicon="° "
+hitempicon="° "
+
+# Print weather information
+TEMP() {
+	if [[ "$temp" -gt 30 ]]; then
+		echo -e "$temp$hitempicon"
+	elif [[ "$temp" -ge 20 ]] && [[ "$temp" -le 29 ]]; then
+		echo -e "$temp$midtempicon"
+	elif [[ "$temp" -le 19 ]]; then
+		echo -e "$temp$lotempicon"
+	fi
+}
+
+WEATHER () {
+	if [[ "$weather" = "Clear" ]] || [[ "$weather" = "Sunny" ]]; then
+		echo -e "$sunny"
+	else
+		echo -e "$cloud"
+	fi
+}
+
+echo $(WEATHER)

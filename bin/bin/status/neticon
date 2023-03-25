@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Icons depend on nerdfonts being installed
+network() {
+  wire="$(ip a | grep 'eth0\|enp' | grep inet | wc -l)"
+  wifi="$(ip a | grep wlan0 | grep inet | wc -l)"
+  vpn="$(ip a | grep tun0 | grep inet | wc -l)"
+
+  if [[ $wire = 1 ]] && [[ $vpn = 1 ]]; then
+    echo " "
+  elif [[ $wire = 1 ]] && [[ $vpn = 0 ]]; then
+    echo " "
+  elif [[ $wifi = 1 ]] && [[ $vpn = 0 ]]; then
+    echo " "
+  else
+    echo " "
+  fi
+}
+
+network

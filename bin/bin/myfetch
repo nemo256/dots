@@ -1,0 +1,24 @@
+#!/bin/bash
+# www.github.com/yedhink
+#
+# a system info scripted with love
+
+name=$USER
+distro=`distro | grep Name | cut -d' ' -f 2,3`
+kernel=`uname -r`
+she=`echo $SHELL | cut -d/ -f 4`
+dt=`date | awk '{print $1" "$2" "$3}'`
+up=`uptime -p`
+
+red="\e[31m"
+grn="\e[32m"
+ylw="\e[33m"
+cyn="\e[36m"
+blu="\e[34m"
+prp="\e[35m"
+bprp="\e[35;1m"
+rst="\e[0m"
+
+echo -e "  ${cyn}    distro ${rst}"  " $distro" " ${cyn}   kernel ${rst}"  " $kernel  "
+echo -e "  ${red}    shell  ${rst}"  " $she      " " ${red}   up ${rst} "  "    $up  "
+echo -e "  ${prp}    editor ${rst}"  " $EDITOR      " " ${prp}   date ${rst}"  "   $dt  "
