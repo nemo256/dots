@@ -123,3 +123,34 @@ rm -fvr ${HOME}/.bash*
 rm -fvr ${HOME}/.gitconfig
 rm -fvr ${HOME}/.config/*
 
+cd ${HOME}/dots
+
+stow abook
+stow bin
+stow bash
+stow dunst
+stow git
+stow gtk-2.0
+stow gtk-3.0
+stow htop
+stow irssi
+stow mbsync
+stow mimeapps
+stow mpd
+stow mpv
+stow mutt
+stow ncmpcpp
+stow neofetch
+stow newsboat
+stow notmuch
+stow nvim
+stow picom
+stow ranger
+stow sxiv
+stow transmission-daemon
+stow tremc
+stow weather-cli-nodejs
+stow xinit
+stow yarn
+stow zathura
+
