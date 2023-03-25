@@ -1,15 +1,15 @@
 <div align="center">
 
-# `bp`
+# `dots`
 
 <h3>
-  Personal boilerplate
+  My dotfiles
 </h3>
 
 <!-- Badges -->
-![GitHub Repo stars](https://img.shields.io/github/stars/nemo256/bp?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/nemo256/dots?style=for-the-badge)
 ![Maintenance](https://shields.io/maintenance/yes/2022?style=for-the-badge)
-![License](https://shields.io/github/license/nemo256/bp?style=for-the-badge)
+![License](https://shields.io/github/license/nemo256/dots?style=for-the-badge)
 
 <!-- Demo image -->
 ![Demo](demo.png)
@@ -19,42 +19,25 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Project Structure 📁](#project-structure)
-* [Install 🔨](#install)
-* [Use 🚀](#use)
+* [Usage 🚀](#usage)
 * [Develop ⚙️](#develop)
 * [License 📑](#license)
 
-## Project Structure 📁
-```
-bp/
-├── file
-├── file
-├── folder/
-│   ├── folder/
-│   │   ├── file
-│   │   └── file
-│   └── file
-└── file
-```
-
-## Install 🔨
-- Step 1
+## Usage 🚀
+> This is used on a fresh arch linux install!
+- Clone the repo:
 ```shell
-$ Command
+$ git clone https://github.com/nemo256/dots
 ```
-## Use 🚀
-> Hint
-- Step 1
+- Run the setup script:
 ```shell
-$ Command
+$ cd dots
+$ chmod +x setup
+$ ./setup
 ```
 
 ## Develop ⚙️
-- Step 1
-```shell
-$ Command
-```
+- Just modify the setup script.
 
 ## License 📑
-- Please read [bp/LICENSE](https://github.com/nemo256/bp/blob/master/LICENSE)
+- Please read [dots/LICENSE](https://github.com/nemo256/dots/blob/master/LICENSE)
