@@ -76,16 +76,14 @@ git config --global credential.helper store
 
 echo -ne "
 ------------------------------------------------------------------------------------------
-                                  Restore from github
+                                  Restoring from github
 ------------------------------------------------------------------------------------------
 "
 [[ ! -d Documents ]] && git clone https://github.com/nemo256/Documents
 [[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures
 [[ ! -d Music ]] && git clone https://github.com/nemo256/Music
 [[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates
-[[ ! -d .build ]] && mkdir .build
-
-cd .build
+[[ ! -d .build ]] && mkdir .build && cd .build
 [[ ! -d dwm ]] && git clone https://github.com/nemo256/dwm
 [[ ! -d st ]] && git clone https://github.com/nemo256/st
 [[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu
@@ -96,4 +94,23 @@ cd .build
 [[ ! -d tty-clock ]] && git clone https://github.com/xorg62/tty-clock
 [[ ! -d grabc ]] && git clone https://github.com/muquit/grabc
 [[ ! -d tremc ]] && git clone https://github.com/tremc/tremc
+cd dwm && sudo make clean install
+cd ../st && sudo make clean install
+cd ../dmenu && sudo make clean install
+cd ../slock && sudo make clean install
+cd ../slstatus && sudo make clean install
+cd ../fetchy && sudo make clean install
+cd ../ani-cli && sudo chmod +x ani-cli && sudo cp -fvr ani-cli /usr/local/bin/ani-cli
+cd ../tty-clock && make && sudo make install
+cd ../grabc && make && sudo make install
+cd ../tremc && sudo make install
+yarn global add @aweary/alder
+yarn global add weather-cli
+
+echo -ne "
+------------------------------------------------------------------------------------------
+                                 Restoring Home Directory
+------------------------------------------------------------------------------------------
+"
+cd ${HOME} && mkdir Videos Work
 
