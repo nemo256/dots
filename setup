@@ -74,3 +74,18 @@ cd ${HOME}
 echo -ne "https://nemo256:${TOKEN}@github.com" > ${HOME}/.git-credentials
 git config --global credential.helper store
 
+echo -ne "
+------------------------------------------------------------------------------------------
+                                  Restore from github
+------------------------------------------------------------------------------------------
+"
+[[ ! -d Documents ]] \
+  && git clone https://github.com/nemo256/Documents
+[[ ! -d Pictures ]] \
+  && git clone https://github.com/nemo256/Pictures
+[[ ! -d Music ]] \
+  && git clone https://github.com/nemo256/Music
+[[ ! -d Templates ]] \
+  && git clone https://github.com/nemo256/Templates
+[[ ! -d .build ]] && mkdir .build
+
