@@ -154,3 +154,5 @@ stow xinit
 stow yarn
 stow zathura
 
+chmod -R 755 ${HOME}/bin
+
