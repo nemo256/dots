@@ -114,3 +114,12 @@ echo -ne "
 "
 cd ${HOME} && mkdir Videos Work
 
+echo -ne "
+------------------------------------------------------------------------------------------
+                                Stowing Configuration Files
+------------------------------------------------------------------------------------------
+"
+rm -fvr ${HOME}/.bash*
+rm -fvr ${HOME}/.gitconfig
+rm -fvr ${HOME}/.config/*
+
