@@ -99,7 +99,8 @@ echo -ne "
 [[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures
 [[ ! -d Music ]] && git clone https://github.com/nemo256/Music
 [[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates
-[[ ! -d .build ]] && mkdir .build && cd .build
+[[ ! -d .build ]] && mkdir .build
+cd .build
 [[ ! -d tily ]] && git clone https://github.com/nemo256/tily
 [[ ! -d st ]] && git clone https://github.com/nemo256/st
 [[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu
