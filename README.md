@@ -12,7 +12,7 @@
 ![License](https://shields.io/github/license/nemo256/dots?style=for-the-badge)
 
 <!-- Demo image -->
-![Demo](demo.png)
+![Demo](demo.gif)
 
 </div>
 
