@@ -58,7 +58,7 @@ do
     continue
   fi
   logo "Installing: $line..."
-  sudo pacman -Sy --noconfirm --needed "$line" 1> /dev/null
+  sudo pacman -Sy --noconfirm --needed "$line"
 done < packages
 
 logo "Switch shell to '${SHELL}'..."
