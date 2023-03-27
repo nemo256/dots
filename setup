@@ -61,99 +61,93 @@ do
   sudo pacman -Sy --noconfirm --needed "$line" 1> /dev/null
 done < packages
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                     Switch shell
-------------------------------------------------------------------------------------------
-"
+logo "Switch shell to '${SHELL}'..."
 sudo chsh -s ${SHELL} root 1> /dev/null
 sudo chsh -s ${SHELL} ${USERNAME} 1> /dev/null
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                              Changing Default Console Font
-------------------------------------------------------------------------------------------
-"
+logo "Changing default console font..."
 sudo echo -ne 'KEYMAP="us"
 FONT="ter-132b"
 ' > /etc/vconsole.conf
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                Add no password sudo rights
-------------------------------------------------------------------------------------------
-"
+logo "Adding no password sudo rights..."
 sudo sed -ni "/^root/{a\
   ${USERNAME} ALL=(ALL:ALL) NOPASSWD: ALL
 p}" /etc/sudoers
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                   Github Configuration      
-------------------------------------------------------------------------------------------
-"
+logo "Github configuration..."
 if [ -v TOKEN ]; then
-  cd ${HOME}
+  cd ${HOME} 1> /dev/null
   echo -ne "https://nemo256:${TOKEN}@github.com" > ${HOME}/.git-credentials
-  git config --global credential.helper store
+  git config --global credential.helper store 1> /dev/null
 fi
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                    Font Configuration
-------------------------------------------------------------------------------------------
-"
-cd /usr/share/fonts
-sudo curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
-sudo fc-cache -fv
-cd ${HOME}
+logo "Font configuration..."
+cd /usr/share/fonts 1> /dev/null
+sudo curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf 1> /dev/null
+sudo fc-cache -fv 1> /dev/null
+cd ${HOME} 1> /dev/null
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                  Restoring from github
-------------------------------------------------------------------------------------------
-"
-[[ ! -d Documents ]] && git clone https://github.com/nemo256/Documents
-[[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures
-[[ ! -d Music ]] && git clone https://github.com/nemo256/Music
-[[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates
-[[ ! -d .build ]] && mkdir .build
-cd .build
-[[ ! -d tily ]] && git clone https://github.com/nemo256/tily
-[[ ! -d st ]] && git clone https://github.com/nemo256/st
-[[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu
-[[ ! -d slock ]] && git clone https://github.com/nemo256/slock
-[[ ! -d slstatus ]] && git clone https://github.com/nemo256/slstatus
-[[ ! -d fetchy ]] && git clone https://github.com/nemo256/fetchy
-[[ ! -d ani-cli ]] && git clone https://github.com/pystardust/ani-cli
-[[ ! -d tty-clock ]] && git clone https://github.com/xorg62/tty-clock
-[[ ! -d grabc ]] && git clone https://github.com/muquit/grabc
-[[ ! -d tremc ]] && git clone https://github.com/tremc/tremc
-cd tily && sudo make clean install
-cd ../st && sudo make clean install
-cd ../dmenu && sudo make clean install
-cd ../slock && sudo make clean install
-cd ../slstatus && sudo make clean install
-cd ../fetchy && sudo make clean install
-cd ../ani-cli && sudo chmod +x ani-cli && sudo cp -fvr ani-cli /usr/local/bin/ani-cli
-cd ../tty-clock && make && sudo make install
-cd ../grabc && make && sudo make install
-cd ../tremc && sudo make install
-yarn global add @aweary/alder
-yarn global add weather-cli
+logo "Cloning Documents..."
+[[ ! -d Documents ]] && git clone https://github.com/nemo256/Documents 1> /dev/null
+logo "Cloning Pictures..."
+[[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures 1> /dev/null
+logo "Cloning Music..."
+[[ ! -d Music ]] && git clone https://github.com/nemo256/Music 1> /dev/null
+logo "Cloning Templates..."
+[[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates 1> /dev/null
+logo "Creating .build folder..."
+[[ ! -d .build ]] && mkdir .build 1> /dev/null
+cd .build 1> /dev/null
+logo "Cloning tily (Custom dwm fork)..."
+[[ ! -d tily ]] && git clone https://github.com/nemo256/tily 1> /dev/null
+logo "Cloning st..."
+[[ ! -d st ]] && git clone https://github.com/nemo256/st 1> /dev/null
+logo "Cloning dmenu..."
+[[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu 1> /dev/null
+logo "Cloning slock..."
+[[ ! -d slock ]] && git clone https://github.com/nemo256/slock 1> /dev/null
+logo "Cloning slstatus..."
+[[ ! -d slstatus ]] && git clone https://github.com/nemo256/slstatus 1> /dev/null
+logo "Cloning fetchy..."
+[[ ! -d fetchy ]] && git clone https://github.com/nemo256/fetchy 1> /dev/null
+logo "Cloning ani-cli..."
+[[ ! -d ani-cli ]] && git clone https://github.com/pystardust/ani-cli 1> /dev/null
+logo "Cloning tty-clock..."
+[[ ! -d tty-clock ]] && git clone https://github.com/xorg62/tty-clock 1> /dev/null
+logo "Cloning grabc..."
+[[ ! -d grabc ]] && git clone https://github.com/muquit/grabc 1> /dev/null
+logo "Cloning tremc..."
+[[ ! -d tremc ]] && git clone https://github.com/tremc/tremc 1> /dev/null
+logo "Installing tily..."
+cd tily && sudo make clean install 1> /dev/null
+logo "Installing st..."
+cd ../st && sudo make clean install 1> /dev/null
+logo "Installing dmenu..."
+cd ../dmenu && sudo make clean install 1> /dev/null
+logo "Installing slock..."
+cd ../slock && sudo make clean install 1> /dev/null
+logo "Installing slstatus..."
+cd ../slstatus && sudo make clean install 1> /dev/null
+logo "Installing fetchy..."
+cd ../fetchy && sudo make clean install 1> /dev/null
+logo "Installing ani-cli..."
+cd ../ani-cli && sudo chmod +x ani-cli && sudo cp -fvr ani-cli /usr/local/bin/ani-cli 1> /dev/null
+logo "Installing tty-clock..."
+cd ../tty-clock && make && sudo make install 1> /dev/null
+logo "Installing grabc..."
+cd ../grabc && make && sudo make install 1> /dev/null
+logo "Installing tremc..."
+cd ../tremc && sudo make install 1> /dev/null
+logo "Installing alder..."
+yarn global add @aweary/alder 1> /dev/null
+logo "Installing weather-cli..."
+yarn global add weather-cli 1> /dev/null
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                 Restoring Home Directory
-------------------------------------------------------------------------------------------
-"
-cd ${HOME} && mkdir Videos Work
+logo "Restoring home directory..."
+cd ${HOME} && mkdir Videos Work 1> /dev/null
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                Stowing Configuration Files
-------------------------------------------------------------------------------------------
-"
+logo "Stowing configuration files..."
 rm -fvr ${HOME}/.bash*
 rm -fvr ${HOME}/.gitconfig
 rm -fvr ${HOME}/.config/*
