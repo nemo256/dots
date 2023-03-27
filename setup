@@ -148,33 +148,33 @@ logo "Restoring home directory..."
 cd ${HOME} && mkdir Videos Work 1> /dev/null
 
 logo "Stowing configuration files..."
-rm -fvr ${HOME}/.bash*
-rm -fvr ${HOME}/.gitconfig
-rm -fvr ${HOME}/.config/*
+rm -fvr ${HOME}/.bash* 1> /dev/null
+rm -fvr ${HOME}/.gitconfig 1> /dev/null
+rm -fvr ${HOME}/.config/* 1> /dev/null
 
-cd ${HOME}/dots
+cd ${HOME}/dots 1> /dev/null
 
-stow abook
-stow bin
-stow bash
-stow dunst
-stow git
-stow gtk-2.0
-stow gtk-3.0
-stow htop
-stow mpv
-stow ncmpcpp
-stow newsboat
-stow nvim
-stow picom
-stow ranger
-stow sxiv
-stow transmission-daemon
-stow tremc
-stow xinit
-stow zathura
+stow abook 1> /dev/null
+stow bin 1> /dev/null
+stow bash 1> /dev/null
+stow dunst 1> /dev/null
+stow git 1> /dev/null
+stow gtk-2.0 1> /dev/null
+stow gtk-3.0 1> /dev/null
+stow htop 1> /dev/null
+stow mpv 1> /dev/null
+stow ncmpcpp 1> /dev/null
+stow newsboat 1> /dev/null
+stow nvim 1> /dev/null
+stow picom 1> /dev/null
+stow ranger 1> /dev/null
+stow sxiv 1> /dev/null
+stow transmission-daemon 1> /dev/null
+stow tremc 1> /dev/null
+stow xinit 1> /dev/null
+stow zathura 1> /dev/null
 
-chmod -R 755 ${HOME}/bin
+chmod -R 755 ${HOME}/bin 1> /dev/null
 
 echo -ne "
 ------------------------------------------------------------------------------------------
