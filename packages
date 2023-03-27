@@ -90,6 +90,16 @@ zip
 zsh
 
 #######################
+#        Xorg         #
+#######################
+xorg-server
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xrdb
+xorg-xset
+
+#######################
 #       Drivers       #
 #######################
 # broadcom-wl-dkms
