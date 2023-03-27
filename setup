@@ -176,33 +176,18 @@ stow zathura 1> /dev/null
 
 chmod -R 755 ${HOME}/bin 1> /dev/null
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                   Vimy Configuration
-------------------------------------------------------------------------------------------
-"
+logo "Vimy configuration..."
 git clone https://github.com/nemo256/vimy \
-  ${HOME}/.config/nvim
+  ${HOME}/.config/nvim 1> /dev/null
 git clone --depth 1 https://github.com/wbthomason/packer.nvim \
-  ${HOME}/.local/share/nvim/site/pack/packer/start/packer.nvim
-nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+  ${HOME}/.local/share/nvim/site/pack/packer/start/packer.nvim 1> /dev/null
+nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync' 1> /dev/null
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                   Ranger Configuration
-------------------------------------------------------------------------------------------
-"
+logo "Ranger Configuration..."
 git clone https://github.com/alexanderjeurissen/ranger_devicons \
-  ${HOME}/.config/ranger/plugins/ranger_devicons
-cd ${HOME}/.config/ranger/plugins/ranger_devicons/
-python -m devicons
-cd ${HOME}
+  ${HOME}/.config/ranger/plugins/ranger_devicons 1> /dev/null
+cd ${HOME}/.config/ranger/plugins/ranger_devicons/ 1> /dev/null
+python -m devicons 1> /dev/null
+cd ${HOME} 1> /dev/null
 
-echo -ne "
-------------------------------------------------------------------------------------------
-                                       Dots setup
-------------------------------------------------------------------------------------------
-                                  Done - Please Reboot
-
-"
-
+logo "Done - Please reboot!"
