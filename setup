@@ -52,13 +52,13 @@ sudo sed -i 's/^GRUB_TIMEOUT=5/GRUB_TIMEOUT=0/' /etc/default/grub 1> /dev/null
 sudo sed -i 's/^#GRUB_DISABLE_SUBMENU=y/GRUB_DISABLE_SUBMENU=y/' /etc/default/grub 1> /dev/null
 sudo grub-mkconfig -o /boot/grub/grub.cfg 1> /dev/null
 
-while read line
+while read package
 do
-  if [[ $line == "" ]] || [[ $line == \#* ]]; then
+  if [[ $package == "" ]] || [[ $package == \#* ]]; then
     continue
   fi
-  logo "Installing: $line..."
-  echo $line
+  logo "Installing: $package..."
+  echo $package
   # sudo pacman -Sy --noconfirm --needed "$line"
 done < packages
 
