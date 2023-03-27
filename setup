@@ -58,10 +58,7 @@ do
     continue
   fi
   logo "Installing: $package..."
-  sudo pacman -Sy --noconfirm --needed "$package" 1> /dev/null
-  if [ $? -ne 0 ]; then
-    sleep 5
-  fi
+  sudo pacman -Sy --noconfirm --needed "$package" 2>/dev/null || sleep 5
 done < packages
 
 logo "Switch shell to '${SHELL}'..."
