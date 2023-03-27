@@ -38,7 +38,7 @@ function logo() {
     tput sgr0
 }
 
-logo "Press any key to continue..."
+logo "Press any key to continue... (Don't forget to edit env vars)"
 read
 
 if [[ ! -f "packages" ]]; then
