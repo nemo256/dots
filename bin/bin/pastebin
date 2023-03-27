@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# ############################################## #
+#          Pastebin using termbin.com            #
+# ############################################## #
+
+# get all the passed arguments
+input=$@
+
+# if no input is passed, initialize the input to no input given.
+[[ -z $input ]] && input="no input."
+
+# generate a pastebin link
+cat $input | nc termbin.com 9999
