@@ -59,6 +59,9 @@ do
   fi
   logo "Installing: $package..."
   sudo pacman -Sy --noconfirm --needed "$package" 1> /dev/null
+  if [ $? -ne 0 ]; then
+    sleep 5
+  fi
 done < packages
 
 logo "Switch shell to '${SHELL}'..."
@@ -89,36 +92,36 @@ sudo fc-cache -fv 1> /dev/null
 cd ${HOME} 1> /dev/null
 
 logo "Cloning Documents..."
-[[ ! -d Documents ]] && git clone https://github.com/nemo256/Documents 1> /dev/null
+[[ ! -d Documents ]] && git clone https://github.com/nemo256/Documents
 logo "Cloning Pictures..."
-[[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures 1> /dev/null
+[[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures
 logo "Cloning Music..."
-[[ ! -d Music ]] && git clone https://github.com/nemo256/Music 1> /dev/null
+[[ ! -d Music ]] && git clone https://github.com/nemo256/Music
 logo "Cloning Templates..."
-[[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates 1> /dev/null
+[[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates
 logo "Creating .build folder..."
 [[ ! -d .build ]] && mkdir .build 1> /dev/null
 cd .build 1> /dev/null
 logo "Cloning tily (Custom dwm fork)..."
-[[ ! -d tily ]] && git clone https://github.com/nemo256/tily 1> /dev/null
+[[ ! -d tily ]] && git clone https://github.com/nemo256/tily
 logo "Cloning st..."
-[[ ! -d st ]] && git clone https://github.com/nemo256/st 1> /dev/null
+[[ ! -d st ]] && git clone https://github.com/nemo256/st
 logo "Cloning dmenu..."
-[[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu 1> /dev/null
+[[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu
 logo "Cloning slock..."
-[[ ! -d slock ]] && git clone https://github.com/nemo256/slock 1> /dev/null
+[[ ! -d slock ]] && git clone https://github.com/nemo256/slock
 logo "Cloning slstatus..."
-[[ ! -d slstatus ]] && git clone https://github.com/nemo256/slstatus 1> /dev/null
+[[ ! -d slstatus ]] && git clone https://github.com/nemo256/slstatus
 logo "Cloning fetchy..."
-[[ ! -d fetchy ]] && git clone https://github.com/nemo256/fetchy 1> /dev/null
+[[ ! -d fetchy ]] && git clone https://github.com/nemo256/fetchy
 logo "Cloning ani-cli..."
-[[ ! -d ani-cli ]] && git clone https://github.com/pystardust/ani-cli 1> /dev/null
+[[ ! -d ani-cli ]] && git clone https://github.com/pystardust/ani-cli
 logo "Cloning tty-clock..."
-[[ ! -d tty-clock ]] && git clone https://github.com/xorg62/tty-clock 1> /dev/null
+[[ ! -d tty-clock ]] && git clone https://github.com/xorg62/tty-clock
 logo "Cloning grabc..."
-[[ ! -d grabc ]] && git clone https://github.com/muquit/grabc 1> /dev/null
+[[ ! -d grabc ]] && git clone https://github.com/muquit/grabc
 logo "Cloning tremc..."
-[[ ! -d tremc ]] && git clone https://github.com/tremc/tremc 1> /dev/null
+[[ ! -d tremc ]] && git clone https://github.com/tremc/tremc
 logo "Installing tily..."
 cd tily && sudo make clean install 1> /dev/null
 logo "Installing st..."
@@ -190,4 +193,4 @@ cd ${HOME}/.config/ranger/plugins/ranger_devicons/ 1> /dev/null
 python -m devicons 1> /dev/null
 cd ${HOME} 1> /dev/null
 
-logo "Done - Please reboot!"
+logo "Done - Script finished installing and configuring n3m0's dots!"
