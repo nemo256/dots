@@ -11,7 +11,7 @@ function logo() {
     local text=$1
 
     local blue=$(tput setaf 4; tput bold)
-    local indigo=$(tput setaf 55; tput bold)
+    local indigo=$(tput setaf 5; tput bold)
     local text_color=$(tput bold)
 
     local screen_width=$(tput cols)
