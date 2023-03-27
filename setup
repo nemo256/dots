@@ -6,14 +6,39 @@ SHELL=/bin/bash
 # Github token (optional)
 TOKEN=
 
-clear
-echo -ne "
-------------------------------------------------------------------------------------------
-                                       Dots setup
-------------------------------------------------------------------------------------------
+# Cool logo message
+function logo() {
+    local text=$1
 
-                               Press any key to continue...
+    local blue=$(tput setaf 4; tput bold)
+    local indigo=$(tput setaf 55; tput bold)
+    local text_color=$(tput bold)
+
+    local screen_width=$(tput cols)
+    local logo="
+███    ██ ██████  ███    ███  ██████      ██████   ██████  ████████ ███████ 
+████   ██      ██ ████  ████ ██  ████     ██   ██ ██    ██    ██    ██      
+██ ██  ██  █████  ██ ████ ██ ██ ██ ██     ██   ██ ██    ██    ██    ███████ 
+██  ██ ██      ██ ██  ██  ██ ████  ██     ██   ██ ██    ██    ██         ██ 
+██   ████ ██████  ██      ██  ██████      ██████   ██████     ██    ███████ 
 "
+    local logo_width=$(echo "$logo" | awk '{ if (length > max) max = length } END { print max }')
+
+    clear
+
+    IFS=$'\n'
+    printf "\n"
+    for line in $logo
+    do
+        printf "%*s%s\n" $((($screen_width - ${#line} - 1) / 2)) "" "$indigo$line"
+    done
+
+    printf "\n%*s%s%s%*s\n\n" $((($screen_width - ${#text} - 1) / 2)) "" "$blue" "$text" $((($screen_width + ${#text} + ${#text} - $logo_width) / 2)) ""
+
+    tput sgr0
+}
+
+logo "Press any key to continue..."
 read
 
 echo -ne "
