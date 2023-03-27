@@ -59,7 +59,7 @@ do
   fi
   logo "Installing: $package..."
   echo $package
-  sudo pacman -Sy --noconfirm --needed "$package"
+  sudo pacman -Sy --noconfirm --needed "$package" 1> /dev/null
 done < packages
 
 logo "Switch shell to '${SHELL}'..."
