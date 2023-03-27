@@ -59,7 +59,7 @@ alias mrc='nvim ~/.mutt/muttrc'
 
 # Package manager
 alias ins='pacman -S --noconfirm --needed'
-alias rem='pacman -Rdd --noconfirm'
+alias rem='pacman -Rs --noconfirm'
 alias arem='pacman -Sc --noconfirm'
 alias upd='pacman -Syu'
 alias show='pacman -Ss'

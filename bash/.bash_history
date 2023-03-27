@@ -10547,6 +10547,8 @@ nvim 2-postinstall.sh
 q
 #1646494731
 nmcli d wifi
+#1646494826
+wifi 'DJAWEB_E9426' password '63D7C23646F74'
 #1646501397
 ls
 #1646501410
@@ -12603,6 +12605,8 @@ cd
 find -name '*prefs.js'
 #1646603889
 lswifi
+#1646603930
+wifi 'DJAWEB_E9426' password '63D7C23646F74'
 #1646604202
 gh auth login
 #1646604219
@@ -15030,6 +15034,8 @@ su -l nobody
 useradd nemo -G wheel -s bash
 #1646997407
 useradd nemo -G wheel -s /bin/bash
+#1646997414
+passwd nemo
 #1646997422
 su nemo
 #1646997495
@@ -83443,3 +83449,857 @@ ins k
 clear
 #1679746972
 q
+#1679746989
+cdw
+#1679746991
+cd archy/
+#1679746992
+ls
+#1679746993
+r
+#1679751351
+new dots
+#1679751355
+r
+#1679751398
+new dots
+#1679751672
+cd dots
+#1679751673
+gst
+#1679751677
+gca updated README.md
+#1679751764
+ls
+#1679751767
+chmod +x setup
+#1679751768
+ls
+#1679751834
+clear
+#1679751836
+ls
+#1679751867
+r
+#1679751869
+clear
+#1679751869
+ls
+#1679752586
+gst
+#1679752588
+gst -u
+#1679752599
+gca added postinstal setup script
+#1679752897
+gst
+#1679752902
+gca added github configuration
+#1679753019
+gca added github restoration
+#1679753040
+gca added dwm, st, dmenu...
+#1679753142
+..
+#1679753144
+cd voidy/
+#1679753144
+gst
+#1679753149
+gd
+#1679753154
+gca
+#1679753157
+..
+#1679753158
+cd dots
+#1679753198
+gst
+#1679753199
+gca 
+#1679753312
+gca restore home directory
+#1679753338
+gca remove default configuration files...
+#1679753403
+gca stow configuration files
+#1679753434
+gca make bin/* executable
+#1679753475
+gca added vimy configuration
+#1679753492
+gca added ranger configuration
+#1679753570
+gst
+#1679753571
+gd
+#1679753578
+gca added finishing touches
+#1679753773
+r
+#1679753798
+gst
+#1679753800
+gst -u
+#1679753805
+gca added archlinux packages
+#1679754101
+if [ -v NIK ]; echo 'yes' else; echo 'no'; fi
+#1679754103
+if [ -v NIK ]; echo 'yes' else; echo 'no'; fi;
+#1679754112
+if [ -v NIK ]; echo 'yes' else echo 'no'; fi;
+#1679754117
+if [ -v NIK ]; echo 'yes'\ else echo 'no'; fi;
+#1679754121
+if [ -v NIK ]; echo 'yes'\ else echo 'no' fi;
+#1679754139
+if [ -v NIK ]; echo 'yes'; else echo 'no'; fi
+#1679754142
+if [ -v NIK ]; echo 'yes'; else; echo 'no'; fi
+#1679754153
+if [ -v NIK ]; echo 'yes'; else
+#1679754166
+if [ -v NIK ]; echo 'yes'; else;
+#1679754169
+if [ -v NIK ]; echo 'yes' else; echo 'no'; fi
+#1679754212
+if [ -v NIK ]; echo 'yes';
+#1679754215
+if [ -v NIK ]; echo 'yes'
+#1679754219
+if [ -v NIK ] echo 'yes'
+#1679754222
+if [ -v NIK ]
+#1679754235
+if [ -v NIK ]; then echo 'yes'
+#1679754242
+if [ -v NIK ]; then; echo 'yes'
+#1679754243
+if [ -v NIK ]; then; echo 'yes';
+#1679754246
+if [ -v NIK ]; then\ echo 'yes';
+#1679754256
+if [ -v NIK ]; then echo 'yes'; fi
+#1679754267
+if [ -v NIK ]; then\ echo 'yes'; fi
+#1679754270
+if [ -v NIK ]; then; echo 'yes'; fi;
+#1679754272
+if [ -v NIK ]; then echo 'yes'; fi;
+#1679754288
+NIK=yesaa
+#1679754290
+if [ -v NIK ]; then echo 'yes'; fi;
+#1679754292
+clear
+#1679754398
+gca added env vars
+#1679754458
+r
+#1679754467
+gpg .env 
+#1679754476
+r
+#1679754704
+gst
+#1679754707
+gst -u
+#1679754709
+..
+#1679754711
+cd dots
+#1679754711
+ls
+#1679754712
+r
+#1679754882
+gst
+#1679754883
+gd
+#1679754891
+gca removed networkmanager and neofetch
+#1679754905
+gst
+#1679754906
+gst -u
+#1679754995
+r
+#1679755050
+gst
+#1679755051
+gst -u
+#1679755073
+r
+#1679755093
+gst
+#1679755096
+gst -u
+#1679755113
+r
+#1679755155
+gst -u
+#1679755190
+r
+#1679755212
+gst -u
+#1679755255
+r
+#1679755308
+gst -u
+#1679755337
+r
+#1679755379
+gst -u
+#1679755391
+r
+#1679755411
+gst
+#1679755414
+r
+#1679755631
+gst
+#1679755633
+gst -u
+#1679755775
+r
+#1679755815
+gst -u
+#1679755827
+r
+#1679755885
+gst -u
+#1679755893
+r
+#1679755916
+gst -u
+#1679756308
+gst
+#1679756309
+r
+#1679756322
+gca added all the configuration files
+#1679756375
+q
+#1679756376
+cdw
+#1679756377
+cd dots
+#1679756377
+l
+#1679756378
+ls
+#1679756413
+r
+#1679756607
+q
+#1679771411
+cdw
+#1679771413
+cd dots/
+#1679771413
+ls
+#1679771440
+mkdir archinstall
+#1679771442
+cd archinstall/
+#1679771443
+ls
+#1679771457
+nvim user_configuration.json
+#1679771546
+nvim user_disk_layout.json
+#1679771552
+r
+#1679771974
+gpg .env 
+#1679771979
+r
+#1679773162
+htop
+#1679775769
+r
+#1679775783
+cd
+#1679775818
+cd /usr/local/share/fonts/
+#1679775819
+ls
+#1679775820
+..
+#1679775828
+cd share/fonts/
+#1679775829
+ls
+#1679775881
+cd
+#1679775882
+cdd
+#1679775883
+ls
+#1679775889
+wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/FiraCode/Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
+#1679775894
+r
+#1679775907
+cd /usr/share/font
+#1679775908
+cd /usr/share/fonts/
+#1679775909
+ls
+#1679775923
+cd
+#1679775924
+cdd
+#1679775924
+ls
+#1679775925
+r
+#1679776051
+curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/DroidSansMono/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
+#1679776060
+curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
+#1679776093
+curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCodeBold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
+#1679776124
+curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf
+#1679776128
+r
+#1679776243
+cd
+#1679776243
+q
+#1679773793
+cdw
+#1679773794
+cd dots
+#1679773795
+gst
+#1679773816
+gca fixed shell name
+#1679773822
+r
+#1679773853
+gst
+#1679773866
+gca added archinstall configurations
+#1679774226
+gst
+#1679774230
+gca switched to tily
+#1679774254
+gst
+#1679774343
+gca removed unnecessary config files
+#1679775429
+gst
+#1679776248
+gca added font configuration
+#1679776481
+gst
+#1679776487
+gca fixed setup script
+#1679777086
+gst
+#1679777089
+gca fixed script
+#1679777528
+pactl info
+#1679778351
+r
+#1679778366
+gst
+#1679778368
+gca removed mpd
+#1679778371
+gs
+#1679778388
+r
+#1679778391
+mpc
+#1679778704
+gst
+#1679778706
+q
+#1679820532
+chromium --no-sandbox
+#1679820631
+color
+#1679820641
+r
+#1679820650
+cd
+#1679820651
+grabc
+#1679820964
+q
+#1679821076
+htop
+#1679819491
+cdw
+#1679819497
+clone https://github.com/merwan32/algeria-new-market
+#1679819501
+cd algeria-new-market/
+#1679819501
+ls
+#1679819509
+r
+#1679819572
+cd Pages/
+#1679819573
+ls
+#1679819581
+cd auth/
+#1679819582
+ls
+#1679819587
+firefox index.html 
+#1679819933
+..
+#1679819936
+ls
+#1679819937
+la
+#1679820007
+cd Pages/
+#1679820007
+ls
+#1679820011
+mkdir home
+#1679820013
+ls
+#1679820014
+cd home/
+#1679820017
+nvim index.html
+#1679820170
+..
+#1679820173
+v
+#1679820056
+cdw
+#1679820057
+cd algeria-new-market/
+#1679820058
+ls
+#1679820067
+r
+#1679820138
+php -S localhost:3000
+#1679828116
+r
+#1679831032
+cdw
+#1679831034
+r
+#1679831047
+git init
+#1679831051
+gaa
+#1679831063
+gc 'Initial commit...'
+#1679831081
+git remote add origin https://github.com/nemo256/new_market
+#1679831083
+gpm
+#1679831340
+php -S localhost:3000
+#1679836423
+r
+#1679836563
+[200~yarn add bootstrap@5.3.0-alpha2
+#1679836567
+yarn add bootstrap@5.3.0-alpha2
+#1679836573
+r
+#1679836625
+..
+#1679836626
+ls
+#1679836627
+clear
+#1679836627
+ls
+#1679836767
+php -S localhost:3000
+#1679836811
+r
+#1679836830
+unzip bootstrap-5.3.0-alpha2-dist.zip 
+#1679836831
+r
+#1679836897
+php -S localhost:3000
+#1679837425
+r
+#1679837431
+unzip bootstrap-5.3.0-alpha2-dist.zip 
+#1679837431
+r
+#1679837517
+php -S localhost:3000
+#1679837837
+r
+#1679837845
+nvim poppler.js
+#1679837854
+nvim jquery.js
+#1679837909
+..
+#1679837910
+php -S localhost:3000
+#1679841766
+q
+#1679841769
+r
+#1679841778
+q
+#1679822113
+cdw
+#1679822117
+clone https://github.com/ahmedsaniadamu/alibaba-clone
+#1679822122
+cd alibaba-clone/
+#1679822123
+r
+#1679822279
+nvim index.html 
+#1679822329
+r
+#1679836590
+nvim index.html
+#1679852747
+r
+#1679858192
+q
+#1679858201
+clear
+#1679858204
+ls
+#1679858204
+clea
+#1679858206
+clear
+#1679858206
+r
+#1679858382
+q
+#1679944285
+cdw
+#1679944313
+cd dots
+#1679944313
+ls
+#1679944839
+cd
+#1679944844
+nvim test
+#1679944877
+chmod +x te
+#1679944879
+chmod +x test 
+#1679944882
+./test 
+#1679944892
+v test 
+#1679944908
+./test 
+#1679944985
+v test 
+#1679944994
+./test 
+#1679945001
+v test 
+#1679945024
+./test 
+#1679945569
+r
+#1679945774
+..
+#1679945775
+ls
+#1679945791
+./test 
+#1679946440
+tput cols
+#1679946446
+q
+#1679946448
+./test 
+#1679948284
+q
+#1679956029
+ins unclutter
+#1679956037
+q
+#1679957084
+paste
+#1679957088
+q
+#1679957092
+pastebin
+#1679957093
+q
+#1679948286
+./test 
+#1679948992
+clear
+#1679948992
+ls
+#1679948993
+clear
+#1679948995
+./test 
+#1679949916
+ls
+#1679949917
+./test 
+#1679950058
+clear
+#1679950059
+./test 
+#1679950178
+cdw
+#1679950180
+cd dots
+#1679950180
+gst
+#1679950185
+gca added logo function
+#1679950359
+r
+#1679950365
+./test 
+#1679950503
+ins neovim 1> /dev/null
+#1679950513
+ins alacritty 1> /dev/null
+#1679950532
+pacman -S alacritty
+#1679950539
+pacman -S --noconfirm alacritty
+#1679950546
+pacman -S --noconfirm alacritty 1> /dev/null
+#1679950576
+pacman -S alacritty
+#1679950583
+pacman -S --noconfirm alacritty
+#1679950666
+gst
+#1679950669
+cdw
+#1679950670
+cd dots
+#1679950671
+gst
+#1679950687
+gca changed behaviour of each command to output only if there is an error
+#1679950787
+sudo echo -ne 'KEYMAP="us"
+FONT="ter-132b"
+' > /etc/vconsole.conf 1> /dev/null
+#1679950794
+cat /etc/vconsole.conf 
+#1679950802
+sudo cat /etc/vconsole.conf 
+#1679950807
+sudo echo -ne 'KEYMAP="us"
+FONT="ter-132b"
+' > /etc/vconsole.conf
+#1679950809
+sudo cat /etc/vconsole.conf 
+#1679951304
+gst
+#1679951313
+gca updated log messages 
+#1679951354
+gst
+#1679951365
+gca added error message check to gnu stow section
+#1679951458
+gst
+#1679951471
+gca added error checks for each command
+#1679951495
+gst
+#1679951550
+r
+#1679951556
+gst
+#1679951561
+r
+#1679951568
+gst
+#1679951580
+gca updated archlinux instal configuration
+#1679951783
+gst
+#1679951784
+cd
+#1679951786
+./test 
+#1679951788
+ls
+#1679951789
+r
+#1679951808
+./test 
+#1679951815
+clear
+#1679951815
+ls
+#1679951817
+./test 
+#1679951839
+cdw
+#1679951840
+cd dots
+#1679951841
+ls
+#1679952698
+gst
+#1679952709
+gca added dont forget message
+#1679952738
+r
+#1679952761
+..
+#1679952761
+gst
+#1679952772
+gca added neovim to archinstall configuration
+#1679953009
+gst
+#1679953015
+gca updated pacman installation command
+#1679953192
+gca testing
+#1679953232
+cd
+#1679953235
+v test 
+#1679953246
+./test 
+#1679953325
+v test 
+#1679953331
+./e
+#1679953333
+./test 
+#1679953339
+cdw
+#1679953340
+cd dots
+#1679953342
+gst
+#1679953351
+gca fixed package installation section
+#1679953439
+..
+#1679953441
+v test 
+#1679953446
+clea
+#1679953449
+./test 
+#1679953461
+cdw
+#1679953462
+cd dots/
+#1679953463
+gst
+#1679953527
+gca changed indigo color
+#1679953564
+gca updated package installation section
+#1679953631
+gca fixed package installation using pacman
+#1679953659
+gca log errors to /dev/null
+#1679953740
+man grub-mkconfig
+#1679953777
+gca removed log message
+#1679953832
+gst
+#1679954732
+gca updated, refactored error suppression and removed /dev/null from clone commands
+#1679954942
+gst
+#1679954947
+gca updated pacman -S command
+#1679955203
+r
+#1679955240
+gst
+#1679955241
+r
+#1679955265
+gst
+#1679955270
+gca added mpd configuration
+#1679955273
+r
+#1679955422
+gst
+#1679955426
+gca updated mpd config
+#1679955484
+r
+#1679955496
+gst
+#1679955498
+gca updated mpd config
+#1679955793
+r
+#1679955847
+gst
+#1679955854
+gca testing pulse instead of pipewire
+#1679955933
+r
+#1679955943
+gst
+#1679955951
+gca switched back to pipewire
+#1679955990
+r
+#1679956088
+gst
+#1679956099
+gca updated xinitrc and bash profile 
+#1679956216
+cd
+#1679956217
+cdm
+#1679956217
+ls
+#1679956218
+gst
+#1679956220
+gst -u
+#1679956229
+gca added newest songs
+#1679956994
+r
+#1679957002
+cat packages | nc termbin.com 9999
+#1679957053
+cdb
+#1679957053
+ls
+#1679957061
+r
+#1679957257
+chmod +x pastebin
+#1679957258
+cd
+#1679957260
+ls
+#1679957265
+pastebin test
+#1679957291
+q
+#1679958640
+man pacman
