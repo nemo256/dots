@@ -4,13 +4,10 @@
 #
 # global xinitrc file, used by all X sessions started by xinit (startx)
 
-pulseaudio -D
 # Settings macbook keyboard layout
 setxkbmap us mac &
 # Unclutter to enable autohiding for pointer
 unclutter &
-# Starting up the music player daemon
-mpd &
 # Starting up transmission-daemon for torrent downloading
 transmission-daemon &
 # Setting up screen resolution for my display
