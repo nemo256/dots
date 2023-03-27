@@ -183,7 +183,8 @@
     "offline": false,
     "packages": [
         "broadcom-wl-dkms",
-        "git"
+        "git",
+        "neovim"
     ],
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
