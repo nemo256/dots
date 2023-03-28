@@ -75,6 +75,12 @@ sudo sed -ni "/^root/{a\
   ${USERNAME} ALL=(ALL:ALL) NOPASSWD: ALL
 p}" /etc/sudoers
 
+logo "Adding yamete kudasai sound on usb mount / unmount..."
+sudo echo -ne 'KERNEL=="sd*", SUBSYSTEM=="block", ENV{DEVTYPE}=="partition", ACTION=="add", ENV{ID_FS_TYPE}!="vfat", ENV{ID_FS_USAGE}=="filesystem", RUN+="/bin/aplay /home/n3m0/bin/sound/yamete.wav"
+KERNEL=="sd*", SUBSYSTEM=="block", ENV{DEVTYPE}=="partition", ACTION=="remove", ENV{ID_FS_TYPE}!="vfat", ENV{ID_FS_USAGE}=="filesystem", RUN+="/bin/aplay /home/n3m0/bin/sound/ahh.wav"
+' > /etc/udev/rules.d/99-usb-sound.rules
+sudo udevadm control --reload-rules
+
 logo "Github configuration..."
 if [ -v TOKEN ]; then
   cd ${HOME} 1> /dev/null
