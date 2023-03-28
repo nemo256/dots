@@ -88,14 +88,17 @@ sudo curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoa
 sudo fc-cache -fv 1> /dev/null
 cd ${HOME} 1> /dev/null
 
-logo "Cloning Documents..."
-[[ ! -d Documents ]] && git clone https://github.com/nemo256/Documents
-logo "Cloning Pictures..."
-[[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures
-logo "Cloning Music..."
-[[ ! -d Music ]] && git clone https://github.com/nemo256/Music
-logo "Cloning Templates..."
-[[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates
+if [ -v TOKEN ]; then
+  logo "Cloning Documents..."
+  [[ ! -d Documents ]] && git clone https://github.com/nemo256/Documents
+  logo "Cloning Pictures..."
+  [[ ! -d Pictures ]] && git clone https://github.com/nemo256/Pictures
+  logo "Cloning Music..."
+  [[ ! -d Music ]] && git clone https://github.com/nemo256/Music
+  logo "Cloning Templates..."
+  [[ ! -d Templates ]] && git clone https://github.com/nemo256/Templates
+fi
+
 logo "Creating .build folder..."
 [[ ! -d .build ]] && mkdir .build 1> /dev/null
 cd .build 1> /dev/null
