@@ -58,10 +58,10 @@ alias irc='nvim ~/.irssi/config'
 alias mrc='nvim ~/.mutt/muttrc'
 
 # Package manager
-alias ins='pacman -S --noconfirm --needed'
-alias rem='pacman -Rs --noconfirm'
-alias arem='pacman -Sc --noconfirm'
-alias upd='pacman -Syu'
+alias ins='sudo pacman -S --noconfirm --needed'
+alias rem='sudo pacman -Rs --noconfirm'
+alias arem='sudo pacman -Sc --noconfirm'
+alias upd='sudo pacman -Syu'
 alias show='pacman -Ss'
 
 # File / Folder operations
@@ -82,7 +82,6 @@ alias cpm='cp * ~/Music'
 alias cpp='cp * ~/Pictures'
 alias cpv='cp * ~/Videos'
 alias cpf='cp * /mnt'
-# alias cda='cd /run/user/1000/gvfs; cd `ls`' # ``| sed "1 s/\s/\\\ /g; 1 s/$/\//"
 alias cdi='cd /media/iPhone'
 alias cdf='cd /mnt'
 alias cdb='cd ~/bin'
