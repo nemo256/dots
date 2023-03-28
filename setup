@@ -165,6 +165,7 @@ stow git 1> /dev/null
 stow gtk-2.0 1> /dev/null
 stow gtk-3.0 1> /dev/null
 stow htop 1> /dev/null
+stow mpd 1> /dev/null
 stow mpv 1> /dev/null
 stow ncmpcpp 1> /dev/null
 stow newsboat 1> /dev/null
