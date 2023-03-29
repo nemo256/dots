@@ -1,0 +1,3 @@
+#!/bin/bash
+
+aplay ~/bin/sound/ahh.wav &> /dev/null
