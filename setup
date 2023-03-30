@@ -161,33 +161,20 @@ yarn global add weather-cli 1> /dev/null
 logo "Restoring home directory..."
 cd ${HOME} && mkdir Videos Work 1> /dev/null
 
-logo "Stowing configuration files..."
+logo "Removing default configuration files..."
 rm -fvr ${HOME}/.bash* 1> /dev/null
 rm -fvr ${HOME}/.gitconfig 1> /dev/null
 rm -fvr ${HOME}/.config/* 1> /dev/null
 
-cd ${HOME}/dots 1> /dev/null
+mv -fvr ${HOME}/dots ${HOME}/Work 1> /dev/null
 
-stow abook 1> /dev/null
-stow bin 1> /dev/null
-stow bash 1> /dev/null
-stow dunst 1> /dev/null
-stow git 1> /dev/null
-stow gtk-2.0 1> /dev/null
-stow gtk-3.0 1> /dev/null
-stow htop 1> /dev/null
-stow mpd 1> /dev/null
-stow mpv 1> /dev/null
-stow ncmpcpp 1> /dev/null
-stow newsboat 1> /dev/null
-stow nvim 1> /dev/null
-stow picom 1> /dev/null
-stow ranger 1> /dev/null
-stow sxiv 1> /dev/null
-stow transmission-daemon 1> /dev/null
-stow tremc 1> /dev/null
-stow xinit 1> /dev/null
-stow zathura 1> /dev/null
+# Get list of programs
+programs=$(find "${HOME}/Work/dots/config" -maxdepth 1 -mindepth 1 -type d -printf "%f\n")
+
+logo "Stowing configuration files..."
+for program in ${programs}; do
+  stow -vd "${HOME}/Work/dots/config/" -t "${HOME}" "${program}" 1> /dev/null
+done
 
 chmod -R 755 ${HOME}/bin 1> /dev/null
 
