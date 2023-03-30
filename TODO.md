@@ -1,3 +1,4 @@
+- [ ] add questions in the beginning to gather information for the setup script.
 - [ ] add irssi configuration.
 - [ ] add an AUR helper (paru, yay, pamac...).
 - [ ] add firefox steps to get the configuration restored.
