@@ -173,7 +173,7 @@ programs=$(find "${HOME}/Work/dots/config" -maxdepth 1 -mindepth 1 -type d -prin
 
 logo "Stowing configuration files..."
 for program in ${programs}; do
-  stow -vd "${HOME}/Work/dots/config/" -t "${HOME}" "${program}" 1> /dev/null
+  stow -vd ${HOME}/Work/dots/config/ -t ${HOME} ${program} 1> /dev/null
 done
 
 chmod -R 755 ${HOME}/bin 1> /dev/null
