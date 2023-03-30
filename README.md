@@ -19,9 +19,27 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
+* [Project Structure 📁](#project-structure)
 * [Usage 🚀](#usage)
 * [Develop ⚙️](#develop)
 * [License 📑](#license)
+
+## Project Structure 📁
+```
+dots/
+├── config/*   (configuration files)
+│   ├── bash
+│   ├── mpv
+│   ├── nvim
+│   └── ...
+├── AUTHORS
+├── LICENSE
+├── README.md
+├── TODO.md
+├── demo.gif
+├── packages
+└── setup
+```
 
 ## Usage 🚀
 > This is used on a fresh arch linux install!
