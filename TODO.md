@@ -3,5 +3,5 @@
 - [ ] add an AUR helper (paru, yay, pamac...).
 - [ ] add firefox steps to get the configuration restored.
 - [ ] use an interactive way to gather data for the setup script (username, shell, github token...).
-- [ ] re-organize folders.
+- [x] re-organize folders.
 - [ ] add project structure section on the readme (re-organize folders first).
