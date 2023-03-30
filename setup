@@ -168,7 +168,7 @@ rm -fvr ${HOME}/.bash* 1> /dev/null
 rm -fvr ${HOME}/.gitconfig 1> /dev/null
 rm -fvr ${HOME}/.config/* 1> /dev/null
 
-mv -fvr ${HOME}/dots ${HOME}/Work 1> /dev/null
+mv -fv ${HOME}/dots ${HOME}/Work 1> /dev/null
 
 # Get list of programs
 programs=$(find "${HOME}/Work/dots/config" -maxdepth 1 -mindepth 1 -type d -printf "%f\n")
