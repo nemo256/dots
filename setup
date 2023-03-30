@@ -70,9 +70,9 @@ sudo chsh -s ${SHELL} root 1> /dev/null
 sudo chsh -s ${SHELL} ${USERNAME} 1> /dev/null
 
 logo "Changing default console font..."
-sudo echo -ne 'KEYMAP="us"
+echo -ne 'KEYMAP="us"
 FONT="ter-132b"
-' > /etc/vconsole.conf
+' | sudo tee /etc/vconsole.conf 1> /dev/null
 
 logo "Adding no password sudo rights..."
 sudo sed -ni "/^root/{a\
