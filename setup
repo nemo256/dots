@@ -80,14 +80,13 @@ sudo sed -ni "/^root/{a\
 p}" /etc/sudoers
 
 logo "Adding yamete kudasai sound on usb mount / unmount..."
-sudo echo -ne 'KERNEL=="sd*", SUBSYSTEM=="block", ENV{DEVTYPE}=="partition", ACTION=="add", ENV{ID_FS_TYPE}!="vfat", ENV{ID_FS_USAGE}=="filesystem", RUN+="/bin/aplay /home/n3m0/bin/sound/yamete.wav"
+echo -ne 'KERNEL=="sd*", SUBSYSTEM=="block", ENV{DEVTYPE}=="partition", ACTION=="add", ENV{ID_FS_TYPE}!="vfat", ENV{ID_FS_USAGE}=="filesystem", RUN+="/bin/aplay /home/n3m0/bin/sound/yamete.wav"
 KERNEL=="sd*", SUBSYSTEM=="block", ENV{DEVTYPE}=="partition", ACTION=="remove", ENV{ID_FS_TYPE}!="vfat", ENV{ID_FS_USAGE}=="filesystem", RUN+="/bin/aplay /home/n3m0/bin/sound/ahh.wav"
-' > /etc/udev/rules.d/99-usb-sound.rules
+' | sudo tee /etc/udev/rules.d/99-usb-sound.rules 1> /dev/null
 sudo udevadm control --reload-rules
 
 logo "Automount my usb drive..."
-echo "UUID=CA18-653E /mnt vfat noauto,nofail,x-systemd.automount,x-systemd.idle-timeout=2,x-systemd.device-timeout=2" | sudo tee -a /etc/fstab
-
+sudo echo -ne "UUID=CA18-653E /mnt vfat noauto,nofail,x-systemd.automount,x-systemd.idle-timeout=2,x-systemd.device-timeout=2" | sudo tee -a /etc/fstab 1> /dev/null
 sudo systemctl daemon-reload && sudo systemctl restart local-fs.target
 
 logo "Github configuration..."
