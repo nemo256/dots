@@ -1,4 +1,4 @@
-- [ ] add an interactive way to gather data for the setup script (username, shell, github token...).
+- [x] add an interactive way to gather data for the setup script (username, shell, github token...).
 - [ ] add an AUR helper (paru, yay, pamac...).
 - [x] add irssi configuration.
 - [x] freeze irssi config.

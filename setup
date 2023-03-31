@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-# Env vars
-SHELL=/bin/bash
-KEYMAP=us
-CONSOLE_FONT=ter-132b
-IRSSI_USERNAME=
-IRSSI_PASSWORD=
-# Github token (optional)
-TOKEN=
+# Prompt to gather data
+function prompt {
+    local message=$1
+    local variable=$2
+    local default=$3
+    tput setaf 8
+    read -p "${message} (default: ${default}): " value
+    tput sgr0
+    eval $variable=${value:-$default}
+}
 
 # Cool logo message
 function logo() {
@@ -43,6 +45,23 @@ function logo() {
 
 logo "Press any key to continue... (Don't forget to edit env vars)"
 read
+
+# Information gathering
+prompt "Shell" SHELL /bin/bash
+prompt "Keymap" KEYMAP us
+prompt "Console font" CONSOLE_FONT ter-132b
+prompt "IRSSI username" IRSSI_USERNAME "None"
+prompt "IRSSI password" IRSSI_PASSWORD "None"
+prompt "Github token (optional)" TOKEN "None"
+
+# prompt for WM with default value of dwm
+select WM in "tily (dwm)" "Hyprland"; do
+    case $WM in
+        "") WM="tily"; break;;
+        "tily (dwm)") WM="tily"; break;;
+        "Hyprland") WM="Hyprland"; break;;
+    esac
+done
 
 if [[ ! -f "packages" ]]; then
   logo "Error: packages file not found!"
