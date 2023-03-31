@@ -43,7 +43,7 @@ function logo() {
     tput sgr0
 }
 
-logo "Press any key to continue... (Don't forget to edit env vars)"
+logo "Press any key to continue..."
 read
 
 # Information gathering
