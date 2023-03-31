@@ -54,14 +54,6 @@ prompt "IRSSI username" IRSSI_USERNAME "None"
 prompt "IRSSI password" IRSSI_PASSWORD "None"
 prompt "Github token (optional)" TOKEN "None"
 
-select WM in "tily (dwm)" "Hyprland"; do
-    case $WM in
-        "") WM="tily"; break;;
-        "tily (dwm)") WM="tily"; break;;
-        "Hyprland") WM="Hyprland"; break;;
-    esac
-done
-
 select AUR_HELPER in "Paru" "Yay"; do
     case $AUR_HELPER in
         "") AUR_HELPER="paru-bin"; break;;
