@@ -7,9 +7,9 @@ function prompt {
     local default=$3
     local silent=$4
     tput setaf 15
-    echo -e "\n"
     if [ "$silent" == "true" ]; then
       read -s -p "${message} (default: ${default}): " value
+      echo -e "\n"
     else
       read -p "${message} (default: ${default}): " value
     fi
