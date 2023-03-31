@@ -1,4 +1,4 @@
-- [ ] add irssi configuration.
+- [x] add irssi configuration.
 - [ ] add an AUR helper (paru, yay, pamac...).
 - [ ] add firefox steps to get the configuration restored.
 - [ ] add an interactive way to gather data for the setup script (username, shell, github token...).
