@@ -54,10 +54,10 @@ $ pacman -Sy git (or wget)
 $ git clone https://github.com/nemo256/arch
 $ cd arch
 ```
-- Using wget:
+- Using curl:
 ```shell
-$ wget https://raw.githubusercontent.com/nemo256/arch/master/n3m0_config.json
-$ wget https://raw.githubusercontent.com/nemo256/arch/master/n3m0_disk_layouts.json
+$ curl -O https://raw.githubusercontent.com/nemo256/arch/master/n3m0_config.json
+$ curl -O https://raw.githubusercontent.com/nemo256/arch/master/n3m0_disk_layouts.json
 ```
 - Launch the arch installer:
 ```shell
