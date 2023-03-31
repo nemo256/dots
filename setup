@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Env vars
-USERNAME=n3m0
 SHELL=/bin/bash
 KEYMAP=us
 CONSOLE_FONT=ter-132b
@@ -68,14 +67,14 @@ done < packages
 
 logo "Switch shell to '${SHELL}'..."
 sudo chsh -s ${SHELL} root 1> /dev/null
-sudo chsh -s ${SHELL} ${USERNAME} 1> /dev/null
+sudo chsh -s ${SHELL} ${USER} 1> /dev/null
 
 logo "Changing default console font..."
 echo -ne "KEYMAP=\"$KEYMAP\"\nFONT=\"$CONSOLE_FONT\"\n" | sudo tee /etc/vconsole.conf 1> /dev/null
 
 logo "Adding no password sudo rights..."
 sudo sed -ni "/^root/{a\
-  ${USERNAME} ALL=(ALL:ALL) NOPASSWD: ALL
+  ${USER} ALL=(ALL:ALL) NOPASSWD: ALL
 p}" /etc/sudoers
 
 logo "Adding yamete kudasai sound on usb mount / unmount..."
