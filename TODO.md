@@ -1,4 +1,4 @@
-- [ ] fix grub re-installation adding more and more of the same configuration.
+- [ ] fix grub re-installation.
 - [x] add an interactive way to gather data for the setup script (username, shell, github token...).
 - [x] add an AUR helper (paru, yay, pamac...).
 - [x] add irssi configuration.
