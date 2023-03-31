@@ -1,7 +1,7 @@
-- [x] add irssi configuration.
-- [ ] add an AUR helper (paru, yay, pamac...).
-- [x] add firefox steps to get the configuration restored.
 - [ ] add an interactive way to gather data for the setup script (username, shell, github token...).
+- [ ] add an AUR helper (paru, yay, pamac...).
+- [x] add irssi configuration.
+- [x] add firefox steps to get the configuration restored.
 - [x] re-organize folders.
 - [x] add project structure section on the readme (re-organize folders first).
 - [x] use vars inside echo -ne
