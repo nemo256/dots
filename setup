@@ -5,8 +5,13 @@ function prompt {
     local message=$1
     local variable=$2
     local default=$3
+    local silent=$4
     tput setaf 15
-    read -p "${message} (default: ${default}): " value
+    if [ "$silent" == "true" ]; then
+      read -s -p "${message} (default: ${default}): " value
+    else
+      read -p "${message} (default: ${default}): " value
+    fi
     tput sgr0
     eval $variable=${value:-$default}
 }
@@ -51,7 +56,7 @@ prompt "Shell" SHELL /bin/bash
 prompt "Keymap" KEYMAP us
 prompt "Console font" CONSOLE_FONT ter-132b
 prompt "IRSSI username" IRSSI_USERNAME "None"
-prompt "IRSSI password" IRSSI_PASSWORD "None"
+prompt "IRSSI password" IRSSI_PASSWORD "None" true
 prompt "Github token (optional)" TOKEN "None"
 
 select WM in "tily (dwm)" "Hyprland"; do
