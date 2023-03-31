@@ -8,12 +8,9 @@ config/ncmpcpp/.config/ncmpcpp/error.log
 config/newsboat/.newsboat/cache*
 config/newsboat/.newsboat/history*
 config/newsboat/.newsboat/notification
-config/pipe-viewer/.config/pipe-viewer/playlists/*.dat
-config/pipe-viewer/.config/pipe-viewer/watched.txt
 config/ranger/.config/ranger/plugins/
 config/transmission-daemon/.config/transmission-daemon/torrents/
 config/transmission-daemon/.config/transmission-daemon/resume/
 config/transmission-daemon/.config/transmission-daemon/dht.dat
 config/transmission-daemon/.config/transmission-daemon/stats.json
 config/tremc/.config/tremc/history.json
-config/whitelist/.whitelist
