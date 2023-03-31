@@ -3,6 +3,8 @@
 # Env vars
 USERNAME=n3m0
 SHELL=/bin/bash
+KEYMAP=us
+CONSOLE_FONT=ter-132b
 # Github token (optional)
 TOKEN=
 
@@ -69,9 +71,7 @@ sudo chsh -s ${SHELL} root 1> /dev/null
 sudo chsh -s ${SHELL} ${USERNAME} 1> /dev/null
 
 logo "Changing default console font..."
-echo -ne 'KEYMAP="us"
-FONT="ter-132b"
-' | sudo tee /etc/vconsole.conf 1> /dev/null
+echo -ne "KEYMAP=\"$KEYMAP\"\nFONT=\"$CONSOLE_FONT\"\n" | sudo tee /etc/vconsole.conf 1> /dev/null
 
 logo "Adding no password sudo rights..."
 sudo sed -ni "/^root/{a\
@@ -79,9 +79,7 @@ sudo sed -ni "/^root/{a\
 p}" /etc/sudoers
 
 logo "Adding yamete kudasai sound on usb mount / unmount..."
-echo -ne 'KERNEL=="sd*", SUBSYSTEM=="block", ENV{DEVTYPE}=="partition", ACTION=="add", ENV{ID_FS_TYPE}!="vfat", ENV{ID_FS_USAGE}=="filesystem", RUN+="/bin/aplay /home/n3m0/bin/sound/yamete.wav"
-KERNEL=="sd*", SUBSYSTEM=="block", ENV{DEVTYPE}=="partition", ACTION=="remove", ENV{ID_FS_TYPE}!="vfat", ENV{ID_FS_USAGE}=="filesystem", RUN+="/bin/aplay /home/n3m0/bin/sound/ahh.wav"
-' | sudo tee /etc/udev/rules.d/99-usb-sound.rules 1> /dev/null
+echo -ne "KERNEL==\"sd*\", SUBSYSTEM==\"block\", ENV{DEVTYPE}==\"partition\", ACTION==\"add\", ENV{ID_FS_TYPE}!=\"vfat\", ENV{ID_FS_USAGE}==\"filesystem\", RUN+=\"/bin/aplay $HOME/bin/sound/yamete.wav\"\nKERNEL==\"sd*\", SUBSYSTEM==\"block\", ENV{DEVTYPE}==\"partition\", ACTION==\"remove\", ENV{ID_FS_TYPE}!=\"vfat\", ENV{ID_FS_USAGE}==\"filesystem\", RUN+=\"/bin/aplay $HOME/bin/sound/ahh.wav\"\n" | sudo tee /etc/udev/rules.d/99-usb-sound.rules >/dev/null
 sudo udevadm control --reload-rules
 
 logo "Automount my usb drive..."
