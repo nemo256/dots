@@ -20,6 +20,7 @@
 ## Table of Contents
 
 * [Project Structure 📁](#project-structure)
+* [Install 🔨](#install)
 * [Usage 🚀](#usage)
 * [Develop ⚙️](#develop)
 * [License 📑](#license)
@@ -39,6 +40,28 @@ dots/
 ├── demo.gif
 ├── packages
 └── setup
+```
+
+## Install 🔨
+- Follow this guide to create a bootable USB: [USB flash installation medium](https://wiki.archlinux.org/title/USB_flash_installation_medium)
+- Boot inside the arch installation.
+- Install arch using the archinstall command (you can check my install configuration at [N3m0's archinstall config](https://github.com/nemo256/arch))
+```shell
+$ pacman -Sy git (or wget)
+```
+- Download the archinstall config, Using git:
+```shell
+$ git clone https://github.com/nemo256/arch
+$ cd arch
+```
+- Using wget:
+```shell
+$ wget https://raw.githubusercontent.com/nemo256/arch/master/n3m0_config.json
+$ wget https://raw.githubusercontent.com/nemo256/arch/master/n3m0_disk_layouts.json
+```
+- Launch the arch installer:
+```shell
+$ archinstall --config n3m0_config.json --disk_layouts n3m0_disk_layouts.json
 ```
 
 ## Usage 🚀
