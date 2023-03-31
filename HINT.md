@@ -1,6 +1,12 @@
 # Irssi
 - add username and password
 
+# Chromium
+- sign in
+- install plugins:
+  * Stylus
+  * Vimium
+
 # Firefox
 - sign in
 - set network.protocol-handler.expose.magnet -> false (magnet links)
