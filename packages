@@ -48,6 +48,7 @@ git
 gnu-netcat
 gptfdisk
 gtk2
+gtk3-nocsd
 htop
 irssi
 lynx
