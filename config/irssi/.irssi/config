@@ -1,5 +1,6 @@
 servers = (
   {
+    kdasd
     address = "irc.ubuntu.com";
     chatnet = "Ubuntu";
     port = "6697";
