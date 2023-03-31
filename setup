@@ -62,7 +62,7 @@ select WM in "tily (dwm)" "Hyprland"; do
     esac
 done
 
-select AUR_HELPER in "paru-bin" "yay-bin"; do
+select AUR_HELPER in "Paru" "Yay"; do
     case $AUR_HELPER in
         "") AUR_HELPER="paru-bin"; break;;
         "Paru") AUR_HELPER="paru-bin"; break;;
