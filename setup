@@ -120,6 +120,43 @@ logo "Automount my usb drive..."
 sudo echo -ne "UUID=CA18-653E /mnt vfat noauto,nofail,x-systemd.automount,x-systemd.idle-timeout=2,x-systemd.device-timeout=2" | sudo tee -a /etc/fstab 1> /dev/null
 sudo systemctl daemon-reload && sudo systemctl restart local-fs.target
 
+logo "Disabling Screen Tear..."
+sudo echo -ne 'Section "Device"
+  Identifier "Intel Graphics"
+  Driver "intel"
+  Option "TearFree" "true"
+EndSection
+' | sudo tee /etc/X11/xorg.conf.d/20-intel.conf
+
+logo "Updating Touchpad Configuration..."
+sudo echo -ne 'Section "InputClass"
+    Identifier "libinput touchpad catchall"
+    MatchIsTouchpad "on"
+    MatchDevicePath "/dev/input/event*"
+    Option "Tapping" "True"
+    Option "TappingDrag" "True"
+    Option "ScrollMethod" "Twofinger"
+    Option "NaturalScrolling" "False"
+    Option "DisableWhileTyping" "False"
+    Driver "libinput"
+EndSection
+' | sudo tee /etc/X11/xorg.conf.d/40-libinput.conf
+
+logo "Slock Configuration..."
+sudo echo -ne '[Unit]
+Description=Lock X session using slock for user %i
+Before=sleep.target
+
+[Service]
+User=%i
+Environment=DISPLAY=:0
+ExecStartPre=/usr/bin/xset dpms force suspend
+ExecStart=/usr/local/bin/slock
+
+[Install]
+WantedBy=sleep.target
+' | sudo tee /etc/systemd/system/slock@.service
+
 logo "Github configuration..."
 if [ -v TOKEN ]; then
   cd ${HOME} 1> /dev/null
