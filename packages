@@ -36,13 +36,13 @@ wireless_tools
 #######################
 #    User specific    #
 #######################
+chromium
 docker
 dsniff
 dunst
 edk2-ovmf
 exa
 feh
-firefox
 fzf
 git
 gnu-netcat
