@@ -5,7 +5,7 @@ function prompt {
     local message=$1
     local variable=$2
     local default=$3
-    tput setaf 8
+    tput setaf 15
     read -p "${message} (default: ${default}): " value
     tput sgr0
     eval $variable=${value:-$default}
