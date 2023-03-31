@@ -96,7 +96,7 @@ done < packages
 logo "Installing an AUR helper: ${AUR_HELPER}..."
 git clone https://aur.archlinux.org/${AUR_HELPER}.git
 cd ${AUR_HELPER}
-makepkg -si
+makepkg -si --noconfirm
 cd ..
 rm -rf ${AUR_HELPER}
 
