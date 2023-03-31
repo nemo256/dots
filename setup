@@ -205,6 +205,7 @@ logo "Irssi configuration..."
 cp -fvr ${HOME}/Work/dots/config/irssi/.irssi ${HOME}
 sed -i "s/sasl_username = \".*\"/sasl_username = \"$IRSSI_USERNAME\"/" "${HOME}/.irssi/config"
 sed -i "s/sasl_password = \".*\"/sasl_password = \"$IRSSI_PASSWORD\"/" "${HOME}/.irssi/config"
+sed -i "s/nick = \".*\"/nick = \"$IRSSI_USERNAME\"/" "${HOME}/.irssi/config"
 
 logo "Make binary files executable..."
 chmod -R 755 ${HOME}/bin 1> /dev/null
