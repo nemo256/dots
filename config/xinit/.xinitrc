@@ -30,5 +30,5 @@ slstatus &
 xrdb -merge ~/.Xressources
 # Setting up dunst for notfications
 dunst &
-# Launching dwm
+# Launching tily
 exec tily
