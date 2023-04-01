@@ -104,12 +104,12 @@ xorg-xset
 #######################
 #       Drivers       #
 #######################
-# broadcom-wl-dkms
-# intel-ucode
-# libva-intel-driver
-# libva-utils
-# libvdpau-va-gl
-# qemu-guest-agent
-# vulkan-intel
-# xf86-video-intel
-virtualbox-guest-utils
+broadcom-wl-dkms
+intel-ucode
+libva-intel-driver
+libva-utils
+libvdpau-va-gl
+qemu-guest-agent
+vulkan-intel
+xf86-video-intel
+# virtualbox-guest-utils
