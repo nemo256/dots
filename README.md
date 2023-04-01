@@ -20,7 +20,7 @@
 ## Table of Contents
 
 * [Project Structure 📁](#project-structure)
-* [Install 🔨](#install)
+* [Install [Archlinux](https://archlinux.org/) 🔨](#install)
 * [Usage 🚀](#usage)
 * [Develop ⚙️](#develop)
 * [License 📑](#license)
