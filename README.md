@@ -19,7 +19,7 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Project Structure 📁](#project-structure)
+* [Project Structure 📁](#Project Structure)
 * [Install 🔨](#install)
 * [Usage 🚀](#usage)
 * [Develop ⚙️](#develop)
