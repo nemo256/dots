@@ -81,6 +81,32 @@ $ ./setup
 - Tily is my custom fork (config) of dwm.
 - I mainly use monocle mode, so what works for me might not work for you.
 - Note that SUPER (Mod4) is the windows key in most machines.
+Here is a list of most key combinations used:
+
+| Key Combination | Description |
+| --------------- | ----------- |
+| `SUPER + Enter`      | Open a new terminal window (st) |
+| `SUPER + Tab`        | Cycle through open windows |
+| `SUPER + Shift + Tab`| Cycle through open windows in reverse order |
+| `SUPER + Q`          | Close the current window |
+| `SUPER + Shift + Q`  | Quit Tily |
+| `SUPER + R`          | Record the screen (Output is in ~/out.mp4) |
+| `SUPER + Shift + X`     | Shutdown the system |
+| `SUPER + Shift + R`     | Reboot the system |
+| `SUPER + F`          | Launch file browser (ranger) |
+| `SUPER + B`          | Launch browser (Firefox) |
+| `SUPER + I`          | Launch IRC client (Irssi) |
+| `SUPER + V`          | Launch text editor (Neovim) |
+| `SUPER + N`          | Launch RSS feed reader (Newsboat) |
+| `SUPER + P`          | Launch image viewer (sxiv) |
+| `SUPER + T`          | Launch torrent manager (tremc) |
+| `SUPER + M`          | Launch music player (ncmpcpp) |
+| `SUPER + A`          | Launch anime application (ani-cli) |
+| `SUPER + W`          | Launch wifi manager (nmtui) |
+| `SUPER + Shift + V`     | Launch VPN (protonvpn) |
+| `SUPER + Shift + Enter` | Change the background image |
+| `SUPER + D`          | Launch menu application (dmenu) |
+| `SUPER + grave`      | Take a screenshot (scrot) |
 
 ## License 📑
 - Please read [dots/LICENSE](https://github.com/nemo256/dots/blob/master/LICENSE)
