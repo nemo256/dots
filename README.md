@@ -78,9 +78,9 @@ $ ./setup
 ```
 ## Tily Guide 💻
 
-> Tily is my custom fork (config) of dwm.
-> I mainly use monocle mode, so what works for me might not work for you.
-> Note that SUPER is the windows key in most machines.
+- Tily is my custom fork (config) of dwm.
+- I mainly use monocle mode, so what works for me might not work for you.
+- Note that SUPER is the windows key in most machines.
 
 ## License 📑
 - Please read [dots/LICENSE](https://github.com/nemo256/dots/blob/master/LICENSE)
