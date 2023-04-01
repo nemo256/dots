@@ -22,7 +22,7 @@
 * [Project Structure 📁](#project-structure)
 * [Install 🔨](#install)
 * [Usage 🚀](#usage)
-* [Develop ⚙️](#develop)
+* [Tily Guide 💻](#tily)
 * [License 📑](#license)
 
 ## Project Structure 📁
@@ -76,9 +76,11 @@ $ cd dots
 $ chmod +x setup
 $ ./setup
 ```
+## Tily Guide 💻
 
-## Develop ⚙️
-- Just modify the setup script.
+> Tily is my custom fork (config) of dwm.
+> I mainly use monocle mode, so what works for me might not work for you.
+> Note that SUPER is the windows key in most machines.
 
 ## License 📑
 - Please read [dots/LICENSE](https://github.com/nemo256/dots/blob/master/LICENSE)
