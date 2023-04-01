@@ -3,7 +3,7 @@ ncmpcpp_directory = ~/.config/ncmpcpp
 lyrics_directory = ~/.config/ncmpcpp/lyrics
 mpd_host = localhost
 mpd_port = 6600
-mpd_music_dir = /home/nemo/Music
+mpd_music_dir = ~/Music
 seek_time = 3
 
 [visualizer]
