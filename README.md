@@ -108,5 +108,16 @@ Here is a list of most key combinations used:
 | `SUPER + D`          | Launch menu application (dmenu) |
 | `SUPER + grave`      | Take a screenshot (scrot) |
 
+- You can customize Tily's behavior and keybindings by editing ~/.build/tily/config.h
+```shell
+$ cd .build/tily
+$ vim config.h      (Customize it to your liking)
+```
+- And finally recompile and install tily:
+```shell
+$ make && sudo make clean install
+```
+> Have fun!
+
 ## License 📑
 - Please read [dots/LICENSE](https://github.com/nemo256/dots/blob/master/LICENSE)
