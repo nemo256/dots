@@ -84303,3 +84303,157 @@ pastebin test
 q
 #1679958640
 man pacman
+#1680393842
+q
+#1680393170
+cdw
+#1680393172
+cd dots/
+#1680393172
+ls
+#1680393173
+r
+#1680393572
+git pull
+#1680393577
+grh
+#1680393578
+r
+#1680393702
+gst
+#1680393703
+gst -u
+#1680393708
+gca
+#1680393718
+r
+#1680393733
+git clone https://github.com/nemo256/Templates
+#1680393758
+git clone https://github.com/nemo256/Music
+#1680393929
+ls
+#1680393930
+r
+#1680393938
+q
+#1680394071
+clear
+#1680394071
+q
+#1680394144
+cdw
+#1680394145
+ls
+#1680394147
+q
+#1680394149
+clear
+#1680394149
+q
+#1680394153
+df -h
+#1680394164
+htop
+#1680394179
+q
+#1680394219
+cat /etc/vconsole.conf 
+#1680394236
+exit
+#1680394241
+clear
+#1680394241
+q
+#1680394244
+qq
+#1680394244
+q
+#1680394269
+man ncmpcpp 
+#1680394285
+q
+#1680394437
+mpd
+#1680394443
+killall mpd
+#1680394444
+mpd
+#1680394453
+killall mpd
+#1680394461
+ps -aux | grep mpd
+#1680394480
+q
+#1680395404
+cdw
+#1680395405
+cd dots/
+#1680395506
+cd; stow -vd ~/Work/dots/config/ -t ~ mpd
+#1680395514
+ls
+#1680395519
+q
+#1680394346
+ps aux | grep mpd
+#1680394371
+kill mpd
+#1680394375
+killall mpd
+#1680394378
+ps aux | grep mpd
+#1680394383
+mpd
+#1680394407
+r
+#1680394489
+mpd --no-daemon --stdout --verbose
+#1680394543
+killall mpd
+#1680394545
+r
+#1680394568
+mpd
+#1680394586
+killall mpd
+#1680394689
+cd
+#1680394695
+mpc load ~/Music/
+#1680394697
+mpc load ~/Music/*
+#1680394698
+mpd
+#1680394700
+mpc load ~/Music/*
+#1680394711
+sudo mpc load ~/Music/*
+#1680394812
+r
+#1680394853
+clone https://github.com/nemo256/.dotfiles
+#1680394902
+cd .dotfiles/
+#1680394903
+ls
+#1680394903
+r
+#1680394962
+killall mpd
+#1680394964
+mpd &
+#1680395024
+r
+#1680395055
+killall mpd
+#1680395057
+mpd &
+#1680395259
+r
+#1680395284
+stow -D mpd
+#1680395285
+r
+#1680395523
+exit
