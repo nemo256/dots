@@ -84509,3 +84509,143 @@ pactl info
 killall mpd
 #1680396208
 mpd &
+#1680396054
+pactl info
+#1680396140
+r
+#1680396225
+gst
+#1680396229
+gca fixed mpd
+#1680396234
+q
+#1680396241
+rm .dotfiles/
+#1680396242
+r
+#1680396246
+q
+#1680396255
+cw
+#1680396277
+q
+#1680396280
+ins
+#1680396282
+q
+#1680396285
+ls /
+#1680396297
+ls
+#1680396297
+q
+#1680396298
+ls
+#1680396299
+ls /
+#1680396305
+ls
+#1680396305
+q
+#1680396306
+ls
+#1680396309
+q
+#1680396310
+ls
+#1680396313
+cd Documents/
+#1680396314
+ls
+#1680396314
+q
+#1680396317
+cdt
+#1680396318
+ls
+#1680396320
+q
+#1680396333
+cat /etc/vconsole.conf 
+#1680396345
+setfont ter-132b
+#1680396353
+ins terminus-font
+#1680396469
+setfont ter-v32b
+#1680396472
+setfont ter-132b
+#1680396476
+setfont ter-132n
+#1680396478
+setfont ter-132s
+#1680396481
+setfont ter-132b
+#1680396485
+setfont ter-v32b
+#1680396488
+exit
+#1680396559
+showconsolefont
+#1680396580
+cat /etc/vconsole.conf 
+#1680396655
+systemctl status systemd-vconsole-setup
+#1680396675
+sudo showconsolefont
+#1680396799
+find /usr/share/kbd/consolefonts -name 'ter-p32n.*'
+#1680396805
+find /usr/share/kbd/consolefonts -name 'ter-v32b'
+#1680396809
+find /usr/share/kbd/consolefonts -name 'ter-v32b.*'
+#1680396812
+find /usr/share/kbd/consolefonts -name 'ter-132b.*'
+#1680396831
+q
+#1680396835
+r
+#1680396836
+sr
+#1680396869
+q
+#1680396872
+exit
+#1680396878
+clear
+#1680396878
+q
+#1680437707
+ins virtualbox
+#1680438471
+ins virtualbox-host-dkms
+#1680438492
+modprobe vboxdrv
+#1680438495
+sudo modprobe vboxdrv
+#1680439571
+q
+#1680453757
+clear
+#1680453757
+q
+#1680453759
+clear
+#1680453759
+q
+#1680453796
+r
+#1680453800
+cdw
+#1680453801
+cd dots/
+#1680453802
+r
+#1680453874
+q
+#1680453878
+exit
+#1680453907
+killall mpd
+#1680453910
+mpd &
