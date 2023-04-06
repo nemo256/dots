@@ -114,3 +114,9 @@ vulkan-intel
 xf86-video-intel
 # qemu-guest-agent
 # virtualbox-guest-utils
+
+#######################
+#         VMs         #
+#######################
+# virtualbox
+# virtualbox-host-dkms
