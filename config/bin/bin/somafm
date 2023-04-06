@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-bindir=/home/nemo/somafm-cli/build/bin
-logdir=/home/nemo/somafm-cli/build/var/log
+bindir=$HOME/somafm-cli/build/bin
+logdir=$HOME/somafm-cli/build/var/log
 
 ## Command parsing ################################################################################
 cmd="${1}"; shift
