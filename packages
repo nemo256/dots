@@ -110,7 +110,7 @@ intel-ucode
 libva-intel-driver
 libva-utils
 libvdpau-va-gl
-qemu-guest-agent
 vulkan-intel
 xf86-video-intel
+# qemu-guest-agent
 # virtualbox-guest-utils
