@@ -37,8 +37,8 @@ dots/
 ├── LICENSE
 ├── README.md
 ├── demo.gif
-├── packages
-└── dots
+├── dots
+└── packages
 ```
 
 ## Install [Archlinux](https://archlinux.org/) 🔨
