@@ -10547,8 +10547,6 @@ nvim 2-postinstall.sh
 q
 #1646494731
 nmcli d wifi
-#1646494826
-wifi 'DJAWEB_E9426' password '63D7C23646F74'
 #1646501397
 ls
 #1646501410
@@ -12605,8 +12603,6 @@ cd
 find -name '*prefs.js'
 #1646603889
 lswifi
-#1646603930
-wifi 'DJAWEB_E9426' password '63D7C23646F74'
 #1646604202
 gh auth login
 #1646604219
@@ -20891,8 +20887,6 @@ man ssh_config
 neofetch
 #1648648588
 q
-#1648648765
-mpv http://disfruta.net:80/get.php?username=pablos&password=3t5emCjZUK&type=m3u
 #1648648771
 q
 #1648648942
@@ -35133,8 +35127,6 @@ r
 node script.js 
 #1653822380
 r
-#1653822394
-nvim .passwd
 #1653822410
 node script.js 
 #1653822448
@@ -86955,4 +86947,26 @@ ls
 #1680815614
 r
 #1680815856
+q
+#1680817150
+cd,
+#1680817151
+cdm
+#1680817152
+ls
+#1680817152
+r
+#1680817194
+q
+#1680817305
+cdm
+#1680817305
+ls
+#1680817307
+r
+#1680817368
+q
+#1680817412
+nvim .bash_history 
+#1680817488
 q
