@@ -36,10 +36,9 @@ dots/
 ├── AUTHORS
 ├── LICENSE
 ├── README.md
-├── TODO.md
 ├── demo.gif
 ├── packages
-└── setup
+└── dots
 ```
 
 ## Install [Archlinux](https://archlinux.org/) 🔨
