@@ -1,7 +1,6 @@
 #!/bin/sh
 
-scrot -b 'screenshot-%Y-%m-%d_%H-%M-%S.png' -e 'mv $f /root/Pictures/Screenshots/' > /dev/null 2>&1
-
-mv *.png $HOME/Pictures/Screenshots/
+scrot -b '%Y-%m-%d_%H-%M-%S.png' 1> /dev/null
+mv *.png $HOME/pix/scrots/
 
 notify-send "  Screenshot saved"
