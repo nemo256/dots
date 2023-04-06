@@ -44,7 +44,7 @@ dots/
 ## Install [Archlinux](https://archlinux.org/) 🔨
 - Follow this guide to create a bootable USB: [USB flash installation medium](https://wiki.archlinux.org/title/USB_flash_installation_medium)
 - Boot inside the arch installation.
-- Install arch using the archinstall command (you can check my install configuration at [N3m0's archinstall config](https://github.com/nemo256/arch))
+- Install arch using my script [Archy](https://github.com/nemo256/archy) or the archinstall command (you can check my install configuration at [N3m0's archinstall config](https://github.com/nemo256/arch))
 ```shell
 $ pacman -Sy git (or wget)
 ```
