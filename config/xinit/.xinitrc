@@ -4,7 +4,7 @@
 #
 # global xinitrc file, used by all X sessions started by xinit (startx)
 
-# Settings macbook keyboard layout
+# Setting up macbook keyboard layout
 setxkbmap us mac &
 # Unclutter to enable autohiding for pointer
 unclutter &

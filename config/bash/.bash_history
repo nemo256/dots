@@ -85588,3 +85588,347 @@ cd archy/
 ls
 #1680785055
 q
+#1680785460
+r
+#1680785481
+q
+#1680785155
+cdw
+#1680785156
+cd dots
+#1680785159
+ls
+#1680785160
+gst
+#1680785170
+gca
+#1680785196
+r
+#1680785234
+gca fixed maintained badge
+#1680785258
+..
+#1680785260
+cd archy/
+#1680785261
+r
+#1680785273
+gca fixed maintained badge
+#1680785283
+..
+#1680785290
+clone https://github.com/nemo256/voidy
+#1680785293
+cd voidy/
+#1680785293
+ls
+#1680785294
+r
+#1680785303
+gca fixed maintained badge
+#1680785304
+..
+#1680785305
+r
+#1680785331
+clone https://github.com/nemo256/tily
+#1680785334
+cd tily/
+#1680785335
+r
+#1680785344
+gca fixed maintained badge
+#1680785346
+..
+#1680785410
+r
+#1680785591
+gst
+#1680785596
+gca updated README.md
+#1680785613
+gst
+#1680785651
+gca fixed maintained badge
+#1680785658
+r
+#1680785669
+gca fixed aftech link
+#1680785704
+r
+#1680785786
+gca updated README.md
+#1680785803
+r
+#1680785940
+gca testing anchor link
+#1680785997
+..
+#1680785999
+cdw
+#1680786004
+clone https://github.com/nemo256/arch
+#1680786013
+cd arch
+#1680786014
+ls
+#1680786015
+r
+#1680786122
+gca updated README.md
+#1680786154
+r
+#1680786178
+gca updated README.md
+#1680786180
+..
+#1680786218
+cd bp/
+#1680786219
+gst
+#1680786225
+gca fixed maintained badge
+#1680786317
+.
+#1680786318
+..
+#1680786323
+clone https://github.com/nemo256/webdev
+#1680786325
+cd webdev/
+#1680786326
+ls
+#1680786327
+r
+#1680786335
+gca fixed maintained badge
+#1680786407
+r
+#1680786766
+zip -r neggazi.zip
+#1680786769
+zip -r neggazi.zip *
+#1680786770
+r
+#1680786776
+unzip neggazi.zip 
+#1680786777
+r
+#1680786783
+q
+#1680787215
+cdw
+#1680787247
+cd
+#1680787248
+cdt
+#1680787249
+ls
+#1680787249
+r
+#1680787342
+gca updated README.md
+#1680787348
+r
+#1680787360
+gca 
+#1680787367
+r
+#1680787376
+gca fixed README.md
+#1680787384
+,,
+#1680787385
+..
+#1680787386
+cdw
+#1680787386
+s
+#1680787387
+ls
+#1680787418
+clone https://github.com/nemo256/vimy
+#1680787420
+cd vimy/
+#1680787421
+ls
+#1680787421
+r
+#1680787433
+gca fixed maintained badge
+#1680787480
+..
+#1680787488
+clone https://github.com/nemo256/archNemoISO
+#1680787493
+r
+#1680787503
+gca fixed maintained badge
+#1680787554
+..
+#1680787558
+clone https://github.com/nemo256/tixy
+#1680787561
+cd tixy/
+#1680787564
+v README.md 
+#1680787580
+gca fixed maintained badge
+#1680787583
+..
+#1680787641
+clone https://github.com/nemo256/matrix_game
+#1680787643
+cd matrix_game/
+#1680787643
+r
+#1680787646
+v README.md 
+#1680787651
+gca fixed maintained badge
+#1680787652
+..
+#1680787670
+clone https://github.com/nemo256/asd1
+#1680787686
+cd asd1/
+#1680787688
+v README.md 
+#1680787696
+gca fixed maintained badge
+#1680787744
+..
+#1680787748
+clone https://github.com/nemo256/peakville
+#1680787752
+cd peakville/
+#1680787754
+v README.md 
+#1680787760
+gca fixed maintained badge
+#1680787762
+..
+#1680787793
+clone https://github.com/nemo256/graphs
+#1680787799
+cd graphs/
+#1680787803
+v graphs
+#1680787806
+v README.md 
+#1680787818
+gca fixed maintained badge
+#1680787830
+..
+#1680787834
+clone https://github.com/nemo256/hotel
+#1680787838
+cd hotel/
+#1680787839
+ls
+#1680787840
+v README.md 
+#1680787846
+gca fixed maintained badge
+#1680787847
+..
+#1680787861
+clone https://github.com/nemo256/portfolio
+#1680787869
+cd portfolio/
+#1680787871
+v README.md 
+#1680787875
+gca fixed maintained badge
+#1680787908
+..
+#1680787911
+clone https://github.com/nemo256/cbc
+#1680788010
+cd cbc/
+#1680788011
+ls
+#1680788013
+v README.md 
+#1680788020
+gca fixed maintained badge
+#1680788022
+..
+#1680788051
+clone https://github.com/nemo256/hackini-2k22
+#1680788055
+cd hackini-2k22/
+#1680788059
+v README.md 
+#1680788065
+gca fixed maintained badge
+#1680788066
+..
+#1680788404
+clear
+#1680788404
+ls
+#1680788406
+q
+#1680788529
+cd
+#1680788530
+cdw
+#1680788536
+cd ekrili-frontend/
+#1680788539
+yarn dev
+#1680789482
+..
+#1680789482
+q
+#1680790042
+cdw
+#1680790048
+clone https://github.com/nemo256/nemo256
+#1680790051
+cd nemo256/
+#1680790052
+r
+#1680790110
+gca hidden border on repo cards
+#1680790126
+q
+#1680790179
+ls
+#1680790180
+clear
+#1680790180
+q
+#1680790181
+ls
+#1680790184
+la
+#1680790186
+q
+#1680790187
+lf
+#1680790188
+ins lf
+#1680790191
+lf
+#1680790195
+q
+#1680790197
+rem lf
+#1680790198
+q
+#1680790209
+ins lf
+#1680790212
+q
+#1680790215
+rem lf
+#1680790216
+clear
+#1680790217
+q
+#1680790219
+brc
+#1680790224
+q
