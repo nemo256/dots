@@ -84649,3 +84649,942 @@ exit
 killall mpd
 #1680453910
 mpd &
+#1680453952
+cdw
+#1680453953
+cd dots
+#1680453954
+ls
+#1680453955
+cd config/
+#1680453957
+cd mpd/
+#1680453957
+r
+#1680453979
+gst
+#1680453984
+gca
+#1680454467
+q
+#1680454474
+exit
+#1680454484
+killall mpd
+#1680454485
+q
+#1680454489
+exit
+#1680456278
+q
+#1680463718
+nmcli
+#1680463726
+q
+#1680464710
+df -h
+#1680464752
+amixer
+#1680464755
+alsamixer
+#1680464779
+clear
+#1680464779
+ls
+#1680464780
+q
+#1680464799
+clear
+#1680464801
+q
+#1680466358
+ls
+#1680466358
+r
+#1680466365
+which curl
+#1680466366
+r
+#1680466453
+curl -H "Accept: application/json" -H "Content-type: application/json" -X POST localhost
+#1680466464
+curl -H "Accept: application/json" -H "Content-type: application/json" -X GET localhost
+#1680466547
+curl --request GET   --url localhost:8000   --header 'Authorization: Bearer YOUR_API_KEY'   --header 'Content-Type: application/json'
+#1680466605
+curl --request GET   --url localhost/api/annonces --header 'Content-Type: application/json'
+#1680466617
+curl --request GET --url localhost:8000/api/annonces --header 'Content-Type: application/json'
+#1680466649
+curl --request GET --url localhost:8000/api/annonces --header 'Content-Type: application/json' > get_request.json
+#1680466651
+r
+#1680466720
+jq
+#1680466721
+ins jq
+#1680466729
+jq
+#1680466733
+jq get_request.json 
+#1680466747
+cat get_request.json | jq
+#1680466775
+curl --request GET --url localhost:8000/api/annonces >
+#1680466789
+c
+#1680466050
+cdw
+#1680466056
+cd ekrili/
+#1680466058
+ls
+#1680466060
+cd backend/
+#1680466060
+ls
+#1680466066
+..
+#1680466080
+ls
+#1680466083
+npm install
+#1680466101
+r
+#1680466111
+ls
+#1680466146
+ls frontend/
+#1680466155
+ls
+#1680466200
+r
+#1680466204
+rm yarn.lock 
+#1680466205
+ls
+#1680466206
+r
+#1680466214
+..
+#1680466215
+ls
+#1680466220
+yarn 
+#1680466222
+r
+#1680466234
+yarn 
+#1680466272
+r
+#1680466297
+yarn server
+#1680464807
+cdw
+#1680464808
+ls
+#1680464821
+clone https://github.com/schemsou/ekrili
+#1680464883
+ls
+#1680464884
+r
+#1680464941
+ls frontend/
+#1680464948
+yarn dev frontend/
+#1680465128
+cd frontend/
+#1680465129
+ls
+#1680465131
+yarn 
+#1680465213
+clear
+#1680465215
+ls
+#1680465354
+yarn
+#1680465587
+yarn dev
+#1680468671
+q
+#1680468673
+cdw
+#1680468674
+s
+#1680468674
+ls
+#1680468706
+clone https://github.com/nemo256/landy
+#1680468719
+clone https://github.com/nemo256/qafilaty-test
+#1680468722
+r
+#1680555286
+q
+#1680555338
+alsamixer
+#1680555354
+q
+#1680555392
+uname -r
+#1680555394
+q
+#1680555409
+r
+#1680555395
+upd
+#1680555434
+q
+#1680555494
+alsa
+#1680555496
+alsamixer
+#1680555468
+sudo nvim /etc/default/grub 
+#1680555480
+clear
+#1680555481
+startx
+#1680555512
+exit
+#1680555519
+alsamixer
+#1680556473
+cdw
+#1680556476
+cd ekrili/
+#1680556476
+ls
+#1680556476
+r
+#1680555688
+cdw
+#1680555689
+ls
+#1680555871
+cd ekrili/
+#1680555872
+ls
+#1680555876
+..
+#1680555877
+rm ekrili/
+#1680555879
+ls
+#1680555906
+clone https://github.com/schemsou/ekrili
+#1680555913
+cd ekrili/
+#1680555913
+ls
+#1680555928
+git checkout dev-ekrili
+#1680555937
+r
+#1680555941
+cd frontend/
+#1680555941
+ls
+#1680555945
+yarn
+#1680555966
+rm package-lock.json 
+#1680555970
+gaa
+#1680555976
+..
+#1680555977
+gaa
+#1680556031
+gc 'removed package-lock.json to eliminate package manager mixins'
+#1680556037
+r
+#1680556068
+..
+#1680556074
+rm ekrili/
+#1680556078
+clone https://github.com/schemsou/ekrili
+#1680556084
+cd ekrili/
+#1680556084
+ls
+#1680556089
+yarn
+#1680556099
+cd frontend/
+#1680556100
+yarn
+#1680556111
+..
+#1680556113
+ls
+#1680556116
+cd frontend/
+#1680556120
+yarn dev
+#1680556691
+..
+#1680556692
+r
+#1680556124
+cdw
+#1680556235
+clone https://github.com/nemo256/landy
+#1680556259
+clone https://github.com/nemo256/portfolio
+#1680556264
+r
+#1680559165
+cdw
+#1680559166
+cd ekrili
+#1680559167
+ls
+#1680559167
+..
+#1680559168
+ls
+#1680562633
+r
+#1680565489
+q
+#1680557126
+cdw
+#1680557128
+cd ekrili/
+#1680557130
+cd frontend/
+#1680557130
+r
+#1680557140
+gst
+#1680557143
+gaa
+#1680557158
+gc 'removed App.js as it is not needed.'
+#1680557340
+ls
+#1680557341
+r
+#1680557553
+..
+#1680557559
+clone https://github.com/schemsou/ekrili-demo
+#1680557593
+r
+#1680558042
+gst
+#1680558045
+gst -u
+#1680558050
+gaa
+#1680558067
+gc 'added layout w/ navbar and footer component templates!'
+#1680558143
+r
+#1680558417
+gaa
+#1680558430
+gc 'refactored homepage
+'
+#1680558435
+r
+#1680558796
+gst
+#1680558800
+r
+#1680558807
+gst
+#1680558808
+gaa
+#1680558816
+gc 'refactored login'
+#1680558827
+git push origin dev-ekrili
+#1680559027
+r
+#1680560982
+gst
+#1680560988
+gaa
+#1680561000
+gc 'fixed globals.css'
+#1680561081
+gaa
+#1680561082
+gc 'fixed globals.css'
+#1680561188
+gaa
+#1680561200
+gc fixed navbar and footer template styling
+#1680561205
+gc 'fixed navbar and footer template styling'
+#1680561212
+git push origin dev-ekrili
+#1680561371
+gaa
+#1680561378
+gc 'fixed tailwind styles
+'
+#1680561384
+git push origin dev-ekrili
+#1680562391
+cd frontend/
+#1680562396
+yarn add react-icons
+#1680562601
+r
+#1680563555
+cd ekrili/frontend/
+#1680563556
+ls
+#1680565501
+..
+#1680565502
+gaa
+#1680565509
+gc 'added navbar'
+#1680566178
+gst
+#1680566180
+ga
+#1680566181
+gaa
+#1680566187
+gc 'updated navbar'
+#1680566210
+gaa
+#1680566219
+gc 'updated footer text color
+'
+#1680566230
+git push origin dev-ekrili
+#1680566790
+gst
+#1680566792
+gst -u
+#1680566796
+q
+#1680556698
+cdw
+#1680556701
+cd ekrili
+#1680556701
+ls
+#1680556702
+gst
+#1680556712
+..
+#1680556714
+rm ekrili/
+#1680556719
+clone https://github.com/schemsou/ekrili
+#1680556727
+cd ekrili/
+#1680556743
+git checkout dev-ekrili
+#1680556763
+git pull
+#1680556803
+clear
+#1680556804
+ls
+#1680556808
+cd frontend/
+#1680556808
+ls
+#1680556809
+yarn
+#1680556839
+yarn dev
+#1680566849
+upd
+#1680566869
+reboot
+#1680566912
+clear
+#1680566912
+q
+#1680621053
+cdd
+#1680621053
+ls
+#1680621056
+unzip favicon.zip 
+#1680621056
+r
+#1680621273
+unzip favicon_io.zip 
+#1680621273
+r
+#1680621993
+htop
+#1680616393
+cdw
+#1680616395
+cd ekrili
+#1680616397
+gst
+#1680616522
+r
+#1680616793
+yarn dev
+#1680641187
+q
+#1680617262
+cdw
+#1680617264
+cd ekrili
+#1680617265
+gst
+#1680617274
+gaa
+#1680617288
+gc 'added open sans font - latin subset
+'
+#1680617718
+gst
+#1680618471
+gaa
+#1680618487
+gc 'added open sans font - optimized using nextjs13
+'
+#1680618496
+git push origin dev-ekrili
+#1680618672
+ls
+#1680618674
+r
+#1680619508
+gst
+#1680619511
+gaa
+#1680619513
+gd
+#1680619514
+gs
+#1680619521
+gaa
+#1680619528
+gc 'updated open sans font'
+#1680619534
+git push origin dev-ekril
+#1680619535
+git push origin dev-ekrili
+#1680622319
+gst
+#1680622321
+gaa
+#1680622335
+gc 'added searchbar and removed button global styling
+'
+#1680622476
+r
+#1680622481
+unzip favicon_io.zip 
+#1680622481
+r
+#1680624804
+gst
+#1680624806
+gaa
+#1680624817
+gc 'added input group component and search bar!'
+#1680625997
+gst
+#1680625998
+gaa
+#1680626008
+gc 'updated search bar input group styling
+'
+#1680626805
+r
+#1680627087
+gst
+#1680627089
+gaa
+#1680627106
+gc 'added ekrili logo next to title'
+#1680628053
+gst
+#1680628062
+gc 'fixed logo positioning'
+#1680628067
+gaa
+#1680628068
+gc 'fixed logo positioning'
+#1680628337
+gaa
+#1680628344
+gc 'centered navbar'
+#1680628385
+gaa
+#1680628410
+gc 'updated link item hover color'
+#1680628449
+r
+#1680628853
+clone https://github.com/schemsou/ekrili-test
+#1680628870
+r
+#1680629611
+..
+#1680629611
+gst
+#1680629635
+gaa
+#1680629649
+gc 'added homepage layout from older demo version'
+#1680629831
+gst
+#1680629832
+gaa
+#1680629858
+gc 'updated hero margins and cta text'
+#1680630474
+gst
+#1680630475
+gaa
+#1680630487
+gc 'updated logo and search bar position
+'
+#1680631292
+ls
+#1680631295
+la
+#1680631324
+r
+#1680640608
+clone https://github.com/schemsou/ekrili-frontend
+#1680640661
+r
+#1680640692
+gst
+#1680640729
+git push origin dev-ekrili
+#1680640783
+gst
+#1680640790
+gpm
+#1680640800
+git push origin dev-ekrili
+#1680640806
+r
+#1680640829
+..
+#1680640831
+gst
+#1680640842
+git push origin dev-ekrili
+#1680640853
+git pull
+#1680640909
+ls
+#1680640911
+r
+#1680640923
+clone https://github.com/Schemsou/ekrili-frontend
+#1680640928
+r
+#1680640952
+gst
+#1680640964
+git checkout dev-ekrili
+#1680640966
+gst
+#1680640972
+gaa
+#1680640981
+gc 'updated frontend'
+#1680641030
+git push origin dev-ekrili
+#1680641035
+r
+#1680641075
+gst
+#1680641079
+gaa
+#1680641087
+r
+#1680641115
+gaa
+#1680641129
+gc 'updated project structure'
+#1680641144
+ls
+#1680641147
+yarn dev
+#1680643905
+q
+#1680641651
+cdw
+#1680641658
+clone https://github.com/nemo256/bp
+#1680641663
+r
+#1680641686
+chmod -x README.md 
+#1680641687
+r
+#1680641766
+gst
+#1680641769
+gaa
+#1680641775
+gc 'added README.md'
+#1680641951
+gst
+#1680641952
+gaa
+#1680641964
+gc 'removed layout from signup and login pages!'
+#1680641975
+git push origin dev-ekrili
+#1680642529
+gst
+#1680642531
+gd
+#1680642535
+gaa
+#1680642541
+gc 'added orange favicon'
+#1680643440
+gaa
+#1680643467
+gc fixed card component - removed the button and updated info alignments
+#1680643472
+gc 'fixed card component - removed the button and updated info alignments'
+#1680643480
+git push dev-ekrili
+#1680643486
+git push origindev-ekrili
+#1680643489
+git push origin dev-ekrili
+#1680643594
+yarn build
+#1680643893
+r
+#1680643909
+gst
+#1680643920
+git checkout master
+#1680643922
+r
+#1680643925
+git pull
+#1680643927
+r
+#1680643930
+gst
+#1680643940
+gca removed node_modules
+#1680643947
+git pusll
+#1680643951
+git pull
+#1680643984
+gpm 
+#1680643989
+gpm --force
+#1680644006
+git checkout dev-ekrili
+#1680644014
+r
+#1680644018
+gst
+#1680644021
+gaa
+#1680644023
+gs
+#1680644033
+gaa
+#1680644035
+gst
+#1680644043
+gc 'removed node-modules
+'
+#1680644052
+git push origin dev-ekrili
+#1680644054
+r
+#1680644126
+git checkout master
+#1680644128
+git pull
+#1680644132
+yarn dev
+#1680644137
+yarn
+#1680644206
+yarn dev
+#1680644551
+gst
+#1680644552
+gaa
+#1680644560
+gca updated max width
+#1680644572
+yarn dev
+#1680644904
+q
+#1680642232
+cdv
+#1680642233
+unzip favicon_io.zip 
+#1680642234
+r
+#1680644928
+q
+#1680644934
+clear
+#1680644935
+q
+#1680644943
+cd .build/
+#1680644944
+cd tily/
+#1680644945
+ls
+#1680644947
+v config.h
+#1680644962
+sudo make clean install
+#1680644964
+q
+#1680644968
+exit
+#1680644973
+clear
+#1680644974
+q
+#1680644976
+clear
+#1680644976
+q
+#1680644987
+clear
+#1680644987
+q
+#1680644991
+cd .build/
+#1680644992
+ls
+#1680645026
+upd
+#1680645080
+reboot
+#1680645107
+clear
+#1680645108
+q
+#1680645110
+cd .build/
+#1680645110
+ls
+#1680645112
+cd tily/
+#1680645114
+gst
+#1680645130
+gca updated border weight
+#1680645166
+ins transmission-daemon
+#1680645168
+ins transmission
+#1680645173
+ins transmission-cli
+#1680645184
+tremc
+#1680645212
+transmission-cli
+#1680645219
+q
+#1680733181
+alsamixer
+#1680733188
+exi
+#1680733189
+exit
+#1680733194
+q
+#1680733196
+reboot
+#1680733222
+clear
+#1680733272
+killall mpd
+#1680733273
+q
+#1680733277
+exit
+#1680733288
+q
+#1680733283
+killall mpd
+#1680733285
+mpd &
+#1680733305
+r
+#1680733319
+q
+#1680733368
+amixer -D pulse sset Master 0%
+#1680733374
+amixer -D pipewire sset Master 0%
+#1680733385
+cat /proc/asound/card
+#1680734057
+r
+#1680734098
+reboot
+#1680734193
+r
+#1680734229
+clone https://github.com/nemo256/.dotfiles
+#1680734373
+cd .dotfiles/
+#1680734514
+r
+#1680734528
+q
+#1680734553
+r
+#1680734559
+q
+#1680734757
+r
+#1680783384
+upd
+#1680783438
+reboot
+#1680784079
+ins chromium
+#1680784127
+q
+#1680784901
+cdw
+#1680784909
+clone https://github.com/nemo256/archy
+#1680784911
+cd archy/
+#1680784912
+ls
+#1680784914
+r
+#1680785045
+gst
+#1680785050
+gca added TODO
+#1680785051
+q
+#1680785053
+cdw
+#1680785054
+cd archy/
+#1680785054
+ls
+#1680785055
+q
