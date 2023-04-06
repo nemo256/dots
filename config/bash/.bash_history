@@ -86404,3 +86404,33 @@ r
 gca updated dox
 #1680808085
 q
+#1680807782
+cdw
+#1680807784
+cd dots
+#1680807784
+r
+#1680807793
+chmod -x README.md 
+#1680807794
+r
+#1680807800
+gst
+#1680807804
+gca changed mode for README
+#1680807806
+r
+#1680808093
+gst
+#1680808097
+r
+#1680808209
+gst
+#1680808228
+gca removed qemu guest agent from release install
+#1680808780
+gst
+#1680808782
+cd
+#1680808783
+q

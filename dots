@@ -211,27 +211,25 @@ logo "Installing weather-cli..."
 yarn global add weather-cli 1> /dev/null
 
 logo "Restoring home directory..."
-cd ${HOME} && mkdir Videos Work 1> /dev/null
+cd ${HOME} && mkdir vids work 1> /dev/null
 
 logo "Removing default configuration files..."
 rm -fvr ${HOME}/.bash* 1> /dev/null
 rm -fvr ${HOME}/.gitconfig 1> /dev/null
 rm -fvr ${HOME}/.config/* 1> /dev/null
 
-mv -fv ${HOME}/dots ${HOME}/Work 1> /dev/null
-
 # Get list of programs
-programs=$(find "${HOME}/Work/dots/config" -maxdepth 1 -mindepth 1 -type d -printf "%f\n")
+programs=$(find "${HOME}/dots/config" -maxdepth 1 -mindepth 1 -type d -printf "%f\n")
 
 logo "Stowing configuration files..."
 for program in ${programs}; do
   if [[ ${program} != "irssi" ]]; then
-    stow -vd ${HOME}/Work/dots/config/ -t ${HOME} ${program} 1> /dev/null
+    stow -vd ${HOME}/dots/config/ -t ${HOME} ${program} 1> /dev/null
   fi
 done
 
 logo "Irssi configuration..."
-cp -fvr ${HOME}/Work/dots/config/irssi/.irssi ${HOME}
+cp -fvr ${HOME}/dots/config/irssi/.irssi ${HOME}
 sed -i "s/sasl_username = \".*\"/sasl_username = \"$IRSSI_USERNAME\"/" "${HOME}/.irssi/config"
 sed -i "s/sasl_password = \".*\"/sasl_password = \"$IRSSI_PASSWORD\"/" "${HOME}/.irssi/config"
 sed -i "s/nick = \".*\"/nick = \"$IRSSI_USERNAME\"/" "${HOME}/.irssi/config"
