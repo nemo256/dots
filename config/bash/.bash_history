@@ -86320,3 +86320,63 @@ cdw
 cd dots/
 #1680803650
 q
+#1680803652
+cdw
+#1680803653
+cd dots
+#1680803654
+ls
+#1680803654
+gst
+#1680803659
+gca 
+#1680803811
+htop
+#1680803886
+clear
+#1680803886
+q
+#1680804274
+new wals
+#1680804278
+r
+#1680804343
+..
+#1680804343
+.
+#1680804344
+..
+#1680804345
+cd wals
+#1680804346
+ls
+#1680804348
+gst
+#1680804352
+gca updated README.md
+#1680804364
+r
+#1680804557
+gca added randomly fetched wallpapers using a custom script - *source* wallhaven
+#1680804669
+r
+#1680804680
+chmod -x README.md
+#1680804690
+gca changed mode for README
+#1680804696
+r
+#1680804720
+..
+#1680804721
+cdw
+#1680804722
+cd bp
+#1680804723
+ls
+#1680804726
+chmod -x README.md 
+#1680804731
+gca changed mode for README
+#1680804733
+q
