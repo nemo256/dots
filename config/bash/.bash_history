@@ -86206,3 +86206,117 @@ clear
 rm test 
 #1680798437
 q
+#1680792865
+cdw
+#1680792866
+cd archy/
+#1680792867
+ls
+#1680792868
+gst
+#1680792891
+gca added force argument to always unmount /mnt 
+#1680793009
+gca added swapoff when re executing the script multiple times
+#1680793113
+gca added archy installation with custom KERNEL option
+#1680795156
+gca added prompt questions
+#1680796212
+gca added audio server option
+#1680796682
+gca fixed typos
+#1680796698
+r
+#1680796731
+gca removed postinstall script and packages
+#1680797169
+gca prepended arch-chroot to postinstallation commands
+#1680797369
+gca updated log messages
+#1680798445
+gca added kernel option
+#1680798952
+pacman -S --noconfirm --needed pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber
+#1680798957
+sudo pacman -S --noconfirm --needed pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber
+#1680798970
+ins helvum
+#1680799120
+gca implemented audio server options
+#1680799221
+r
+#1680799286
+gca removed update-mirrors script
+#1680799290
+r
+#1680799365
+gca updated README.md
+#1680799379
+gca updated TODO.md
+#1680799384
+rm TODO.md 
+#1680799389
+gca removed TODO.md
+#1680799392
+ls
+#1680799393
+r
+#1680799406
+gst
+#1680799426
+r
+#1680799439
+gca removed .env file
+#1680799459
+gca fixed typo
+#1680799469
+man reflector 
+#1680799502
+reflector --help
+#1680799508
+reflector --help | grep '-f'
+#1680799514
+reflector --help | grep "-f"
+#1680799518
+reflector --help | grep -f
+#1680799520
+reflector --help | grep f
+#1680799534
+reflector --help | grep l
+#1680799540
+gst
+#1680799555
+gca updated reflector arguments
+#1680799872
+gca updated pacman command 
+#1680800002
+gca updated reflector settings - get the latest 5 and fastest 3 out of them
+#1680800096
+gca added log message after reflector
+#1680800107
+r
+#1680800407
+gst
+#1680800411
+gca updated archy
+#1680800849
+gca updated docs
+#1680801714
+r
+#1680801757
+gca removed todos and irssi hint
+#1680801759
+r
+#1680801780
+gca renamed script to dots
+#1680801783
+r
+#1680801844
+q
+#1680801845
+cdw
+#1680801846
+cd dots/
+#1680803650
+q
