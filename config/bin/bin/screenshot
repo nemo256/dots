@@ -1,6 +1,7 @@
 #!/bin/sh
 
 scrot -b '%Y-%m-%d_%H-%M-%S.png' 1> /dev/null
+
 mv *.png $HOME/pix/scrots/
 
 notify-send "  Screenshot saved"
