@@ -86548,3 +86548,79 @@ weatherbar
 r
 #1680811294
 q
+#1680810265
+ls
+#1680810272
+cw
+#1680810276
+clear
+#1680810277
+ls
+#1680810416
+cd dots
+#1680810417
+ls
+#1680810418
+cdw
+#1680810418
+ls
+#1680810420
+cd dots
+#1680810421
+ls
+#1680810422
+gst
+#1680810433
+gca updated bashrc - new home dir
+#1680810508
+gst
+#1680810516
+gca updated ranger config - new home dir
+#1680810619
+ls
+#1680810632
+gst
+#1680810734
+gca updated commit message
+#1680810828
+r
+#1680810923
+gca updated screenshot scrit
+#1680810932
+gca updated screenshot script
+#1680810971
+gca updated screenshotselect script
+#1680811063
+gst
+#1680811068
+gca updated somafm script
+#1680811070
+somafm
+#1680811077
+somafm channels
+#1680811085
+somafm
+#1680811092
+somafm listen
+#1680811129
+somafm channels
+#1680811141
+somafm listen
+#1680811146
+somafm listen groovesalad
+#1680811298
+ls
+#1680811299
+gst
+#1680811311
+gca updated watch script - download directory
+#1680811313
+q
+#1680811314
+cdw
+#1680811316
+q
+#1680811317
+cdw
+#1680811319
+q

@@ -212,6 +212,8 @@ yarn global add weather-cli 1> /dev/null
 
 logo "Restoring home directory..."
 cd ${HOME} && mkdir vids work 1> /dev/null
+logo "Cloning wals..."
+[[ ! -d wals ]] && git clone https://github.com/nemo256/wals
 
 logo "Removing default configuration files..."
 rm -fvr ${HOME}/.bash* 1> /dev/null
