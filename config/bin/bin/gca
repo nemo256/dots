@@ -8,7 +8,7 @@
 msg=$@
 
 # if no argument is passed, initialize default commit.
-[[ -z $msg ]] && msg='Default commit message!'
+[[ -z $msg ]] && msg='default commit message!'
 
 # add, commit, and push to github
 git add -vA
