@@ -1,6 +1,3 @@
-# Irssi
-- add username and password
-
 # Chromium
 - sign in
 - install plugins:
