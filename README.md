@@ -43,7 +43,7 @@ dots/
 
 ## Install [Archlinux](https://archlinux.org/) 🔨
 - Follow this guide to create a bootable USB: [USB flash installation medium](https://wiki.archlinux.org/title/USB_flash_installation_medium)
-- Boot inside the arch installation.
+- Boot inside the arch installation medium.
 - Install arch using my script [Archy](https://github.com/nemo256/archy) 
 - Another way is using [archinstall](https://github.com/archlinux/archinstall) (you can check my archinstall configuration at [N3m0's archinstall config](https://github.com/nemo256/arch))
 > **_NOTE:_** If you are new to archlinux, I recommend following the [Arch Wiki](https://wiki.archlinux.org/title/installation_guide) for installing arch manually.
