@@ -86970,3 +86970,131 @@ q
 nvim .bash_history 
 #1680817488
 q
+#1680816434
+cd Work/
+#1680816434
+ls
+#1680816435
+cd dots
+#1680816436
+ls
+#1680816438
+gst
+#1680816447
+gca added virtual box packages
+#1680816842
+gst
+#1680816844
+gca updated dox
+#1680816896
+r
+#1680816907
+clone https://github.com/nemo256/arch
+#1680816909
+cd arch
+#1680816909
+ls
+#1680816910
+r
+#1680816931
+cd dos
+#1680816933
+cd dots
+#1680816934
+ls
+#1680816988
+gca updated dox
+#1680817001
+gst
+#1680817195
+ls
+#1680817369
+gst
+#1680817372
+gs
+#1680817376
+gd
+#1680817489
+gst
+#1680817493
+gca
+#1680817690
+gst
+#1680817714
+gca update font config on firefox - set the minimum font size and font family
+#1680817970
+ls
+#1680817979
+gst
+#1680817987
+cd Work
+#1680817989
+cd dots
+#1680817989
+ls
+#1680817992
+gst
+#1680818026
+q
+#1680818035
+ls
+#1680818038
+cdd
+#1680818039
+ls
+#1680818040
+q
+#1680818042
+r
+#1680818078
+gst
+#1680818116
+gca updated scrots - reformated to -Y-M-D_H-M-S.png
+#1680818122
+r
+#1680818194
+gca updated scrots - reformated to -Y-M-D_H-M-S.png
+#1680818196
+r
+#1680818214
+strings irssi.png 
+#1680818237
+strings -15 irssi.png 
+#1680818247
+strings -10 irssi.png 
+#1680818254
+strings -8 irssi.png 
+#1680818262
+clear
+#1680818262
+ls
+#1680818263
+r
+#1680818319
+..
+#1680818320
+gst
+#1680818330
+gca re-organized scrots
+#1680818331
+r
+#1680818379
+gca renamed old config scrots - old dots
+#1680818391
+sl
+#1680818393
+ls
+#1680818395
+clear
+#1680818395
+ls
+#1680818398
+cd mpv/
+#1680818398
+ls
+#1680818400
+gst
+#1680818402
+gst -u
+#1680818408
+q
