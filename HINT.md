@@ -6,6 +6,7 @@
 
 # Firefox
 - sign in
+- set font configuration
 - set network.protocol-handler.expose.magnet -> false (magnet links)
 - set layers.acceleration.force-enabled -> true (hardware acceleration)
 - install plugins:
