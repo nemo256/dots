@@ -13,8 +13,8 @@ transmission-daemon &
 # Setting up screen resolution for my display
 xrandr --output eDP1 --mode 1440x900 --set TearFree on +vsync -hsync
 # Setting up the background wallpaper
-feh --bg-fill --randomize $HOME/wals/*
-# feh --bg-fill $HOME/Pictures/Wallpapers/11.jpg
+# feh --bg-fill --randomize $HOME/wals/*
+feh --bg-fill $HOME/Pictures/Wallpapers/14.png
 # Starting up my compositor
 picom &
 # Defining key-repeat for keyboard to be much faster

@@ -86670,3 +86670,143 @@ q
 cw
 #1680811814
 q
+#1680811816
+xrc
+#1680811834
+cd Work/
+#1680811835
+cd dots
+#1680811836
+ls
+#1680811837
+gst
+#1680811861
+gca updated wals directory for setting the background using feh
+#1680811863
+q
+#1680811868
+exit
+#1680811888
+exi
+#1680811892
+exit
+#1680811899
+xrc
+#1680811907
+ls
+#1680811910
+cd wals
+#1680811910
+ls
+#1680811918
+r
+#1680811926
+q
+#1680811928
+exit
+#1680811932
+cleaar
+#1680811932
+q
+#1680811934
+clear
+#1680811934
+q
+#1680811935
+cw
+#1680811942
+cd wals
+#1680811942
+ls
+#1680811944
+git pull
+#1680811951
+grh
+#1680811952
+ls
+#1680811953
+q
+#1680811955
+exit
+#1680811959
+clear
+#1680811959
+ks
+#1680811960
+q
+#1680814211
+tremc -X
+#1680814223
+cd 
+#1680814228
+cd .tily
+#1680814234
+cd .build/tily/
+#1680814237
+v config.h
+#1680814250
+make
+#1680814254
+sudo make clean install
+#1680814272
+gca added -X flag to fix tremc - skip version check
+#1680814275
+q
+#1680811976
+cd .buid
+#1680811979
+cd .build/
+#1680811981
+cd tily/
+#1680811981
+gst
+#1680812002
+gca added wallpapers keybinding
+#1680812102
+gpm --force
+#1680812118
+r
+#1680812133
+gca fixed maintained badge
+#1680812150
+r
+#1680812254
+gca added demo gif
+#1680812762
+r
+#1680812790
+gca fixed demo extension
+#1680813008
+ls
+#1680813212
+setfont ter-132b
+#1680813284
+cd
+#1680813288
+cd Work/
+#1680813290
+cd archy/
+#1680813291
+ls
+#1680813293
+gst
+#1680813305
+gca added terminus console font settings
+#1680813917
+..
+#1680813918
+cd dots
+#1680813919
+ls
+#1680814276
+q
+#1680814330
+xrc
+#1680814350
+exit
+#1680814354
+cleaar
+#1680814355
+clear
+#1680814356
+q
