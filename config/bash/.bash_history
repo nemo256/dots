@@ -88124,3 +88124,249 @@ gca removed slock service
 q
 #1680900695
 r
+#1680900737
+cdd
+#1680900738
+ls
+#1680900738
+cd
+#1680900740
+cd dots
+#1680900740
+ls
+#1680900741
+gst
+#1680900757
+gca updated playsong dunst message
+#1680900896
+cdw
+#1680900898
+cd archy/
+#1680900899
+gst
+#1680900901
+r
+#1680900906
+gst
+#1680900907
+q
+#1680900917
+cdw
+#1680900922
+cd ekrili-frontend/
+#1680900923
+ls
+#1680900924
+gst
+#1680900926
+q
+#1680901066
+upd
+#1680901247
+q
+#1680901249
+upd
+#1680901258
+q
+#1680901259
+upd
+#1680901261
+q
+#1680901312
+tremc
+#1680901314
+tremc -X
+#1680901315
+q
+#1680901385
+htop
+#1680901485
+df
+#1680901491
+dm
+#1680901493
+mem
+#1680901496
+meminfo
+#1680901497
+q
+#1680901501
+htop
+#1680901818
+cd .config/htop
+#1680901818
+ls
+#1680901818
+r
+#1680901839
+q
+#1680901840
+htop
+#1680901941
+q
+#1680901945
+clear
+#1680901945
+q
+#1680901946
+ls
+#1680901949
+qq
+#1680901951
+q
+#1680904073
+cdw
+#1680904075
+clone https://github.com/Bugswriter/gcontacts-alternative
+#1680904077
+r
+#1680904087
+gst
+#1680904089
+q
+#1680906143
+cdw
+#1680906146
+cd ekrili-frontend/
+#1680906147
+ls
+#1680906158
+gca updated remote api link
+#1680906177
+r
+#1680906312
+..
+#1680906313
+gst
+#1680906320
+git checkout homepage
+#1680906324
+git pull
+#1680906328
+gst
+#1680906330
+q
+#1680904111
+cdw
+#1680904112
+r
+#1680904115
+clone https://github.com/nemo256/gcontacts-alternative
+#1680904118
+cd gcontacts-alternative/
+#1680904118
+r
+#1680904126
+gst
+#1680904143
+gca added -r for requirements.txt
+#1680905616
+git branch
+#1680905622
+git branch list
+#1680905625
+man git branch
+#1680905644
+git branch all
+#1680905646
+git branch --a;;
+#1680905649
+git branch --all
+#1680905656
+git branch list
+#1680905661
+git branch --list
+#1680905666
+man git branch
+#1680905680
+git branch -a
+#1680905721
+gst
+#1680905738
+git checkout feature/Meryam/Authentification
+#1680905778
+ls
+#1680905778
+..
+#1680905782
+cd ekrili-frontend/
+#1680905783
+git checkout feature/Meryam/Authentification
+#1680905790
+git pull
+#1680905798
+yarn build
+#1680905862
+r
+#1680905903
+yarn build
+#1680905921
+gaa
+#1680905941
+gc 'fixed build errors'
+#1680905955
+git push origin feature/Meryam/Authentification
+#1680906061
+git checkout master
+#1680906063
+git pull
+#1680906071
+yarn dev
+#1680906335
+yarn build
+#1680906590
+gst
+#1680906591
+q
+#1680906591
+cdd
+#1680906592
+ls
+#1680906592
+r
+#1680906791
+q
+#1680906792
+cdd
+#1680906793
+ls
+#1680906796
+rm Untitled.DS_Store 
+#1680906797
+ls
+#1680906798
+lclear
+#1680906799
+clear
+#1680906799
+ls
+#1680906800
+q
+#1680906819
+cdd
+#1680906819
+ls
+#1680910126
+cdd
+#1680910126
+ls
+#1680910127
+q
+#1680910129
+ls
+#1680910130
+q
+#1680910132
+cdw
+#1680910133
+ls
+#1680910134
+cdW
+#1680910134
+ls
+#1680910136
+cd
+#1680910137
+ls
+#1680910138
+q
