@@ -87608,3 +87608,493 @@ cd dots
 ls
 #1680830042
 q
+#1680830052
+cd dots
+#1680830073
+cd
+#1680830076
+cd .config/nvim/
+#1680830077
+r
+#1680830096
+..
+#1680830098
+gst
+#1680830099
+..
+#1680830101
+cd dots
+#1680830102
+ls
+#1680830109
+gca remaped c-w
+#1680830115
+q
+#1680830189
+cat /etc/systemd/system/slock\@.service 
+#1680830209
+slock
+#1680830247
+ls
+#1680830254
+q
+#1680830125
+cd dots
+#1680830126
+ls
+#1680830355
+r
+#1680830376
+cd
+#1680830378
+cd dots
+#1680830379
+ls
+#1680830380
+gst
+#1680830392
+gd
+#1680830397
+q
+#1680830119
+cd dots
+#1680830120
+ls
+#1680830121
+r
+#1680830756
+clear
+#1680830757
+q
+#1680830758
+clear
+#1680830758
+q
+#1680830760
+clear
+#1680830761
+q
+#1680830762
+cdw
+#1680830763
+ls
+#1680830765
+cd archy/
+#1680830765
+ls
+#1680830766
+q
+#1680879749
+clear
+#1680879749
+q
+#1680883772
+cdw
+#1680883780
+clone https://github.com/nemo256/portfolio
+#1680883783
+r
+#1680883822
+..
+#1680883822
+r
+#1680883826
+q
+#1680885104
+cd
+#1680885105
+cdd
+#1680885106
+ls
+#1680885107
+r
+#1680885201
+nvim Ekrili_LogoSVG-01.svg 
+#1680886061
+r
+#1680886064
+q
+#1680879754
+ls
+#1680879757
+cdw
+#1680879758
+ls
+#1680879760
+cd ekrili-frontend/
+#1680879761
+yarn dev
+#1680879765
+git pull
+#1680879774
+yarn dev
+#1680879816
+gs
+#1680879955
+yarn dev
+#1680880194
+grh
+#1680880196
+gst
+#1680880229
+git branch -m homepage
+#1680880232
+gst
+#1680880244
+yarn dev
+#1680881192
+gst
+#1680882538
+gaa
+#1680882550
+gc 'fixed navbar links and added a footer'
+#1680882673
+gst
+#1680882674
+gaa
+#1680882690
+gc 'updated anchor tags to next links'
+#1680882841
+gst
+#1680882844
+gaa
+#1680882858
+gc 'updated navbar logo to a random svg'
+#1680882867
+git push origin homepage
+#1680883603
+gst
+#1680883646
+gaa
+#1680883655
+gc 'updated footer positioning'
+#1680883661
+git push origin homepage
+#1680884181
+gst
+#1680884181
+gaa
+#1680884187
+gc 'updated footer style'
+#1680884199
+git push origin homepage'
+#1680884203
+git push origin homepage
+#1680884626
+gst
+#1680884627
+gaa
+#1680884635
+gc 'updated footer for mobile devices'
+#1680884645
+git push origin homepage
+#1680884876
+gst
+#1680884876
+gaa
+#1680884888
+gc 'removed xmlns on footer svgs'
+#1680884910
+gaa
+#1680884918
+gc 'removed xmlns on navbar svg'
+#1680884960
+gaa
+#1680884970
+gc 'updated navbar svg hover effect'
+#1680884981
+git push origin homepage
+#1680885329
+gst
+#1680887248
+gaa
+#1680887265
+gc 'updated wrapper div styling'
+#1680887274
+git push origin homepage
+#1680887278
+q
+#1680880527
+cdw
+#1680880530
+cd ekrili-frontend/
+#1680880531
+gst
+#1680880535
+gaa
+#1680880547
+gc 'fixed navbar on mobile'
+#1680880556
+git push origin homepage
+#1680880807
+gst
+#1680880808
+gaa
+#1680880818
+gc 'fixed search bar position'
+#1680880825
+git push origin homepage
+#1680880884
+..
+#1680880884
+ls
+#1680880888
+clone https://github.com/schemsou/ekrili
+#1680880895
+r
+#1680881130
+yarn dev
+#1680881133
+yarn
+#1680881142
+yarn dev
+#1680881184
+..
+#1680881187
+cd ekrili-frontend/
+#1680881189
+yarn dev
+#1680887280
+yarn build
+#1680887344
+ls
+#1680887345
+clear
+#1680887346
+q
+#1680887350
+qq
+#1680887350
+q
+#1680886067
+cdw
+#1680886068
+r
+#1680886851
+clone https://github.com/nemo256/qafilaty-test
+#1680886853
+r
+#1680887449
+cdd
+#1680887449
+ls
+#1680887452
+python code
+#1680887456
+python code.py 
+#1680887531
+r
+#1680887537
+python convertme.py 
+#1680887563
+r
+#1680887612
+python fixme1.py 
+#1680887618
+r
+#1680887628
+python fixme1.py 
+#1680887644
+r
+#1680887650
+q
+#1680887658
+clear
+#1680887658
+q
+#1680895919
+cdw
+#1680895920
+cd archy/
+#1680895977
+sudo systemctl enable --now slock@n3m0.service
+#1680896053
+ls
+#1680896054
+gst
+#1680896060
+gca updated services management
+#1680896065
+r
+#1680896107
+gst
+#1680896107
+q
+#1680896117
+setfont ter-v32b
+#1680896120
+setfont ter-132b
+#1680896125
+setfont ter-v32b
+#1680896128
+clear
+#1680896128
+ls
+#1680896133
+setfont ter-132b
+#1680896134
+ls
+#1680896141
+setfont ter-v32b
+#1680896142
+clear
+#1680896142
+ls
+#1680896147
+setfont ter-132b
+#1680896149
+clear
+#1680896149
+ls
+#1680896153
+exit
+#1680896161
+q
+#1680896163
+xrc
+#1680896283
+cdw
+#1680896284
+cd ekrili
+#1680896286
+git pull
+#1680896307
+ls
+#1680896312
+yarn dev
+#1680896316
+r
+#1680896366
+yarn 
+#1680896374
+yarn start
+#1680897697
+q
+#1680896273
+cdw
+#1680896276
+cd ekrili-frontend/
+#1680896277
+ls
+#1680896279
+yarn dev
+#1680898472
+yarn build
+#1680898502
+ls
+#1680898516
+q
+#1680896511
+cdw
+#1680896517
+clone https://github.com/herdoycode/http-app-axios/tree/main/http-app
+#1680896533
+clone https://github.com/herdoycode/http-app-axios/
+#1680896535
+r
+#1680896771
+curl https://localhost:8000/api/annonces
+#1680896847
+r
+#1680897614
+cdw
+#1680897618
+cd ekrili-frontend/
+#1680897618
+gst
+#1680897621
+gaa
+#1680897642
+gc 'fetch from the local api - /api/annonces'
+#1680897649
+git push origin homepage
+#1680897659
+gaa
+#1680897686
+gc 'updated card layout on mobile, ipad, normal laptop screens and large screens'
+#1680897701
+gst
+#1680898234
+wget https://node-express-deploy-h1jp.onrender.com/api/annonces
+#1680898236
+r
+#1680898449
+gst
+#1680898453
+gaa
+#1680898461
+git push origin homepage
+#1680898629
+gaa
+#1680898645
+gc 'fixed maintenance badge'
+#1680898651
+git push origin homepage
+#1680898987
+ls
+#1680899002
+git checkout master
+#1680899003
+r
+#1680899021
+git pull
+#1680899066
+gca testing deployment
+#1680899118
+yarn dev
+#1680899166
+gst
+#1680899191
+gca remote api test succeeded - added the remote api link
+#1680899874
+gst
+#1680899880
+git checkout homepage
+#1680899885
+git pull
+#1680900449
+q
+#1680900450
+ls
+#1680900451
+q
+#1680900452
+cdw
+#1680900453
+s
+#1680900454
+sl
+#1680900454
+ls
+#1680900454
+q
+#1680900455
+ls
+#1680900457
+cdw
+#1680900457
+ls
+#1680900464
+rm http-app/
+#1680900466
+ls
+#1680900471
+rm qafilaty-test/
+#1680900471
+ls
+#1680900474
+rm portfolio/
+#1680900475
+ls
+#1680900477
+q
+#1680900478
+ls
+#1680900481
+cd dots
+#1680900482
+ls
+#1680900482
+r
+#1680900609
+echo $USER

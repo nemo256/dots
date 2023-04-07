@@ -248,4 +248,8 @@ cd ${HOME}/.config/ranger/plugins/ranger_devicons/ 1> /dev/null
 python -m devicons 1> /dev/null
 cd ${HOME} 1> /dev/null
 
+logo "Managing Essential Services..."
+sudo systemctl disable transmission.service
+sudo systemctl enable  slock@${USER}.service
+
 logo "Done - Script finished installing and configuring n3m0's dots!"
