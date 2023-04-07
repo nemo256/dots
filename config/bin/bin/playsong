@@ -2,4 +2,4 @@
 
 NP=$(mpc current) 
 
-notify-send "  NoW PLaY'iN:  ${NP}"
+notify-send "  ${NP}"
