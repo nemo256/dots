@@ -87098,3 +87098,63 @@ gst
 gst -u
 #1680818408
 q
+nmtui
+clear
+ping google.com
+ping google.com
+sudo systemctl disable dhcpcd
+ping google.com
+sudo systemctl stop dhcpcd
+ping google.com
+sudo systemctl enable --now NetworkManager
+ping google.com
+ping google.com
+nmtui
+clear
+ping google.com
+git clone https://github.com/nemo256/dots
+cd dots
+./dots
+exit
+#1680825689
+clear
+#1680825689
+q
+#1680825690
+clear
+#1680825690
+q
+#1680826148
+cd dots
+#1680826149
+r
+#1680826159
+q
+#1680825774
+rm Downloads
+#1680826061
+cdw
+#1680826073
+clone https://github.com/nemo256/archy
+#1680826076
+cd archy/
+#1680826076
+ls
+#1680826077
+r
+#1680826162
+cdw
+#1680826163
+cd archy/
+#1680826163
+ls
+#1680826165
+gst
+#1680826364
+gca updated grub configuration
+#1680826380
+gca removed dhcpcd 
+#1680826495
+gst
+#1680826496
+q
