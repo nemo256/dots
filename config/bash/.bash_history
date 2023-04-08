@@ -88370,3 +88370,293 @@ cd
 ls
 #1680910138
 q
+#1680910922
+zsh
+#1680910939
+ls
+#1680910943
+cd dots
+#1680910944
+ls
+#1680910944
+r
+#1680910958
+gst
+#1680910962
+gs
+#1680910967
+gd
+#1680910992
+gca updated htop config and removed zsh
+#1680913916
+q
+#1680913919
+cd dots
+#1680913919
+ls
+#1680913920
+gst
+#1680913922
+q
+#1680955486
+brc
+#1680955690
+cd dots
+#1680955691
+gst
+#1680955693
+q
+#1680955509
+man git commit
+#1680955712
+htop
+#1680955755
+q
+#1680956262
+cdw
+#1680956265
+cd ekrili-frontend/
+#1680956265
+ls
+#1680956267
+gst
+#1680956270
+gaa
+#1680956383
+git commit
+#1680956440
+git push origin homepage
+#1680959400
+gst
+#1680959403
+gst -u
+#1680959406
+gaa
+#1680959436
+gc 'fix #5: updated searchbar position on both desktop and mobile screens'
+#1680959442
+git push origin homepage
+#1680959671
+gst
+#1680959852
+gaa
+#1680959890
+gc 'update card elements font size'
+#1680959904
+git push origin homepage
+#1680960126
+gst
+#1680960128
+gaa
+#1680960144
+gc 'removed ekrili from copyright'
+#1680960150
+git push origin homepage
+#1680960156
+git checkout master
+#1680960159
+git pull
+#1680960165
+git checkout homepage
+#1680960178
+git pull
+#1680960186
+gst
+#1680960193
+gaa
+#1680960201
+git push
+#1680960207
+git push origin homepage
+#1680960212
+gst
+#1680960250
+gd
+#1680960251
+gs
+#1680961185
+gst
+#1680961186
+gaa
+#1680961224
+gc 'add link underline animation on navbar'
+#1680961230
+git push origin homepage
+#1680961523
+gst
+#1680961524
+gaa
+#1680961533
+gc 'add link underline animation on navbar - for mobile'
+#1680961565
+git push origin homepage
+#1680961622
+git pull
+#1680961634
+gst
+#1680961862
+git checkout master
+#1680961868
+git pull
+#1680961888
+gst
+#1680961899
+gca testing underline animation on mobile
+#1680962173
+gca removed underline animation on mobile and fixed link styling
+#1680962181
+gst
+#1680962187
+git checkout homepage
+#1680962189
+git pull
+#1680962234
+ls
+#1680962283
+git checkout master
+#1680962317
+gca fixed logo position on mobile
+#1680962322
+git checkout homepage
+#1680962325
+git pull
+#1680966858
+gst
+#1680955466
+cdw
+#1680955469
+cd ekrili-frontend/
+#1680955470
+ls
+#1680955473
+gst
+#1680955695
+yarn dev
+#1680955768
+git pull
+#1680955791
+yarn dev
+#1680972118
+upd
+#1680972186
+htop
+#1680972494
+q
+#1680982681
+r
+#1680982684
+q
+#1680982691
+ls
+#1680982713
+exit
+#1680982717
+ls
+#1680982718
+q
+#1680982859
+ls
+#1680982860
+q
+#1680982865
+ls
+#1680982869
+q
+#1680982882
+df -h
+#1680982889
+ls
+#1680982893
+df -h
+#1680982937
+lsblk
+#1680983009
+q
+#1680986132
+htop
+#1680988993
+paru -S protonvpn-cli
+#1680989020
+paru -S --noconfirmprotonvpn-cli
+#1680989022
+paru -S --noconfirm protonvpn-cli
+#1680989062
+q
+#1680989063
+ls
+#1680989064
+q
+#1680989178
+myip
+#1680989184
+mylip
+#1680989188
+myip
+#1680989199
+ins protonvpn
+#1680989203
+q
+#1680989065
+ls
+#1680989073
+protonvpn-cli login
+#1680989102
+protonvpn-cli login nemo709
+#1680989121
+cdb
+#1680989121
+ls
+#1680989126
+cat vpn 
+#1680989137
+protonvpn connect
+#1680989147
+protonvpn-cli connect
+#1680989153
+protonvpn-cli connect --fastest
+#1680989218
+sudo protonvpn-cli connect --fastest
+#1680989227
+protonvpn-cli connect --fastest
+#1680989284
+protonvpn-cli disconnect
+#1680989288
+protonvpn-cli connect --fastest
+#1680989303
+protonvpn-cli disconnect
+#1680989308
+protonvpn-cli connect --fastest
+#1680989320
+protonvpn-cli disconnect
+#1680989378
+protonvpn-cli config --help
+#1680989412
+protonvpn-cli connect --vpn-acceleratot
+#1680989413
+protonvpn-cli connect --vpn-accelerator
+#1680989427
+protonvpn-cli config --vpn-accelerator
+#1680989439
+protonvpn-cli config --vpn-accelerator enable
+#1680989450
+protonvpn-cli connect --fastest
+#1680989457
+protonvpn-cli disconnect
+#1680989555
+export $(dbus-launch)
+#1680989557
+protonvpn-cli disconnect
+#1680989560
+protonvpn-cli connect --fastest
+#1680989566
+protonvpn-cli disconnect
+#1680989596
+cd
+#1680989598
+cd dots
+#1680989598
+ls
+#1680989599
+r
+#1680989645
+q
