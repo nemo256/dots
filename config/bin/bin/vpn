@@ -1,10 +1,10 @@
 #!/bin/sh
 
-if `protonvpn s | grep -q Connected`;
+if `protonvpn-cli s | grep -q Connected`;
 then
     notify-send "  VPN Disconnected!"
-    sudo protonvpn disconnect
+    protonvpn-cli disconnect
 else
     notify-send "  VPN Connected!"
-    sudo protonvpn connect --fastest
+    protonvpn-cli connect --fastest
 fi
