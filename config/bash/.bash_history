@@ -88702,3 +88702,241 @@ protonvpn-cli d
 clear
 #1680989945
 q
+#1680989975
+ls
+#1680989988
+vpn
+#1680989993
+cdb
+#1680989994
+ls
+#1680989994
+r
+#1680990007
+vpn
+#1680990021
+v vpn 
+#1680990029
+..
+#1680990030
+cd dots
+#1680990031
+gst
+#1680990035
+gca updated vpn script
+#1680990043
+protonvpn-cli d
+#1680990045
+gca updated vpn script
+#1680990049
+clear
+#1680990049
+q
+#1680990050
+ls
+#1680990100
+ins openvpn
+#1680990257
+protonvpn-cli c
+#1680990315
+protonvpn-cli d
+#1680990317
+protonvpn-cli c
+#1680990356
+protonvpn-cli d
+#1680990391
+protonvpn-cli ks -off
+#1680990401
+protonvpn-cli ks --off
+#1680990405
+protonvpn-cli c
+#1680990411
+protonvpn-cli c -f
+#1680990448
+protonvpn-cli d
+#1680990476
+nm-applet
+#1680990495
+ins network-manager-applet
+#1680990502
+nm-applet &
+#1680990505
+protonvpn-cli c -f
+#1680990535
+protonvpn-cli c
+#1680990537
+protonvpn-cli d
+#1680990539
+protonvpn-cli c
+#1680990566
+protonvpn-cli c -f
+#1680990604
+rem network-manager-applet
+#1680990608
+q
+#1680990609
+ls
+#1680990610
+q
+#1680990622
+killall nm-applet
+#1680990624
+ls
+#1680990625
+q
+#1680990646
+protonvpn-cli d
+#1680990675
+ls
+#1680990678
+protonvpn-cli c
+#1680990699
+man protonvpn-cli
+#1680990703
+protonvpn-cli
+#1680990785
+protonvpn-cli config
+#1680990816
+protonvpn-cli config -l
+#1680990837
+protonvpn-cli c
+#1680990839
+protonvpn-cli d
+#1680990841
+protonvpn-cli c
+#1680990875
+protonvpn-cli d
+#1680990920
+ournalctl -eu NetworkManager
+#1680990922
+journalctl -eu NetworkManager
+#1680990984
+ps -aux | grep gnome
+#1680991084
+r
+#1680991093
+unzip ProtonVPN_server_configs.zip 
+#1680991094
+r
+#1680991262
+openvpn
+#1680991273
+openvpn jp-free-01.protonvpn.net.udp.ovpn 
+#1680991288
+r
+#1680991315
+cdd
+#1680991317
+ls
+#1680991323
+r
+#1680991347
+sudo cp jp-free-01.protonvpn.net.udp.ovpn /etc/openvpn/client/
+#1680991348
+ls
+#1680991370
+sudo openvpn /etc/openvpn/client/*
+#1680991385
+sudo openvpn /etc/openvpn/client/jp-free-01.protonvpn.net.udp.ovpn
+#1680991392
+sudo rm /etc/openvpn/client/jp-free-01.protonvpn.net.udp.ovpn
+#1680991393
+ls
+#1680991396
+r
+#1680991405
+q
+#1680991406
+cdd
+#1680991406
+ls
+#1680991406
+r
+#1680991408
+q
+#1680991468
+paru -S --noconfirm protonvpn
+#1680991507
+protonvpn
+#1680991523
+paru -Rs protonvpn
+#1680991527
+q
+#1680991528
+ls
+#1680991528
+q
+#1680991548
+protonvpn-cli c
+#1680991600
+protonvpn-cli d
+#1680991832
+ins gnome-keyring
+#1680991843
+ins network-manager-applet
+#1680991848
+protonvpn-cli c
+#1680991854
+protonvpn-cli c -f
+#1680991862
+nm-applet &
+#1680991864
+protonvpn-cli c -f
+#1680991868
+protonvpn-cli d
+#1680991870
+protonvpn-cli c -f
+#1680992122
+reboot
+#1680992151
+nm-applet &
+#1680992158
+protonvpn-cli c -f
+#1680992172
+clear
+#1680992173
+ls
+#1680992173
+q
+#1680992175
+ls
+#1680992176
+q
+#1680992354
+rem network-manager-applet
+#1680992360
+rem gnome-keyring
+#1680992366
+rem protonvpn
+#1680992368
+ls
+#1680992368
+q
+#1680992369
+ls
+#1680992369
+q
+#1680992373
+clear
+#1680992373
+q
+#1681059659
+upd
+#1681059969
+cdw
+#1681059979
+cd ekrili-frontend/
+#1681059982
+gst
+#1681059993
+git pull
+#1681060038
+git checkout master
+#1681060039
+git pull
+#1681060047
+git checkout homepage
+#1681060052
+git pull
+#1681071762
+q
