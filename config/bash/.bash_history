@@ -88940,3 +88940,469 @@ git checkout homepage
 git pull
 #1681071762
 q
+#1681083598
+cd dots
+#1681083598
+ls
+#1681083600
+gst
+#1681083602
+gca
+#1681084533
+q
+#1681127798
+clear
+#1681127799
+q
+#1681128104
+cdw
+#1681128107
+cd ekrili-frontend/
+#1681128120
+ag class
+#1681128136
+ag 'class='
+#1681128171
+ag 'class="'
+#1681128214
+gst
+#1681128217
+git pull
+#1681128236
+ls
+#1681128267
+gst
+#1681128274
+git checkout master
+#1681128276
+git pull
+#1681128281
+git checkout homepage
+#1681128282
+ls
+#1681128044
+cd ekril
+#1681128047
+cdw
+#1681128050
+cd ekrili-frontend/
+#1681128051
+ls
+#1681128052
+yarn dev
+#1681128325
+q
+#1681128339
+clear
+#1681128339
+q
+#1681128346
+ls
+#1681128346
+q
+#1681128347
+upd
+#1681128361
+clear
+#1681128362
+q
+#1681128382
+htop
+#1681128450
+q
+#1681128452
+htop
+#1681129677
+yarn global add @aweary/alder
+#1681129683
+alder
+#1681129691
+which alder
+#1681129696
+tree
+#1681129709
+sudo yarn global add @aweary/alder
+#1681129716
+alder
+#1681129737
+sudo yarn global remove @aweary/alder
+#1681129742
+yarn global add @aweary/alder
+#1681129745
+alder
+#1681129754
+which alder
+#1681129755
+q
+#1681129666
+cd dots
+#1681129666
+ls
+#1681129667
+r
+#1681129760
+q
+#1681141656
+cdw
+#1681141661
+clone https://github.com/nemo256/landy
+#1681141666
+q
+#1681129222
+cdw
+#1681129225
+cd ekrili-frontend/
+#1681129226
+ls
+#1681129227
+gst
+#1681129635
+ls
+#1681129638
+ls src/
+#1681129639
+tree
+#1681129642
+alder
+#1681129644
+ins alder
+#1681129761
+ls
+#1681129766
+ls src/pages/
+#1681129773
+ls
+#1681130116
+wget https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg
+#1681130118
+r
+#1681130124
+nvim Flag_of_France.svg 
+#1681130130
+r
+#1681130133
+gst
+#1681132812
+gaa
+#1681132823
+gc 'add language dropdown layout'
+#1681132828
+git push origin homepage
+#1681133304
+cd public/
+#1681133304
+ls
+#1681133307
+wget https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg
+#1681133308
+r
+#1681133326
+nvim en.svg 
+#1681133748
+rm en.svg 
+#1681133750
+r
+#1681133752
+gst
+#1681133754
+gs
+#1681133759
+gaa
+#1681133768
+gc 'removed language svgs'
+#1681133775
+git push origin homepage
+#1681133870
+gaa
+#1681133873
+gd
+#1681133874
+gs
+#1681133881
+gaa
+#1681133889
+gc 'rename languages'
+#1681133895
+git push origin homepage
+#1681135022
+gaa
+#1681135030
+gc 'add login button'
+#1681135036
+git push origin homepage
+#1681136004
+gst
+#1681136005
+gaa
+#1681136013
+gc 'added login button on mobile'
+#1681136016
+git push origin homepage
+#1681136141
+gst
+#1681136142
+gs
+#1681136147
+gd
+#1681136151
+gaa
+#1681136169
+gc 'fix language onMouse event'
+#1681136172
+git push origin homepage
+#1681136512
+gst
+#1681136514
+gaa
+#1681136533
+gc 'fix rounded main section and footer'
+#1681136538
+git push origin homepage
+#1681136968
+gst
+#1681136969
+gaa
+#1681136980
+gc 'fix login nowrap'
+#1681136986
+git push origin homepage
+#1681137211
+gst
+#1681137212
+gaa
+#1681137217
+gc 'update footer design
+
+'
+#1681137251
+gaa
+#1681137279
+gc 'fix #7: footer design'
+#1681137284
+git push origin homepage
+#1681137302
+git pull
+#1681137346
+yarn build
+#1681137388
+git pull
+#1681137404
+git checkout master
+#1681137405
+git pull
+#1681137414
+git checkout homepage
+#1681137417
+git pull
+#1681137424
+gst
+#1681137436
+gs
+#1681137437
+gd
+#1681137906
+gst
+#1681137910
+gaa
+#1681137927
+gc 'fix navbar hamburger menu on mobile'
+#1681137933
+git push origin homepage
+#1681138541
+gst
+#1681138542
+gaa
+#1681138552
+gc 'fix language and login position'
+#1681138559
+git push origin homepage
+#1681140112
+gst
+#1681140113
+gaa
+#1681140126
+gc 'add underline decoration to call to text'
+#1681140131
+git push origin homepage
+#1681140562
+gst
+#1681140562
+gaa
+#1681140564
+gst
+#1681140565
+gs
+#1681140571
+gd
+#1681140573
+gaa
+#1681140584
+gc 'update hero title position'
+#1681141443
+gst
+#1681141444
+gaa
+#1681141623
+gc 'add hero section - call to action title and usefull links'
+#1681141628
+git push origin homepage
+#1681141731
+gst
+#1681141732
+gaa
+#1681141750
+gc 'add call button link'
+#1681141754
+git push origin homepage
+#1681141789
+git log
+#1681141854
+gst
+#1681141863
+git checkout master
+#1681141865
+git pull
+#1681141871
+git checkout homepage
+#1681141875
+git pull
+#1681141878
+ls
+#1681141911
+gst
+#1681141912
+gaa
+#1681141916
+gc 'fix typo'
+#1681141922
+git push origin homepage
+#1681142030
+gaa
+#1681142043
+gc 'update margins and paddings - hero section'
+#1681142048
+git push origin homepage
+#1681142111
+gst
+#1681142115
+git pull
+#1681142130
+git checkout master
+#1681142132
+git pull
+#1681142137
+git checkout homepage
+#1681142139
+git pull
+#1681142142
+ls
+#1681142158
+q
+#1681129213
+cdw
+#1681129215
+cd ekrili
+#1681129216
+ls
+#1681129217
+..
+#1681129218
+cd ekrili-frontend/
+#1681129219
+ls
+#1681129220
+yarn dev
+#1681142159
+q
+#1681144662
+paru -Rs --noconfirm protonvpn-cli
+#1681144667
+q
+#1681144677
+paru -Rs --noconfirm protonvpn
+#1681144699
+rem network-manager-applet
+#1681144708
+rem gnome-keyring openvpn
+#1681144710
+rem gnome-keyring
+#1681144714
+rem openvpn
+#1681144720
+q
+#1681144727
+rem protonvpn
+#1681144736
+ins helvum
+#1681144740
+rem helvum
+#1681144763
+q
+#1681144764
+ls
+#1681144765
+q
+#1681144765
+ls
+#1681144766
+q
+#1681144770
+clear
+#1681144771
+q
+#1681144778
+reboot
+#1681147402
+q
+#1681147414
+cdw
+#1681147416
+cd ekrili-frontend/
+#1681147417
+ls
+#1681147551
+gst
+#1681147554
+git pull
+#1681147642
+gst
+#1681147686
+ls src/pages/
+#1681148232
+gst
+#1681148235
+gst -u
+#1681148237
+q
+#1681147407
+cdw
+#1681147410
+cd ekrili-frontend/
+#1681147413
+yarn dev
+#1681148239
+q
+#1681148242
+cdw
+#1681148245
+cd ekrili-frontend/
+#1681148248
+git checkout master
+#1681148249
+git pull
+#1681148252
+gst
+#1681148262
+git checkout homepage
+#1681148263
+ls
+#1681148264
+gst
+#1681148265
+git pull
+#1681148274
+q
+#1681148284
+xrc
+#1681148315
+exit
