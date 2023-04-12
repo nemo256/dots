@@ -14,7 +14,7 @@ transmission-daemon &
 xrandr --output eDP1 --mode 1440x900 --set TearFree on +vsync -hsync
 # Setting up the background wallpaper
 # feh --bg-fill --randomize $HOME/wals/*
-feh --bg-fill $HOME/wals/3.png
+feh --bg-fill $HOME/wals/13.png
 # Starting up my compositor
 picom &
 # Defining key-repeat for keyboard to be much faster
