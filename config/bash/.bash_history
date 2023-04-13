@@ -89672,3 +89672,119 @@ r
 nvim house_PerMonth_Dinars\(2062\).xlsx 
 #1681327224
 q
+#1681333344
+xrc
+#1681333352
+cd dots
+#1681333352
+ls
+#1681333353
+gst
+#1681333357
+gca updated wallpaper
+#1681333362
+q
+#1681334216
+cdw
+#1681334218
+cd kahina/
+#1681334454
+r
+#1681334712
+cdw
+#1681334715
+cd kahina/
+#1681334716
+r
+#1681334806
+unzip attachments
+#1681334810
+r
+#1681333963
+cdw
+#1681333968
+mkdir kahina
+#1681333982
+r
+#1681334067
+unzip admin.zip 
+#1681334067
+r
+#1681334080
+unzip attachments.zip 
+#1681334099
+unzip attachments(1).zip
+#1681334107
+r
+#1681334120
+unzip attachments.zip 
+#1681334120
+r
+#1681334128
+unzip attachments.zip 
+#1681334138
+r
+#1681334143
+unzip css.zip 
+#1681334144
+r
+#1681334152
+unzip fonts.zip 
+#1681334153
+r
+#1681334174
+sudo php -S localhost:3000
+#1681334177
+ins php
+#1681334183
+upd
+#1681334194
+ins php
+#1681334201
+sudo php -S localhost:3000
+#1681334600
+r
+#1681334615
+mkdir admin
+#1681334615
+r
+#1681334623
+mkdir css fonts img
+#1681334623
+r
+#1681334633
+unzip css.zip 
+#1681334633
+r
+#1681334638
+unzip admin.zip 
+#1681334638
+r
+#1681334648
+unzip fonts.zip 
+#1681334648
+r
+#1681334663
+unzip attachments\(3\).zip 
+#1681334668
+r
+#1681334688
+sudo php -S localhost:3000
+#1681371110
+1
+#1681371111
+q
+#1681371112
+q
+#1681382499
+ls
+#1681382499
+q
+#1681382500
+ls
+#1681382501
+q
+#1681382502
+ls
+#1681382502
+q

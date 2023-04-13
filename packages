@@ -36,6 +36,7 @@ wireless_tools
 #######################
 #    User specific    #
 #######################
+cmatrix
 docker
 dsniff
 dunst
@@ -50,6 +51,7 @@ gptfdisk
 gtk2
 htop
 irssi
+lolcat
 lynx
 mpc
 mpd
