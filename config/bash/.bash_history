@@ -89788,3 +89788,889 @@ q
 ls
 #1681382502
 q
+#1681382786
+ls
+#1681382788
+hack
+#1681382793
+ins cmatrix
+#1681382800
+hack
+#1681382804
+ins lolcat
+#1681382849
+hack
+#1681382812
+cd dots
+#1681382813
+ls
+#1681382816
+nvim packages 
+#1681382841
+gst
+#1681382846
+gca added lolcat and cmatrix
+#1681382853
+ls
+#1681382855
+q
+#1681382859
+ip all
+#1681382861
+ip a
+#1681383666
+r
+#1681384298
+q
+#1681384378
+r
+#1681384397
+python fixme2.py 
+#1681384398
+r
+#1681384415
+python fixme2.py 
+#1681387483
+q
+#1681387082
+nc saturn.picoctf.net 53638
+#1681387120
+nc saturn.picoctf.net 53638 > file.py
+#1681387125
+python file.py 
+#1681387127
+r
+#1681387137
+python file.py 
+#1681387141
+r
+#1681387172
+python file.py 
+#1681387188
+nc saturn.picoctf.net 52679
+#1681387291
+r
+#1681387309
+mkdir pw_crack1
+#1681387311
+cd pw_crack1/
+#1681387312
+r
+#1681387318
+ls
+#1681387319
+r
+#1681387325
+pytho level1.py 
+#1681387328
+python level1.py 
+#1681387332
+r
+#1681387344
+python level1.py 
+#1681387350
+r
+#1681387380
+python level1.py
+#1681387400
+ls
+#1681387401
+..
+#1681387405
+mkdri pw_crack2
+#1681387411
+mkdir pw_crack2
+#1681387412
+ls
+#1681387412
+r
+#1681387489
+python level2.py 
+#1681387516
+ls
+#1681387516
+r
+#1681387568
+python level3.py 
+#1681387571
+r
+#1681387608
+bvi level3.hash.bin
+#1681387610
+ins bvi
+#1681387627
+paru -S bvi
+#1681387667
+bvi level3.hash.bin
+#1681387465
+nvim test
+#1681387472
+python
+#1681388419
+q
+#1681387717
+cdw
+#1681387720
+cd picoCTF/
+#1681387721
+ls
+#1681387721
+r
+#1681387744
+bvi level3.hash.bin
+#1681387795
+python level3.py 
+#1681387820
+man bvi
+#1681387883
+r
+#1681387996
+bvi level3.hash.bin
+#1681388186
+r
+#1681388438
+q
+#1681388422
+cdw
+#1681388426
+cd picoCTF/pw_crack4
+#1681388427
+ls
+#1681388431
+v level4.py 
+#1681388216
+cdw
+#1681388217
+cd picoCTF/
+#1681388218
+ls
+#1681388221
+cd pw_crack3/
+#1681388221
+ls
+#1681388228
+python level3.py 
+#1681388296
+r
+#1681388442
+python level4.py
+#1681388553
+r
+#1681388643
+cdw
+#1681388649
+cd picoCTF/pw_crack5/
+#1681388651
+ls
+#1681388656
+python level5.py
+#1681388744
+python level5.py | grep pico
+#1681388759
+python level5.py | grep ctf
+#1681388762
+python level5.py 
+#1681388765
+python level5.py | less
+#1681388777
+python level5.py > result
+#1681388782
+cat  result | grep pico
+#1681388785
+r
+#1681388833
+python level5.py
+#1681388954
+strip
+#1681388957
+strip result 
+#1681388962
+strings result 
+#1681388967
+strings result | grep pico
+#1681389017
+python level5.py
+#1681389032
+python level5.py | grep pico
+#1681389062
+python level5.py | grep picoCTF
+#1681389065
+python level5.py | grep ctf
+#1681389067
+python level5.py | grep CTF
+#1681389070
+python level5.py
+#1681389154
+python level5.py | grep pic
+#1681412919
+q
+#1681413484
+ls
+#1681413484
+r
+#1681413499
+unzip Le_Petit_Prince.zip 
+#1681413500
+r
+#1681413508
+sudo php -S localhost:3000
+#1681414105
+r
+#1681415476
+q
+#1681426065
+ls
+#1681426065
+q
+#1681426067
+ls
+#1681426068
+q
+#1681470217
+chown -R n3m0 /mnt
+#1681470222
+sudo chown -R n3m0 /mnt
+#1681470234
+q
+#1681469578
+cd
+#1681469579
+cdd
+#1681469581
+ls
+#1681469585
+nvim iconmonstr-arrow-65.svg 
+#1681468878
+cdw
+#1681468879
+cd ekrili
+#1681468881
+..
+#1681468884
+cd ekrili-frontend/
+#1681468884
+ls
+#1681468887
+gst
+#1681468890
+git pull
+#1681468903
+git checkout master
+#1681468905
+git pull
+#1681468912
+git checkout homepage
+#1681468913
+ls
+#1681469143
+gst
+#1681469147
+gaa
+#1681469158
+gc 'fix background color'
+#1681469163
+git push origin homepage
+#1681469806
+gst
+#1681469874
+gaa
+#1681469887
+gc 'update cta buttons styling'
+#1681469893
+git push origin homepage
+#1681470295
+gst
+#1681470296
+gs
+#1681470301
+gd
+#1681470317
+gst
+#1681470318
+gaa
+#1681470322
+gc 'fix typo'
+#1681470333
+git push origin homepage
+#1681470339
+git checkout master
+#1681470344
+git pull
+#1681470783
+git branch -m hotfix/nemo256/login
+#1681470785
+gst
+#1681470790
+git pull
+#1681470796
+r
+#1681471100
+gst
+#1681471102
+gaa
+#1681471120
+gc 'fix login routes'
+#1681471138
+git push origin hotfix/nemo256/login
+#1681471246
+gst
+#1681471247
+gaa
+#1681471274
+gc 'update connectWith - follow same code convention'
+#1681471286
+git push origin hotfix/nemo256/login
+#1681471296
+r
+#1681471360
+gst
+#1681471362
+gaa
+#1681471368
+gc 'fix signup route'
+#1681471372
+git push origin hotfix/nemo256/login
+#1681471462
+gst
+#1681471490
+gaa
+#1681471525
+gc 'fix anchor tag - next link provides more optimization'
+#1681471529
+git push origin hotfix/nemo256/login
+#1681471585
+r
+#1681471790
+gst
+#1681471791
+gaa
+#1681471808
+gc 'prepare for signup fix'
+#1681471815
+git push origin hotfix/nemo256/login
+#1681471833
+git pull
+#1681471844
+git push origin hotfix/nemo256/login
+#1681471895
+gst
+#1681471901
+git pull
+#1681471907
+git checkout master
+#1681471919
+git branch -m hotfix/nemo256/register
+#1681471921
+gst
+#1681472005
+gaa
+#1681472017
+gc 'fix register routes - and deployment'
+#1681472023
+git push origin hotfix/nemo256/register
+#1681472160
+gst
+#1681472162
+gcaa
+#1681472164
+gaa
+#1681472171
+gc 'fix anchor tag - next link provides more optimization'
+#1681472173
+git push origin hotfix/nemo256/register
+#1681472255
+r
+#1681472301
+gst
+#1681472302
+gaa
+#1681472322
+gc 'delete unnecessary SignUp component'
+#1681472328
+git push origin hotfix/nemo256/register
+#1681473259
+gst
+#1681473260
+ga
+#1681473262
+r
+#1681473277
+..
+#1681473279
+gst
+#1681473280
+gaa
+#1681473295
+gc 'update sign in / up'
+#1681473298
+git push origin hotfix/nemo256/register
+#1681473496
+gst
+#1681473497
+gaa
+#1681473499
+gc 'fix typos'
+#1681473503
+git push origin hotfix/nemo256/register
+#1681473511
+git pull
+#1681473539
+gst
+#1681473544
+git checkout master
+#1681473588
+git checkout homepage
+#1681473593
+git pull
+#1681473603
+gst
+#1681473610
+gs
+#1681473612
+gd
+#1681473616
+gs
+#1681473620
+git checkout master
+#1681473621
+gst
+#1681473624
+git pull
+#1681473683
+git branch -m feat/nemo256/auth
+#1681473879
+gst
+#1681473881
+gaa
+#1681473894
+gc 'fix typos - also navbar link'
+#1681473901
+git push origin feat/nemo256/auth
+#1681473937
+ls
+#1681474011
+gaa
+#1681474048
+gc 'update link text - fix font size on mobile "navbar"'
+#1681474051
+git push origin feat/nemo256/auth
+#1681474126
+gst
+#1681474128
+gaa
+#1681474140
+gc 'remove testing colour - signin'
+#1681474143
+git push origin feat/nemo256/auth
+#1681474209
+git pull
+#1681474217
+git push origin feat/nemo256/auth
+#1681474801
+gst
+#1681474801
+gaa
+#1681474809
+gc 'update signin styling'
+#1681474819
+git push origin feat/nemo256/auth
+#1681475082
+gst
+#1681475083
+gaa
+#1681475098
+gc 'update some bg colors - navbar and hero'
+#1681475103
+git push origin feat/nemo256/auth
+#1681475116
+ls
+#1681475820
+gst
+#1681475821
+gaa
+#1681475833
+gc 'update some navbar styling'
+#1681475836
+git push origin feat/nemo256/auth
+#1681475934
+q
+#1681468869
+cdw
+#1681468872
+cd ekrili-frontend/
+#1681468873
+ls
+#1681468874
+yarn dev
+#1681477573
+q
+#1681477579
+upd
+#1681477944
+ls
+#1681477944
+q
+#1681477945
+lq
+#1681477946
+q
+#1681477954
+upd
+#1681477955
+q
+#1681487728
+ls
+#1681487729
+q
+#1681487730
+ls
+#1681487730
+q
+#1681490554
+ls
+#1681490554
+q
+#1681499915
+cdw
+#1681499916
+ls
+#1681499922
+r
+#1681499943
+gst
+#1681499944
+gst -u
+#1681499952
+gca add picoCTF
+#1681499981
+cd picoCTF/
+#1681499982
+ls
+#1681499982
+r
+#1681500015
+python level5.
+#1681500019
+python level5.py 
+#1681500205
+r
+#1681500223
+python level5.py 
+#1681500229
+python level5.py | grep pico
+#1681500286
+..
+#1681500288
+mkdir runme
+#1681500289
+r
+#1681500298
+curl -O https://artifacts.picoctf.net/c/34/runme.py
+#1681500303
+r
+#1681500349
+curl -O https://artifacts.picoctf.net/c/35/serpentine.py
+#1681500357
+r
+#1681500423
+python serpentine.py 
+#1681500555
+q
+#1681500568
+ins q
+#1681500571
+q
+#1681500643
+nc mercury.picoctf.net 59616
+#1681500665
+cdd
+#1681500666
+ls
+#1681500666
+r
+#1681501023
+q
+#1681501025
+ls
+#1681501025
+q
+#1681501026
+ls
+#1681501027
+q
+#1681562763
+cdw
+#1681562764
+cd next-auth-example/
+#1681562764
+ls
+#1681562765
+r
+#1681563096
+q
+#1681559293
+cdw
+#1681559296
+cd ekrili-frontend/
+#1681559296
+ls
+#1681559297
+yarn dev
+#1681581383
+q
+#1681559300
+cdw
+#1681559302
+cd ekrili-frontend/
+#1681559303
+ls
+#1681559305
+gst
+#1681559309
+gs
+#1681559321
+gst
+#1681559323
+gd
+#1681559324
+gs
+#1681559343
+gaa
+#1681559362
+gc 'update sign in link hover animation'
+#1681559386
+gst
+#1681559393
+git push origin feat/nemo256/auth
+#1681559401
+git pull
+#1681559411
+git checkout master
+#1681559414
+git pull
+#1681559434
+git checkout feat/nemo256/auth
+#1681559436
+git pull
+#1681561517
+r
+#1681562585
+..
+#1681562592
+git clone https://github.com/nextauthjs/next-auth-example
+#1681562596
+cd next-auth-example/
+#1681562601
+ls
+#1681562605
+yarn install
+#1681563086
+..
+#1681563087
+ls
+#1681563090
+cd ekrili-frontend/
+#1681563091
+ls
+#1681563091
+gst
+#1681563517
+gs
+#1681563524
+yarn add jsonwebtoken
+#1681563571
+r
+#1681563580
+gst
+#1681564329
+yarn add bcryptjs
+#1681565256
+ls
+#1681565257
+r
+#1681566109
+curl --location 'http://localhost:8000/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou1234'
+#1681566149
+curl --location 'https://ekrili-demo.vercel.app/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou1234'
+#1681566175
+curl --location 'https://ekrili-demo.vercel.app/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou1234' > file
+#1681566177
+ls
+#1681566178
+r
+#1681566317
+curl --location 'https://ekrili-demo.vercel.app/api/annonces'
+#1681566320
+clear
+#1681566320
+ls
+#1681566337
+curl --location 'https://ekrili-demo.vercel.app/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou12345'
+#1681566342
+curl --location 'https://ekrili-demo.vercel.app/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou'
+#1681566349
+curl --location 'https://ekrili-demo.vercel.app/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou1234'
+#1681566350
+ls
+#1681566394
+gst
+#1681566398
+gaa 
+#1681566420
+gc 'add sign in functionality - using json web tokens'
+#1681573277
+curl --location 'https://ekrili-backend.onrender.com/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou1234'
+#1681574276
+gst
+#1681574277
+gaa
+#1681574297
+gc 'fix signin functionality - done setting up signin'
+#1681574309
+git push origin feat/nemo256/auth
+#1681574579
+curl --location 'https://ekrili-backend.onrender.com/api/users/login' --data-urlencode 'email=nounousch@gmail.com' --data-urlencode 'password=nounou1234'
+#1681575553
+gst
+#1681575554
+gaa
+#1681575575
+gc 'update signin userData - decode the jwt'
+#1681575582
+git push origin feat/nemo256/auth
+#1681575897
+gaa
+#1681575909
+gc 'fix layout in app component'
+#1681576244
+gaa
+#1681576249
+gc 'fix some typos'
+#1681576252
+git push origin feat/nemo256/auth
+#1681576562
+r
+#1681576621
+gst
+#1681576621
+gaa
+#1681576637
+gc 'update navbar name - by convention Header is more accurate'
+#1681576642
+git push origin feat/nemo256/auth
+#1681577052
+gst
+#1681577053
+gs
+#1681577061
+gaa
+#1681577078
+gc 'add userData to Header and Signin components'
+#1681577080
+git push origin feat/nemo256/auth
+#1681577313
+gst
+#1681577391
+gaa
+#1681577402
+gc 'fix key prop warning in Header component'
+#1681577406
+git push origin feat/nemo256/auth
+#1681577571
+gst
+#1681577572
+gaa
+#1681577595
+gc 'pre redirect to home if there is userData - a user authenticated'
+#1681578034
+gst
+#1681578036
+gs
+#1681578045
+gaa
+#1681578070
+gc 'fix check if signed in before rendering /signup'
+#1681578076
+git push origin feat/nemo256/auth
+#1681578105
+ls
+#1681578105
+clear
+#1681578106
+ls
+#1681578447
+gst
+#1681578448
+gs
+#1681578451
+gd
+#1681578455
+gaa
+#1681578461
+gc 'update Header component'
+#1681578466
+git push origin feat/nemo256/auth
+#1681578973
+gst
+#1681578973
+gaa
+#1681578992
+gc 'remove bcrypt password hashing - already done in the backend'
+#1681578996
+git push origin feat/nemo256/auth
+#1681579764
+gst
+#1681579765
+gaa
+#1681579775
+gc 'add signout functionality'
+#1681579780
+git push origin feat/nemo256/auth
+#1681579838
+ls
+#1681579839
+gst
+#1681579842
+git pull
+#1681579844
+gst
+#1681580229
+gaa
+#1681580234
+gc 'update signout'
+#1681580239
+git push origin feat/nemo256/auth
+#1681580841
+curl --location 'http://localhost:8000/api/users' --data-urlencode 'firstName=1test' --data-urlencode 'lastName=1test' --data-urlencode 'email=1test' --data-urlencode 'phoneNumber=0123456789' --data-urlencode 'password=12345'
+#1681580873
+curl --location 'https://ekrili-backend.onrender.com/api/users' --data-urlencode 'firstName=1test' --data-urlencode 'lastName=1test' --data-urlencode 'email=1test' --data-urlencode 'phoneNumber=0123456789' --data-urlencode 'password=12345'
+#1681580907
+curl --location 'https://ekrili-backend.onrender.com/api/users' --data-urlencode 'firstName=test' --data-urlencode 'lastName=test' --data-urlencode 'email=test@mail.com' --data-urlencode 'phoneNumber=0123456789' --data-urlencode 'password=12345'
+#1681580911
+curl --location 'https://ekrili-backend.onrender.com/api/users' --data-urlencode 'firstName=test' --data-urlencode 'lastName=test' --data-urlencode 'email=test@mail.com' --data-urlencode 'phoneNumber=0123456789' --data-urlencode 'password=test12345'
+#1681580928
+curl --location 'https://ekrili-backend.onrender.com/sapi/users' --data-urlencode 'firstName=test' --data-urlencode 'lastName=test' --data-urlencode 'email=test@mail.com' --data-urlencode 'phoneNumber=0123456789' --data-urlencode 'password=test12345'
+#1681580967
+curl --location 'https://ekrili-backend.onrender.com/api/users' --data-urlencode 'firstName=test' --data-urlencode 'lastName=test' --data-urlencode 'email=test@mail.com' --data-urlencode 'phoneNumber=0123456789' --data-urlencode 'password=test12345'
+#1681581254
+gst
+#1681581255
+gaa
+#1681581265
+gc 'update signin and signup'
+#1681581267
+gd
+#1681581268
+gs
+#1681581275
+git push origin feat/nemo256/auth
+#1681581365
+gst
+#1681581368
+gaa
+#1681581375
+gc 'remove unnecessary title'
+#1681581379
+git push origin feat/nemo256/auth
+#1681581385
+q
