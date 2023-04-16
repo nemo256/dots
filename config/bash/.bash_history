@@ -91176,3 +91176,327 @@ q
 cd dots
 #1681677035
 ls
+#1681677105
+cd dots
+#1681677105
+ls
+#1681677106
+gst
+#1681677108
+r
+#1681677132
+gst
+#1681677142
+gca remove slstatus - because i no longer use it
+#1681677144
+q
+#1681677146
+cdb
+#1681677146
+ls
+#1681677147
+q
+#1681677770
+wmctrl
+#1681677925
+q
+#1681677927
+cd dots
+#1681677927
+ls
+#1681677928
+gst
+#1681677930
+q
+#1681677967
+ls
+#1681677967
+q
+#1681678007
+amixer
+#1681678045
+alsamixer
+#1681678117
+clear
+#1681678117
+q
+#1681679379
+cdb
+#1681679381
+ls
+#1681679382
+r
+#1681679406
+echo $PATH
+#1681679420
+battery
+#1681679424
+batterylevel
+#1681679442
+dunst &
+#1681679452
+dunst
+#1681679457
+killall dunst
+#1681679460
+q
+#1681682945
+cdv
+#1681682945
+ls
+#1681682946
+unzip vecteezy_mobile-application-avatar-web-button-menu-digital-silhouette-style-icon_2608327.zip 
+#1681682947
+r
+#1681683074
+q
+#1681684287
+batterylevel
+#1681684288
+q
+#1681684278
+batterylevel
+#1681684282
+dunst &
+#1681684290
+q
+#1681678629
+cdw
+#1681678630
+cd ekrili-frontend/
+#1681678631
+ls
+#1681678654
+r
+#1681678750
+gst
+#1681678756
+git checkout master
+#1681678757
+r
+#1681678763
+gst
+#1681678777
+gca remove unnecessary home css file
+#1681678792
+gst
+#1681678807
+git checkout homepage
+#1681678814
+git pull
+#1681678825
+r
+#1681678849
+gst
+#1681678855
+gs
+#1681678857
+gd
+#1681678866
+git push origin homepage
+#1681678880
+gst
+#1681678888
+git checkout master
+#1681678890
+git pull
+#1681679069
+gst
+#1681679177
+git branch -m feat/nemo256/header
+#1681679180
+gst
+#1681681029
+gaa
+#1681681047
+gc 'add header profile dropdown menu'
+#1681681061
+git push origin feat/nemo256/header
+#1681681416
+ls src/pages/
+#1681681767
+gst
+#1681681770
+gaa
+#1681681829
+cgc 'add
+#1681681868
+gc 'fix #46: add profile menu - auth header setup'
+#1681681873
+git push origin feat/nemo256/header
+#1681683194
+gst
+#1681683196
+gs
+#1681683199
+gaa
+#1681683219
+gc 'update header profile dropdown menu styling'
+#1681683223
+git push origin feat/nemo256/header
+#1681684298
+q
+#1681678148
+cdw
+#1681678149
+cd ekrili
+#1681678151
+..
+#1681678155
+cd ekrili-frontend/
+#1681678156
+r
+#1681678181
+cd ekrili-frontend/
+#1681678182
+ls
+#1681678184
+yarn dev
+#1681684299
+q
+#1681684337
+clear
+#1681684338
+q
+#1681684346
+batterylevel
+#1681684370
+xrc
+#1681684405
+nvim .bash_profile 
+#1681684415
+q
+#1681684451
+batterylevel
+#1681684452
+q
+#1681684460
+nvim .bash_profile 
+#1681684465
+cd dots
+#1681684465
+ls
+#1681684466
+gst
+#1681684467
+q
+#1681684483
+cd .build/
+#1681684483
+ls
+#1681684485
+cd tily/
+#1681684486
+ls
+#1681684491
+nvim config.h
+#1681684663
+gst
+#1681684664
+q
+#1681684796
+clear
+#1681684796
+q
+#1681684554
+nvim .bash_profile 
+#1681684579
+brc
+#1681684668
+r
+#1681684724
+stow -D bash
+#1681684741
+man stow
+#1681684764
+stow -D -t ~/ bash
+#1681684780
+stow -t ~/ bash
+#1681684798
+q
+#1681684727
+ls
+#1681684728
+r
+#1681684800
+q
+#1681684801
+ls
+#1681684802
+la
+#1681684804
+q
+#1681684853
+clear
+#1681684854
+q
+#1681684863
+journalctl -f
+#1681684890
+journalctl 
+#1681684907
+clea
+#1681684907
+q
+#1681684876
+bat
+#1681684909
+q
+#1681684914
+ls
+#1681684914
+r
+#1681684950
+clear
+#1681684953
+ls
+#1681684953
+q
+#1681684954
+ls
+#1681684954
+q
+#1681684955
+ls
+#1681684955
+q
+#1681684960
+paru -Rns ly
+#1681684965
+ls
+#1681684971
+cd /etc/ly
+#1681684971
+ls
+#1681684972
+r
+#1681684981
+cd
+#1681684991
+sudo rm -fvr /etc/ly
+#1681684992
+ls
+#1681684992
+q
+#1681684996
+r
+#1681685011
+stow -D -t ~/ bash
+#1681685017
+stow -t ~/ bash
+#1681685018
+q
+#1681685089
+exit
+#1681685103
+nvim .bash_profile 
+#1681685127
+xrc
+#1681685095
+startx
+#1681685137
+exit
+#1681685141
+clear
+#1681685142
+q

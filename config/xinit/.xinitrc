@@ -25,7 +25,7 @@ xset r rate 220 40 &
 # Starting slstatus
 slstatus &
 # Disabling my pointer
-# xinput set-prop 11 "Device Enabled" 0
+xinput set-prop 11 "Device Enabled" 0
 # Important to set my preferred DPI setting (Settings in Xressources)
 xrdb -merge ~/.Xressources
 # Setting up dunst for notfications
