@@ -91132,3 +91132,47 @@ ls
 reboot
 #1681676826
 q
+#1681676828
+brc
+#1681676835
+nvim .bash_logout 
+#1681676840
+nvim .bash_profile 
+#1681676860
+cd dots
+#1681676861
+ls
+#1681676861
+gst
+#1681676874
+gca update bash profile for ly display manager
+#1681676876
+q
+#1681676921
+battery
+#1681676934
+cd .build/
+#1681676935
+ls
+#1681676937
+cd slstatus/
+#1681676937
+ls
+#1681676940
+make
+#1681676947
+sudo make clean uninstall
+#1681676949
+q
+#1681676959
+battery
+#1681676963
+q
+#1681676996
+clear
+#1681676996
+q
+#1681677034
+cd dots
+#1681677035
+ls
