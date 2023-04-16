@@ -11,6 +11,6 @@ export LC_ALL="en_US.UTF-8"
 [ ! -s ~/.config/mpd/pid ] && mpd
 
 if [[ "$(tty)" = "/dev/tty1" ]]; then
-  startx -- -nocursor
-  # startx
+  # startx -- -nocursor
+  startx
 fi

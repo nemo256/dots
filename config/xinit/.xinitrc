@@ -4,6 +4,9 @@
 #
 # global xinitrc file, used by all X sessions started by xinit (startx)
 
+# Adding new bin to the PATH variable
+export PATH=$HOME/bin:/$HOME/bin/status:/usr/local/bin:/sbin:$PATH
+
 # Setting up macbook keyboard layout
 setxkbmap us mac &
 # Unclutter to enable autohiding for pointer
@@ -25,7 +28,7 @@ xset r rate 220 40 &
 # Starting slstatus
 slstatus &
 # Disabling my pointer
-xinput set-prop 11 "Device Enabled" 0
+# xinput set-prop 11 "Device Enabled" 0
 # Important to set my preferred DPI setting (Settings in Xressources)
 xrdb -merge ~/.Xressources
 # Setting up dunst for notfications

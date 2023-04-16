@@ -248,8 +248,12 @@ logo "Protonvpn configuration..."
 paru -S --noconfirm protonvpn-cli
 protonvpn-cli config --vpn-accelerator enable
 
+logo "Ly configuration..."
+paru -S --noconfirm ly
+
 logo "Managing Essential Services..."
 sudo systemctl disable transmission.service
 sudo systemctl enable  slock@${USER}.service
+sudo systemctl enable  ly
 
 logo "Done - Script finished installing and configuring n3m0's dots!"
