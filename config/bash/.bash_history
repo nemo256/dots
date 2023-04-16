@@ -90674,3 +90674,391 @@ gc 'remove unnecessary title'
 git push origin feat/nemo256/auth
 #1681581385
 q
+#1681585576
+xrc
+#1681585587
+cd dors
+#1681585588
+cd dots/
+#1681585590
+ls
+#1681585592
+gst
+#1681585597
+gca update wallpaper
+#1681585599
+q
+#1681585600
+cdw
+#1681585603
+cd ekrili-frontend/
+#1681585606
+yarn dev
+#1681587321
+q
+#1681585610
+cdw
+#1681585614
+cd ekrili-frontend/
+#1681585614
+ls
+#1681585615
+gst
+#1681585790
+curl --location 'https://ekrili-backend.onrender.com/api/users/register' --data-urlencode 'firstName=test' --data-urlencode 'lastName=test' --data-urlencode 'email=test@mail.com' --data-urlencode 'phoneNumber=0123456789' --data-urlencode 'password=test12345'
+#1681586617
+gst
+#1681586620
+gaa
+#1681586632
+gc 'fix signup page - signin / signup working'
+#1681586636
+git push origin feat/nemo256/auth
+#1681587084
+gst
+#1681587086
+gaa
+#1681587100
+gc 'update Header sign in / out'
+#1681587102
+git push origin feat/nemo256/auth
+#1681587104
+ls
+#1681587108
+git pull
+#1681587123
+git checkout master
+#1681587125
+git pull
+#1681587211
+gst
+#1681587236
+gca update Header Sign In / Out
+#1681587322
+q
+#1681587325
+cdw
+#1681587328
+cd ekrili-frontend/
+#1681587329
+ls
+#1681587330
+gst
+#1681587330
+q
+#1681588256
+wget http://ekrilicluster.dafmrtd.mongodb.net/ekrilidb?retryWrites=true&w=majority
+#1681588262
+clear
+#1681588262
+ls
+#1681588266
+rm wget-log 
+#1681588267
+ls
+#1681588269
+q
+#1681588270
+ls
+#1681588270
+q
+#1681589108
+cdw
+#1681589111
+cd ekrili-frontend/
+#1681589113
+ls
+#1681589113
+r
+#1681589573
+yarn dev
+#1681589676
+gst
+#1681589678
+q
+#1681589958
+ls
+#1681589958
+q
+#1681601413
+cdw
+#1681601418
+cd ekrili-frontend/
+#1681601420
+yarn dev
+#1681601428
+gst
+#1681601431
+git pull
+#1681601877
+cdw
+#1681601880
+cd ekrili-frontend/
+#1681601884
+yarn build
+#1681601983
+r
+#1681602010
+yarn install
+#1681602020
+yarn remove bcryptjs
+#1681602026
+r
+#1681602031
+yarn remove bcryptjs
+#1681602038
+yarn build
+#1681602060
+grh
+#1681602068
+git pull
+#1681602335
+r
+#1681602590
+..
+#1681602590
+.
+#1681602591
+..
+#1681602592
+gst
+#1681602594
+git pull
+#1681602752
+q
+#1681640235
+clear
+#1681640235
+q
+#1681640251
+cdw
+#1681640254
+cd ekrili-frontend/
+#1681640254
+ls
+#1681640256
+yarn dev
+#1681640632
+gst
+#1681640634
+git pull
+#1681640640
+yarn dev
+#1681640934
+gst
+#1681640936
+git pull
+#1681641707
+yarn dev
+#1681641871
+gst
+#1681641894
+gca adapt to airbnb style guide
+#1681641907
+yarn build
+#1681641950
+ls
+#1681642083
+r
+#1681642256
+gst
+#1681642278
+gca update AirBnb style guide link and API docs link
+#1681642305
+gca update AirBnb style guide link
+#1681647997
+upd
+#1681648011
+nvmi -v
+#1681648015
+nvim -v
+#1681648020
+upd
+#1681648409
+ins lldb
+#1681648413
+clear
+#1681648415
+ls
+#1681648415
+q
+#1681651216
+upd
+#1681652145
+ls
+#1681652145
+q
+#1681652146
+ls
+#1681652149
+q
+#1681652157
+clear
+#1681652157
+q
+#1681653431
+curl --location 'https://ekrili-backend.onrender.com/api/annonces/my'
+#1681653486
+curl 'https://ekrili-backend.onrender.com/api/annonces/my'
+#1681653501
+curl https://ekrili-backend.onrender.com/api/annonces/my
+#1681653583
+curl https://ekrili-backend.onrender.com/api/annonces/
+#1681653635
+curl https://ekrili-backend.onrender.com/api/annonces/my
+#1681659461
+cdw
+#1681659463
+cd ekrili-frontend/
+#1681659464
+gst
+#1681659465
+q
+#1681652232
+cdw
+#1681652235
+cd ekrili-frontend/
+#1681652236
+ls
+#1681652246
+gst
+#1681652362
+git branch -m fix/nemo256/mesAnnonces
+#1681652364
+gst
+#1681652374
+ls
+#1681652375
+r
+#1681659370
+..
+#1681659373
+cd ekrili-frontend/
+#1681659374
+ls
+#1681659375
+gst
+#1681659386
+gaa
+#1681659421
+gc 'fix mes annonces - add error handling'
+#1681659469
+git push origin fix/nemo256/mesAnnonces
+#1681660177
+gst
+#1681660178
+gaa
+#1681660183
+gc 'fix mes annonces'
+#1681660187
+git push origin fix/nemo256/mesAnnonces
+#1681660533
+gst
+#1681660534
+gs
+#1681660537
+gaa
+#1681660555
+gc 'update error checking - also add mes_annonces page verification'
+#1681660558
+git push origin fix/nemo256/mesAnnonces
+#1681661062
+gst
+#1681661063
+gaa
+#1681661089
+gc 'fix typos and update style guide'
+#1681661092
+git push origin fix/nemo256/mesAnnonces
+#1681661162
+yarn build
+#1681661190
+r
+#1681661209
+yarn build
+#1681661223
+gst
+#1681661224
+gaa
+#1681661229
+gc 'fix deployment'
+#1681661232
+git push origin fix/nemo256/mesAnnonces
+#1681661444
+gst
+#1681661454
+git push origin fix/nemo256/mesAnnonces
+#1681661461
+git pull
+#1681661495
+git checkout master
+#1681661499
+gst
+#1681661502
+git pull
+#1681661512
+git checkout fix/nemo256/mesAnnonces
+#1681661515
+git pull
+#1681662690
+gst
+#1681662691
+q
+#1681652238
+cdw
+#1681652241
+cd ekrili-frontend/
+#1681652244
+yarn dev
+#1681662692
+q
+#1681675911
+paru -S ly
+#1681675917
+paru -S ly-bin
+#1681675920
+paru -S ly
+#1681675949
+q
+#1681675953
+exit
+#1681675992
+sudo systemctl enable ly
+#1681675995
+q
+#1681676074
+clear
+#1681676075
+q
+#1681676214
+which startx
+#1681676218
+q
+#1681676104
+sudo vim /etc/ly/config.ini
+#1681676108
+sudo nvim /etc/ly/config.ini
+#1681676223
+q
+#1681676072
+startx
+#1681676225
+exit
+#1681676247
+clear
+#1681676247
+q
+#1681676250
+xrc
+#1681676264
+paru -Rns ly
+#1681676275
+sudo systemctl disable ly
+#1681676277
+q
+#1681676241
+startx
+#1681676310
+clear
+#1681676310
+q
