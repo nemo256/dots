@@ -91062,3 +91062,43 @@ startx
 clear
 #1681676310
 q
+#1681676333
+ins ly
+#1681676461
+ls
+#1681676462
+r
+#1681676504
+paru -S ly
+#1681676537
+chmod +x .xinitrc 
+#1681676539
+ls
+#1681676540
+la
+#1681676555
+r
+#1681676567
+gst
+#1681676581
+gca make xinitrc executable for ly display manager
+#1681676584
+cd
+#1681676591
+sudo systemctl enable ly
+#1681676597
+ls
+#1681676600
+clear
+#1681676601
+q
+#1681676630
+clear
+#1681676631
+q
+#1681676653
+exit
+#1681676658
+ly
+#1681676664
+q
