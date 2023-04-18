@@ -91802,3 +91802,387 @@ gst
 gca update dashboard config
 #1681687100
 q
+#1681687102
+cd dots
+#1681687103
+ls
+#1681687103
+gst
+#1681687109
+gca 
+#1681687112
+q
+#1681687113
+cd dots
+#1681687113
+ls
+#1681687115
+gst
+#1681687118
+q
+#1681687128
+clear
+#1681687129
+qq
+#1681687130
+q
+#1681687157
+clear
+#1681687157
+q
+#1681687163
+clear
+#1681687163
+q
+#1681687384
+cdw
+#1681687385
+cd ekrili-frontend/
+#1681687386
+ls
+#1681687387
+gst
+#1681687390
+gaa
+#1681687406
+gc 'add snap by id'
+#1681687416
+git push origin feat/nemo256/header
+#1681687466
+q
+#1681687532
+cd
+#1681687533
+cdd
+#1681687533
+ls
+#1681687534
+r
+#1681687541
+q
+#1681687178
+cdw
+#1681687180
+cd ekrili-frontend/
+#1681687180
+ls
+#1681687182
+yarn dev
+#1681688185
+q
+#1681687544
+cdw
+#1681687545
+cd ekrili-frontend/
+#1681687545
+ls
+#1681687562
+gst
+#1681687563
+gaa
+#1681687570
+gc 'add local avatar image'
+#1681687573
+git push origin feat/nemo256/header
+#1681688186
+q
+#1681688188
+cdw
+#1681688189
+cd ekrili-frontend/
+#1681688190
+ls
+#1681688191
+gst
+#1681688191
+q
+#1681688194
+cd
+#1681688195
+cdw
+#1681688196
+cd el
+#1681688197
+cd ekrili-frontend/
+#1681688199
+gst
+#1681688203
+git pull
+#1681688223
+git checkout master
+#1681688225
+git pull
+#1681688239
+git checkout feat/nemo256/header
+#1681688241
+git pull
+#1681688245
+gst
+#1681688250
+q
+#1681722059
+ls
+#1681722069
+cdw
+#1681722102
+ls
+#1681722103
+q
+#1681722104
+cdw
+#1681722105
+cd ekrili-frontend/
+#1681722105
+ls
+#1681722160
+nc mercury.picoctf.net 31153
+#1681722209
+r
+#1681722260
+chmod +x vuln
+#1681722264
+./vuln 
+#1681722266
+ls
+#1681722269
+r
+#1681722315
+touch flag.txt
+#1681722317
+./vuln 
+#1681722319
+r
+#1681722340
+./vuln flag.txt 
+#1681722344
+r
+#1681722349
+q
+#1681722368
+cdw
+#1681722369
+cd ekrili-frontend/
+#1681722370
+ls
+#1681722373
+yarn dev
+#1681722445
+q
+#1681722447
+cdd
+#1681722448
+ls
+#1681722449
+r
+#1681722528
+unzip files.zip 
+#1681722529
+r
+#1681722564
+ag uber
+#1681722575
+ag uber-secret
+#1681722583
+ag 'uber-secret.txt'
+#1681722587
+ag 'uber'
+#1681722593
+find ./ uber
+#1681722606
+cd ./adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/
+#1681722607
+ls
+#1681722608
+r
+#1681722634
+mkdir big_zip
+#1681722637
+r
+#1681722645
+unzip big-zip-files.zip 
+#1681722647
+r
+#1681722705
+ag pico
+#1681722746
+cd
+#1681722747
+r
+#1681722783
+base64 enc_flag 
+#1681722788
+base64 < enc_flag 
+#1681722794
+cat enc_flag | base64
+#1681722816
+r
+#1681722887
+q
+#1681722888
+ls
+#1681722888
+q
+#1681722945
+r
+#1681722952
+q
+#1681722961
+nc jupiter.challenges.picoctf.org 29956
+#1681723126
+r
+#1681723185
+nc jupiter.challenges.picoctf.org 29956
+#1681723214
+r
+#1681723218
+nc jupiter.challenges.picoctf.org 29956
+#1681723234
+ls
+#1681723235
+clear
+#1681723235
+ls
+#1681723238
+nc jupiter.challenges.picoctf.org 29956
+#1681724245
+nc saturn.picoctf.net 64748
+#1681724265
+ssh
+#1681724269
+ssh-init
+#1681724271
+ssh init
+#1681724286
+ssh saturn.picoctf.net 64748
+#1681724304
+sudo ssh saturn.picoctf.net 64748
+#1681724311
+sudo ssh root:saturn.picoctf.net 64748
+#1681724377
+ssh picoplayer:saturn.picoctf.net 64748
+#1681724395
+ssh picoplayer@saturn.picoctf.net 64748
+#1681724403
+ssh picoplayer@saturn.picoctf.net
+#1681724445
+ssh-keygen
+#1681724461
+ssh picoplayer@saturn.picoctf.net 64748
+#1681724482
+ssh picoplayer@saturn.picoctf.net
+#1681724511
+echo password | ssh picoplayer@saturn.picoctf.net 64748
+#1681724544
+ins ssh-pass
+#1681724546
+ins ssh_pass
+#1681724616
+nc saturn.picoctf.net 64748
+#1681724636
+nc saturn.picoctf.net 64748 < bash
+#1681724640
+nc saturn.picoctf.net 64748 | bash
+#1681724651
+nc saturn.picoctf.net 64748 | exec bash
+#1681724657
+nc saturn.picoctf.net 64748 | sh
+#1681724667
+nc saturn.picoctf.net 64748
+#1681724692
+ssh picoplayer@saturn.picoctf.net -p 64748
+#1681724758
+nc jupiter.challenges.picoctf.org 29956
+#1681724774
+nc jupiter.challenges.picoctf.org 4427
+#1681724783
+nc jupiter.challenges.picoctf.org 4427 | grep pico
+#1681724859
+base64 1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX
+#1681724866
+echo '1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX' | base64
+#1681724871
+echo '1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX' | base32
+#1681724874
+echo '1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX' | base16
+#1681725206
+nc jupiter.challenges.picoctf.org 9745
+#1681725321
+cd picoCTF/
+#1681725327
+mkdir flag_shop
+#1681725327
+r
+#1681725468
+nc jupiter.challenges.picoctf.org 9745
+#1681725661
+qq
+#1681725662
+q
+#1681725771
+ssh -p 57455 ctf-player@saturn.picoctf.net
+#1681726040
+ssh -p 57455 ctf-player@saturn.picoctf.net | bash
+#1681726070
+ssh -p 57455 ctf-player@saturn.picoctf.net 
+#1681726214
+\e115
+#1681726216
+ssh -p 57455 ctf-player@saturn.picoctf.net 
+#1681726396
+ls
+#1681726397
+q
+#1681726398
+cdv
+#1681726399
+ls
+#1681726400
+r
+#1681726410
+q
+#1681725339
+cdD
+#1681725339
+ls
+#1681725340
+r
+#1681727083
+nc saturn.picoctf.net 65317
+#1681727125
+q
+#1681726437
+nc saturn.picoctf.net 65317
+#1681726449
+r
+#1681727211
+nc saturn.picoctf.net 65317
+#1681727238
+2
+#1681727241
+nc saturn.picoctf.net 65317
+#1681727442
+ls
+#1681727443
+r
+#1681727644
+ag pico
+#1681727648
+ag uber
+#1681727656
+find ./ uber
+#1681727664
+cat ./adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
+#1681727897
+nc mercury.picoctf.net 26072
+#1681728122
+ls
+#1681728125
+q
+#1681758430
+clear
+#1681758431
+q
+#1681761032
+r
+#1681761221
+q
