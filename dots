@@ -167,6 +167,8 @@ logo "Cloning dmenu..."
 [[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu
 logo "Cloning slock..."
 [[ ! -d slock ]] && git clone https://github.com/nemo256/slock
+logo "Cloning slstatus..."
+[[ ! -d slstatus ]] && git clone https://github.com/nemo256/slstatus
 logo "Cloning fetchy..."
 [[ ! -d fetchy ]] && git clone https://github.com/nemo256/fetchy
 logo "Cloning ani-cli..."
@@ -185,6 +187,8 @@ logo "Installing dmenu..."
 cd ../dmenu && sudo make clean install 1> /dev/null
 logo "Installing slock..."
 cd ../slock && sudo make clean install 1> /dev/null
+logo "Installing slstatus..."
+cd ../slstatus && sudo make clean install 1> /dev/null
 logo "Installing fetchy..."
 cd ../fetchy && sudo make clean install 1> /dev/null
 logo "Installing ani-cli..."
