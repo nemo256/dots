@@ -92452,3 +92452,41 @@ nvim /etc/ly/config.ini
 sudo nvim /etc/ly/config.ini 
 #1682281364
 q
+#1682281043
+cd dots
+#1682281043
+ls
+#1682281046
+r
+#1682281384
+gst
+#1682281394
+gca add path to ly configuration
+#1682281396
+q
+#1682281437
+PATH="${HOME}/bin:/${HOME}/bin/status:/usr/local/bin:/sbin:$PATH"
+#1682281448
+sudo sed -i "s/#path = \".*\"/path = \"${PATH}\"/" /etc/ly/config.ini
+#1682281487
+sudo sed -i "s/^#path = \".*\"/path = \"${PATH}\"/" /etc/ly/config.ini
+#1682281516
+sudo sed -i "s/#path = \".*\"/path = \"$PATH\"/" /etc/ly/config.ini
+#1682281531
+echo $PATH
+#1682281539
+sudo sed -i "s/#path = \".*\"/path = \"$PATH\"/" /etc/ly/config.ini
+#1682281542
+echo $PATH
+#1682281560
+sudo sed -i "s/#path = \".*\"/path = \"$PATH\"/" /etc/ly/config.ini
+#1682281565
+sed -i "s/#path = \".*\"/path = \"$PATH\"/" /etc/ly/config.ini
+#1682281569
+sudo sed -i "s/#path = \".*\"/path = \"$PATH\"/" /etc/ly/config.ini
+#1682281578
+sudo sed -i "s/#path = \".*\"/path = \"${PATH}\"/" /etc/ly/config.ini
+#1682281590
+sudo sed -i "s/#path = \".*\"/path = \"${PATH}\"/" "/etc/ly/config.ini"
+#1682281668
+q
