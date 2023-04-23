@@ -254,6 +254,8 @@ protonvpn-cli config --vpn-accelerator enable
 
 logo "Ly configuration..."
 paru -S --noconfirm ly
+PATH="${HOME}/bin:/${HOME}/bin/status:/usr/local/bin:/sbin:$PATH"
+sudo sed -i "s/#path = \".*\"/path = \"${PATH}\"/" /etc/ly/config.ini
 
 logo "Managing Essential Services..."
 sudo systemctl disable transmission.service
