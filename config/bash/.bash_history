@@ -92490,3 +92490,73 @@ sudo sed -i "s/#path = \".*\"/path = \"${PATH}\"/" /etc/ly/config.ini
 sudo sed -i "s/#path = \".*\"/path = \"${PATH}\"/" "/etc/ly/config.ini"
 #1682281668
 q
+#1682281421
+cd dots
+#1682281421
+ls
+#1682281422
+r
+#1682281705
+gst
+#1682281725
+gca fix: rollback to stable - without ly configuration
+#1682281727
+q
+#1682281729
+xrc
+#1682281767
+q
+#1682282214
+cdw
+#1682282218
+cd ekrili-backend/
+#1682282220
+ls
+#1682282224
+npm install
+#1682282228
+yarn
+#1682282394
+ls
+#1682282399
+yarn
+#1682282429
+r
+#1682282452
+yarn
+#1682284258
+q
+#1682282193
+cdw
+#1682282196
+cd ekrili-frontend/
+#1682282197
+ls
+#1682282198
+yarn dev
+#1682284260
+q
+#1682281953
+cdw
+#1682281970
+clone https://github.com/schemsou/ekrili-backend
+#1682281976
+cd ekrili-backend/
+#1682281977
+ls
+#1682281979
+r
+#1682329762
+q
+#1682334586
+ls
+#1682334586
+q
+#1682359924
+cd dots
+#1682359925
+gst
+#1682359928
+gst -u
+#1682359929
+q
