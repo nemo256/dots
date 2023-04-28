@@ -67,7 +67,7 @@
     "seed-queue-enabled": false,
     "seed-queue-size": 1,
     "speed-limit-down": 1024,
-    "speed-limit-down-enabled": false,
+    "speed-limit-down-enabled": true,
     "speed-limit-up": 100,
     "speed-limit-up-enabled": false,
     "start-added-torrents": false,
