@@ -92838,3 +92838,1180 @@ q
 xrc
 #1682706769
 q
+#1682706772
+cd dots
+#1682706772
+ls
+#1682706773
+gst
+#1682706779
+gca update wallpaper
+#1682706783
+q
+#1682706786
+ls
+#1682706786
+q
+#1682706788
+clear
+#1682706788
+q
+#1682717156
+r
+#1682795171
+ls
+#1682795172
+q
+#1682795172
+ls
+#1682795173
+q
+#1682800696
+ls
+#1682800696
+q
+#1682797598
+upd
+#1682800702
+q
+#1682800703
+upd
+#1682800705
+q
+#1682800732
+ls
+#1682800732
+q
+#1682800732
+ls
+#1682800733
+q
+#1682800734
+ls
+#1682800735
+q
+#1682844691
+r
+#1682844844
+ls
+#1682844845
+r
+#1682844846
+q
+#1682851013
+cdw
+#1682851014
+ls
+#1682851272
+r
+#1682851281
+unzip dev-patches.zip 
+#1682851282
+r
+#1682851305
+clone https://github.com/nemo256/matrix_game
+#1682851308
+cd matrix_game/
+#1682851308
+ls
+#1682851309
+r
+#1682851319
+q
+#1682851419
+r
+#1682851816
+clone https://github.com/mlichvar/newt
+#1682851819
+cd newt/
+#1682851819
+ls
+#1682851826
+r
+#1682851841
+./autogen.sh 
+#1682851844
+r
+#1682851875
+make
+#1682851876
+r
+#1682851901
+make form
+#1682851915
+r
+#1682851928
+make form
+#1682851932
+r
+#1682851964
+make all
+#1682851967
+r
+#1682851984
+make test
+#1682851989
+r
+#1682852017
+cc form.c 
+#1682852020
+r
+#1682852072
+clone https://pagure.io/newt.git
+#1682852075
+cd newt/
+#1682852076
+ls
+#1682852076
+r
+#1682852084
+./autogen.sh 
+#1682852086
+r
+#1682852092
+make configure
+#1682852096
+make config
+#1682852097
+r
+#1682852100
+make all
+#1682852103
+make test
+#1682852105
+r
+#1682852130
+./configure 
+#1682852137
+make Makefile
+#1682852143
+make all
+#1682852155
+r
+#1682852209
+make test
+#1682852219
+nvim Makefile
+#1682852227
+make all
+#1682852228
+nvim Makefile
+#1682852240
+make showchars
+#1682852243
+r
+#1682852270
+./test
+#1682852316
+./testgrid 
+#1682852344
+ls
+#1682852347
+./whiptail 
+#1682852355
+testtree
+#1682852359
+./testtree
+#1682852374
+r
+#1682852386
+./showchars 
+#1682852393
+./testgrid
+#1682852555
+clear
+#1682852555
+ls
+#1682852559
+r
+#1682853789
+new students
+#1682853795
+r
+#1682853821
+gca update template
+#1682853828
+r
+#1682853851
+cc newt.c 
+#1682853852
+r
+#1682853867
+cc newt.c 
+#1682853869
+r
+#1682853879
+gst
+#1682853881
+gst -u
+#1682853883
+q
+#1682853898
+ls
+#1682853898
+q
+#1682853901
+cdw
+#1682853902
+cd students/
+#1682853903
+ls
+#1682853907
+q
+#1682855597
+cal
+#1682855601
+cal may
+#1682856156
+q
+#1682853909
+ls
+#1682853916
+cdw
+#1682853917
+cd students/
+#1682853918
+ls
+#1682854248
+mkdir report
+#1682854249
+ls
+#1682854251
+cd report/
+#1682854251
+ls
+#1682854252
+r
+#1682854444
+unzip 
+#1682854447
+unzip ASD\ I.zip 
+#1682854447
+r
+#1682854540
+cdw
+#1682854541
+cd students/
+#1682854542
+ls
+#1682854543
+r
+#1682871294
+git pull
+#1682871310
+yarn build
+#1682871360
+r
+#1682871550
+yarn
+#1682877963
+q
+#1682878248
+cdw
+#1682878251
+cd ekrili-frontend/
+#1682878251
+ls
+#1682878253
+gst
+#1682878270
+git checkout master
+#1682878272
+git pull
+#1682878344
+yarn
+#1682878633
+ls
+#1682879251
+r
+#1682879275
+..
+#1682879276
+gst
+#1682879286
+git branch -m feat/annonce
+#1682879288
+gst
+#1682879292
+r
+#1682882544
+curl https://ekrili-backend.onrender.com/api/annonces/
+#1682882572
+curl https://ekrili-backend.onrender.com/api/annonces/8e42666b-6064-41ef-8d2d-41440b2b8674
+#1682882588
+curl https://ekrili-backend.onrender.com/api/annonces/644e7ce5d677bb6771e81493
+#1682882938
+ls
+#1682882939
+gst
+#1682882944
+gaa
+#1682882953
+gc 'add id slug.'
+#1682882962
+git push origin feat/annonce
+#1682882974
+git branch meriem/branch/annonce
+#1682882982
+git checkout meriem/branch/annonce
+#1682882985
+git upll
+#1682882988
+git pull
+#1682883025
+r
+#1682883140
+git pul
+#1682883142
+git pull
+#1682883196
+git checkout meryam/branch/annonce
+#1682883252
+git checkout meriem/branch/annonce
+#1682883258
+git pull
+#1682883300
+r
+#1682883422
+curl https://ekrili-backend.onrender.com/api/annonces/644e78ccd677bb6771e81458
+#1682883441
+gst
+#1682883447
+git pull
+#1682883515
+r
+#1682883771
+gst
+#1682883782
+git checkout feat/annonce
+#1682886883
+curl -d "startDate=2017-11-19&endDate=2013/4/11" -X POST http://ekrili-backend-onrender.com/api/reservation?annonce=644e9594975e2358e24b401a
+#1682886890
+curl -d "startDate=2017-11-19&endDate=2013/4/11" -X POST https://ekrili-backend-onrender.com/api/reservation?annonce=644e9594975e2358e24b401a
+#1682886911
+curl -d "startDate=2017-11-19&endDate=2013/4/11" -X POST https://ekrili-backend.onrender.com/api/reservation?annonce=644e9594975e2358e24b401a
+#1682886920
+curl -d "startDate=2017-11-19&endDate=2020/4/11" -X POST https://ekrili-backend.onrender.com/api/reservation?annonce=644e9594975e2358e24b401a
+#1682890138
+curl --location 'https://ekrili-backend.onrender.com/api/reservations?annonce=644ed36d0cb0c237628030c6' --data-urlencode 'startDate=2023-09-09' --data-urlencode 'endDate=2023-09-09' --data-urlencode 'unitPrice=2000' --data-urlencode 'totalPrice=4500' --data-urlencode 'annonceID=644ed36d0cb0c237628030c6'
+#1682892281
+..
+#1682892282
+ls
+#1682892283
+gst
+#1682892307
+gaa
+#1682892315
+gc 'add id slug..'
+#1682892318
+git push 
+#1682892327
+git push origin feat/annonce
+#1682892329
+q
+#1682877965
+cdw
+#1682877968
+cd ekrili-frontend/
+#1682877970
+git pull
+#1682877975
+yarn dev
+#1682892331
+q
+#1682882436
+r
+#1682935990
+ls
+#1682935991
+q
+#1682935992
+ls
+#1682935992
+q
+#1682935993
+ls
+#1682935993
+q
+#1682935994
+ls
+#1682935994
+q
+#1682935994
+ls
+#1682935995
+q
+#1682935995
+ls
+#1682935996
+q
+#1682935996
+ls
+#1682935996
+q
+#1682935997
+ls
+#1682935997
+q
+#1682935998
+ls
+#1682935998
+q
+#1682935999
+ls
+#1682935999
+q
+#1682936000
+ls
+#1682936000
+q
+#1682936001
+ls
+#1682936001
+q
+#1682936002
+ls
+#1682936002
+q
+#1682936002
+ls
+#1682936003
+q
+#1682936004
+ls
+#1682936004
+q
+#1682936005
+ls
+#1682936005
+q
+#1682936006
+ls
+#1682936006
+q
+#1682936007
+ls
+#1682936007
+q
+#1682936008
+ls
+#1682936009
+q
+#1682936009
+ls
+#1682936010
+q
+#1682936016
+ls
+#1682936016
+q
+#1682939596
+curl --location 'http://localhost:8000/api/reservations?annonce=644ed36d0cb0c237628030c6' --data-urlencode 'startDate=2023-09-09' --data-urlencode 'endDate=2023-09-09' --data-urlencode 'unitPrice=2000' --data-urlencode 'totalPrice=4500' --data-urlencode 'annonceID=644ed36d0cb0c237628030c6'
+#1682939669
+q
+#1682939796
+curl --location 'http://localhost:8000/api/reservations?annonce=644ed36d0cb0c237628030c6' --data-urlencode 'startDate=2023-09-09' --data-urlencode 'endDate=2023-09-09' --data-urlencode 'unitPrice=2000' --data-urlencode 'totalPrice=4500' --data-urlencode 'annonceID=644ed36d0cb0c237628030c6' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGRhNTdjYTMzMTA2MmQxZjZhOTllMSIsImlhdCI6MTY4Mjg5MDM0MiwiZXhwIjoxNjg1NDgyMzQyfQ.C7QXXAa2KE-aEkpx0DzV_eFX2tHUUu1l-DDu-9lfbxo'
+#1682940053
+curl --location 'http://localhost:8000/api/reservations?annonce=644ed --data-urlencode 'annonceID=644ed36d0cb0c237628030c6' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGRhNTdjYTMzMTA2MmQxZjZhOTllMSIsImlhdCI6MTY4Mjg5MDM0MiwiZXhwIjoxNjg1NDgyMzQyfQ.C7QXXAa2KE-aEkpx0DzV_eFX2tHUUu1l-DDu-9lfbxo'
+#1682940073
+curl --location 'http://localhost:8000/api/reservations?annonce=644ed36d0cb0c237628030c6' --data-urlencode 'annonceID=644ed36d0cb0c237628030c6' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGRhNTdjYTMzMTA2MmQxZjZhOTllMSIsImlhdCI6MTY4Mjg5MDM0MiwiZXhwIjoxNjg1NDgyMzQyfQ.C7QXXAa2KE-aEkpx0DzV_eFX2tHUUu1l-DDu-9lfbxo'
+#1682940881
+curl --location 'https://ekrili-backend.onrender.com/api/reservations?annonce=644ed36d0cb0c237628030c6' --data-urlencode 'annonceID=644ed36d0cb0c237628030c6' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NGRhNTdjYTMzMTA2MmQxZjZhOTllMSIsImlhdCI6MTY4Mjg5MDM0MiwiZXhwIjoxNjg1NDgyMzQyfQ.C7QXXAa2KE-aEkpx0DzV_eFX2tHUUu1l-DDu-9lfbxo'
+#1682941009
+gst
+#1682941011
+q
+#1682938847
+r
+#1682938295
+r
+#1682938315
+git pull
+#1682938324
+grh
+#1682938326
+git pul
+#1682938329
+git pull
+#1682938343
+cd ..
+#1682938347
+rm ekrili-backend/
+#1682938352
+clone https://github.com/schemsou/ekrili-backend
+#1682938357
+cd ekrili-backend/
+#1682938358
+r
+#1682938599
+gst
+#1682938601
+git pull
+#1682938633
+r
+#1682938700
+git pull
+#1682938703
+r
+#1682938824
+git pull
+#1682938839
+git branch -m fix/reservation
+#1682938841
+gst
+#1682938926
+npm
+#1682938928
+yarn
+#1682938933
+r
+#1682938939
+yarn
+#1682939024
+yarn dev
+#1682939028
+r
+#1682939043
+yarn server
+#1682946132
+q
+#1682938182
+cdw
+#1682938185
+cd ekrili-frontend/
+#1682938188
+yarn dev
+#1682941014
+gst
+#1682941029
+gc 'fix add reservation functionality'
+#1682941031
+gaa
+#1682941033
+gc 'fix add reservation functionality'
+#1682941051
+git push origin feat/annonce
+#1682944552
+yarn dev
+#1682944710
+gst
+#1682944712
+gaa
+#1682944721
+gc 'fix reservation functionality'
+#1682944726
+git push origin feat/annonce
+#1682945751
+gaa
+#1682945757
+gc 'add unit price
+'
+#1682945764
+git push origin feat/annonce
+#1682946138
+q
+#1682949596
+upd
+#1682949700
+q
+#1682980620
+qq
+#1682980621
+q
+#1682989613
+r
+#1682989682
+lsblk
+#1682989688
+mount /dev/sdc /mnt
+#1682989704
+mkdir usb
+#1682989707
+mount /dev/sdc /usb
+#1682989711
+mount /dev/sdc usb
+#1682989718
+sudo mount /dev/sdc /mnt
+#1682989720
+cdm
+#1682989721
+cdf
+#1682989727
+ls
+#1682989730
+r
+#1682989734
+cd /mnt
+#1682989746
+sudo su
+#1682989765
+cd
+#1682989766
+ls
+#1682989775
+sudo mount /dev/sdc usb
+#1682989778
+cd usb/
+#1682989780
+ls
+#1682989780
+r
+#1682989785
+sr
+#1682989822
+cd usb/
+#1682989826
+ls
+#1682989843
+sudo rm Convocation-doctorat-0.pdf Demande-* Imprime-concours-sur-epreuves-francais.pdf MD_PV_rectificatif_23.docx.pdf Test2.pdf test
+#1682989847
+sudo rm Convocation-doctorat-0.pdf Demande-* Imprime-concours-sur-epreuves-francais.pdf MD_PV_rectificatif_23.docx.pdf Test2.pdf test_yousra.pdf 
+#1682989851
+ls
+#1682989867
+cp ../dl/test1asd2.pdf .
+#1682989870
+sudo cp ../dl/test1asd2.pdf .
+#1682989871
+ls
+#1682989874
+cd
+#1682989879
+umount usb
+#1682989881
+sudo umount usb
+#1682989884
+lsblk
+#1682989890
+ls
+#1682989893
+lsblk
+#1682989901
+sudo mount /dev/sdc usb
+#1682989903
+cd usb/
+#1682989903
+ls
+#1682989905
+r
+#1682989917
+cd
+#1682989922
+umount /dev/sdc
+#1682989924
+sudo umount /dev/sdc
+#1682989925
+ls
+#1682989927
+lsblk
+#1683050138
+s
+#1683050139
+ls
+#1683050139
+q
+#1683050140
+ls
+#1683050145
+cdD
+#1683050146
+ls
+#1683050147
+r
+#1683050971
+gst
+#1683050976
+gca add TD2 and TD3
+#1683055074
+ls
+#1683055078
+cd prof/ASD2/
+#1683055079
+ls
+#1683055080
+cd TP/
+#1683055081
+ls
+#1683055087
+mkdir serie3
+#1683055087
+ls
+#1683055088
+r
+#1683064583
+./exo1 
+#1683064684
+r
+#1683064726
+./exo1 
+#1683064759
+r
+#1683064877
+./exo1 
+#1683064943
+r
+#1683065284
+./exo1 
+#1683065312
+r
+#1683065490
+./exo1 
+#1683065522
+r
+#1683065659
+./exo1 
+#1683065675
+r
+#1683065808
+./exo1 
+#1683065819
+r
+#1683065845
+./exo1 
+#1683065858
+r
+#1683065925
+./exo1 
+#1683065937
+r
+#1683065993
+./exo1 
+#1683066011
+r
+#1683066734
+./exo1 
+#1683066763
+r
+#1683066798
+./exo1 
+#1683067503
+r
+#1683067791
+./exo1 
+#1683067830
+r
+#1683067870
+..
+#1683067874
+gst
+#1683067879
+gca add exo1 serie3
+#1683067918
+q
+#1683097845
+ls
+#1683115288
+q
+#1683145356
+cdw
+#1683145360
+cd ekrili-frontend/
+#1683145361
+gst
+#1683145369
+git checkout meriem/feature/annonce
+#1683145494
+ls
+#1683145505
+q
+#1683145281
+cdw
+#1683145283
+cd ekrili-frontend/
+#1683145284
+ls
+#1683145285
+gst
+#1683145317
+git pull
+#1683145344
+nvim temp.tmp
+#1683145351
+nvim temp.jsx
+#1683145510
+cdw
+#1683145513
+cd ekrili-frontend/
+#1683145514
+ls
+#1683145524
+gst
+#1683145534
+git checkout master
+#1683145535
+gst
+#1683145536
+ls
+#1683145540
+gst
+#1683145542
+gst -u
+#1683145544
+gst
+#1683146002
+ls
+#1683146011
+gst
+#1683146013
+git pull
+#1683146130
+yarn 
+#1683146142
+yarn build
+#1683146444
+yarn
+#1683146458
+yarn build
+#1683148759
+yarn dev
+#1683149341
+gst
+#1683149346
+r
+#1683149348
+gst
+#1683149357
+gca fix annonce [id]
+#1683183905
+ls
+#1683190074
+cdw
+#1683190097
+r
+#1683292960
+nvim nom_prenom.txt
+#1683322132
+cdD
+#1683322132
+ls
+#1683322132
+r
+#1683397014
+ls
+#1683397016
+./test 
+#1683399319
+q
+#1683396800
+nvim test.c
+#1683399320
+ls
+#1683399321
+r
+#1683408352
+q
+#1683408441
+r
+#1683408478
+q
+#1683408479
+ls
+#1683408480
+r
+#1683408634
+cd
+#1683408635
+lsblk
+#1683408644
+mount /dev/sdb usb/
+#1683408647
+sudo mount /dev/sdb usb/
+#1683408648
+ls
+#1683408650
+cd usb/
+#1683408650
+ls
+#1683408651
+r
+#1683408655
+sr
+#1683408670
+ls
+#1683408676
+sudo rm test1asd2.pdf 
+#1683408690
+sudo cp ~/dl/test1asd2* .
+#1683408691
+ls
+#1683408693
+r
+#1683408702
+ls
+#1683408707
+sudo umount usb
+#1683408708
+ls
+#1683408709
+lsblk
+#1683408710
+cd usb/
+#1683408711
+ls
+#1683408713
+la
+#1683408713
+ls
+#1683408714
+cd
+#1683408715
+ls
+#1683413820
+r
+#1683413870
+cd
+#1683413872
+lsblk
+#1683413881
+sudo mount /dev/sdc usb/
+#1683413883
+cd usb
+#1683413883
+ls
+#1683413890
+sudo rm test1asd2a.pdf 
+#1683413899
+sudo cp ~/dl/test1asd2a.pdf .
+#1683413899
+ls
+#1683413900
+r
+#1683414023
+cd usb/
+#1683414027
+sudo rm test1asd2a.pdf 
+#1683414032
+sudo cp ~/dl/test1asd2a.pdf .
+#1683414033
+r
+#1683414083
+cd usb/
+#1683414086
+sudo rm test1asd2a.pdf 
+#1683414090
+sudo cp ~/dl/test1asd2a.pdf .
+#1683414091
+r
+#1683414101
+sudo umount usb
+#1683414103
+cd
+#1683414109
+lsblk
+#1683414115
+sudo umount /dev/sdc
+#1683414116
+q
+#1683414124
+sudo umount /dev/sdc
+#1683414125
+ls
+#1683414127
+lsblk
+#1683489442
+ls
+#1683489442
+q
+#1683489444
+ls
+#1683489445
+r
+#1683489480
+cdw
+#1683489481
+cdD
+#1683489483
+cd prof/
+#1683489484
+ls
+#1683489484
+r
+#1683489487
+./test1a_exo2 
+#1683489685
+gst
+#1683489687
+gst -u
+#1683489694
+gca add tests and project
+#1683489699
+ls
+#1683490029
+r
+#1683490033
+./test1a_exo1 
+#1683493427
+cdD
+#1683493427
+ls
+#1683493428
+gst
+#1683493434
+gca add test solution
+#1683493437
+q
+#1683620890
+cdD
+#1683620890
+ls
+#1683620894
+cd prof/ASD2/
+#1683620896
+cd test/
+#1683620896
+ls
+#1683620900
+cd test1b/
+#1683620901
+ls
+#1683622359
+./test1a_exo1 
+#1683623878
+..
+#1683623883
+cd test1b
+#1683623886
+./test1b_exo2 
+#1683624091
+ls
+#1683624628
+q
+#1683620858
+cdD
+#1683620858
+ls
+#1683620859
+r
+#1683624635
+ls
+#1683624637
+gst
+#1683624638
+gst -u
+#1683624645
+gca add test solutions
+#1683629802
+q
+#1683704031
+r
+#1683704124
+gst
+#1683704129
+gca update test names
+#1683704131
+r
+#1683760064
+q
+#1683892044
+matrix_game 4
+#1683892047
+cdw
+#1683892060
+clone https://github.com/nemo256/matrix_game
+#1683892064
+ls
+#1683892065
+cd matrix_game/
+#1683892066
+make
+#1683892069
+make install
+#1683892075
+sudo make install
+#1683892076
+ls
+#1683892077
+cd
+#1683892079
+cd matrix_game/
+#1683892083
+matrix_game 4
+#1683892095
+q
+#1683892098
+ls
+#1683892431
+q
+#1683902429
+ls
+#1683902430
+q
+#1683892184
+cdD
+#1683892185
+ls
+#1683892187
+nvim interview.md 
+#1683892091
+matrix_game 4
+#1683917899
+sudo nvim /etc/
+#1683917904
+sudo nvim /etc/ly/config.ini 
+#1683918026
+gst
+#1683918027
+cd
+#1683918030
+cd dots
+#1683918030
+ls
+#1683918036
+q
+#1683918251
+r
+#1683918258
+cd
+#1683918262
+cd .config/ranger/
+#1683918262
+l
+#1683918263
+r
+#1683918302
+q
+#1683918212
+sudo nvim /etc/ly/config.ini 
+#1683918458
+q
+#1683918473
+nvim
+#1683918550
+q
+#1683918585
+ls
+#1683918587
+cdd
+#1683918588
+s
+#1683918589
+ls
+#1683918589
+q
+#1683918700
+sudo nvim /etc/ly/config.ini 
+#1683918780
+reboot
+#1683918809
+ls
+#1683918810
+q
+#1683918862
+echo $EDITOR
+#1683918863
+q
+#1683918847
+cd .config/ranger
+#1683918849
+nvim rifle.conf 
+#1683918868
+q
+#1683918917
+xrc
+#1683918934
+q
+#1683918874
+brc
+#1683918936
+q

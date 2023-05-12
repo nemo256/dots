@@ -7,6 +7,9 @@
 # Adding new bin to the PATH variable
 export PATH=$HOME/bin:/$HOME/bin/status:/usr/local/bin:/sbin:$PATH
 
+# Default Text Editor
+export EDITOR=nvim
+
 # Setting up macbook keyboard layout
 setxkbmap us mac &
 # Unclutter to enable autohiding for pointer
