@@ -96728,3 +96728,359 @@ gca update wallpaper
 q
 #1688122617
 upd
+#1688122667
+xrc
+#1688122675
+cd dots
+#1688122678
+gca update wallpaper
+#1688122680
+q
+#1688122709
+ls
+#1688122709
+q
+#1688294392
+ls
+#1688294393
+q
+#1688294393
+ls
+#1688294394
+q
+#1688294394
+ls
+#1688294395
+q
+#1688294395
+ls
+#1688294396
+q
+#1688294401
+ls
+#1688294401
+q
+#1688294402
+ls
+#1688294402
+q
+#1688294403
+ls
+#1688294404
+q
+#1688294405
+ls
+#1688294405
+q
+#1688294406
+ls
+#1688294406
+q
+#1688294407
+ls
+#1688294407
+q
+#1688294408
+ls
+#1688294408
+q
+#1688294409
+ls
+#1688294410
+q
+#1688294412
+ls
+#1688294413
+q
+#1688375329
+ls
+#1688375330
+clear
+#1688375331
+ls
+#1688375333
+q
+#1688375389
+ls
+#1688375394
+clear
+#1688375395
+ls
+#1688375430
+q
+#1688375432
+ls
+#1688376672
+r
+#1688423119
+cdD
+#1688423120
+ls
+#1688423124
+nvim notes
+#1688470633
+ls
+#1688470633
+q
+#1688470634
+ls
+#1688470634
+q
+#1688559606
+ls
+#1688559606
+q
+#1688889660
+nmcli dev wifi connect "Wifi_Home" password Abdoubmw525dpackM+2017 hidden yes
+#1688889677
+nmcli dev wifi connect "Wifi_Home 2" password "Abdoubmw525dpackM+2017" hidden yes
+#1688889682
+nmcli dev wifi connect "Wifi_Home" password "Abdoubmw525dpackM+2017" hidden yes
+#1688890187
+paru -S camunda-modeler
+#1688890379
+camunda
+#1688890383
+camunda-modeler
+#1688894617
+cdw
+#1688894618
+ls
+#1688894688
+new learn-camunda
+#1688894699
+cd learn-camunda/
+#1688894700
+ls
+#1688894700
+r
+#1688894740
+gca update initial files
+#1688894748
+r
+#1688894756
+gca remove demo pic
+#1688894769
+nvim main.tex
+#1688894792
+ins texlive-full
+#1688894807
+ins texlive
+#1688894838
+ins texlive-basic
+#1688894867
+upd
+#1688894905
+ins texlive-basic
+#1688894916
+nvim main.tex
+#1688894925
+ins texlive-full
+#1688894927
+ins texlive
+#1688897050
+ins texlive-full
+#1688897052
+ins texlive
+#1688898086
+r
+#1688898100
+unzip Linguistics\ paper\ at\ University\ of\ Bergen.zip 
+#1688898101
+r
+#1688898275
+unzip Masters\ of\ Engineering\ Project\ Report\ Template.zip 
+#1688898276
+r
+#1688899027
+cal
+#1688899188
+ls
+#1688899188
+r
+#1688899403
+gca update template
+#1688899769
+gca add a general summary
+#1688899798
+gca output pdf
+#1688899830
+gca update summary
+#1688901116
+gca add introduction
+#1688901125
+gst
+#1688901211
+cdw
+#1688901212
+ls
+#1688901331
+q
+#1688897082
+cdw
+#1688897086
+cd learn-camunda/
+#1688897087
+ls
+#1688897128
+gca add template file
+#1688897804
+nvim main.tex 
+#1688898142
+r
+#1688898553
+nvim
+#1688898600
+r
+#1688898705
+nvim
+#1688914678
+cdw
+#1688914679
+cd learn-
+#1688914681
+cd learn-camunda/
+#1688914682
+ls
+#1688914684
+r
+#1688974464
+cdw
+#1688974466
+ls
+#1688974470
+cd ekrili-frontend/
+#1688974473
+yarn dev
+#1688901331
+ls
+#1688901332
+cdw
+#1688901333
+ls
+#1688901333
+r
+#1688901393
+nodejs --version
+#1688901396
+node --version
+#1688901400
+upd
+#1688901548
+ls
+#1688901550
+clear
+#1688901551
+ls
+#1688908919
+bin/elasticsearch
+#1688908932
+search
+#1688908936
+find bin/elasticsearch
+#1688908939
+find elasticsearch
+#1688908945
+find ~ elasticsearch
+#1688912948
+camunda
+#1688913013
+pacman
+#1688913120
+cdd
+#1688913121
+ls
+#1688913121
+r
+#1688913135
+unzip camunda-bpm-run-7.19.0.zip 
+#1688913136
+r
+#1688913140
+./start.
+#1688913142
+./start.sh
+#1688913149
+ins java
+#1688913152
+ins jdk
+#1688913195
+ins openjdk
+#1688913285
+ins jre
+#1688913296
+show jre
+#1688913309
+ins jre-openjdk
+#1688913356
+ls
+#1688913360
+./start.sh
+#1688913394
+./shutdown.sh 
+#1688913399
+./start.sh
+#1688976020
+ls
+#1688976100
+q
+#1688979928
+cdw
+#1688979929
+ls
+#1688979965
+cd learn-camunda/
+#1688979966
+ls
+#1688980321
+gca add motivation and goals
+#1688980330
+grh
+#1688980345
+r
+#1688980363
+gca add motivation and goals
+#1688981128
+..
+#1688981130
+cd camunda/
+#1688981131
+ls
+#1688981133
+./start.sh
+#1688981141
+./shutdown.sh 
+#1688981143
+./start.sh
+#1688983565
+..
+#1688983568
+cd learn-camunda/
+#1688983595
+gca add bpmn section - basics of bpmn
+#1688983607
+gca update 
+#1688983637
+ls
+#1688983637
+clear
+#1688983638
+ls
+#1688983688
+gca fix typo
+#1688984538
+gca add learning process of BPMNs
+#1688984685
+gca add intro subsection - BPMNs
+#1688985475
+gca add headerfooter config
+#1688985978
+cd
+#1688985979
+ls
+#1688985981
+la
+#1688985982
+r
+#1688986094
+q
