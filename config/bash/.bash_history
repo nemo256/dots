@@ -97084,3 +97084,1179 @@ la
 r
 #1688986094
 q
+#1688994104
+myip
+#1688994107
+mylip
+#1688994148
+ins net-tools
+#1688994153
+r
+#1688994178
+gca add net-tools package
+#1688994203
+q
+#1688993609
+cdw
+#1688993612
+cd camunda/
+#1688993613
+ls
+#1688993619
+./shutdown.sh
+#1688993625
+./start.sh
+#1688993698
+cdw
+#1688993701
+cd learn-camunda/
+#1688993702
+gst
+#1688993736
+gca add installation steps and setup section
+#1688994205
+ls
+#1688994206
+gst
+#1688994219
+myli
+#1688994220
+mylip
+#1688994228
+ifconfig
+#1688994421
+clear
+#1688994421
+ls
+#1688994965
+r
+#1688996124
+gca add bpmn figure
+#1688996178
+gca fix typo
+#1688996300
+ls
+#1688996310
+cdw
+#1688996313
+cd camunda/
+#1688996314
+ls
+#1688996316
+clear
+#1688996317
+ls
+#1688996476
+r
+#1688996495
+q
+#1689060225
+r
+#1689060236
+cd
+#1689060242
+lsblk
+#1689060257
+ls
+#1689060260
+cd usb
+#1689060261
+ls
+#1689060262
+..
+#1689060290
+lsblk
+#1689060298
+sudo mount /dev/sdc usb/
+#1689060300
+cd usb/
+#1689060301
+ls
+#1689060301
+r
+#1689060312
+sudo mkdir config
+#1689060314
+..
+#1689060314
+r
+#1689060332
+sr
+#1689060517
+sudo cp .config/ .bash* ./usb/config/
+#1689060522
+sudo cp -r .config/ .bash* ./usb/config/
+#1689060527
+r
+#1689060539
+q
+#1689060567
+alias cp
+#1689060572
+q
+#1688996498
+cdw
+#1688996501
+cd learn-camunda/
+#1688996501
+ls
+#1688996734
+gst
+#1688996735
+gs
+#1688996737
+gd
+#1688996751
+gca update figure size
+#1688996755
+ls
+#1689059685
+cd
+#1689059686
+la
+#1689059745
+ls
+#1689060322
+cd
+#1689060324
+cd usb/
+#1689060540
+ls
+#1689060542
+cd config/
+#1689060543
+ls
+#1689060554
+sudo cp ~/.config/ .
+#1689060575
+sudo cp -fvr ~/.config/ .
+#1689060584
+r.
+#1689060586
+r
+#1689060595
+cd usb/config/
+#1689060608
+sudo cp ~/.bash* .
+#1689060609
+ls
+#1689060610
+la
+#1689060618
+sudo rm .bash_history 
+#1689060619
+ls
+#1689060623
+sudo rm .bash_logout 
+#1689060624
+ls
+#1689060626
+r
+#1689060641
+cd
+#1689060644
+umntf
+#1689060646
+lsblk
+#1689060659
+umount usb/
+#1689060661
+sudo umount usb/
+#1689060663
+lsblk
+#1689060666
+eject /dev/sdc
+#1689060669
+sudo eject /dev/sdc
+#1689060900
+cd .config/
+#1689060901
+ls
+#1689060906
+r
+#1689060973
+lsblk
+#1689060986
+cd && sudo mount /dev/sdc usb
+#1689060987
+ls
+#1689060988
+cd usb/
+#1689060989
+ls
+#1689060989
+r
+#1689060999
+sudo rm .config/
+#1689061003
+sudo rm -fvr .config/
+#1689061004
+r
+#1689061024
+cd
+#1689061037
+sudo cp -fvr dots/config/ ./usb/config/
+#1689061038
+ls
+#1689061038
+r
+#1689061050
+..
+#1689061054
+lsblk
+#1689061062
+sudo umount /dev/sdc
+#1689061065
+cd
+#1689061070
+lsblk
+#1689061442
+ls
+#1689061443
+clear
+#1689061444
+ls
+#1689061444
+q
+#1689061910
+;s
+#1689061911
+ls
+#1689061912
+clear
+#1689061912
+ls
+#1689061923
+cd dots
+#1689061924
+ls
+#1689061935
+nvim packages 
+#1689062754
+ls
+#1689062755
+clear
+#1689062755
+ls
+#1689062779
+q
+#1689062781
+ls
+#1689062781
+q
+#1689062783
+cdw
+#1689062786
+cd learn-camunda/
+#1689062787
+ls
+#1689062867
+..
+#1689062869
+cd camunda/
+#1689062869
+ls
+#1689062874
+./shutdown.sh 
+#1689062881
+./start.sh
+#1689063019
+r
+#1689066273
+q
+#1689084630
+cd .config/
+#1689084631
+ls
+#1689084631
+r
+#1689066274
+cdw
+#1689066278
+cd learn-camunda/
+#1689066279
+l
+#1689066279
+ls
+#1689066280
+clear
+#1689066281
+ls
+#1689067963
+r
+#1689070756
+cdw
+#1689070759
+cd learn-camunda/
+#1689070767
+gca add execution steps of the process
+#1689071011
+gca add simple process figure to the output pdf
+#1689071021
+ls
+#1689071298
+gca remove unnecessary sections
+#1689072222
+gca add additional steps of executing the process..
+#1689072285
+ins eclipse
+#1689073166
+nvim TODO.md
+#1689073436
+gca add TODOs
+#1689075169
+gst
+#1689075171
+gs
+#1689075174
+gd
+#1689075185
+gca add service task section..
+#1689075201
+gca update output pdf
+#1689075209
+pip install camunda-external-task-client-python3
+#1689075274
+ls
+#1689075275
+r
+#1689075341
+mkdir weather_example
+#1689075343
+ls
+#1689075343
+r
+#1689076546
+..
+#1689076549
+sudo pip install camunda-external-task-client-python3
+#1689076567
+pip install camunda-external-task-client-python3
+#1689082885
+s
+#1689082886
+ls
+#1689082890
+r
+#1689082939
+cd service_task/
+#1689082945
+py -m venv venv
+#1689082955
+source venv/bin/activate
+#1689082956
+ls
+#1689082957
+clear
+#1689082958
+ls
+#1689082964
+pip install camunda-external-task-client-python3
+#1689082989
+pip freeze > requirements.txt 
+#1689082992
+ls
+#1689082997
+nvim app.py
+#1689083447
+ls
+#1689083629
+r
+#1689087812
+gst
+#1689087815
+ls
+#1689087818
+cd service_task
+#1689087819
+ls
+#1689087829
+q
+#1689087831
+cdw
+#1689087833
+cd learn-camunda/
+#1689087834
+ls
+#1689087835
+gst
+#1689087865
+gca add what I learned section
+#1689087868
+r
+#1689087884
+cd learn-camunda/
+#1689087886
+grh
+#1689087903
+gca add what I learned section
+#1689087916
+gca
+#1689087921
+gca add what I learned section
+#1689146400
+ls
+#1689146400
+r
+#1689146423
+source venv/bin/activate
+#1689146424
+ls
+#1689146426
+py app.py 
+#1689146437
+pip freeze > requirements.txt 
+#1689146443
+pip install camunda-external-task-client-python3
+#1689146495
+py app.py 
+#1689146500
+q
+#1689146502
+cdw
+#1689146506
+cd service_task/
+#1689146506
+ls
+#1689146514
+source venv/bin/activate
+#1689146515
+ls
+#1689146518
+r
+#1689146523
+py app.py 
+#1689146530
+pip install camunda-external-task-client-python3
+#1689146535
+r
+#1689146543
+py -m venv venv
+#1689146549
+ls
+#1689146555
+source venv/bin/activate
+#1689146557
+ls
+#1689146565
+py app.py 
+#1689146569
+pip install camunda-external-task-client-python3
+#1689146615
+py app.py 
+#1689146636
+pip install pydantic
+#1689146666
+py app.py 
+#1689146678
+r
+#1689146767
+pip freeze > requirements.txt 
+#1689146770
+py app.py 
+#1689147634
+r
+#1689148287
+cdw
+#1689148291
+cd learn-camunda/
+#1689148291
+ls
+#1689148292
+gst
+#1689148333
+gca add additional step in using an external task - service task
+#1689149302
+gca update what I learned section
+#1689149312
+gca update output pdf
+#1689150055
+gca add camunda 8 vs 7 differences
+#1689150156
+gca update TODOs
+#1689163097
+gst
+#1689163119
+gca add conclusion
+#1689167279
+ls
+#1689167280
+clear
+#1689167280
+ls
+#1689167529
+gst
+#1689167531
+gs
+#1689167532
+gd
+#1689167565
+q
+#1689167567
+cdw
+#1689167568
+lsq
+#1689167568
+q
+#1689167571
+ls
+#1689167572
+q
+#1689167576
+cdw
+#1689167578
+cd learn-camunda/
+#1689167579
+ls
+#1689167580
+clear
+#1689167581
+ls
+#1689167582
+gst
+#1689169548
+r
+#1689330651
+q
+#1689334032
+ls
+#1689334032
+q
+#1689334033
+ls
+#1689334033
+q
+#1689334033
+ls
+#1689334034
+q
+#1689334034
+ls
+#1689334036
+q
+#1689334037
+ls
+#1689334038
+q
+#1689334042
+rm test.bpmn 
+#1689334042
+ls
+#1689334044
+clear
+#1689334047
+a
+#1689334048
+q
+#1689491895
+ls
+#1689491896
+q
+#1689491897
+clear
+#1689491898
+ls
+#1689491898
+q
+#1689491899
+r
+#1689493932
+cdw
+#1689493933
+ls
+#1689493935
+cd mobilis/
+#1689493937
+gst
+#1689493941
+r
+#1689493982
+q
+#1689502098
+r
+#1689497472
+cdw
+#1689497474
+cd learn-
+#1689497477
+cd learn-ansible/
+#1689497478
+ls
+#1689497484
+gca update styling
+#1689497492
+..
+#1689497495
+cd learn-camunda/
+#1689497621
+ls
+#1689497695
+grh
+#1689497706
+r
+#1689497819
+gca update styling
+#1689498919
+gca update tasks, fixed camunda platform 7 vs 8
+#1689499311
+gca remove unnecessary things..
+#1689499529
+gst
+#1689499534
+gca update output pdf
+#1689499558
+r
+#1689499703
+gst
+#1689499709
+r
+#1689499773
+gst
+#1689499794
+gca update gitignore
+#1689499877
+l
+#1689499878
+ls
+#1689499879
+clear
+#1689499879
+ls
+#1689500378
+r
+#1689500759
+grh
+#1689500799
+gst
+#1689501373
+..
+#1689501374
+cd camunda/
+#1689501375
+ls
+#1689501378
+./start.sh 
+#1689501385
+./shutdown.sh
+#1689501388
+./start.sh 
+#1689501453
+r
+#1689501471
+source venv/bin/activate
+#1689501473
+py app.py 
+#1689502051
+r
+#1689502058
+py app.py 
+#1689502061
+r
+#1689502083
+py app.py 
+#1689502287
+r
+#1689502406
+py app.py 
+#1689502463
+r
+#1689502488
+py app.py 
+#1689502497
+r
+#1689502511
+py app.py 
+#1689502544
+r
+#1689538248
+ls
+#1689538249
+cdw
+#1689538250
+r
+#1689579033
+ls
+#1689579033
+c
+#1689579035
+clear
+#1689579036
+q
+#1689580107
+chromium --no-sandbox
+#1689580109
+q
+#1689683220
+ls
+#1689683222
+cdw
+#1689683222
+ls
+#1689683230
+clea
+#1689683231
+clear
+#1689683232
+ls
+#1689683232
+q
+#1689793439
+ls
+#1689793439
+q
+#1689794298
+cdD
+#1689794299
+ls
+#1689794299
+r
+#1689794659
+r
+#1687210921
+clear
+#1687210922
+;s
+#1687210922
+q
+#1687210924
+ls
+#1687210924
+q
+#1687210905
+clear
+#1687210907
+cdD
+#1687210907
+ls
+#1687210908
+gst
+#1687210910
+gst -u
+#1687210917
+gca update latest docs
+#1687210922
+..
+#1687210922
+ls
+#1687210923
+clear
+#1687210923
+ls
+#1687210924
+cd
+#1687210927
+ls
+#1687210929
+cdw
+#1687210930
+ls
+#1687210931
+clear
+#1687210931
+ls
+#1687210932
+cd
+#1687210932
+q
+#1687210934
+ls
+#1687210934
+q
+#1687210935
+ls
+#1687210935
+q
+#1687210936
+ls
+#1687210936
+q
+#1687210937
+ls
+#1687210937
+q
+#1687210938
+ls
+#1687210938
+q
+#1687210947
+ls
+#1687210949
+clear
+#1687210950
+ls
+#1687210952
+clear
+#1687210953
+ls
+#1687210954
+q
+#1687210909
+clear
+#1687210909
+ls
+#1687210909
+q
+#1687210907
+date
+#1687210961
+hwclock
+#1687210969
+hwclock --verbose
+#1687210979
+sudo hwclock --verbose
+#1687210991
+sudo hwclock
+#1687211013
+sudo hwclock -r
+#1687211029
+sudo hwclock --utc
+#1687211076
+sudo hwclock --systohw
+#1687211088
+sudo hwclock --systohc
+#1687211092
+sudo hwclock -r
+#1687211145
+timedatectl
+#1687211193
+timedatectl set-timezone 'Africa/Algiers'
+#1687211195
+timedatectl
+#1687211216
+timedatectl set-ntp yes
+#1687211221
+timedatectl
+#1689953909
+sudo timedatectl set-ntp true
+#1689953911
+timedatectl
+#1689953995
+clear
+#1689953995
+q
+#1689953997
+ls
+#1689953997
+q
+#1689954005
+ls
+#1689954005
+c
+#1689954006
+q
+#1689954009
+clear
+#1689954009
+ls
+#1689954010
+q
+#1689954010
+ls
+#1689954011
+q
+#1689954053
+clear
+#1689954053
+q
+#1689954054
+cdw
+#1689954056
+clear
+#1689954056
+ls
+#1689954069
+batterylevel
+#1689954073
+q
+#1689954441
+date
+#1689954443
+q
+#1689955308
+ins chromium
+#1689955313
+upd
+#1689955336
+q
+#1689955174
+cdw
+#1689955177
+cd sgte/
+#1689955178
+ls
+#1689955195
+yarn create next-app --example basic-css .
+#1689955339
+clear
+#1689955340
+ls
+#1689955342
+upd
+#1689955344
+q
+#1689955694
+clear
+#1689955694
+q
+#1689956859
+date
+#1689956927
+upd
+#1689956943
+ping google.com
+#1689956946
+upd
+#1689956956
+hwclock
+#1689956958
+sudo hwclock
+#1689956967
+sudo hwclock --systohc
+#1689956970
+sudo hwclock
+#1689956973
+upd
+#1689956975
+q
+#1689958539
+clear
+#1689958539
+q
+#1689958667
+upd
+#1689958730
+sudo rm /var/lib/pacman/db.lck
+#1689958731
+upd
+#1689958908
+yarn upgrade --latest yarn
+#1689958914
+sudo yarn upgrade --latest yarn
+#1689958917
+sudo yarn upgrade --latest
+#1689958930
+ins yarn
+#1689958936
+upd
+#1689959002
+cdw
+#1689959003
+cd sgte/
+#1689959003
+ls
+#1689959011
+yarn create next-app .
+#1689959672
+ls
+#1689959672
+r
+#1689959708
+yarn init vue@latest
+#1689959761
+clear
+#1689959762
+ls
+#1689959771
+c
+#1689959774
+ls
+#1689959785
+yarn install
+#1689959788
+ls
+#1689959797
+yarn dev
+#1689959801
+r
+#1689959831
+yarn init vue@latest
+#1689959850
+r
+#1689959864
+npm init vue@latest
+#1689959950
+ins nodejs
+#1689960012
+npm
+#1689960013
+ins npm
+#1689960087
+npm init vue@latest
+#1689960146
+ls
+#1689960150
+r
+#1689960179
+npm install
+#1689960239
+q
+#1690097781
+upd
+#1690097792
+reboot
+#1690097814
+clear
+#1690097814
+q
+#1690625749
+cd .build/
+#1690625749
+ls
+#1690625751
+cd tily/
+#1690625752
+ls
+#1690625756
+nvim config.h
+#1690625844
+make clean install
+#1690625849
+make
+#1690625853
+sudo make clean install
+#1690625856
+clear
+#1690625856
+gst
+#1690625864
+gca add chatgpt key binding
+#1690625866
+q
+#1690627289
+r
+#1690627298
+unzip LogoSize_Pinterest_ByTailorBrands.zip 
+#1690627298
+r
+#1690627452
+unzip LogoSize_Pinterest_ByTailorBrands.zip 
+#1690627453
+r
+#1691267094
+clear
+#1691267095
+ls
+#1691267095
+q
+#1691267117
+clear
+#1691267117
+q
+#1691267691
+clear
+#1691267691
+ls
+#1691267702
+clear
+#1691267706
+cdw
+#1691267707
+ls
+#1691267742
+cd asd
+#1691267744
+ls
+#1691267747
+clear
+#1691267755
+..
+#1691267757
+ls
+#1691267919
+clear
+#1691267920
+ls
+#1691267924
+clear
+#1691267925
+ls
+#1691267927
+new
+#1691267932
+r
+#1691267948
+clear
+#1691267949
+ls
+#1691354818
+yarn create next-app ok
+#1691354827
+r
+#1691355225
+c
+#1691355229
+cd ..
+#1691355235
+cdw
+#1691355265
+ls
+#1691355267
+cdb
+#1691355267
+ls
+#1691355270
+nvim new 
+#1691355712
+q
+#1691355543
+cdw
+#1691358131
+cd sgt
+#1691358132
+r
+#1691358298
+gst
+#1691358300
+r
+#1691358319
+gst
+#1691358322
+gst 0u
+#1691358323
+gst -u
+#1691358366
+gca clean new project
+#1691358430
+r
+#1691358451
+gca remove demo image - does not exist
+#1691358801
+r
+#1691358007
+cd sgt
+#1691358008
+ls
+#1691358012
+yarn dev
+#1691357316
+cd sgt
+#1691357317
+ls
+#1691357317
+r
+#1691357494
+cdw
+#1691357495
+cd sgt
+#1691357496
+r
+#1691357654
+next dev
+#1691357670
+r
+#1691357712
+yarn dev
+#1691357721
+r
+#1691357740
+yarn dev
+#1691357804
+r
+#1691357875
+yarn dev
+#1691357906
+r
+#1691360499
+cdw
+#1691360500
+r
