@@ -98260,3 +98260,432 @@ r
 cdw
 #1691360500
 r
+#1691515212
+cdp
+#1691515212
+ls
+#1691515217
+cd mpv/
+#1691515217
+ls
+#1691515218
+r
+#1691515242
+..
+#1691515243
+gst
+#1691515257
+gca update mpv screenshot directory...
+#1691515262
+q
+#1691515264
+q
+#1691666944
+clear
+#1691666945
+ls
+#1691666946
+q
+#1691680699
+clear
+#1691680700
+q
+#1691680701
+clear
+#1691680702
+q
+#1691680882
+ls -lsha /boot
+#1691680897
+alias ls='ls
+'
+#1691680900
+ls
+#1691680902
+ls -lsha /boot
+#1691680919
+ls -lsh /boot
+#1691680925
+ls /boot
+#1691680942
+sudo
+#1691680944
+sudo su
+#1691680964
+q
+#1691680776
+cdw
+#1691680777
+cd arch
+#1691680778
+ls
+#1691680780
+cd archy
+#1691680787
+clone https://github.com/nemo256/archy
+#1691680791
+cd archy/
+#1691680792
+;s
+#1691680793
+ls
+#1691680793
+r
+#1691680840
+cd
+#1691680852
+ins linux-lts linux-lts-headers
+#1691680855
+upd
+#1691680866
+ins linux-lts linux-lts-headers
+#1691681079
+pacman -R linux-zen
+#1691681082
+sudo pacman -R linux-zen
+#1691681091
+sudo pacman -R linux-zen linux-zen-headers
+#1691681114
+cdw
+#1691681116
+cd archy/
+#1691681119
+nvim archy 
+#1691681151
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+#1691681163
+reboot
+#1691681196
+clear
+#1691681196
+q
+#1691681197
+clear
+#1691681198
+q
+#1691681381
+clear
+#1691681381
+q
+#1691681526
+ins broadcom-wl-dkms
+#1691681545
+ins linux-zen linux-zen-headers
+#1691681549
+upd
+#1691681560
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+#1691681569
+ls /boot
+#1691681503
+cd dots
+#1691681504
+ls
+#1691681504
+r
+#1691681607
+q
+                                             #1691682510
+modprobe wl
+#1691916926
+upd
+#1691916945
+ins broadcom-wl-dkms
+#1691917033
+ins linux-zen
+#1691917197
+ins linux-zen-headers
+#1691917556
+sudo pacman -R linux-lts linux
+#1691917559
+sudo pacman -R linux-lts
+#1691917566
+sudo pacman -R linux-lts-headers
+#1691917576
+ins linux-zen-headers
+#1691917587
+sudo pacman -R linux-zen-headers
+#1691917604
+ins linux-zen-headers
+#1691917742
+grub-mkconfig -o /boot/grub/grub.cfg
+#1691917744
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+#1691917748
+reboot
+#1691917785
+ins linux-zen-headers
+#1691917793
+rem linux-zen-headers
+#1691917809
+ins linux-zen-headers
+#1691917929
+rem dkms
+#1691917947
+rem broadcom-wl-dkms virtualbox-host-dkms
+#1691917958
+rem VIRTUALBOX-HOST-MODULES
+#1691917960
+rem broadcom-wl-dkms virtualbox-host-dkms
+#1691917963
+rem broadcom-wl-dkms
+#1691917968
+rem dkms
+#1691917974
+rem virtualbox-host-dkms
+#1691917979
+upd
+#1691917996
+sudo pacman -R virtualbox-host-dkms
+#1691917998
+sudo pacman -Rf virtualbox-host-dkms
+#1691918004
+sudo pacman -RF virtualbox-host-dkms
+#1691918011
+sudo pacman -R virtualbox-host-dkms
+#1691918034
+sudo pacman -Rdd virtualbox-host-dkms
+#1691918044
+ins dkms
+#1691918049
+rem dkms
+#1691918053
+ins dkms
+#1691918071
+ins linux-zen-headers
+#1691918083
+ins broadcom-wl-dkms
+#1691918218
+q
+#1691918220
+reboot
+#1691917863
+sudo nvim /var/lib/dkms/broadcom-wl/6.30.223.271/build/make.log
+#1692460178
+rem upower
+#1692460185
+reboot
+#1692460254
+upd
+#1692460305
+ins broadcom-wl-dkms
+#1692460318
+rem broadcom-wl-dkms
+#1692460326
+rem dkms
+#1692460331
+reboot
+#1692460363
+clear
+#1692460363
+q
+#1692460467
+cat /sys/devices/system/cpu/cpuX/cpufreq/scaling_max_freq
+#1692460489
+cat /sys/devices/system/cpu/cpufreq/schedutil/rate_limit_us 
+#1692460508
+cat /sys/devices/system/cpu/cpufreq/
+#1692460543
+cat /sys/devices/system/cpu/present 
+#1692460588
+cpupower frequency-set -g performance
+#1692460636
+ins cpupower
+#1692460658
+cpupower frequency-info
+#1692460692
+ins nodejs
+#1692460705
+cpupower frequency-info
+#1692460748
+sudo pacman -Syu --ignore glibc
+#1692460784
+clear
+#1692460785
+ls
+#1692460786
+clear
+#1692460787
+ls
+#1692460789
+q
+#1692460807
+pacman -Syu
+#1692460809
+sudo pacman -Syu
+#1692460852
+find /lib -exec pacman -Qo -- {} +
+#1692460924
+cpupower
+#1692460977
+sudo pacman-config
+#1692460989
+pacman-config
+#1692461001
+pacman-conf
+#1692461063
+ins dkms
+#1692461069
+ins broadcom-wl-dkms
+#1692461149
+echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo
+#1692461153
+sudo echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo
+#1692461182
+x86_energy_perf_policy --turbo-enable 0
+#1692461191
+ins x86_energy_perf_policy
+#1692461195
+x86_energy_perf_policy --turbo-enable 0
+#1692461219
+ins glibc
+#1692461230
+upd
+#1692463786
+reboot
+#1692465407
+cpupower
+#1692465417
+cpupower frequency-info
+#1692465440
+cpupower frequency-set -g performance
+#1692465444
+sudo cpupower frequency-set -g performance
+#1692465481
+q
+#1692465807
+sudo cpupower frequency-set -g performance
+#1692465854
+watch cat /sys/devices/system/cpu/cpu[0-9]*/cpufreq/scaling_cur_freq
+#1692465872
+cdb
+#1692465873
+ls
+#1692465882
+v watch 
+#1692465908
+q
+#1692465916
+cat /sys/devices/system/cpu/cpu[0-9]*/cpufreq/scaling_cur_freq
+#1692465950
+cat /sys/devices/system/cpu/cpufreq/governor/up_threshold
+#1692465960
+cat /sys/devices/system/cpu/cpufreq/policy0/
+#1692465966
+cat /sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq 
+#1692466060
+cpupower frequency-set -d
+#1692466063
+sudo cpupower frequency-set -d
+#1692466084
+cpupower frequency-info
+#1692466136
+sudo cpupower frequency-set -d 2.6 GHz
+#1692466148
+cat /sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq 
+#1692466164
+sudo cpupower frequency-set -d 2600000
+#1692466214
+ins intel_ucode
+#1692466219
+ins intel-ucode
+#1692466236
+ls /usr/lib/modules/$(uname -r)/kernel/drivers/cpufreq/
+#1692466297
+cat /etc/default/cpupower
+#1692466327
+nvim /etc/default/cpupower
+#1692466334
+sudo nvim /etc/default/cpupower
+#1692466378
+reboot
+#1692466438
+cat /sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq 
+#1692466516
+cpupower -call frequency-info
+#1692466574
+cat /sys/devices/system/cpu/intel_pstate/
+#1692466585
+cat /sys/devices/system/cpu/intel_pstate/status 
+#1692466590
+cat /sys/devices/system/cpu/intel_pstate/no_turbo 
+#1692466596
+cat /sys/devices/system/cpu/intel_pstate/max_perf_pct 
+#1692466601
+cat /sys/devices/system/cpu/intel_pstate/min_perf_pct 
+#1692466606
+cat /sys/devices/system/cpu/intel_pstate/num_pstates 
+#1692468232
+ins msr-tool
+#1692468235
+ins msr-tools
+#1692468244
+sudo modprobe msr 
+#1692468249
+sudo wrmsr 0x1FC 2
+#1692468272
+clear
+#1692468272
+ls
+#1692468324
+sudo wrmsr 0x1FC 2
+#1692468343
+wrmsr 0x1FC 2
+#1692468345
+sudo wrmsr 0x1FC 2
+#1692468419
+q
+#1692468494
+lscpu | grep MHz
+#1692468879
+xrc
+#1692468915
+clear
+#1692468916
+ls
+#1692468919
+r
+#1692468985
+ls
+#1692468993
+cd /etc/ly/config.ini
+#1692468998
+v /etc/ly/config.ini
+#1692469060
+r
+#1692469071
+v /etc/ly/xsetup.sh 
+#1692469108
+v /etc/ly/save 
+#1692469112
+clear
+#1692469112
+ls
+#1692469260
+sudo nvim /etc/systemd/system/disable_prochot.service
+#1692469448
+sudo systemctl daemon-reload
+#1692469459
+sudo systemctl start disable_prochot
+#1692469467
+sudo systemctl enable disable_prochot
+#1692469475
+reboot
+#1692469510
+ls
+#1692469510
+clear
+#1692469511
+ls
+#1692469511
+q
+#1692469561
+ins tor
+#1693598173
+upd
+#1693598186
+ins tor
+#1693598213
+clear
+#1693598214
+q

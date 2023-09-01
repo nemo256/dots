@@ -25,3 +25,8 @@ $ protonvpn-cli login <username>
 
 - install themes:
   * IndigoDark
+
+# Remove CPU throttling
+- Install msr-tools
+- Create a disable_prochot service (Command to use in the service: wrmsr 0x1FC 2 (as a superuser))
+- Start / Enable the service

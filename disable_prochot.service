@@ -1,0 +1,11 @@
+[Unit]
+Description=Disable BD_PROCHOT to enable better performance without the battery
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=wrmsr 0x1FC 2
+
+[Install]
+WantedBy=default.target
