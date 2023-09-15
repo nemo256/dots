@@ -98689,3 +98689,97 @@ ins tor
 clear
 #1693598214
 q
+#1693598230
+cd dots/
+#1693598230
+ls
+#1693598231
+r
+#1693598421
+gca add disable prochot functionality
+#1693598424
+q
+#1693598310
+cp /etc/systemd/system/disable_prochot.service ./dots/
+#1693598312
+r
+#1693598316
+cd dots
+#1693598316
+ls
+#1693598425
+q
+#1693598451
+tor
+#1693598469
+sudo tor
+#1693598538
+sudo systemctl enable --now tor.service
+#1693598544
+systemctl status tor.service
+#1693598554
+wget -qO - https://api.ipify.org; echo
+#1693598570
+sudo pacman -S torsocks
+#1693598578
+torsocks wget -qO - https://api.ipify.org; echo
+#1693598588
+source torsocks on
+#1693598597
+wget -qO - https://api.ipify.org; echo
+#1693598651
+sudo pacman -S torbrowser-launcher
+#1693598663
+source torsocks off
+#1693598684
+clear
+#1693598685
+ls
+#1693598690
+torbrowser-launcher
+#1693600294
+ls
+#1693600294
+q
+#1694426664
+cdD
+#1694426668
+r
+#1694534203
+cdD
+#1694534206
+cd fun/
+#1694534208
+ls
+#1694555566
+touch 29193660928721707
+#1694555918
+touch 624445216605486150
+#1694556445
+..
+#1694556452
+gca add more fun
+#1694768250
+cdD
+#1694768253
+cd fun 
+#1694768257
+touch 92948813482988889
+#1694811928
+cdD
+#1694811931
+cd fun/
+#1694811935
+touch 3086657891638410461832
+#1694812260
+touch 92438422181253309618763
+#1694812663
+clear
+#1694812664
+q
+#1694812776
+clearq
+#1694812777
+clear
+#1694812777
+q
