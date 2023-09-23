@@ -98999,3 +98999,47 @@ firefox https://github.com/nemo256/dots https://github.com/nemo256/archy https:/
 firefox https://github.com/nemo256/archy https://github.com/nemo256/dots https://github.com/nemo256/ICAISC23 https://github.com/nemo256/HackINI-2k22 https://github.com/nemo256/DashRecours https://hotel21.vercel.app/ https://landy21.vercel.app/ http://qafilaty-test.vercel.app/ https://graphs21.netlify.app/ https://peakville.vercel.app/login
 #1695503517
 interview
+#1695503631
+r
+#1695503669
+cdb
+#1695503673
+v interview 
+#1695503697
+cd
+#1695503698
+cd dots/
+#1695503704
+gca update interview script
+#1695503756
+q
+#1695504161
+sxiv -ftqrb /home/n3m0/pix/sites
+#1695503980
+cd .build/tily/
+#1695503983
+v config.h
+#1695504193
+q
+#1695503953
+cdb
+#1695503962
+cp interview sites
+#1695503964
+r
+#1695504177
+cd dots
+#1695504177
+gst
+#1695504179
+gst -u
+#1695504181
+cd
+#1695504188
+cd .build/tily/
+#1695504197
+make
+#1695504200
+sudo make clean install
+#1695504203
+q
