@@ -98943,3 +98943,59 @@ clear
 ls
 #1695502889
 q
+#1695503281
+cdb
+#1695503282
+ls
+#1695503299
+v interview
+#1695503305
+r
+#1695503318
+v interview
+#1695503345
+r
+#1695503368
+v interview
+#1695503377
+chmod +x interview 
+#1695503421
+cd
+#1695503424
+cd dots/
+#1695503424
+gst
+#1695503427
+gst -u
+#1695503436
+gca add interview script
+#1695503448
+cd
+#1695503455
+cd .build/tily/
+#1695503456
+gst
+#1695503458
+gst -u
+#1695503461
+v config.h
+#1695503548
+make
+#1695503554
+sudo make clean install
+#1695503556
+gst
+#1695503567
+gca add interview key combination...
+#1695503569
+q
+#1695502900
+firefox https://hotel21.vercel.app/ https://landy21.vercel.app/ http://qafilaty-test.vercel.app/ https://graphs21.netlify.app/ https://peakville.vercel.app/login
+#1695502916
+firefox https://hotel21.vercel.app/ https://landy21.vercel.app/ http://qafilaty-test.vercel.app/ https://graphs21.netlify.app/ https://peakville.vercel.app/login https://github.com/nemo256/DashRecours
+#1695503001
+firefox https://github.com/nemo256/dots https://github.com/nemo256/archy https://github.com/nemo256/DashRecours https://hotel21.vercel.app/ https://landy21.vercel.app/ http://qafilaty-test.vercel.app/ https://graphs21.netlify.app/ https://peakville.vercel.app/login
+#1695503179
+firefox https://github.com/nemo256/archy https://github.com/nemo256/dots https://github.com/nemo256/ICAISC23 https://github.com/nemo256/HackINI-2k22 https://github.com/nemo256/DashRecours https://hotel21.vercel.app/ https://landy21.vercel.app/ http://qafilaty-test.vercel.app/ https://graphs21.netlify.app/ https://peakville.vercel.app/login
+#1695503517
+interview
