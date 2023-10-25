@@ -23,6 +23,8 @@ xrandr --output eDP1 --mode 1440x900 --set TearFree on +vsync -hsync
 feh --bg-fill $HOME/wals/11.jpg
 # Starting up my compositor
 picom &
+# Starting up mpd
+mpd &
 # Defining key-repeat for keyboard to be much faster
 xset r rate 220 40 &
 # Setting up screen locker (slock)
