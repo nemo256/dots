@@ -257,6 +257,7 @@ paru -S --noconfirm ly
 
 logo "Managing Essential Services..."
 sudo systemctl disable transmission.service
+sudo systemctl enable  bluetooth.service
 sudo systemctl enable  slock@${USER}.service
 sudo systemctl enable  ly
 
