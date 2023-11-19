@@ -15,6 +15,7 @@ $ protonvpn-cli login <username>
 - set font configuration
 - set network.protocol-handler.expose.magnet -> false (magnet links)
 - set layers.acceleration.force-enabled -> true (hardware acceleration)
+- set ui.key.menuAccessKeyFocuses -> false (disable alt key menu)
 - install plugins:
   * AdBlocker for YouTube
   * hide-scrollbars
