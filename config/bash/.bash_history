@@ -100631,3 +100631,1926 @@ q
 xrc
 #1701113956
 q
+#1701114612
+xrc
+#1701114622
+cd dots/
+#1701114623
+ls
+#1701114623
+gst
+#1701114628
+gaa
+#1701114639
+gc update wallpaper
+#1701114649
+gc 'update wallpaper
+'
+#1701114653
+gpm
+#1701114656
+clear
+#1701114656
+ls
+#1701114692
+clear
+#1701114693
+q
+#1701114694
+clear
+#1701114694
+q
+#1701116351
+cdD
+#1701116352
+ls
+#1701116354
+mkdir bleach
+#1701116355
+ls
+#1701116356
+cd bleach/
+#1701116356
+ls
+#1701116374
+ani-cli -d --dub --quality best -S 4 -r 75-80
+#1701116391
+ls
+#1701116392
+clear
+#1701116392
+ls
+#1701116401
+ani-cli -d --dub --quality best -r 75-80
+#1701116429
+clear
+#1701116429
+sl
+#1701116430
+..
+#1701116431
+ls
+#1701116433
+rm bleach/
+#1701116433
+ls
+#1701116434
+clear
+#1701116434
+ls
+#1701116440
+cdd
+#1701116440
+ls
+#1701116441
+la
+#1701116443
+r
+#1701545574
+paru
+#1701545580
+paru -S recon-ng
+#1701545602
+upd
+#1701545613
+paru -S recon-ng
+#1701545664
+clear
+#1701545665
+ls
+#1701545670
+recon-ng 
+#1701545720
+clear
+#1701545721
+ls
+#1701545722
+clear
+#1701545722
+ls
+#1701545722
+q
+#1701545769
+clear
+#1701545769
+q
+#1701545771
+clear
+#1701545771
+q
+#1701546086
+rem recon-ng
+#1701546088
+q
+#1701632122
+r
+#1701632140
+unzip Sity-logo.zip 
+#1701632140
+r
+#1701632507
+unzip Sity-logo.zip 
+#1701632508
+r
+#1701633076
+q
+#1701633079
+cdp
+#1701633079
+ls
+#1701633087
+r
+#1701633100
+..
+#1701633103
+gca add logos
+#1701633153
+q
+#1701633185
+clear
+#1701633186
+q
+#1702221690
+color
+#1702221735
+cols
+#1702221737
+q
+#1702222119
+cdD
+#1702222119
+ls
+#1702222121
+cdp
+#1702222121
+ls
+#1702222126
+gca add some more logos
+#1702222131
+cdD
+#1702222131
+ls
+#1702222144
+v logo-prompt.md
+#1702222154
+gca add logo prompt...
+#1702222156
+clear
+#1702222156
+ls
+#1702222157
+q
+#1702222427
+clear
+#1702222428
+ls
+#1702222429
+cdD
+#1702222429
+ls
+#1702222432
+v otaku.md 
+#1702222472
+gca update otaku
+#1702222861
+cat logo-prompt.md 
+#1702222913
+r
+#1702222939
+cdp
+#1702222940
+ls
+#1702222943
+gca add more logos
+#1702222956
+cd
+#1702222957
+q
+#1702236804
+cdw
+#1702236805
+cd sgte
+#1702236807
+ls
+#1702236808
+clear
+#1702236808
+ls
+#1702236810
+clear
+#1702236810
+ls
+#1702236812
+clear
+#1702236813
+ls
+#1702236822
+r
+#1702236927
+gst
+#1702236930
+gst -u
+#1702236933
+gca add TODO.md
+#1702237074
+r
+#1702237186
+..
+#1702237188
+cd sgt
+#1702237189
+ls
+#1702237190
+clear
+#1702237190
+ls
+#1702237191
+r
+#1702237212
+gca remove sekfane
+#1702237214
+r
+#1702237237
+gca remove LICENSE
+#1702237239
+gst
+#1702237263
+clear
+#1702237264
+ls
+#1702237265
+clear
+#1702237265
+ls
+#1702237648
+gca remove ikram
+#1702237781
+gca update test index page.
+#1702237979
+gca add svg and jpg logos
+#1702237982
+clear
+#1702237983
+ls
+#1702238133
+r
+#1702238351
+ls
+#1702238355
+unzip favicon_io.zip 
+#1702238356
+r
+#1702238393
+gst
+#1702238417
+yarn add react-icons
+#1702238434
+r
+#1702239749
+gca update to a working state
+#1702240779
+r
+#1702242394
+gst
+#1702242397
+gca fix colors
+#1702242668
+gca fix padding of logo
+#1702243424
+gca fix navbar
+#1702243560
+gca fix list item color
+#1702243642
+..
+#1702243643
+cd landy
+#1702243644
+ls
+#1702243659
+cp components/Hero.jsx ../sgt/components/
+#1702243660
+ls'
+#1702244968
+r
+#1702245545
+..
+#1702245546
+cd sgt
+#1702245547
+gst
+#1702245562
+gca add ai generated image
+#1702245601
+gca remove unnecessary code
+#1702246448
+gca update cta section and image
+#1702246777
+gca update favicon
+#1702246805
+yarn build
+#1702246808
+q
+#1702237666
+cdw
+#1702237667
+cd sgt
+#1702237667
+ls
+#1702237672
+yarn dev
+#1702246810
+yarn build
+#1702247189
+gst
+#1702247191
+gst -u
+#1702247192
+q
+#1702301829
+cdw
+#1702301832
+cd sgt
+#1702301833
+ls
+#1702301834
+r
+#1702301837
+gst
+#1702302628
+cd components/
+#1702302629
+ls
+#1702303892
+cp Hero.jsx Presentation.jsx
+#1702308148
+..
+#1702308155
+gca update hero and header
+#1702309190
+gst
+#1702309195
+gca sticky header
+#1702309521
+gca update color palette
+#1702310382
+gca update favicon
+#1702310389
+gst
+#1702247232
+cdw
+#1702301822
+cd sgt
+#1702301823
+gst
+#1702301824
+gst -u
+#1702301826
+yarn dev
+#1702334852
+cdw
+#1702334853
+cd sgt
+#1702334855
+gst
+#1702334857
+gt 0u
+#1702334860
+gst -u
+#1702334863
+clear
+#1702334863
+ls
+#1702336469
+gca fix some typos
+#1702336723
+gca update callButton attributes
+#1702337004
+gca update presentation section
+#1702337252
+gst -u
+#1702337420
+gca fix navbar - fixed position..
+#1702337637
+gst -u
+#1702337643
+gca update hero position
+#1702338779
+gst
+#1702338780
+gst -u
+#1702339091
+gca remove phone number
+#1702339437
+gca fix callbutton
+#1702340284
+gst
+#1702340289
+gca update header
+#1702340474
+gca fix header
+#1702340624
+r
+#1702340899
+gca fix button
+#1702341090
+gca fix hero and header on mobile
+#1702341464
+gca remove phone number
+#1702341673
+gst
+#1702341692
+gca update - square shape
+#1702341796
+gst
+#1702341841
+gca update hero padding
+#1702341879
+gca update small screen padding
+#1702342030
+gca update presentation padding on mobile
+#1702342165
+gst -u
+#1702334846
+cdw
+#1702334848
+cd sgt
+#1702334848
+ls
+#1702334850
+yarn dev
+#1702342195
+cdw
+#1702342196
+cd sgt
+#1702342197
+gst
+#1702342200
+yarn dev
+#1702342202
+q
+#1702385176
+cdD
+#1702385177
+gst
+#1702385180
+gca add dev.md
+#1702385304
+gca update dev.md
+#1702385427
+q
+#1702342207
+cdw
+#1702342209
+cd sgt
+#1702342210
+gst
+#1702379748
+gca update slogan
+#1702380156
+yarn add animate.css
+#1702380718
+gca add some animations
+#1702381234
+gca add expertises section background
+#1702381292
+r
+#1702381511
+gca add expertises section
+#1702382463
+gca update presentation layout and typography in mobile
+#1702382797
+gca update paddings in the presentation sections
+#1702382800
+clear
+#1702382800
+ls
+#1702382801
+gst
+#1702382802
+gst -u
+#1702382838
+gca update hero padding
+#1702384358
+gca add animations to presentation
+#1702384361
+clear
+#1702384361
+ls
+#1702384362
+clear
+#1702384362
+ls
+#1702388500
+gca remove border on CTA button
+#1702342203
+cdw
+#1702342204
+cd sgt
+#1702342206
+yarn dev
+#1702388764
+cdD
+#1702388764
+r
+#1702388794
+gca update dev.md
+#1702389007
+cdD
+#1702389007
+ls
+#1702469303
+cdd
+#1702469304
+ls
+#1702469304
+r
+#1702469343
+q
+#1702473514
+cdw
+#1702473517
+cd sgt
+#1702473519
+gst -u
+#1702473524
+git diff
+#1702474896
+gst
+#1702474909
+gca remove svg
+#1702475760
+gst
+#1702475763
+r
+#1702475770
+..
+#1702475781
+gca remove unnecessary svgs
+#1702476481
+r
+#1702477200
+..
+#1702477210
+gca add svg icons to the features section
+#1702478590
+gca add expertises section
+#1702478944
+gca remove max height
+#1702478982
+gca add margin to the expertise section
+#1702479095
+gca fix margins
+#1702479182
+gs
+#1702479183
+gst
+#1702479185
+gst -u
+#1702479279
+gca fix height
+#1702479830
+gca update margins and paddings
+#1702481206
+gca fix section height
+#1702481455
+gca update buttons on mobile
+#1702482361
+gca fix height properties
+#1702482402
+gca fix typo
+#1702482810
+gca update section position
+#1702482873
+gca fix typoe
+#1702483219
+gca update paddings
+#1702483281
+gst
+#1702483283
+gst -u
+#1702483285
+gs
+#1702483289
+gd
+#1702483297
+gca fix typo
+#1702485060
+gca update hero position
+#1702485243
+..
+#1702485249
+clone https://github.com/nemo256/hote
+#1702485251
+clone https://github.com/nemo256/hotel
+#1702485258
+cd sgt
+#1702485485
+gca update title color - expertises
+#1702485488
+clear
+#1702486497
+gca update id of expertises section
+#1702486671
+gca fix typo
+#1702487067
+gca update padding on cards - expertises
+#1702473508
+cdw
+#1702473511
+cd sgt
+#1702473512
+yarn dev
+#1702487284
+cdw
+#1702487285
+cd sgt
+#1702487286
+gst
+#1702487288
+gst -u
+#1702487289
+q
+#1702507948
+cdw
+#1702507951
+cd ekrili-frontend/
+#1702507952
+ls
+#1702507953
+r
+#1702507963
+yarn dev
+#1702508127
+cdw
+#1702508132
+new ekrili
+#1702508136
+r
+#1702508189
+yarn install
+#1702508244
+yarn build
+#1702508287
+yarn dev
+#1702508356
+gst
+#1702508358
+gst -u
+#1702508376
+r
+#1702508409
+yarn install
+#1702508413
+gst
+#1702508414
+gst -u
+#1702508435
+gca add showcase - test project
+#1702509144
+q
+#1702487324
+cdw
+#1702487325
+cd sgt
+#1702487326
+gst
+#1702503654
+gca update footer
+#1702503780
+gca add annonces
+#1702505695
+gca update button sizes
+#1702506164
+gca update presentation section position
+#1702506980
+gca add a nice touch to the design
+#1702507107
+gca update to a rounded design
+#1702507353
+gca update new design
+#1702507467
+gca fix position of new layout
+#1702507635
+gca update call button size
+#1702507935
+gca update hero position
+#1702509365
+gca update icon scale up on hover
+#1702509367
+clear
+#1702513818
+gst
+#1702513824
+gca add annonces section
+#1702514183
+gst
+#1702514186
+gd
+#1702514196
+gca fix some more typos
+#1702514294
+gst
+#1702514295
+gst -u
+#1702514296
+q
+#1702487314
+cdw
+#1702487315
+cd sgt
+#1702487316
+ls
+#1702487318
+yarn dev
+#1702507178
+yarn build
+#1702507268
+yarn dev
+#1702514297
+q
+#1702514371
+cdw
+#1702514372
+cd sgt
+#1702514377
+gca update todos
+#1702514379
+q
+#1702514449
+cdw
+#1702514450
+cd sgt
+#1702514452
+gst
+#1702514644
+gca add hover and transition effects
+#1702514835
+gca add hover scaling effect
+#1702514840
+q
+#1702514445
+cdw
+#1702514446
+cd sgt
+#1702514448
+yarn dev
+#1702514841
+q
+#1702514873
+cdw
+#1702514875
+cd sgt
+#1702514876
+yarn de
+#1702514881
+yarn dev
+#1702561368
+yarn build
+#1702561386
+yarn dev
+#1702574379
+q
+#1702557581
+cdw
+#1702557582
+cd sgt
+#1702557583
+ls
+#1702557584
+gst
+#1702557766
+gca update hero position
+#1702557883
+gca update transition and hover effects on expertises
+#1702558280
+gca fix some typos
+#1702558648
+gca add list of annonces
+#1702558831
+gca add content to the list of news
+#1702559308
+gca new milestone - dynamic news
+#1702559828
+gca update expertises section
+#1702560550
+gca add animations to hero section
+#1702560831
+gca update animation speed and style
+#1702560936
+gca update hero paddin
+#1702561012
+gst
+#1702561014
+gst -u
+#1702561036
+yarn build
+#1702561057
+gca remove typo
+#1702561249
+gst
+#1702561252
+gst -u
+#1702561392
+gca add key prop
+#1702561475
+gst
+#1702561476
+gca
+#1702562891
+gca update hero image size and optimised it
+#1702563271
+gca update all images using next image...
+#1702563347
+gca add presentation image fade effect
+#1702563387
+gca update SGT position in header
+#1702566496
+gca fix navbar hamburger menu
+#1702566596
+gca fix navbar menu
+#1702567175
+yarn add @uidotdev/usehooks
+#1702567466
+yarn remove @uidotdev/usehooks
+#1702567487
+yarn add body-scroll-lock
+#1702567545
+gca fix body scroll on open hamburger menu
+#1702567601
+gca update space between nav list items
+#1702567692
+gca update hamburger menu list items
+#1702567882
+gca fix positioning of hamburger menu items
+#1702567983
+yarn build
+#1702568654
+yarn remove body-scroll-lock
+#1702568665
+gst
+#1702568880
+yarn add body-scroll-lock
+#1702568925
+yarn build
+#1702568947
+gca fix body scroll
+#1702569072
+yarn remove body-scroll-lock
+#1702569075
+gst
+#1702569081
+gca remove body scroll completely
+#1702569204
+gca add transition effect
+#1702569604
+gca remove animation on hamburger menu list
+#1702569740
+gca update position of hero section on mobile
+#1702570450
+gca add open sans font
+#1702570783
+gca update hero 
+#1702570886
+gca testing on mobile
+#1702571101
+gca remove font
+#1702571582
+grh 8511552def3b80853812e3e73a59dc721048ebbf
+#1702571616
+grh 236ab8c
+#1702571618
+gst
+#1702571621
+git log
+#1702571628
+grh 8511552def3b80853812e3e73a59dc721048ebbf
+#1702571634
+gst
+#1702571652
+gst ~HEAD-1
+#1702571656
+gst
+#1702571659
+gca
+#1702571667
+git log
+#1702571695
+gca add new font
+#1702573149
+gca add new roboto font
+#1702573323
+gca add new roboto slab font - serif font
+#1702573468
+gca test on mobile
+#1702573666
+gca update button sizes
+#1702573674
+yarn build
+#1702573772
+gst
+#1702573774
+gst -u
+#1702574092
+grh 72343077820abf323480f18cfd8c91a78fcab59d
+#1702574104
+git reset 72343077820abf323480f18cfd8c91a78fcab59d
+#1702574119
+gst
+#1702574124
+gca
+#1702574132
+git push --force
+#1702574138
+git push --set-upstream origin master
+#1702574140
+git push --force
+#1702574153
+gc -m 'Default commit'
+#1702574155
+gaa
+#1702574157
+gc -m 'Default commit'
+#1702574161
+gst -u
+#1702574181
+git push 
+#1702574188
+git push origin master
+#1702574192
+git push origin master --force
+#1702574380
+q
+#1702574382
+cdw
+#1702574386
+clone https://github.com/nemo256/sgt
+#1702574390
+cd sgt
+#1702574392
+yarn install
+#1702574408
+yarn dev
+#1702574409
+cdw
+#1702574411
+cd sgt
+#1702574412
+ls
+#1702574413
+clear
+#1702574413
+ls
+#1702575099
+gca fix touching bug...
+#1702575403
+gca add new font raleway
+#1702575525
+gca fix hamburger menu - fixed position
+#1702575544
+gca update menu padding
+#1702575822
+gca fix hamburger menu on mobile
+#1702576830
+gst
+#1702576835
+gca update todos
+#1702577328
+gca update annonces section design
+#1702577693
+gca fix on ipad screens
+#1702578005
+gca update for ipad screens
+#1702595273
+cdw
+#1702595276
+cd sgt
+#1702595278
+gst
+#1702595660
+gca update font sizes
+#1702595742
+gca update cta hero font sizes
+#1702596119
+gca fix scroll snapping behaviour...
+#1702596303
+gca update navbar on mobile
+#1702596356
+gst
+#1702596424
+gca update font size on navlinks
+#1702596682
+gca update section positions
+#1702596808
+gca update navlink sizes
+#1702596961
+gca update expertises font weight for each title
+#1702597102
+gca update navlink sizes
+#1702597789
+gca update roboto font
+#1702598139
+gca update presentation text sizes
+#1702598218
+gca update button sizes on mobile - presentation section
+#1702598805
+gst
+#1702598807
+gst -u
+#1702598807
+q
+#1702595266
+cdw
+#1702595267
+cd sgt
+#1702595268
+gst
+#1702595271
+yarn dev
+#1702598809
+q
+#1702598826
+cdw
+#1702598828
+cd sgt
+#1702598829
+yarn dev
+#1702679050
+gst
+#1702679054
+gst -u
+#1702679104
+cdw
+#1702679105
+cd sgt
+#1702679109
+yarn dev
+#1702724334
+q
+#1702722775
+cdw
+#1702722776
+cd sgt
+#1702724196
+gca update background color
+#1702724213
+gca update todo
+#1702724313
+gca update readme.md
+#1702724335
+q
+#1702724338
+cdw
+#1702724339
+cd sgt
+#1702724341
+gst -u
+#1702724343
+clear
+#1702724343
+ls
+#1702724344
+q
+#1702724987
+cdw
+#1702724988
+cd sgt
+#1702724990
+gst
+#1702726569
+gca add contact us icons
+#1702727986
+gca fix contact us form on mobile
+#1702729443
+gca update contact us icons on mobile
+#1702729846
+gca update contact buttons on mobile
+#1702729996
+gca update button padding
+#1702730291
+gca update button padding 
+#1702730943
+gca fix button position on contact us section
+#1702731290
+gca update button padding on mobile
+#1702731591
+gca reverse positioning of contact us section columns
+#1702731599
+gca fix typo
+#1702731633
+gca fix typos
+#1702732435
+gca update footer design
+#1702732640
+gca update footer position
+#1702732867
+gca update contact us section on small screens
+#1702733754
+gca update presentation positioning on all screens
+#1702733898
+gca add hover effect on logo
+#1702734056
+gca fix position of second column in the contact section
+#1702734149
+gca add margin for the send button
+#1702734383
+gst
+#1702724971
+cdw
+#1702724972
+cd sgt
+#1702724973
+yarn dev
+#1703102980
+cd
+#1703102981
+cdw
+#1703102982
+cd sgt
+#1703102984
+gst
+#1703102987
+gst -u
+#1703102988
+clear
+#1703102989
+ls
+#1703102990
+gst
+#1703102991
+clear
+#1703102992
+gs
+#1703102994
+gst
+#1703102996
+clear
+#1703102997
+gst
+#1703103224
+gca new milestone
+#1703105220
+gca update color palette
+#1703105313
+gca update header button color
+#1703105643
+gca update color palette - red
+#1703105796
+gca add padding for hero section
+#1703105986
+gca update color palette
+#1703105989
+clear
+#1703105989
+ls
+#1703105990
+q
+#1703106047
+cdw
+#1703106048
+cd sgt
+#1703106090
+gca update favicon
+#1703106345
+gst
+#1703106346
+gst -u
+#1703106347
+q
+#1702734441
+cdw
+#1702734444
+cd  sgt
+#1702734447
+yarn dev
+#1703106028
+gst
+#1703106036
+yarn dev
+#1703106426
+cdw
+#1703106427
+cd sgt
+#1703106428
+yarn dev
+#1703107879
+yarn build
+#1703107940
+yarn dev
+#1703107965
+r
+#1703107989
+yarn dev
+#1703108077
+q
+#1703106430
+cdw
+#1703106431
+cd sgt
+#1703106905
+gca update color palette - new rose,red
+#1703107095
+r
+#1703107128
+gca update color palette - new rose,red - 2
+#1703108021
+gca update ai generated images
+#1703108078
+q
+#1703108093
+cdw
+#1703108094
+cd sgt
+#1703108094
+gst
+#1703108095
+gst -u
+#1703108096
+q
+#1703969743
+mariadb
+#1703969747
+mysql
+#1703969751
+sql
+#1703969752
+clear
+#1703969753
+q
+#1703969905
+cdD
+#1703969909
+cd learn/concours/
+#1703969909
+ls
+#1703969912
+unzip S1.zip 
+#1703969913
+r
+#1703975747
+q
+#1703972700
+upd
+#1703972712
+ins mariadb
+#1703972789
+mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+#1703972809
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+#1703972833
+systemctl start mariadb.service
+#1703972843
+systemctl enable mariadb.service
+#1703972849
+mariadb
+#1703972873
+paru 
+#1703972883
+paru -S mycli
+#1703972935
+mycli
+#1703972956
+mariadb -u root -p
+#1703972987
+mariadb
+#1703973042
+mariadb -u root
+#1703973049
+sudo mariadb
+#1703973100
+mycli -u n3m0 -p
+#1703973107
+mycli -u n3m0
+#1703973200
+sudo mariadb
+#1703973211
+mycli -u n3m0
+#1703973283
+man mariadb
+#1703973342
+mariadb -u n3m0 -p learn < dl/Neggazi.db.sql 
+#1703973402
+nvim /etc/my.cnf.d/my.cnf
+#1703973418
+sudo nvim /etc/my.cnf.d/my.cnf
+#1703973434
+systemctl restart mariadb.service
+#1703973437
+clear
+#1703973440
+mariadb -u n3m0 -p learn < dl/Neggazi.db.sql 
+#1703973449
+cdd
+#1703973449
+ls
+#1703973452
+v Neggazi.db.sql 
+#1703973504
+..
+#1703973505
+mariadb -u n3m0 -p learn < dl/Neggazi.db.sql 
+#1703973518
+cdd
+#1703973521
+v Neggazi.db.sql 
+#1703973553
+..
+#1703973555
+mariadb -u n3m0 -p learn < dl/Neggazi.db.sql 
+#1703973564
+cdd
+#1703973567
+v Neggazi.db.sql 
+#1703973601
+mariadb-check --all-databases -u n3m0 -p -c
+#1703973619
+..
+#1703973626
+mycli -u n3m0
+#1703975774
+q
+#1703975852
+r
+#1704046388
+mycli -u n3m0
+#1704046716
+q
+#1704046717
+cdw
+#1704046718
+cdD
+#1704046719
+ls
+#1704046720
+cd learn/
+#1704046721
+ls
+#1704046722
+cd concours/
+#1704046723
+ls
+#1704046724
+cd bda/
+#1704046725
+ls
+#1704049221
+nvim /etc/resolv.conf 
+#1704049229
+q
+#1704050812
+r
+#1704063407
+./sort 
+#1704063412
+r
+#1704563170
+cdd
+#1704563170
+r
+#1704563202
+..
+#1704563202
+gst
+#1704563204
+gst -u
+#1704563218
+gca add some stuff for loearning and demand emploi...
+#1706190657
+r
+#1706296031
+zip -r neggazi.zip *
+#1706296033
+r
+#1706296042
+unzip neggazi.zip 
+#1706296043
+r
+#1706296083
+..
+#1706296089
+zip -r neggazi.zip prof/
+#1706296091
+r
+#1706296100
+unzip neggazi.zip 
+#1706296101
+r
+#1706296123
+zip -r neggazi.zip *
+#1706296135
+r
+#1706296152
+zip -r neggazi.zip neggazi/
+#1706296156
+r
+#1706547659
+cdD
+#1706547661
+gst
+#1706547665
+gca update web cv
+#1706547897
+r
+#1706547962
+rm neggazi-cv.pdf 
+#1706547964
+clear
+#1706547965
+ls
+#1706547967
+clear
+#1706547967
+q
+#1706547990
+r
+#1707177349
+myip
+#1707181374
+r
+#1707349409
+cdp
+#1707349411
+gst
+#1707349412
+gst -u
+#1707349419
+gca add sgt scrots
+#1707349444
+cd
+#1707349445
+c
+#1707349445
+q
+#1708093732
+cdD
+#1708093734
+gst
+#1708093735
+gst -u
+#1708093750
+gca add new CVs and portugal dox
+#1708094169
+gst 
+#1708094171
+gst -u
+#1708094176
+gca update passport
+#1708094206
+q
+#1708681269
+r
+#1708773229
+py py-test.py 
+#1708773877
+r
+#1708774728
+py CNF.py 
+#1708775159
+ls
+#1708775160
+clear
+#1708775161
+q
+#1708775163
+r
+#1708775193
+gst
+#1708775194
+gst -u
+#1708775200
+gca add CNF algorith
+#1708775202
+q
+#1708775243
+r
+#1708779633
+zip cnf.zip CNF.py 
+#1708779708
+cdD
+#1708779712
+cd learn/CNF/
+#1708779712
+ls
+#1708779716
+r
+#1708779722
+py CNF.py 
+#1708900052
+cdD
+#1708900054
+cd learn/CNF/
+#1708900055
+ls
+#1708900507
+py CNF.py 
+#1708900613
+clear
+#1708900614
+ls
+#1708900732
+mv CNF.py CNFv2.py
+#1708900747
+zip -r CNFv2.zip CNFv2.py 
+#1708900799
+q
+#1708900801
+cdD
+#1708900804
+cd learn/CNF/
+#1708900805
+ls
+#1708900806
+r
+#1708900812
+..
+#1708900820
+gca update CNF solver
+#1708900822
+clear
+#1708900822
+q
+#1708973493
+cdD
+#1708973495
+cd learn/
+#1708973497
+cd CNF/
+#1708973498
+ls
+#1708973500
+py CNF.py 
+#1709921800
+cdd
+#1709921802
+cdD
+#1709921803
+ls
+#1709921808
+cd learn/CNF/
+#1709921808
+ls
+#1709921996
+r
+#1709922118
+new cnf
+#1709922143
+r
+#1709922359
+gst
+#1709922366
+gca update boilerplate setup
+#1709922370
+clear
+#1709923052
+py CNF.py 
+#1709923455
+gca add colors and both satisfactory and non satisfactory cases
+#1709923560
+py CNF.py 
+#1709923736
+gca minimized output text
+#1709923763
+py CNF.py 
+#1709923778
+gca minimized output text again
+#1709923781
+py CNF.py 
+#1709925966
+gst
+#1709925972
+gd
+#1709926011
+gca skip x0
+#1709926424
+pip install networkx
+#1709926441
+pacman -S python-xyz
+#1709926445
+sudo pacman -S python-xyz
+#1709926449
+sudo pacman -S python-pip
+#1709926464
+upd
+#1709926482
+sudo pacman -S python-pip
+#1709926490
+pip install networkx
+#1709926542
+python -m venv venv
+#1709926567
+source venv/bin/activate
+#1709926569
+ls
+#1709926573
+pip install networkx
+#1709926594
+pip freeze > requirements.txt 
+#1709926606
+py CNF.py 
+#1709926617
+pip install matplotlib
+#1709926666
+pip freeze > requirements.txt 
+#1709926669
+py CNF.py 
+#1709926847
+sudo pacman -S tk
+#1709926856
+py CNF.py 
+#1709926930
+gst
+#1709926947
+gca add packages for plotting
+#1709926966
+nvim .gitignore
+#1709926974
+gca add packages for plotting
+#1709927050
+ls
+#1709927236
+gca update dox
+#1709927460
+py CNF.py 
+#1709928720
+gca add decision tree
+#1709928741
+py CNF.py 
+#1709928756
+gca testing without nx
+#1709928773
+py CNF.py 
+#1709928891
+gca update dox
+#1709929091
+py CNF.py 
+#1709929161
+gca testing without nx
+#1709929179
+py CNF.py 
+#1709929303
+gd
+#1709929304
+gst
+#1709929306
+gst -u
+#1709929308
+gca
+#1709929320
+ls
+#1709929323
+..
+#1709929341
+zip -r CNFv3.zip cnf/
+#1709929364
+r
+#1709929373
+space
+#1709929383
+exit
+#1709929385
+cd
+#1709929386
+cdw
+#1709929387
+cd cnf
+#1709929387
+ls
+#1709929390
+rm venv/
+#1709929391
+ls
+#1709929396
+..
+#1709929402
+zip -r CNFv3.zip cnf/
+#1709929404
+ls
+#1709929404
+r
+#1710096997
+cdw
+#1710096999
+cd cnf
+#1710097001
+ls
+#1710097015
+actovate
+#1710097018
+activate
+#1710097029
+python -m venv venv
+#1710097035
+activate
+#1710097047
+pip install -r requirements.txt 
+#1710097109
+py CNF.py 
+#1710098596
+ls
+#1710098601
+nvim clauses.txt
+#1710098706
+py CNF.py 
+#1710098899
+ls
+#1710098945
+py CNF.py 
+#1710098971
+nvim clauses.txt 
+#1710098978
+py CNF.py 
+#1710099020
+la
+#1710099032
+ll
+#1710099033
+ls
+#1710099067
+py CNF.py 
+#1710099559
+gca read from file
+#1710100020
+nvim clauses.txt 
+#1710100030
+py CNF.py 
+#1710100768
+r
+#1710100775
+py CNF.py 
+#1710101284
+nvim clauses.txt 
+#1710101312
+py CNF.py 
+#1710101477
+nvim clauses.txt 
+#1710101507
+py CNF.py 
+#1710101648
+time py CNF.py 
+#1710101764
+gca update script
+#1710101781
+nvim clauses.txt 
+#1710101791
+time py CNF.py 
+#1710101796
+gca update script
+#1710101881
+py CNF.py 
+#1710101887
+gca show everything
+#1710101914
+gca update line spacing
+#1710102082
+gca update dox
+#1710102102
+r
+#1710102123
+zip -r CNFv4.zip cnf/
+#1710102126
+ls
+#1710102181
+cd cnf
+#1710102182
+ls
+#1710102185
+py CNF.py 
+#1710102192
+ls
+#1710102196
+q
+#1710102197
+cdw
+#1710102199
+cd cnf
+#1710102205
+python -m venv venv
+#1710102212
+py CNF.py 
+#1710102214
+clear
+#1710102215
+ls
+#1710102217
+rm venv
+#1710102218
+ls
+#1710102221
+gst
+#1710102224
+gst -u
+#1710102226
+gd
+#1710102233
+gca update filename
+#1710102240
+clear
+#1710102240
+ls
+#1710102247
+r
+#1710102258
+zip -r CNFv4.zip cnf/
+#1710102259
+ls
+#1710102263
+cd cmf
+#1710102266
+cd cnf
+#1710102266
+ls
+#1710103466
+py CNF.py 
+#1710103479
+..
+#1710103479
+r
+#1710103488
+zip -r CNFv5.zip cnf/
+#1710103898
+ls
+#1710103900
+cd cnf
+#1710103901
+gst
+#1710103907
+gca update file path
+#1710103908
+q
+#1710619665
+upd
+#1710619681
+q
+#1710619978
+clear
+#1710619979
+ls
+#1710619980
+clear
+#1710619981
+q
+#1710619988
+lsblk
+#1710619990
+clear
+#1710619991
+q
+#1710620181
+ls
+#1710620184
+cd wals/
+#1710620184
+ls
+#1710620185
+q
+#1710620126
+r
+#1710620157
+background 
+#1710620166
+r
+#1710620194
+background 
+#1710620200
+q
+#1710620275
+background 
+#1710620301
+q
+#1710620338
+clear
+#1710620338
+q
+#1710621211
+cbc --help
+#1710621215
+cdw
+#1710621218
+cd cbc
+#1710621222
+./cbc -h
+#1710621246
+cd
+#1710621246
+w
+#1710621248
+q
+#1710621249
+w
+#1710621399
+matrix_game 
+#1710621401
+matrix_game 3
+#1710621404
+q
+#1710621438
+upd
+#1710621460
+clear
+#1710621460
+q
+#1710621462
+upd
+#1710621472
+clear
+#1710621473
+q
