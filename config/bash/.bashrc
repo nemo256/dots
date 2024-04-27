@@ -136,7 +136,7 @@ alias train='sl -acdeG -20'
 alias start='startx -- -nocursor'
 
 # Fetching information aliases...
-#alias volumelevel="echo 'Volume is:   $(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')%'"
+alias volumelevel="echo 'Volume is:   $(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')%'"
 alias wifissid="echo 'Connected to:   $(iwgetid -r)'"
 
 # FZF configuration options

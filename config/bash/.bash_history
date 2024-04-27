@@ -103204,3 +103204,199 @@ q
 brc
 #1714249763
 q
+#1714249769
+cd dots
+#1714249770
+ls
+#1714249771
+gst
+#1714249790
+gca fix picom and amixer
+#1714249793
+clear
+#1714249793
+q
+#1714249813
+xrc
+#1714249823
+killall mpd
+#1714249824
+ls
+#1714249825
+mpd
+#1714249848
+killall mpd
+#1714249849
+clear
+#1714249849
+q
+#1714249854
+mpd
+#1714249896
+clear
+#1714249896
+q
+#1714249899
+pipewire
+#1714249906
+cd .config/
+#1714249906
+ls
+#1714249908
+r
+#1714249929
+q
+#1714249933
+ins pipewire
+#1714250003
+sudo pacman -S wireplumber
+#1714250009
+clear
+#1714250009
+q
+#1714250026
+killall mpd
+#1714250029
+mpd &
+#1714250067
+mpd
+#1714250068
+clear
+#1714250071
+q
+#1714250127
+ins pipewire-audio
+#1714250129
+clear
+#1714250137
+ins pipewire-alsa
+#1714250162
+pactl list sinks | grep -B1 -A9 State:
+#1714250263
+sudo journalctl -b | curl -F 'file=@-' 0x0.st
+#1714250302
+mpv -ao alsa thunderstruck.mp3
+#1714250345
+pavucontrol
+#1714250347
+q
+#1714250349
+pactl
+#1714250353
+pactl list
+#1714250391
+aplay -lL
+#1714250401
+sudo fuser -v /dev/snd/*
+#1714250427
+rem pipewire-media-session
+#1714250429
+clear
+#1714250430
+q
+#1714250434
+alsactl init
+#1714250552
+alsamixer
+#1714250639
+pacman -Sy archlinux-keyring && pacman -Su
+#1714250642
+sudo pacman -Sy archlinux-keyring && pacman -Su
+#1714250720
+cdd
+#1714250720
+ls
+#1714250739
+mkdir ../test; cp code.rar ../test
+#1714250744
+cd ../test/
+#1714250745
+ls
+#1714250747
+unrar code.rar 
+#1714250752
+unrar x code.rar 
+#1714250753
+ls
+#1714250754
+r
+#1714250781
+python bdd.py 
+#1714250793
+pip install numpy
+#1714250812
+python -m venv venv
+#1714250820
+source venv/bin/activate
+#1714250824
+pip install numpy
+#1714250840
+ls
+#1714250848
+python bdd.py 
+#1714251041
+ls
+#1714251041
+..
+#1714251042
+ls
+#1714251046
+cdd
+#1714251046
+ls
+#1714251051
+rm istockphoto*
+#1714251052
+clear
+#1714251053
+q
+#1714251054
+ls
+#1714251055
+cdd
+#1714251057
+ls
+#1714251058
+sl
+#1714251059
+clear
+#1714251059
+q
+#1714251067
+update
+#1714251068
+upd
+#1714251143
+clea
+#1714251145
+clear
+#1714251145
+q
+#1714251185
+pactl list sinks | grep -B1 -A9 State:
+#1714251219
+pactl info
+#1714251256
+ps -e | grep pipewire 
+#1714251279
+alsamixer
+#1714251389
+cd .build/dwm
+#1714251393
+cd .build/
+#1714251393
+ls
+#1714251399
+cd tily/
+#1714251399
+ls
+#1714251404
+v tily.h
+#1714251409
+v config.h
+#1714251436
+cd
+#1714251437
+brc
+#1714251452
+q
