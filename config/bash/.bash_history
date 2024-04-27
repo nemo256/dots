@@ -102786,3 +102786,421 @@ upd
 q
 #1712870426
 df -h /
+#1713033719
+cd .dot
+#1713033720
+ls
+#1713033721
+la
+#1713033725
+cd.
+#1713033729
+cd dots/
+#1713033731
+ls
+#1713033732
+r
+#1713033743
+cd .newsboat/
+#1713033744
+ls
+#1713033745
+v urls 
+#1713033826
+..
+#1713033828
+cd dots/
+#1713033829
+gst
+#1713033843
+gca add yourgermanteacher channel to newboat
+#1713033846
+clear
+#1713033846
+q
+#1713211656
+cdw
+#1713211657
+cd
+#1713211660
+clone https://github.com/safwankdb/SAT-Solver-using-DPLL
+#1713211677
+cd SAT-Solver-using-DPLL/
+#1713211678
+ls
+#1713211686
+nvim problem.txt
+#1713211714
+python SATSolver.py --input problem.txt 
+#1713211731
+r
+#1713211801
+python3 SATSolver.py --input problem.txt 
+#1713211807
+python3 SATSolver.py problem.txt 
+#1713211849
+python3 SATSolver.py sampleCNF/input.txt 
+#1713211857
+python3 SATSolver.py sampleCNF/sample1.txt 
+#1713211868
+python SATSolver.py sampleCNF/sample1.txt 
+#1713211875
+clear
+#1713211876
+ls
+#1713212574
+cd SAT-Solver-using-DPLL/
+#1713212575
+ls
+#1713212717
+..
+#1713212720
+rm SAT-Solver-using-DPLL/
+#1713212721
+ls
+#1713212722
+q
+#1713381112
+mpv  https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
+#1713479203
+cdD
+#1713479204
+ls
+#1713479204
+r
+#1713479208
+v links 
+#1713482642
+r
+#1713625594
+df -h /
+#1713700993
+ls
+#1713700999
+mkdir test
+#1713701000
+ls
+#1713701002
+cd test/
+#1713701003
+ls
+#1713963087
+df -h /
+#1714137350
+cds
+#1714137350
+ls
+#1714137353
+..
+#1714137354
+ls
+#1714137356
+la
+#1714137358
+gst
+#1714137361
+gst -u
+#1714137365
+r
+#1714137378
+gst
+#1714137381
+gca add scrots
+#1714137453
+clear
+#1714137453
+q
+#1714137961
+df -h /
+#1714137962
+q
+#1714137884
+upd
+#1714142344
+cd
+#1714142345
+ls
+#1714142349
+lsblk
+#1714142357
+brc
+#1714142388
+sudo mount /dev/sdc /usb
+#1714142394
+sudo mount /dev/sdc usb
+#1714142395
+ls
+#1714142397
+cd usb/
+#1714142398
+ls
+#1714142400
+r
+#1714142487
+sudo cp -fvr work/hamiz/ usb/
+#1714142489
+clear
+#1714142490
+ls
+#1714142494
+df -h usb/
+#1714142500
+clear
+#1714142500
+ls
+#1714142506
+df -h work/
+#1714142517
+cdw
+#1714142518
+space
+#1714142530
+ls
+#1714142530
+..
+#1714142543
+sudo rm -fvr usb/hamiz/
+#1714142544
+clear
+#1714142554
+sudo cp -fvr work/ usb/
+#1714142584
+clear
+#1714142588
+sudo rm -fvr usb/work/
+#1714142664
+clear
+#1714142673
+sudo cp -fvr work/hamiz/ usb/
+#1714142674
+clear
+#1714142675
+ls
+#1714142685
+sudo umount usb/
+#1714142694
+clear
+#1714142694
+ls
+#1714142699
+lsblk
+#1714142701
+cd usb/
+#1714142701
+ls
+#1714142702
+..
+#1714142703
+clear
+#1714142704
+ls
+#1714142705
+lsblk
+#1714142707
+clear
+#1714142707
+q
+#1714142726
+lsblk
+#1714142749
+q
+#1714142751
+lsblk
+#1714142776
+q
+#1714142777
+lsblk
+#1714142813
+q
+#1714142869
+clear
+#1714142870
+q
+#1714142871
+clear
+#1714142871
+q
+#1714142874
+upd
+#1714143894
+reboot
+#1714144022
+cd .build/
+#1714144023
+ls
+#1714144032
+..
+#1714144034
+ls
+#1714144037
+cd dots
+#1714144037
+ls
+#1714144040
+cd config/
+#1714144042
+ls
+#1714144054
+cd picom/
+#1714144054
+ls
+#1714144056
+la
+#1714144057
+cd .
+#1714144061
+cd .config/
+#1714144061
+ls
+#1714144063
+cd picom/
+#1714144063
+ls
+#1714144066
+v picom.conf 
+#1714144079
+ls
+#1714144080
+clear
+#1714144080
+ls
+#1714144081
+cd
+#1714144083
+ins picom
+#1714144085
+clear
+#1714144086
+ls
+#1714144087
+q
+#1714144096
+clear
+#1714144096
+q
+#1714144181
+picom
+#1714144186
+q
+#1714144098
+picom
+#1714144143
+cd .config/picom/
+#1714144144
+ls
+#1714144145
+v picom.conf 
+#1714144543
+cdw
+#1714144544
+cd archy/
+#1714144545
+ls
+#1714144546
+gst
+#1714144547
+gst -u
+#1714144548
+clear
+#1714144548
+q
+#1714155318
+cpupower -call frequency-info
+#1714155338
+cat /sys/devices/system/cpu/intel_pstate/max_perf_pct 
+#1714155364
+cat /sys/devices/system/cpu/cpu[0-9]*/cpufreq/scaling_cur_freq
+#1714155381
+q
+#1714155394
+upd
+#1714155400
+q
+#1714155402
+clear
+#1714155402
+q
+#1714220998
+clear
+#1714220999
+ls
+#1714220999
+q
+#1714221001
+s
+#1714221002
+ls
+#1714221002
+q
+#1714221003
+ls
+#1714221039
+q
+#1714221104
+upd
+#1714221591
+clear
+#1714221592
+q
+#1714221596
+clear
+#1714221596
+q
+#1714221598
+clear
+#1714221598
+q
+#1714235099
+mpd
+#1714235129
+ncmpcpp
+#1714235141
+upd
+#1714235149
+q
+#1714249480
+amixer
+#1714249519
+amixer -c 2 sset Master 5+
+#1714249527
+alsamixer
+#1714249573
+clear
+#1714249573
+q
+#1714249575
+ls
+#1714249576
+q
+#1714249580
+mpd
+#1714249596
+cd .config/
+#1714249596
+ls
+#1714249606
+r
+#1714249693
+amixer get mastr
+#1714249699
+q
+#1714249716
+wifissid
+#1714249720
+clear
+#1714249721
+q
+#1714249723
+wifi
+#1714249725
+q
+#1714249679
+brc
+#1714249740
+clear
+#1714249740
+q
+#1714249750
+brc
+#1714249763
+q
