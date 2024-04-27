@@ -103400,3 +103400,15 @@ cd
 brc
 #1714251452
 q
+#1714251419
+amixer
+#1714251455
+cd dots/
+#1714251456
+gst
+#1714251471
+gca rollback volume info command
+#1714251473
+clear
+#1714251474
+q
