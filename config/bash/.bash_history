@@ -103412,3 +103412,635 @@ gca rollback volume info command
 clear
 #1714251474
 q
+#1714251509
+clear
+#1714251510
+ls
+#1714251511
+cd dots
+#1714251512
+ls
+#1714251514
+gst
+#1714251522
+gca regular update
+#1714251524
+clear
+#1714251525
+q
+#1714251816
+brc
+#1714251870
+q
+#1714251545
+alsamixer
+#1714251550
+brc
+#1714251561
+volumelevel 
+#1714251571
+brc
+#1714251588
+echo 'Volume is:   $(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')%'
+#1714251607
+echo 'Volume is:   `$(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')%`'
+#1714251627
+echo Volume is:   $(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')%
+#1714251637
+echo Volume is:   $(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $3}' | sed 's/[^0-9]*//g')%
+#1714251645
+amixer get Master
+#1714251668
+amixer get Master | grep Mono: | sed 's/[][]//g'
+#1714251700
+amixer get Master | grep Front: | sed 's/[][]//g'
+#1714251704
+amixer get Master | grep Front:
+#1714251717
+amixer get Master | grep [
+#1714251720
+amixer get Master | grep `[`
+#1714251724
+amixer get Master | grep /['
+#1714251727
+amixer get Master | grep '['
+#1714251734
+amixer get Master | grep '\['
+#1714251742
+amixer get Master | grep '%'
+#1714251760
+amixer get Master | grep Front: | sed 's/[][]//g'
+#1714251763
+amixer get Master | grep Front | sed 's/[][]//g'
+#1714251779
+amixer get Master | grep on | sed 's/[][]//g'
+#1714251782
+amixer get Master | grep Front | sed 's/[][]//g'
+#1714251801
+amixer get Master | grep Front | sed 's/[][]//g' | awk '{print $4}'
+#1714251807
+amixer get Master | grep Front | sed 's/[][]//g' | awk '{print $5}'
+#1714251870
+q
+#1714251851
+volumelevel 
+#1714251872
+q
+#1714251873
+clear
+#1714251873
+q
+#1714251878
+volumelevel 
+#1714251879
+ls
+#1714251880
+clear
+#1714251880
+q
+#1714251883
+cdb
+#1714251883
+ls
+#1714251889
+cd sound/
+#1714251889
+ls
+#1714251893
+mpv ahh.wav 
+#1714251904
+clear
+#1714251904
+q
+#1714251905
+cd
+#1714251990
+pactl info
+#1714252019
+sudo pacman -Rs pulseaudio-jack
+#1714252026
+sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse gst-plugin-pipewi
+#1714252026
+re wireplumber
+#1714252036
+sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse gst-plugin-pipewire
+#1714252058
+pactl info
+#1714252091
+pactl list cards
+#1714252130
+systemctl --user status pipewire pipewire-pulse wireplumber
+#1714252234
+systemctl --user restart plasma-plasmashell.service
+#1714252241
+systemctl --user restart pipewire.service
+#1714252276
+alsamixer
+#1714252373
+pactl list sinks | grep -B1 -A9 State:
+#1714252385
+pactl list cards
+#1714252392
+pactl info
+#1714252463
+alsamixer
+#1714252609
+ins sof-firmware
+#1714252683
+ins alsa-ucm-conf
+#1714252692
+journalctl --user -b --unit pipewire-media-session.service
+#1714252700
+journalctl --user -b --unit wireplumber.service
+#1714252756
+ins pipewire-pulse
+#1714252765
+rem pulseaudio
+#1714252806
+journalctl --user -b --unit wireplumber.service
+#1714252851
+sudo fuser -v /dev/snd/*
+#1714252870
+pactl list sink-inputs
+#1714252991
+systemctl restart --user wireplumber 
+#1714252997
+journalctl --user -b --unit wireplumber.service
+#1714253080
+mpd
+#1714253082
+clear
+#1714253082
+q
+#1714253092
+cd .config/
+#1714253094
+cd ncmpcpp
+#1714253094
+ls
+#1714253096
+v config 
+#1714253281
+q
+#1714253141
+mpd
+#1714253175
+cd .config/mpd/
+#1714253176
+ls
+#1714253178
+v mpd.conf 
+#1714253285
+clear
+#1714253286
+cd
+#1714253286
+ls
+#1714253286
+q
+#1714253289
+upd
+#1714253381
+alsamixer
+#1714253388
+amixer
+#1714253390
+q
+#1714253401
+amixer get Master
+#1714253402
+q
+#1714253408
+pipewire
+#1714253409
+q
+#1714253412
+mpd
+#1714253412
+q
+#1714253422
+wireplumber
+#1714253444
+q
+#1714253621
+[A
+#1714253627
+pactl info | pastebin
+#1714253686
+pactl info > output
+#1714253696
+cat output | pastebin
+#1714253703
+ls
+#1714253709
+pastebin output 
+#1714253758
+alsamixer
+#1714253791
+clear
+#1714253791
+q
+#1714255538
+r
+#1714255642
+q
+#1714255163
+cd /etc/
+#1714255163
+ls
+#1714255174
+sudo nvim pacman.conf
+#1714255883
+q
+#1714255179
+cd /etc/
+#1714255193
+sudo nvim pacman.conf.pacnew 
+#1714255884
+q
+#1714253886
+cat /proc/asound/cards
+#1714253894
+cat /proc/asound/cards > output 
+#1714253897
+pastebin output 
+#1714254016
+journalctl -b -u pipewire-pulse
+#1714254073
+alsamixer
+#1714254118
+systemctl status pipewire-pulse
+#1714254126
+systemctl status pipewire
+#1714254130
+systemctl status wireplumber
+#1714254139
+systemctl --user status pipewire-pulse
+#1714254179
+systemctl --user status pipewire-pulse > output 
+#1714254182
+pastebin output 
+#1714254217
+lspci,
+#1714254219
+lspci
+#1714254227
+lspci > output 
+#1714254232
+pastebin output 
+#1714254251
+lsmod
+#1714254255
+lsmod > output 
+#1714254256
+pastebin output 
+#1714254290
+grep -ri blacklist /etc/modprobe.d/
+#1714254304
+grep -ri blacklist /etc/modprobe.d
+#1714254306
+grep -ri blacklist /etc/
+#1714254315
+grep -ri blacklist /etc/modprobe.d/
+#1714254445
+journalctl -xe --grep snd_
+#1714254455
+journalctl -xe --grep snd_ > output 
+#1714254458
+pastebin output 
+#1714254511
+ins rtkit
+#1714254517
+rem rtkit
+#1714254693
+ls
+#1714254694
+la
+#1714254745
+find /etc -name '*.pacnew' -o -name '*.pacsave'
+#1714254750
+sudo find /etc -name '*.pacnew' -o -name '*.pacsave'
+#1714254770
+updatedb
+#1714254796
+locate --existing '*.pacnew' '*.pacsave'
+#1714254803
+grep '\.pacnew\|\.pacsave' /var/log/pacman.log
+#1714254940
+grep '\.pacnew\|\.pacsave' /var/log/pacman.log > output
+#1714254944
+ls
+#1714254946
+cat output 
+#1714254952
+pastebin output 
+#1714255026
+find /etc -name '*.pacnew' -o -name '*.pacsave'
+#1714255029
+sudo find /etc -name '*.pacnew' -o -name '*.pacsave'
+#1714255046
+sudo find /etc -name '*.pacnew' -o -name '*.pacsave' > output 
+#1714255055
+pacman -Qs alsa
+#1714255100
+pacman -Qs alsas
+#1714255103
+pacman -Qs als
+#1714255105
+pacman -Qs alsa
+#1714255113
+pacman -Qs alsa > output 
+#1714255117
+pastebin output 
+#1714255522
+cd /etc/modprobe.d/
+#1714255522
+ls
+#1714255523
+la
+#1714255526
+sudo ls
+#1714255527
+r
+#1714255644
+cd
+#1714255645
+system_profiler SPAudioDataType
+#1714255675
+modinfo snd_hda_intel
+#1714255862
+ins rtkit
+#1714256099
+q
+#1714256283
+cd /var/cache/pacman/pkg/
+#1714256284
+ls
+#1714256355
+q
+#1714256544
+sudo pacman -Syyuu
+#1714256552
+clea
+#1714256553
+clear
+#1714256553
+q
+#1714256724
+upd
+#1714256743
+sudo pacman -Syyuu
+#1714256808
+ins cairo
+#1714256826
+sudo pacman -Syyuu
+#1714256829
+upd
+#1714256837
+sudo pacman -Syyuu
+#1714256877
+ins systemd
+#1714256948
+upd
+#1714256960
+upg
+#1714256964
+clear
+#1714256965
+q
+#1714256594
+cd /etc/pacman.conf
+#1714256604
+sudo nvim /etc/pacman.conf
+#1714257012
+r
+#1714257301
+cd
+#1714257308
+cd /var/cache/pacman/pkg/
+#1714257308
+ls
+#1714257315
+ls | grep linux
+#1714257318
+ls | grep linux-zen
+#1714257339
+sudo pacman -U linux-zen-6.3.4.zen1-1-x86_64.pkg.tar.zst
+#1714257660
+q
+#1714329982
+clea
+#1714329983
+q
+#1714329984
+clear
+#1714329985
+q
+#1714330475
+upd
+#1714331428
+q
+#1714331433
+clear
+#1714331433
+q
+#1714331438
+wifi
+#1714331447
+wifissid
+#1714331459
+wifistatus
+#1714331460
+clear
+#1714331460
+q
+#1714331476
+ping google.com
+#1714331476
+q
+#1714331545
+ls
+#1714331546
+q
+#1714331694
+alsamixer
+#1714331698
+ls
+#1714331699
+q
+#1714331704
+upd
+#1714331705
+q
+#1714332730
+batterylevel 
+#1714332734
+clear
+#1714332734
+q
+#1714332742
+colors
+#1714332750
+colours
+#1714332757
+coloursascii 
+#1714332769
+fetchstart 
+#1714332780
+cat bin/fetchstart 
+#1714332793
+c & cat bin/fetchstart 
+#1714332799
+c && cat bin/fetchstart 
+#1714332803
+fg
+#1714332805
+bg
+#1714332811
+c && cat bin/fetchstart 
+#1714332815
+q
+#1714332835
+cdw
+#1714332835
+ls
+#1714332842
+cd cbc
+#1714332843
+ls
+#1714332845
+gst
+#1714332850
+alias gst
+#1714332861
+man git status
+#1714332890
+clear
+#1714332892
+ls
+#1714332894
+gst
+#1714332897
+alias gca
+#1714332911
+cat ~/bin/gca 
+#1714332917
+bat 
+#1714332924
+alias cat
+#1714332928
+clear
+#1714332928
+q
+#1714332957
+interview 
+#1714332964
+q
+#1714332977
+kbbacklight 
+#1714332985
+cd .build/tily/
+#1714332986
+ls
+#1714332990
+v config.h
+#1714333001
+cd
+#1714333005
+kbbacklight UP
+#1714333039
+q
+#1714333056
+screenkey
+#1714333057
+q
+#1714333073
+meme
+#1714333093
+mount-sound 
+#1714333112
+myfetch 
+#1714333196
+sexy
+#1714333200
+sexy | lolcat
+#1714333202
+q
+#1714332705
+cdb
+#1714332705
+ls
+#1714332707
+r
+#1714333355
+q
+#1714333205
+hack
+#1714333208
+clear
+#1714333219
+unmount-sound 
+#1714333272
+apple
+#1714333284
+neticon 
+#1714333294
+volume
+#1714333341
+weatherbar 
+#1714333343
+clear
+#1714332689
+zrc
+#1714332693
+xrc
+#1714461319
+q
+#1714566553
+contact
+#1714566554
+ls
+#1714566556
+r
+#1714566563
+q
+#1714581179
+ls
+#1714581180
+la
+#1714581181
+ls
+#1714581182
+q
+#1714581183
+ls
+#1714581183
+q
+#1714581184
+ls
+#1714581197
+clear
+#1714581197
+q
+#1714581207
+ssl
+#1714581208
+q
+#1714581998
+nvim test
+#1714582007
+ls
+#1714582010
+touch testt
+#1714582013
+nvim testt
+#1714603190
+wget https://commons.wikimedia.org/wiki/File:Solid_black.png
+#1714603191
+ls
+#1714603191
+r
+#1714603280
+gst
+#1714603285
+gca add profile picture

@@ -37,6 +37,7 @@ wireless_tools
 #    User specific    #
 #######################
 cmatrix
+composer
 docker
 dsniff
 dunst
