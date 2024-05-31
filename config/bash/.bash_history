@@ -104870,3 +104870,175 @@ r
 clear
 #1717182024
 q
+#1717186843
+sudo docker ps
+#1717186862
+sudo docker exec -it gvenzl/oracle-xe /bin/bash
+#1717186870
+sudo docker exec -it oracle-xe /bin/bash
+#1717187069
+q
+#1717182662
+r
+#1717182683
+ls
+#1717182696
+tar -xvf oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+#1717182718
+sudo pacman -S rpmextract
+#1717182730
+rpmextract.sh oracle-database-xe-21c-1.0-1.ol7.x86_64.rpm
+#1717182739
+rpmextract.sh oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+#1717183114
+which oracle
+#1717183118
+which oracle-xe
+#1717183125
+which oracle-xe-21c
+#1717183193
+find . -name "*.cpio" -exec cpio -idmv < {} \;
+#1717183202
+ls
+#1717183203
+r
+#1717183457
+sudo /etc/init.d/oracle-xe-21c configure
+#1717183463
+sudo etc/init.d/oracle-xe-21c configure
+#1717183491
+tar -xvf oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+#1717183492
+r
+#1717183594
+find . -name "*.cpio" -exec sudo cpio -idmv < {} \;
+#1717183607
+ls
+#1717183634
+mkdir ora
+#1717183636
+cd ora
+#1717183637
+find . -name "*.cpio" -exec sudo cpio -idmv < {} \;
+#1717183639
+r
+#1717183656
+sudo cp -r etc/* /etc/
+#1717183664
+sudo cp -r usr/* /usr/
+#1717183669
+sudo cp -r opt/* /opt/
+#1717183857
+ls
+#1717183860
+..
+#1717183862
+rm install_oracle/
+#1717183872
+docker pull gvenzl/oracle-xe
+#1717183895
+ins docker
+#1717183963
+docker pull gvenzl/oracle-xe
+#1717183987
+sudo systemctl start docker
+#1717183990
+docker pull gvenzl/oracle-xe
+#1717183994
+sudo docker pull gvenzl/oracle-xe
+#1717185375
+docker run -d --name oracle-xe      -p 1521:1521 -p 5500:5500      -e ORACLE_PASSWORD=mypass      gvenzl/oracle-xe
+#1717185382
+sudo docker run -d --name oracle-xe      -p 1521:1521 -p 5500:5500      -e ORACLE_PASSWORD=mypass      gvenzl/oracle-xe
+#1717185390
+docker ls
+#1717185394
+docker 
+#1717185413
+docker ps
+#1717185417
+sudo docker ps
+#1717185436
+sudo pacman -S php-pear php-devel
+#1717185476
+pecl
+#1717185531
+paru
+#1717185535
+sudo paru
+#1717185703
+ins php-devel
+#1717185831
+rem paru
+#1717185833
+paru
+#1717185837
+ls
+#1717185852
+r
+#1717185933
+git clone https://aur.archlinux.org/paru-bin.git
+#1717185936
+cd paru-bin/
+#1717185942
+makepkg -si --noconfirm
+#1717185960
+paru
+#1717185979
+paru -S php-devel php-pair
+#1717186006
+paru -S php-pear
+#1717186101
+sudo paru -S php-pear
+#1717186109
+paru -S php-pear
+#1717186171
+paru -S php-devel
+#1717186194
+sudo pecl install oci8
+#1717186239
+sudo pecl install oci8-2.2.0
+#1717186280
+ls
+#1717186281
+..
+#1717186282
+r
+#1717186358
+laravel new helpdesk
+#1717186432
+composer global require laravel/installer
+#1717186439
+cd
+#1717186440
+composer global require laravel/installer
+#1717186453
+composer global config bin-dir --absolute
+#1717186463
+brc
+#1717186537
+cd dots
+#1717186538
+gst
+#1717186549
+gca add laravel to bashrc
+#1717186555
+source ~/.bashrc
+#1717186562
+laravel --version
+#1717186602
+cdw
+#1717186604
+laravel new helpdesk
+#1717186667
+cd helpdesk/
+#1717186667
+ls
+#1717186668
+r
+#1717186679
+composer require yajra/laravel-oci8
+#1717186729
+php -m | grep oci8
+#1717186756
+sudo pecl install oci8
