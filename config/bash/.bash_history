@@ -104044,3 +104044,829 @@ r
 gst
 #1714603285
 gca add profile picture
+#1714741332
+ins composer
+#1714741347
+cd dots
+#1714741348
+ls
+#1714741351
+v packages 
+#1714741372
+gst
+#1714741378
+gca add composer package
+#1714741381
+clear
+#1714741382
+cdw
+#1714741383
+ls
+#1714741789
+composer create-project laravel/laravel chirper
+#1714741843
+php -v
+#1714741851
+cd chirper/
+#1714741852
+ls
+#1714741858
+php artisan serve
+#1714741966
+composer require laravel/breeze --dev
+#1714741976
+php artisan breeze:install blade
+#1714742045
+npm run dev
+#1714742077
+cdw
+#1714742080
+cd chirper/
+#1714742088
+php artisan serve
+#1714742143
+ls
+#1714742146
+r
+#1714742193
+q
+#1714742202
+ls
+#1714742204
+qq
+#1714742205
+q
+#1714744147
+r
+#1714744269
+q
+#1714756910
+ins php-mysql
+#1714756915
+ins php-pgsql
+#1714756919
+q
+#1714761371
+sqlite
+#1714761374
+sqlite3
+#1714761435
+cdw
+#1714761437
+cd test-app/
+#1714761437
+ls
+#1714761442
+php artisan migrate
+#1714756673
+cdw
+#1714756677
+rm chirper/
+#1714756679
+ls
+#1714756696
+composer create-project laravel/laravel test-app
+#1714756759
+ins sqlite3
+#1714756764
+ins php-sqlite3
+#1714756795
+ins php-sqlite
+#1714756800
+composer create-project laravel/laravel test-app
+#1714756806
+rm test-app/
+#1714756807
+composer create-project laravel/laravel test-app
+#1714756821
+sudo /opt/lampp/lampp restart
+#1714756853
+cd test-app/
+#1714756854
+s
+#1714756855
+ls
+#1714756859
+php artisan serve
+#1714756975
+php artisan migrate
+#1714757035
+sudo nvim /etc/php/php.ini 
+#1714757053
+php artisan migrate
+#1714757067
+php artisan serve
+#1714761595
+ls
+#1714761596
+q
+#1714760008
+r
+#1714760431
+gst
+#1714760433
+ls
+#1714760451
+php artisan make:controller UserController
+#1714760461
+r
+#1714845233
+clear
+#1714845233
+q
+#1714845398
+r
+#1715364928
+cdD
+#1715364928
+ls
+#1715364929
+r
+#1715365696
+paru
+#1715365707
+ins paru
+#1715365860
+clear
+#1715365860
+q
+#1715366499
+arp-scan
+#1715366503
+ins arp-scan
+#1715366506
+q
+#1715366009
+ins wifite
+#1715366025
+ins airmon-ng
+#1715366038
+airmon
+#1715366040
+airmon-ng
+#1715366045
+sudo !
+#1715366048
+sudo sudo !
+#1715366053
+sudo airmon-ng
+#1715366067
+iwconfig
+#1715366100
+iw
+#1715366108
+iwconfig
+#1715366121
+sudo iw wlp3s0 set monitor mode
+#1715366129
+sudo iw wlp3s0 set monitor none
+#1715366159
+sudo ip link set wlp3s0 down
+#1715366170
+sudo iw wlp3s0 set monitor none
+#1715366174
+sudo ip link set wlp3s0 up
+#1715366180
+sudo iw dev
+#1715366217
+sudo aircrack-ng check kill
+#1715366257
+sudo airmon-ng start wlp3s0
+#1715366280
+lspci
+#1715366470
+ins nmap
+#1715366479
+nmao -sP 192.168.1.*
+#1715366483
+nmap -sP 192.168.1.*
+#1715366547
+nmap -sP 192.168.1.0/24 
+#1715366605
+nmap -sn 192.168.1.0/24 
+#1715366645
+ip all
+#1715366649
+ip /all
+#1715366654
+iwconfig
+#1715366656
+ifconfig
+#1715366690
+man nmap
+#1715366705
+nmap -snvv 192.168.1.0/24 
+#1715366712
+nmap -sn 192.168.1.0/24 -vv
+#1715367077
+sudo nmap -sn 192.168.1.0/24
+#1715367274
+sudo nmap -sP 192.168.1.0/24
+#1715367291
+ifconfig
+#1715367298
+mymac
+#1715367327
+sudo nmap -sP 192.168.1.0/24
+#1715367382
+myip
+#1715367386
+mylip
+#1715367407
+sudo nmap -sP 197.204.117.0/24
+#1715367512
+arp-scan 192.168.1.0
+#1715367529
+arp-scan 192.168.1.0/24
+#1715367558
+arp-scan 197.204.117.0/24
+#1715367566
+sudo arp-scan 197.204.117.0/24
+#1715367986
+q
+#1715368000
+clear
+#1715368000
+q
+#1715368007
+sad
+#1715368008
+clearq
+#1715368011
+clear
+#1715368012
+q
+#1715368029
+clear
+#1715368029
+q
+#1715373709
+cdw
+#1715373712
+cd my-app/
+#1715373712
+ls
+#1715373723
+man yarn
+#1715373730
+yarn --help
+#1715373738
+man yarn add
+#1715373744
+yarn add --help
+#1715373760
+yarn add -D tailwindcss postcss autoprefixer
+#1715373831
+npx tailwindcss init -p
+#1715373871
+r
+#1715374361
+q
+#1715373098
+cdw
+#1715373098
+ls
+#1715373100
+r
+#1715373133
+ls
+#1715373156
+yarn create vite test-app --template react
+#1715373184
+r
+#1715373196
+yarn create vite my-app --template react
+#1715373200
+cd my-app/
+#1715373201
+yarn
+#1715373275
+ls
+#1715373278
+yarn dev
+#1715374364
+q
+#1715374381
+cdw
+#1715374382
+ls
+#1715374384
+cd my-app/
+#1715374384
+ls
+#1715374385
+q
+#1715420912
+cd test/
+#1715420913
+ls
+#1715420927
+cc exo1.c -o exo1.c 
+#1715420929
+cc exo1.c -o exo
+#1715420972
+./exo 
+#1715421074
+cc exo1.c -o exo
+#1715421075
+./exo 
+#1715421266
+cc exo1.c -o exo
+#1715421268
+./exo 
+#1715422176
+cc exo2.c -o exo
+#1715422177
+./exo 
+#1715422256
+ls
+#1715422256
+r
+#1715423042
+lsblk
+#1715423087
+..
+#1715423096
+sudo mount /dev/sdc1 usb/
+#1715423097
+ls
+#1715423099
+sr
+#1715423182
+umount usb/
+#1715423184
+sudo umount usb/
+#1715423193
+eject /dev/sdc
+#1715423196
+sudo eject /dev/sdc
+#1715423233
+q
+#1715374415
+ls
+#1715374420
+mkdir test
+#1715374421
+ls
+#1715374424
+cd test
+#1715374425
+ls
+#1715420288
+la
+#1715420294
+nvim exo1.c
+#1715421977
+nvim exo2.c
+#1715549937
+r
+#1715549956
+q
+#1716317937
+mvn
+#1716317957
+ins maven
+#1716318121
+upd
+#1716318129
+ins maven
+#1716318150
+mvn archetype:generate -DgroupId=com.example -DartifactId=test -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+#1716318205
+ls
+#1716318207
+cd test
+#1716318207
+ls
+#1716318209
+r
+#1716318218
+cdw
+#1716318218
+ls
+#1716318229
+mvn archetype:generate -DgroupId=com.example -DartifactId=test -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+#1716318244
+cd test
+#1716318244
+ls
+#1716318245
+r
+#1716318267
+mvn dependency:resolve -Dclassifier=sources
+#1716318290
+ls
+#1716318294
+r
+#1716318309
+mkdir -p src/main/java/com/example
+#1716318315
+touch src/main/java/com/example/HelloController.java
+#1716318332
+r
+#1716318384
+nvim Application.java
+#1716318395
+..
+#1716318399
+mvn clean package
+#1716318413
+mvn dependency:resolve -Dclassifier=sources
+#1716318434
+java -jar target/test1.0-SNAPSHOT.jar
+#1716318440
+r
+#1716318470
+java -jar target/test-1.0-SNAPSHOT.jar
+#1716318479
+java -jar target/hello-world-web-1.0-SNAPSHOT.jar
+#1716318634
+r
+#1716318800
+mvn archetype:generate   -DgroupId=com.example   -DartifactId=test   -Dversion=0.0.1-SNAPSHOT   -Dpackage=com.example   -DinteractiveMode=false   -DarchetypeGroupId=org.springframework.boot   -DarchetypeArtifactId=spring-boot-starter-archetype
+#1716318825
+mvn archetype:generate   -DgroupId=com.example   -DartifactId=hello-world-spring-app   -Dversion=0.0.1-SNAPSHOT   -Dpackage=com.example   -DinteractiveMode=false   -DarchetypeGroupId=org.springframework.boot   -DarchetypeArtifactId=spring-boot-starter-archetype
+#1716318927
+mvn archetype:generate -DgroupId=com.example -DartifactId=helloworld-webapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+#1716318950
+r
+#1716319002
+mvn clean package
+#1716319020
+mvn dependency:resolve -Dclassifier=sources
+#1716319074
+mvn clean install
+#1716319127
+r
+#1716319136
+mvn clean install
+#1716319236
+r
+#1716319242
+mvn clean install
+#1716319424
+r
+#1716319432
+mvn clean install
+#1716319450
+r
+#1716319456
+mvn archetype:generate -DgroupId=com.example -DartifactId=helloworld-webapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+#1716319469
+cd helloworld-webapp/
+#1716319470
+ls
+#1716319475
+r
+#1716319510
+nvim src/main/java/com/example/HelloWorldApplication.java
+#1716319527
+mvn clean install
+#1716319597
+r
+#1716319615
+mvn clean install
+#1716319642
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716320280
+q
+#1716319783
+cdw
+#1716319784
+ls
+#1716319785
+r
+#1716319797
+mvn clean install
+#1716319836
+nvim src/main/java/com/example/WebSecurityConfig.java
+#1716319848
+ls
+#1716319848
+r
+#1716319873
+nvim login.html
+#1716319893
+nvim home.html
+#1716319899
+r
+#1716319915
+nvim HomeController.java
+#1716319925
+..
+#1716319930
+mvn clean install
+#1716319933
+..
+#1716319937
+mvn clean install
+#1716319957
+r
+#1716320040
+mvn clean install
+#1716320057
+r
+#1716320068
+mvn clean install
+#1716320139
+r
+#1716320171
+nvim home.html 
+#1716320179
+nvim login.html 
+#1716320189
+r
+#1716320193
+nvim home.html 
+#1716320204
+r
+#1716320228
+..
+#1716320235
+cd helloworld-webapp/
+#1716320235
+ls
+#1716320239
+mvn clean install
+#1716320254
+r
+#1716320260
+mvn clean install
+#1716320276
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716320400
+r
+#1716320422
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716320428
+mvn clean install
+#1716320435
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716320451
+r
+#1716320487
+nvim login.html 
+#1716320493
+r
+#1716320656
+mvn clean install
+#1716320678
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716320792
+r
+#1716320828
+nvim login.html 
+#1716320839
+nvim home.html 
+#1716320853
+..
+#1716320859
+mvn clean install
+#1716320868
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716320910
+r
+#1716320925
+cd helloworld-webapp/
+#1716320926
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716321006
+r
+#1716321076
+sudo java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716321087
+r
+#1716321193
+nvim src/main/resources/application.properties
+#1716321206
+mvn clean install
+#1716321216
+java -jar target/helloworld-webapp-1.0-SNAPSHOT.jar
+#1716321328
+clear
+#1716321328
+q
+#1716321329
+r
+#1716321331
+q
+#1716321332
+r
+#1716321337
+q
+#1716575362
+curl http://localhost:8080/hello
+#1716575386
+q
+#1716576952
+cdw
+#1716576956
+q
+#1716574721
+ls
+#1716574722
+cdw
+#1716574722
+ls
+#1716574722
+r
+#1716574882
+mvn archetype:generate -DgroupId=com.sonatrach -DartifactId=hello-world-app -Dversion=1.0.0 -Dpackage=com.sonatrach.helloworldapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+#1716574921
+ls
+#1716574924
+cd hello-world-app/
+#1716574925
+ls
+#1716574928
+nvim pom.xml 
+#1716574973
+cd src/main/java/com/sonatrach/helloworldapp/
+#1716574974
+ls
+#1716574978
+nvim App.java 
+#1716575026
+..
+#1716575029
+ls
+#1716575033
+mvn clean install
+#1716575094
+nvim src/main/java/com/sonatrach/helloworldapp/App.java 
+#1716575142
+nvim src/main/java/com/sonatrach/helloworldapp/HelloWorld.java
+#1716575159
+mvn clean install
+#1716575194
+nvim src/main/java/com/sonatrach/helloworldapp/App.java 
+#1716575247
+mvn clean install
+#1716575273
+rm src/main/java/com/sonatrach/helloworldapp/HelloWorld.java 
+#1716575275
+mvn clean install
+#1716575303
+rm src/test
+#1716575304
+ls
+#1716575313
+mvn clean install
+#1716575334
+mvn spring-boot:run
+#1716575633
+r
+#1716575694
+mvn clean install
+#1716575715
+ls
+#1716575716
+r
+#1716575758
+nvim Todo.java
+#1716575810
+r
+#1716575828
+nvim TodoRepository.java
+#1716575834
+r
+#1716575854
+nvim TodoService.java
+#1716575876
+r
+#1716575894
+nvim TodoController.java
+#1716575910
+..
+#1716575917
+mvn clean install
+#1716576003
+nvim pom.xml 
+#1716576013
+mvn clean install
+#1716576051
+mvn dependency:tree
+#1716576067
+mvn clean install
+#1716576143
+r
+#1716576181
+rm -rf ~/.m2
+#1716576187
+mvn clean
+#1716576199
+mvn install
+#1716576280
+java -version
+#1716576346
+mvn clean install -X
+#1716576467
+r
+#1716576553
+mvn clean install -X
+#1716576555
+mvn clean install
+#1716576578
+mvn clean
+#1716576582
+r
+#1716576678
+mvn clean install
+#1716576689
+r
+#1716576713
+mvn clean install
+#1716576720
+r
+#1716576765
+mvn clean install
+#1716576773
+r
+#1716576795
+mvn clean install
+#1716576847
+mvn spring-boot:run
+#1716576958
+r
+#1716576968
+mvn spring-boot:run
+#1716577353
+mvn clean install
+#1716577362
+mvn spring-boot:run
+#1716577593
+mvn clean install
+#1716577609
+r
+#1716577628
+mvn clean install
+#1716578004
+r
+#1716578068
+mvn clean install
+#1716578080
+mvn spring-boot:run
+#1716576999
+r
+#1716577080
+curl http://localhost:8080/api/todos
+#1716577108
+curl -X POST -H "Content-Type: application/json" -d '{"title":"New Todo","description":"This is a new Todo"}' http://localhost:8080/api/todos
+#1716577112
+curl http://localhost:8080/api/todos
+#1716577119
+..
+#1716577123
+ls
+#1716577125
+curl http://localhost:8080/api/todos
+#1716577153
+curl -X POST -H "Content-Type: application/json" -d '{"title":"New Todo","description":"This is a new Todo"}' http://localhost:8080/api/todos
+#1716577164
+curl http://localhost:8080/api/todos
+#1716577247
+r
+#1716578116
+curl -X POST -H "Content-Type: application/json" -d '{"title":"New Todo","description":"This is a new Todo"}' http://localhost:8080/api/todos
+#1717015363
+ls
+#1717015365
+cdd
+#1717015365
+ls
+#1717015366
+r
+#1717015421
+clear
+#1717015422
+sls
+#1717015424
+ls
+#1717015425
+r
+#1717180715
+upd
+#1717180735
+sudo pacman -S --needed bc binutils gcc glibc libaio libnsl libxcrypt make python3
+#1717180762
+upd
+#1717181271
+sudo pacman -S --needed bc binutils gcc libaio libnsl libxcrypt make python3
+#1717181408
+clear
+#1717181408
+q
+#1717182005
+clear
+#1717182006
+q
+#1717182011
+cdd
+#1717182011
+ls
+#1717182013
+r
+#1717182024
+clear
+#1717182024
+q
