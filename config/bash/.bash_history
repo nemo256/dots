@@ -106032,3 +106032,675 @@ r
 sqlcl sys as sysdba
 #1717244698
 q
+#1717244707
+sudo systemctl start oracle-xe
+#1717244709
+sqlcl sys as sysdba
+#1717244726
+sudo systemctl restart oracle-xe
+#1717244748
+sqlcl sys as sysdba
+#1717244851
+nvim .bash_history
+#1717244873
+cd dots
+#1717244875
+gca
+#1717244878
+cd
+#1717244879
+q
+#1717241890
+cdw
+#1717241893
+cd helpdesk/
+#1717241904
+php artisan migrate
+#1717241907
+r
+#1717241931
+php artisan migrate
+#1717241990
+sqlcl c##asl_hd@127.0.0.1:1521/XE
+#1717242074
+php -m | grep oci8
+#1717242246
+echo $ORACLE_HOME
+#1717242285
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
+#1717242292
+export PATH=$ORACLE_HOME/bin:$PATH
+#1717242302
+sqlcl c##asl_hd@127.0.0.1:1521/XE
+#1717242315
+php artisan migrate
+#1717242454
+sqlplus sys as sysdba
+#1717242469
+sqlcl sys as sysdba
+#1717242517
+sqlcl system
+#1717242683
+r
+#1717242705
+php artisan migrate
+#1717242951
+sudo systemctl status firewalld
+#1717242958
+sudo iptables -L
+#1717242983
+sudo iptables -A INPUT -p tcp --dport 1521 -j ACCEPT
+#1717242988
+sudo systemctl restart iptables.service
+#1717243007
+sudo iptables -L
+#1717243012
+php artisan migrate
+#1717243334
+php artisan vendor:publish --tag=oracle
+#1717243338
+php artisan migrate
+#1717243418
+r
+#1717243466
+php artisan migrate
+#1717243537
+r
+#1717243559
+php artisan migrate
+#1717243579
+r
+#1717247346
+laravel new helpdesk
+#1717247364
+q
+#1717247366
+laravel
+#1717247368
+q
+#1717247376
+sudo composer global require laravel/installer
+#1717247388
+q
+#1717244897
+sqlcl ASL_HD
+#1717245234
+sqlcl system
+#1717245261
+sqlcl ASL_HD
+#1717247399
+q
+#1717243826
+cdw
+#1717243828
+cd helpdesk/
+#1717243830
+php artisan migrate
+#1717243893
+php artisan vendor:publish --tag=oracle
+#1717243899
+php artisan migrate
+#1717243901
+php artisan vendor:publish --tag=oracle
+#1717243916
+php artisan migrate
+#1717243985
+composer remove yajra/laravel-oci8
+#1717243995
+composer require yajra/laravel-oci8:^10.0
+#1717244036
+r
+#1717244065
+composer require yajra/laravel-oci8
+#1717244087
+php artisan vendor:publish --tag=laravel-assets --ansi --force
+#1717244159
+php artisan migrate
+#1717244810
+r
+#1717244819
+php artisan migrate
+#1717246140
+r
+#1717246151
+php artisan migrate:clean
+#1717246155
+php artisan migrate:clear
+#1717246169
+php artisan migrate:install
+#1717246172
+php artisan migrate:inst
+#1717246174
+php artisan migrate:in
+#1717246179
+php artisan migrate:
+#1717246184
+php artisan migrate:refresh
+#1717246192
+php artisan migrate
+#1717246242
+php artisan migrate:rollback
+#1717246245
+php artisan migrate
+#1717246247
+php artisan migrate:
+#1717246250
+php artisan migrate:fresh
+#1717246262
+r
+#1717246271
+php artisan migrate:rollback
+#1717246292
+r
+#1717246302
+ls
+#1717246494
+r
+#1717246820
+php artisan serve
+#1717247234
+r
+#1717247265
+php artisan serve
+#1717247393
+..
+#1717247394
+ls
+#1717247389
+cdw
+#1717248134
+sqlcl ASL_HD
+#1717248428
+r
+#1717250455
+cdw
+#1717250457
+cd helpdesk/
+#1717250460
+php artisan serve
+#1717254550
+q
+#1717254561
+r
+#1717254565
+q
+#1717247426
+laravel new helpdesk
+#1717247434
+sudo composer global require laravel/installer
+#1717247441
+laravel new helpdesk
+#1717247446
+which laravel
+#1717247459
+composer global require laravel/installer
+#1717247464
+laravel new helpdesk
+#1717247484
+clear
+#1717247484
+ls
+#1717247493
+r
+#1717247597
+new helpdesk
+#1717247608
+cd helpdesk/
+#1717247609
+ls
+#1717247609
+r
+#1717247647
+gca update boilerplate
+#1717247655
+r
+#1717247722
+gca update boilerplate
+#1717247786
+composer create-project --prefer-dist laravel/laravel .
+#1717247821
+composer create-project --prefer-dist laravel/laravel . --force
+#1717247845
+..
+#1717247853
+composer create-project --prefer-dist laravel/laravel helpdesk-temp
+#1717247869
+r
+#1717247970
+php artisan serve
+#1717247993
+php artisan migrate
+#1717247999
+r
+#1717248081
+php artisan migrate
+#1717248097
+composer require yajra/laravel-oci8
+#1717248106
+php artisan migrate
+#1717248185
+php artisan migrate:fresh
+#1717248190
+php artisan migrate:rollback
+#1717248193
+php artisan migrate:
+#1717248197
+php artisan migrate:reset
+#1717248202
+php artisan migrate:status
+#1717248208
+php artisan migrate:instal
+#1717248209
+php artisan migrate:install
+#1717248215
+php artisan migrate:
+#1717248225
+php artisan migrate:refresh
+#1717248231
+php artisan migrate
+#1717248279
+php artisan serve
+#1717248816
+r
+#1717248841
+composer create-project laravel/laravel helpdesk
+#1717248856
+cd helpdesk/
+#1717248858
+ls
+#1717248859
+r
+#1717248865
+php artisan serve
+#1717248874
+r
+#1717248905
+php artisan serve
+#1717248909
+r
+#1717248930
+php artisan serve
+#1717248935
+r
+#1717248963
+clone https://github.com/nemo256/helpdesk
+#1717248973
+composer create-project laravel/laravel helpdesk-temp
+#1717248986
+r
+#1717249020
+php artisan serve
+#1717249031
+gca add laravel
+#1717249036
+r
+#1717249066
+php artisan migrate:fresh
+#1717249076
+php artisan migrate:rollback
+#1717249085
+php artisan migrate:
+#1717249088
+php artisan migrate:reset
+#1717249093
+php artisan migrate:status
+#1717249097
+r
+#1717249104
+php artisan migrate:status
+#1717249114
+gca rollback migrations
+#1717249124
+r
+#1717249216
+php artisan migrate
+#1717249229
+composer require yajra/laravel-oci8
+#1717249239
+php artisan migrate
+#1717249249
+gca add oci8 to connect to oracle
+#1717249271
+r
+#1717249300
+php artisan migrate
+#1717249304
+php artisan serve
+#1717249326
+r
+#1717249357
+php artisan serve
+#1717249362
+r
+#1717249381
+php artisan serve
+#1717249396
+r
+#1717249431
+php artisan serve
+#1717249478
+php artisan migrate
+#1717249481
+php artisan migrate:fresh
+#1717249487
+php artisan migrate
+#1717249492
+php artisan serve
+#1717249589
+php artisan cache:clear
+#1717249598
+php artisan migrate
+#1717249600
+php artisan cache:clear
+#1717249639
+..
+#1717249643
+composer create-project laravel/laravel helpdesk-temp
+#1717249646
+r
+#1717249651
+composer create-project laravel/laravel helpdesk-temp
+#1717249664
+r
+#1717249682
+cd helpdesk/
+#1717249686
+php artisan migrate
+#1717249695
+php artisan serve
+#1717249703
+r
+#1717249745
+php artisan serve
+#1717249774
+r
+#1717249848
+php artisan route:clear
+#1717249876
+r
+#1717249890
+php artisan config:clear
+#1717249902
+r
+#1717249948
+php artisan config:clear
+#1717249952
+php artisan route:clear
+#1717249955
+php artisan serve
+#1717249969
+r
+#1717250026
+php artisan serve
+#1717250429
+r
+#1717250562
+composer create-project laravel/laravel helpdesk-temp
+#1717250576
+r
+#1717250709
+php artisan route:clear
+#1717250710
+r
+#1717250763
+php artisan cache:clear
+#1717250770
+php artisan serve
+#1717253286
+r
+#1717253346
+php artisan make:model Query -m
+#1717253357
+r
+#1717253389
+php artisan migrate
+#1717253398
+r
+#1717253435
+php artisan make:factory QueryFactory --model=Query
+#1717253441
+r
+#1717253458
+php artisan make:seeder QuerySeeder
+#1717253468
+r
+#1717253483
+php artisan db:seed --class=QuerySeeder
+#1717253541
+r
+#1717253629
+php artisan make:controller QueryController
+#1717253635
+r
+#1717253724
+php artisan routes:list
+#1717253732
+php artisan route:list
+#1717253752
+php artisan route:list --path=api
+#1717253795
+php artisan route:clear
+#1717253797
+php artisan route:list --path=api
+#1717253818
+composer update
+#1717253833
+php artisan route:list --path=api
+#1717253956
+php artisan route:list
+#1717253993
+r
+#1717254086
+php artisan migrate
+#1717254191
+r
+#1717254300
+php artisan migrate
+#1717254311
+r
+#1717254556
+composer create-project --prefer-dist laravel/laravel ap
+#1717254559
+composer create-project --prefer-dist laravel/laravel api
+#1717254578
+cd api/
+#1717254579
+ls
+#1717254580
+php artisan make:model Task -m
+#1717254596
+nvim database/migrations/2024_06_01_150941_create_tasks_table.php 
+#1717254626
+php artisan migrate
+#1717254631
+php artisan make:controller TaskController
+#1717254640
+r
+#1717254834
+php artisan route:cache
+#1717254877
+php artisan serve
+#1717255958
+..
+#1717255960
+q
+#1717256043
+cdw
+#1717256047
+cd helpdesk_fastify/
+#1717256051
+node index.js 
+#1717256172
+r
+#1717256184
+pip install fastapi uvicorn
+#1717256194
+mkdir fast-test
+#1717256197
+cd fast-test/
+#1717256199
+pip install fastapi uvicorn
+#1717256207
+python -m venv venv
+#1717256215
+source venv/bin/activate
+#1717256218
+pip install fastapi uvicorn
+#1717256249
+touch main.py
+#1717256253
+r
+#1717256265
+uvicorn main:app --reload
+#1717256299
+pip install cx_Oracle
+#1717256346
+r
+#1717256391
+uvicorn main:app --reload
+#1717256452
+r
+#1717256462
+uvicorn main:app --reload
+#1717256501
+r
+#1717256515
+uvicorn main:app --reload
+#1717256562
+r
+#1717256573
+uvicorn main:app --reload
+#1717256589
+r
+#1717256601
+uvicorn main:app --reload
+#1717256616
+r
+#1717256645
+uvicorn main:app --reload
+#1717256655
+r
+#1717256814
+cdw
+#1717256816
+q
+#1717254883
+curl http://127.0.0.1:8000/api/tasks
+#1717254973
+cdw
+#1717254976
+cd api/
+#1717254977
+php artisan route:clear
+#1717255020
+php artisan make:controller TaskController --api
+#1717255021
+r
+#1717255026
+php artisan make:controller TaskController --api
+#1717255029
+r
+#1717255043
+php artisan make:controller TaskController --api
+#1717255046
+r
+#1717255101
+php artisan route:clear
+#1717255334
+php artisan route:list
+#1717255444
+r
+#1717255459
+mkdir helpdesk_fastify
+#1717255466
+cd helpdesk_fastify/
+#1717255466
+ls
+#1717255471
+npm init -y
+#1717255474
+yarn init
+#1717255481
+ls
+#1717255508
+yarn add fastify fastify-cors fastify-helmet fastify-sqlite
+#1717255532
+r
+#1717255547
+touch index.js
+#1717255550
+nvim index.js 
+#1717255572
+node index.js 
+#1717255619
+r
+#1717255634
+node index.js 
+#1717255645
+yarn install @fastify/cors @fastify/helmet
+#1717255651
+yarn add @fastify/cors @fastify/helmet
+#1717255660
+node index.js 
+#1717255775
+yarn add oracledb
+#1717255788
+r
+#1717255860
+node index.js 
+#1717255874
+r
+#1717255882
+node index.js 
+#1717255895
+r
+#1717255917
+node index.js 
+#1717255924
+r
+#1717255948
+node index.js 
+#1717256003
+r
+#1717256821
+q
+#1717256827
+sudo pacman -S php composer
+#1717256838
+composer global require laravel/installer
+#1717256846
+laravel
+#1717256856
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+#1717256858
+laravel
+#1717256866
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+#1717256869
+r
+#1717256871
+brc
+#1717256882
+echo $PATH
+#1717256907
+r
+#1717256926
+composer global require laravel/installer
+#1717256933
+r
+#1717256948
+./laravel 
+#1717256960
+./laravel list
+#1717256999
+cd
+#1717256999
+brc
+#1717257030
+source .bashrc 
+#1717257034
+larevel
+#1717257036
+laravel
+#1717257037
+q

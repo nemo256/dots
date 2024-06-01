@@ -9,7 +9,7 @@
 [ -f /etc/bash_completion ] && /etc/bash_completion
 
 # Adding new bin to the PATH variable
-export PATH=$HOME/bin:/$HOME/bin/status:/usr/local/bin:/sbin:$PATH
+export PATH=$HOME/bin:/$HOME/bin/status:/usr/local/bin:/sbin:$HOME/.config/composer/vendor/bin:$PATH
 
 # Default Text Editor
 export EDITOR=nvim
