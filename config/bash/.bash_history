@@ -105042,3 +105042,993 @@ composer require yajra/laravel-oci8
 php -m | grep oci8
 #1717186756
 sudo pecl install oci8
+#1717187374
+brc
+#1717187384
+cd dots
+#1717187386
+gca
+#1717187388
+q
+#1717187547
+ls
+#1717187547
+q
+#1717188371
+r
+#1717188379
+q
+#1717188330
+paru -S oracle-database-xe
+#1717188351
+paru -S oracle-xe
+#1717191710
+su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+-createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+-createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+-J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+-emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+-customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717191733
+su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+-createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+-createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+-J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+-emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+-customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717191748
+sudo -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+-createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+-createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+-J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+-emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+-customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717191768
+oracle
+#1717191891
+sudo cat /etc/passwd | grep oracle
+#1717191920
+sudo /opt/oracle/product/18c/dbhomeXE/bin/dbca -silent -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql
+#1717191953
+sudo -u oracle /opt/oracle/product/18c/dbhomeXE/bin/dbca -silent -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql
+#1717192805
+nvim [FATAL] Error while executing "/opt/oracle/product/18c/dbhomeXE/ord/im/admin/ordlib.sql". Refer to "/opt/oracle/cfgtoollogs/dbca/XE/ordlib0.log" for more details. Error in Process: /opt/oracle/product/18c/dbhomeXE/perl/bin/perl
+#1717192814
+nvim /opt/oracle/cfgtoollogs/dbca/XE/ordlib0.log
+#1717192835
+cd /opt/oracle/cfgtoollogs/
+#1717192838
+sudo cd /opt/oracle/cfgtoollogs/
+#1717192857
+sudo -s
+#1717192950
+sudo -u oracle /opt/oracle/product/18c/dbhomeXE/bin/dbca -silent -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql
+#1717193374
+ins perl
+#1717193387
+nvim /opt/oracle/cfgtoollogs/dbca/XE/XE0.log
+#1717193396
+sudo -u oracle nvim /opt/oracle/cfgtoollogs/dbca/XE/XE0.log
+#1717193426
+sudo -u oracle nvim /opt/oracle/cfgtoollogs/dbca/XE/ordlib0.log
+#1717193559
+/etc/rc.d/oracle-xe configure
+#1717193569
+which oracle-xr
+#1717193570
+which oracle-xe
+#1717193585
+/etc/init.d/oracle-xe-21c configure
+#1717193588
+sudo /etc/init.d/oracle-xe-21c configure
+#1717193620
+ls
+#1717193630
+sqlplus /nolog
+#1717193634
+ins sqlplus
+#1717193806
+/usr/lib/systemd/system/oracle-xe
+#1717193869
+su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717193919
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717194419
+sudo su -s /bin/bash oracle nvim /opt/oracle/cfgtoollogs/dbca/XE/XE1.log"
+#1717194422
+sudo su -s /bin/bash oracle nvim /opt/oracle/cfgtoollogs/dbca/XE/XE1.log
+#1717194431
+sudo su -s /bin/bash oracle -c nvim /opt/oracle/cfgtoollogs/dbca/XE/XE1.log
+#1717194445
+sudo su -s /bin/bash oracle -c nvim "/opt/oracle/cfgtoollogs/dbca/XE/XE1.log"
+#1717194457
+sudo su -s /bin/bash oracle -c nvim '/opt/oracle/cfgtoollogs/dbca/XE/XE1.log'
+#1717194475
+sudo su -s /bin/bash oracle -c nvim '/opt/oracle/cfgtoollogs/dbca/XE/ordlib0.log'
+#1717194616
+sudo su -s /bin/bash oracle -c 'nvim /opt/oracle/cfgtoollogs/dbca/XE/ordlib0.log'
+#1717194639
+sudo su -s /bin/bash oracle -c nvim /opt/oracle/cfgtoollogs/
+#1717194645
+sudo su -s /bin/bash oracle -c nvim '/opt/oracle/cfgtoollogs/'
+#1717194766
+sudo su -s /bin/bash oracle -c nvim '/opt/oracle/cfgtoollogs/dbca/XE/XE1.log'
+#1717194776
+sudo su -s /bin/bash oracle -c 'nvim /opt/oracle/cfgtoollogs/dbca/XE/XE1.log'
+#1717194787
+sudo su -s /bin/bash oracle -c 'nvim /opt/oracle/cfgtoollogs/dbca/XE/ordlib0.log'
+#1717194793
+sudo su -s /bin/bash oracle -c 'nvim /opt/oracle/cfgtoollogs/dbca/XE/XE1.log'
+#1717195673
+chmod -R u+s,g+s /opt/oracle/product/18c/dbhomeXE/bin/sqlplus
+#1717195675
+sudo chmod -R u+s,g+s /opt/oracle/product/18c/dbhomeXE/bin/sqlplus
+#1717195683
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717196087
+sudo chmod -R u+s,g+s /opt/oracle/product/18c/dbhomeXE/ord/im/admin/ordlib.sql"
+#1717196092
+sudo chmod -R u+s,g+s /opt/oracle/product/18c/dbhomeXE/ord/im/admin/ordlib.sql
+#1717196094
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717196112
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717196133
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717196145
+q
+#1717196165
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717196211
+sqlplus /nolog
+#1717196214
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717196281
+inslibxcrypt-compat
+#1717196284
+ins libxcrypt-compat
+#1717196300
+rem oracle-xe
+#1717196312
+ins oracle-xe
+#1717196321
+paru -S oracle-xe
+#1717196647
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+-createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+-createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+-J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+-emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+-customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717196728
+sudo docker ps 
+#1717196783
+sqlplus
+#1717196804
+sudo systemctl restart oracle-xe
+#1717196820
+sudo systemctl status oracle-xe
+#1717196830
+q
+#1717196928
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717197072
+ipcs -a
+#1717197108
+cd /etc/oratab
+#1717197118
+sudo nvim /etc/oratab
+#1717197135
+sudo nvim ${ORACLE_BASE}/oraInventory/ContentsXML/inventory.xml
+#1717197178
+find / -name inventory.xml
+#1717197183
+find ./ -name inventory.xml
+#1717197197
+find / -name inventory.xml
+#1717197203
+sudo find / -name inventory.xml
+#1717197224
+sudo nvim /var/lib/docker/overlay2/90b889da9578c4bcbcfd45f885c62ffa19c559bab9165170df9af8028e9c9623/diff/opt/oracle/oraInventory/ContentsXML/inventory.xml
+#1717197244
+sudo su -s /bin/bash oracle -c '/opt/oracle/product/18c/dbhomeXE/bin/dbca -silent \
+    -createDatabase -gdbName XE -templateName XE_Database.dbc -characterSet AL32UTF8 \
+    -createAsContainerDatabase true -numberOfPDBs 1 -sid XE -pdbName XEPDB1 \
+    -J-Doracle.assistants.dbca.validate.ConfigurationParams=false -emConfiguration DBEXPRESS \
+    -emExpressPort 5500 -J-Doracle.assistants.dbca.validate.DBCredentials=false -sampleSchema true \
+    -customScripts /opt/oracle/product/18c/dbhomeXE/assistants/dbca/postdb_creation.sql'
+#1717197949
+sudo service oracle-xe-18c status
+#1717197959
+sudo systemctl status oracle-xe-18c
+#1717197963
+sudo systemctl status oracle-xe
+#1717197970
+sudo systemctl start oracle-xe
+#1717197982
+sqlplus
+#1717198004
+sudo -u oracle -s /bin/bash
+#1717198059
+sudo -u oracle nano /home/oracle/.bashrc
+#1717198127
+echo $ORACLE_HOME
+#1717198135
+br
+#1717198151
+echo $ORACLE_SID
+#1717198159
+echo $PATH
+#1717198177
+sqlplus / as sysdba
+#1717198282
+sudo chown -R oracle:oinstall $ORACLE_HOME
+#1717198293
+sudo chmod -R 755 $ORACLE_HOME/bin
+#1717198298
+sudo chown -R oracle:oinstall $ORACLE_HOME
+#1717198322
+sudo chmod 6751 $ORACLE_HOME/bin/oracle;
+#1717198322
+sudo chmod 6751 $ORACLE_HOME/bin/extjob;
+#1717198322
+sudo chmod 6751 $ORACLE_HOME/bin/extjobo;
+#1717198322
+sudo chmod 6751 $ORACLE_HOME/bin/tnslsnr
+#1717198330
+sudo -u oracle $ORACLE_HOME/bin/lsnrctl start
+#1717198338
+sudo -u oracle $ORACLE_HOME/bin/lsnrctl status
+#1717198344
+sudo -u oracle $ORACLE_HOME/bin/relink all
+#1717198361
+echo $ORACLE_HOME
+#1717198366
+q
+#1717200002
+space
+#1717200008
+df -h /
+#1717200010
+q
+#1717200012
+r
+#1717200019
+q
+#1717198369
+echo $ORACLE_HOME
+#1717198380
+sqlplus / as sysdba
+#1717198789
+sqlplus sys as sysdba
+#1717198948
+sqlplus n3m0
+#1717198963
+sqlplus n3m0 as sysdba
+#1717199010
+sqlplus n3m0@XEPDB1
+#1717199041
+sqlplus sys as sysdba
+#1717199143
+sqlplus N3M0
+#1717199172
+sqlplus sys as sysdba
+#1717199511
+sqlplus n3m0@XEPDB1
+#1717199544
+sqlplus sys as sysdba
+#1717199944
+paru -S sqlcl
+#1717200028
+sqlcl 
+#1717200063
+ins java-runtime
+#1717200069
+java-environment
+#1717200071
+ins java-environment
+#1717200104
+rem sqlcl 
+#1717200107
+arem
+#1717200124
+df -h /
+#1717200173
+sql
+#1717200271
+paru -S sqlcl
+#1717200283
+sql
+#1717200284
+sqlcl
+#1717200354
+sqlcl sys as sysdba
+#1717200400
+java --version
+#1717200407
+java -version
+#1717200433
+which java
+#1717200445
+echo $JAVA_HOME
+#1717200452
+brc
+#1717200519
+q
+#1717200524
+sqlcl
+#1717200546
+q
+#1717200553
+sqlcl sys as sysdba
+#1717200843
+sqlcl
+#1717200996
+sqlcl sys as sysdba
+#1717201377
+q
+#1717201388
+cear
+#1717201388
+q
+#1717201393
+clear
+#1717201393
+q
+#1717201396
+space
+#1717201397
+qq
+#1717201398
+q
+#1717228579
+sqlcl
+#1717228597
+sqlcl sys as sysdba
+#1717228641
+clear
+#1717228642
+q
+#1717228652
+sudo systemctl status oracle-xe
+#1717228660
+sudo systemctl start oracle-xe
+#1717228683
+sqlcl sys as sysdba
+#1717228754
+cdw
+#1717228754
+ls
+#1717228758
+r
+#1717228769
+composer create-project --prefer-dist laravel/laravel helpdesk
+#1717228829
+cd helpdesk/
+#1717228831
+ls
+#1717228839
+composer require yajra/laravel-oci8:"^8.0"
+#1717228858
+composer require yajra/laravel-oci8
+#1717228914
+ins oracle-instantclient
+#1717228936
+sudo pecl install oci8
+#1717229035
+export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+#1717229035
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib
+#1717229038
+sudo pecl install oci8
+#1717229056
+echo $ORACLE_HOME
+#1717229060
+sudo pecl install oci8
+#1717229131
+php --ini
+#1717229145
+sudo nvim /etc/php/php.ini
+#1717229256
+sudo systemctl restart httpd.service
+#1717229261
+sudo systemctl restart php-fpm.service
+#1717229269
+php -m | grep oci8
+#1717229283
+composer require yajra/laravel-oci8
+#1717229325
+r
+#1717229405
+sqlcl sys as sysdba
+#1717230198
+sqlcl
+#1717230228
+r
+#1717230368
+php artisan migrate
+#1717230426
+sqlcl c##asl_hd
+#1717230441
+r
+#1717230558
+php artisan migrate
+#1717230592
+r
+#1717230665
+sqlcl c##asl_hd
+#1717230697
+r
+#1717230780
+..
+#1717230782
+php artisan migrate
+#1717230838
+sudo nvim /etc/php/php.ini
+#1717230876
+php -m | grep -i pdo
+#1717230940
+sudo nvim /etc/php/php.ini
+#1717230969
+php artisan migrate
+#1717230992
+sudo systemctl restart apache
+#1717230993
+sudo systemctl restart apache2
+#1717231002
+sudo systemctl restart nginx
+#1717231012
+ins apache
+#1717231021
+sudo systemctl restart apache2
+#1717231022
+sudo systemctl restart apache
+#1717231027
+php -m | grep -i pdo
+#1717231042
+sudo nvim /etc/php/php.ini
+#1717231058
+php -m | grep -i pdo
+#1717231066
+php artisan migrate
+#1717231105
+r
+#1717231115
+php artisan migrate
+#1717231152
+r
+#1717231218
+php artisan migrate
+#1717231413
+nvim test.php
+#1717231454
+php test.php 
+#1717231469
+nvim test
+#1717231472
+nvim test.php 
+#1717231480
+php test.php 
+#1717231538
+sudo nvim /etc/php/php.ini
+#1717231578
+php -m | grep -i pdo
+#1717231625
+ins php-pdo
+#1717231669
+paru -S php-pdo-oci
+#1717231864
+php -m | grep -i pdo
+#1717231873
+sudo nvim /etc/php/php.ini
+#1717231889
+php -m | grep -i pdo
+#1717231892
+paru -S php-pdo-oci
+#1717232000
+sudo nvim /etc/php/php.ini
+#1717232020
+php -m | grep -i pdo
+#1717232024
+sudo nvim /etc/php/php.ini
+#1717232031
+php -m | grep -i pdo
+#1717232045
+ls /usr/lib/php/modules/
+#1717232101
+sudo php artisan migrate
+#1717232122
+sudo nvim /etc/php/php.ini
+#1717232134
+php -m | grep -i pdo
+#1717232137
+php -m | grep -i oci
+#1717232141
+php -m
+#1717232197
+sudo nvim /etc/php/php.ini
+#1717232286
+s
+#1717232287
+ls
+#1717232291
+php test.php 
+#1717232302
+sudo php test.php
+#1717232312
+nvim test.php 
+#1717232330
+php test.php 
+#1717232414
+locate oci8.so
+#1717232436
+ls /usr/lib/php/modules/
+#1717232459
+chmod 644 /usr/lib/php/modules/oci8.so
+#1717232463
+sudo chmod 644 /usr/lib/php/modules/oci8.so
+#1717232467
+php test.php 
+#1717232476
+ls /usr/lib/php/modules/
+#1717232536
+pecl uninstall oci8
+#1717232541
+sudo pecl uninstall oci8
+#1717232553
+sudo nvim /etc/php/php.ini
+#1717232569
+sudo php artisan migrate
+#1717232589
+paru -S php-pdo-oci
+#1717232629
+sudo nvim /etc/php/php.ini
+#1717232677
+sudo systemctl restart httpd
+#1717232688
+sudo php artisan migrate
+#1717232717
+php test.php 
+#1717232767
+r
+#1717232806
+php artisan migrate
+#1717232841
+php -m | grep -i pdo
+#1717232861
+php artisan migrate --verbose
+#1717232920
+r
+#1717233006
+php artisan migrate
+#1717233022
+php test.php 
+#1717233024
+clear
+#1717233025
+ls
+#1717233104
+r
+#1717233131
+php artisan migrate
+#1717233143
+r
+#1717233161
+php artisan migrate
+#1717233164
+r
+#1717233184
+php artisan migrate
+#1717233190
+..
+#1717233194
+cd helpdesk/
+#1717233196
+php artisan migrate
+#1717233203
+r
+#1717233227
+php artisan migrate
+#1717233230
+..
+#1717233231
+php artisan migrate
+#1717233239
+r
+#1717233265
+..
+#1717233267
+php artisan migrate
+#1717233287
+r
+#1717233299
+php artisan migrate
+#1717233301
+..
+#1717233302
+php artisan migrate
+#1717233388
+r
+#1717233423
+php artisan migrate
+#1717233466
+r
+#1717233508
+php artisan migrate
+#1717233510
+r
+#1717233590
+php artisan migrate
+#1717233605
+composer require yajra/laravel-oci8
+#1717233619
+php artisan migrate
+#1717233646
+r
+#1717233661
+..
+#1717233662
+php artisan migrate
+#1717233707
+php -m
+#1717233734
+sudo nvim /etc/php/php.ini
+#1717233769
+php artisan migrate
+#1717233791
+php -i | grep oci8
+#1717233850
+r
+#1717233882
+php artisan migrate
+#1717233885
+r
+#1717233896
+php artisan migrate
+#1717233902
+r
+#1717233911
+php artisan migrate
+#1717233918
+r
+#1717233943
+..
+#1717233944
+php artisan migrate
+#1717234011
+composer require yajra/laravel-oci8
+#1717234025
+r
+#1717234045
+php artisan migrate
+#1717234209
+vim storage/logs/laravel.log
+#1717234248
+php artisan migrate
+#1717234255
+r
+#1717234264
+php artisan config:clear
+#1717234296
+sudo nvim /etc/php/php.ini
+#1717234304
+php artisan config:clear
+#1717234307
+php artisan migrate
+#1717234320
+php test.php 
+#1717234327
+nvim test.php 
+#1717234340
+r
+#1717234390
+php artisan migrate
+#1717234423
+r
+#1717234534
+php artisan migrate
+#1717234642
+composer remove yajra/laravel-oci8
+#1717234652
+php artisan migrate
+#1717234658
+r
+#1717234670
+..
+#1717234672
+php artisan migrate
+#1717234736
+sudo systemctl restart httpd
+#1717234737
+php artisan migrate
+#1717234745
+r
+#1717234758
+php artisan migrate
+#1717234759
+r
+#1717234767
+..
+#1717234768
+r
+#1717234770
+php artisan migrate
+#1717234771
+r
+#1717234820
+php artisan migrate:rollback
+#1717234839
+r
+#1717234851
+php artisan migrate
+#1717234853
+r
+#1717234888
+composer require yajra/laravel-oci8
+#1717234902
+php artisan vendor:publish --provider="Yajra\Oci8\Oci8ServiceProvider" --tag=config
+#1717234917
+php artisan migrate
+#1717235105
+composer remove yajra/laravel-oci8
+#1717235119
+r
+#1717235134
+php artisan migrate
+#1717235188
+r
+#1717235199
+php artisan migrate
+#1717235261
+r
+#1717235273
+php artisan migrate
+#1717235315
+sudo nvim /etc/php/php.ini
+#1717235437
+php artisan migrate
+#1717235451
+r
+#1717235463
+php artisan migrate
+#1717235468
+r
+#1717235476
+php artisan migrate
+#1717235482
+sudo nvim /etc/php/php.ini
+#1717235587
+sudo systemctl restart httpd
+#1717235592
+php artisan config:clear
+#1717235596
+php artisan migrate
+#1717235683
+composer require yajra/laravel-oci8
+#1717235705
+r
+#1717235783
+php artisan tinker
+#1717235823
+php artisan migrate
+#1717235834
+r
+#1717235874
+php artisan migrate
+#1717235951
+r
+#1717235972
+php artisan migrate
+#1717235977
+r
+#1717235987
+php artisan migrate
+#1717236082
+q
+#1717233249
+php -m | grep oci8
+#1717233251
+php -m | grep pdo
+#1717233256
+php -m | grep PDO
+#1717236094
+sqlcl system as sysdba
+#1717236115
+sqlcl sys as sysdba
+#1717236161
+cdw
+#1717236163
+cd helpdesk/
+#1717236164
+r
+#1717236201
+php artisan migrate
+#1717236221
+sqlcl sys as sysdba
+#1717236247
+php artisan migrate
+#1717236273
+sqlcl sys as sysdba
+#1717236575
+php artisan migrate
+#1717236580
+r
+#1717236595
+php artisan migrate
+#1717236644
+php artisan migrate:refresh
+#1717236654
+r
+#1717236669
+php artisan migrate
+#1717236683
+..
+#1717236686
+rm helpdesk/
+#1717236693
+composer create-project --prefer-dist laravel/laravel helpdesk
+#1717236709
+cd helpdesk/
+#1717236713
+composer require yajra/laravel-oci8
+#1717236727
+r
+#1717236806
+php artisan migrate
+#1717237187
+paru -S sqldeveloper
+#1717237202
+paru -S oracle-sqldeveloper
+#1717237559
+arem
+#1717237898
+paru -S dbvis
+#1717238085
+dbvis
+#1717238624
+jdk
+#1717238626
+java
+#1717238630
+java -version
+#1717238762
+paru -S adoptopenjdk
+#1717238858
+which java
+#1717238882
+export INSTALL4J_JAVA_HOME='/sbin/java'
+#1717238884
+dbvis
+#1717239135
+sudo dbvis
+#1717239176
+sudo pacman -S jdk-openjdk
+#1717239203
+which jdk-17
+#1717239206
+which jdk
+#1717239245
+which java
+#1717239251
+ls -l /sbin/java
+#1717239260
+ls /usr/lib/jvm/default-runtime/bin/
+#1717239281
+echo $INSTALL4J_JAVA_HOME
+#1717239283
+q
+#1717236821
+sqlcl system
+#1717240495
+q
+#1717239285
+echo $INSTALL4J_JAVA_HOME
+#1717239296
+ls /usr/lib/jvm/default-runtime/bin/
+#1717239310
+export $INSTALL4J_JAVA_HOME=/usr/lib/jvm/default-runtime/bin/
+#1717239314
+export $INSTALL4J_JAVA_HOME=/usr/lib/jvm/default-runtime/bin/java
+#1717239339
+export $INSTALL4J_JAVA_HOME='/usr/lib/jvm/default-runtime/bin/java'
+#1717239363
+ls /usr/lib/jvm/default-runtime/bin/
+#1717239379
+export $INSTALL4J_JAVA_HOME=/usr/lib/jvm/default-runtime/bin/
+#1717239386
+export $INSTALL4J_JAVA_HOME='/usr/lib/jvm/default-runtime/bin/'
+#1717239398
+export $INSTALL4J_JAVA_HOME="/usr/lib/jvm/default-runtime/bin/java"
+#1717239446
+export INSTALL4J_JAVA_HOME="/usr/lib/jvm/default-runtime/bin/java"
+#1717239449
+dbvis
+#1717239489
+sudo find / -type d -name "jdk-17"
+#1717239551
+sudo find / -type d -name "*jdk*" -or -name "*java*"
+#1717239570
+sudo find / -type d -name "*jdk*"
+#1717239591
+dbvis
+#1717239609
+ls /usr/lib/jvm
+#1717239617
+ls /usr/lib/jvm/java-22-openjdk/
+#1717239624
+ls /usr/lib/jvm/java-22-openjdk/bin/
+#1717239634
+ls /usr/lib/jvm
+#1717239701
+export INSTALL4J_JAVA_HOME=/usr/lib/jvm/java-22-openjdk
+#1717239704
+dbvis
+#1717239718
+echo $INSTALL4J_JAVA_HOME
+#1717239803
+paru -S jdk17-openjdk
+#1717239952
+ls /usr/lib/jvm
+#1717239957
+export INSTALL4J_JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+#1717239959
+dbvis
+#1717241807
+q
+#1717240606
+lsnrctl status
+#1717241421
+ls
+#1717241430
+nvim test.sql
+#1717242678
+r
+#1717242740
+sqlcl sys as sysdba
+#1717244698
+q

@@ -148,4 +148,7 @@ source .key-bindings.bash
 # Ranger devicons options
 export RANGER_DEVICONS_SEPARATOR='  '
 
+# Java Home
+export JAVA_HOME=/sib/java
+
 fetchy
