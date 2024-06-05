@@ -106704,3 +106704,713 @@ larevel
 laravel
 #1717257037
 q
+#1717257039
+laravel
+#1717257041
+cd dots
+#1717257049
+gca add laravel to the path variable
+#1717257054
+cd
+#1717257055
+cdw
+#1717257065
+laravel new api
+#1717257141
+r
+#1717257173
+laravel new api
+#1717257210
+r
+#1717257217
+laravel new api
+#1717257298
+ins herd
+#1717257340
+composer create-project
+#1717257426
+paru -S laravel-kit
+#1717257503
+arem
+#1717257543
+sudo rm /var/cache/pacman/pkg/*
+#1717257544
+ls
+#1717257545
+q
+#1717257556
+arem
+#1717257561
+q
+#1717257601
+cdw
+#1717257606
+composer create-project --prefer-dist laravel/laravel my-api-app --api
+#1717257660
+laravel new my-api-app
+#1717257692
+r
+#1717257718
+php artisan serve
+#1717257747
+php artisan migrate
+#1717257752
+php artisan serve
+#1717257801
+composer clear-cache
+#1717257803
+r
+#1717257810
+composer clear-cache
+#1717257820
+composer self-update
+#1717257831
+laravel new api
+#1717257879
+php -m
+#1717258040
+git clone https://github.com/hijenhek/laravel-backend-boilerplate 
+#1717258046
+cd laravel-backend-boilerplate/
+#1717258046
+r
+#1717258067
+composer install
+#1717258082
+./vendor/bin/sail/up
+#1717258113
+r
+#1717258126
+./vendor/bin/sail up
+#1717258145
+sudo systemctl start docker
+#1717258149
+./vendor/bin/sail/up
+#1717258152
+./vendor/bin/sail up
+#1717258161
+sudo systemctl status docker
+#1717258164
+./vendor/bin/sail up
+#1717258174
+composer install
+#1717258198
+r
+#1717258209
+cp .env.example .env
+#1717258214
+php artisan key:generate
+#1717258219
+php artisan migrate --seed
+#1717258227
+php artisan migrate
+#1717258230
+r
+#1717258246
+php artisan migrate --seed
+#1717258261
+php artisan serve
+#1717258271
+php artisan test
+#1717258286
+r
+#1717258324
+php artisan serve
+#1717258441
+r
+#1717258450
+composer create-project laravel/laravel api --prefer-dist
+#1717258463
+cd api
+#1717258468
+php artisan make:migration create_posts_table
+#1717258481
+r
+#1717258500
+php artisan migrate
+#1717258510
+r
+#1717258535
+php artisan migrate
+#1717258539
+php artisan model Post -c
+#1717258578
+php artisan make:model Post -c
+#1717258602
+r
+#1717258673
+php artisan serve
+#1717258706
+r
+#1717258709
+q
+#1717258685
+r
+#1717258712
+ls
+#1717258712
+q
+#1717259130
+curl -X GET http://localhost:8000/api/posts
+#1717259137
+curl -X POST http://localhost:8000/api/posts -H "Content-Type: application/json" -d '{"title":"My First Post", "body":"This is the body of my first post."}'
+#1717259141
+curl -X GET http://localhost:8000/api/posts
+#1717259165
+php artisan make:factory PostFactory --model=Post
+#1717259168
+q
+#1717259254
+curl -X GET http://localhost:8000/api/posts
+#1717259287
+q
+#1717259491
+curl -X GET http://localhost:8000/api/queries
+#1717259507
+q
+#1717259923
+curl -X GET http://localhost:8000/api/queries
+#1717259926
+q
+#1717259929
+curl -X GET http://localhost:8000/api/queries
+#1717259930
+q
+#1717258915
+r
+#1717258920
+composer create-project laravel/laravel api --prefer-dist
+#1717258959
+cd api
+#1717258960
+ls
+#1717258962
+composer require laravel/breeze --dev
+#1717258971
+php artisan breeze:install
+#1717259005
+php artisan migrate
+#1717259008
+npm install
+#1717259013
+yarn install
+#1717259018
+yarn dev
+#1717259023
+r
+#1717259066
+php artisan make:model Post -m
+#1717259071
+r
+#1717259087
+php artisan migrate
+#1717259091
+php artisan make:controller PostController --resource
+#1717259097
+r
+#1717259125
+php artisan serve
+#1717259171
+php artisan make:factory PostFactory --model=Post
+#1717259176
+r
+#1717259187
+php artisan make:seeder PostSeeder
+#1717259191
+r
+#1717259198
+..
+#1717259220
+r
+#1717259235
+php artisan db:seed
+#1717259239
+php artisan migrate:fresh --seed
+#1717259248
+php artisan serve
+#1717259289
+r
+#1717259296
+composer require laravel/breeze --dev
+#1717259311
+gca add breeze
+#1717259330
+php artisan breeze:install
+#1717259352
+r
+#1717259361
+..
+#1717259363
+php artisan breeze:install
+#1717259379
+r
+#1717259488
+php artisan serve
+#1717259545
+php artisan make:model Query -m
+#1717259546
+r
+#1717259606
+php artisan migrate
+#1717259610
+php artisan migrate:refresh
+#1717259620
+php artisan migrate
+#1717259623
+php artisan serve
+#1717259724
+php artisan make:model Query -m
+#1717259731
+r
+#1717259752
+php artisan migrate
+#1717259760
+php artisan migrate:refresh
+#1717259784
+php artisan migrate:reset
+#1717259787
+php artisan migrate:refresh
+#1717259789
+php artisan migrate:reset
+#1717259793
+php artisan migrate:
+#1717259796
+php artisan migrate:fresh
+#1717259800
+php artisan migrate
+#1717259817
+php artisan make:factory QueryFactory --model=Query
+#1717259821
+r
+#1717259833
+php artisan make:seeder QuerySeeder
+#1717259838
+r
+#1717259879
+php artisan db:seed
+#1717259885
+php artisan make:controller QueryController --resource
+#1717259889
+r
+#1717259918
+php artisan serve
+#1717259964
+r
+#1717260043
+composer create-project laravel/laravel helpdesk --prefer-dist
+#1717260061
+r
+#1717260085
+composer require laravel/breeze --dev
+#1717260102
+composer require yajra/laravel-oci8
+#1717260114
+php artisan breeze:install
+#1717260134
+php artisan migrate
+#1717260138
+r
+#1717260145
+gca add breeze
+#1717260148
+r
+#1717260185
+gca add breeze
+#1717260213
+clear
+#1717260214
+q
+#1717260557
+curl -X GET http://localhost:8000/api/queries
+#1717260590
+q
+#1717261981
+r
+#1717262086
+q
+#1717253494
+sqlcl ASL_HD
+#1717262100
+q
+#1717262102
+qq
+#1717262103
+q
+#1717260215
+cdw
+#1717260217
+cd helpdesk
+#1717260218
+s
+#1717260219
+ls
+#1717260235
+php artisan make:model Query -m
+#1717260239
+r
+#1717260253
+php artisan migrate
+#1717260261
+php artisan make:factory QueryFactory --model=Query
+#1717260270
+r
+#1717260284
+php artisan make:seeder QuerySeeder
+#1717260288
+r
+#1717260358
+php artisan db:seed
+#1717260363
+php artisan make:controller QueryController --resource
+#1717260367
+r
+#1717260464
+php artisan migrate
+#1717260467
+php artisan migrate:reset
+#1717260481
+php artisan migrate:
+#1717260488
+r
+#1717260505
+php artisan migrate:
+#1717260519
+r
+#1717260536
+php artisan migrate:
+#1717260539
+php artisan migrate:reset
+#1717260543
+php artisan migrate:fresh
+#1717260551
+php artisan serve
+#1717260606
+r
+#1717260630
+composer create-project laravel/laravel helpdesk --prefer-dist
+#1717260644
+cd helpdesk
+#1717260644
+ls
+#1717260647
+r
+#1717260680
+composer require yajra/laravel-oci8
+#1717260692
+composer require laravel/breeze --dev
+#1717260720
+r
+#1717260728
+php artisan breeze:install
+#1717260741
+r
+#1717260756
+php artisan migrate
+#1717260783
+r
+#1717260861
+php artisan migrate
+#1717260868
+php artisan migrate:reset
+#1717260873
+php artisan migrate:fresh
+#1717260891
+gca add oci8
+#1717261061
+composer require directorytree/ldaprecord-laravel
+#1717261183
+sudo nvim /etc/php/php.ini
+#1717261195
+composer require directorytree/ldaprecord-laravel
+#1717261255
+ins openldap
+#1717261260
+composer require directorytree/ldaprecord-laravel
+#1717261309
+sudo systemctl restart httpd
+#1717261312
+composer require directorytree/ldaprecord-laravel
+#1717261322
+php -m
+#1717261333
+php -m | grep ldap
+#1717261348
+php --ini
+#1717261357
+composer check-platform-reqs
+#1717261492
+composer require directorytree/ldaprecord-laravel
+#1717261510
+sudo nvim /etc/php/php.ini
+#1717261560
+composer require directorytree/ldaprecord-laravel
+#1717261649
+ins nss-pam-ldapd
+#1717261652
+composer require directorytree/ldaprecord-laravel
+#1717261703
+sudo composer require directorytree/ldaprecord-laravel
+#1717261726
+sudo nvim /etc/php/conf.d/oci8.ini
+#1717261734
+sudo nvim /etc/php/conf.d/pdo_oci.ini
+#1717261737
+r
+#1717261951
+ls
+#1717261952
+gst
+#1717261960
+php artisan serve
+#1717262088
+gst
+#1717262107
+arem
+#1717262136
+ls
+#1717263148
+c
+#1717263149
+q
+#1717270067
+sqlcl ASL_HD
+#1717270087
+sudo systemctl start oracle-xe
+#1717270112
+sudo systemctl enable oracle-xe
+#1717270116
+clear
+#1717270118
+sqlcl ASL_HD
+#1717400659
+ins picocom
+#1717400666
+man picocom
+#1717400842
+picocom
+#1717400847
+lsblk
+#1717400851
+lsusb
+#1717400859
+lspci
+#1717400932
+picocom --help
+#1717401154
+mqn picocom
+#1717401159
+man picocom
+#1717401202
+clear
+#1717401204
+ls
+#1717401336
+man picocom
+#1717401577
+lsusb
+#1717401589
+lsblk
+#1717401596
+lspci
+#1717401636
+sudo lsof -i
+#1717401651
+dmesg | grep tty
+#1717401655
+sudo dmesg | grep tty
+#1717401738
+grep -i 'tty' /var/log/dmesg
+#1717401742
+sudo grep -i 'tty' /var/log/dmesg
+#1717401767
+dmesg
+#1717401769
+sudo dmesg
+#1717401798
+sudo dmesg | grep tty
+#1717401831
+ins minicom
+#1717401837
+minicom
+#1717401844
+minicom -s
+#1717401902
+minicom -c on
+#1717401910
+ls /dev
+#1717401932
+ls /dev/usb
+#1717401933
+r
+#1717401935
+lsblk
+#1717401998
+minicom -s
+#1717402032
+minicom -c on
+#1717402074
+sudo minicom
+#1717402080
+sudo minicom -c on
+#1717402130
+lsusb
+#1717402141
+lsblk
+#1717402144
+lspci
+#1717402238
+ins screen
+#1717402244
+dmesg | grep tty
+#1717402247
+sudo dmesg | grep tty
+#1717402282
+ls /dev/ttyUSB* /dev/ttyACM*
+#1717402293
+sudo ls /dev/ttyUSB* /dev/ttyACM*
+#1717402304
+dmesg | tail
+#1717402307
+sudo dmesg | tail
+#1717402347
+lsusb
+#1717402405
+ls /dev/ttyUSB*
+#1717402419
+screen /dev/ttyUSB0 9600
+#1717402428
+sudo minicom -s
+#1717402539
+sudo minicom
+#1717402557
+ls /dev/ttyUSB*
+#1717402578
+sudo usermod -aG dialout $USER
+#1717402590
+lsof /dev/ttyUSB0
+#1717402609
+fuser /dev/ttyUSB0
+#1717402616
+sudo minicom
+#1717402670
+sudo minicom -D /dev/ttyUSB0
+#1717403391
+ifconfig
+#1717403398
+q
+#1717403402
+lsusb
+#1717403714
+q
+#1717403777
+cdw
+#1717403779
+cd helpdesk
+#1717403780
+ls
+#1717487455
+q
+#1717491772
+cdw
+#1717491775
+cd laravel-student/
+#1717491775
+ls
+#1717491776
+r
+#1717491780
+unzip gecaslakm.zip 
+#1717491784
+r
+#1717491808
+echo $HOME
+#1717491822
+sudo chown n3m0:n3m0 *
+#1717491823
+ls
+#1717491830
+unzip gecaslakm.zip 
+#1717491831
+r
+#1717487457
+cdw
+#1717487459
+cd helpdesk
+#1717487460
+ls
+#1717487485
+sqlcl ASL_HD
+#1717487508
+cdw
+#1717487511
+cd helpdesk
+#1717487511
+ls
+#1717487515
+php artisan serve
+                                                                                                                                                               #1717570748
+cdw
+#1717570751
+cd helpdesk/
+#1717570753
+clear
+#1717570753
+ls
+#1717570757
+r
+#1717570803
+gst
+#1717570811
+gst -u
+#1717570822
+gca add sql import file
+#1717570825
+gst
+#1717570826
+gst -u
+#1717570936
+sqlcl ASL_HD
+#1717575305
+q
+#1717570945
+cdw
+#1717570948
+cd helpdesk/
+#1717570948
+ls
+#1717570949
+r
+#1717571030
+php artisan migrate:reset
+#1717571071
+r
+#1717571110
+clone https://github.com/nemo256/helpdesk
+#1717571114
+cd helpdesk/
+#1717571114
+ls
+#1717571116
+r
+#1717571131
+php artisan install
+#1717571148
+composer install
+#1717571156
+r
+#1717571215
+sqlcl ASL_HD@localhost:1521@XE @crebase_hd.sql
+#1717575309
+q
+#1717575482
+sqlcl ASL_HD
+#1717576450
+r
+#1717576596
+composer install
+#1717576664
+q
+#1717580292
+sqlcl ASL_HD
+#1717582699
+r
