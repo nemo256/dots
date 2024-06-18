@@ -107414,3 +107414,1148 @@ q
 sqlcl ASL_HD
 #1717582699
 r
+#1717584738
+sqlcl ASL_HD
+#1717587233
+q
+#1717593439
+lsblk
+#1717593464
+mkfs.fat -F32 /dev/sdc
+#1717593467
+sudo mkfs.fat -F32 /dev/sdc
+#1717593477
+lsblk
+#1717593841
+q
+#1717571203
+cdw
+#1717571205
+cd helpdesk/
+#1717571205
+ls
+#1717571543
+r
+#1717571716
+composer create-project laravel/laravel helpdesk --prefer-dist
+#1717571743
+r
+#1717575003
+composer install
+#1717575009
+r
+#1717575030
+composer install
+#1717575036
+r
+#1717575062
+composer install
+#1717575075
+php artisan serve
+#1717575096
+composer require yajra/laravel-oci8
+#1717575189
+php artisan serve
+#1717575220
+r
+#1717575288
+php artisan serve
+#1717575313
+r
+#1717575336
+php artisan serve
+#1717575340
+r
+#1717575505
+php artisan make:model Query
+#1717575520
+php artisan make:controller QueryController
+#1717575521
+r
+#1717576141
+php artisan serve
+#1717576155
+r
+#1717576165
+php artisan serve
+#1717576172
+r
+#1717576424
+php artisan serve
+#1717576665
+r
+#1717576723
+composer install
+#1717576743
+r
+#1717576762
+composer install
+#1717576770
+r
+#1717576773
+php artisan serve
+#1717576793
+r
+#1717576893
+php artisan serve
+#1717577010
+r
+#1717577050
+php artisan serve
+#1717577058
+r
+#1717577127
+php artisan serve
+#1717577129
+r
+#1717577189
+php artisan serve
+#1717577229
+r
+#1717577266
+gst
+#1717577282
+gca clean folder structure and start from beginning!
+#1717577289
+r
+#1717577932
+php artisan make:model NatureQuery
+#1717577936
+r
+#1717577957
+php artisan make:controller NatureQueryController --api
+#1717577960
+r
+#1717578482
+php artisan serve
+#1717579979
+php artisan cache:clear
+#1717579981
+r
+#1717580398
+php artisan make:model Models/Item
+#1717580399
+r
+#1717580487
+php artisan make:controller api/v1/ItemController --api
+#1717580488
+r
+#1717580830
+php artisan make:model ItemUtilise
+#1717580836
+r
+#1717580858
+php artisan make:controller Api/V1/ItemUtiliseController --api
+#1717580859
+r
+#1717581022
+php artisan make:model PecAgent
+#1717581027
+r
+#1717581040
+php artisan make:controller Api/V1/PecAgentController --api
+#1717581047
+r
+#1717581152
+gca add more models and controllers from oracle tables!
+#1717581159
+r
+#1717581351
+php artisan make:model Models\PecStrExt
+#1717581362
+php artisan make:controller Api/V1/PecStrExtController --api
+#1717581367
+r
+#1717581395
+php artisan make:model PecStrExt
+#1717581399
+..
+#1717581401
+php artisan make:model PecStrExt
+#1717581402
+r
+#1717581582
+php artisan make:model Problem
+#1717581595
+php artisan make:controller Api/V1/ProblemController --api
+#1717581598
+r
+#1717581740
+php artisan make:model QueryClient
+#1717581744
+php artisan make:controller Api/V1/QueryClientController --api
+#1717581749
+r
+#1717581883
+php artisan make:model Structure
+#1717581888
+php artisan make:controller Api/V1/StructureController --api
+#1717581897
+r
+#1717581977
+gca import all sql tables to models and controllers in laravel (api only)
+#1717581983
+gca import all sql tables to models and controllers in laravel - api only
+#1717582153
+r
+#1717582479
+gst
+#1717582491
+gca add agent - structure relationship
+#1717582497
+r
+#1717582594
+...
+#1717582595
+..
+#1717582614
+gca add itemsUtilises - query relationship
+#1717582624
+r
+#1717582686
+gca add itemsUtilises - item relationship
+#1717582692
+r
+#1717582767
+gca add pecAgent - query relationship
+#1717582769
+r
+#1717582815
+gca add pecAgent - agent relationship
+#1717582929
+r
+#1717582970
+gca add pecStrExt - query relationship
+#1717582978
+r
+#1717583026
+gca add pecStrExt - structure relationship
+#1717583072
+r
+#1717583111
+gca add queryClient relationships
+#1717583148
+r
+#1717583174
+gst
+#1717583190
+gca add query relationships
+#1717583192
+gst
+#1717583223
+clear
+#1717583223
+ls
+#1717583285
+r
+#1717583512
+curl -X POST -H "Content-Type: application/json" -d '{"DT_QRY":"2024-06-05", "NO_QRY":1, "NO_NAT_QRY":1, "ID_PB":1, "NO_AGT":1, "PB_SIGNALE":"Example", "PRIORITE_QRY":1, "STAT_QRY":"Pending", "REGLEE":1}' http://your-api-url/v1/queries
+#1717583544
+curl -X POST -H "Content-Type: application/json" -d '{"DT_QRY":"2024-06-05", "NO_QRY":1, "NO_NAT_QRY":1, "ID_PB":1, "NO_AGT":1, "PB_SIGNALE":"Example", "PRIORITE_QRY":1, "STAT_QRY":"Pending", "REGLEE":1}' http://localhost:8000/api/v1/queries
+#1717583585
+curl http://localhost:8000/v1/queries
+#1717583591
+curl http://localhost:8000/api/v1/queries
+#1717583696
+r
+#1717583846
+gst
+#1717583852
+gca update query controller
+#1717583856
+curl http://localhost:8000/api/v1/queries
+#1717583862
+curl -X POST -H "Content-Type: application/json" -d '{"DT_QRY":"2024-06-05", "NO_QRY":1, "NO_NAT_QRY":1, "ID_PB":1, "NO_AGT":1, "PB_SIGNALE":"Example", "PRIORITE_QRY":1, "STAT_QRY":"Pending", "REGLEE":1}' http://localhost:8000/api/v1/queries
+#1717583872
+curl http://localhost:8000/api/v1/queries
+#1717583920
+curl -X POST -H "Content-Type: application/json" -d '{"DT_QRY":"2024-06-05", "NO_QRY":1, "NO_NAT_QRY":1, "ID_PB":1, "NO_AGT":1, "PB_SIGNALE":"Example", "PRIORITE_QRY":1, "STAT_QRY":"Pending", "REGLEE":1}' http://localhost:8000/api/v1/queries
+#1717583936
+curl http://localhost:8000/api/v1/queries
+#1717583971
+r
+#1717584106
+gca update queryController
+#1717584131
+curl -X POST -H "Content-Type: application/json" -d '{"DT_QRY":"2024-06-05", "NO_QRY":1, "NO_NAT_QRY":1, "ID_PB":1, "NO_AGT":1, "PB_SIGNALE":"Example", "PRIORITE_QRY":1, "STAT_QRY":"Pending", "REGLEE":1}' http://localhost:8000/api/v1/queries
+#1717584135
+curl http://localhost:8000/api/v1/queries
+#1717584223
+r
+#1717584308
+curl -X POST -H "Content-Type: application/json" -d '{"DT_QRY":"2024-06-05", "NO_QRY":1, "NO_NAT_QRY":1, "ID_PB":1, "NO_AGT":1, "PB_SIGNALE":"Example", "PRIORITE_QRY":1, "STAT_QRY":"Pending", "REGLEE":0}' http://localhost:8000/api/v1/queries
+#1717584313
+curl http://localhost:8000/api/v1/queries
+#1717584377
+ins hhtpie
+#1717584379
+httpie
+#1717584382
+ins httpie
+#1717584411
+http POST http://localhost:8000/api/v1/queries DT_QRY="2024-06-05" NO_QRY:=1 NO_NAT_QRY:=1 ID_PB:=1 NO_AGT:=1 PB_SIGNALE="Example" PRIORITE_QRY:=1 STAT_QRY="Pending" REGLEE:=1
+#1717584603
+http POST http://localhost:8000/api/v1/agents NO_AGT:=1 NO_STR:=1 NOM_AGT="John Doe" PREN_AGT="Agent" CONTACTS_AGT="example@example.com"
+#1717584669
+[200~http POST http://localhost:8000/api/v1/structures NO_STR:=1 ID_STR="example_id" NOM_STR="Example Structure" CONTACTS_STR="example@example.com"
+#1717584675
+http POST http://localhost:8000/api/v1/structures NO_STR:=1 ID_STR="example_id" NOM_STR="Example Structure" CONTACTS_STR="example@example.com"
+#1717584700
+http localhost:8000/api/v1/structures
+#1717584728
+http POST http://localhost:8000/api/v1/agents NO_AGT:=1 NO_STR:=1 NOM_AGT="John Doe" PREN_AGT="Agent" CONTACTS_AGT="example@example.com"
+#1717584806
+http DELETE http://localhost:8000/api/v1/agents/1
+#1717584811
+http DELETE http://localhost:8000/api/v1/structures/1
+#1717586154
+http POST http://localhost:8000/api/v1/agents NO_AGT:=1 NO_STR:=1 NOM_AGT="John Doe" PREN_AGT="Agent" CONTACTS_AGT="example@example.com"
+#1717586694
+http POST http://localhost:8000/api/v1/structures NO_STR:=1 ID_STR="example_id" NOM_STR="Example Structure" CONTACTS_STR="example@example.com"
+#1717586699
+http POST http://localhost:8000/api/v1/agents NO_AGT:=1 NO_STR:=1 NOM_AGT="John Doe" PREN_AGT="Agent" CONTACTS_AGT="example@example.com"
+#1717587162
+r
+#1717593069
+..
+#1717593075
+c
+#1717593078
+ls
+#1717593848
+q
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             #1717665456
+cdw
+#1717665461
+new asl_hd
+#1717665465
+r
+#1717665544
+gca update folder structure
+#1717665562
+yarn create @vitejs/vite .
+#1717665590
+yarn create vite . --template react
+#1717665600
+r
+#1717665648
+gst
+#1717665656
+yarn
+#1717665743
+r
+#1717665783
+yarn
+#1717665812
+yarn install
+#1717665818
+r
+#1717665849
+yarn create vite . --template react
+#1717665856
+r
+#1717665873
+gca add vite project boilerplate - react
+#1717665888
+yarn 
+#1717665972
+r
+#1717665988
+yarn create vite . --template react
+#1717665991
+r
+#1717666029
+gst
+#1717666036
+gca add vite project boilerplate - react
+#1717666308
+r
+#1717666387
+bp
+#1717666388
+r
+#1717666392
+cdb
+#1717666392
+ls
+#1717666394
+r
+#1717666401
+echo apple 
+#1717666407
+apple 
+#1717666409
+r
+#1717666413
+arch
+#1717666417
+r
+#1717666418
+ls
+#1717666420
+clock
+#1717666423
+fetch
+#1717666426
+fetchweather 
+#1717666436
+ls
+#1717666440
+weatherbar 
+#1717666443
+volume
+#1717666446
+linux
+#1717666447
+r
+#1717666452
+ls
+#1717666455
+screamingwolf 
+#1717666460
+screamingwolf | lolcat
+#1717666464
+ls
+#1717666470
+piratesflag 
+#1717666477
+piratesflag | lolcat
+#1717666484
+clear
+#1717666484
+ls
+#1717666487
+passmenu
+#1717666494
+myfetch 
+#1717666495
+ls
+#1717666499
+wolf
+#1717666503
+wolf | lolcat
+#1717666504
+q
+#1717666506
+cdb
+#1717666506
+ls
+#1717666516
+clear
+#1717666516
+ls
+#1717666517
+q
+#1717666519
+cdh
+#1717666520
+cd
+#1717666521
+ls
+#1717666522
+cda
+#1717666523
+ls
+#1717666524
+cdw
+#1717666525
+ls
+#1717666527
+cd webdev/
+#1717666527
+ls
+#1717666529
+r
+#1717666549
+ls
+#1717666555
+matrix_game 3
+#1717666567
+clear
+#1717666568
+ls
+#1717667027
+q
+                                                                                                                                                                                                                                                                                                                                                                                                                                               #1717669406
+sudo systemctl stop oracle-xe
+#1717678004
+cdw
+#1717678006
+ls
+#1717678018
+cd
+#1717678020
+ls
+#1717678022
+git clone https://github.com/nemo256/DashRecours
+#1717678043
+r
+#1717678047
+cdw
+#1717678049
+cd DashRecours/
+#1717678050
+ls
+#1717678055
+nvim script.sh 
+#1717678069
+./script.sh -h
+#1717678105
+nvim script.sh 
+#1717678174
+ls
+#1717678179
+cd Populate/
+#1717678179
+ls'
+#1717678181
+ls
+#1717678185
+nvim populate.sql 
+#1717678216
+nvim Users.txt 
+#1717678510
+cd
+#1717678511
+q
+#1717676062
+cdw
+#1717676064
+cd asl_hd/
+#1717676065
+ls
+#1717676069
+gst
+#1717676092
+alias gst
+#1717676113
+man git status
+#1717676197
+gst
+#1717676210
+git checkout
+#1717676218
+gst -u
+#1717676229
+brc
+#1717676241
+gs
+#1717676293
+gst
+#1717676452
+alias gca
+#1717676458
+cdb
+#1717676459
+ls
+#1717676463
+cat gct
+#1717676466
+cat gca
+#1717676547
+cdw
+#1717676549
+cd asl_hd/
+#1717676552
+gst
+#1717676575
+gca remove hello - react
+#1717678520
+pacman -Qs neovim
+#1717678545
+ins neovim
+#1717669595
+cdw
+#1717669597
+cd hotel/
+#1717669597
+ls
+#1717669601
+nvim
+#1717669617
+ls
+#1717675550
+bat
+#1717675553
+cat package.json 
+#1717675562
+yarn dev
+#1717675568
+ins nex
+#1717675570
+ins next
+#1717675577
+yarn
+#1717675613
+..
+#1717675614
+;s
+#1717675615
+ls
+#1717675615
+r
+#1717675621
+ls
+#1717675633
+yarn 
+#1717675640
+yarn dev
+#1717747193
+sudo systemctl disable oracle-xe
+#1717747199
+sudo systemctl stop oracle-xe
+#1717747735
+sudo systemctl stop mariadb
+#1717747740
+sudo systemctl disable mariadb
+#1717748733
+cdw
+#1717748735
+cd asl_hd/
+#1717748735
+ls
+#1717749800
+r
+#1717749888
+gst
+#1717749894
+gst -u
+#1717749902
+gca add icons for each platform
+#1717750272
+mkdir src/components/Navbar src/components/Sidebar src/components/QueryTable
+#1717750306
+touch src/components/Navbar/Navbar.jsx src/components/Navbar/Navbar.module.css
+#1717750331
+touch src/components/Sidebar/Sidebar.jsx src/components/Sidebar/Sidebar.module.css
+#1717750351
+touch src/components/QueryTable/QueryTable.jsx src/components/QueryTable/QueryTable.module.css
+#1717750352
+ls
+#1717750354
+tree
+#1717750358
+ins alder
+#1717750363
+paru -S alder
+#1717750383
+tree
+#1717750399
+r
+#1717750602
+touch src/App.module.css
+#1717750669
+r
+#1717750942
+touch src/index.module.css
+#1717751237
+r
+#1717752864
+gst
+#1717752866
+gst -u
+#1717752871
+gca add css modules
+#1717753408
+yarn add react-icons
+#1717753450
+r
+#1717754496
+gca update layout - navbar
+#1717761138
+r
+#1717768231
+gst
+#1717768244
+gca add logo and searchBox to navbar
+#1717770735
+gca update navbar styling
+#1717777233
+gca fix typo
+#1717777267
+gca fix position
+#1717777405
+r
+#1717778789
+gst
+#1717778798
+gca fix navbar and update layout!
+#1717779210
+gca some micro updates
+#1717779461
+gst
+#1717779466
+gca some more micro updates
+#1717783329
+r
+#1717786956
+gca add sidebar
+#1717788165
+gca update sidebar
+#1717788313
+gca fix search animation
+#1717788837
+gca update main content
+#1717748402
+cdw
+#1717748404
+cd asl_hd/
+#1717748409
+yarn dev
+#1717788994
+cdw
+#1717788996
+cd as
+#1717789000
+cd asl_hd/
+#1717789002
+gst
+#1717789005
+gst -u
+#1717789007
+q
+#1717749573
+cdw
+#1717749574
+cd
+#1717749577
+cd testt/
+#1717749577
+ls
+#1717749580
+unzip favicon_io.zip 
+#1717749581
+r
+#1717762361
+unzip sonatrach-logo-vector.zip 
+#1717762362
+r
+#1717789283
+cdw
+#1717789286
+cd asl_hd/
+#1717789288
+yarn dev
+#1717793472
+cdw
+#1717793473
+cd asl_hd/
+#1717793474
+ls
+#1717793475
+r
+#1717802691
+gst
+#1717802692
+gaa
+#1717802710
+gc 'update navbar layout'
+#1717802791
+gaa
+#1717802799
+gc 'update search width
+;
+#1717802803
+gc 'update search width'
+#1717805966
+gst
+#1717805968
+gaa
+#1717805988
+gc update sidebar element positions and animations
+#1717805993
+gc 'update sidebar element positions and animations'
+#1717806017
+r
+#1717817561
+cdw
+#1717817564
+cd asl_hd/
+#1717817566
+yarn dev
+#1718557238
+cdw
+#1718557239
+cd asl_hd/
+#1718557240
+gst
+#1718557245
+gca fix sidebar animation
+#1718557256
+q
+#1718556534
+cdw
+#1718556537
+cd sidebar-template/
+#1718556538
+ls
+#1718556539
+nvim
+#1718556541
+r
+#1718558023
+yarn add react-router-dom
+#1718558034
+r
+#1717817693
+cdw
+#1717817694
+cd asl_hd/
+#1717817694
+ls
+#1717817696
+yarn dev
+#1718563359
+..
+#1718563361
+cd asl_hd/
+#1718563362
+gst
+#1718563414
+yarn dev
+#1718563426
+gst
+#1718563430
+gca update main
+#1718563570
+gst
+#1718560281
+cdw
+#1718560282
+cd asl_hd/
+#1718560283
+gst
+#1718560287
+gca add routing
+#1718560526
+gca add logo link to home
+#1718561202
+r
+#1718555611
+cdw
+#1718555613
+cd asl_hd/
+#1718555614
+gst
+#1718555626
+gca update sidebar animation
+#1718556239
+..
+#1718556258
+clone https://github.com/miladsiddiquey/deshboard-sidebar sidebar-template
+#1718556261
+cd sidebar-template/
+#1718556261
+ls
+#1718556266
+r
+#1718556276
+yarn
+#1718556359
+ls
+#1718556361
+yarn dev
+#1718556364
+r
+#1718556374
+yarn start
+#1718565442
+cdw
+#1718565444
+cd asl_hd/
+#1718565444
+r
+#1718565447
+yarn dev
+#1718565450
+cdw
+#1718565452
+cd asl_hd/
+#1718565454
+ls
+#1718565456
+gst
+#1718565504
+..
+#1718565505
+cd sidebar-template/
+#1718565506
+ls
+#1718565507
+r
+#1718565516
+yarn eject
+#1718565537
+yarn start
+#1718565707
+..
+#1718565712
+cd asl_hd/
+#1718565712
+ls
+#1718565713
+gst
+#1718565717
+gca update vite port
+#1718567528
+gst
+#1718567537
+gca fix sidebar routing
+#1718569283
+yarn add typeface-inter
+#1718569603
+yarn add typeface-roboto
+#1718569648
+gca update font
+#1718569652
+yarn remove typeface-inter
+#1718569663
+gca remove unnecessary font
+#1718572302
+r
+#1718573398
+gst
+#1718573406
+gaa src/App.jsx 
+#1718573420
+gc 'update font'
+#1718573422
+gst
+#1718573438
+ga src/components/Sidebar/SidebarData.jsx 
+#1718573457
+gaa src/components/Sidebar/SidebarData.jsx 
+#1718573470
+gc 'add logout'
+#1718573491
+gca fix active listItem
+#1718621707
+cdw
+#1718621708
+cd asl_hd/
+#1718621708
+ls
+#1718621869
+yarn add @tanstack/react-table
+#1718622061
+r
+#1718622626
+..
+#1718622633
+gst
+#1718622643
+gst -u
+#1718622676
+touch App.module.css
+#1718622688
+r
+#1718623009
+gst
+#1718623023
+gst -u
+#1718623030
+gaa src/MOVIE_DATA.json 
+#1718623038
+gc 'add dummy data'
+#1718623044
+gaa src/components/BasicTable.jsx 
+#1718623054
+gc 'add tanstack table template'
+#1718623071
+gca add tanstack table impl
+#1718621701
+cdw
+#1718621703
+cd asl_hd/
+#1718621705
+yarn dev
+#1718625692
+cdw
+#1718625693
+cd asl_hd/
+#1718625693
+ls
+#1718625687
+cdw
+#1718625688
+cd asl_hd/
+#1718625689
+gst
+#1718625690
+yarn dev
+#1718707633
+node --trace-deprecation
+#1718707637
+ins node
+#1718707640
+ins nodejs
+#1718707667
+q
+#1718707115
+cdw
+#1718707116
+cd asl_hd/
+#1718707118
+gst
+#1718707123
+gs
+#1718707133
+gd
+#1718707145
+r
+#1718707443
+yarn create vite
+#1718707511
+cd asl_hd2/
+#1718707512
+yarn
+#1718707521
+ls
+#1718707523
+la
+#1718707525
+r
+#1718707588
+ins yarn
+#1718707591
+upd
+#1718707601
+ins yarn
+#1718707603
+yarn
+#1718707673
+ins yarn
+#1718707993
+q
+#1718707060
+cd
+#1718707061
+cdw
+#1718707063
+cd asl_hd/
+#1718707064
+ls
+#1718707068
+yarn dev
+#1718707996
+q
+#1718707998
+yarn
+#1718708002
+nodejs
+#1718708062
+pacman -F libicui18n.so
+#1718708076
+pacman -Qo /usr/lib/libicui18n.so.68
+#1718708079
+pacman -Qo /usr/lib/libicui18n
+#1718708102
+pacman -Qo /usr/lib/libicui18n.so
+#1718708152
+q
+#1718707684
+yarn
+#1718707712
+npm
+#1718707731
+ins libicu-dev
+#1718707746
+ins icu
+#1718707759
+node --version
+#1718707765
+rem nodejs
+#1718707859
+sudo cd /var/cache/pacman/pkg/
+#1718707868
+cd /var/cache/pacman/pkg/
+#1718707869
+ls
+#1718707874
+ls | grep node
+#1718707895
+sudo pacman -S --overwrite nodejs-22.3.0-1-x86_64.pkg.tar.zst
+#1718707939
+sudo pacman -U nodejs-22.3.0-1-x86_64.pkg.tar.zst
+#1718707944
+ls
+#1718707950
+yarn
+#1718707953
+ls
+#1718707956
+ls | grep node
+#1718707973
+upd
+#1718708546
+sudo pacman -S icu
+#1718708563
+upd
+#1718710110
+cdw
+#1718710112
+cd asl_hd2
+#1718710113
+s
+#1718710114
+ls
+#1718710115
+r
+#1718710029
+cdw
+#1718710032
+yarn
+#1718710036
+r
+#1718710044
+cd asl_hd2/
+#1718710045
+yarn 
+#1718710053
+yarn dev
+#1718710057
+r
+#1718710093
+yarn dev
+#1718710345
+q
+#1718710346
+cdw
+#1718710348
+cd asl_hd2
+#1718710349
+ls
+#1718710355
+yarn dev
+#1718710372
+q
+#1718710362
+cdw
+#1718710364
+cd asl_hd2
+#1718710364
+s
+#1718710365
+ls
+#1718710366
+r
+#1718710368
+cd
+#1718710378
+cd .config/ranger/
+#1718710378
+ls
+#1718710379
+r
+#1718710387
+nvim
+#1718710400
+nvim | ls
+#1718710407
+ls
+#1718710411
+q
+#1718710510
+r
+#1718710516
+q
