@@ -108559,3 +108559,19 @@ q
 r
 #1718710516
 q
+#1718710418
+cd .config/ranger
+#1718710418
+ls
+#1718710419
+r
+#1718710522
+cd .dots
+#1718710523
+cd dots
+#1718710524
+gst
+#1718710530
+gca add vue extention to ranger
+#1718710532
+q
