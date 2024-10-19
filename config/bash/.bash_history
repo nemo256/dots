@@ -111505,3 +111505,73 @@ c
 rm .config/nvim/plugin/packer_compiled.lua 
 #1729336149
 q
+#1729335589
+ls
+#1729335589
+r
+#1729335635
+man stow
+#1729335656
+ls
+#1729335658
+man stow
+#1729335689
+stow -D nvim
+#1729335697
+r
+#1729335704
+stow -Dv nvim
+#1729335790
+stow -v nvim
+#1729335849
+stow -t ~/ nvim
+#1729335858
+stow -Dt ~/ nvim
+#1729335883
+stow -t ~/ nvim
+#1729335886
+stow -Dt ~/ nvim
+#1729336251
+ins luarock
+#1729336253
+ins luarocks
+#1729336257
+..
+#1729336258
+r
+#1729336280
+gst
+#1729336283
+gca add luarocks
+#1729336289
+cd config/
+#1729336290
+ls
+#1729337067
+r
+#1729337221
+q
+#1729337132
+luarocks
+#1729337138
+ins luarocks
+#1729337143
+upd
+#1729337162
+ins luarocks
+#1729337406
+cd vimy/
+#1729337406
+r
+#1729339609
+cd vimy/
+#1729339610
+r
+#1729339848
+cd vimy/
+#1729339848
+r
+#1729344977
+cd vimy/
+#1729344978
+r
