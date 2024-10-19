@@ -108575,3 +108575,2933 @@ gst
 gca add vue extention to ranger
 #1718710532
 q
+#1718710533
+cdw
+#1718710535
+cd asl_hd
+#1718710536
+..
+#1718710538
+cd asl_hd2
+#1718710538
+ls
+#1718710595
+r
+#1718710597
+e
+#1718710598
+r
+#1718710622
+cd .config/ranger/
+#1718710623
+ls
+#1718710625
+v rifle.conf 
+#1718710693
+..
+#1718710694
+cd dots
+#1718710695
+gst
+#1718710700
+gca fix html extention in ranger
+#1718710726
+cdw
+#1718710728
+cd asl_hd2
+#1718710729
+ls
+#1718710729
+r
+#1718710927
+q
+#1718714043
+cdw
+#1718714044
+cd asl_hd2
+#1718714045
+ls
+#1718714046
+yarn dev
+#1718715699
+q
+#1718714566
+cdw
+#1718714568
+cd asl_hd2
+#1718714568
+ls
+#1718714574
+r
+#1718715198
+yarn add vue-router@4
+#1718715346
+..
+#1718715350
+yarn create vue
+#1718715392
+cd asl_hd3
+#1718715392
+ls
+#1718715393
+r
+#1718715448
+yarn
+#1718715464
+yarn dev
+#1718715702
+..
+#1718715708
+clone https://github.com/codingwithjustin/vue3-sidebar
+#1718715711
+cd vue3-sidebar/
+#1718715712
+ayrn
+#1718715713
+yarn
+#1718715763
+ls
+#1718715765
+yarn dev
+#1718715767
+r
+#1718715776
+yarn serve
+#1718715804
+npx browserslist@latest --update-db
+#1718715827
+yarn serve
+#1718715839
+r
+#1718715882
+yarn dev
+#1718715887
+yarn serve
+#1718715894
+yarn add vite
+#1718715907
+yarn serve
+#1718715940
+q
+#1718715941
+cdw
+#1718715943
+cd vue3-sidebar/
+#1718715944
+ls
+#1718716071
+r
+#1718716105
+yarn dev
+#1718716122
+r
+#1718716145
+yarn add @fortawesome/fontawesome-free
+#1718716154
+yarn dev
+#1718716167
+r
+#1718716218
+yarn dev
+#1718716239
+r
+#1718716260
+yarn dev
+#1718716279
+r
+#1718716316
+yarn dev
+#1718716327
+r
+#1718716336
+yarn dev
+#1718716347
+r
+#1718716389
+yarn create vue
+#1718716408
+cd asl_hd4
+#1718716408
+ls
+#1718716409
+yarn
+#1718716426
+yarn dev
+#1718716444
+r
+#1718716508
+yarn dev
+#1718716531
+yarn add @fortawesome/fontawesome-free
+#1718716536
+yarn dev
+#1718716548
+r
+#1718716574
+yarn dev
+#1718716587
+r
+#1718716699
+yarn
+#1718716767
+r
+#1718716782
+q
+#1718727973
+cdw
+#1718727975
+cd asl_hd
+#1718727976
+r
+#1718727985
+yarn dev
+#1718728050
+q
+#1718726994
+cdw
+#1718726996
+cd asl_hd2
+#1718726998
+yarn dev
+#1718728051
+q
+#1718717437
+cdw
+#1718717440
+clone https://github.com/TylerPottsDev/yt-vue-sidebar
+#1718717443
+cd yt-vue-sidebar/
+#1718717444
+ls
+#1718717445
+yarn
+#1718717496
+yarn dev
+#1718717538
+r
+#1718728056
+q
+#1718728058
+cdw
+#1718728059
+cd asl_hd/
+#1718728060
+gst
+#1718728065
+r
+#1718728071
+gst
+#1718728073
+gs
+#1718728080
+gd
+#1718728092
+gca update pages styles
+#1718728285
+yarn dev
+#1718740216
+..
+#1718740248
+clone https://github.com/TylerPottsDev/yt-vue-sidebar
+#1718740251
+cd yt-vue-sidebar/
+#1718740252
+ls
+#1718740252
+r
+#1718740257
+yarn
+#1718740274
+yarn dev
+#1718740405
+..
+#1718740406
+cd asl_hd/
+#1718740407
+yarn dev
+#1718740623
+q
+#1718740629
+cdw
+#1718740631
+cd yt-vue-sidebar/
+#1718740634
+yarn dev
+#1718743196
+..
+#1718743198
+cd asl_hd/
+#1718743199
+yarn dev
+#1718746487
+q
+#1718747976
+sqlcl ASL_HD
+#1718748017
+q
+#1718748697
+sqlcl ASL_HD
+#1718749477
+q
+#1718749507
+oracle-sqldeveloper
+#1718749510
+sqldeveloper
+#1718749538
+paru -S sqldeveloper
+#1718749543
+paru -S oracle-sqldeveloper
+#1718749555
+r
+#1718749582
+q
+#1718749634
+nvim +PackerSync
+#1718749671
+q
+#1718743598
+sudo systemctl start oracle-xe
+#1718743668
+http POST http://localhost:8000/api/v1/agents NO_AGT:=2 NO_STR:=2 NOM_AGT="John Doe2" PREN_AGT="Agent2" CONTACTS_AGT="example2@example.com"
+#1718743687
+cdw
+#1718743689
+cd helpdesk/
+#1718743690
+ls
+#1718743697
+php artisan serve
+#1718748550
+gca update agent model
+#1718748553
+php artisan serve
+#1718728286
+cdw
+#1718728288
+cd asl_hd/
+#1718728290
+gst
+#1718728392
+r
+#1718731738
+..
+#1718734627
+gst
+#1718734637
+gca fix table styles
+#1718737122
+r
+#1718738394
+gst
+#1718738404
+gca add footer and update styling
+#1718738453
+gca remove table pagination buttons
+#1718738488
+r
+#1718738499
+gca remove footer
+#1718738578
+gca remove animations
+#1718740210
+r
+#1718740481
+gst
+#1718740487
+gca update styling
+#1718740626
+ls
+#1718740635
+r
+#1718741056
+yarn add @vue-hero-icons/solid
+#1718741069
+r
+#1718743353
+gst
+#1718743355
+gs
+#1718743362
+gca fix table height
+#1718743413
+yarn add axios
+#1718746493
+cd ..
+#1718746493
+ls
+#1718746496
+cd helpdesk/
+#1718746496
+ls
+#1718747558
+r
+#1718748065
+gst
+#1718748373
+gca fix agent controller
+#1718748376
+r
+#1718748408
+yarn dev
+#1718749845
+sqlcl
+#1718749849
+sqlcl ASL_HD
+#1718743735
+http POST http://localhost:8000/api/v1/agents NO_AGT:=2 NO_STR:=1 NOM_AGT="John Doe2" PREN_AGT="Agent2" CONTACTS_AGT="example2@example.com"
+#1718743746
+http POST http://localhost:8000/api/v1/agents NO_AGT:=3 NO_STR:=1 NOM_AGT="John Doe3" PREN_AGT="Agent3" CONTACTS_AGT="example3@example.com"
+#1718743759
+http GET http://localhost:8000/api/v1/agents
+#1718745736
+man http
+#1718745757
+http GET http://localhost:8000/api/v1/agents --unsorted
+#1718748565
+r
+#1718784160
+cdw
+#1718784164
+cd helpdesk/
+#1718784192
+sudo systemctl start oracle-xe
+#1718784280
+php artisan make:model VwAgentStructure
+#1718784285
+php artisan make:model VwQueryProblemAgent
+#1718784289
+php artisan make:model VwClientQueries
+#1718784293
+php artisan make:model VwItemsUsedInQueries
+#1718784297
+php artisan make:model VwNatureQueries
+#1718784301
+r
+#1718784548
+sqlcl ASL_HD
+#1718752020
+cdw
+#1718752022
+cd asl_hd/
+#1718752023
+yarn dev
+#1718752055
+ls
+#1718752057
+yarn dev
+#1718752063
+..
+#1718752066
+cd helpdesk/
+#1718752068
+gst
+#1718784148
+php artisan serve
+#1718784656
+.
+#1718784657
+..
+#1718784658
+cd asl_hd/
+#1718784660
+yarn de
+#1718784663
+yarn dev
+#1718785260
+..
+#1718785261
+cd yt-vue-sidebar/
+#1718785263
+yarn dev
+#1718785548
+q
+#1718785113
+cdw
+#1718785116
+cd helpdesk/
+#1718785116
+ls
+#1718785123
+php artisan serve
+#1718785550
+q
+#1718784304
+cdw
+#1718784307
+cd helpdesk/
+#1718784308
+ls
+#1718784421
+r
+#1718784536
+gst
+#1718784539
+gst -u
+#1718784618
+..
+#1718784620
+cd asl_hd/
+#1718784621
+ls
+#1718784622
+gst
+#1718784626
+gs
+#1718784627
+gd
+#1718784646
+gca fetch agents data using axios
+#1718785004
+nvim +PackerSync
+#1718785105
+..
+#1718785637
+q
+#1718787811
+cdw
+#1718787812
+cd asl_hd/
+#1718787812
+r
+#1718790497
+gst
+#1718790516
+gca vue milestone
+#1718790558
+r
+#1718790895
+gst
+#1718790904
+gca update dark color
+#1718790933
+gca remove black
+#1718785650
+cdw
+#1718785652
+cd asl_hd/
+#1718785665
+gst
+#1718785667
+ls
+#1718785834
+..
+#1718785835
+r
+#1718785995
+ins neovim
+#1718786154
+cd asl_hd/
+#1718786154
+ls
+#1718786156
+yarn dev
+#1718786181
+r
+#1718786325
+yarn dev
+#1718786330
+yarn
+#1718786333
+yarn dev
+#1718786338
+r
+#1718786366
+yarn dev
+#1718808222
+q
+#1718786112
+cdw
+#1718786113
+cd asl_hd/
+#1718786113
+lr
+#1718786114
+ls
+#1718786115
+r
+#1718786823
+..
+#1718786855
+r
+#1718808259
+cdw
+#1718865449
+cd asl_hd/
+#1718865450
+ls
+#1718865451
+yarn dev
+#1718867891
+cdw
+#1718867892
+r
+#1718867902
+yarn dev
+#1718868160
+q
+#1718866673
+cd asl_hd/
+#1718866673
+ls
+#1718866674
+r
+#1718870020
+cdw
+#1718870022
+cd yt-vue-sidebar/
+#1718870023
+ls
+#1718870023
+r
+#1718870924
+q
+#1718872665
+sqlcl ASL_HD
+#1718876297
+cdw
+#1718876303
+cd helpdesk/
+#1718876304
+ls
+#1718876304
+r
+#1718876663
+q
+#1718872740
+cdw
+#1718872742
+r
+#1718872448
+cdw
+#1718872452
+cd helpdesk/
+#1718872454
+sudo systemctl start oracle-xe
+#1718872486
+php artisan serve
+#1718877508
+sudo systemctl stop oracle-xe
+#1718877518
+sudo systemctl status oracle-xe
+#1718877524
+sudo systemctl start oracle-xe
+#1718877531
+sudo systemctl restart oracle-xe
+#1718877636
+sudo systemctl start oracle-xe
+#1718877647
+cdw
+#1718877650
+cd helpdesk/
+#1718877652
+php artisan serve
+#1718878531
+q
+#1718865455
+cdw
+#1718865457
+cd asl_hd/
+#1718865458
+yarn dev
+#1718878532
+q
+#1718879267
+cdw
+#1718879268
+cd helpdesk/
+#1718879272
+php artisan serve
+#1718890395
+q
+#1718878536
+cdw
+#1718878537
+cd asl_hd/
+#1718878538
+ls
+#1718878539
+yarn dev
+#1718879758
+..
+#1718879760
+cd asl_hd/
+#1718879762
+yarn dev
+#1718880000
+cdw
+#1718880003
+cd asl_hd/
+#1718880004
+yarn dev
+#1718893066
+q
+#1718865462
+cdw
+#1718865463
+cd asl_hd/
+#1718865464
+ls
+#1718865465
+gst
+#1718865466
+gst 0u
+#1718865468
+gst -u
+#1718867758
+gst
+#1718867768
+gca add hover effect and remove boilerplate
+#1718868163
+ls
+#1718868164
+gst
+#1718868241
+gca update sidebar active and on hover color
+#1718868546
+gca remove is expanded ref
+#1718868657
+gca fix button text decoration - remove underline
+#1718869518
+r
+#1718869776
+gst
+#1718869780
+gca add routes
+#1718869901
+gca fix problemes icon
+#1718871045
+gst
+#1718871047
+gs
+#1718871053
+gd
+#1718871083
+gca fix menu position
+#1718871455
+yarn add axios
+#1718871518
+r
+#1718872021
+gst
+#1718872032
+gca add queryService to fetch all interventions
+#1718872108
+gca remove comment
+#1718876677
+r
+#1718877671
+gst
+#1718877696
+gca add fetch agents service and component, works using axios
+#1718877725
+clear
+#1718877726
+ls
+#1718877895
+r
+#1718878314
+gst
+#1718878315
+gs
+#1718878316
+gd
+#1718878322
+gst
+#1718878341
+gaa src/services/queryService.js
+#1718878358
+gc 'remove queryService'
+#1718878365
+gaa src/components/Sidebar.vue 
+#1718878386
+gc 'update sidebar menu item font weight'
+#1718878399
+gaa src/views/Agents.vue
+#1718878427
+gc 'update Agent component - now fetches data from the api using axios'
+#1718878438
+gaa src/views/Interventions.vue 
+#1718878452
+gc 'rollback intervention - query service handler'
+#1718878453
+gpm
+#1718878456
+gst
+#1718878460
+ls
+#1718878461
+r
+#1718878506
+gst
+#1718878524
+gca unhide hidden fields - agents model'
+#1718878526
+gca unhide hidden fields - agents model
+#1718878558
+..
+#1718878559
+cd asl_hd/
+#1718878560
+r
+#1718878561
+gst
+#1718878563
+gst -u
+#1718878565
+ls
+#1718889005
+gst
+#1718889008
+gs
+#1718889014
+gd
+#1718889038
+gca update border and add more agent fields
+#1718889658
+..
+#1718889660
+cd asl_hd/
+#1718889661
+yarn dev
+#1718889968
+cdw
+#1718889970
+cd asl_hd/
+#1718889971
+ls
+#1718890406
+sudo systemctl stop oracle-xe
+#1718892391
+gst
+#1718892392
+gst -u
+#1718893021
+r
+#1718919511
+..
+#1718919512
+lsblk
+#1718919528
+sudo mount /dev/sdc /usb
+#1718919537
+sudo mount /dev/sdc usb/
+#1718919541
+cd usb/b
+#1718919543
+cd usb/
+#1718919544
+ls
+#1718919545
+r
+#1718919703
+sudo cp dl/GN-RS8-MiniHD-Plus_gui_V2.98_23112023.bin dl/GN-RS8-MiniHD-Plus_V2.73_Daci\ Mira.bin usb/
+#1718919712
+r
+#1718919725
+umount usb
+#1718919727
+sudo umount usb
+#1718919730
+clear
+#1718919730
+ls
+#1718919733
+eject /dev/sdc
+#1718919736
+sudo eject /dev/sdc
+#1719016575
+cd asl_hd/
+#1719016576
+yarn dev
+#1719016780
+q
+#1718966252
+cdw
+#1718966253
+cd asl_hd/
+#1718966254
+ls
+#1718966260
+gst
+#1718967066
+gca update border radius
+#1718990340
+gst
+#1718990349
+gca update border radius variable
+#1718990650
+r
+#1718990700
+..
+#1718991144
+gst
+#1718991156
+gca fix sidebar margin for each element
+#1718992652
+gca add header
+#1718993499
+gst
+#1718993508
+gca add search styling
+#1718993530
+gca update search styling
+#1718994404
+gca update header styling - header button
+#1718995621
+gca update header
+#1718995849
+gst
+#1718995851
+gst -u
+#1718996291
+r
+#1718996627
+yarn create vue
+#1718996648
+r
+#1718997207
+gst
+#1718997223
+gca add header component - dynamic component milestone
+#1718999792
+r
+#1719001173
+gst
+#1719001190
+gca add cards and implement them into requetes
+#1719001706
+gca add some effects to the cards component
+#1719001916
+gst
+#1719001917
+st -u
+#1719001920
+gst -u
+#1719002049
+gca update scale effect
+#1719002631
+gca add card titles
+#1719003014
+gst
+#1719003015
+gd
+#1719003030
+gca update font size of card contents and text color
+#1719004812
+gca add icon to button - header
+#1719006744
+gst
+#1719006745
+gst -u
+#1719007431
+gst
+#1719007433
+gd
+#1719007450
+gca update button text font weight - bold
+#1719018237
+gst
+#1719018238
+gd
+#1719018449
+gst
+#1719018459
+gca update header text size
+#1718919791
+cdw
+#1718966249
+cd asl_hd/
+#1718966250
+yarn dev
+#1719124959
+clea
+#1719124961
+clear
+#1719124961
+q
+#1719124888
+cdw
+#1719124889
+cd asl_hd/
+#1719124889
+ls
+#1719124891
+yarn dev
+#1719124902
+yarn
+#1719124918
+yarn dev
+#1719124962
+cdw
+#1719124964
+cd asl_hd/
+#1719125045
+ls
+#1719125178
+r
+#1719130462
+gst
+#1719130464
+gd
+#1719130742
+gst
+#1719131753
+gst -u
+#1719131755
+gd
+#1719131769
+gca update search bar resposiveness
+#1719146979
+gd
+#1719147122
+gca add a container for the data table, and add flex grow on it
+#1719147818
+gca fix container position
+#1719149047
+gca testing container position
+#1719153762
+cdw
+#1719153765
+cd asl_hd/
+#1719153766
+gst
+#1719153768
+c
+#1719153893
+sudo systemctl start oracle-xe
+#1719154017
+sqlcl ASL_HD
+                                                                                                                                                                                                                                                                                                              #1719212372
+cd asl_hd/
+#1719212377
+yarn dev
+#1719212406
+cdw
+#1719212410
+cd asl_hd/
+#1719212414
+yarn dev
+#1719299074
+ls
+#1719299075
+clear
+#1719299076
+ls
+#1719299077
+cd
+#1719299078
+ls
+#1719299082
+lsblk
+#1719299096
+ls
+#1719299098
+lsblk
+#1719299125
+sudo mount /dev/sdc usb/
+#1719299132
+ls
+#1719299134
+cd usb/
+#1719299135
+ls
+#1719299137
+la
+#1719299140
+..
+#1719299140
+ls
+#1719299146
+lsblk
+#1719299153
+sudo mount /dev/sdc1 usb/
+#1719299155
+cd usb/
+#1719299156
+ls
+#1719299172
+cat Version.txt 
+#1719299177
+nvim Version.txt 
+#1719301694
+lsblk
+#1719301701
+sudo mount usb/
+#1719301704
+sudo umount usb/
+#1719301711
+eject /dev/sdc1
+#1719301714
+sudo eject /dev/sdc1
+#1719304463
+nvim
+#1719304466
+ls
+#1719304485
+nvim radia
+#1719304509
+cat radia 
+#1719304523
+ls
+#1719304530
+cat radia 
+#1719304533
+nvim radia 
+#1719304557
+gpg -c --cipher-algo AES256 radia 
+#1719304634
+ls
+#1719304643
+cat radia
+#1719304651
+rm radia
+#1719304655
+ls
+#1719304660
+cat radia.gpg 
+#1719304664
+nvim radia.gpg 
+#1719304683
+gpg radia.gpg 
+#1719304704
+man gpg
+#1719304726
+gpg -d radia.gpg 
+#1719304731
+gpg -D radia.gpg 
+#1719304735
+gpg -d radia.gpg 
+#1719304753
+ls
+#1719304764
+rm radia
+#1719304769
+ls
+#1719304773
+gpg -d radia.gpg 
+#1719304780
+ls
+#1719304784
+gpg -d radia.gpg
+#1719304789
+ls
+#1719304793
+gpg -d radia.gpg
+#1719304845
+clear
+#1719304846
+ls
+#1719304846
+q
+#1719484597
+cd asl_hd/
+#1719484599
+yarn dev
+#1719476887
+cdw
+#1719476887
+cd asl_hd/
+#1719476888
+r
+#1719476890
+gst
+#1719476892
+gd
+#1719480113
+nvim test111
+#1719480123
+nvim test222
+#1719480141
+diff test111 test222 
+#1719480145
+r
+#1719480169
+diff test111 test222 
+#1719480178
+gd
+#1719480223
+alias gd
+#1719480228
+gd
+#1719476750
+cd asl_hd/
+#1719476751
+yarn dev
+#1719476765
+..
+#1719476769
+cdw
+#1719476770
+cd asl_hd/
+#1719476772
+yarn dev
+#1719598086
+cdw
+#1719598087
+cd asl_hd/
+#1719598090
+gst
+#1719598092
+gd
+#1719598128
+gca add modal on close
+#1719598140
+rm test111 test222 
+#1719598144
+gca remove tests
+#1719598888
+r
+#1719599162
+unzip Fira_Sans.zip 
+#1719599162
+r
+#1719599554
+git clone https://github.com/google/material-design-icons/
+#1719599571
+r
+#1719599785
+unzip material-design-icons-4.0.0.zip 
+#1719599919
+r
+#1719600544
+gst
+#1719600559
+gca milestone - rely on local fonts
+#1719600856
+r
+#1719604810
+gst
+#1719604814
+gca add table component
+#1719605187
+gca update z-index on ajouterRequete
+#1719606569
+gd
+#1719606588
+gca update cards resposivity
+#1719606747
+gca fix cards component responsivity
+#1719607277
+gca update cell font size
+#1719607670
+gst
+#1719607671
+gst -u
+#1719607679
+yarn add @tanstack/vue-table
+#1719607778
+gst
+#1719607788
+gca add tanstack table vue
+#1719608014
+r
+#1719609748
+gst
+#1719609760
+gca add users mock data...
+#1719611449
+gca update table design
+#1719611660
+gca update table design - milestone
+#1719615232
+gst
+#1719615240
+gca try sorting
+#1719616037
+gst
+#1719616039
+gd
+#1719616049
+gca add icons for sorting
+#1719616252
+gst
+#1719616261
+gca fix ajouterRequete z index
+#1719598036
+cdw
+#1719598037
+cd asl_hd/
+#1719598038
+yarn dev
+#1719616975
+ls
+#1719616980
+r
+#1719617382
+cd
+#1719617389
+matrix_game 4
+#1719617479
+r
+#1719824831
+sudo pacman -S neovim
+#1719824838
+q
+#1719824623
+cdw
+#1719824625
+cd asl_hd/
+#1719824695
+yarn dev
+#1719619995
+iptables
+#1719620004
+man iptables
+#1719620045
+sudo iptables -L
+#1719824221
+pacman -Q newsboat
+#1719824223
+pacman -Qs newsboat
+#1719824227
+pacman -QS newsboat
+#1719824242
+pacman -S newsboat
+#1719824244
+sudo pacman -S newsboat
+#1719824430
+sudo pacman -S mpv
+#1719824471
+ls
+#1719824494
+lsblk
+#1719824500
+ls
+#1719824510
+ls usb
+#1719824514
+cd usb
+#1719824515
+ls
+#1719824516
+..
+#1719824539
+sudo mount /dev/sdc1 usb/
+#1719824543
+ls usb
+#1719824562
+umount usb/
+#1719824567
+sudo umount usb/
+#1719824576
+eject /dev/sdc1
+#1719824580
+sudo eject /dev/sdc
+#1719824583
+lsblk
+#1719824771
+r
+#1719825002
+gst
+#1719825017
+git status
+#1719825021
+gst
+#1719825031
+alias gd
+#1719825041
+gd
+#1719825076
+cd
+#1719825078
+cdb
+#1719825082
+cat gca
+#1719825132
+cdw
+#1719825142
+cd asl_hd/
+#1719825144
+gst
+#1719825148
+pwd
+#1719825207
+gca fix some warnings - index.html
+#1719826054
+ls
+#1719826055
+c
+#1719826056
+q
+#1719826057
+ls
+#1719826280
+cdw
+#1719826282
+cd asl_hd/
+#1719826284
+gst
+#1719826287
+gst -u
+#1719827526
+tree
+#1719827565
+ls
+#1719827602
+cat AUTHORS 
+#1719827619
+cat index
+#1719827620
+cat index.html 
+#1719827659
+cat package
+#1719827662
+cat package.json 
+#1719827849
+ls
+#1719827851
+gst
+#1719827853
+gd
+#1719827876
+gca update project name and version - package.json
+#1719827970
+ls
+#1719827986
+space node_modules/
+#1719828082
+r
+#1719826354
+cd asl_hd/
+#1719826356
+cd
+#1719826357
+cdw
+#1719826358
+cd asl_hd/
+#1719826359
+ls
+#1719826361
+yarn dev
+#1719828593
+r
+#1719829821
+uname -r
+#1719829916
+pacman -Q linux-zen
+#1719829920
+pacman -Qs linux-zen
+#1719829927
+pacman -S linux-zen
+#1719829930
+sudo pacman -S linux-zen
+#1719829943
+upd
+#1719829958
+pacman -Qs linux-zen
+#1719829960
+sudo pacman -S linux-zen
+#1719831567
+cdw
+#1719831571
+cd HackINI-2k22/
+#1719831572
+ls
+#1719831574
+cd forensics/
+#1719831588
+ls
+#1719831589
+cd lies/
+#1719831590
+ls
+#1719831600
+strings pic.jpeg 
+#1719831608
+strings -20 pic.jpeg 
+#1719831950
+..
+#1719831953
+cd jail/
+#1719831954
+ls
+#1719831956
+cd jsandboxs/
+#1719831958
+ls
+#1719831963
+node script.js 
+#1719831981
+nvim .passwd
+#1719832004
+node script.js 
+#1719832010
+r
+#1719832072
+node script.js 
+#1719832123
+r
+#1719832345
+ls /etc | grep 'motd'
+#1719832357
+find ./ -name 'motd'
+#1719832362
+find / -name 'motd'
+#1719832368
+sudo find / -name 'motd'
+#1719832385
+r
+#1719832458
+nvim
+#1719832461
+r
+#1719832483
+cdw
+#1719832500
+cd HackINI-2k22/
+#1719832500
+r
+#1719832548
+cd
+#1719833535
+ls
+#1719951931
+cdw
+#1719951932
+cd asl_hd/
+#1719951933
+gst
+#1719951935
+gst -u
+#1719952024
+clear
+#1719952024
+ls
+#1719952072
+gst
+#1719952092
+gca fix working directory link for fonts
+#1719952101
+clear
+#1719952103
+ls
+#1719955035
+r
+#1719955427
+gs
+#1719955428
+gst
+#1719955445
+gca update mockdata and requete table
+#1719956476
+gst
+#1719956478
+gst -u
+#1719956478
+q
+#1719834861
+cdw
+#1719834867
+cd asl_hd/
+#1719834872
+yarn dev
+#1720042530
+lsblk
+#1720042539
+sudo mount /dev/sdc1 usb/
+#1720042541
+cd usb/
+#1720042542
+ls
+#1720042543
+r
+#1720042767
+sudo cp ../dl/UD_1.82.exe .
+#1720042769
+ls
+#1720042782
+..
+#1720042787
+umount usb/
+#1720042789
+sudo umount usb/
+#1720042793
+eject /dev/sdc
+#1720042795
+sudo eject /dev/sdc
+#1720130862
+sqlcl ASL_HD
+#1720130880
+q
+#1720042830
+sudo systemctl start oracle-xe
+#1720182288
+cdd
+#1720182289
+ls
+#1720182293
+nvim crebase_hd.sql 
+#1720182051
+clear
+#1720182053
+ls
+#1720182055
+r
+#1720182093
+cd asl_hd
+#1720182094
+ls
+#1720182787
+r
+#1720186403
+gst
+#1720186423
+gca add pill shapes to status and priorite fields - table.vue
+#1720186838
+gst
+#1720186840
+gst -u
+#1720186841
+q
+#1720182113
+cdw
+#1720182114
+cd asl_hd
+#1720182115
+yarn dev
+#1720209787
+nvim aadl 
+#1720213535
+cds
+#1720213535
+;s
+#1720213536
+ls
+#1720213537
+r
+#1720226433
+ins chromium
+#1720218727
+nvim aadl 
+#1720223545
+cds
+#1720223546
+r
+#1720264681
+ls
+#1720272317
+clear
+#1720272318
+ls
+#1720272527
+clear
+#1720272527
+ls
+#1720272529
+r
+#1720272539
+q
+#1720278494
+nvim aadl 
+#1720357428
+nvim aadl
+#1720378056
+r
+#1720383502
+yarn add vue-virtual-scroller
+#1720384072
+yarn remove vue-virtual-scroller
+#1720384956
+gst
+#1720384965
+gd
+#1720384984
+gca update mockdata
+#1720385762
+gst
+#1720385767
+gca update sorting ability
+#1720386517
+gst
+#1720386519
+gd
+#1720386585
+gst
+#1720386586
+gd
+#1720386592
+gca fix typo
+#1720386595
+..
+#1720386598
+clone https://github.com/tanstack/table/tree/main/examples/vue/sorting
+#1720386651
+clone https://github.com/TanStack/table/tree/main
+#1720386654
+clone https://github.com/TanStack/table/
+#1720386672
+r
+#1720386687
+cd sorting/
+#1720386689
+yarn 
+#1720386733
+yarn dev
+#1720386791
+r
+#1720387510
+yarn
+#1720387516
+r
+#1720387525
+cd pagination-controlled/
+#1720387527
+yarn
+#1720387565
+yarn dev
+#1720387606
+r
+#1720387655
+cd column-ordering/
+#1720387656
+yarn
+#1720387673
+yarn dev
+#1720387748
+r
+#1720387769
+cd filters/
+#1720387770
+yarn
+#1720387788
+yarn dev
+#1720387947
+..
+#1720387949
+rm filters/
+#1720387951
+ls
+#1720387951
+r
+#1720387952
+q
+#1720378003
+cdw
+#1720378005
+cd asl_hd
+#1720378006
+ls
+#1720378009
+clear
+#1720378009
+ls
+#1720378013
+yarn dev
+#1720387979
+q
+#1720394677
+nvim aadl 
+#1720422775
+nvim aad
+#1720422777
+nvim aadl 
+#1720443474
+cdw
+#1720443480
+cd asl_hd
+#1720443481
+yarn dev
+#1720509744
+cdw
+#1720509746
+cd HackINI-2k22/
+#1720509749
+cd forensics/lies/
+#1720509750
+ls
+#1720509756
+strings 4
+#1720509763
+strings -4 pic.jpeg 
+#1720509781
+strings pic.jpeg 
+#1720509853
+strings -15 pic.jpeg 
+#1720510371
+..
+#1720510371
+r
+#1720510395
+nvim .passwd
+#1720510600
+ls
+#1720510601
+r
+#1720510614
+nodejs script.js 
+#1720510617
+node script.js 
+#1720510661
+r
+#1720510736
+node script.js 
+#1720510748
+r
+#1720510853
+./nutshell_supreme
+#1720510893
+ls
+#1720510896
+sl
+#1720510899
+ins sl
+#1720510921
+upd
+#1720510931
+r
+#1720512065
+q
+#1720511044
+myip
+#1720511231
+ls
+#1720511236
+cat aadl
+#1720512068
+q
+#1720512067
+ls
+#1720512069
+q
+#1720534298
+r
+#1720536435
+gst
+#1720536451
+gca add border bottom on table data - table.vue
+#1720531463
+cdw
+#1720531464
+cd as
+#1720531467
+cd asl_hd
+#1720531469
+yarn dev
+#1720593727
+rem chromium
+#1720593730
+clear
+#1720593731
+ls
+#1720593731
+q
+#1720594087
+cds
+#1720594087
+r
+#1720594341
+cds
+#1720594344
+..
+#1720594346
+gst
+#1720594350
+gst -u
+#1720594355
+r
+#1720594368
+gst -u
+#1720607021
+ls
+#1720607035
+lsblk
+#1720777468
+mount /dev/sdc1 usb/
+#1720777470
+sudo mount /dev/sdc1 usb/
+#1720777472
+r
+#1720777531
+sr
+#1720777539
+r
+#1720781648
+q
+#1720801216
+df -h /
+#1720801218
+q
+#1720802498
+df -h /
+#1720802500
+q
+#1720802674
+df -h /
+#1720802677
+q
+#1720803086
+df -h /
+#1720803088
+q
+#1720803349
+df -h /
+#1720803351
+q
+#1720804125
+df -h /
+#1720802249
+r
+#1720804786
+df -h /
+#1720804787
+q
+#1720813593
+cdw
+#1720813599
+cd laravel-student/
+#1720813599
+ls
+#1720813599
+r
+#1720856440
+ls
+#1720856441
+clear
+#1720856441
+ls
+#1720856442
+q
+#1720856444
+ls
+#1720856445
+clear
+#1720856445
+ls
+#1720856445
+q
+#1721773337
+lsblk
+#1721773351
+sudo mount /dev/sdc usb/
+#1721773355
+lsblk
+#1721773358
+cd usb/
+#1721773358
+r
+#1721773385
+cp ../dl/OptiPlex-7010-SFF-CDVW8_Win10_1.0_A08.exe .
+#1721773390
+sudo cp -fvr ../dl/OptiPlex-7010-SFF-CDVW8_Win10_1.0_A08.exe .
+#1721775854
+cd ..
+#1721775856
+lsblk
+#1721775863
+sudo mount /dev/sdd usb/
+#1721775866
+cd usb/
+#1721775867
+ls
+#1721775877
+sudo cp -fvr ../dl/OptiPlex-7010-SFF-CDVW8_Win10_1.0_A08.exe .
+#1721776557
+sudo umount usb
+#1721776563
+cd
+#1721776564
+sudo umount usb
+#1721777584
+r
+#1722103726
+sudo cp ../../usb/* .
+#1722103734
+sudo cp -fvr ../../usb/* .
+#1722104066
+r
+#1722104082
+..
+#1722104083
+q
+#1722103551
+lsblk
+#1722103565
+sudo mount /dev/sdc usb/
+#1722103570
+cd usb
+#1722103572
+ls
+#1722103758
+r
+#1722103847
+space
+#1722103851
+df -h /
+#1722103855
+r
+#1722103901
+..
+#1722103902
+df -h /
+#1722103910
+r
+#1722103926
+..
+#1722103963
+df -h /
+#1722104086
+clear
+#1722104087
+ls
+#1722104099
+r
+#1722104170
+sudo rm -fvr autorun.inf/ CDC\ N°36\ 2023\ algerie\ telecom.pdf ClassicShellSetup_4_2_4.exe config/ Demande-de-demission.pdf DGRH/ dossier/ hamiz/ photo\ 01.jpg pointeuse.pptx speech-notes.txt 
+#1722104173
+clear
+#1722104174
+ls
+#1722104181
+sudo rm OptiPlex-7010-SFF-CDVW8_Win10_1.0_A08.exe 
+#1722104183
+ls
+#1722104185
+clear
+#1722104186
+ls
+#1722104191
+sudo rm OFFICE2007\ FRA/
+#1722104196
+sudo rm -fvr OFFICE2007\ FRA/
+#1722104198
+clear
+#1722104199
+ls
+#1722104202
+space
+#1722104207
+..
+#1722104211
+cd usb/
+#1722104217
+df -h .
+#1722104224
+cd
+#1722104224
+ls
+#1722104226
+r
+#1722104233
+ls
+#1722104265
+sudo cp -fvr PDFsamBasic7Installer.exe pdftk_free-2.02-win-setup.exe UD_1.82.exe ../usb/
+#1722104267
+clear
+#1722104268
+ls
+#1722104271
+..
+#1722104271
+ls
+#1722104273
+r
+#1722104299
+sudo umount usb/
+#1722104304
+eject /dev/sdc
+#1722104307
+sudo eject /dev/sdc
+#1722108656
+r
+#1722109395
+lsblk
+#1722109402
+sudo mount /dev/sdc usb/
+#1722109403
+cd usb/
+#1722109405
+ls
+#1722109405
+r
+#1722109415
+rm AdbeRdr11004_fr_FR.exe 
+#1722109419
+sudo rm AdbeRdr11004_fr_FR.exe 
+#1722109420
+ls
+#1722109420
+r
+#1722109464
+sudo cp -fvr ChromeStandaloneSetup.exe ChromeStandaloneSetup64.exe vlc-3.0.21-win64.exe winrar-x64-701fr.exe ../usb/
+#1722109465
+ls
+#1722109466
+r
+#1722109470
+..
+#1722109473
+sudo umount usb/
+#1722109502
+sudo eject /dev/sdc
+#1722109504
+clear
+#1722109505
+ls
+#1722109506
+lsblk
+#1722109510
+q
+#1722195394
+r
+#1722195398
+q
+#1722195640
+lsblk
+#1722195647
+sudo mount /dev/sdc usb/
+#1722195649
+cd usb/
+#1722195649
+r
+#1722195655
+cdd
+#1722195656
+ls
+#1722195694
+r
+#1722195720
+sudo cp -fvr pdftkb_setup.exe usb/
+#1722195722
+r
+#1722195729
+..
+#1722195734
+sudo umount usb/
+#1722195739
+sudo eject /dev/sdc
+#1722195741
+clear
+#1722625076
+s
+#1722625078
+ls
+#1722625079
+clear
+#1722625079
+ls
+#1722625080
+q
+#1722625090
+ls
+#1722625091
+clear
+#1722625092
+ls
+#1722625092
+q
+#1722974871
+clear
+#1722974872
+ls
+#1722974873
+upd
+#1722974885
+clear
+#1722974885
+ls
+#1722974886
+q
+#1723887448
+clear
+#1723887449
+ls
+#1723887450
+clear
+#1723887451
+ls
+#1723887451
+q
+#1723887508
+r
+#1723887694
+libreoffice formulario_visto_nacional_en.pdf 
+#1723887942
+cdw
+#1723887945
+cd helpdesk/
+#1723887946
+ls
+#1723887947
+gst
+#1723887950
+yarn dev
+#1723887960
+ls
+#1723887962
+r
+#1723887971
+yarn dev
+#1723888005
+clear
+#1723888006
+ls
+#1723888006
+q
+#1723888011
+clear
+#1723888013
+ls
+#1723888014
+clear
+#1723888014
+ls
+#1723888014
+q
+#1723888135
+htop
+#1724016805
+lsblk
+#1724016817
+sudo mount /dev/sdb usb/
+#1724016821
+cd usb/
+#1724016822
+ls
+#1724016823
+r
+#1724016830
+lsblk
+#1724016864
+sudo mount /dev/sdc usb/
+#1724016867
+cd usb
+#1724016868
+ls
+#1724016869
+r
+#1724016889
+cd ..
+#1724016892
+lsblk
+#1724016897
+sudo mount /dev/sdd usb/
+#1724016898
+ls
+#1724016901
+cd usv
+#1724016902
+cd usb/
+#1724016903
+ls
+#1724016904
+r
+#1724016912
+sr
+#1724016929
+rm *.exe
+#1724016930
+ls
+#1724016937
+sudo rm *.exe
+#1724016939
+ls
+#1724016942
+r
+#1724017013
+sudo cp -fvr Grand\ Theft\ Auto\ San\ Andreas\ repack\ Mr\ DJ/ Grand\ theft\ Auto\ -\ Vice\ City\ repack\ Mr\ DJ/ Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ/ ../usb/
+#1724018015
+r
+#1724018024
+space
+#1724018034
+..
+#1724018038
+sudo umount usb/
+#1724018047
+sudo eject /dev/sdc
+#1724018052
+sudo eject /dev/sdb
+#1724018059
+lsblk
+#1724018063
+sudo eject /dev/sdd
+#1724451423
+cdw
+#1724451428
+cd asl_hd
+#1724451430
+yarn dev
+#1724849312
+cdw
+#1724849315
+q
+#1724849647
+cgrep
+#1724849653
+q
+#1724849577
+messer
+#1724849636
+brc
+#1724849788
+q
+#1724849865
+gst
+#1724849867
+ls
+#1724849868
+cd
+#1724666415
+cd
+#1724847646
+ls
+#1724847690
+sqlcl ASL_HD
+#1724847756
+sqlcl c##asl_hd@127.0.0.1:1521/XE
+#1724847786
+sqlplus n3m0@XEPDB1
+#1724847819
+sqldeveloper
+#1724847825
+clear
+#1724847825
+ls
+#1724847829
+r
+#1724847845
+cdw
+#1724847852
+alias cdw
+#1724847856
+ls
+#1724847876
+cd yt-vue-sidebar/
+#1724847880
+yarn dev
+#1724847910
+clear
+#1724847911
+ls
+#1724847911
+r
+#1724847914
+ls
+#1724847919
+cd sidebar-template/
+#1724847922
+ls
+#1724847928
+cat package.json 
+#1724847934
+yarn dev
+#1724847936
+r
+#1724847952
+yarn start
+#1724847999
+ls
+#1724848002
+cd src
+#1724848003
+ls
+#1724848006
+clear
+#1724848007
+..
+#1724848008
+ls
+#1724848140
+clone https://github.com/opensource-coding/Responsive-Sidebar-with-Dropdown-Menu-Starter
+#1724848148
+cd Responsive-Sidebar-with-Dropdown-Menu-Starter/
+#1724848149
+ls
+#1724848153
+r
+#1724848171
+nodejs script.js 
+#1724848174
+node script.js 
+#1724848185
+firefox index.html 
+#1724848216
+r
+#1724848489
+yarn dev
+#1724848491
+r
+#1724848509
+yarn
+#1724848544
+yarn dev
+#1724848563
+..
+#1724848564
+r
+#1724848589
+gst
+#1724848592
+r
+#1724848598
+alias gst
+#1724848628
+r
+#1724848704
+gst
+#1724848709
+ls
+#1724849019
+r
+#1724849021
+..
+#1724849022
+r
+#1724848730
+nvim
+#1724850349
+re
+#1724850350
+q
+#1724851187
+cdw
+#1724851189
+ls
+#1724851191
+r
+#1724851257
+cat /etc/local
+#1724851261
+cat /etc/locale.conf 
+#1724851268
+cat /etc/locale.gen
+#1724851277
+sudo nvim /etc/locale.gen
+#1724851329
+clear
+#1724851329
+ls
+#1724851381
+q
+#1724851484
+cdb
+#1724851485
+ls
+#1724851494
+meme
+#1724851581
+cmatrix | lolcat
+#1724851591
+clear
+#1724851592
+ls
+#1724851626
+cd ..
+#1724851627
+ls
+#1724851649
+cqt $USER
+#1724851651
+cat $USER
+#1724851658
+echo $USER
+#1724851706
+nvim test
+#1724851715
+cat test 
+#1724851717
+ls
+#1724851797
+chmod 777 test 
+#1724851798
+ls
+#1724851826
+chmod 222 test 
+#1724851827
+ls
+#1724851838
+chmod 277 test 
+#1724851840
+ls
+#1724851847
+chmod 0 test 
+#1724851848
+ls
+#1724851855
+cat test
+#1724851862
+nvim test 
+#1724851878
+chmod 777 test 
+#1724851879
+ls
+#1724851882
+cat test 
+#1724851953
+meme
+#1724851974
+cdb
+#1724851980
+cat meme
+#1724852011
+nvim meme 
+#1724852039
+meme
+#1724852048
+nvim meme 
+#1724852128
+meme
+#1724852134
+..
+#1724852135
+ls
+#1724852139
+r
+#1724852207
+cdw
+#1724852210
+cd asl_hd
+#1724852211
+gst
+#1724852213
+r
+#1724852223
+gst
+#1724852226
+gaa
+#1724852232
+gca test
+#1724852255
+r
+#1724852263
+gst
+#1724852272
+gca fix typo
+#1724852322
+clear
+#1724852322
+ls
+#1724852327
+clear
+#1724852328
+ls
+#1724852333
+q
+#1724852553
+sudo nvim
+#1724852575
+cd .build/
+#1724852576
+ls
+#1724852580
+cd ..
+#1724852582
+cd .config/
+#1724852583
+ls
+#1724852588
+cd nvim/
+#1724852594
+..
+#1724852596
+cdw
+#1724852622
+..
+#1724852624
+cd dots/
+#1724852625
+ls
+#1724852626
+r
+#1724853072
+q
+#1724853427
+ani-cli 
+#1724853442
+cd .build/
+#1724853444
+cd ani-cli/
+#1724853445
+ls
+#1724853457
+git pull
+#1724853462
+..
+#1724853473
+ani-cli 
+#1724853481
+ins curl
+#1724853600
+ani-cli 
+#1724853636
+curl --help
+#1724855019
+clear
+#1724855019
+ls
+#1724852379
+cd .build/
+#1724852381
+ls
+#1724852387
+cd tily/
+#1724852388
+gst
+#1724852389
+ls
+#1724852403
+alias v
+#1724852411
+nvim
+#1724852421
+v config.h 
+#1724855410
+clear
+#1724855420
+q
+#1724855456
+clear
+#1724855464
+q
+#1724855598
+clear
+#1724855599
+ls
+#1724855599
+clear
+#1724855601
+q
+#1724855603
+clear
+#1724855603
+ls
+#1724855607
+q
+#1725528882
+cdw
+#1725528883
+cd asl_hd
+#1725528884
+gst
+#1725528885
+gst 0u
+#1725528889
+gst -u
+#1725539579
+gst
+#1725539581
+gst -u
+#1725539596
+gca update table header and footer padding and font size
+#1725546615
+gst
+#1725546619
+gst -u
+#1725546626
+gs
+#1725546636
+gd
+#1725546658
+gst
+#1725546660
+gst -u
+#1725546660
+q
+#1725528853
+cdw
+#1725528865
+cd asl_hd
+#1725528867
+yarn dev
+#1725546662
+q
+#1725546686
+clear
+#1725546686
+ls
+#1725546689
+lsblk
+#1725546732
+sudo mount /dev/sdc4 usb/
+#1725546736
+r
+#1725546745
+sudo mount /dev/sdc2 usb/
+#1725546757
+r
+#1725546774
+sudo mount /dev/sdcc usb/
+#1725546777
+sudo mount /dev/sdc1 usb/
+#1725546808
+lsblk
+#1725546824
+lsblkq
+#1725546824
+q
+#1725546799
+lsblk
+#1725956141
+sudo mount /dev/sdc2 usb/
+#1725957707
+sudo mount -t vfat /dev/sdc4
+#1725957713
+lsblk
+#1725957724
+sudo mount -t vfat /dev/sdc4
+#1725958574
+lsblk
+#1725961781
+ls
+#1725961781
+c
+#1725961782
+q
+#1725965172
+r
+#1725965181
+lsblk
+#1727989834
+sudo mount /dev/sdc1 ./usb/
+#1727989852
+sudo mount /dev/sdc ./usb/
+#1727989862
+sudo mount /dev/sdc2 ./usb/
+#1727989865
+cd usb/
+#1727989866
+r
+#1727989904
+sudo umount usb/
+#1727989909
+sudo mount /dev/sdc1 ./usb/
+#1727989949
+modprobe ntfs
+#1727989970
+ins ntfs-3g
+#1727989975
+sudo mount /dev/sdc1 ./usb/
+#1727989987
+cd usb/
+#1727989987
+r
+#1727990050
+sudo mount /dev/sdc1 ./usb/
+#1727990056
+sudo umount usb/
+#1727990058
+sudo mount /dev/sdc1 ./usb/
+#1727990061
+cd usb/
+#1727990061
+r
+#1727990068
+cd
+#1727990069
+sudo umount usb/
+#1727990239
+e2fsck -c /dev/sdc1
+#1727990242
+sudo e2fsck -c /dev/sdc1
+#1727990280
+sudo ntfsfix /dev/sdc1
+#1727990287
+sudo mount /dev/sdc1 ./usb/
+#1727990289
+r
+#1727990305
+sudo ntfsfix /dev/sdc1
+#1727990354
+sudo umount usb/
+#1727990356
+sudo ntfsfix /dev/sdc1
+#1727990387
+sudo ntfsfix -b -d /dev/sdc1
+#1727990391
+sudo mount /dev/sdc1 ./usb/
+#1727990397
+r
+#1727990659
+ins foremost
+#1727990669
+r
+#1727990725
+sudo foremost -i /dev/hda -o ./usb
+#1727990734
+mkdir test
+#1727990739
+sudo foremost -i /dev/hda -o ./test
+#1728061497
+r
+#1728061506
+q
+#1728061389
+lsblk
+#1728061413
+sudo mount /dev/sdb ./usb/
+#1728061428
+sudo mount /dev/sdb1 ./usb/
+#1728061429
+r
+#1728061442
+sudo umount usb/
+#1728061458
+sudo testdisk
+#1728061692
+lsblk
+#1728061704
+sudo mount /dev/sdb1 ./usb/
+#1728061705
+r
+#1728063532
+sqlcl c##asl_hd@127.0.0.1:1521/XE
+#1728063556
+upd
+#1728063630
+sqlcl system as sysdba
+#1728063756
+sqldeveloper
+#1728063758
+q
+#1728666284
+sqlcl sys as sysdba
+#1728686759
+sudo systemctl start oracle-xe
+#1728686785
+sqlcl sys as sysdba
+#1728686898
+sqlcl c##asl_hd@127.0.0.1:1521/XE
+#1728686937
+sqlcl ASL_HD
+#1728687068
+q
+#1728687075
+sqlplus ASL_HD
+#1728687090
+sqlcl ASL_HD
+#1728687368
+sudo systemctl stop oracle-xe
+#1728687405
+q
+#1729238752
+cdD
+#1729238753
+s
+#1729238753
+ls
+#1729238757
+r
+#1729327213
+gst
+#1729327216
+gst -u
+#1729327230
+gca 
+#1729327234
+r
+#1729327391
+cd
+#1729327400
+lsblk
+#1729327414
+sudo mount /dev/sdc1 ./usb/
+#1729327418
+r
+#1729327486
+cp $HOME/usb/* .
+#1729327488
+r
+#1729327492
+cd
+#1729327497
+sudo umount usb/
+#1729327499
+cd
+#1729327507
+cd dox/personal-stuff/pictures/family/
+#1729327508
+ls
+#1729327509
+r
+#1729327518
+gst
+#1729327528
+gca add pictures for lottery
+#1729327538
+clear
+#1729327538
+ls
+#1729329219
+r
+#1729329304
+q
+#1729329520
+cdD
+#1729329521
+gst
+#1729329527
+gst -u
+#1729329535
+gca add greencard applications
+#1729329541
+clear
+#1729329541
+ls
+#1729329541
+q
+#1729335268
+cd .config/
+#1729335268
+ls
+#1729335269
+r
+#1729335283
+gst
+#1729335286
+gst -u
+#1729335287
+r
+#1729335532
+cd
+#1729335533
+,,
+#1729335534
+..
+#1729335537
+cd n3m0/
+#1729335537
+ls
+#1729335538
+r
+#1729335539
+q
+#1729335541
+cd
+#1729335541
+ls
+#1729335545
+cdw
+#1729335551
+cd
+#1729335555
+cd dots/
+#1729335556
+ls
+#1729335556
+r
+#1729335579
+clone https://github.com/nemo256/vimy
+#1729335582
+cd vimy/
+#1729335583
+r
+#1729335712
+nvim
+#1729335715
+r
+#1729335753
+pwd
+#1729335756
+r
+#1729335779
+nvim
+#1729335782
+r
+#1729336130
+rm .local/share/nvim/site/pack/packer/
+#1729336138
+c
+#1729336145
+rm .config/nvim/plugin/packer_compiled.lua 
+#1729336149
+q
