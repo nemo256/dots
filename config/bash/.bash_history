@@ -111575,3 +111575,575 @@ r
 cd vimy/
 #1729344978
 r
+#1729349747
+cdd
+#1729349748
+ls
+#1729349748
+r
+#1729349772
+unzip chinook.zip 
+#1729349773
+r
+#1729350252
+q
+#1729350702
+sudo systemctl stop oracle-xe
+#1729350707
+sudo systemctl start oracle-xe
+#1729350923
+sqlcl c##asl_hd@127.0.0.1:1521/XE
+#1729350937
+sqlcl ASL_HD
+#1729350984
+q
+#1729350995
+sqlcl ASL_HD
+#1729351628
+sudo systemctl stop oracle-xe
+#1729344972
+cd .config/nvim/
+#1729344972
+ls
+#1729344972
+r
+#1729348519
+gst
+#1729348523
+gst -u
+#1729348540
+gca NEW MILESTONE - Switch to lazy.nvim
+#1729348545
+r
+#1729348549
+..
+#1729348551
+cd dots
+#1729348551
+ls
+#1729348554
+cd config/nvim/
+#1729348555
+ls
+#1729348560
+cd .config/
+#1729348561
+ls
+#1729348564
+cd nvim/
+#1729348564
+ls
+#1729348567
+r
+#1729348599
+clone https://github.com/nemo256/vimy
+#1729348608
+r
+#1729348634
+stow -t ~/ nvim
+#1729348653
+cd
+#1729348655
+cd dots
+#1729348655
+ls
+#1729348656
+gst
+#1729348676
+gca NEW MILESTONE - Neovim Switch to Lazy.nvim
+#1729348681
+cd
+#1729349339
+r
+#1729350261
+gst
+#1729350264
+gst -u
+#1729350273
+gca add dadbod and dadbod ui
+#1729350409
+r
+#1729350439
+gst
+#1729350441
+gst -u
+#1729351672
+gst
+#1729351673
+gst -u
+#1729351674
+q
+#1729362237
+cd dots
+#1729362242
+cd config/nvim/.config/nvim/
+#1729362242
+ls
+#1729362243
+r
+#1729362543
+gst
+#1729362548
+gca add noice.nvim
+#1729362665
+r
+#1729366396
+gst
+#1729366406
+gca update dadbodui and some mappings
+#1729366409
+r
+#1729367140
+gst
+#1729367143
+gca add TODO
+#1729367148
+gst
+#1729367184
+r
+#1729367342
+q
+#1729367863
+nvim
+#1729367352
+cd dots/config/nvim/.config/nvim/
+#1729367353
+gst
+#1729367356
+gd
+#1729367360
+gca update 
+#1729367362
+clear
+#1729367363
+ls
+#1729367364
+..
+#1729367369
+cd .build/
+#1729367371
+ls
+#1729367374
+cd tily/
+#1729367375
+ls
+#1729367377
+nvim config.h
+#1729367819
+make 
+#1729367825
+sudo make clean install
+#1729367828
+gst
+#1729367835
+gca update font for neovim
+#1729367870
+nvim config.
+#1729367872
+gca update font for neovimh
+#1729367876
+nvim config.h
+#1729368064
+make 
+#1729368070
+sudo make clean install
+#1729368079
+nvim config.h
+#1729368111
+make 
+#1729368115
+sudo make clean install
+#1729368235
+nvim config.h
+#1729368266
+make 
+#1729368270
+sudo make clean install
+#1729368290
+clear
+#1729368291
+ls
+#1729368292
+nvim config.
+#1729368294
+nvim config.h
+#1729368402
+make 
+#1729368406
+sudo make clean install
+#1729368408
+gst
+#1729368421
+gca rollback to old working version
+#1729368423
+q
+#1729367928
+st -f "monospace 11" nvim
+#1729367966
+st -f "FiraCode Nerd Font:size=11" nvim
+#1729367986
+st -f "FiraCode Nerd Font:size=12:style=Bold" nvim
+#1729367990
+st -f "FiraCode Nerd Font:size=11:style=Bold" nvim
+#1729368006
+st -f "FiraCode Nerd Font:size=10:style=Bold" nvim
+#1729368324
+st -f 'FiraCode Nerd Font:size=10:style=Bold' nvim
+#1729368425
+q
+#1729368432
+cd .build/st/
+#1729368433
+ls
+#1729368434
+r
+#1729368505
+gs
+#1729368506
+gst
+#1729368508
+gst -u
+#1729368509
+q
+#1729368606
+sudo systemctl start oracle-xe
+#1729368778
+sqlcl asl_hd@127.0.0.1:1521/XE
+#1729368974
+sudo systemctl stop oracle-xe
+#1729369010
+c
+#1729369091
+cd dots
+#1729369091
+ls
+#1729369094
+cd config/nvim/
+#1729369097
+cd .config/nvim/
+#1729369098
+ls
+#1729369099
+r
+#1729369285
+gst
+#1729369294
+gca update telescope keybindings
+#1729369316
+q
+#1729369523
+cd dots
+#1729369527
+cd config/nvim/.config/nvim/
+#1729369528
+ls
+#1729369528
+r
+#1729369689
+q
+#1729370275
+cd dots
+#1729370279
+cd config/nvim/
+#1729370282
+cd .config/nvim/
+#1729370283
+ls
+#1729370283
+r
+#1729370643
+q
+#1729370650
+cd dots/config/nvim/.config/nvim/
+#1729370650
+ls
+#1729370651
+gst
+#1729370653
+gst -u
+#1729370654
+gd
+#1729370659
+gca update mason
+#1729370661
+q
+#1729370663
+sudo systemctl stop oracle-xe
+#1729857232
+yt https://www.youtube.com/watch?v=U23OVH64xgQ
+#1729857240
+upd
+#1729857254
+clear
+#1729857254
+ls
+#1729857255
+q
+#1729857266
+mpv https://www.youtube.com/watch?v=U23OVH64xgQ
+#1729857956
+q
+#1729878425
+anime
+#1729878428
+ani-cli 
+#1729878437
+ins curl
+#1729878442
+ani-cli 
+#1729878464
+cd .build/
+#1729878465
+ls
+#1729878467
+cd ani-cli/
+#1729878469
+git pull
+#1729878477
+
+#1729878506
+ani-cli -u
+#1729878510
+ani-cli -U
+#1729878515
+sudo ani-cli -U
+#1729878518
+clear
+#1729878519
+ls
+#1729878520
+cd
+#1729878522
+ani-cli 
+#1729878525
+q
+#1729881752
+cd .build/
+#1729881752
+ls
+#1729881755
+cd tily/
+#1729881755
+ls
+#1729881755
+r
+#1729881759
+nvim config.h
+#1729881871
+make
+#1729881875
+sudo make clean install
+#1729881883
+gca update magnetdl link
+#1729881885
+clear
+#1729881886
+cd
+#1729881886
+q
+#1729881939
+clear
+#1729881939
+ls
+#1729881940
+q
+#1729881941
+clear
+#1729881941
+ls
+#1729881942
+q
+#1729943379
+mpv <video controls src="magnet:?xt=urn:btih:d5de41440647689b5d69c930bcafa8135c115bf2&dn=Deadpool+Wolverine+%282024%29+%5B1080p%5D+%5BWEBRip%5D+%5B5.1%5D+%5BYTS.MX%5D&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce" data-path="/Deadpool.Wolverine.2024.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4"></video><script src="https://cdn.jsdelivr.net/npm/@webtor/player-sdk-js/dist/index.min.js" charset="utf-8" async></script>
+#1729943381
+q
+#1729943410
+cdd
+#1729943411
+ls
+#1729943412
+r
+#1731250964
+ls
+#1731250979
+chmod 
+#1731250982
+q
+#1731250988
+tree
+#1731250999
+ins alder
+#1731251005
+paru -S alder
+#1731251059
+q
+#1731251261
+cdw
+#1731251262
+cd archy/
+#1731251263
+ls
+#1731251267
+v archy 
+#1731251424
+q
+#1731251479
+cdw
+#1731251481
+cd asl_hd
+#1731251483
+yarn dev
+#1731251556
+q
+#1731250951
+brc
+#1731251559
+q
+#1731252873
+cdw
+#1731252877
+cd HackINI-2k22/
+#1731252878
+ls
+#1731252878
+r
+#1731252782
+cdw
+#1731252783
+ls
+#1731252785
+cd HackINI-2k22/
+#1731252786
+ls
+#1731252786
+r
+#1731260264
+nvim drive/DB/STP_DB.sql 
+#1732361900
+cd
+#1732361903
+cd test/oussama/
+#1732361904
+ls
+#1732361904
+r
+#1732361793
+cdd
+#1732361793
+ls
+#1732361794
+r
+#1732361835
+unrar projetl3.rar 
+#1732361836
+ls
+#1732361844
+unrar x projetl3.rar 
+#1732361845
+r
+#1732361877
+php -S localhost:3000
+#1732566168
+r
+#1732823791
+mariadb
+#1732823808
+mariadb-check --all-databases -u n3m0 -p -c
+#1732823824
+sudo systemctl start mariadb.service
+#1732823828
+mariadb-check --all-databases -u n3m0 -p -c
+#1732823834
+mariadb
+#1732823841
+sudo mariadb
+#1732823846
+clear
+#1732823847
+ls
+#1732823847
+q
+#1732896523
+cd /etc/php/
+#1732896524
+ls
+#1732896531
+sudo nvim php.ini 
+#1732896605
+exit
+#1732903415
+clear
+#1732903415
+ls
+#1732903416
+clear
+#1732903417
+ls
+#1732903417
+q
+#1732903575
+cdw
+#1732903577
+cd TS_encadrement/
+#1732903577
+ls
+#1732903613
+sudo php -S localhost:3000
+#1732910662
+q
+#1732903425
+mariadb-check --all-databases -u n3m0 -p -c
+#1732903435
+sudo systemctl start mariadb.service
+#1732903556
+mariadb -u n3m0 -p
+#1732904927
+mariadb-dump 
+#1732904946
+mariadb-dump -u n3m0 -p --databases TS_DB > TS_DB.sql
+#1732904949
+ls
+#1732904949
+r
+#1732909281
+mariadb -u n3m0 -p
+#1732910670
+mariadb-dump -u n3m0 -p --databases TS_DB > TS_DB.sql
+#1732910673
+ls
+#1732910673
+r
+#1732910699
+q
+#1732903725
+r
+#1732910708
+c
+#1732910709
+ls
+#1732910710
+clear
+#1732910710
+ls
+#1732910711
+cd
+#1732910711
+q
+#1732913234
+cdw
+#1732913237
+cd TS_encadrement/
+#1732913240
+nvim mcd 
+#1732914907
+cdd
+#1732914907
+ls
+#1732914908
+r
+#1732913339
+cdw
+#1732913340
+cd TS_encadrement/
+#1732913341
+r
