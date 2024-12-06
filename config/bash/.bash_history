@@ -112401,3 +112401,163 @@ ls
 r
 #1733516116
 q
+#1733516379
+cd dots
+#1733516380
+ls
+#1733516382
+cd config/
+#1733516383
+ls
+#1733516385
+cd nvim/
+#1733516385
+ls
+#1733516388
+cd .config/nvim/
+#1733516389
+ls
+#1733516390
+r
+#1733516564
+gst
+#1733516576
+gca add plantuml jar file
+#1733516579
+cd
+#1733516580
+cdw
+#1733516584
+cd
+#1733516589
+cd .build/
+#1733516590
+ls
+#1733516594
+clear
+#1733516595
+ls
+#1733516603
+cd
+#1733516604
+cd .config/
+#1733516606
+gst
+#1733516609
+cd nvim/
+#1733516609
+ls
+#1733516610
+gst
+#1733516622
+gca add plantuml jar file
+#1733516625
+clear
+#1733516626
+cd
+#1733516626
+q
+#1733515621
+cdw
+#1733515623
+ls
+#1733515628
+cd DashRecours/
+#1733515629
+s
+#1733515629
+ls
+#1733515635
+r
+#1733515875
+brc
+#1733515890
+r
+#1733516002
+vrc
+#1733516118
+r
+#1733516806
+java -jar ../../../plantuml.jar user.uml 
+#1733516817
+r
+#1733516839
+java -jar ../../../plantuml.jar user.uml 
+#1733516853
+java -jar ../../../plantuml.jar -gui
+#1733516872
+java -jar ../../../plantuml.jar -gui user.
+#1733516876
+java -jar ../../../plantuml.jar -gui user.uml 
+#1733516884
+r
+#1733516896
+java -jar ../../../plantuml.jar -gui user.uml 
+#1733516900
+java -jar ../../../plantuml.jar user.uml 
+#1733516908
+r
+#1733516966
+java -jar ../../../plantuml.jar Utilisateur.uml 
+#1733516975
+java -jar ../../../../plantuml.jar Utilisateur.uml 
+#1733516978
+java -jar ../../../../../plantuml.jar Utilisateur.uml 
+#1733516991
+r
+#1733517037
+gst
+#1733517042
+gd
+#1733517052
+grh
+#1733517055
+gst
+#1733517057
+r
+#1733517066
+q
+#1733520742
+pip install mocodo
+#1733520768
+ins pip
+#1733520773
+ins python-pip
+#1733520780
+ins python
+#1733520843
+pip install mocodo
+#1733520853
+sudo pip install mocodo
+#1733520898
+sudo pacman -S python-mocodo
+#1733520910
+sudo pacman -S python-pip
+#1733520914
+pip
+#1733520918
+pip install
+#1733520925
+cd test/
+#1733520926
+;s
+#1733520926
+ls
+#1733520930
+rm test 
+#1733520930
+ls
+#1733521336
+q
+#1733522034
+mocodo
+#1733522035
+q
+#1733522054
+pip install mocodo
+#1733522079
+sudo pip install mocodo --break-system-packages
+#1733522087
+mocodo
+#1733522089
+q
