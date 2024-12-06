@@ -112561,3 +112561,59 @@ sudo pip install mocodo --break-system-packages
 mocodo
 #1733522089
 q
+#1733520145
+nvim test/
+#1733520152
+cd test/
+#1733520152
+ls
+#1733520153
+r
+#1733520961
+mocodo
+#1733521125
+pip install mocodo
+#1733521133
+python -m venv venv
+#1733521142
+source venv/bin/activate
+#1733521147
+pip install mocodo
+#1733521160
+mocodo
+#1733521196
+man mocodo
+#1733521199
+mocodo --help
+#1733521237
+mocodo -i mcd
+#1733521244
+r
+#1733521275
+mocodo -i helpdesk.mcd 
+#1733521278
+r
+#1733521341
+cd mcd/
+#1733521341
+ls
+#1733521457
+mocodo -i helpdesk.mcd 
+#1733521695
+mocodo --help
+#1733527033
+mocodo -i helpdesk.mcd --svg_to png
+#1733527041
+ins cairosvg
+#1733527060
+ins python-cairosvg
+#1733527065
+mocodo -i helpdesk.mcd --svg_to png
+#1733527125
+pip install cairosvg
+#1733527134
+mocodo -i helpdesk.mcd --svg_to png
+#1733527138
+r
+#1733527160
+q
