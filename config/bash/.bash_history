@@ -112147,3 +112147,257 @@ cdw
 cd TS_encadrement/
 #1732913341
 r
+#1732915607
+xrc
+#1732915628
+cd .dots
+#1732915632
+cd dots/
+#1732915632
+ls
+#1732915634
+gst
+#1732915639
+gca update wallpaper
+#1733039524
+cdw
+#1733039525
+cd TS_encadrement/
+#1733039526
+ls
+#1733039526
+r
+#1733045454
+sudo systemctl start mariadb.service
+#1733045459
+cdw
+#1733045460
+cd TS_encadrement/
+#1733045463
+sudo php -S localhost:3000
+#1733045492
+q
+#1733045500
+sudo systemctl stop mariadb.service
+#1733045501
+q
+#1733045510
+clear
+#1733045510
+ls
+#1733045510
+q
+#1733045748
+r
+#1733058516
+cdw
+#1733058582
+cd TS_encadrement/
+#1733058586
+ls
+#1733058586
+r
+#1733126172
+sudo systemctl start mariadb.service
+#1733126203
+sudo php -S localhost:3000
+#1733126409
+q
+#1733126486
+r
+#1733129612
+cdw
+#1733129623
+ls
+#1733129625
+yarn dev
+#1733126534
+r
+#1733130573
+ping -n 20 www.google.com
+#1733130660
+ping -n 20 locqlhost
+#1733130666
+ping -n 20 localhost
+#1733130671
+ping -n 20 localhost:8080
+#1733130677
+ping localhost:8080 -n 10
+#1733130704
+man ping 
+#1733130713
+ping localhost:8080 -c 10
+#1733130723
+ping 127.0.0.1 -c 10
+#1733130898
+matrix_game 4
+#1733130931
+r
+#1733131045
+./exo19 
+#1733131129
+r
+#1733131138
+./flip_digits 12341
+#1733131145
+r
+#1733131265
+gcc flip_digits.c -o flip_digits
+#1733131267
+r
+#1733131277
+gcc flip_digits.c -o flip_digits
+#1733131279
+./flip_digits 
+#1733131285
+r
+#1733131294
+gcc flip_digits.c -o flip_digits
+#1733131295
+./flip_digits 
+#1733131301
+r
+#1733131315
+./flip_digits 
+#1733131339
+r
+#1733131380
+./flip_digits 
+#1733131538
+q
+#1733131588
+cdw
+#1733131590
+cd r
+#1733131590
+r
+#1733132935
+sudo systemctl status mariadb
+#1733132948
+sudo php -S localhost:3000
+#1733132984
+q
+#1733133887
+hack
+#1733133891
+qq
+#1733133891
+q
+#1733133897
+lolcat sadasd
+#1733133907
+echo hashahshdahsd | lolcat
+#1733134053
+q
+#1733134842
+cdw
+#1733134844
+cd ekrili
+#1733134844
+r
+#1733134412
+cdw
+#1733134414
+cd ekrili
+#1733134414
+ls
+#1733134415
+r
+#1733134810
+..
+#1733134811
+gst
+#1733134869
+gca update hover effect on annonce elements
+#1733135063
+clear
+#1733135063
+ls
+#1733135064
+gst
+#1733135067
+q
+#1733132986
+cdw
+#1733132989
+r
+#1733133010
+cbc
+#1733133013
+./cbc
+#1733133022
+r
+#1733133045
+python CNF.py 
+#1733133106
+r
+#1733133154
+sudo php -S localhost:3000
+#1733133875
+r
+#1733134080
+cd ekrili
+#1733134081
+ls
+#1733134081
+r
+#1733134085
+yarn dev
+#1733135479
+q
+#1733139595
+clear
+#1733139596
+ls
+#1733139596
+q
+#1733141365
+r
+#1733141402
+cd
+#1733141404
+lsblk
+#1733141416
+sudo mount /dev/sdc1 usb/
+#1733141422
+cd usb/
+#1733141423
+ls
+#1733141445
+sudo cp -fvr ../work/TS_encadrement/ ./
+#1733141447
+r
+#1733141452
+cd
+#1733141458
+sudo umount /dev/sdc1 
+#1733141460
+lsblk
+#1733141464
+eject /dev/sdc
+#1733141466
+sudo eject /dev/sdc
+#1733141469
+lsblk
+#1733303983
+cdw
+#1733303988
+cd asl_hd
+#1733303989
+ls
+#1733303990
+r
+#1733141522
+cdw
+#1733141523
+cd asl_hd
+#1733141526
+yarn dev
+#1733516023
+cd .config/nvim
+#1733516023
+ls
+#1733516024
+r
+#1733516116
+q
