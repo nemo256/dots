@@ -112617,3 +112617,275 @@ mocodo -i helpdesk.mcd --svg_to png
 r
 #1733527160
 q
+#1733521584
+cd dots/
+#1733521585
+ls
+#1733521591
+cd config/nvim/.config/nvim/
+#1733521591
+ls
+#1733521592
+r
+#1733522163
+gst
+#1733522171
+gca add mocodo keymap
+#1733522174
+gst
+#1733527089
+sudo pip install mocodo
+#1733527101
+sudo pip install cairosvg --break-system-packages
+#1733527164
+gst
+#1733527167
+r
+#1733527197
+cd dots
+#1733527198
+gst
+#1733527220
+gca update mocodo keymap svg to png 
+#1733527222
+q
+#1733527506
+cdw
+#1733527508
+cd asl_hd
+#1733527509
+gst
+#1733527511
+gst -u
+#1733527514
+r
+#1733527517
+gst
+#1733527518
+gst -u
+#1733527533
+gca add mocodo mcd
+#1733527537
+q
+#1733527591
+cdp
+#1733527591
+ls
+#1733527591
+r
+#1733527594
+cds
+#1733527594
+ls
+#1733527595
+r
+#1733527618
+q
+#1733527620
+cdw
+#1733527621
+cd asl_hd
+#1733527622
+ls
+#1733527624
+cd mcd
+#1733527625
+ls
+#1733527626
+r
+#1733528097
+cdw
+#1733528099
+cd asl_hd
+#1733528099
+ls
+#1733528100
+gst
+#1733528101
+gst -u
+#1733528102
+q
+#1733584036
+cdw
+#1733584038
+cd asl_hd
+#1733584040
+gst
+#1733584046
+gca update helpdesk MCD
+#1733822163
+matrix_game 6
+#1733822220
+matrix_game 3
+#1733822246
+cdw
+#1733822247
+cd matrix_game/
+#1733822248
+ls
+#1733822248
+r
+#1733822316
+q
+#1733822324
+pacman -Q neovim
+#1733822331
+pacman -Qs neovim
+#1733822342
+q
+#1733822494
+ls
+#1733822497
+cd wals
+#1733822497
+ls
+#1733822498
+r
+#1733822503
+q
+#1733838682
+ls
+#1733838688
+cat aadl 
+#1733838694
+nvim aadl 
+#1733838696
+q
+#1733838726
+cdw
+#1733838728
+cd asl_hd
+#1733838730
+yarn dev
+#1733839085
+q
+#1733840779
+nvim temp
+#1733815693
+cdd
+#1733815693
+ls
+#1733815694
+r
+#1733815723
+firefox dox.html 
+#1733818318
+firefox dox.html &
+#1733839094
+ls
+#1733839956
+cdw
+#1733839993
+cd asl_hd
+#1733839994
+gst
+#1733839999
+gca update mcd
+#1733841935
+cdw
+#1733841936
+cd asl_hd
+#1733841937
+gst
+#1733841945
+gca update mcd
+#1733853885
+firefox --profile-manager
+#1733853951
+cd .mozilla/firefox/
+#1733853952
+ls
+#1733853969
+firefox --profile zfdqypvj.default/
+#1733853983
+firefox --profile j1v6n3ho.default-release/
+#1733853999
+upd
+#1733854003
+ins firefox
+#1733854029
+firefox --profile j1v6n3ho.default-release/
+#1733854077
+firefox --profile-manager
+#1733854103
+nvim profiles.ini 
+#1733854259
+ins nss
+#1733854454
+ins apache
+#1733854457
+q
+#1733852833
+ins firefox
+#1733852839
+upd
+#1733853074
+ins firefox
+#1733853419
+firefox
+#1733853484
+cd /etc/
+#1733853485
+ls
+#1733853486
+r
+#1733853620
+cd /var/cache/pacman/pkg/
+#1733853621
+;s
+#1733853621
+ls
+#1733853626
+r
+#1733853652
+sudo pacman -S --overwrite firefox-127.0-1-x86_64.pkg.tar.zst
+#1733853680
+sudo pacman -Sy --overwrite firefox-127.0-1-x86_64.pkg.tar.zst
+#1733853686
+sudo pacman -S --overwrite firefox-127.0-1-x86_64.pkg.tar.zst
+#1733853712
+sudo pacman -U firefox-127.0-1-x86_64.pkg.tar.zst
+#1733853812
+cd
+#1733853820
+r
+#1733854459
+qq
+#1733854460
+q
+#1733854540
+cd dots/config/nvim/.config/nvim/
+#1733854540
+ls
+#1733854540
+r
+#1733854690
+q
+#1733855232
+sudo systemctl start oracle-xe
+#1733855252
+htop
+#1733855458
+sqlcl asl_hd@127.0.0.1:1521/XE
+#1733855652
+sqlcl sys as sysdba
+#1733855710
+sqlcl asl_hd@127.0.0.1:1521/XE
+#1733855884
+q
+#1733861774
+nvim test/
+#1733861783
+nvim test
+#1733861787
+nvim test2
+#1733864017
+ls
+#1733864018
+clear
+#1733864019
+q
+#1733864019
+ls
+#1733864023
+r
