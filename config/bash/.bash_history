@@ -112923,3 +112923,583 @@ ls
 r
 #1733864556
 q
+#1733864558
+cd dots
+#1733864558
+ls
+#1733864560
+gst
+#1733864577
+gca add open mocodo mcd output image - png
+#1733864580
+q
+#1733864463
+cd dots/config/ranger/
+#1733864463
+ls
+#1733864465
+cd .config/ranger/
+#1733864466
+ls
+#1733864467
+r
+#1733864584
+cd .build/
+#1733864584
+ls
+#1733864589
+cd tily/
+#1733864589
+ls
+#1733864590
+r
+#1733864645
+make
+#1733864650
+sudo make clean install
+#1733864664
+gca update sxiv rule for only 4th workspace
+#1733864666
+q
+#1733864741
+cd .build/
+#1733864741
+ls
+#1733864743
+r
+#1733864822
+make
+#1733864827
+sudo make clean install
+#1733864722
+xprop
+#1733864851
+q
+#1733864856
+cd .buid
+#1733864859
+cd .build/
+#1733864859
+ls
+#1733864861
+cd tily/
+#1733864861
+ls
+#1733864862
+gst
+#1733864882
+gca add sxiv rule 4th workspace
+#1733864884
+q
+#1733902044
+ls
+#1733902091
+lsblk
+#1733902103
+sudo mount /dev/sdc1 usb/
+#1733902108
+cd usb
+#1733902109
+ls
+#1733902110
+r
+#1733902134
+sudo cp -fvr ../work/gec.zip .
+#1733902136
+r
+#1733902144
+sudo umount usb/
+#1733902150
+q
+#1733922984
+cdw
+#1733922989
+cd gec-asl/
+#1733922990
+ls
+#1733922990
+r
+#1733923072
+composer install --no-dev
+#1733923087
+composer install --no-dev --ignore-platform-req=ext-gd
+#1733923093
+r
+#1733923105
+composer install --no-dev --ignore-platform-req=ext-gd
+#1733923141
+r
+#1733924193
+composer install --no-dev --ignore-platform-req=ext-gd
+#1733924206
+lsblk
+#1733924212
+cd
+#1733924220
+sudo mount /dev/sdc1 usb/
+#1733924223
+cd usb/
+#1733924223
+ls
+#1733924226
+cd
+#1733924226
+cdw
+#1733924230
+cd gec-asl/
+#1733924231
+ls
+#1733924232
+r
+#1733924277
+sudo cp -fvr vendor/ ../../usb/
+#1733924301
+cd
+#1733924302
+cd usb/
+#1733924303
+ls
+#1733924308
+cd
+#1733924313
+sudo umount usb/
+#1733924392
+sudo mount /dev/sdc1 usb/
+#1733924395
+cd usb/
+#1733924395
+ls
+#1733924398
+cd
+#1733924401
+sudo umount usb/
+#1733924403
+clear
+#1733924409
+eject /dev/sdc1 
+#1733924411
+sudo eject /dev/sdc1 
+#1733924413
+clear
+#1733924595
+lsblk
+#1733924605
+sudo mount /dev/sdc1 usb/
+#1733924607
+r
+#1733924613
+cd
+#1733924615
+r
+#1733924635
+sudo rm -fvr vendor/
+#1733924678
+ls
+#1733924685
+sudo rm -fvr vendor/
+#1733924712
+cdw
+#1733924719
+cd gec-asl/
+#1733924720
+ls
+#1733924723
+r
+#1733924766
+zip vendor.zip gec-vendor/
+#1733924778
+zip -r vendor.zip gec-vendor/
+#1733924788
+r
+#1733924815
+sudo cp -fvr vendor.zip ../usb/
+#1733924828
+lsblk
+#1733924833
+sudo umount usb/
+#1733924838
+sudo umount ../usb/
+#1733924849
+lsblk
+#1733924860
+sudo mount /dev/sdc1 ../usb/
+#1733924864
+sudo cp -fvr vendor.zip ../usb/
+#1733924873
+sudo umount usb/
+#1733924877
+sudo umount ../usb/
+#1733924903
+eject /dev/sdc1
+#1733924906
+sudo eject /dev/sdc1
+#1733925801
+cd gec-asl/
+#1733925802
+ls
+#1733925805
+rm vendor/
+#1733925807
+composer install --no-dev --optimize-autoloader --ignore-platform-req=ext-gd
+#1733925830
+r
+#1733925929
+zip -r vendor-gec.zip vendor/
+#1733925940
+lsblk
+#1733925972
+sudo mount /dev/sdc1 ../../usb/
+#1733926015
+sudo cp -fvr vendor-gec.zip ../../usb/
+#1733926035
+sudo umount ../../usb/
+#1733926821
+sudo systemctl start oracle-xe
+#1733926859
+php artisan serve
+#1733927273
+sudo systemctl stop oracle-xe
+#1733927321
+q
+#1733927286
+cdw
+#1733927289
+cd gec-asl/
+#1733927308
+composer install --no-dev --optimize-autoloader --classmap-authoritative --ignore-platform-req
+#1733927312
+composer install --no-dev --optimize-autoloader --classmap-authoritative
+#1733927320
+composer install --no-dev --optimize-autoloader --classmap-authoritative --ignore-platform-req=gd
+#1733927332
+r
+#1733927337
+composer install --no-dev --optimize-autoloader --classmap-authoritative --ignore-platform-req=gd
+#1733927353
+composer install --no-dev --optimize-autoloader --classmap-authoritative --ignore-platform-req=ext-gd
+#1733927373
+lsblk
+#1733927379
+sudo mount /dev/sdc1 usb/
+#1733927387
+sudo mount /dev/sdc1 ../../usb/
+#1733927407
+zip -r vendor1.zip vendor/
+#1733927419
+sudo cp -fvr vendor1.zip ../../usb/
+#1733927424
+sudo umount usb/
+#1733927427
+sudo umount ../../usb/
+#1733927429
+cd
+#1733927430
+cdw
+#1733927433
+cd gec-asl/
+#1733953501
+cdw
+#1733953503
+cd asl_hd
+#1733953504
+gst
+#1733953507
+gca update mcd
+#1733953511
+q
+#1733988908
+ls
+#1733988909
+clear
+#1733988910
+ls
+#1733988910
+q
+#1733988912
+ls
+#1733988913
+q
+#1733988915
+cdw
+#1733988918
+cd gec-asl/
+#1733988919
+ls
+#1733988922
+r
+#1733988951
+man composer install
+#1733989081
+composer install --no-dev --ignore-platform-req=ext-gd -T
+#1733989091
+man composer install --no-dev --ignore-platform-req=ext-gd 
+#1733989117
+composer install -T --no-dev --ignore-platform-req=ext-gd 
+#1733989136
+composer install --prefer-dist --no-dev --ignore-platform-req=ext-gd 
+#1733989159
+composer install --help
+#1733989294
+clear
+#1733989296
+ls
+#1733991967
+composer install
+#1733991974
+r
+#1733991979
+composer install
+#1733992020
+composer install --ignore-platform-req=ext-gd`
+#1733992022
+composer install --ignore-platform-req=ext-gd
+#1733996897
+cd
+#1733996898
+cdw
+#1733996899
+cd asl_hd
+#1733996899
+ls
+#1734118334
+cdd
+#1734118334
+r
+#1734131313
+space
+#1734131324
+df -h .
+#1734131327
+r
+#1734131345
+space
+#1734131349
+..
+#1734131349
+r
+#1734131353
+space
+#1734131357
+..
+#1734131360
+space
+#1734197209
+df -h .
+#1734197224
+df -h ./work/
+#1734197236
+df -h work/
+#1734197247
+space ./work/
+#1734197545
+shutdown now
+#1734197711
+reboot
+#1734197546
+amixer
+#1734198192
+shutdown -h now
+#1734198651
+mpd &
+#1734198700
+amixer
+#1734198713
+alsamixer
+#1734198852
+aplay -l
+#1734198880
+lspci | grep -i audio
+#1734198914
+alsamixer
+                                                                                                                                                                                                                           #1734199299
+sudo alsactl init
+#1734199303
+q
+#1734199307
+sudo alsactl init
+#1734199374
+speaker-test -c 2
+#1734199437
+sudo nvim /etc/default/grub 
+#1734199523
+sudo update-grub
+#1734199527
+sudo nvim /etc/default/grub 
+#1734199592
+sudo rmmod snd_hda_intel
+#1734199605
+sudo modprobe snd_hda_intel
+#1734199607
+sudo rmmod snd_hda_intel
+#1734199608
+sudo modprobe snd_hda_intel
+#1734199668
+q
+#1734199670
+sudo rmmod snd_hda_intel
+#1734199672
+sudo modprobe snd_hda_intel
+#1734199678
+speaker-test -c 2
+#1734199682
+sudo modprobe snd_hda_intel
+#1734199684
+speaker-test -c 2
+#1734199685
+q
+#1734199693
+xrc
+#1734199705
+nvim .Xressources 
+#1734199714
+q
+#1734199718
+mpd &
+#1734199722
+q
+#1734199727
+sudo alsamixer
+#1734199734
+alsamixer
+#1734199736
+q
+#1734199741
+sudo modprobe snd_hda_intel
+#1734199744
+modprobe snd_hda_intel
+#1734199762
+sudo systemctl restart mpd
+#1734199772
+sudo killall mpd
+#1734199774
+mpd
+#1734199777
+q
+#1734199788
+sudo killall alsamixer
+#1734199789
+sudo killall alsa
+#1734199795
+sudo killall pulesaudio
+#1734199800
+sudo killall pulseaudio
+#1734199803
+sudo killall pulse_audio
+#1734199805
+sudo killall pulse-audio
+#1734199809
+sudo killall pulse
+#1734199812
+q
+#1734199826
+sudo alsactl init
+#1734199833
+sudo modprobe snd_hda_intel
+#1734199834
+q
+#1734199840
+sudo rmmod snd_hda_intel
+#1734199913
+killall pulseaudio
+#1734199925
+pulseaudio --start
+#1734199938
+killall pipewire
+#1734199999
+systemctl --user stop pipewire pipewire-pulse wireplumber
+#1734200016
+systemctl --user start pipewire pipewire-pulse wireplumber
+#1734200063
+sudo alsamixer
+#1734200065
+alsamixer
+#1734200121
+ins alsa-plugins
+#1734200136
+q
+#1734200165
+mpd &
+#1734200173
+killall mpd
+#1734200176
+mpd &
+#1734200191
+q
+#1734200195
+alsamixer
+#1734200232
+q
+#1734776807
+df -h .
+#1734776809
+r
+#1734776820
+arem
+#1734776830
+df -h .
+#1734776836
+r
+#1734776865
+df -h .
+#1734776867
+..
+#1734776868
+df -h .
+#1734776870
+df -h
+#1734776878
+df -h /dev/sda1
+#1734776881
+df -h /dev/sda2
+#1734776891
+q
+#1734777061
+df -h /dev/sda1
+#1734777065
+df -h /dev/sda2
+#1734777067
+df -h /dev/sda3
+#1734777069
+df -h /dev/sda
+#1734777076
+df -h /dev/sda2
+#1734777077
+q
+#1734777281
+alsamixer
+#1734777586
+cdw
+#1734777588
+ls
+#1734777591
+r
+#1734778045
+new stp
+#1734778055
+r
+#1734778107
+gca update boilerplate template
+#1734778123
+r
+#1734778280
+gca add TODOs
+#1734778319
+cd mcd
+#1734778319
+ls
+#1734778326
+nvim stp.mcd
+#1734778433
+r
+#1734778455
+..
+#1734778458
+cd dots
+#1734778458
+ls
+#1734778462
+cd config/ranger/.config/ranger/
+#1734778463
+ls
+#1734778463
+r
