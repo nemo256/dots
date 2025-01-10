@@ -113503,3 +113503,4738 @@ cd config/ranger/.config/ranger/
 ls
 #1734778463
 r
+#1734778561
+cd dots
+#1734778562
+ls
+#1734778575
+gca update ranger default text editor for mcd files
+#1734778579
+q
+#1734806854
+cdw
+#1734806856
+cd stp
+#1734806856
+gst
+#1734806859
+gst -u
+#1734806868
+gca add mcd diagram
+#1734808989
+gst
+#1734809009
+gca add decede and status_personne tables and relations to MCD
+#1734809112
+aplay -l
+#1734809119
+aplay -lL
+#1734809152
+clear
+#1734809153
+ls
+#1734809164
+r
+#1734809196
+q
+#1734889642
+cd .build/
+#1734889642
+ls
+#1734889643
+r
+#1734889704
+make
+#1734889711
+sudo make clean install
+#1734889713
+q
+#1734890071
+cdw
+#1734890072
+q
+#1734890077
+cdw
+#1734890083
+cdb
+#1734890083
+ls
+#1734890083
+r
+#1734890108
+clone https://github.com/nemo256/bp
+#1734890111
+cd bp
+#1734890125
+ls
+#1734890126
+r
+#1734890197
+gst
+#1734890207
+gca update boilerplate
+#1734890210
+q
+#1734890212
+cdw
+#1734890220
+q
+#1734890226
+cdw
+#1734890265
+new linux
+#1734890420
+q
+#1734890426
+cdw
+#1734890453
+new linux
+#1734890462
+ls
+#1734890463
+cd linux
+#1734890464
+ls
+#1734890466
+nvim
+#1734890479
+gst
+#1734890486
+gca update new linux repo!
+#1734890590
+ls
+#1734890591
+r
+#1734890609
+gca maintained as of 2024
+#1734890620
+cdw
+#1734890621
+cd bp
+#1734890621
+ls
+#1734890624
+nvim README.md 
+#1734890633
+gca maintained as of 2024
+#1734890635
+q
+#1734897087
+cd /
+#1734897088
+ls
+#1734897261
+q
+#1734890636
+cdw
+#1734890638
+cd linux
+#1734890639
+r
+#1734890901
+gst
+#1734890906
+gca update description.
+#1734891795
+r
+#1734891926
+gst
+#1734891928
+gs
+#1734891929
+gd
+#1734892071
+gst
+#1734892076
+gca add table of contents
+#1734892116
+gca fix table of contents
+#1734892182
+gca add presentation de linux
+#1734892678
+gca update presentation de linux
+#1734892955
+gca add linux fundamentals
+#1734892994
+mkdir images
+#1734893171
+gca update linux installation
+#1734893598
+gca add links to logos
+#1734893673
+gca update virtualbox download link
+#1734894512
+gca update terminal intro
+#1734894775
+gca update old computer image dimensions
+#1734895498
+gca add most common terminal commands
+#1734895649
+gca update useful commands
+#1734895772
+gca update commande utiles title
+#1734895934
+gca update images dimensions
+#1734896214
+gca update subtitle intros
+#1734896770
+gca update table of contents
+#1734897282
+gca add filesystem architecture and update table of contents
+#1734897583
+gca add user_group_other image
+#1734900022
+gst
+#1734900049
+gca add package managers section
+#1734900091
+gca quick fix
+#1734900422
+df -h
+#1734900474
+gca update package managers section
+#1734905440
+gst
+#1734905443
+gst -u
+#1735024828
+r
+#1735024339
+cdw
+#1735024341
+cd asl_hd
+#1735024341
+ls
+#1735024687
+r
+#1735024771
+yarn dev
+#1735024797
+yarn
+#1735024803
+yarn dev
+#1735025384
+ls
+#1735025385
+q
+#1735025597
+clear
+#1735025599
+sl
+#1735025599
+q
+#1735025600
+ls
+#1735025600
+q
+#1735066580
+cdw
+#1735066581
+cd stp/
+#1735066582
+ls
+#1735066658
+q
+#1735119443
+cdd
+#1735119443
+ls
+#1735119444
+r
+#1735121781
+ls
+#1735121781
+cdw
+#1735121790
+cd
+#1735121793
+cd temp
+#1735121796
+mkdir temp
+#1735121796
+ls
+#1735121798
+cd temp
+#1735121799
+ls
+#1735121807
+git clone https://github.com/nemo256/ekrili
+#1735121810
+ls
+#1735121813
+cd ekrili/
+#1735121814
+ls
+#1735121819
+yarn
+#1735121844
+yarn dev
+#1735121882
+ls
+#1735121885
+clear
+#1735121886
+ls
+#1735121886
+r
+#1735121893
+q
+#1735066659
+cdw
+#1735066660
+cd stp/
+#1735066663
+ls
+#1735118886
+cd mcd
+#1735118886
+ls
+#1735118901
+touch stp_temp
+#1735121894
+ls
+#1735121991
+q
+#1735122002
+ls
+#1735122003
+clear
+#1735122004
+ls
+#1735122005
+q
+#1735133743
+lsblk
+#1735133752
+sudo mount /dev/sdc1 usb/
+#1735133754
+cd usb/
+#1735133755
+ls
+#1735133755
+r
+#1735133776
+sudo cp -fvr STP.sql ../work/stp/
+#1735133778
+cd
+#1735133783
+sudo umount /dev/sdc1
+#1735133786
+lsblk
+#1735133796
+sudo eject /dev/sdc1
+#1735133813
+r
+#1735133826
+q
+#1735122006
+cdw
+#1735122008
+cd stp/
+#1735122009
+ls
+#1735122009
+r
+#1735122012
+gst
+#1735122018
+gca update mcd diagram
+#1735122363
+gca update gestion des personnes - 50%
+#1735133827
+gst
+#1735133845
+gca add database and update user management
+#1735133852
+clear
+#1735133853
+ls
+#1735133853
+q
+#1735133855
+cdw
+#1735133856
+cd stp/
+#1735133856
+ls
+#1735198279
+clear
+#1735198279
+;s
+#1735198281
+ls
+#1735198282
+q
+#1735214200
+cd
+#1735214201
+ls
+#1735214201
+r
+#1735214203
+q
+#1735214204
+cdw
+#1735214206
+cd stp/
+#1735214206
+ls
+#1735224457
+lsblk
+#1735224468
+sudo mount /dev/sdc1 ../../usb/
+#1735224473
+cd ../../usb/
+#1735224473
+ls
+#1735224497
+sudo cp stp.rar ../test/
+#1735224505
+cd
+#1735224511
+sudo umount usb/
+#1735224512
+clear
+#1735224513
+ls
+#1735224513
+q
+#1735224662
+df -u
+#1735224671
+du -f
+#1735240407
+df -h
+#1735240412
+df 
+#1735240420
+df /
+#1735240424
+df -h /
+#1735240430
+r
+#1735240668
+q
+#1735242723
+df -h /
+#1735242724
+q
+#1735242743
+r
+#1735242748
+space
+#1735242759
+r
+#1735242764
+space
+#1735242772
+r
+#1735242832
+space
+#1735242837
+r
+#1735242846
+df -h /
+#1735242847
+q
+#1735240673
+neovim --version
+#1735240678
+nvim --version
+#1735242278
+df -h /
+#1735242559
+cdw
+#1735242561
+cd dots
+#1735242561
+ls
+#1735242562
+cd
+#1735242564
+cd dots
+#1735242564
+ls
+#1735242565
+gst
+#1735242569
+gs
+#1735242571
+gd
+#1735242581
+clear
+#1735242581
+ls
+#1735242583
+r
+#1735242855
+cd
+#1735242856
+cdw
+#1735242857
+q
+#1735242858
+cdw
+#1735242859
+r
+#1735242946
+zip -r concours.zip concours/
+#1735242948
+r
+#1735243228
+q
+#1735243230
+space
+#1735243276
+cd .cache/
+#1735243277
+ls
+#1735243277
+r
+#1735243310
+q
+#1735243314
+space
+#1735243321
+df -h /
+#1735243322
+q
+#1735243393
+df -h /
+#1735243499
+r
+#1735293338
+sudo systemctl start oracle-xe
+#1735293376
+sqlcl sys as sysdba
+#1735293510
+sqlcl aslstp@127.0.0.1:1521/XE
+#1735293525
+r
+#1735293654
+sqlcl aslstp@127.0.0.1:1521/XE
+#1735291684
+unrar x stp.rar 
+#1735291695
+r
+#1735295469
+clear
+#1735295469
+ls
+#1735295470
+q
+#1735295471
+ls
+#1735295471
+r
+#1735295474
+q
+#1735323979
+cdw
+#1735323981
+cd stp
+#1735323982
+ls
+#1735323985
+r
+#1735323991
+gst
+#1735323994
+gs
+#1735323996
+gd
+#1735324010
+gca update repo name
+#1735324018
+r
+#1735324031
+git clone https://github.com/nemo256/stp-db
+#1735324035
+cd stp-db/
+#1735324036
+ls
+#1735324037
+gst
+#1735324038
+r
+#1735324090
+new stp-api
+#1735324097
+r
+#1735324152
+gst
+#1735324159
+gca update project boilerplate
+#1735324334
+nvim index.php
+#1735324352
+nvim nginx.conf
+#1735324417
+nvim dockerfile
+#1735324453
+nvim docker-compose.yml
+#1735324482
+docker-compose up --build -d
+#1735324510
+docker compose up --build -d
+#1735324650
+r
+#1735324747
+docker compose up --build -d
+#1735324783
+docker compose up -d
+#1735324794
+docker compose up
+#1735324831
+ins docker-compose
+#1735324836
+upd
+#1735324856
+ins docker-compose
+#1735324871
+docker compose up -d
+#1735324899
+sudo docker ps
+#1735324910
+sudo systemctl start docker
+#1735324914
+sudo docker ps
+#1735324916
+docker compose up -d
+#1735324919
+sudo docker compose up -d
+#1735324963
+sudo docker ps
+#1735325005
+r
+#1735325104
+sudo nvim /etc/hosts 
+#1735325154
+curl http://stp.sonatrach.dz
+#1735325169
+docker logs nginx
+#1735325178
+sudo docker logs nginx
+#1735325188
+clear
+#1735325188
+ls
+#1735325193
+r
+#1735325244
+docker-compose up -d
+#1735325248
+sudo docker-compose up -d
+#1735325257
+sudo docker ps
+#1735325265
+curl http://stp.sonatrach.dz
+#1735325274
+docker logs nginx-container
+#1735325274
+docker logs app1-container
+#1735325278
+sudo docker logs app1-container
+#1735325297
+curl http://stp.sonatrach.dz
+#1735325308
+sudo docker logs app1-container
+#1735325321
+sudo docker logs nginx-container
+#1735325333
+sudo docker-compose up -d
+#1735325338
+sudo docker ps
+#1735325401
+r
+#1735325444
+docker-compose up --build -d
+#1735325446
+sudo docker-compose up --build -d
+#1735325475
+docker ps
+#1735325478
+sudo docker ps
+#1735325487
+curl http://stp.sonatrach.dz
+#1735325503
+sudo nvim /etc/hosts 
+#1735325525
+curl http://stp.sonatrach.dz
+#1735325698
+r
+#1735325717
+sudo php -S localhost
+#1735325723
+sudo php -S localhost:8000
+#1735325738
+r
+#1735325823
+gca create a hello world app
+#1735325828
+nvim dockerfile
+#1735325841
+nvim nginx.conf
+#1735325857
+docker build -t php-nginx-app .
+#1735325860
+sudo docker build -t php-nginx-app .
+#1735325879
+sudo docker run -d --name php-nginx-app -p 80:80 php-nginx-app
+#1735325927
+r
+#1735326001
+sudo docker build -t php-nginx-app .
+#1735326015
+sudo docker run -d --name php-nginx-app -p 80:80 php-nginx-app
+#1735326043
+docker stop php-nginx-app
+#1735326045
+sudo docker stop php-nginx-app
+#1735326052
+sudo docker rm php-nginx-app
+#1735326062
+sudo docker build -t php-nginx-app .
+#1735326066
+sudo docker run -d --name php-nginx-app -p 80:80 php-nginx-app
+#1735326129
+sudo docker ps
+#1735326144
+sudo docker logs php-nginx-app
+#1735326189
+r
+#1735326207
+sudo docker build -t php-nginx-app .
+#1735326213
+sudo docker rm php-nginx-app
+#1735326216
+sudo docker run -d --name php-nginx-app -p 80:80 php-nginx-app
+#1735326278
+curl http://localhost
+#1735326331
+curl http://127.0.0.1
+#1735326389
+sudo docker stop $(docker ps -q)
+#1735326394
+sudo docker stop $(sudo docker ps -q)
+#1735326404
+sudo docker rm $(sudo docker ps -aq)
+#1735326413
+sudo docker rmi $(sudo docker images -q)
+#1735326425
+sudo systemctl stop docker
+#1735326442
+r
+#1735326449
+gst
+#1735326451
+gst -u
+#1735326453
+gd
+#1735326453
+gs
+#1735326455
+r
+#1735326463
+sudo php -S localhost:3000
+#1735375421
+paru -S oracle-sqldeveloper
+#1735375474
+sudo paru -S oracle-sqldeveloper
+#1735375479
+paru -S oracle-sqldeveloper
+#1735376173
+java -version
+#1735376242
+sudo pacman -S jdk-openjdk
+#1735376294
+export JAVA_HOME=/usr/lib/jvm/java-22-openjdk
+#1735376305
+oracle-sqldeveloper
+#1735376323
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+#1735376325
+oracle-sqldeveloper
+#1735376436
+paru -Rm oracle-sqldeveloper
+#1735376441
+paru -Rs oracle-sqldeveloper
+#1735376447
+arem
+#1735376449
+clear
+#1735376449
+ls
+#1735376449
+q
+#1735376110
+oracle-sqldeveloper 
+#1735377791
+cdw
+#1735377793
+cd gec
+#1735377796
+r
+#1735377815
+q
+#1735379153
+sudo nvim /etc/hosts 
+#1735379167
+q
+#1735379522
+sudo docker-compose exec stp-api ls /var/www/html
+#1735379535
+docker-compose exec stp-api ls /var/www/html
+#1735379535
+q
+#1735379609
+docker-compose exec stp-api cat /var/log/nginx/error.log
+#1735379611
+sudo docker-compose exec stp-api cat /var/log/nginx/error.log
+#1735380293
+docker-compose exec stp-api ls /var/www/html
+#1735380298
+sudo docker-compose exec stp-api ls /var/www/html
+#1735380330
+docker-compose logs stp-api
+#1735380332
+sudo docker-compose logs stp-api
+#1735380334
+q
+#1735382126
+man hosts
+#1735382166
+q
+#1735381359
+sudo nvim /etc/hosts 
+#1735381377
+cdw
+#1735381379
+cd gec-api/
+#1735381403
+sudo docker-compose up --build
+#1735381624
+r
+#1735382032
+cd gec-api/
+#1735382034
+sudo docker-compose up --build
+#1735382371
+r
+#1735382772
+q
+#1735382068
+sudo nvim /etc/hosts 
+#1735382776
+q
+#1735376647
+cdw
+#1735376647
+ls
+#1735376649
+r
+#1735376660
+sudo php -S localhost:300
+#1735376662
+sudo php -S localhost:3000
+#1735376680
+ls
+#1735376680
+r
+#1735376732
+sudo php -S localhost:3000
+#1735376748
+composer run
+#1735376800
+php artisan serve --env=production
+#1735376914
+r
+#1735377068
+sudo systemctl start oracle-xe
+#1735377226
+php artisan serve --env=production
+#1735377259
+ls
+#1735377262
+r
+#1735377574
+nvim Dockerfile
+#1735377598
+sudo systemctl start docker
+#1735377604
+sudo docker build -t gec-app .
+#1735377732
+nvim Dockerfile 
+#1735377744
+nvim docker-compose.yml
+#1735377755
+sudo docker-compose build
+#1735377815
+r
+#1735377848
+nvim .dockerignore
+#1735377865
+sudo docker-compose build
+#1735377985
+nvim Dockerfile 
+#1735377992
+sudo docker-compose build
+#1735378023
+nvim Dockerfile 
+#1735378029
+sudo docker-compose build
+#1735378057
+nvim Dockerfile 
+#1735378063
+sudo docker-compose build
+#1735378099
+nvim Dockerfile 
+#1735378103
+sudo docker-compose build
+#1735378309
+r
+#1735378497
+sudo docker-compose build
+#1735378699
+r
+#1735378702
+composer
+#1735378706
+composer install
+#1735378715
+r
+#1735378726
+composer install
+#1735378747
+r
+#1735378765
+gst
+#1735378767
+l
+#1735378767
+ls
+#1735378775
+sudo php -S localhost:3000
+#1735378920
+nvim Dockerfile
+#1735378978
+nvim docker-compose.yml
+#1735378990
+sudo docker-compose up --build
+#1735379100
+nvim docker-compose.yml 
+#1735379114
+nvim Dockerfile 
+#1735379131
+sudo docker-compose up --build
+#1735379233
+r
+#1735379246
+nvim nginx.conf
+#1735379269
+sudo docker-compose up --build
+#1735379301
+r
+#1735379310
+sudo docker-compose up --build
+#1735379331
+r
+#1735379341
+sudo docker-compose up --build
+#1735379361
+r
+#1735379370
+sudo docker-compose up --build
+#1735379439
+r
+#1735379473
+sudo docker-compose exec stp-api ls /var/www/html
+#1735379494
+sudo docker-compose up --build
+#1735379580
+r
+#1735379587
+sudo docker-compose up --build
+#1735379659
+r
+#1735379935
+sudo docker-compose up --build
+#1735379947
+r
+#1735379977
+sudo docker-compose up --build
+#1735380008
+r
+#1735380102
+sudo docker-compose up --build
+#1735380126
+r
+#1735380151
+sudo docker-compose up --build
+#1735380167
+r
+#1735380247
+sudo docker-compose up --build
+#1735380339
+sudo docker-compose logs stp-api
+#1735380352
+sudo docker-compose restart
+#1735380359
+sudo docker-compose up --build
+#1735380391
+sudo docker ps
+#1735380410
+r
+#1735380473
+sudo docker-compose up --build
+#1735380678
+r
+#1735380745
+sudo docker-compose up --build
+#1735380773
+r
+#1735380789
+sudo docker-compose up --build
+#1735380806
+r
+#1735380936
+sudo docker-compose up --build
+#1735380953
+r
+#1735380962
+sudo docker-compose up --build
+#1735381295
+r
+#1735381349
+cd stp-api/
+#1735381352
+sudo docker-compose up --build
+#1735382010
+r
+#1735382022
+sudo docker-compose up --build
+#1735382389
+ls
+#1735382389
+r
+#1735382520
+sudo docker-compose up --build
+#1735382529
+r
+#1735382638
+sudo docker-compose up --build
+#1735382664
+r
+#1735382701
+sudo docker-compose up --build
+#1735382719
+sudo docker ps
+#1735382781
+cd
+#1735382784
+q
+#1735384572
+sudo systemctl status oracle-xe
+#1735384581
+sudo docker ps
+#1735384588
+q
+#1735382821
+cdw
+#1735382825
+cd gec-asl/
+#1735382825
+ls
+#1735382825
+r
+#1735383032
+composer install --ignore-platform-req=ext-gd
+#1735383065
+r
+#1735383369
+sudo docker-compose up --build
+#1735383572
+composer update --ignore-platform-req=ext-gd
+#1735383595
+r
+#1735383603
+sudo docker-compose up --build
+#1735383631
+r
+#1735383644
+sudo docker-compose up --build
+#1735383676
+r
+#1735383707
+sudo docker-compose up --build
+#1735383739
+r
+#1735383755
+sudo docker-compose up --build
+#1735383806
+r
+#1735383847
+composer install
+#1735383853
+r
+#1735383916
+composer install
+#1735383928
+composer update
+#1735383972
+r
+#1735383978
+composer update
+#1735384056
+composer remove carlos-meneses/laravel-mpdf
+#1735384068
+composer require carlos-meneses/laravel-mpdf
+#1735384088
+php artisan cache:clear
+#1735384092
+php artisan config:clear
+#1735384113
+r
+#1735384131
+composer update
+#1735384154
+r
+#1735384200
+composer update
+#1735384273
+composer install
+#1735384294
+php artisan serve --env=production
+#1735384324
+composer require carlos-meneses/laravel-mpdf
+#1735384342
+find vendor -name "LaravelMpdfServiceProvider.php"
+#1735384349
+php artisan cache:clear
+#1735384349
+php artisan config:clear
+#1735384350
+php artisan route:clear
+#1735384350
+php artisan view:clear
+#1735384362
+php artisan clear-compiled
+#1735384367
+composer dump-autoload
+#1735384373
+php artisan config:clear
+#1735384376
+gst
+#1735384382
+gst -u
+#1735384386
+grh
+#1735384387
+r
+#1735384406
+composer install
+#1735384418
+composer install --ignore-platform-req=ext-gd
+#1735384465
+php artisan serve --env=production
+#1735384481
+r
+#1735384528
+php artisan serve --env=production
+#1735384549
+sudo php artisan serve --env=production
+#1735384597
+composer install
+#1735384612
+composer install --ignore-platform-req=ext-gd
+#1735384618
+r
+#1735384624
+sudo php artisan serve --env=production
+#1735384645
+q
+#1735387625
+sudo lsof -i :80
+#1735387628
+q
+#1735387645
+docker-compose logs app
+#1735387647
+docker-compose logs appq
+#1735387648
+q
+#1735384649
+r
+#1735384664
+unzip gec.zip 
+#1735384671
+r
+#1735384679
+php artisan serve --env=production
+#1735384697
+r
+#1735385020
+nvim docker-compose.yml
+#1735385045
+sudo docker-compose up --build -d
+#1735385076
+nvim .dockerignore
+#1735385100
+sudo docker-compose up --build -d
+#1735385108
+r
+#1735385124
+sudo docker-compose up --build -d
+#1735385152
+r
+#1735385167
+sudo docker-compose up --build -d
+#1735385308
+r
+#1735385321
+sudo docker-compose up --build -d
+#1735385408
+r
+#1735385419
+sudo docker-compose up --build -d
+#1735385480
+r
+#1735385556
+sudo docker ps
+#1735385608
+docker-compose exec app sh
+#1735385611
+sudo docker-compose exec app sh
+#1735385688
+r
+#1735385723
+sudo docker-compose up --build -d
+#1735385749
+r
+#1735385765
+sudo docker-compose exec app sh
+#1735387092
+sudo docker-compose up --build
+#1735387116
+sudo docker ps
+#1735387124
+sudo docker-compose up --build
+#1735387164
+r
+#1735387231
+sudo docker-compose up --build
+#1735387310
+r
+#1735387325
+composer install --no-dev --optimize-autoloader --no-interaction --ignore-platform-req=ext-gd --ignore-platform-req=ext-oci8
+#1735387338
+composer install --no-dev --optimize-autoloader --no-interaction --ignore-platform-req=ext-gd
+#1735387360
+php artisan serve --host=127.0.0.1 --env=production
+#1735387373
+php artisan serve --host=127.0.0.1:8080 --env=production
+#1735387400
+php artisan serve --host=127.0.0.1:80 --env=production
+#1735387408
+sudo php artisan serve --host=127.0.0.1:80 --env=production
+#1735387424
+r
+#1735387444
+sudo docker-compose up --build
+#1735387479
+r
+#1735387500
+sudo docker-compose up --build
+#1735387506
+r
+#1735387549
+sudo docker-compose up --build
+#1735387588
+r
+#1735387607
+sudo docker-compose up --build
+#1735387702
+r
+#1735387741
+sudo docker-compose up --build
+#1735387832
+r
+#1735387884
+sudo docker-compose up --build
+#1735387928
+r
+#1735387939
+sudo docker-compose up --build
+#1735387968
+r
+#1735387977
+sudo docker-compose up --build
+#1735388008
+r
+#1735388016
+sudo docker-compose up --build
+#1735388155
+r
+#1735388163
+sudo docker-compose up --build
+#1735388215
+r
+#1735388231
+sudo docker-compose up --build
+#1735388270
+r
+#1735388281
+sudo docker-compose up --build
+#1735388326
+r
+#1735388333
+sudo docker-compose up --build
+#1735388431
+r
+#1735388439
+sudo docker-compose up --build
+#1735388482
+r
+#1735388508
+sudo docker-compose up --build
+#1735388559
+r
+#1735388571
+sudo docker-compose up --build
+#1735388670
+r
+#1735388679
+sudo docker-compose up --build
+#1735388687
+r
+#1735388695
+sudo docker-compose up --build
+#1735388705
+r
+#1735388710
+sudo docker-compose up --build
+#1735388758
+r
+#1735388767
+sudo docker-compose up --build
+#1735388854
+r
+#1735388862
+sudo docker-compose up --build
+#1735388962
+r
+#1735388986
+sudo docker-compose up --build
+#1735389041
+r
+#1735389055
+sudo docker-compose up --build
+#1735389251
+r
+#1735389371
+docker build -t gec .
+#1735389373
+sudo docker build -t gec .
+#1735389518
+r
+#1735389533
+sudo docker build -t gec .
+#1735389594
+r
+#1735389621
+sudo docker build -t gec .
+#1735389665
+r
+#1735389761
+sudo docker build -t gec .
+#1735389808
+r
+#1735389840
+sudo docker build -t gec .
+#1735389887
+ls
+#1735389929
+docker run -p 8080:80 gec
+#1735389931
+sudo docker run -p 8080:80 gec
+#1735390167
+sudo docker run -p 80 gec
+#1735390189
+sudo docker run -p :80 gec
+#1735390205
+sudo docker run -p 80:80 gec
+#1735390234
+sudo docker ps
+#1735390238
+sudo docker 
+#1735390269
+sudo docker images
+#1735390358
+r
+#1735390402
+sudo docker build -t gec .
+#1735390441
+r
+#1735390447
+sudo docker build -t gec .
+#1735390517
+r
+#1735390523
+sudo docker build -t gec .
+#1735390562
+r
+#1735390568
+sudo docker build -t gec .
+#1735390646
+r
+#1735390656
+sudo docker build -t gec .
+#1735390719
+r
+#1735390725
+sudo docker build -t gec .
+#1735390794
+r
+#1735390800
+sudo docker build -t gec .
+#1735390876
+r
+#1735390882
+sudo docker build -t gec .
+#1735391021
+r
+#1735391027
+sudo docker build -t gec .
+#1735391065
+r
+#1735391071
+sudo docker build -t gec .
+#1735391124
+r
+#1735391130
+sudo docker build -t gec .
+#1735391179
+r
+#1735391185
+sudo docker build -t gec .
+#1735391334
+r
+#1735391339
+sudo docker build -t gec .
+#1735391354
+r
+#1735391373
+sudo docker build -t gec .
+#1735382786
+cdw
+#1735382789
+r
+#1735382862
+sudo docker-compose up --build
+#1735384646
+sudo docker-compose up --buildr
+#1735393824
+r
+#1735393867
+sudo docker build -p :80 -t stp-api
+#1735393919
+sudo docker build --port :80 -t stp-api
+#1735393956
+sudo docker build -t stp-api
+#1735393985
+sudo docker build stp-api
+#1735393989
+sudo docker build -t stp-api
+#1735393995
+sudo docker build -t stp-api .
+#1735394019
+sudo docker run -p :80 -t stp-api
+#1735394039
+r
+#1735394061
+sudo docker run -p :80 -t stp-api
+#1735394091
+sudo docker run -p 80:80 -t stp-api
+#1735394108
+gst
+#1735394110
+gst -u
+#1735394124
+gca add docker image config and nginx config
+#1735394179
+clear
+#1735394180
+ls
+#1735394190
+q
+#1735415668
+cdw
+#1735415670
+cd DashRecours/
+#1735415671
+ls
+#1735415671
+r
+#1735416284
+cdw
+#1735416288
+q
+#1735404872
+cdw
+#1735404874
+cd stp-api/
+#1735404875
+ls
+#1735404887
+r
+#1735404895
+ls
+#1735404903
+sudo php -S localhost:3000
+#1735412004
+sudo docker build -t stp-api .
+#1735412032
+sudo systemctl start docker
+#1735412040
+sudo docker build -t stp-api .
+#1735412054
+sudo docker run -p 80:80 -t stp-api
+#1735412456
+sudo docker build -t stp-api .
+#1735413207
+sudo docker run -p 80:80 -t stp-api
+#1735415110
+r
+#1735415187
+sudo docker build -t stp-api .
+#1735417523
+sudo docker run -p 80:80 -t stp-api
+#1735418121
+sudo docker build -t stp-api .
+#1735418126
+sudo docker run -p 80:80 -t stp-api
+#1735418135
+sudo php -S localhost:3000
+#1735419129
+sudo docker build -t stp-api .
+#1735419426
+sudo docker run -p 80:80 -t stp-api
+#1735419836
+sudo docker build -t stp-api .
+#1735419846
+sudo docker run -p 80:80 -t stp-api
+#1735419908
+gst
+#1735419913
+gca update dockerfile config
+#1735413666
+ls /usr/local/etc/
+#1735413667
+ls
+#1735413670
+ls /usr/local/etc/
+#1735413672
+ls /usr/local/
+#1735413681
+ls /etc/php/
+#1735413683
+ls /etc/php/conf.d/
+#1735413702
+nvim /etc/php/php.ini
+#1735413741
+sudo docker run -p :80 -t stp-api
+#1735413772
+sudo docker build -t stp-api .
+#1735413778
+cdw
+#1735413783
+cd stp-api
+#1735413785
+sudo docker run -p :80 -t stp-api
+#1735413796
+sudo docker build -t stp-api .
+#1735413800
+sudo docker run -p :80 -t stp-api
+#1735413860
+sudo docker ps
+#1735413863
+sudo docker run -p :80 -t stp-api
+#1735413870
+sudo docker run -p :80 -t stp-api -d
+#1735413907
+sudo docker run -p :80 -t stp-api -D
+#1735413913
+sudo docker ps
+#1735414054
+sudo docker build -t stp-api .
+#1735414067
+sudo docker run -p :80 -t stp-api 
+#1735414192
+sudo php -S localhost:3000
+#1735414308
+sudo docker run -p 80:80 -t stp-api 
+#1735414419
+sudo docker build -t stp-api .
+#1735414424
+sudo docker run -p 80:80 -t stp-api 
+#1735414473
+sudo docker build -t stp-api .
+#1735414478
+sudo docker run -p 80:80 -t stp-api 
+#1735414495
+sudo docker build -t stp-api .
+#1735414500
+sudo docker run -p 80:80 -t stp-api 
+#1735414539
+sudo php -S localhost:3000
+#1735419918
+q
+#1735457817
+cdw
+#1735457820
+cd stp-api/
+#1735457820
+ls
+#1735457821
+r
+#1735458188
+gst
+#1735458196
+gca add TODOs
+#1735458227
+nvim main.go
+#1735458241
+go run main.go 
+#1735458796
+go get "github.com/godror/godror"
+#1735458800
+go get github.com/godror/godror
+#1735458984
+nvim go.mod
+#1735459003
+nvim .env 
+#1735459077
+go get
+#1735459086
+go run main.go 
+#1735459264
+ls
+#1735459268
+la
+#1735459274
+r
+#1735459282
+go get
+#1735459287
+go run main.go 
+#1735459635
+go get -u
+#1735459651
+go run main.go 
+#1735460527
+go get github.com/godror/godror
+#1735460528
+go get github.com/joho/godotenv
+#1735460535
+go run main.go 
+#1735460564
+r
+#1735460595
+sudo php -S localhost:3000
+#1735460609
+sudo systemctl start oracle-xe
+#1735460738
+gst
+#1735460743
+gca update TODOs
+#1735460747
+r
+#1735460761
+sudo php -S localhost:3000
+#1735572379
+c
+#1735572379
+q
+#1735656619
+clear
+#1735656619
+ls
+#1735656620
+q
+#1735656621
+ls
+#1735667774
+q
+#1735667824
+clear
+#1735667825
+ls
+#1735667827
+q
+#1735725618
+clear
+#1735725619
+ls
+#1735725619
+q
+#1735725630
+cdw
+#1735725646
+ls
+#1735725647
+r
+#1735725735
+cargo new 
+#1735725777
+ins rust
+#1735725859
+rustup doc --book
+#1735725869
+ins rustup
+#1735725872
+upd
+#1735725890
+ins rustup
+#1735725893
+arem
+#1735725895
+clear
+#1735725897
+ls
+#1735725901
+..
+#1735725913
+rm stp-api.test/
+#1735725914
+ls
+#1735725920
+q
+#1735725921
+cdw
+#1735725936
+cargo new stp-api.test
+#1735725949
+ls
+#1735725958
+cargo new stp-api-rs
+#1735725963
+cd stp-api-rs/
+#1735725964
+ls
+#1735725965
+r
+#1735725977
+cargo run
+#1735725985
+cargo build
+#1735725998
+rustc
+#1735726064
+ins llvm-libs
+#1735726083
+cargo build
+#1735726086
+cargo run
+#1735726091
+clear
+#1735726091
+ls
+#1735726092
+clear
+#1735726094
+cargo run
+#1735726115
+rustup
+#1735726272
+rustup target list
+#1735726274
+ins rustup
+#1735726280
+rem 
+#1735726284
+rem rust
+#1735726288
+ins rustup
+#1735726594
+cargo run
+#1735726612
+rustup default stable
+#1735726726
+clear
+#1735726726
+ls
+#1735726729
+cargo run
+#1735726747
+rustup target list
+#1735726781
+rustup doc --book
+#1735726938
+ls
+#1735726942
+ls target/
+#1735726946
+ls target/debug/
+#1735726956
+./target/debug/stp-api-rs 
+#1735727368
+cargo check
+#1735727523
+r
+#1735727579
+ls
+#1735727630
+cargo run
+#1735727795
+cargo build
+#1735727811
+cargo run
+#1735728245
+sudo systemctl start oracle-xe
+#1735728270
+cargo run
+#1735728430
+nvim .env
+#1735728448
+cargo run
+#1735750622
+cdw
+#1735750626
+cd stp-api-rs/
+#1735750628
+cargo run
+#1735750783
+ls
+#1735750788
+nvim Rocket.toml
+#1735750794
+cargo run
+#1735751692
+ls
+#1735751696
+r
+#1735751715
+space
+#1735751741
+clear
+#1735751742
+ls
+#1735752260
+..
+#1735752262
+q
+#1735750896
+cdw
+#1735750900
+cd stp-api-rs/
+#1735750901
+ls
+#1735750902
+nvim .env
+#1735750951
+sudo systemctl start oracle-xe
+#1735752263
+..
+#1735752293
+mkdir stp-api-go
+#1735752299
+cd stp-api-go
+#1735752311
+go mod init stp-api
+#1735752313
+ls
+#1735752314
+r
+#1735752324
+nvim go.mod 
+#1735752383
+nvim main.go
+#1735752387
+ls
+#1735752405
+nvim .env
+#1735752457
+nvim go.mod 
+#1735752486
+go mod tidy
+#1735752509
+clear
+#1735752509
+ls
+#1735752518
+go run main.go 
+#1735752547
+sudo systemctl start oracle-xe
+#1735752555
+sqlcl aslstp@127.0.0.1:1521/XE
+#1735752575
+sqlcl aslstp@127.0.0.1:1521/XEqq
+#1735753835
+cdw
+#1735753838
+cd stp-api-go
+#1735753839
+ls
+#1735753841
+la
+#1735753845
+nvim .env 
+#1735762460
+ls
+#1735762460
+la
+#1735752588
+sudo systemctl restart oracle-xe
+#1735752655
+sqlcl aslstp@127.0.0.1:1521/XE
+#1735752677
+cdw
+#1735752681
+cd stp-api-go
+#1735752681
+ls
+#1735752685
+go run main.go 
+#1735752697
+go mod tidy
+#1735752768
+paru -S oracle-instantclient-basic
+#1735752888
+upd
+#1735752924
+paru -S oracle-instantclient-basic
+#1735753110
+paru -S oracle-instantclient-sdk
+#1735753386
+go mod tidy
+#1735753592
+go clean -modcache
+#1735753595
+go mod tidy
+#1735753617
+go clean -modcache
+#1735753618
+go mod tidy
+#1735753632
+go get github.com/sijms/go-ora@v0.4.4
+#1735753647
+go get github.com/sijms/go-ora
+#1735753650
+r
+#1735753660
+go mod tidy
+#1735753712
+rm go.mod 
+#1735753719
+go mod tidy
+#1735753730
+go get
+#1735753746
+go run main.go 
+#1735753765
+nvim go.mod
+#1735753788
+go mod tidy
+#1735753794
+go run main.go 
+#1735754494
+go mod tidy
+#1735754510
+go run main.go 
+#1735754595
+go mod tidy
+#1735754596
+go run main.go 
+#1735762353
+go mod tidy
+#1735762496
+go clean -modcache
+#1735762499
+go mod tidy
+#1735763063
+go run main.go 
+#1735763885
+go mod tidy
+#1735763888
+go run main.go 
+#1735764031
+go mod tidy
+#1735764033
+go run main.go 
+#1735764264
+sudo systemctl stop oracle-xe
+#1735764301
+go run main.go 
+#1735764323
+sudo systemctl start oracle-xe
+#1735764400
+go run main.go 
+#1735765969
+ins emacs
+#1735765975
+clear
+#1735765975
+ls
+#1735765976
+q
+#1735769423
+r
+#1735771177
+q
+#1735771213
+cdd
+#1735771214
+ls
+#1735771214
+r
+#1735771233
+unrar x autocad\ 2018.rar 
+#1735771261
+r
+#1735771275
+unrar Keygen\ X-Force\ 2018.zip 
+#1735771280
+unzip Keygen\ X-Force\ 2018.zip 
+#1735771281
+r
+#1735771426
+r
+#1735771439
+q
+#1735771488
+clear
+#1735771488
+ls
+#1735771488
+q
+#1735771799
+cd
+#1735771800
+cdw
+#1735771804
+cd stp-api-go/
+#1735771804
+ls
+#1735771805
+la
+#1735771805
+r
+#1735771819
+go build -o main main.go 
+#1735771823
+ls
+#1735771824
+r
+#1735771826
+./main 
+#1735771838
+ls
+#1735771841
+rm main
+#1735771841
+ls
+#1735771842
+clear
+#1735771843
+ls
+#1735771843
+q
+#1735804585
+c
+#1735804586
+q
+#1735804590
+tree
+#1735804888
+ins llvm
+#1735805004
+hack
+#1735805007
+q
+#1735805010
+wifi
+#1735805016
+lswifi
+#1735805043
+q
+#1735804560
+alias brc
+#1735804570
+brc
+#1735805093
+cdb
+#1735805093
+ls
+#1735805095
+pwd
+#1735805096
+q
+#1735805264
+background
+#1735805270
+q
+#1735805099
+cdb
+#1735805102
+alias cdb
+#1735805105
+la
+#1735805257
+background
+#1735805275
+la
+#1735805291
+cat colours
+#1735805297
+la
+#1735805310
+cat piratesflag 
+#1735805315
+cat piratesflag | lolcat
+#1735805326
+piratesflag 
+#1735805329
+piratesflag | lolcat
+#1735805334
+la
+#1735805393
+wolf
+#1735805395
+la
+#1735805401
+sexy
+#1735805404
+la
+#1735805446
+cd
+#1735805447
+ls
+#1735805451
+mpv out.mp4 
+#1735805463
+ins llvm
+#1735805469
+mpv out.mp4 
+#1735805480
+fireforx out.mp4 
+#1735805485
+firefox out.mp4 
+#1735805506
+la
+#1735805507
+cdb
+#1735805508
+la
+#1735805519
+somafm
+#1735805527
+somafm channels
+#1735805531
+clear
+#1735805532
+ls
+#1735805533
+ins jq
+#1735805537
+somafm channels
+#1735805554
+somafm listen folkfwd
+#1735805573
+clear
+#1735805573
+ls
+#1735805596
+keys
+#1735805620
+cat new
+#1735805657
+la
+#1735805666
+cat gca
+#1735805690
+l
+#1735805691
+la
+#1735805699
+ls status/
+#1735805706
+apple
+#1735805709
+arch
+#1735805712
+battery
+#1735805716
+fetchweather 
+#1735805723
+ls
+#1735805726
+ls status
+#1735805730
+weatherbar 
+#1735805752
+nvim status/weatherbar 
+#1735805797
+linux
+#1735805801
+neticon
+#1735805826
+interview
+#1735806168
+q
+#1735804603
+la
+#1735804605
+ls
+#1735804625
+cdw
+#1735804631
+cd asl_hd
+#1735804632
+ls
+#1735804641
+la
+#1735804692
+gst
+#1735804698
+git pull
+#1735804707
+gd
+#1735804709
+gs
+#1735806170
+ls
+#1735806171
+clear
+#1735806171
+ls
+#1735806174
+gst
+#1735806179
+gd
+#1735806194
+gca update cardinality in the mcd
+#1735808360
+nvim .gitconfig 
+#1735808746
+man yarn
+#1735808753
+yarn --help
+#1735808762
+yarn --help | less
+#1735808783
+yarn install --help
+#1735817518
+ls
+#1735817519
+q
+#1735817520
+ls
+#1735817520
+q
+#1735817521
+ls
+#1735817521
+q
+#1735817552
+clear
+#1735817553
+s
+#1735817554
+ls
+#1735817554
+q
+#1735817669
+cdw
+#1735817672
+cd stp-api-go
+#1735817673
+ls
+#1735817794
+r
+#1735817995
+q
+#1735818013
+r
+#1735818229
+cdw
+#1735818238
+cd stp-api
+#1735818253
+ls
+#1735818269
+nvim Makefile
+#1735818346
+make
+#1735818425
+make all
+#1735818426
+make
+#1735818553
+make run
+#1735818565
+sudo systemctl start oracle-xe
+#1735818587
+make run
+#1735825293
+sudo systemctl stop oracle-xe
+#1735825338
+q
+#1735826556
+cdw
+#1735826560
+cd asl_hd
+#1735826560
+ls
+#1735826562
+yarn dev
+#1735826592
+q
+#1735825920
+ls
+#1735825921
+r
+#1735825931
+lsblk
+#1735825944
+sudo mount /dev/sdc1 usb/
+#1735826068
+lsblk
+#1735826072
+sudo mount /dev/sdd1 usb/
+#1735826075
+cd usb
+#1735826075
+ls
+#1735826078
+r
+#1735826150
+cd autocad/
+#1735826150
+ls
+#1735826158
+cp autocad\ 2018.rar ../../usb/
+#1735826659
+ls
+#1735826661
+cd
+#1735826675
+sudo umount usb/
+#1735827366
+matrix_game 4
+#1735827388
+jjj
+#1735908156
+$ for i in `pacman -Qg base base-devel | sed -e 's/base //g' | sed -e 's/base-devel //g'`; do; pacman -Qi $i | awk '/^Name/ {pkg=$3} /Size/ {print $4$5,pkg}'; done | awk '{print $1}' | sed -e 's/KiB//g' | tr '\n' '+' | sed -e 's/.$/\n/g' | bc 
+#1735906848
+ls
+#1735906877
+cdw 
+#1735906879
+cd archy/
+#1735906880
+ls
+#1735906880
+r
+#1735908184
+for i in `pacman -Qg base base-devel | sed -e 's/base //g' | sed -e 's/base-devel //g'`; do pacman -Qi $i | awk '/^Name/ {pkg=$3} /Size/ {print $4$5,pkg}'; done | awk '{print $1}' | sed -e 's/KiB//g' | tr '\n' '+' | sed -e 's/.$/\n/g' | bc
+#1735908774
+cd dots
+#1735908774
+ls
+#1735908777
+cdd
+#1735908778
+cdD
+#1735908779
+ls
+#1735908779
+r
+#1735908798
+gst
+#1735908802
+gd
+#1735908823
+gca update otaku - My Hero Academia
+#1735909807
+cdw
+#1735909811
+cd archy/
+#1735909815
+nvim archy 
+#1735916133
+q
+#1735916135
+q
+#1735916159
+cdw
+#1735916163
+cd stp-api
+#1735916164
+ls
+#1735916165
+r
+#1735916215
+make
+#1735916220
+ls
+#1735916228
+r
+#1735916255
+make run
+#1735916260
+sudo systemctl start oracle-xe
+#1735916283
+make run
+#1735916527
+make
+#1735916545
+make run
+#1735916836
+gst
+#1735916860
+gca switch to golang, add a new makefile for automating the build and run processes
+#1735916862
+make
+#1735916891
+make clean 
+#1735916893
+make
+#1735917216
+gca add a working delete from database function
+#1735917236
+r
+#1735917247
+ls
+#1735917248
+clear
+#1735917248
+ls
+#1735917252
+cd stp-api/
+#1735917253
+ls
+#1735917254
+gst
+#1735917259
+make clean
+#1735917267
+clear
+#1735917268
+ls
+#1735917565
+make
+#1735917591
+kill 497348
+#1735917593
+make
+#1735917603
+clear
+#1735917604
+ls
+#1735917606
+make
+#1735917614
+kill 498627
+#1735917658
+make clean 
+#1735917660
+make install
+#1735917667
+stp-api 
+#1735917672
+make
+#1735917688
+kill 502082
+#1735917694
+kill 501767
+#1735917699
+killall 501767
+#1735917701
+clear
+#1735917702
+ls
+#1735917703
+make
+#1735917713
+kill 503722
+#1735917859
+make
+#1735917862
+as
+#1735917893
+make
+#1735917900
+kill 510052
+#1735917947
+make
+#1735917954
+make stop
+#1735917958
+clear
+#1735917958
+ls
+#1735917959
+make
+#1735917963
+make clean
+#1735917966
+make stop
+#1735917971
+make clean
+#1735917974
+clear
+#1735917974
+ls
+#1735917978
+make build
+#1735917980
+ls
+#1735917982
+make run
+#1735917986
+make
+#1735917988
+make stop
+#1735917991
+ls
+#1735917991
+clear
+#1735917992
+ls
+#1735917996
+make clean
+#1735917999
+make uninstall
+#1735918000
+clear
+#1735918001
+ls
+#1735918003
+make install
+#1735918006
+clear
+#1735918006
+ls
+#1735918009
+stp-api 
+#1735918014
+kill 516833
+#1735918015
+clear
+#1735918016
+ls
+#1735918018
+make
+#1735918021
+make stop
+#1735918022
+clea
+#1735918023
+clear
+#1735918024
+ls
+#1735918025
+make
+#1735918029
+ls
+#1735918037
+clear
+#1735918041
+l
+#1735918042
+clear
+#1735918043
+ls
+#1735918053
+make stop
+#1735918055
+clear
+#1735918055
+ls
+#1735918067
+gst
+#1735918086
+gca update makefile to stop, run, install, uninstall, clean...
+#1735918088
+clear
+#1735918088
+s
+#1735918089
+ls
+#1735918090
+clear
+#1735918090
+ls
+#1735918091
+q
+#1735918092
+cdw
+#1735918094
+cd stp-api/
+#1735918094
+ls
+#1735918095
+clear
+#1735918095
+ls
+#1735918096
+gst
+#1735918098
+gst u
+#1735918102
+cs
+#1735918102
+c
+#1735918103
+clear
+#1735918103
+ls
+#1735918104
+q
+#1735918105
+cd 
+#1735918108
+cdw
+#1735918108
+ls
+#1735918111
+cd stp-api/
+#1735918112
+ls
+#1735918113
+clear
+#1735918113
+ls
+#1735918113
+c
+#1735918115
+gst
+#1735918116
+gst -u
+#1735918117
+clear
+#1735918117
+ls
+#1735918118
+gst
+#1735918639
+make
+#1735919409
+ls
+#1735919449
+clear
+#1735919449
+ls
+#1735919451
+gst
+#1735919513
+curl -X DELETE http://localhost:3000/api/wilaya/W100
+#1735919516
+c
+#1735919516
+ls
+#1735920090
+q
+#1735918683
+curl -X DELETE http://localhost:3000/api/wilaya/w103
+#1735918718
+curl -X DELETE http://localhost:3000/api/wilaya/W103
+#1735918986
+cdw
+#1735918989
+cd stp-api/
+#1735918989
+s
+#1735918990
+ls
+#1735918995
+gst
+#1735918998
+make stop
+#1735919002
+gst
+#1735919003
+gd
+#1735919015
+gca update wilaya delete handler
+#1735919236
+gca update dbConnect error message handling
+#1735919354
+r
+#1735919361
+make clean
+#1735919366
+make stop
+#1735919382
+make clean
+#1735919390
+make
+#1735919396
+make stop
+#1735919402
+make
+#1735919403
+clear
+#1735919404
+ls
+#1735919406
+make clean
+#1735919413
+make stop
+#1735919419
+make run
+#1735919426
+make stop
+#1735919428
+make clean
+#1735919429
+make
+#1735919937
+make stop
+#1735919938
+make
+#1735920091
+gst
+#1735920116
+gca add API versioning and update the makefile to stop then run if already running...
+#1735920835
+gst
+#1735920860
+gca add comments to the makefile and stop and re-run if already running!
+#1735920872
+clear
+#1735920873
+ls
+#1735920882
+make
+#1735920887
+ls
+#1735920888
+clear
+#1735920889
+ls
+#1735920893
+make stop
+#1735920899
+make clean
+#1735920900
+make
+#1735920942
+ls
+#1735920943
+clear
+#1735920943
+ls
+#1735920983
+curl -X DELETE http://localhost:3000/api/v1/wilaya/W100
+#1735921301
+make
+#1735921307
+curl -X DELETE http://localhost:3000/api/v1/wilaya/W100
+#1735921315
+gst
+#1735921318
+make stop
+#1735921319
+gst
+#1735921320
+gd
+#1735921326
+gst
+#1735924089
+make
+#1735924306
+ls
+#1735924312
+curl -X DELETE http://localhost:3000/api/v1/wilaya/W100
+#1735924324
+curl -X DELETE http://localhost:3000/api/v1/wilaya/W54
+#1735924348
+make stop
+#1735924349
+clear
+#1735924349
+ls
+#1735924351
+make clean
+#1735924352
+ls
+#1735924353
+gst
+#1735924355
+gd
+#1735924381
+gca add main comment, table names and update api versioning!
+#1735924659
+make clean
+#1735924661
+make
+#1735924676
+curl -X DELETE http://localhost:3000/api/v1/wilaya/W53
+#1735924684
+make stop
+#1735924687
+make clean
+#1735924695
+gd
+#1735924734
+gca update delete function
+#1735924749
+ls
+#1735924757
+cat a.out 
+#1735924764
+rm a.out 
+#1735924772
+make clean
+#1735924772
+ls
+#1735924776
+make install
+#1735924778
+ls
+#1735924784
+make uninstall
+#1735924786
+make clean
+#1735924788
+make
+#1735924791
+make stop
+#1735924793
+ls
+#1735924794
+clea
+#1735924795
+ls
+#1735924797
+clear
+#1735924797
+ls
+#1735924799
+make clean
+#1735924800
+ls
+#1735924807
+gst
+#1735924812
+gca remove a.out
+#1735924814
+clear
+#1735924815
+ls
+#1735924842
+nvim .gitignore 
+#1735924878
+clear
+#1735924878
+ls
+#1735924881
+la
+#1735924888
+r
+#1735924897
+gst
+#1735924901
+gca remove env
+#1735924905
+r
+#1735924912
+gst
+#1735924916
+gca update 
+#1735924967
+gst
+#1735924971
+gca update TODO
+#1735924974
+clear
+#1735924974
+ls
+#1735932061
+make
+#1735932102
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+    "RGN_REF": "R111",
+    "WLY_INT": "TEST",
+    "WLY_OIV": 111,
+    "WLY_REF": "W111"
+  }'
+#1735932115
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Tye: application/json"   -d '{
+    "RGN_REF": "R111",
+    "WLY_INT": "TEST",
+    "WLY_OIV": 111,
+    "WLY_REF": "W111"
+  }'
+#1735932280
+make
+#1735932316
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735932422
+make
+#1735932430
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735932481
+make
+#1735932492
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735932594
+make
+#1735932907
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735932970
+make
+#1735932974
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735933101
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735933103
+make
+#1735933107
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735933132
+make
+#1735933137
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735933262
+make
+#1735933267
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735933374
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "rgn_ref": "R16",
+        "wly_int": "TEST2",
+        "wly_oiv": 222,
+        "wly_ref": "W222"
+      }'
+#1735933629
+gst
+#1735933642
+gca add create CRUD function
+#1735936035
+make
+#1735939960
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R111",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735939971
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R16",
+        "WLY_INT": "TEST",
+        "WLY_OIV": 111,
+        "WLY_REF": "W111"
+      }'
+#1735939990
+makegst
+#1735939992
+gst
+#1735939995
+gst -u
+#1735943918
+make
+#1735943944
+make kill
+#1735943947
+make stop
+#1735943951
+make clean
+#1735943954
+make uninstall
+#1735943959
+make install
+#1735943967
+make uninstall
+#1735943970
+make clean 
+#1735943972
+make stop
+#1735943977
+ls
+#1735943980
+gst
+#1735943981
+gd
+#1735944014
+gca add send function which send back a response with a message and a code 
+#1735944222
+make
+#1735944242
+curl -X POST http://localhost:3000/api/v1/wilayas   -H "Content-Type: application/json"   -d '{
+        "RGN_REF": "R16",
+        "WLY_INT": "TEST333",
+        "WLY_OIV": 333,
+        "WLY_REF": "W333"
+      }'
+#1735944529
+curl -X DELETE http://localhost:3000/api/v1/wilaya/W333
+#1735944537
+curl -X DELETE http://localhost:3000/api/v1/wilayas/W333
+#1735944546
+curl -X DELETE http://localhost:3000/api/v1/wilayas/W0000
+#1735944887
+make
+#1735945280
+make stop
+#1735945283
+clear
+#1735945283
+ls
+#1735945284
+gst
+#1735945286
+make clean
+#1735945286
+ls
+#1735945288
+gst
+#1735945289
+gd
+#1735945305
+gca update all error messages using the new send function 
+#1735945950
+make
+#1735946027
+curl -X DELETE http://localhost:3000/api/v1/wilayas/W0000
+#1735946032
+curl -X DELETE http://localhost:3000/api/v1/wilayas/W333
+#1735946043
+curl -X DELETE http://localhost:3000/api/v1/wilayas/W222
+#1735947118
+make
+#1735947465
+curl -X DELETE http://localhost:3000/api/v1/wilayas/W222
+#1735947478
+curl -X DELETE http://localhost:3000/api/v1/wilaya111
+#1735947483
+curl -X DELETE http://localhost:3000/api/v1/wilaya/111
+#1735947496
+curl -X DELETE http://localhost:3000/api/v1/wilayas/111
+#1735947507
+curl -X DELETE http://localhost:3000/api/v1/wilayas/W111
+#1735947522
+make
+#1735947538
+gs
+#1735947545
+gd
+#1735947582
+gca add getPK function to retrieve the primary key from the struct and update tables
+#1735948426
+make
+#1735948993
+make stop
+#1735948996
+make
+#1735949178
+make clean
+#1735949180
+make stop
+#1735949184
+make uninstall
+#1735949186
+ls
+#1735949187
+gst
+#1735949242
+gca update helper functions - getPK, TableMiddleware, isValidTablegst
+#1735949529
+make
+#1735949675
+make stop
+#1735949677
+make clean
+#1735949678
+gst
+#1735949680
+gst -u
+#1735949682
+clear
+#1735949682
+ls
+#1735949687
+make build
+#1735949689
+ls
+#1735949690
+la
+#1735949694
+r
+#1735949705
+clear
+#1735949706
+ls
+#1735949707
+clear
+#1735949707
+ls
+#1735949732
+q
+#1735990185
+cdw
+#1735990187
+cd stp-api/
+#1735990188
+ls
+#1735995871
+clear
+#1735995871
+ls
+#1735995872
+q
+#1736014390
+cdw
+#1736014393
+cd stp-api/
+#1736014394
+make
+#1736014400
+sudo systemctl start oracle-xe
+#1736014689
+make
+#1736014729
+make stop
+#1736014731
+gst
+#1736014742
+gca update wilayas tests and add domaines tests
+#1736014993
+gca fix readAll function name
+#1736015201
+make
+#1736017216
+make stop
+#1736017231
+gca update createItem function to be modular with all tables!
+#1736019284
+make stop
+#1736019287
+make clean
+#1736019288
+gst
+#1736019294
+gca add updateItem handler function
+#1736019562
+make
+#1736019733
+make stop
+#1736019734
+make clean
+#1736019735
+gst
+#1736019742
+gca add update function!
+#1736019908
+make
+#1736020018
+make stop
+#1736020021
+gst
+#1736020026
+make clean
+#1736020027
+gst
+#1736020069
+gca test update function was successful
+#1736024806
+gst
+#1736014405
+cdw
+#1736014409
+cd stp-api/tests/
+#1736014410
+ls
+#1736014419
+./wilayas/get_all_wilayas 
+#1736014424
+r
+#1736014564
+./domaines/get_all 
+#1736015506
+./wilayas/get W111
+#1736015512
+./wilayas/get W50
+#1736015517
+./wilayas/get W49
+#1736015523
+./wilayas/get W16
+#1736015529
+clear
+#1736015529
+ls
+#1736015531
+r
+#1736015548
+..
+#1736015551
+./domaines/get_all 
+#1736015600
+./domaines/get 2001
+#1736015604
+./domaines/get 2011
+#1736015607
+./domaines/get 2009
+#1736015610
+./domaines/get 2010
+#1736015616
+./domaines/get 2008
+#1736015619
+./domaines/get 2007
+#1736015621
+./domaines/get 2020
+#1736015635
+clear
+#1736015636
+ls
+#1736016701
+clear
+#1736016702
+ls
+#1736016706
+./wilayas/get_all 
+#1736016713
+./wilayas/create 
+#1736016737
+./wilayas/get_all 
+#1736016771
+./domaines/get 2020
+#1736016834
+
+#1736016930
+./domaines/get 2020
+#1736016942
+./domaines/create 
+#1736016948
+r
+#1736016967
+..
+#1736016968
+./domaines/create 
+#1736017017
+./domaines/get 2020
+#1736017036
+r
+#1736017047
+./create 
+#1736017051
+r
+#1736017058
+./get
+#1736017071
+./get 2020
+#1736017072
+r
+#1736017079
+ls
+#1736017090
+r
+#1736017094
+get 2020
+#1736017097
+./get 2020
+#1736017107
+r
+#1736017117
+./create 
+#1736017126
+r
+#1736017144
+./get
+#1736017185
+r
+#1736017200
+./create 
+#1736017206
+./get 999
+#1736019543
+..
+#1736019544
+r
+#1736019570
+./wilayas/update 
+#1736019582
+r
+#1736019613
+./update W222
+#1736019622
+./get W222
+#1736019641
+./create
+#1736019653
+./get
+#1736019663
+r
+#1736019680
+./update W111
+#1736019685
+./get
+#1736019696
+r
+#1736019715
+./get
+#1736019851
+r
+#1736019905
+./update W111
+#1736019917
+./get W111
+#1736019933
+r
+#1736019978
+./update W111
+#1736019982
+r
+#1736019991
+./update W111
+#1736020007
+./get W111
+#1736090204
+cdw
+#1736090206
+cd stp-api
+#1736090207
+ls
+#1736090213
+clear
+#1736090214
+ls
+#1736090214
+q
+#1736110844
+nvim phd
+#1736113723
+make
+#1736113725
+q
+#1736090215
+cdw
+#1736090218
+cd stp-api/
+#1736090219
+ls
+#1736090220
+clear
+#1736090220
+ls
+#1736090221
+gst
+#1736090399
+sudo systemctl start oracle-xe
+#1736090542
+make
+#1736090710
+make stop
+#1736090712
+make clean
+#1736090713
+ls
+#1736090727
+gca add dbTest function to test out the database connection
+#1736090819
+gst
+#1736090824
+gca remove unnecessary comments
+#1736090962
+make
+#1736090984
+make stop
+#1736090985
+make clean
+#1736090987
+gst
+#1736091006
+gca update send function, no data or message if they are not received!
+#1736091149
+nvim .env 
+#1736091872
+nvim .env
+#1736092019
+make
+#1736092066
+nvim go.mod 
+#1736092081
+make
+#1736092098
+r
+#1736092105
+nvim go.mod
+#1736092111
+go get github.com/go-ldap/ldap
+#1736092119
+r
+#1736092123
+nvim go.mo
+#1736092125
+nvim go.mod 
+#1736092133
+make
+#1736092242
+make stop
+#1736092244
+make
+#1736092533
+nvim .env 
+#1736092776
+make
+#1736092858
+nvim .env 
+#1736092870
+make stop
+#1736092871
+make clean
+#1736092872
+make
+#1736092891
+make stop
+#1736092951
+make clean
+#1736092952
+gst
+#1736092976
+gca add ldap configuration with tests and a get ldap users function to retrieve ldap users
+#1736092981
+nvim .env 
+#1736093072
+nvim .env.sample
+#1736093077
+ls
+#1736093079
+gst
+#1736093081
+gst -u
+#1736093095
+gca add a .env.sample
+#1736093103
+ls
+#1736093104
+gst
+#1736093105
+make clean
+#1736093106
+ls
+#1736093106
+gst
+#1736094155
+gst -u
+#1736106041
+make
+#1736114060
+make stop
+#1736114061
+make
+#1736114117
+make stop
+#1736114119
+make clean
+#1736114135
+gca update ldapGetUsers function - it now retrieves everything
+#1736114325
+make
+#1736114607
+make stop
+#1736114610
+make clean
+#1736114612
+clear
+#1736114612
+ls
+#1736114626
+gca add ldapGetUser function for searching by user id!
+#1736114821
+gca update error messages - use caps
+#1736114969
+gst
+#1736114970
+gst -u
+#1736115155
+ls
+#1736115156
+clear
+#1736115156
+ls
+#1736115494
+make stop
+#1736115500
+ls
+#1736115503
+gst
+#1736115616
+space
+#1736116309
+cdw
+#1736116311
+cd stp-api/
+#1736116312
+ls
+#1736116312
+gst
+#1736116317
+gca update TODOs
+#1736090237
+cdw
+#1736090239
+cd stp-api/
+#1736090239
+ls
+#1736090241
+cd tests/
+#1736090241
+l
+#1736090242
+ls
+#1736090243
+ll
+#1736090244
+clear
+#1736090244
+ls
+#1736090247
+pwd
+#1736090247
+ls
+#1736090249
+clear
+#1736090250
+pwd
+#1736090250
+ls
+#1736150195
+cdw
+#1736150197
+cd stp-api/
+#1736150198
+ls
+#1736150199
+gst
+#1736151581
+make
+#1736152273
+make stop
+#1736152285
+make
+#1736152561
+make stop
+#1736152575
+gca add pagination to readAll function
+#1736152608
+make
+#1736153040
+make stop
+#1736153041
+make clean
+#1736153053
+gca add max pagination limit and offset
+#1736153240
+make
+#1736153442
+make stop
+#1736153443
+make clean
+#1736153444
+ls
+#1736153445
+gst
+#1736153458
+gca update read function - prepare the statement before execution
+#1736153537
+make
+#1736153634
+make stop
+#1736153730
+make clean
+#1736153732
+gst
+#1736153734
+gd
+#1736153748
+gca update delete function - prepare the statement before execution
+#1736153837
+gca quick fix
+#1736153966
+gca update TODOs
+#1736154027
+make stop
+#1736154029
+make clean
+#1736154030
+ls
+#1736154032
+make clean
+#1736154033
+ls
+#1736154037
+gca update TODOs
+#1736151738
+cdw
+#1736151740
+cd stp-api/
+#1736151741
+cd tests/
+#1736151742
+ls
+#1736151745
+./wilayas/get 
+#1736151750
+sudo systemctl start oracle-xe
+#1736151792
+./wilayas/get 
+#1736152919
+./domaines/get 
+#1736152943
+./domaines/get | wc -l
+#1736152974
+./wilayas/get | wc -l
+#1736152982
+./wilayas/get
+#1736153325
+./domaines/get 
+#1736153336
+clear
+#1736153336
+ls
+#1736153341
+r
+#1736153392
+./get 
+#1736153397
+./get 2001
+#1736153403
+clear
+#1736153405
+..
+#1736153405
+ls
+#1736153409
+clear
+#1736153409
+ls
+#1736153547
+./wilayas/get W09
+#1736153626
+./wilayas/delete W111
+#1736165116
+nvim phd 
+#1736237688
+cdw
+#1736237693
+cdw stp-api/
+#1736237694
+ls
+#1736237697
+cd stp-api/
+#1736237698
+ls
+#1736237699
+clear
+#1736237700
+ls
+#1736237707
+clear
+#1736237708
+ls
+#1736237711
+gst
+#1736237356
+clear
+#1736237357
+ls
+#1736237360
+cd stp-api
+#1736237362
+cdw
+#1736237365
+cd stp-api/
+#1736237365
+ls
+#1736237367
+clear
+#1736237368
+ls
+#1736237369
+gst
+#1736325979
+ls
+#1736325980
+clear
+#1736325981
+ls
+#1736325982
+q
+#1736325983
+cdw
+#1736325985
+cd stp-api/
+#1736325986
+ls
+#1736325987
+clear
+#1736325987
+ls
+#1736326615
+cd -- tests/domaines
+#1736326618
+cd
+#1736326619
+history
+#1736326623
+history | lesss
+#1736326624
+history | less
+#1736336980
+ls
+#1736336982
+clear
+#1736336983
+ls
+#1736336983
+q
+#1736337407
+cd .buid
+#1736337409
+cd .build/
+#1736337410
+ls
+#1736337412
+cd tily/
+#1736337414
+ls
+#1736337578
+nvim tily.c 
+#1736337693
+nvim config.h
+#1736337725
+make
+#1736337732
+sudo make clean install
+#1736338055
+c
+#1736338057
+clear
+#1736338057
+ls
+#1736338060
+clear
+#1736338061
+ls
+#1736338063
+q
+#1736338012
+wolf
+#1736338026
+c
+#1736338027
+wolf
+#1736338101
+q
+#1736337963
+ncmpcpp
+#1736337971
+bat
+#1736337976
+sexy
+#1736337984
+secy
+#1736337990
+sexy
+#1736338002
+cA
+#1736338006
+sexy
+#1736338044
+c & sexy | lolcat
+#1736337908
+clear
+#1736337908
+ls
+#1736337752
+clear
+#1736337752
+ls
+#1736337757
+clear
+#1736338108
+cdw
+#1736338111
+cd stp-api/
+#1736338112
+make
+#1736338162
+cd ..
+#1736338167
+cd hotel/
+#1736338168
+ls
+#1736338181
+c & yarn dev
+#1736338201
+yarn install
+#1736338230
+cd ..
+#1736338230
+ls
+#1736338233
+cd asl_hd
+#1736338234
+yarn 
+#1736338237
+yarn dev
+#1736338287
+q
+#1736338294
+cd .build
+#1736338295
+gs6
+#1736338296
+gst
+#1736338299
+cd tily/
+#1736338300
+ls
+#1736338301
+gst
+#1736338304
+gd
+#1736338308
+alias gd 
+#1736338312
+gd
+#1736338332
+alias grh
+#1736338361
+clear
+#1736338362
+ls
+#1736338373
+nvim config.h
+#1736338382
+make
+#1736338394
+nvim Makefile 
+#1736338433
+make
+#1736338438
+sudo make clean install
+#1736338440
+q
+#1736337764
+clear
+#1736337766
+ls
+#1736337767
+cdw
+#1736337771
+cd stp-api/
+#1736337772
+make
+#1736337782
+clear
+#1736337786
+cdw
+#1736337791
+cd stp-api/tests/
+#1736337791
+ls
+#1736337799
+./wilayas/get 
+#1736337819
+sudo systemctl start oracle-xe
+#1736338449
+nvim
+#1736338448
+ls
+#1736338461
+r
+#1736338469
+cdw
+#1736338469
+ls
+#1736343971
+cdw
+#1736343977
+cd stp-api
+#1736343981
+make
+#1736405510
+cdw
+#1736405513
+cd stp-api/
+#1736405513
+ls
+#1736405514
+clear
+#1736405514
+ls
+#1736405516
+mak
+#1736405517
+c
+#1736405518
+q
+#1736415380
+cd test/stp/
+#1736415381
+ls
+#1736415382
+r
+#1736415385
+ls
+#1736415386
+r
+#1736415760
+q
+#1736416680
+cd test/
+#1736416680
+ls
+#1736416681
+r
+#1736416885
+cdw
+#1736416898
+cd stp-api/
+#1736416898
+ls
+#1736416901
+gst
+#1736418699
+gca add create test and tested successfully
+#1736426506
+gca add prestations tests and tested finished successfully!
+#1736426971
+clear
+#1736426972
+ls
+#1736429330
+gca add prscharge object
+#1736429356
+clear
+#1736429357
+ls
+#1736429359
+clear
+#1736429359
+ls
+#1736430089
+gca add prscharge object
+#1736430093
+clear
+#1736430094
+ls
+#1736430959
+gca fix typos
+#1736430984
+clear
+#1736430985
+ls
+#1736431000
+gst
+#1736431002
+gd
+#1736431003
+gs
+#1736431217
+gca fix typos
+#1736431517
+gst
+#1736431527
+q
+#1736405519
+cdw
+#1736405522
+cd stp-api/
+#1736405522
+ls
+#1736405523
+make
+#1736406276
+clear
+#1736406277
+ls
+#1736406278
+make
+#1736406284
+make clean
+#1736406287
+make stop
+#1736406314
+gca update main comment
+#1736406325
+gst
+#1736406396
+gst -u
+#1736406437
+clear
+#1736406437
+ls
+#1736409665
+make
+#1736409678
+make stop
+#1736409693
+make 
+#1736409746
+clear
+#1736409746
+ls
+#1736409749
+make
+#1736413456
+clear
+#1736413456
+ls
+#1736413459
+make
+#1736413463
+make stop
+#1736413468
+make clean
+#1736413470
+ls
+#1736413490
+gca add adherents object and tests
+#1736414062
+make
+#1736414218
+gca remove ROWNUM in json responses
+#1736414615
+make
+#1736415179
+make stop
+#1736415181
+make clean
+#1736415202
+gca add aytdroits object and tests
+#1736415206
+clear
+#1736415206
+ls
+#1736415218
+make
+#1736415823
+gca add etablissment object and get test finished successfully
+#1736415856
+gca add delete test of etablissements
+#1736416026
+gca add create test and test finished successfully!
+#1736416168
+gca all tests finished successfully - Etablissements!
+#1736416213
+make clean
+#1736416215
+make stop
+#1736416221
+make clean
+#1736416223
+clear
+#1736416224
+ls
+#1736416819
+gca add prestation object
+#1736416878
+make
+#1736431520
+make stop
+#1736431522
+make clean
+#1736431522
+ls
+#1736431528
+gst
+#1736431549
+gca add prscharges tests - tests finished successfully!
+#1736431611
+make
+#1736431613
+make stop
+#1736431615
+make clean
+#1736431616
+clear
+#1736431617
+ls
+#1736431619
+gst
+#1736431620
+gst -u
+#1736431705
+make
+#1736431781
+make stop
+#1736433294
+ls
+#1736433296
+make clean
+#1736433296
+ls
+#1736433300
+make stop
+#1736433304
+cd
+#1736433305
+q
+#1736433306
+ls
+#1736433308
+lsblk
+#1736433320
+sudo mount /dev/sdc1 usb/
+#1736433322
+cd usb/
+#1736433323
+ls
+#1736433356
+cp STP_* ../work/stp-db/database/
+#1736433360
+clear
+#1736433361
+ls
+#1736433364
+clear
+#1736433364
+ls
+#1736433371
+cd
+#1736433377
+sudo umount usb/
+#1736433378
+clear
+#1736433378
+ls
+#1736433380
+lsblk
+#1736433403
+clear
+#1736433403
+q
+#1736433404
+cdw
+#1736433407
+cd stp-api/
+#1736433409
+ls
+#1736433411
+q
+#1736405497
+cdw
+#1736405500
+cd stp-api/
+#1736405500
+ls
+#1736405502
+cd tests/
+#1736405502
+ls
+#1736405503
+pwed
+#1736405505
+pwd
+#1736405506
+clear
+#1736405507
+pwd
+#1736405584
+sudo systemctl start oracle-xe
+#1736405995
+clear
+#1736405996
+ls
+#1736410974
+r
+#1736412345
+./get
+#1736412350
+./get 
+#1736412356
+./get 9000
+#1736412373
+r
+#1736412458
+./create
+#1736412470
+r
+#1736412564
+./create 
+#1736412709
+./get
+#1736412715
+./create 
+#1736412784
+./get
+#1736412835
+nvim create 
+#1736412904
+./create 
+#1736412938
+r
+#1736413006
+./create 
+#1736413040
+r
+#1736413055
+./create
+#1736413058
+r
+#1736413067
+./create
+#1736413077
+./get 111111
+#1736413099
+nvim delete 
+#1736413121
+./delete 111111
+#1736413125
+./get 111111
+#1736413130
+./create
+#1736413132
+./get 111111
+#1736413139
+r
+#1736413313
+./update
+#1736413320
+r
+#1736413353
+./update 111111
+#1736413358
+r
+#1736413402
+./update 111111
+#1736413407
+r
+#1736413419
+./update 111111
+#1736413431
+./get 111111
+#1736413446
+./delete 111111
+#1736413448
+./get 111111
+#1736413451
+r
+#1736413837
+cd stp-api/
+#1736413837
+ls
+#1736413839
+cd tests/
+#1736413839
+pwd
+#1736413840
+clear
+#1736413841
+ls
+#1736414069
+r
+#1736414098
+./get
+#1736414228
+r
+#1736414276
+./get
+#1736414306
+nvim create 
+#1736414392
+./create 
+#1736414396
+r
+#1736414402
+./create 
+#1736414452
+./get
+#1736414462
+r
+#1736414489
+./create 
+#1736414622
+./get
+#1736414640
+./create 
+#1736414687
+r
+#1736414763
+./create 
+#1736414778
+r
+#1736414788
+./get 111111
+#1736414793
+./create 
+#1736414797
+./get 111111
+#1736414799
+..
+#1736414800
+cd aytdroits/
+#1736414801
+ls
+#1736414804
+./create 
+#1736414808
+r
+#1736414897
+./update 
+#1736414902
+r
+#1736414909
+./update 
+#1736414910
+r
+#1736414926
+./update 111111
+#1736414969
+./get 111111
+#1736414977
+./update 111111
+#1736415083
+r
+#1736415127
+./update 111111
+#1736415130
+r
+#1736415144
+./delete 111111
+#1736415152
+./get 111111
+#1736415157
+./create 
+#1736415164
+./update 
+#1736415167
+./update 111111
+#1736415173
+./get 111111
+#1736415175
+clear
+#1736415176
+..
+#1736415177
+ls
+#1736415768
+r
+#1736415793
+./get 
+#1736415831
+r
+#1736415888
+./get
+#1736415923
+nvim create 
+#1736415989
+./create 
+#1736415997
+./get 111111
+#1736416004
+./get 11111
+#1736416006
+./get 111111
+#1736416030
+r
+#1736416088
+./update 111111
+#1736416091
+r
+#1736416097
+./update 111111
+#1736416101
+./get 111111
+#1736416109
+./delete 111111
+#1736416111
+./get 111111
+#1736416115
+./update 111111
+#1736416126
+./get 111111
+#1736416130
+./update 111111
+#1736416137
+./create 
+#1736416141
+./get 111111
+#1736416144
+./update 111111
+#1736416148
+clear
+#1736416148
+ls
+#1736416829
+r
+#1736416872
+./get
+#1736417169
+nvim create 
+#1736417231
+./create 
+#1736417237
+r
+#1736417245
+./create 
+#1736418684
+./get 111111
+#1736425470
+../
+#1736425474
+..
+#1736425476
+ls
+#1736425483
+./adherents/get 
+#1736425507
+ls
+#1736425512
+./wilayas/get
+#1736425521
+./etablissements/get 
+#1736426299
+ls
+#1736426302
+cd prestations/
+#1736426302
+ls
+#1736426304
+./get
+#1736426307
+r
+#1736426324
+./delete 111111
+#1736426333
+./get 111111
+#1736426337
+./create 
+#1736426339
+./get 111111
+#1736426344
+clear
+#1736426344
+ls
+#1736426371
+r
+#1736426437
+./update 
+#1736426440
+r
+#1736426454
+./create 
+#1736426459
+./update 
+#1736426465
+r
+#1736426477
+./update 111111
+#1736426483
+./get 111111
+#1736426486
+clear
+#1736426487
+ls
+#1736427010
+clear
+#1736427010
+ls
+#1736430106
+r
+#1736430180
+./get
+#1736430249
+r
+#1736430254
+./get
+#1736430307
+nvim create 
+#1736430527
+./create 
+#1736430531
+r
+#1736431235
+./create 
+#1736431244
+./get 111111
+#1736431250
+r
+#1736431259
+./create 
+#1736431266
+r
+#1736431291
+./create 
+#1736431296
+./get 111111
+#1736431303
+r
+#1736431314
+./delete 111111
+#1736431320
+./get 111111
+#1736431341
+r
+#1736431439
+./update 111111
+#1736431445
+./get 111111
+#1736431454
+./create 
+#1736431455
+./update 111111
+#1736431458
+./get 111111
+#1736431468
+clear
+#1736431468
+ls
+#1736431677
+clear
+#1736431677
+ls
+#1736431679
+..
+#1736431680
+ls
+#1736431682
+clear
+#1736431683
+ls
+#1736431702
+./adherents/get
+#1736431716
+./adherents/get 111111
+#1736431728
+ls
+#1736431731
+./adherents/get 111111
+#1736432042
+clear
+#1736432042
+ls
+#1736459508
+clear
+#1736459508
+ls
+#1736459509
+q
+#1736459510
+clear
+#1736459510
+q
+#1736460227
+clear
+#1736460230
+ls
+#1736460230
+q
+#1736460232
+r
+#1736460536
+q
+#1736460727
+cdw
+#1736460729
+cd stp-api/
+#1736460729
+ls
+#1736460730
+make
+#1736460746
+sudo systemctl start oracle-xe
+#1736460840
+clear
+#1736460841
+ls
+#1736460841
+q
+#1736460843
+cdw
+#1736460846
+cd stp-api/
+#1736460847
+ls
+#1736460849
+make clean
+#1736460851
+make stop
+#1736460857
+make clean
+#1736460858
+clear
+#1736460859
+ls
+#1736460859
+gst
+#1736460861
+gst -u
+#1736460862
+r
+#1736460874
+make
+#1736460877
+cd tests/
+#1736460878
+;s
+#1736460879
+ls
+#1736460885
+./aytdroits/get
+#1736460891
+./aytdroits/get 111111
+#1736460900
+./aytdroits/delete 111111
+#1736460907
+./aytdroits/create
+#1736460911
+./aytdroits/update 
+#1736460915
+./aytdroits/update 111111
+#1736460921
+./aytdroits/get 111111
+#1736460951
+clear
+#1736460952
+ls
+#1736460953
+clear
+#1736460953
+ls
+#1736461043
+q
+#1736461100
+clear
+#1736461101
+ls
+#1736461101
+q
+#1736461103
+ls
+#1736461103
+q
+#1736461104
+clear
+#1736461105
+ls
+#1736461105
+q
+#1736461107
+ls
+#1736461107
+q
+#1736461108
+ls
+#1736461108
+q
+#1736461112
+clear
+#1736461112
+ls
+#1736461113
+q
+#1736461116
+clear
+#1736461116
+q
+#1736461117
+qq
+#1736524622
+q
+#1736524626
+cdw
+#1736524628
+cd stp-api/
+#1736524628
+ls
+#1736524631
+cdw
+#1736524632
+cd asl_hd
+#1736524635
+gp
+#1736524647
+gst
+#1736524649
+gd
+#1736524684
+grh
+#1736524686
+gp
+#1736524694
+r
+#1736525133
+..
+#1736525134
+gst
+#1736525156
+gca fix the last merge
+#1736525292
+q
+#1736525296
+brc
+#1736525365
+nvim .bash_profile 
+#1736525380
+xrc
+#1736525393
+mpd &
+#1736525398
+clear
+#1736525398
+ls
+#1736525400
+q
+#1736525421
+echo 'Volume is:   $(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')%'
+#1736525443
+amixer get Master
+#1736525447
+clear
+#1736525448
+q
+#1736525457
+wifissid
+#1736525458
+q
