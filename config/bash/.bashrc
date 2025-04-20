@@ -8,8 +8,8 @@
 # Enable Bash completion...
 [ -f /etc/bash_completion ] && /etc/bash_completion
 
-# Adding new bin to the PATH variable
-export PATH=$HOME/bin:/$HOME/bin/status:/usr/local/bin:/sbin:$HOME/.config/composer/vendor/bin:$PATH
+# PATH variable
+export PATH="$HOME/bin:/$HOME/bin/status:/usr/local/bin:/sbin:$HOME/.config/composer/vendor/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:/opt/android-sdk/tools:$PATH"
 
 # Default Text Editor
 export EDITOR=nvim
@@ -149,6 +149,15 @@ source .key-bindings.bash
 export RANGER_DEVICONS_SEPARATOR='  '
 
 # Java Home
-export JAVA_HOME=/sib/java
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+
+# Chromium
+export CHROME_EXECUTABLE=/usr/bin/chromium
+
+# Android
+export ANDROID_HOME=/opt/android-sdk
+
+# Android Emulator
+export ANDROID_EMULATOR_HOME=/opt/android-sdk/tools
 
 fetchy

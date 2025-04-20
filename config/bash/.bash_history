@@ -118238,3 +118238,11173 @@ q
 wifissid
 #1736525458
 q
+#1736525404
+amixer
+#1736525409
+brc
+#1736525472
+cd dots/
+#1736525473
+gst
+#1736525478
+gd
+#1736525553
+gca comment amixer command on bashrc because of an audio problem
+#1736525556
+clear
+#1736525556
+q
+#1736525593
+clear
+#1736525594
+q
+#1736526804
+sqlcl aslstp@127.0.0.1:1521/XE
+#1736529303
+clear
+#1736529304
+q
+#1736527558
+cdw
+#1736527562
+cd stp-api/tests/
+#1736527563
+ls
+#1736527566
+./wilayas/get
+#1736529306
+q
+#1736525662
+cdw
+#1736525664
+cd stp-api/
+#1736525665
+gst
+#1736525668
+gca update main comment
+#1736525800
+ins chromium
+#1736525805
+upd
+#1736525835
+ins chromium
+#1736525955
+gofmt -w main.go 
+#1736526081
+make
+#1736526098
+sudo systemctl start oracle-xe
+#1736526136
+make stop
+#1736526138
+make clean
+#1736526180
+clear
+#1736526180
+ls
+#1736526479
+make
+#1736528362
+make stop
+#1736528364
+make clean
+#1736528372
+gca fix offset and limit
+#1736528675
+make
+#1736528686
+make stop
+#1736528688
+make clean
+#1736528695
+gca fix limit and offset
+#1736528722
+make
+#1736529255
+make stop
+#1736529257
+make clean
+#1736529258
+gst
+#1736529259
+gd
+#1736529265
+gca add offset value
+#1736529273
+gofmt -w main.go 
+#1736529279
+gst
+#1736529281
+gd
+#1736529288
+gca fix formatting
+#1736529292
+make clean
+#1736529292
+ls
+#1736529351
+q
+#1736533880
+chromium 
+#1736533930
+rem chromium
+#1736533934
+q
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                #1736536993
+clear
+#1736536993
+ls
+#1736536993
+q
+#1736537351
+space
+#1736537354
+df -h /
+#1736537356
+q
+#1736537343
+sudo systemctl start oracle-xe
+#1736619668
+cdw
+#1736619671
+cd stp-api/
+#1736619671
+;s
+#1736619672
+ls
+#1736619674
+cd tests/
+#1736619674
+ls
+#1736619677
+./adherents/get 
+#1736619681
+sudo systemctl start oracle-xe
+#1736619704
+./adherents/get 
+#1736619740
+./adherents/
+#1736619752
+./adherents/get 
+#1736619900
+./adherents/update 111111
+#1736619954
+./adherents/get 111111
+#1736619960
+./adherents/delete 111111
+#1736619963
+./adherents/get 111111
+#1736619977
+./adherents/create 
+#1736620015
+./adherents/update 111111
+#1736620039
+..
+#1736620040
+ls
+#1736620043
+cd tests/
+#1736620044
+ls
+#1736620049
+./aytdroits/get 111111
+#1736620055
+./aytdroits/create
+#1736620060
+./aytdroits/update 111111
+#1736620065
+./aytdroits/get 111111
+#1736620070
+./aytdroits/delete 111111
+#1736620072
+./aytdroits/create
+#1736620074
+./aytdroits/update 111111
+#1736620077
+ls
+#1736620222
+./domaines/get
+#1736620226
+./domaines/create
+#1736620232
+./domaines/update 111111
+#1736620237
+ls
+#1736620240
+./domaines/get
+#1736620261
+./domaines/create
+#1736620265
+r
+#1736620405
+..
+#1736620406
+r
+#1736620471
+./domaines/update 111111
+#1736620477
+./domaines/create
+#1736620488
+r
+#1736620495
+./domaines/delete 999
+#1736620498
+./domaines/delete 111111
+#1736620501
+./domaines/create
+#1736620508
+./domaines/update 111111
+#1736620554
+./domaines/get 111111
+#1736620559
+./domaines/get
+#1736620703
+ls
+#1736620706
+clear
+#1736620706
+ls
+#1736620711
+./etablissements/
+#1736620713
+./etablissements/get
+#1736620728
+./etablissements/create
+#1736620734
+./etablissements/get 111111
+#1736620739
+./etablissements/update 111111
+#1736620746
+./etablissements/delete 111111
+#1736620748
+./etablissements/get 111111
+#1736620751
+./etablissements/create
+#1736620753
+./etablissements/update 111111
+#1736620994
+ls
+#1736620997
+./prestations/get
+#1736621001
+./prestations/create
+#1736621006
+./prestations/update 111111
+#1736621011
+./prestations/delete 111111
+#1736621013
+./prestations/create
+#1736621015
+./prestations/update 111111
+#1736621018
+ls
+#1736621024
+./prscharges/get
+#1736621029
+./prscharges/create
+#1736621043
+./prscharges/get 111111
+#1736621049
+./prscharges/update 111111
+#1736621057
+./prscharges/delete 111111
+#1736621059
+./prscharges/create
+#1736621061
+clear
+#1736621061
+ls
+#1736621066
+./prscharges/get 111111
+#1736621070
+ls
+#1736621073
+./wilayas/get
+#1736621078
+./wilayas/create
+#1736621089
+./wilayas/get W111
+#1736621095
+./wilayas/update W111
+#1736621103
+./wilayas/delete W111
+#1736621106
+clear
+#1736621106
+ls
+#1736621111
+./wilayas/create
+#1736621116
+clear
+#1736621117
+q
+#1736619643
+cdw
+#1736619645
+cd stp-api/
+#1736619646
+clear
+#1736619647
+ls
+#1736619654
+make
+#1736620667
+make clean
+#1736620673
+gca update domaines tests
+#1736620717
+make
+#1736621121
+make stop
+#1736621122
+make clean
+#1736621123
+clear
+#1736621123
+ls
+#1736621125
+gst
+#1736621127
+gst -u
+#1736623318
+..
+#1736623322
+cd stp-api
+#1736623325
+make clean
+#1736623327
+clear
+#1736623327
+ls
+#1736623328
+..
+#1736623330
+git clone https://github.com/primefaces/sakai-vue
+#1736623340
+cd sakai-vue/
+#1736623341
+ls
+#1736623342
+r
+#1736623352
+yarn install
+#1736623534
+yarn dev
+#1736624857
+clear
+#1736624857
+ls
+#1736624884
+clear
+#1736624884
+q
+#1736624893
+sudo systemctl stop oracle-xe
+#1736624962
+q
+#1736757755
+sudo systemctl stop oracle-xe
+#1736757760
+sudo systemctl start oracle-xe
+#1736754412
+cdw
+#1736754414
+cd asl_hd
+#1736754416
+yarn dev
+#1736757491
+cdw
+#1736757495
+cd stp-api/
+#1736757496
+ls
+#1736757500
+make
+#1736759052
+make stop
+#1736759055
+make
+#1736761639
+clear
+#1736761639
+ls
+#1736761639
+q
+#1736762232
+cdw
+#1736762236
+cd stp-api/
+#1736762239
+make clean
+#1736762240
+q
+#1736762493
+r
+#1736762514
+q
+#1736762516
+cdw
+#1736762519
+cd asl_hd
+#1736762520
+ls
+#1736762557
+gca remove unnecessary file
+#1736762560
+clear
+#1736762560
+ls
+#1736762561
+q
+#1736759872
+cdw
+#1736759882
+new stp
+#1736761644
+cd stp
+#1736761644
+ls
+#1736761646
+r
+#1736761674
+gst
+#1736761684
+gca update boilerplate template
+#1736761774
+r
+#1736761993
+yarn install
+#1736762208
+yarn dev
+#1736768360
+cdw
+#1736768362
+cd stp
+#1736768363
+ls
+#1736768368
+yarn dev
+#1736779474
+amixer
+#1736842125
+clear
+#1736842125
+ls
+#1736842126
+q
+#1736844611
+alias grh
+#1736845662
+cdw
+#1736845664
+cdD
+#1736845665
+ls
+#1736845665
+r
+#1736845758
+q
+#1736847219
+cdw
+#1736847220
+cd DashRecours/
+#1736847221
+ls
+#1736847221
+r
+#1736844558
+cdw
+#1736844560
+cd stp
+#1736844561
+ls
+#1736844562
+r
+#1736848154
+cdw
+#1736848156
+cd HackINI-2k22/
+#1736848158
+cd forensics/
+#1736848158
+ls
+#1736848160
+cd lies/
+#1736848161
+ls
+#1736848172
+sxiv pic.jpeg 
+#1736848546
+strings pic.jpeg 
+#1736848560
+sxiv step-1.png 
+#1736848573
+man strings
+#1736848659
+strings -10 pic.jpeg 
+#1736848703
+r
+#1736848333
+colors
+#1736848779
+wireshark
+#1736848782
+ins wireshark
+#1736848795
+upd
+#1736848838
+ins wireshark
+#1736848858
+paru -S wireshark
+#1736849103
+ls
+#1736842127
+cdw
+#1736842129
+cd stp
+#1736842197
+clear
+#1736842197
+ls
+#1736842292
+yarn
+#1736842297
+yarn dev
+#1736930669
+clear
+#1736930670
+cdw
+#1736930671
+cd stp
+#1736930672
+ls
+#1736931820
+cdw
+#1736931822
+cd stp
+#1736931824
+yarn dev
+#1736933142
+yarn de
+#1736933144
+yarn dev
+#1736952955
+clear
+#1736952955
+ls
+#1736952955
+q
+#1736932082
+cdw
+#1736932722
+cd stp
+#1736932723
+r
+#1736945256
+gst
+#1736945337
+gca add project template and update the color palette
+#1736945341
+r
+#1736945352
+nvim .gitignore
+#1736945367
+r
+#1736945379
+gca add project template and update the color palette
+#1736947516
+gca remove menu text
+#1736947648
+gca fix flexbox sidebar
+#1736947786
+gca update default prop for header text
+#1736949243
+gca update header font size and layout!
+#1736952957
+cdw
+#1736952958
+cd stp
+#1736952960
+gst
+#1736952961
+gd
+#1736952974
+gca update sidebar layout
+#1736953006
+cd
+#1736953006
+cdw
+#1736953008
+cd stp
+#1736953008
+ls
+#1736953010
+gst
+#1736964892
+r
+#1736964906
+yarn dev
+#1736964908
+ls
+#1736964912
+r
+#1736964926
+yarn serve
+#1736964939
+r
+#1736964944
+yarn dev
+#1736965337
+..
+#1736965338
+cd stp
+#1736965339
+ls
+#1736965351
+gca update logo title and sidebar width
+#1736965635
+gca update logo title color
+#1736965788
+r
+#1736968657
+q
+#1736952999
+cdw
+#1736953000
+cd stp
+#1736953002
+yarn dev
+#1736970817
+gst
+#1736970820
+gst -u
+#1736970821
+q
+#1736968659
+cdw
+#1736968660
+cd stp
+#1736968660
+gst
+#1736968677
+gca add menu toggle to expand the sidebar
+#1736968680
+clear
+#1736968680
+ls
+#1736969142
+sudo systemctl start oracle-xe
+#1736969165
+sqlcl aslstp@127.0.0.1:1521/XE
+#1736969213
+sudo systemctl stop oracle-xe
+#1736969897
+gca fix card component reactivity
+#1737016484
+cdw
+#1737016486
+cd stp-api/
+#1737016486
+ls
+#1737016617
+cd test
+#1737016619
+cd tests/
+#1737016619
+ls
+#1737016624
+./prscharges/get
+#1737019297
+r
+#1737019303
+cdw
+#1737019306
+cd stp-api/
+#1737019307
+ls
+#1737019311
+cd tests/
+#1737019311
+ls
+#1737019316
+./prscharges/get
+#1737020509
+r
+#1737021008
+r
+#1737021059
+gst
+#1737021066
+gca add mock_data
+#1737021210
+q
+#1737019153
+cdw
+#1737019155
+cd stp
+#1737019155
+ls
+#1737019160
+..
+#1737019163
+cd stp-api/
+#1737019164
+ls
+#1737019164
+make
+#1737019193
+xmake stop
+#1737019194
+make
+#1737019212
+sudo systemctl start oracle-xe
+#1737019947
+make
+#1737020046
+make clean
+#1737020053
+gca add v_prscharges view
+#1737020056
+clear
+#1737020056
+ls
+#1737020114
+make
+#1737020119
+cd ..
+#1737020119
+ls
+#1737020120
+cd stp
+#1737020124
+clear
+#1737020124
+ls
+#1737020128
+yarn dev
+#1737021215
+cd ..
+#1737021218
+cd stp-api/
+#1737021219
+make clean
+#1737021221
+clear
+#1737021221
+ls
+#1737021223
+q
+#1737021288
+cdw
+#1737021291
+cd stp-api
+#1737021291
+ls
+#1737021291
+r
+#1737021336
+make
+#1737021393
+make clean
+#1737021394
+clear
+#1737021394
+ls
+#1737021396
+q
+#1737038546
+lsblk
+#1737038576
+sudo mount /dev/sdc1 usb
+#1737038578
+ls
+#1737038579
+cd usb/
+#1737038580
+ls
+#1737038607
+..
+#1737038636
+sudo umount usb/
+#1737038646
+ls
+#1737038653
+r
+#1737038755
+q
+#1737021224
+cdw
+#1737021225
+cd stp
+#1737021226
+ls
+#1737021228
+yarn dev
+#1737039259
+clear
+#1737039259
+ls
+#1737039263
+gst
+#1737039264
+gd
+#1737039270
+gca update table
+#1737022976
+cdw
+#1737022979
+cd stp
+#1737022980
+ls
+#1737022980
+r
+#1737031042
+gst
+#1737031051
+gca add global styling variables
+#1737033722
+r
+#1737058838
+cd
+#1737058840
+cdw
+#1737058841
+cd stp
+#1737058841
+ls
+#1737058848
+gca update head title
+#1737062536
+gst
+#1737062536
+q
+#1737039326
+cdw
+#1737039327
+cd stp
+#1737039327
+ls
+#1737039329
+yarn dev
+#1737135925
+cdd
+#1737135925
+ls
+#1737135925
+r
+#1737138415
+..
+#1737138425
+gca update sidebar in multiple screen sizes
+#1737138427
+ls
+#1737138428
+clea
+#1737138428
+rl
+#1737138429
+clear
+#1737138430
+ls
+#1737138430
+q
+#1737062556
+cdw
+#1737062558
+cd stp
+#1737062558
+ls
+#1737062560
+yarn de
+#1737062563
+yarn dev
+#1737146037
+ls
+#1737146038
+gst
+#1737146075
+yarn dev
+#1737146210
+gst
+#1737146229
+gca MILESTONE - DAS & SYNDICAT SIDEBAR
+#1737146243
+gca MILESTONE - DAS and SYNDICAT SIDEBAR
+#1737146256
+gst
+#1737146260
+gca MILESTONE - DAS and SYNDICAT SIDEBAR
+#1737146269
+ls
+#1737146273
+yarn dev
+#1737128370
+cdw
+#1737128371
+cd stp
+#1737128372
+ls
+#1737128372
+r
+#1737134081
+..
+#1737134082
+r
+#1737134107
+gst
+#1737134130
+gca add syndicat logo and update sidebar
+#1737134137
+gs
+#1737134154
+gst
+#1737135919
+r
+#1737138433
+..
+#1737138433
+ls
+#1737138434
+..
+#1737138435
+ls
+#1737138435
+clear
+#1737138436
+ls
+#1737138437
+gst
+#1737138757
+gd
+#1737139482
+gst
+#1737139483
+gd
+#1737139490
+gst
+#1737139500
+gca update app scale value
+#1737139503
+r
+#1737140812
+gst
+#1737140817
+gd
+#1737140830
+gca update data
+#1737202677
+r
+#1737202686
+make
+#1737202691
+sudo systemctl start oracle-xe
+#1737202850
+make
+#1737203194
+r
+#1737203312
+make tidy
+#1737203316
+make build
+#1737203322
+make clean
+#1737203326
+make
+#1737208378
+cdw
+#1737208380
+cd stp
+#1737208380
+ls
+#1737208381
+gst
+#1737212626
+gca add table pagination and loading
+#1737214939
+gst
+#1737214951
+gca update table footer
+#1737215441
+gst
+#1737215450
+gca update container component layout
+#1737216125
+gst
+#1737216129
+gca update loading screen
+#1737217987
+gst
+#1737217993
+gca update table component
+#1737218745
+gst
+#1737218768
+gca update table layout
+#1737208262
+cdw
+#1737208263
+cd stp
+#1737208264
+ls
+#1737208266
+yarn dev
+#1737218785
+ls
+#1737218821
+q
+#1737208268
+cdw
+#1737208271
+cd stp-api/
+#1737208273
+sudo systemctl start oracle-xe
+#1737208369
+make
+#1737218776
+make clean
+#1737218781
+sudo systemctl stop oracle-xe
+#1737218822
+q
+#1737218826
+cdw
+#1737218827
+q
+#1737218828
+cdw
+#1737218830
+cd st
+#1737218831
+cd stp
+#1737218832
+ls
+#1737218832
+r
+#1737218868
+gst
+#1737218876
+gca remove mock_data as it is not needed this time
+#1737218879
+clear
+#1737218879
+ls
+#1737218880
+q
+#1737232790
+cdw
+#1737232791
+cd stp
+#1737232791
+ls
+#1737232792
+gst
+#1737232794
+gst -u
+#1737232923
+q
+#1737228532
+cdw
+#1737228536
+cd stp-api/
+#1737228540
+sudo systemctl start oracle-xe
+#1737228678
+make
+#1737232924
+q
+#1737228525
+cde
+#1737228526
+cdw
+#1737228528
+cd stp
+#1737228530
+yarn dev
+#1737232927
+gst
+#1737279611
+cdD
+#1737279612
+ls
+#1737279614
+gst
+#1737279625
+gca add candidature doctorat 2025
+#1737279680
+q
+#1737279711
+cdw
+#1737279713
+cd stp
+#1737279713
+ls
+#1737279714
+gst
+#1737281451
+gca update sidebar and some colors
+#1737293089
+gst
+#1737293099
+gca MILESTONE - Fix sidebar 
+#1737295032
+gst
+#1737295034
+gst -u
+#1737295047
+gst
+#1737295085
+gca MILESTONE - DAS SYNDICAT SIDEBAR
+#1737296712
+gst
+#1737296726
+gca update header title and sidebar 
+#1737296953
+gst
+#1737296961
+gca update sidebar responsivity!
+#1737298611
+gst
+#1737298626
+gca update Header and sidebar fonts
+#1737233337
+cdw
+#1737233340
+cd stp-api/
+#1737233340
+ls
+#1737233354
+sudo systemctl start oracle-xe
+#1737233373
+make
+#1737298636
+make clean
+#1737298637
+q
+#1737233322
+cdw
+#1737233324
+cd stp
+#1737233325
+yarn dev
+#1737298689
+clear
+#1737298690
+q
+#1737301766
+cdw
+#1737301767
+cd stp
+#1737301768
+ls
+#1737301769
+gst
+#1737301868
+gca MILESTONE - UPDATE SIDEBAR
+#1737301893
+clear
+#1737301893
+ls
+#1737301895
+q
+#1737362196
+mpv out.mp4 
+#1737362199
+q
+#1737298737
+cdw
+#1737298739
+cd stp-api
+#1737298739
+ls
+#1737298740
+make
+#1737298747
+sudo systemctl start oracle-xe
+#1737298976
+make 
+#1737301030
+make
+#1737301075
+male
+#1737301077
+make
+#1737298722
+cdw
+#1737298723
+cd stp
+#1737298724
+yarn dev
+#1737362336
+r
+#1737364159
+cdw
+#1737364161
+cd stp
+#1737364161
+ls
+#1737364163
+yarn dev
+#1737384786
+cdw
+#1737384789
+q
+#1737384797
+cdw
+#1737443211
+cd stp-api
+#1737443212
+ls
+#1737443214
+sudo systemctl start oracle-xe
+#1737448384
+hack
+#1737448395
+q
+#1737463999
+cdw
+#1737464002
+cd asl_hd
+#1737464004
+yarn dev
+#1737465872
+q
+#1737443242
+cdw
+#1737443243
+cd stp-api/
+#1737443244
+ls
+#1737443245
+make
+#1737471254
+make clean
+#1737471255
+q
+#1737384781
+cdw
+#1737384783
+cd stp
+#1737384783
+ls
+#1737384784
+yarn
+#1737384793
+yarn dev
+#1737471257
+gst
+#1737471272
+gca fix select in table footer!
+#1737471420
+..
+#1737471424
+cd stp-api
+#1737471425
+make
+#1737471474
+make clena
+#1737471477
+make clean
+#1737471478
+q
+#1737471482
+cdw
+#1737471484
+cd stp
+#1737471485
+ls
+#1737471486
+clear
+#1737471486
+ls
+#1737472122
+upd
+#1737472130
+q
+#1737472134
+clear
+#1737472135
+q
+#1737472172
+firefo
+#1737472173
+firefox
+#1737472194
+ping google.com
+#1737472197
+q
+#1737496469
+cdw
+#1737496471
+cd stp-api/
+#1737496471
+make
+#1737496476
+sudo systemctl start oracle-xe
+#1737496572
+make clean
+#1737496573
+make
+#1737529745
+clear
+#1737529745
+ls
+#1737529746
+q
+#1737529755
+cdw
+#1737529760
+cd stp
+#1737529761
+ls
+#1737529766
+yarn dev
+#1737529770
+clear
+#1737529771
+ls
+#1737529773
+clear
+#1737529778
+..
+#1737529780
+cd stp-api/
+#1737529780
+ls
+#1737529781
+make
+#1737529786
+sudo systemctl start oracle-xe
+#1737533149
+make clean
+#1737533151
+clear
+#1737533151
+ls
+#1737533155
+make
+#1737533170
+r
+#1737533176
+..
+#1737533177
+make
+#1737533352
+make clean
+#1737533365
+make
+#1737533385
+r
+#1737533400
+make clean
+#1737533402
+ls
+#1737533417
+r
+#1737536185
+nvim go.mod 
+#1737538251
+q
+#1737556018
+r
+#1737557279
+q
+#1737529826
+cdw
+#1737529828
+cd stp-api/
+#1737529829
+ls
+#1737529830
+r
+#1737529836
+gst
+#1737529838
+gst -u
+#1737529838
+r
+#1737530556
+ls
+#1737530556
+r
+#1737531665
+mkdir cmd config internal pkg test
+#1737531924
+ls
+#1737531925
+r
+#1737533410
+gst
+#1737533414
+ls
+#1737533827
+r
+#1737535948
+make
+#1737536099
+make build
+#1737536120
+r
+#1737536232
+go mod tidy
+#1737536236
+make
+#1737536322
+r
+#1737536403
+make
+#1737536525
+r
+#1737536633
+make
+#1737536942
+ls
+#1737536943
+r
+#1737538252
+ls
+#1737538253
+make
+#1737539103
+r
+#1737539228
+make
+#1737539854
+r
+#1737539982
+make
+#1737540021
+r
+#1737540030
+make
+#1737541130
+r
+#1737541421
+make
+#1737541586
+r
+#1737541600
+make
+#1737542896
+r
+#1737543071
+make
+#1737557345
+clear
+#1737557346
+ls
+#1737557347
+cdw
+#1737557348
+cd stp
+#1737557348
+ls
+#1737557352
+yarn dev
+#1737557356
+cd ..
+#1737557358
+cd stp-api
+#1737557359
+ls
+#1737557360
+make
+#1737570687
+r
+#1737570865
+make
+#1737571508
+sudo systemctl start oracle-xe
+#1737571785
+r
+#1737571787
+make stop
+#1737571791
+ls
+#1737571792
+make clean
+#1737571793
+r
+#1737572504
+ls
+#1737572505
+make
+#1737572558
+make stop
+#1737572558
+ls
+#1737572561
+make clean
+#1737572597
+r
+#1737572813
+make
+#1737572820
+make clean
+#1737572821
+ls
+#1737572822
+r
+#1737572824
+make build
+#1737572828
+ls bin/
+#1737572831
+make run
+#1737572835
+q
+#1737582538
+cdw
+#1737582540
+cd stp-api
+#1737582541
+ls
+#1737582543
+cd test/
+#1737582544
+ls
+#1737582550
+cd unit/
+#1737582550
+ls
+#1737582557
+./wilayas/create 
+#1737582562
+r
+#1737582593
+./create 
+#1737582603
+./get
+#1737582651
+./delete W111
+#1737582662
+./create 
+#1737582673
+./update W111
+#1737582811
+./get W111
+#1737583327
+./get
+#1737583334
+./get W12
+#1737583337
+./get W111
+#1737583379
+r
+#1737583410
+./delete W111
+#1737583464
+r
+#1737583858
+cd tests/
+#1737583859
+ls
+#1737583868
+./adherents/get test
+#1737583877
+./adherents/get 1121
+#1737583888
+r
+#1737583902
+./delete 111111
+#1737583909
+./create
+#1737583915
+./update 111111
+#1737583997
+r
+#1737584011
+make clean
+#1737584012
+q
+#1737572840
+cdw
+#1737572842
+cd stp-api
+#1737572842
+ls
+#1737572844
+make stop
+#1737572846
+clear
+#1737572847
+ls
+#1737572851
+make clean
+#1737572851
+ls
+#1737572854
+r
+#1737577889
+make
+#1737578007
+r
+#1737578047
+make
+#1737579106
+make clean
+#1737579109
+make stop
+#1737579111
+make 
+#1737579353
+make
+#1737580382
+mae
+#1737580383
+make
+#1737581989
+make clean
+#1737581990
+..
+#1737581995
+cd stp-api-demo/
+#1737581996
+make
+#1737582284
+make clean
+#1737582285
+ls
+#1737582286
+..
+#1737582288
+cd stp-api
+#1737582289
+make
+#1737582758
+make clean
+#1737582761
+make stop
+#1737582762
+make
+#1737583603
+..
+#1737583607
+cd stp-api-demo/
+#1737583608
+make
+#1737584015
+clear
+#1737584015
+ls
+#1737584016
+...
+#1737584017
+..
+#1737584019
+cd stp-api
+#1737584020
+ls
+#1737584022
+make clean
+#1737584025
+make
+#1737584301
+make stop
+#1737584307
+make clean
+#1737584326
+r
+#1737584383
+gst
+#1737584419
+gca MILESTONE - CHANGED FOLDER STRUCTURE - SOC UPDATE
+#1737584423
+q
+#1737616423
+cdw
+#1737616424
+r
+#1737617139
+yarn dev
+#1737617226
+r
+#1737617792
+q
+#1737617812
+cdw
+#1737617814
+cd stp
+#1737617814
+r
+#1737618398
+gst
+#1737618421
+gca update sidebar - pill components for better design conformity
+#1737618424
+r
+#1737618451
+gst
+#1737618615
+ls
+#1737619696
+r
+#1737620628
+q
+#1737616326
+cd demo/
+#1737616327
+ls
+#1737616329
+cd stp/
+#1737616329
+ls
+#1737616330
+yarn dev
+#1737617762
+ls
+#1737617789
+..
+#1737617794
+cdw
+#1737617796
+cd stp
+#1737617797
+ls
+#1737617799
+yarn dev
+#1737618858
+..
+#1737618868
+cd demo/stp
+#1737618870
+yarn dev
+#1737619534
+..
+#1737619536
+cdw
+#1737619540
+cd stp
+#1737619540
+;s
+#1737619541
+ls
+#1737619543
+yarn dev
+#1737622769
+gst
+#1737622777
+gca update table design
+#1737623646
+yarn dev
+#1737626659
+gst
+#1737626673
+gca update table design and some global styling variables
+#1737626718
+yarn dev
+#1737636205
+..
+#1737636209
+cd demo/stp/
+#1737636210
+yarn dev
+#1737636550
+..
+#1737636554
+cdw
+#1737636555
+cd stp
+#1737636557
+yarn dev
+#1737638559
+gst
+#1737638562
+gd
+#1737638572
+gst
+#1737638582
+gca add print button
+#1737638609
+gst
+#1737638671
+clear
+#1737638671
+ls
+#1737638674
+yarn dev
+#1737584484
+cdw
+#1737584489
+cd stp-api
+#1737584489
+ls
+#1737616150
+..
+#1737616151
+ls
+#1737616156
+cd stp-api-demo/
+#1737616156
+ls
+#1737616162
+sudo systemctl start oracle-xe
+#1737616188
+r
+#1737616279
+ls
+#1737616281
+r
+#1737616292
+make 
+#1737618846
+yarn dev
+#1737618853
+make 
+#1737627878
+make
+#1737620632
+cdw
+#1737620634
+cd stp
+#1737620635
+ls
+#1737620635
+r
+#1737620639
+nvim
+#1737627910
+cd demo/api/
+#1737627912
+cd tests/
+#1737627912
+ls
+#1737627919
+./wilayas/get
+#1737627927
+./wilayas/get W111
+#1737627930
+./wilayas/get w111
+#1737627935
+./wilayas/create
+#1737627941
+./wilayas/get w111
+#1737627944
+./wilayas/get W111
+#1737627952
+./wilayas/update W111
+#1737627961
+./wilayas/delete W111
+#1737627963
+./wilayas/get W111
+#1737627969
+ls
+#1737742207
+cdw
+#1737742211
+vd stp
+#1737742214
+cd stp
+#1737742219
+yarn dev
+#1737809005
+ls
+#1737809006
+clear
+#1737809006
+ls
+#1737809012
+r
+#1737809021
+q
+#1737809024
+ls
+#1737809025
+q
+#1737809027
+clear
+#1737809028
+q
+#1737809063
+clear
+#1737809064
+ls
+#1737809065
+q
+#1737809066
+clear
+#1737809066
+q
+#1737810165
+cdw
+#1737810167
+..
+#1737810170
+cd demo/api/
+#1737810170
+l
+#1737810173
+sudo systemctl start oracle-xe
+#1737810199
+make
+#1737810158
+cdw
+#1737810161
+cd stp
+#1737810161
+ls
+#1737810163
+yarn dev
+#1737845530
+ls
+#1737845531
+q
+#1737846372
+cd
+#1737846373
+dcw
+#1737846377
+cd demo/api/
+#1737846380
+sudo systemctl start oracle-xe
+#1737877261
+make
+#1737877545
+clear
+#1737877545
+ls
+#1737877548
+q
+#1737845548
+cd demo/
+#1737845549
+ls
+#1737845550
+cd stp/
+#1737845552
+yarn dev
+#1737846363
+c
+#1737846366
+cd ..
+#1737846367
+cdw
+#1737846369
+cd stp
+#1737846369
+ls
+#1737846371
+yarn dev
+#1737877550
+clear
+#1737877551
+sl
+#1737877552
+ls
+#1737877552
+q
+#1737881140
+sqlcl aslstp@127.0.0.1:1521/XE
+#1737880974
+cd demo/
+#1737880975
+cd stp
+#1737880976
+ls
+#1737880980
+yarn dev
+#1737881724
+r
+#1737880105
+cd demo/
+#1737880105
+ls
+#1737880106
+cd api/
+#1737880107
+ls
+#1737880109
+cd tests/
+#1737880110
+ls
+#1737880112
+c
+#1737880114
+ls
+#1737880395
+c
+#1737880395
+ls
+#1737880406
+./wilayas/get
+#1737880423
+./wilayas/delete W111
+#1737880431
+./wilayas/get W111
+#1737880436
+r
+#1737881533
+./get 111111
+#1737881539
+./delete 111111
+#1737881544
+./create 
+#1737881561
+./get 0
+#1737877623
+cd demo
+#1737877624
+ls
+#1737880074
+cd api/
+#1737880077
+sudo systemctl start oracle-xe
+#1737880098
+make
+#1737884259
+cdw
+#1737885914
+ls
+#1737885916
+clear
+#1737885916
+ls
+#1737899508
+cd
+#1737899512
+cd demo/
+#1737899514
+cd api/
+#1737899516
+sudo systemctl start oracle-xe
+#1737899672
+make
+#1737900437
+sudo systemctl stop oracle-xe
+#1737899517
+cdw
+#1737899521
+cd api/
+#1737899522
+..
+#1737899523
+cd stp
+#1737899523
+ls
+#1737899525
+yarn dev
+#1737902747
+cdw
+#1737972654
+clear
+#1737972654
+q
+#1737984692
+cdw
+#1737984693
+cd stp
+#1737984694
+ls
+#1737984694
+r
+#1737985581
+gst
+#1737985586
+gst -u
+#1737985608
+gca update header - soc - seperation of concerns
+#1737985790
+r
+#1737986049
+gst
+#1737986055
+gca remove modal
+#1737987594
+gst
+#1737987602
+gca update icon size
+#1737988303
+gst
+#1737988488
+r
+#1737988497
+mpv out.mp4 
+#1737988499
+q
+#1737984157
+cdw
+#1737984159
+cd stp
+#1737984160
+ls
+#1737984162
+yarn dev
+#1737989888
+q
+#1737984097
+cd demo/
+#1737984097
+ls
+#1737984098
+cd api/
+#1737984100
+ls
+#1737984102
+sudo systemctl stop oracle-xe
+#1737984105
+sudo systemctl start oracle-xe
+#1737984150
+ls
+#1737984154
+make
+#1737989891
+q
+#1737989893
+cdw
+#1737989895
+cd stp
+#1737989895
+ls
+#1737989897
+gst
+#1737989902
+gca update header
+#1738008790
+cd demo/api/
+#1738008791
+ls
+#1738008793
+cd tests/
+#1738008794
+ls
+#1738008796
+cd prscharges/
+#1738008796
+ls
+#1738008803
+./delete 111111
+#1738008820
+./delete 0
+#1738008413
+cdw
+#1738008415
+cd stp
+#1738008415
+ls
+#1738008417
+gst
+#1738008420
+gd
+#1738008428
+gca update header buttons
+#1738009514
+gst
+#1738009521
+gca update header padding
+#1738009580
+gca update priseencharge component
+#1738011438
+gca update table column header spacing
+#1738013507
+ins chromium
+#1738013512
+upd
+#1738013539
+ins chromium
+#1738014077
+gst
+#1738014083
+gca update table positioning
+#1738014457
+gst
+#1738014465
+gca fix table - sidebar width
+#1738007942
+clear
+#1738007943
+cdw
+#1738007945
+cd stp
+#1738007946
+ls
+#1738007948
+yarn dev
+#1738007950
+cdw
+#1738007952
+cd api/
+#1738007953
+ls
+#1738007955
+..
+#1738007958
+cd stp-api/
+#1738007958
+ls
+#1738007960
+..
+#1738007964
+cd demo/api/
+#1738007964
+ls
+#1738007967
+make
+#1738007973
+make clean
+#1738007976
+sudo systemctl start oracle-xe
+#1738008045
+make
+#1738050950
+cdw
+#1738050954
+cd stp
+#1738050954
+ls
+#1738050955
+gst
+#1738050965
+gca update table and header button shodow
+#1738050967
+q
+#1738049434
+sudo systemctl start oracle-xe
+#1738049477
+cd demo/api/
+#1738049478
+make
+#1738051425
+make clean
+#1738051426
+q
+#1738049428
+cdw
+#1738049429
+cd stp
+#1738049431
+yarn dev
+#1738051428
+q
+#1738056031
+cdD
+#1738056032
+ls
+#1738056033
+cd phd/
+#1738056044
+unrar x Informatique_ESI.rar 
+#1738056045
+r
+#1738056050
+unrar x Informatique_USTHB.rar 
+#1738056051
+r
+#1738098477
+lsblk
+#1738098488
+sudo mount /dev/sdc usb
+#1738098490
+cd usb/
+#1738098490
+ls
+#1738098491
+r
+#1738098531
+sudo cp Candidature-doctorat-0-2025.pdf Candidature-doctorat-1-2025.pdf ../../usb/
+#1738098533
+cd
+#1738098534
+cd usb
+#1738098535
+ls
+#1738098538
+..
+#1738098539
+r
+#1738098564
+sudo umount usb/
+#1738098570
+eject /dev/sdc
+#1738098572
+sudo eject /dev/sdc
+#1738228759
+cdq
+#1738228760
+cdw
+#1738228762
+cd cbc
+#1738228763
+ls
+#1738228764
+r
+#1738232013
+q
+#1738241149
+ip -6 addr
+#1738241166
+q
+#1738228539
+cd demo/api/
+#1738228542
+sudo systemctl start oracle-xe
+#1738228756
+make
+#1738098699
+cdw
+#1738098703
+cd stp
+#1738098706
+yarn dev
+#1738245440
+ls
+#1738245441
+clear
+#1738246631
+cdw
+#1738246633
+cd stp
+#1738246637
+yarn dev
+#1738338806
+chromium 
+#1738338991
+q
+#1738248770
+r
+#1738338926
+cdw
+#1738338931
+cd stp
+#1738338931
+ls
+#1738338934
+yarn dev
+#1738339434
+gst
+#1738339436
+gst -u
+#1738339438
+q
+#1738338995
+sudo systemctl start oracle-xe
+#1738339021
+cd demo/stp
+#1738339021
+ls
+#1738339022
+clear
+#1738339023
+ls
+#1738339025
+make
+#1738339029
+..
+#1738339030
+cd api/
+#1738339031
+ls
+#1738339032
+make
+#1738339441
+make clean
+#1738339442
+q
+#1738339750
+r
+#1738339864
+q
+#1738339866
+cdw
+#1738339867
+q
+#1738339910
+upd
+#1738339936
+clear
+#1738339937
+ls
+#1738339939
+r
+#1738339969
+clear
+#1738339969
+q
+#1738340000
+clear
+#1738340001
+q
+#1738340014
+cdD
+#1738340015
+ls
+#1738340015
+gst
+#1738340017
+gst -u
+#1738340026
+gca add phd stuff
+#1738350396
+paru -S scenebuilder
+#1738350400
+ins
+#1738350402
+upd
+#1738350430
+b
+#1738350447
+paru -S javafx-scenebuilder
+#1738351683
+paru -Rs javafx-scenebuilder
+#1738351694
+a
+#1738351695
+q
+#1738351714
+cd .build/
+#1738351714
+ls
+#1738351716
+cd tily/
+#1738351716
+ls
+#1738351719
+nvim config.h 
+#1738351816
+make
+#1738351825
+sudo make clean install
+#1738351827
+q
+#1738351839
+clear
+#1738351839
+q
+#1738351852
+clear
+#1738351853
+q
+#1738412417
+upd
+#1738412430
+ins ollama
+#1738412449
+ollama --version
+#1738412462
+sudo systemctl start ollama
+#1738412466
+sudo systemctl enable ollama
+#1738412468
+ollama --version
+#1738412486
+sudo systemctl start ollama
+#1738412488
+ollama --version
+#1738412490
+q
+#1738412492
+ollama --version
+#1738412567
+ollama run deepseek-r1:14b
+#1738412577
+sudo systemctl stop ollama
+#1738412581
+sudo systemctl start ollama
+#1738412583
+ollama run deepseek-r1:14b
+#1738412590
+ollama pull deepseek-r1:14b
+#1738412599
+rem ollama
+#1738412602
+ins ollama
+#1738412612
+rem ollama
+#1738412621
+curl -fsSL https://ollama.com/install.sh | sh
+#1738413031
+arem
+#1738413033
+clear
+#1738413033
+ls
+#1738413079
+sudo rm $(which ollama)
+#1738413082
+sudo rm -r /usr/share/ollama
+#1738413087
+sudo userdel ollama
+#1738413165
+curl -fsSL https://ollama.com/install.sh | sh
+#1738413209
+q
+#1738414350
+ollama
+#1738414352
+ollama -v
+#1738414365
+q
+#1738415711
+ollama -v
+#1738415739
+ollama run deepseek-r1:7b
+#1738415757
+ollama
+#1738415767
+ollama pull deepseek-r1:7b
+#1738418735
+ollama run deepseek-r1:7b
+#1738418751
+ollama rm deepseek-r1:7b
+#1738418793
+ollama pull deepseek-r1:1.5b
+#1738419328
+ollama run deepseek-r1
+#1738419337
+ollama run deepseek-r1:1.5b
+#1738419482
+clea
+#1738419483
+clear
+#1738419483
+ls
+#1738419498
+ollama rem deepseek-r1:1.5b
+#1738419502
+ollama rm deepseek-r1:1.5b
+#1738419503
+clear
+#1738419505
+q
+#1738413316
+curl -fsSL https://ollama.com/install.sh | sh
+#1738414248
+ollama --version
+#1738414253
+sudo systemctl start ollama
+#1738414258
+ollama
+#1738414267
+ollama -v
+#1738414312
+sudo systemctl status ollama
+#1738414331
+ollama serve
+#1738414369
+ollama -v
+#1738414416
+sudo nvim /etc/systemd/system/ollama.service
+#1738414429
+sudo systemctl start ollama
+#1738414439
+sudo systemctl daemon-reload
+#1738414443
+sudo systemctl enable ollama
+#1738414450
+sudo systemctl start ollama
+#1738414453
+ollama -v
+#1738414459
+sudo systemctl enable ollama
+#1738414463
+sudo systemctl start ollama
+#1738414467
+ollama -v
+#1738414471
+ollama
+#1738414478
+ollama run deepseek
+#1738414991
+sudo systemctl start ollama
+#1738414997
+sudo systemctl status ollama
+#1738415012
+sudo systemctl stop ollama
+#1738415013
+sudo systemctl status ollama
+#1738415027
+sudo systemctl start ollama
+#1738415029
+sudo systemctl status ollama
+#1738415078
+sudo systemctl stop ollama
+#1738415090
+sudo chown -R n3m0:n3m0 /usr/share/ollama
+#1738415103
+sudo chown -R n3m0:n3m0 /usr/bin/ollama
+#1738415143
+sudo nvim /etc/systemd/system/ollama.service
+#1738415157
+ls /usr/bin/
+#1738415173
+ls /usr/bin/ | less
+#1738415193
+which ollama
+#1738415202
+sudo chown -R n3m0:n3m0 /usr/local/bin/ollama
+#1738415207
+sudo systemctl stop ollama
+#1738415211
+sudo systemctl start ollama
+#1738415215
+sudo systemctl status ollama
+#1738415223
+sudo nvim /etc/systemd/system/ollama.service
+#1738415232
+sudo systemctl status ollama
+#1738415237
+sudo systemctl stop ollama
+#1738415246
+systemctl daemon-reload
+#1738415251
+sudo systemctl stop ollama
+#1738415254
+sudo systemctl status ollama
+#1738415258
+sudo systemctl start ollama
+#1738415260
+sudo systemctl status ollama
+#1738415266
+ollama -v
+#1738415652
+sudo chown -R n3m0:n3m0 /usr/local/bin/ollama
+#1738415661
+sudo chown -R root:root /usr/local/bin/ollama
+#1738415668
+sudo systemctl status ollama
+#1738415672
+sudo systemctl stop ollama
+#1738415675
+sudo systemctl start ollama
+#1738415677
+sudo systemctl status ollama
+#1738415683
+ollama serve
+#1738419508
+clear
+#1738419508
+q
+#1738423259
+sudo systemctl start oracle-xr
+#1738423260
+sudo systemctl start oracle-xe
+#1738423308
+q
+#1738432950
+sqlcl aslstp@127.0.0.1:1521/XE
+#1738432980
+q
+#1738423245
+cdw
+#1738423248
+cd stp-api/
+#1738423249
+ls
+#1738423250
+make
+#1738427822
+make clean
+#1738427823
+make
+#1738430805
+make clean
+#1738430806
+make
+#1738431505
+make clean
+#1738431507
+gst
+#1738431523
+gca update wilaya functions
+#1738431636
+ls
+#1738431640
+make
+#1738432364
+make clean
+#1738432365
+make
+#1738442419
+make clean
+#1738442449
+gst
+#1738442482
+c
+#1738442483
+q
+#1738425532
+r
+#1738428908
+gst
+#1738428917
+gca update updateWilaya function
+#1738429577
+make
+#1738429769
+gst
+#1738429778
+gca update deleteWilaya function
+#1738429856
+r
+#1738442145
+gst
+#1738442157
+gca update generic functions
+#1738442416
+gst
+#1738442428
+gst -u
+#1738442431
+gca
+#1738442787
+q
+#1738443968
+cdw
+#1738443969
+cd stp
+#1738443972
+yarn dev
+#1738444197
+gst
+#1738444203
+gca update prscharge link
+#1738444206
+q
+#1738442485
+cdw
+#1738442489
+cd stp-api/
+#1738442489
+ls
+#1738442490
+gst
+#1738442499
+ls
+#1738442502
+gst
+#1738442504
+make
+#1738442510
+make clean
+#1738442511
+gst
+#1738442513
+gst -u
+#1738442515
+r
+#1738442550
+gst
+#1738442553
+gst -u
+#1738442559
+gca add main
+#1738442685
+gst
+#1738442687
+gca update main
+#1738442689
+make
+#1738442779
+make clean
+#1738442780
+make
+#1738442784
+make clean 
+#1738442786
+gst
+#1738442800
+gca update to french output
+#1738442917
+gst
+#1738442943
+r
+#1738443277
+make
+#1738443320
+r
+#1738443388
+make
+#1738444210
+make clean
+#1738444211
+gst
+#1738444217
+gca add prscharges
+#1738424942
+cdw
+#1738424945
+cd stp-api/
+#1738424948
+cd test/
+#1738424948
+ls
+#1738424949
+r
+#1738424978
+./delete W111
+#1738424984
+./create
+#1738424991
+./get W111
+#1738424997
+./update W111
+#1738425055
+r
+#1738426018
+./get
+#1738426022
+./get W111
+#1738426027
+./update W111
+#1738426117
+./get W111
+#1738427895
+./update W111
+#1738428748
+./get W111
+#1738428759
+r
+#1738428776
+./update W111
+#1738428782
+r
+#1738428788
+./update W111
+#1738428792
+./get W111
+#1738428800
+./update W111
+#1738428801
+r
+#1738428816
+./get W222
+#1738428826
+r
+#1738428841
+./update W111
+#1738428844
+./get W111
+#1738428851
+r
+#1738428869
+./update W111
+#1738428876
+./get W111
+#1738428881
+r
+#1738428895
+./update W111
+#1738428896
+./get W111
+#1738428899
+clear
+#1738428899
+ls
+#1738429731
+./get W111
+#1738429735
+./create
+#1738429743
+./delete W111
+#1738429745
+./create
+#1738429753
+./update W111
+#1738429756
+./get W111
+#1738429759
+./delete W111
+#1738429761
+./get W111
+#1738429764
+./create
+#1738429765
+clear
+#1738429766
+ls
+#1738431455
+./get W111
+#1738431459
+./get
+#1738431480
+r
+#1738431495
+./get
+#1738432614
+..
+#1738432617
+cd prscharges/
+#1738432617
+ls
+#1738432619
+./get
+#1738432685
+r
+#1738432716
+./get
+#1738432720
+r
+#1738432873
+./get
+#1738433481
+./create
+#1738433497
+r
+#1738433538
+./get 111111
+#1738433542
+./get
+#1738433547
+./get 8000
+#1738435807
+./get
+#1738436155
+./get 8000
+#1738436174
+./get
+#1738436352
+./get 8000
+#1738436379
+clear
+#1738436379
+ls
+#1738436536
+..
+#1738436538
+cd wilayas/
+#1738436539
+ls
+#1738436540
+r
+#1738436542
+./get
+#1738440550
+ls
+#1738440553
+./get
+#1738440595
+r
+#1738440603
+./get
+#1738440611
+./delete W111
+#1738440653
+./get
+#1738440660
+./create
+#1738440662
+./get
+#1738440669
+./get W111
+#1738441300
+./delete W111
+#1738441303
+./create
+#1738441306
+./get W111
+#1738441312
+./update W111
+#1738441325
+./get W111
+#1738441335
+./get
+#1738441340
+./delete W111
+#1738441342
+clear
+#1738441342
+ls
+#1738441741
+clear
+#1738441742
+ls
+#1738441743
+
+#1738441960
+./get
+#1738442057
+./get W111
+#1738442067
+./create
+#1738442116
+./delete W111
+#1738443867
+..
+#1738443868
+cd prscharges/
+#1738443869
+ls
+#1738443873
+./get 111111
+#1738443876
+./get
+#1738443887
+./create 
+#1738443892
+./get 111111
+#1738443901
+./get
+#1738443915
+./delete 111111
+#1738443918
+r
+#1738480777
+clear
+#1738480777
+ls
+#1738480777
+q
+#1738490626
+ls
+#1738490626
+q
+#1738490627
+ls
+#1738490627
+q
+#1738482015
+cdw
+#1738482018
+cd stp
+#1738482018
+ls
+#1738482020
+yarn dev
+#1738482052
+..
+#1738482055
+cd stp-api/
+#1738482056
+ls
+#1738482057
+gst
+#1738482064
+sudo systemctl start oracle-xe
+#1738482085
+make
+#1738482246
+make clean
+#1738482264
+sudo systemctl stop oracle-xe
+#1738482303
+clear
+#1738482304
+ls
+#1738482306
+r
+#1738482313
+gst
+#1738482317
+yarn dev
+#1738508055
+gst
+#1738508064
+gca add darkmode and update new logo
+#1738482594
+cdw
+#1738482596
+cd stp-api
+#1738482599
+sudo systemctl start oracle-xe
+#1738482620
+make
+#1738483351
+cdw
+#1738483353
+cd stp
+#1738483353
+ls
+#1738483354
+r
+#1738523560
+clear
+#1738523560
+q
+#1738523579
+cdw
+#1738523580
+q
+#1738523876
+cdw
+#1738523877
+cd stp
+#1738523878
+ls
+#1738523878
+r
+#1738524372
+gst
+#1738524376
+gd
+#1738524389
+gca update logo and dark mode colors
+#1738525252
+gst
+#1738525264
+gca add spin animation on dark mode toggle button
+#1738525531
+gst
+#1738525539
+gca update dark mode toggle button
+#1738526072
+gst
+#1738526073
+gd
+#1738526087
+gca update mobile header padding
+#1738527176
+gca fix loading spinner color
+#1738527327
+gca remove grey color
+#1738528140
+gca update dark , light mode colors
+#1738528229
+gca fix prscharges page
+#1738528824
+gst
+#1738528836
+gca fix card layout on medium screens
+#1738529703
+gst
+#1738529706
+gd
+#1738529721
+gst
+#1738529728
+gca update card layout
+#1738529921
+gst
+#1738529921
+q
+#1738531120
+cdw
+#1738531121
+cd stp
+#1738531121
+ls
+#1738531123
+gst
+#1738531124
+gd
+#1738531127
+clear
+#1738531127
+ls
+#1738531130
+gd
+#1738531150
+gca fix header logo default screen size
+#1738531152
+q
+#1738523583
+cdw
+#1738523585
+cd stp
+#1738523585
+ls
+#1738523587
+yarn dev
+#1738531153
+q
+#1738523563
+cdw
+#1738523566
+cd stp-api/
+#1738523568
+sudo systemctl start oracle-xe
+#1738523596
+make
+#1738531157
+make clean
+#1738531160
+sudo systemctl stop oracle-xe
+#1738531359
+q
+#1738574627
+cdw
+#1738574628
+cd stp
+#1738574628
+ls
+#1738574630
+gst
+#1738577006
+gca seperation of concerns for dynamic table
+#1738577149
+r
+#1738572435
+cdw
+#1738572436
+cd stp
+#1738572438
+ls
+#1738572439
+yarn dev
+#1738594181
+q
+#1738594191
+cdw
+#1738594192
+cd stp
+#1738594193
+gst
+#1738594195
+gd
+#1738594199
+gs
+#1738594201
+gst
+#1738594282
+gca update contacts page
+#1738594305
+q
+#1738572444
+sudo systemctl start oracle-xe
+#1738573423
+cdw
+#1738573426
+cd stp-api/
+#1738573428
+mae
+#1738573430
+make
+#1738594185
+make clean
+#1738594190
+sudo systemctl stop oracle-xe
+#1738594305
+q
+#1738594339
+r
+#1738606876
+q
+#1738612040
+cd .build/tily/
+#1738612040
+ls
+#1738612044
+nvim config.h 
+#1738612094
+make
+#1738612098
+sudo make clean install
+#1738612100
+q
+#1738607169
+cdw
+#1738607170
+cd srp
+#1738607173
+cd stp
+#1738607174
+ls
+#1738607177
+clear
+#1738607178
+ls
+#1738607180
+clear
+#1738607181
+ls
+#1738607199
+r
+#1738612838
+gst
+#1738612851
+gca fix table footer layout
+#1738606877
+cdw
+#1738606879
+cd stp
+#1738606879
+ls
+#1738606881
+yarn dev
+#1738606890
+sudo systemctl start oracle-xe
+#1738606912
+cdw
+#1738606915
+cd stp-api/
+#1738606915
+ls
+#1738606916
+make
+#1738616870
+r
+#1738616876
+mpv out.mp4 
+#1738616915
+ins mpv
+#1738616920
+upd
+#1738616931
+ins mpv
+#1738616936
+ins ffmpeg
+#1738616943
+rem mpv
+#1738616946
+ins mpv
+#1738616949
+mpv
+#1738616951
+ins mpv
+#1738616959
+ins ffmpeg
+#1738616962
+rem ffmpeg
+#1738616976
+q
+#1738619018
+cdw
+#1738619020
+cd stp
+#1738619023
+gst
+#1738619054
+gca add table footer pagination info
+#1738619056
+q
+#1738616998
+cdw
+#1738617000
+cd stp
+#1738617000
+;s
+#1738617001
+ls
+#1738617004
+sudo systemctl start oracle-xe
+#1738617029
+yarn dev
+#1738619058
+q
+#1738617011
+cdw
+#1738617013
+cd stp-api
+#1738617013
+ls
+#1738617021
+c
+#1738617022
+make
+#1738619061
+q
+#1738619679
+cdw
+#1738619681
+cd stp
+#1738619681
+ls
+#1738619724
+nvim Dockerfile
+#1738619790
+r
+#1738619798
+yarn build
+#1738619825
+r
+#1738619893
+gst
+#1738619899
+yarn build
+#1738619909
+r
+#1738619955
+yarn build
+#1738619983
+docker build -t stp-demo .
+#1738619991
+sudo systemctl start docker
+#1738619997
+docker build -t stp-demo .
+#1738620008
+sudo docker build -t stp-demo .
+#1738620160
+docker images
+#1738620164
+sudo docker images
+#1738620193
+docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738620203
+sudo docker run -d -p 80:80 stp-demo
+#1738620352
+sudo docker stop stp-demo
+#1738620403
+sudo docker stop b53ece4064f48d72e6e0a8b117d3ad44298b9d29029cb582512034d11a830147
+#1738620424
+sudo docker run -d -p 80:80 --name stp-demo stp-demo
+#1738620444
+sudo docker stop stp-demo
+#1738620449
+sudo docker run -d -p 80:80 --name stp-demo stp-demo
+#1738620488
+sudo docker stop --name stp-demo
+#1738620491
+sudo docker stop stp-demo
+#1738620495
+sudo docker remove stp-demo
+#1738620512
+sudo docker stop stp-demo
+#1738620520
+sudo docker run -d -p 80:80 stp-demo
+#1738620537
+sudo docker ps
+#1738620583
+sudo docker stop stp-demo
+#1738620594
+sudo docker stop e16f105995b4
+#1738620600
+sudo docker ps
+#1738620608
+sudo docker run -d -p 80:80 stp-demo
+#1738620715
+sudo docker rm stp-demo
+#1738620718
+docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738620720
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738620794
+sudo lsof -i :80
+#1738620803
+sudo systemctl stop nginx
+#1738620808
+sudo systemctl stop docker
+#1738620821
+sudo systemctl start docker
+#1738620827
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738620861
+docker rm aa1b83e478c9
+#1738620864
+sudo docker rm aa1b83e478c9
+#1738620886
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738621072
+sudo docker run -d -p 80:80 stp-demo
+#1738619581
+cd stp
+#1738619584
+cdw
+#1738619586
+cd stp
+#1738619586
+ls
+#1738619587
+gst
+#1738619589
+yarn dev
+#1738621181
+sudo docker run -d -p 80:80 stp-demo
+#1738621186
+sudo systemctl start docker
+#1738621194
+sudo docker run -d -p 80:80 stp-demo
+#1738621205
+cdw
+#1738621207
+cd stp-api
+#1738621213
+sudo systemctl start oracle-xe
+#1738621252
+make
+#1738621447
+sudo docker ps
+#1738621456
+sudo docker rm 98949beaa45a
+#1738621465
+sudo docker stop 98949beaa45a
+#1738621468
+sudo docker rm 98949beaa45a
+#1738621470
+clear
+#1738621485
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738621516
+sudo docker run -d -p 80:80 stp-demo
+#1738621522
+sudo docker ps
+#1738621563
+sudo docker save -o stp-demo-image.tar stp-demo
+#1738621565
+ls
+#1738621569
+r
+#1738621686
+q
+#1738652711
+cdw
+#1738652714
+cd stp-api
+#1738652716
+make
+#1738653317
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738653336
+sudo docker rm 7206dc333840f3ffb71d79b3217ead247f173030d0108c21953b9604f986595e
+#1738653341
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738653363
+sudo docker stop stp-demo-container
+#1738653368
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738653386
+sudo docker stop d6e98e9cbaecbcd38d60eb01d41675113d0bc45fac52f6a89b0228e8d16b1420
+#1738653392
+sudo docker rm d6e98e9cbaecbcd38d60eb01d41675113d0bc45fac52f6a89b0228e8d16b1420
+#1738653395
+sudo docker run -d -p 80:80 --name stp-demo-container stp-demo
+#1738653532
+cdw
+#1738653534
+cd stp
+#1738653534
+ls
+#1738653538
+r
+#1738653812
+make
+#1738653853
+r
+#1738653871
+q
+#1738652520
+sudo systemctl start docker
+#1738652529
+sudo systemctl start oracle-xe
+#1738652604
+cdw
+#1738652606
+cd stp
+#1738652606
+ls
+#1738652607
+gst
+#1738652612
+gd
+#1738652631
+gca remove syndicat for production
+#1738652643
+nvim .gitignore 
+#1738652650
+gst
+#1738652651
+gst -u
+#1738652655
+gca remove syndicat for production
+#1738652659
+clear
+#1738652660
+ls
+#1738652669
+clear
+#1738652669
+ls
+#1738652694
+clear
+#1738652694
+ls
+#1738652698
+clear
+#1738652699
+ls
+#1738652707
+yarn dev
+#1738653717
+ls
+#1738653719
+make
+#1738653757
+sudo docker ps
+#1738653765
+sudo docker stop 1dd1deb1e945
+#1738653774
+sudo docker rm stp-demo
+#1738653779
+sudo docker rm 1dd1deb1e945
+#1738653783
+clear
+#1738653783
+ls
+#1738653795
+c
+#1738653872
+ls
+#1738653873
+clear
+#1738653874
+q
+#1738657162
+cdw
+#1738657164
+cd stp-api
+#1738657165
+make
+#1738674928
+cdw
+#1738674929
+cd stp
+#1738674929
+ls
+#1738674931
+gst
+#1738674955
+gca update tableFooter items per page click anywhere to close functionality
+#1738676005
+..
+#1738676008
+cd demo/
+#1738676011
+cd api/
+#1738676012
+make
+#1738676239
+make clean
+#1738676243
+q
+#1738653875
+cdw
+#1738653876
+cd stp
+#1738653876
+ls
+#1738653894
+make
+#1738654018
+cat -A Makefile 
+#1738654026
+cat -A Makefile > out
+#1738654027
+r
+#1738654097
+make
+#1738654220
+dos2unix Makefile
+#1738654232
+cat -A Makefile
+#1738654398
+make
+#1738654599
+ls
+#1738654600
+r
+#1738655022
+make
+#1738655029
+make stop
+#1738655034
+make build
+#1738655135
+make run
+#1738655160
+make stop
+#1738655544
+make
+#1738655698
+make build
+#1738655734
+make run
+#1738655748
+make stop
+#1738655754
+make run
+#1738655760
+make stop
+#1738655807
+make build
+#1738655820
+r
+#1738655828
+make clean
+#1738655830
+make
+#1738655836
+make stop
+#1738655840
+make clean
+#1738655843
+make
+#1738655848
+r
+#1738655988
+clear
+#1738655988
+ls
+#1738655991
+..
+#1738655991
+r
+#1738655997
+cd stp-api
+#1738656001
+make clean
+#1738656039
+clear
+#1738656041
+ls
+#1738656043
+r
+#1738656361
+make clean
+#1738656363
+make
+#1738656415
+make clean
+#1738656418
+gst
+#1738656436
+gca update port to a production ready port number
+#1738656438
+..
+#1738656439
+cd stp
+#1738656440
+ls
+#1738656441
+gst
+#1738656456
+gca update port and add makefile and docker all at once
+#1738656466
+clear
+#1738656467
+ls
+#1738656467
+r
+#1738656475
+gst
+#1738656476
+gst -u
+#1738656477
+gd
+#1738656478
+gs
+#1738656487
+clear
+#1738656487
+ls
+#1738656493
+c
+#1738656494
+ls
+#1738656541
+c
+#1738656542
+ls
+#1738656548
+nvim Dockerfile
+#1738656555
+,,
+#1738656556
+..
+#1738656558
+cd stp-api/
+#1738656558
+ls
+#1738656561
+nvim Dockerfile
+#1738656631
+sudo docker build -t stp-api .
+#1738656898
+r
+#1738657088
+make
+#1738657093
+make clean
+#1738657096
+clear
+#1738657096
+ls
+#1738657113
+..
+#1738657114
+cd stp
+#1738657115
+ls
+#1738657152
+make
+#1738657280
+gst
+#1738657284
+gca update port for the api 
+#1738657287
+..
+#1738657289
+cd stp-api/
+#1738657289
+ls
+#1738657290
+gst
+#1738657295
+gst -u
+#1738657324
+gca add dockerfile and update port to 9090 for production
+#1738657336
+clear
+#1738657336
+ls
+#1738657339
+make clean
+#1738657339
+ls
+#1738657369
+r
+#1738657401
+make build
+#1738657415
+r
+#1738657480
+make build
+#1738657501
+make run
+#1738657510
+r
+#1738657550
+make build
+#1738657553
+make run
+#1738658254
+r
+#1738658299
+make build
+#1738658302
+make run
+#1738658309
+r
+#1738658341
+make build
+#1738658343
+make run
+#1738658423
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738658431
+make stop
+#1738658462
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738658499
+r
+#1738658629
+docker build -t stp-api .
+#1738658632
+sudo docker build -t stp-api .
+#1738658644
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738658653
+sudo docker stop "8588699a3246af9e8c94c94cf57553a6c2ea43637046c3607ee0458882495cd0".
+#1738658661
+sudo docker rm "8588699a3246af9e8c94c94cf57553a6c2ea43637046c3607ee0458882495cd0".
+#1738658667
+sudo docker rm 8588699a3246af9e8c94c94cf57553a6c2ea43637046c3607ee0458882495cd0
+#1738658673
+sudo docker stop 8588699a3246af9e8c94c94cf57553a6c2ea43637046c3607ee0458882495cd0
+#1738658675
+clear
+#1738658676
+ls
+#1738658694
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738658731
+sudo docker stop stp-api-container
+#1738658737
+sudo docker rm stp-api-container
+#1738658745
+sudo docker rmi stp-api
+#1738658754
+sudo docker build -t stp-api .
+#1738658768
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738658827
+sudo docker ps
+#1738658832
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738658843
+sudo docker rm 5015ae2d61e730f072c486a129ce044bc36c63e29a8f3dd535518e699d7fada1
+#1738658847
+sudo docker build -t stp-api .
+#1738658853
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738658856
+sudo docker ps
+#1738659140
+go run ./cmd/stp-api/main.go
+#1738659153
+clear
+#1738659155
+make clean
+#1738659165
+make build
+#1738659173
+make run
+#1738659184
+make stop
+#1738659188
+make run
+#1738659194
+sudo docker ps
+#1738659199
+make run
+#1738659225
+sudo docker build -t stp-api .
+#1738659232
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738659241
+sudo docker rm d786025cc9c46ccd73259d8c68944b68d6a79f5d420ae80f2b68bb558ed38b72
+#1738659244
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738659261
+sudo docker inspect stp-api-container
+#1738659312
+..
+#1738659316
+cd stp-api/
+#1738659317
+make
+#1738659325
+ls
+#1738659371
+r
+#1738659379
+make
+#1738659383
+make clean
+#1738659385
+make 
+#1738659390
+clear
+#1738659391
+ls
+#1738659396
+cd ../stp
+#1738659397
+ls
+#1738659398
+make
+#1738659447
+..
+#1738659450
+cd stp-api/
+#1738659450
+ls
+#1738659453
+sudo docker ps -a
+#1738659550
+sudo docker rm $(docker ps -aq)
+#1738659555
+sudo docker rm $(sudo docker ps -aq)
+#1738659558
+clear
+#1738659559
+ls
+#1738659568
+sudo docker rmi $(sudo docker images -q)
+#1738659683
+r
+#1738659869
+sudo docker build -t stp-api .
+#1738660093
+docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738660099
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738660282
+make clean
+#1738660284
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738660401
+sudo docker rm -f stp-api-container
+#1738660408
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738660485
+sudo docker ps
+#1738660606
+r
+#1738661288
+sudo docker run --rm -it --entrypoint sh stp-api
+#1738664134
+make
+#1738664140
+..
+#1738664141
+cd stp
+#1738664143
+make
+#1738664158
+make stop
+#1738664178
+make run
+#1738664202
+make build
+#1738664418
+make run
+#1738664504
+..
+#1738664506
+cd stp-api/
+#1738664509
+make clean
+#1738664570
+clear
+#1738664570
+ls
+#1738664575
+r
+#1738664635
+sudo docker build -t stp-api .
+#1738664695
+sudo docker ps
+#1738664770
+sudo docker build -t stp-api .
+#1738664780
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738664794
+sudo docker rm e76c75314a35d780a1d062e563efc87f88b0c0c522edccc579750cb04a3f84ed
+#1738664796
+sudo docker run -d -p 9090:9090 --name stp-api-container stp-api
+#1738664800
+sudo docker ps
+#1738664815
+cd bin/
+#1738664816
+ls
+#1738664818
+r
+#1738664823
+make build
+#1738664832
+ls
+#1738664832
+r
+#1738664838
+./bin/stp-api 
+#1738664845
+clear
+#1738664845
+ls
+#1738664866
+r
+#1738664868
+clear
+#1738664868
+ls
+#1738664870
+r
+#1738665108
+sudo docker run --rm -it --entrypoint sh stp-api
+#1738674136
+clear
+#1738674136
+ls
+#1738674139
+make
+#1738674151
+clear
+#1738674152
+ls
+#1738674168
+make
+#1738674255
+..
+#1738674257
+cd stp
+#1738674258
+ls
+#1738674286
+clear
+#1738674288
+yarn dev
+#1738693988
+cdw
+#1738693993
+cd stp-api/
+#1738693994
+make
+#1738694000
+cdw
+#1738694001
+ls
+#1738694002
+cd stp
+#1738694003
+ls
+#1738694004
+c
+#1738694005
+gst
+#1738695115
+r
+#1738696326
+yarn add pinia
+#1738696330
+clear
+#1738696331
+ls
+#1738696342
+r
+#1738698559
+gst
+#1738698591
+gca MILESTONE - Refactor using pinia, dynamic SOC components
+#1738698880
+r
+#1738698908
+gst
+#1738699124
+gca dynamic table components
+#1738699127
+clear
+#1738699128
+ls
+#1738699917
+gst
+#1738699918
+c
+#1738699918
+gst
+#1738700079
+q
+#1738680330
+cdw
+#1738680335
+sudo systemctl start oracle-xe
+#1738693974
+cd stp
+#1738693975
+ls
+#1738693976
+clear
+#1738693976
+ls
+#1738693985
+yarn dev
+#1738700082
+clear
+#1738700085
+make run
+#1738700103
+sudo systemctl start docker
+#1738700107
+make run
+#1738700111
+make build
+#1738700215
+make run
+#1738700235
+sudo docker rm e59a9f92cb2b8d8248e7e6da5d67703e867bb5470dd81c8ade4d1f7306b95399
+#1738700238
+make run
+#1738700255
+make clean
+#1738700257
+make run
+#1738700263
+make stop
+#1738700271
+make run
+#1738700280
+make clean
+#1738700282
+make stop
+#1738700285
+make build
+#1738700297
+make run
+#1738700469
+make stop
+#1738700474
+make clean
+#1738700475
+clear
+#1738700475
+ls
+#1738700476
+r
+#1738700544
+q
+#1738700582
+cdw
+#1738700583
+cd stp
+#1738700584
+ls
+#1738700585
+yarn dev
+#1738700866
+gst
+#1738700876
+gca update tablefooter items per page button
+#1738700999
+yarn dev
+#1738701084
+gst
+#1738701097
+gca fix table footer click anywhere else to close items per page
+#1738701099
+gst
+#1738701101
+q
+#1738701188
+clear
+#1738701189
+ls
+#1738701196
+sudo systemctl start oracle-xe
+#1738740704
+cdw
+#1738740709
+cd
+#1738740709
+r
+#1738740713
+gst
+#1738740715
+cdw
+#1738740719
+cd stp-api/
+#1738740720
+ls
+#1738740721
+make
+#1738746062
+cdw
+#1738746062
+l
+#1738746063
+ls
+#1738746066
+r
+#1738746084
+..
+#1738746085
+ls
+#1738746085
+r
+#1738746657
+ls
+#1738746864
+..
+#1738746888
+cd stp-api
+#1738746888
+ls
+#1738746889
+r
+#1738747030
+ls
+#1738747038
+r
+#1738754273
+q
+#1738763205
+sudo systemctl start oracle-xe
+#1738763230
+cdw
+#1738763233
+cd stp-api
+#1738763234
+ls
+#1738763236
+make
+#1738766796
+cdw
+#1738766799
+cd stp-api
+#1738766800
+ls
+#1738766802
+r
+#1738767200
+make
+#1738767237
+r
+#1738767318
+make
+#1738767336
+r
+#1738766752
+sudo systemctl start oracle-xe
+#1738766775
+cdw
+#1738766778
+cd stp-api
+#1738766778
+make
+#1738766787
+..
+#1738766790
+cd stp
+#1738766793
+yarn dev
+#1738767452
+cdw
+#1738767454
+r
+#1738767449
+sudo systemctl start oracle-xe
+#1738778859
+cdw
+#1738778863
+cd stp-api/
+#1738778863
+ls
+#1738778866
+make
+#1738779192
+jmake
+#1738779193
+make
+#1738781021
+make stop
+#1738781022
+make clean
+#1738781024
+gst
+#1738781032
+gd
+#1738781040
+gca add statistics
+#1738781042
+clear
+#1738781043
+make
+#1738789622
+cdw
+#1738789624
+cd stp
+#1738789626
+yarn dev
+#1738789686
+gst
+#1738789704
+gca MILESTONE - cards fetch data dynamically and sucessfully!
+#1738779733
+cdw
+#1738779737
+cd stp
+#1738779739
+yarn dev
+#1738781006
+gst
+#1738781012
+gca add statistics
+#1738781050
+ls
+#1738781051
+clear
+#1738781051
+ls
+#1738781053
+yarn dev
+#1738787027
+gst
+#1738787036
+gca update card statistic behaviour
+#1738787038
+gst
+#1738787042
+..
+#1738787045
+cd stp-api
+#1738787045
+ls
+#1738787046
+make
+#1738787991
+makke
+#1738787993
+make
+#1738788462
+make clean
+#1738788468
+gst
+#1738788497
+gca update readAll, it now handles filter options, also add new handlers for prscharge
+#1738788499
+make
+#1738789844
+make clean
+#1738789845
+clear
+#1738789845
+ls
+#1738789847
+q
+#1738789849
+clear
+#1738789849
+q
+#1738789893
+r
+#1738790136
+q
+#1738829134
+cdw
+#1738829139
+cd stp-api/
+#1738844097
+make
+#1738790834
+cdw
+#1738790836
+sudo systemctl start oracle-xe
+#1738790855
+cdw
+#1738790857
+cd stp-api/
+#1738790858
+ls
+#1738790860
+make
+#1738790871
+make clean
+#1738790880
+..
+#1738790882
+cd stp
+#1738790886
+yarn dev
+#1738872578
+cdw
+#1738872583
+sudo systemctl start oracle-xe
+#1738872649
+cdw
+#1738872652
+cd stp-api/
+#1738872652
+make
+#1738872659
+cdw
+#1738872661
+cd stp
+#1738872662
+ls
+#1738874032
+r
+#1738878457
+gst
+#1738878459
+grh
+#1738878539
+gst
+#1738878542
+r
+#1738882168
+gst
+#1738882169
+..
+#1738882170
+gst
+#1738882285
+gca add global scss vars and mixins, and update all concerned components
+#1738882287
+gst
+#1738882349
+r
+#1738883045
+grh c987fdbb4ffb360732a47de37293d13046347f5d
+#1738883068
+git reset --force c987fdbb4ffb360732a47de37293d13046347f5d
+#1738883122
+git reset --hard c987fdbb4ffb360732a47de37293d13046347f5d
+#1738883126
+gst
+#1738883183
+git reset --hard 38970095b9eed842465a8e9af75f2ec334ae6dbe
+#1738883237
+r
+#1738884413
+gst
+#1738884426
+gca add new smooth transitions on all components
+#1738884429
+clear
+#1738884429
+ls
+#1738872585
+cdw
+#1738872587
+cd stp
+#1738872588
+yarn dev
+#1738884701
+cdw
+#1738943521
+cd stp-api/
+#1738943525
+sudo systemctl start oracle-xe
+#1738943567
+make
+#1738950258
+sqlcl aslstp@127.0.0.1:1521/XE
+#1738950943
+q
+#1738951507
+cdw
+#1738951509
+cd stp-api
+#1738951510
+ls
+#1738951512
+sudo systemctl start oracle-xe
+#1738952460
+make
+#1738953675
+mak
+#1738953675
+make
+#1738954132
+cdw
+#1738954134
+cd stp-api/
+#1738954135
+make
+#1738955101
+gst
+#1738955105
+make clean
+#1738955105
+gst
+#1738955124
+gca add new search service for prscharges related searches
+#1738955126
+gst
+#1738955140
+make
+#1738957005
+q
+#1738957080
+cdw
+#1738957082
+cd stp-api
+#1738957082
+ls
+#1738957084
+make clean
+#1738957187
+make
+#1738958228
+cdw
+#1738958229
+cd stp
+#1738958230
+ls
+#1738958232
+gst
+#1738958239
+gca remove unnecessary comments
+#1738960284
+gst
+#1738960287
+grh
+#1738960291
+gst
+#1738953162
+sqlcl aslstp@127.0.0.1:1521/XE
+#1738953999
+cdw
+#1738954000
+cd stp
+#1738954001
+ls
+#1738954003
+yarn dev
+#1738957006
+gst
+#1738957033
+gca MILESTONE - Global search on multiple fields - PRSCHARGES
+#1738957035
+gst
+#1738957037
+yarn dev
+#1738960300
+q
+#1738960353
+clea
+#1738960356
+clear
+#1738960357
+q
+#1738960359
+sudo systemctl start oracle-xe
+#1739007931
+cdw
+#1739007933
+cd stp
+#1739007936
+..
+#1739007938
+cd stp-api
+#1739007939
+make
+#1739016175
+cdw
+#1739016178
+cd stp
+#1739016178
+ls
+#1739016178
+r
+#1739016309
+q
+#1739009349
+cds
+#1739009350
+cdw
+#1739009352
+cd stp
+#1739009352
+ls
+#1739009353
+clear
+#1739009354
+gst
+#1739012261
+..
+#1739012268
+cd stp-api
+#1739012269
+r
+#1739012479
+make
+#1739016083
+gst
+#1739016088
+gs
+#1739016092
+gd
+#1739016111
+gca add ADR_WIN in the search fieldset
+#1739016121
+r
+#1739016133
+gca add ADR_WIN in the search fieldset
+#1739016149
+make clean
+#1739016151
+gca add ADR_WIN in the search fieldset
+#1739016304
+ls
+#1739016311
+..
+#1739016312
+cd stp
+#1739016312
+ls
+#1739016313
+gst
+#1739016318
+gca add profile page
+#1739016327
+..
+#1739016331
+cd stp-api
+#1739016332
+ls
+#1739016333
+make
+#1739016339
+cdw
+#1739016340
+cd stp
+#1739016988
+r
+#1739022687
+gst
+#1739023183
+r
+#1739025024
+gst
+#1739025027
+gst -u
+#1739025035
+gca add drawer components!
+#1739025072
+gca update drawer components layout positioning!
+#1739025146
+..
+#1739025146
+ls
+#1739025147
+r
+#1739025149
+gst
+#1739025888
+gca update drawer components layout and colors
+#1739026422
+gca update drawer divider length
+#1739028781
+r
+#1739028792
+q
+#1739028794
+cdw
+#1739028794
+cd stp
+#1739028820
+r
+#1739029585
+gst
+#1739030071
+gca update drawer layout and a adapted a more generic approach
+#1739030152
+gca update drawer divider position and height
+#1739030409
+gca remove unnecessary comments!
+#1739030412
+clear
+#1739030412
+ls
+#1739030414
+q
+#1739007946
+cdw
+#1739007948
+cd stp
+#1739007949
+yarn dev
+#1739007955
+clear
+#1739007956
+l
+#1739007956
+ls
+#1739007957
+make
+#1739007982
+ls
+#1739007984
+make
+#1739030416
+q
+#1739030880
+gca added xbps-reconfigure everything
+#1739030886
+recon-ng 
+#1739030891
+ins recon-ng
+#1739030919
+clear
+#1739030919
+ls
+#1739030920
+ins recon-ng
+#1739030922
+q
+#1739090559
+r
+#1739091669
+lsblk
+#1739091732
+sudo mount /dev/sdc1 /usb
+#1739091735
+sudo mount /dev/sdc1 usb/
+#1739091747
+sudo umount /dev/sdc1
+#1739091750
+sudo mount /dev/sdc1 usb/
+#1739091754
+cd usb/
+#1739091755
+ls
+#1739091776
+..
+#1739091926
+r
+#1739092005
+sudo cp -fvr stp.tar ../../../usb/
+#1739092007
+ls
+#1739092009
+cd 
+#1739092012
+cd usb/
+#1739092014
+ls
+#1739092017
+clear
+#1739092018
+ls
+#1739092040
+..
+#1739092044
+sudo umount usb/
+#1739092439
+q
+#1739093003
+r
+#1739093341
+q
+#1739094808
+ls
+#1739094810
+cd test/
+#1739094811
+ls
+#1739094821
+nvim exo_moncef.c
+#1739095084
+ls
+#1739095087
+./exo_moncef 
+#1739095123
+r
+#1739095293
+q
+#1739087148
+cdw
+#1739087149
+cd stp
+#1739087150
+ls
+#1739089491
+r
+#1739089521
+..
+#1739089523
+cd stp
+#1739089523
+ls
+#1739089529
+c
+#1739090553
+r
+#1739091782
+make build
+#1739091860
+sudo systemctl start docker
+#1739091864
+make build
+#1739091879
+clear
+#1739091879
+ls
+#1739091921
+r
+#1739092446
+make clean
+#1739093956
+r
+#1739111504
+gst
+#1739111508
+gst -u
+#1739111524
+gca add form in the drawer body and update header button sizes
+#1739111633
+gca update search icon size
+#1739111811
+gst
+#1739111814
+gst -u
+#1739111936
+gca update header button paddings!
+#1739113256
+gst
+#1739113282
+gca update Drawer header positioning and update form!
+#1739085220
+lsblk
+#1739085235
+sudo mount /sdc/sdc1 usb/
+#1739085239
+sudo mount /sdc/sdc usb/
+#1739085252
+lsblk
+#1739085262
+sudo mount /sdc/sdc usb/
+#1739085269
+sudo mount /dev/sdc1 usb/
+#1739085271
+ls
+#1739085272
+cd usb/
+#1739085273
+ls
+#1739085290
+sudo cp * ../
+#1739085297
+sudo cp -fvr * ../
+#1739085299
+r
+#1739085324
+sudo umount /dev/sdc1 
+#1739085329
+sudo eject /dev/sdc
+#1739085331
+clear
+#1739086089
+cdw
+#1739086091
+cd stp
+#1739086095
+make
+#1739128657
+cdw
+#1739128661
+cd stp-api
+#1739128662
+ls
+#1739128667
+..
+#1739128668
+cd stp
+#1739128674
+sudo systemctl start docker
+#1739128679
+sudo systemctl start oracle-xe
+#1739128722
+make
+#1739129282
+make clean
+#1739129333
+..
+#1739129336
+q
+#1739129561
+r
+#1739129717
+q
+#1739130422
+cd demo/api/
+#1739130424
+nvim main.go 
+#1739130441
+q
+#1739130046
+cdw
+#1739130051
+cds stp-api/
+#1739130051
+ls
+#1739130054
+cd stp-api/
+#1739130054
+ls
+#1739130059
+cd test/unit/prestations/
+#1739130060
+ls
+#1739130060
+r
+#1739130062
+./get
+#1739130067
+./get 2010
+#1739130079
+./get 2
+#1739130081
+./get 4
+#1739130241
+./get C0001
+#1739130243
+./get C0003
+#1739130312
+./get C0009
+#1739130318
+./get 'C0009'
+#1739130323
+./get "C0009"
+#1739130336
+./get C0002
+#1739130359
+./create
+#1739130362
+r
+#1739130394
+./create 
+#1739130692
+r
+#1739130701
+./get 111111
+#1739130707
+./delete 111111
+#1739130710
+./get 111111
+#1739130716
+./create 
+#1739130718
+./get 111111
+#1739130722
+./update 111111
+#1739130724
+./get 111111
+#1739130728
+clear
+#1739130729
+ls
+#1739130729
+r
+#1739130737
+./create
+#1739130739
+r
+#1739130750
+./get 111111
+#1739130753
+./get
+#1739130759
+./get 1
+#1739130767
+r
+#1739130795
+./get
+#1739130801
+./get 111111
+#1739130805
+r
+#1739130900
+./getAll 
+#1739130904
+./get 
+#1739130906
+./get 1
+#1739130909
+./get 4
+#1739130916
+./get 1100
+#1739131035
+clear
+#1739131036
+ls
+#1739131038
+clear
+#1739131038
+ls
+#1739131042
+./create 
+#1739131278
+./get 111111
+#1739131285
+./delete 111111
+#1739131287
+./get 111111
+#1739131289
+./create 
+#1739131291
+./get 111111
+#1739131296
+./update 111111
+#1739131298
+./get 111111
+#1739131304
+clear
+#1739131304
+ls
+#1739131331
+./getAll 
+#1739131335
+ls
+#1739131336
+clear
+#1739131337
+..
+#1739131340
+cd prestations/
+#1739131340
+ls
+#1739131374
+r
+#1739131591
+gst
+#1739131599
+r
+#1739131613
+gst
+#1739131619
+gca fix all api tests!
+#1739131622
+clear
+#1739131622
+ls
+#1739135721
+cd demo/api/
+#1739135722
+ls
+#1739135723
+r
+#1739136228
+..
+#1739136232
+cdw
+#1739136234
+cd stp-api/
+#1739136242
+cd test/api/prestations/
+#1739136242
+r
+#1739136266
+./getAll 
+#1739136270
+./get 111111
+#1739136274
+clear
+#1739136275
+..
+#1739136277
+q
+#1739136632
+cdw
+#1739136633
+cd stp-api/
+#1739136634
+ls
+#1739136639
+cd test/api/prestation/
+#1739136639
+ls
+#1739136642
+./getAll 
+#1739136647
+..
+#1739136649
+cd etablissement/
+#1739136653
+./getAll 
+#1739136660
+./get 111111
+#1739136667
+./delete 111111
+#1739136668
+./get 111111
+#1739136674
+./create 
+#1739136676
+./get 111111
+#1739136682
+./update 111111
+#1739136684
+./get 111111
+#1739136689
+clear
+#1739136690
+ls
+#1739136691
+..
+#1739136694
+cd api/etablissement/
+#1739136695
+ls
+#1739136696
+c
+#1739136697
+ls
+#1739136754
+.
+#1739136755
+..
+#1739136756
+c
+#1739136758
+ks
+#1739136760
+c
+#1739136761
+ls
+#1739136769
+r
+#1739137104
+cd domaine/
+#1739137105
+ls
+#1739137108
+./get 111111
+#1739137116
+./getAll 
+#1739137208
+clear
+#1739137208
+ls
+#1739137238
+./create
+#1739137312
+./getAll 
+#1739137336
+r
+#1739137376
+./getAll 
+#1739137464
+./get 111111
+#1739137472
+./delete 111111
+#1739137475
+./get 111111
+#1739137479
+./create 
+#1739137481
+./get 111111
+#1739137485
+./update 111111
+#1739137487
+./get 111111
+#1739137495
+./getAll
+#1739137604
+./delete 111111
+#1739137606
+clear
+#1739137606
+ls
+#1739137608
+r
+#1739137613
+./delete 111111
+#1739137615
+r
+#1739137621
+./delete 111111
+#1739137622
+r
+#1739137627
+./delete 111111
+#1739137630
+..
+#1739137631
+r
+#1739137636
+./delete W111
+#1739137643
+./getAll 
+#1739137646
+..
+#1739137646
+r
+#1739138116
+./get 111111
+#1739138132
+./getAll
+#1739138140
+./delete 111111
+#1739138143
+./get 111111
+#1739138146
+./create 
+#1739138148
+./get 111111
+#1739138155
+./update 111111
+#1739138156
+./get 111111
+#1739138159
+clear
+#1739138160
+ls
+#1739138203
+r
+#1739138359
+./getAll 
+#1739138444
+r
+#1739138522
+./get 111111
+#1739138530
+./delete 111111
+#1739138587
+./getAll 
+#1739138595
+r
+#1739138607
+./getAll 
+#1739138617
+r
+#1739138632
+clear
+#1739138632
+ls
+#1739138662
+./getAll 
+#1739138669
+./get 111111
+#1739138673
+./delete 111111
+#1739138675
+./get 111111
+#1739138679
+./create 
+#1739138681
+./get 111111
+#1739138688
+./update 111111
+#1739138691
+./get 111111
+#1739138698
+./delete 111111
+#1739138700
+r
+#1739138704
+./get 111111
+#1739138708
+./delete 111111
+#1739138710
+..
+#1739138710
+r
+#1739138714
+./get 111111
+#1739138719
+./getAll 
+#1739138723
+clear
+#1739138724
+..
+#1739138724
+q
+#1739128730
+cdw
+#1739128732
+cd stp-api/
+#1739128732
+ls
+#1739128733
+make
+#1739129340
+ls
+#1739129344
+make stop
+#1739129345
+make clean
+#1739129718
+ls
+#1739129719
+r
+#1739129965
+make
+#1739129971
+r
+#1739130121
+make
+#1739131057
+make stop
+#1739131058
+make clean
+#1739131062
+gst
+#1739131063
+gst -u
+#1739131076
+gca add prestations logic 30%
+#1739131078
+clear
+#1739131079
+ls
+#1739131235
+make
+#1739131344
+make stop
+#1739131346
+make clean
+#1739131348
+gst
+#1739131367
+gca fix prestations handler and validator.
+#1739136048
+ls
+#1739136049
+r
+#1739136206
+make
+#1739136213
+r
+#1739136217
+gst
+#1739136218
+make
+#1739136280
+make stop
+#1739136281
+make clean
+#1739136282
+gst
+#1739136297
+gca update plural to singular format!
+#1739136299
+clear
+#1739136300
+ls
+#1739136303
+r
+#1739136325
+gst
+#1739136446
+make
+#1739136700
+make clean
+#1739136700
+ls
+#1739136703
+make stop
+#1739136706
+make clean
+#1739136707
+ls
+#1739136710
+gst
+#1739136712
+gst -u
+#1739136733
+gca add etablissement handler, model and validator!
+#1739136735
+gst
+#1739136750
+r
+#1739136775
+gst
+#1739136781
+gca fix typo
+#1739136854
+r
+#1739136893
+gst
+#1739136900
+gca fix typo!
+#1739136902
+gst
+#1739136974
+r
+#1739136988
+gst
+#1739137092
+make
+#1739137656
+make clean
+#1739137657
+ls
+#1739137658
+make stop
+#1739137658
+ls
+#1739137659
+gst
+#1739137662
+gst -i
+#1739137664
+gst -u
+#1739137674
+gca add domaine handler, model and validator!
+#1739137677
+gst
+#1739137721
+make
+#1739137724
+make stop
+#1739137727
+make clean
+#1739137728
+gst
+#1739137747
+gca update domaine to v_domaines to make use of the view instead!
+#1739137749
+gst
+#1739137974
+r
+#1739137990
+gst
+#1739138073
+make
+#1739138163
+make clean
+#1739138169
+make stop
+#1739138171
+gst
+#1739138177
+gst -u
+#1739138187
+gca add aytdroit handler, model and validator!
+#1739138256
+r
+#1739138349
+gst
+#1739138349
+make
+#1739138727
+make clean
+#1739138728
+ls
+#1739138729
+gst
+#1739138731
+gst -u
+#1739138740
+gca add adherent handler, model and validator!
+#1739138742
+clear
+#1739138743
+ls
+#1739138748
+make
+#1739138751
+cdw
+#1739138752
+cd stp
+#1739138753
+make
+#1739140243
+cdw
+#1739140246
+cd stp-api
+#1739140247
+make
+#1739177860
+cdw
+#1739177862
+cd stp-api/
+#1739177863
+ls
+#1739177864
+make
+#1739177870
+clear
+#1739177871
+ls
+#1739181043
+make
+#1739182031
+lsblk
+#1739182054
+sudo mkfs.fat -F32 /dev/sdc
+#1739182071
+sudo mkfs.fat -F32 -I /dev/sdc
+#1739182119
+lsblk
+#1739182226
+ls
+#1739182227
+q
+#1739176880
+sudo systemctl start oracle-xe
+#1739177829
+sudo systemctl start docker
+#1739177840
+ls
+#1739177842
+r
+#1739177853
+cdw
+#1739177854
+cd stp
+#1739177855
+c
+#1739177857
+yarn dev
+#1739198085
+sudo systemctl start oracle-xe
+#1739210157
+sudo systemctl start docker
+#1739210161
+q
+#1739210164
+cdw
+#1739210167
+cd stp-api/
+#1739210169
+make
+#1739210711
+cdw
+#1739210712
+cd stp
+#1739210712
+ls
+#1739210712
+r
+#1739210721
+..
+#1739216566
+cd src/components/
+#1739216568
+cd Table/
+#1739216568
+ls
+#1739216585
+touch TableFooterTotalCount.vue
+#1739216602
+r
+#1739222986
+gst
+#1739222988
+gst -u
+#1739223026
+gca MILESTONE - Dynamic table component, and add prestations page!
+#1739223030
+..
+#1739223033
+cd stp-api/
+#1739223035
+make stop
+#1739223133
+..
+#1739223134
+cd stp
+#1739223135
+ls
+#1739223137
+..
+#1739223139
+cd stp-api/
+#1739223140
+make clean
+#1739223141
+clear
+#1739223141
+ls
+#1739223142
+..
+#1739223143
+cd stp
+#1739223143
+ls
+#1739223145
+gst 
+#1739223146
+gst -u
+#1739223147
+clear
+#1739223147
+ls
+#1739223148
+q
+#1739210173
+cdw
+#1739210174
+cd stp
+#1739210174
+ls
+#1739210176
+make
+#1739223150
+q
+#1739223252
+clear
+#1739223252
+ls
+#1739223253
+q
+#1739223257
+sudo systemctl start oracle-xe
+#1739256765
+sudo systemctl enable oracle-xe
+#1739256770
+sudo systemctl enable docker
+#1739256775
+sudo systemctl start docker
+#1739256780
+q
+#1739256874
+clear
+#1739256875
+q
+#1739256880
+cdw
+#1739256881
+cd stp
+#1739256884
+cd ..
+#1739256886
+cd stp-api/
+#1739256887
+ls
+#1739256887
+make
+#1739279125
+q
+#1739280744
+cdw
+#1739280746
+cd stp
+#1739280746
+ls
+#1739280748
+gst
+#1739280749
+ls
+#1739280751
+gst -u
+#1739283124
+..
+#1739283125
+cd stp
+#1739283127
+cd .
+#1739283128
+cd ..
+#1739283130
+cd stp-api
+#1739283131
+;s
+#1739283131
+ls
+#1739283132
+clear
+#1739283136
+r
+#1739283363
+make
+#1739283540
+gst
+#1739283542
+gst -u
+#1739283550
+r
+#1739283571
+gca update prestations statistics!
+#1739283579
+r
+#1739283581
+make clean
+#1739283583
+gca update prestations statistics!
+#1739283636
+make
+#1739285029
+r
+#1739285075
+make
+#1739285387
+cd
+#1739285388
+cdw
+#1739285390
+cd stp
+#1739285390
+gst
+#1739285394
+gst -u
+#1739285412
+gca MILESTONE - Add prestation page!
+#1739285587
+gst
+#1739285605
+gca add actions table header column!
+#1739267901
+cdw
+#1739267902
+cd stp
+#1739267903
+make
+#1739307216
+cdw
+#1739307217
+cd stp
+#1739307218
+make
+#1739308085
+gst
+#1739308087
+make clean
+#1739308089
+ls
+#1739308091
+r
+#1739308098
+gst
+#1739308121
+gca MILESTONE - Update prestation page, now mostly done
+#1739308123
+clear
+#1739308126
+q
+#1739308200
+cdw
+#1739308203
+q
+#1739308629
+sqlcl aslstp@127.0.0.1:1521/XE
+#1739308711
+q
+#1739309521
+sqlcl aslstp@127.0.0.1:1521/XE
+#1739309723
+q
+#1739309936
+sqlcl aslstp@127.0.0.1:1521/XE
+#1739311450
+q
+#1739311546
+cdw
+#1739311549
+cd stp-api/
+#1739311550
+make
+#1739311554
+cdw
+#1739311555
+cd stp
+#1739311556
+ls
+#1739311562
+r
+#1739311833
+gst
+#1739311835
+gst -u
+#1739313197
+gst
+#1739313916
+gca MILESTONE - add adherent page
+#1739315874
+gst
+#1739315876
+gd
+#1739315911
+gca update adherents page!
+#1739315913
+q
+#1739285774
+cd stp-api
+#1739285775
+cdw
+#1739285777
+cd stp-api
+#1739285778
+la
+#1739285779
+ls
+#1739285781
+make
+#1739308129
+make clean
+#1739308145
+make
+#1739308208
+make clean
+#1739308210
+r
+#1739308408
+make
+#1739309835
+r
+#1739310322
+make
+#1739310328
+r
+#1739310336
+make
+#1739310404
+r
+#1739310910
+make
+#1739311460
+make clean
+#1739311461
+..
+#1739311465
+cd stp
+#1739311466
+make
+#1739311470
+..
+#1739311472
+cd stp-api
+#1739311473
+ls
+#1739311475
+gst
+#1739311477
+gst -u
+#1739311489
+gd
+#1739311507
+gs
+#1739311510
+gd
+#1739311522
+gst
+#1739311538
+gca add adherents search and statistics!
+#1739311540
+..
+#1739311541
+cd stp
+#1739311543
+make
+#1739316029
+cdw
+#1739316032
+cd stp-api/
+#1739316035
+make
+#1739346957
+r
+#1739346974
+make clean
+#1739346975
+gst
+#1739346983
+gca remove ADR_ID from search prompt!
+#1739346985
+make
+#1739347795
+sqlcl aslstp@127.0.0.1:1521/XE
+#1739349336
+q
+#1739349339
+r
+#1739349370
+q
+#1739349474
+sqlcl aslstp@127.0.0.1:1521/XE
+#1739349986
+q
+#1739347215
+cdw
+#1739347219
+cd stp-api
+#1739347219
+ls
+#1739347440
+r
+#1739347442
+..
+#1739347445
+cd stp-api/
+#1739347734
+make
+#1739348053
+r
+#1739348435
+make
+#1739349016
+make clean
+#1739349018
+gst
+#1739349027
+gca add aytdroit search and stats functionalities
+#1739349080
+r
+#1739349133
+make
+#1739349989
+r
+#1739350289
+make
+#1739350418
+make clean
+#1739350434
+gca add etablissement search and stats functionalities
+#1739351008
+r
+#1739351010
+make
+#1739316022
+cdw
+#1739316023
+cd stp
+#1739316024
+ls
+#1739316025
+make
+#1739347448
+r
+#1739347611
+make
+#1739347711
+make clean
+#1739347713
+gst
+#1739347721
+gca add aytdroits view!
+#1739347724
+clear
+#1739347725
+ls
+#1739347730
+make
+#1739371233
+cdw
+#1739371237
+cd stp-api
+#1739430799
+make
+#1739434892
+cd
+#1739434892
+cdw
+#1739434895
+cd stp
+#1739434895
+ls
+#1739434896
+gs
+#1739434898
+gst
+#1739434937
+gca fix table responsivity!
+#1739441637
+q
+#1739430849
+cdw
+#1739430851
+cd stp
+#1739430860
+make
+#1739441335
+gst
+#1739441444
+git add src/components/Table/TableFooterItemsPerPage.vue 
+#1739441482
+git commit -m "fix table footer items per page!"
+#1739441486
+gpm
+#1739441508
+clear
+#1739441509
+ls
+#1739441513
+gst
+#1739441620
+gpm
+#1739441626
+grh
+#1739441640
+q
+#1739437475
+r
+#1739441900
+q
+#1739439538
+cdw
+#1739439540
+cd stp-api
+#1739439541
+cd test/
+#1739439541
+ls
+#1739439543
+cd api/
+#1739439543
+ls
+#1739439546
+cd prestation/
+#1739439546
+ls
+#1739439552
+./get 111111
+#1739439554
+./get
+#1739439558
+./getAll
+#1739439562
+./create 
+#1739439565
+./get 111111
+#1739439593
+./delete 111111
+#1739439595
+r
+#1739439608
+./create 
+#1739439613
+./delete 111111
+#1739439617
+./get 111111
+#1739439621
+./delete 111111
+#1739439625
+./create 
+#1739439627
+./get 111111
+#1739439791
+r
+#1739443636
+r
+#1739445357
+gst
+#1739445373
+gca MILESTONE - Add new material icon set!
+#1739445375
+r
+#1739445381
+make
+#1739445390
+clear
+#1739445390
+ls
+#1739445633
+gst
+#1739445635
+gd
+#1739445636
+gs
+#1739445642
+gst
+#1739447071
+gd
+#1739447080
+gca update sidebar aytdroit icon
+#1739448027
+gst
+#1739448035
+gca update chirurgie icon
+#1739448038
+gst
+#1739452300
+grh
+#1739453573
+gst
+#1739453593
+gca add deletion on prestations!
+#1739454436
+gst
+#1739454458
+gca update deletion on prestations - show the response message!
+#1739454671
+gst
+#1739454673
+gd
+#1739454689
+gca update styles for prestation use !
+#1739441642
+cdw
+#1739441643
+cd stp
+#1739441644
+make
+#1739441886
+gst
+#1739441888
+gst -u
+#1739441895
+make
+#1739443406
+gst
+#1739443434
+gca add replaceWithIcon property to the generic table!
+#1739443566
+make
+#1739443664
+gst
+#1739443675
+gca update icons in ayants droit!
+#1739443909
+r
+#1739443939
+make
+#1739456474
+cdw
+#1739456475
+cd stp
+#1739456481
+gst
+#1739456483
+gst -u
+#1739456483
+q
+#1739453228
+cdw
+#1739453232
+cd stp-api
+#1739453233
+ls
+#1739453234
+r
+#1739453250
+./get 111111
+#1739453255
+./create 
+#1739453494
+./delete 111111
+#1739453712
+./create 
+#1739456547
+cler
+#1739456549
+clear
+#1739456550
+ls
+#1739456550
+q
+#1739456551
+ls
+#1739456552
+clear
+#1739456552
+ls
+#1739456553
+q
+#1739456560
+cdw
+#1739456564
+cd stp-api/
+#1739456565
+ls
+#1739456576
+clear
+#1739456576
+ls
+#1739456577
+clear
+#1739456577
+ls
+#1739456578
+q
+#1739692207
+lsblk
+#1739692216
+sudo mount /dev/sdc1 usb/
+#1739692238
+sudo mkfs.fat -F32 -I /dev/sdc
+#1739692246
+sudo mount /dev/sdc1 usb/
+#1739692252
+lsblk
+#1739692256
+sudo mount /dev/sdc usb/
+#1739692258
+cd usb/
+#1739692258
+ls
+#1739692260
+..
+#1739692264
+sudo umount /dev/sdc
+#1739692266
+clear
+#1739692274
+sudo eject /dev/sdc
+#1739692289
+q
+#1739692442
+lsblk
+#1739692456
+sudo mount /dev/sdc usb/
+#1739692459
+ls
+#1739692462
+r
+#1739692518
+sudo cp -fvr logo.png ../../../usb/
+#1739692520
+cd
+#1739692521
+cdu
+#1739692524
+cd usb/
+#1739692524
+ls
+#1739692527
+cd
+#1739692532
+sudo umount /dev/sdc
+#1739692536
+sudo eject /dev/sdc
+#1739692537
+clear
+#1739692564
+q
+#1739688788
+cdw
+#1739688795
+cd 13-02-2025/stp/
+#1739688795
+l
+#1739688797
+make
+#1739456580
+cdw
+#1739456583
+cd stp-api/
+#1739456583
+ls
+#1739456599
+r
+#1739688781
+make
+#1739692999
+clear
+#1739693000
+;s
+#1739693001
+ls
+#1739693003
+cdw
+#1739693005
+ls
+#1739693006
+r
+#1739693011
+cd api/
+#1739693011
+make
+#1739695753
+sqlcl aslstp@127.0.0.1:1521/XE
+#1739700937
+clear
+#1739700940
+ls
+#1739700941
+clear
+#1739700941
+ls
+#1739703500
+cdw
+#1739703503
+cd stp-api/
+#1739703503
+make
+#1739716356
+cdw
+#1739716361
+cd stp
+#1739716363
+make
+#1739780308
+cdw
+#1739780316
+cd stp-api/
+#1739780317
+make
+#1739784841
+cdw
+#1739784842
+cd stp
+#1739784843
+ls
+#1739784844
+r
+#1739800616
+gst
+#1739800626
+gd
+#1739800631
+gst -u
+#1739800649
+gca add modal components and delete modal for prestations!
+#1739801079
+gca add button animations!
+#1739780321
+cdw
+#1739780322
+cd stp
+#1739780323
+ls
+#1739784312
+make
+#1739787947
+cdw
+#1739787950
+cd stp-api/
+#1739787952
+cd test/api/
+#1739787952
+ls
+#1739787953
+r
+#1739787959
+./create 
+#1739801751
+cdw
+#1739801753
+cd stp-api/
+#1739801755
+make
+#1739801757
+cdw
+#1739801758
+cd stp
+#1739801760
+make
+#1739864010
+gst
+#1739864012
+gst -u
+#1739864030
+gca MILESTONE - Add button animations on all components
+#1739864058
+lsblk
+#1739864075
+gca MILESTONE - Add button animations on all components
+#1739864077
+lsblk
+#1739864113
+make
+#1739876313
+ls
+#1739876316
+make build
+#1739876365
+r
+#1739876807
+zip -r stp.zip *
+#1739876810
+r
+#1739876822
+clear
+#1739876823
+ls
+#1739876826
+lsblk
+#1739876839
+sudo mount /dev/sdc1 ../usb/
+#1739876855
+cp stp.zip ../usb/
+#1739876861
+sudo umount /dev/sdc1
+#1739876867
+eject /dev/sdc
+#1739876869
+sudo eject /dev/sdc
+#1739876872
+clear
+#1739876873
+ls
+#1739878025
+r
+#1739878049
+make
+#1739878077
+make build
+#1739878113
+r
+#1739878170
+lsblk
+#1739878180
+sudo mount /dev/sdc1 ../usb/
+#1739878187
+r
+#1739878194
+cd ../usb/
+#1739878194
+s
+#1739878195
+ls
+#1739878202
+rm stp.zip
+#1739878204
+..
+#1739878205
+cd out
+#1739878206
+ls
+#1739878214
+zip -r stp.zip *
+#1739878217
+ls
+#1739878222
+rm stp.zip 
+#1739878224
+zip -r stp.zip *
+#1739878227
+r
+#1739878266
+sudo cp -fvr stp.zip ../usb/
+#1739878267
+r
+#1739878273
+sudo umount /dev/sdc1
+#1739879658
+r
+#1739879703
+ls
+#1739879724
+r
+#1739879910
+zip -r stp.zip *
+#1739879921
+lsblk
+#1739879930
+sudo mount /dev/sdc1 ../usb/
+#1739879937
+cd ../usb/
+#1739879940
+ls
+#1739879946
+sudo rm -fvr stp.zip 
+#1739879949
+../out/
+#1739879952
+cd ../out/
+#1739879953
+ls
+#1739879959
+sudo cp -fvr stp.zip ../usb/
+#1739879963
+sudo umount /dev/sdc1
+#1739879970
+sudo eject /dev/sdc
+#1739889243
+..
+#1739889244
+cd stp
+#1739889246
+cdw
+#1739889254
+cd stp
+#1739889255
+make
+#1739889293
+cdw
+#1739889294
+cd stp
+#1739889295
+gst
+#1739889298
+gst -u
+#1739889299
+q
+#1739948881
+cdw
+#1739948885
+cd stp
+#1739948886
+..
+#1739948888
+cd stp-api
+#1739948889
+ls
+#1739949208
+make
+#1739966706
+lsblk
+#1739966731
+clear
+#1739966731
+ls
+#1739966747
+r
+#1739966751
+lsblk
+#1739966762
+sudo mount /dev/sdc
+#1739966766
+sudo mount /dev/sdc ./usb/
+#1739966768
+cd usb/
+#1739966769
+r
+#1739966780
+sudo umount /dev/sdc
+#1739966788
+lsblk
+#1739966802
+sudo mount /dev/sdc ./usb/
+#1739966807
+cd usb/
+#1739966808
+ls
+#1739966826
+cd
+#1739966830
+sudo umount /dev/sdc
+#1739966832
+clear
+#1739966876
+r
+#1739949219
+cdw
+#1739949220
+cd stp
+#1739949221
+make
+#1740036341
+cd
+#1740036341
+r
+#1740036747
+ls
+#1740036748
+r
+#1740036847
+zip -r stp.zip *
+#1740036852
+r
+#1740036877
+zip -r stp.zip *
+#1740036882
+clear
+#1740036882
+ls
+#1740036906
+clear
+#1740036906
+ls
+#1740036917
+clear
+#1740036917
+ls
+#1740036923
+lsblk
+#1740036932
+sudo mount /dev/sdc1 ../usb
+#1740036949
+sudo rm -fvr ../usb/stp.zip 
+#1740036954
+sudo cp -fvr stp.zip ../usb/
+#1740036959
+sudo umount /dev/sdc
+#1740036960
+sudo umount /dev/sdc1
+#1740036963
+clear
+#1740039622
+q
+#1740040093
+cdw
+#1740040098
+cd stp-api
+#1740040100
+make
+#1740040134
+make stop
+#1740040136
+q
+#1739976050
+cdw
+#1739976057
+cd stp
+#1739976063
+make
+#1740039626
+..
+#1740039629
+cd stp-api
+#1740039632
+make stop
+#1740039633
+make clean
+#1740040143
+clear
+#1740040143
+ls
+#1740040152
+sudo systemctl stop oracle-xe
+#1740040193
+make
+#1740040362
+make stop
+#1740040369
+make
+#1740040843
+make stop
+#1740040847
+sudo systemctl stop oracle-xe
+#1740040986
+r
+#1740041209
+..
+#1740041210
+make
+#1740041485
+make stop
+#1740041487
+make clean
+#1740041491
+sudo systemctl start oracle-xe
+#1740041520
+make
+#1740041549
+make clean
+#1740041550
+gst
+#1740041561
+gca MILESTONE - Stop at nothing!
+#1740041563
+clear
+#1740041564
+ls
+#1740041569
+r
+#1740041703
+zip -r stp.zip *
+#1740041716
+r
+#1740041726
+make
+#1740041741
+make stop
+#1740041743
+make clean
+#1740041747
+make build
+#1740041750
+ls
+#1740041751
+r
+#1740041756
+zip -r stp.zip *
+#1740041763
+ls
+#1740041764
+r
+#1740041785
+lsblk
+#1740041790
+sudo mount /dev/sdc1 ../usb/
+#1740041805
+sudo rm -fvr ../usb/stp.zip 
+#1740041812
+sudo cp -fvr stp.zip ../usb/
+#1740041818
+sudo umount /dev/sdc1
+#1740041851
+sudo eject /dev/sdc1
+#1740041853
+sudo eject /dev/sdc
+#1740041854
+clear
+#1740041854
+ls
+#1740041856
+lsblk
+#1740041900
+q
+#1740042822
+cdw
+#1740042825
+cd stp-api
+#1740042826
+ls
+#1740042827
+r
+#1740042943
+make build-windows
+#1740042947
+r
+#1740043942
+q
+#1740041903
+cdw
+#1740041906
+cd stp-api
+#1740041907
+make
+#1740043175
+make stop
+#1740043177
+make clean
+#1740043188
+make build-windows
+#1740043288
+r
+#1740043296
+make build
+#1740043299
+r
+#1740043389
+make build
+#1740043394
+make build-windows
+#1740043397
+ls
+#1740043398
+r
+#1740043574
+zip -r stp.zip *
+#1740043579
+r
+#1740043604
+lsblk
+#1740043617
+sudo mount /dev/sdc1 usb/
+#1740043629
+cd usb
+#1740043630
+r
+#1740043639
+sudo rm -fvr stp.zip 
+#1740043641
+..
+#1740043642
+cd out
+#1740043643
+ls
+#1740043643
+r
+#1740043657
+sudo cp -fvr stp.zip usb/
+#1740043659
+ls
+#1740043663
+sudo umount /dev/sdc1
+#1740043935
+r
+#1740044510
+make build-windows
+#1740044515
+r
+#1740044556
+zip -r stp.zip *
+#1740044561
+r
+#1740044721
+lsblk
+#1740044732
+lsbl
+#1740044733
+lsblk
+#1740044770
+clear
+#1740044771
+ls
+#1740044778
+sudo mount /dev/sdc1 usb/
+#1740044795
+cd out
+#1740044795
+ls
+#1740044796
+r
+#1740044804
+..
+#1740044806
+cd usb
+#1740044807
+ls
+#1740044813
+sudo rm -fvr stp.zip 
+#1740044814
+clear
+#1740044815
+ls
+#1740044819
+.
+#1740044819
+..
+#1740044823
+cd out
+#1740044825
+ls
+#1740044825
+r
+#1740044840
+sudo cp -fvr stp.zip ../../../usb/
+#1740044843
+..
+#1740044850
+sudo umount /dev/sdc1
+#1740044852
+clear
+#1740044852
+ls
+#1740044857
+sudo eject /dev/sdc
+#1740044858
+clear
+#1740044859
+ls
+#1740044919
+clear
+#1740044919
+ls
+#1740044921
+clear
+#1740044921
+ls
+#1740044930
+clear
+#1740044930
+ls
+#1740044934
+r
+#1740056882
+q
+#1740056884
+cdw
+#1740056887
+cd stp-api
+#1740056888
+make
+#1740040106
+cdw
+#1740040107
+cd stp
+#1740040109
+make
+#1740161063
+cdw
+#1740161064
+cd stp
+#1740161065
+gst
+#1740161067
+gst -u
+#1740161068
+..
+#1740161071
+cd stp-api
+#1740161071
+gst
+#1740161074
+gst 0u
+#1740161076
+gst -u
+#1740161080
+gd
+#1740161101
+gca add windows build command!
+#1740161107
+make clean
+#1740161111
+gca add windows build command!
+#1740161609
+make
+#1740162125
+cdw
+#1740162126
+cd stp
+#1740162127
+r
+#1740062097
+cdw
+#1740062098
+cd stp
+#1740062100
+make
+#1740246359
+cdw
+#1740246362
+cd stp-api/
+#1740246362
+make
+#1740257996
+cdw
+#1740257998
+cd stp-api
+#1740257999
+r
+#1740258007
+./get 111111
+#1740258012
+./create
+#1740258013
+./get 111111
+#1740258161
+./delete 51020
+#1740260103
+r
+#1740260493
+./get 111111
+#1740260498
+./create 
+#1740260502
+..
+#1740260504
+cd adherent/
+#1740260510
+./create 
+#1740260512
+..
+#1740260513
+cd ayt
+#1740260515
+cd aytdroit/
+#1740260519
+./create 
+#1740260530
+ls
+#1740260530
+r
+#1740260537
+./delete 111111
+#1740260543
+./get 111111
+#1740248939
+cdw
+#1740248939
+cd stp
+#1740248940
+ls
+#1740248942
+cd src
+#1740248943
+ls
+#1740248943
+r
+#1740248947
+cd views/
+#1740248947
+ls
+#1740249744
+r
+#1740249747
+cd components/
+#1740249748
+ls
+#1740249776
+mkdir PrsCharges
+#1740249777
+ls
+#1740249779
+cd PrsCharges/
+#1740249780
+ls
+#1740249832
+touch PrsChargesHeader PrsChargesTable PrsChargesCards PrsChargesDrawer
+#1740249833
+ls
+#1740249836
+r
+#1740251349
+gst
+#1740251351
+gst -u
+#1740251369
+gca MILESTONE - Seperated PrsCharges into seperate components!
+#1740251372
+gst
+#1740251373
+ls
+#1740251377
+make clean
+#1740251382
+ls
+#1740251383
+gst
+#1740251623
+ls
+#1740251623
+r
+#1740251679
+mkdir Prestations
+#1740251679
+r
+#1740251693
+cd pres
+#1740251695
+cd Prestations/
+#1740251696
+ls
+#1740251730
+touch PrestationsHeader.vue PrestationsCards.vue PrestationsTable.vue PrestationsDrawer.vue
+#1740252403
+r
+#1740256351
+gst
+#1740256409
+gca MILESTONE - Seperated Prestations into seperate components!
+#1740256434
+r
+#1740256581
+gst
+#1740256617
+gca MILESTONE - Updated PrsCharges comoponents!
+#1740256620
+gst
+#1740256721
+r
+#1740256769
+touch AdherentsHeader.vue AdherentsStatistics.vue AdherentsList.vue AdherentCreate.vue
+#1740257312
+r
+#1740258937
+gst
+#1740258953
+gca MILESTONE - Seperated Adherents into seperate components!
+#1740258956
+gst
+#1740259286
+gca fix create prestation!
+#1740259599
+gst
+#1740259610
+gca fix create prscharge!
+#1740259616
+clear
+#1740259617
+ls
+#1740259704
+r
+#1740259768
+touch AytdroitsHeader.vue AytdroitsStatistics.vue AytdroitsList.vue AytdroitDelete.vue AytdroitCreate.vue
+#1740259769
+ls
+#1740259957
+gst
+#1740259973
+gca MILESTONE - Seperated Aytdroits into seperate components!
+#1740259975
+clear
+#1740259976
+ls
+#1740259977
+..
+#1740259979
+ls
+#1740259980
+gst
+#1740259982
+gst -u
+#1740260257
+cd src/components/Aytdroits/
+#1740260258
+ls
+#1740246355
+cdw
+#1740246356
+cd stp
+#1740246358
+make
+#1740260709
+cdw
+#1740260711
+cd stp-api
+#1740260712
+make
+#1740260717
+cdw
+#1740260718
+cd stp
+#1740260720
+ls
+#1740261268
+gst
+#1740261286
+gca add delete aytdroits!
+#1740261288
+gst
+#1740261381
+cd src/components/
+#1740261381
+ls
+#1740261392
+r
+#1740261416
+mkdir Etablissements
+#1740261417
+cd Etablissements/
+#1740261418
+ls
+#1740261462
+touch EtablissementsHeader.vue EtablissementsStatistics.vue EtablissementsList.vue EtablissementCreate.vue EtablissementDelete.vue
+#1740261464
+clear
+#1740261464
+ls
+#1740261465
+r
+#1740261586
+gst
+#1740261588
+gst -u
+#1740261597
+gca MILESTONE - Seperated Etablissements into seperate components!
+#1740261599
+gst
+#1740261898
+gca add delete etablissement!
+#1740261899
+gst
+#1740262161
+gca fix create etablissement!
+#1740263585
+gst
+#1740263595
+gca fix drawer transition animation
+#1740263656
+gst
+#1740263658
+gst -u
+#1740263658
+q
+#1740260713
+cdw
+#1740260714
+cd stp
+#1740260715
+make
+#1740295197
+cdw
+#1740295202
+cd stp-api/
+#1740295244
+make
+#1740296388
+make clean
+#1740296390
+make
+#1740296428
+make clean
+#1740296435
+make build-windows
+#1740296438
+r
+#1740296489
+zip -r stp.zip *
+#1740296499
+lsblk
+#1740296501
+..
+#1740296507
+sudo mount /dev/sdc1 usb/
+#1740296534
+sudo cp -fvr out/stp-production/windows/stp.zip ./usb/
+#1740296541
+sudo umount /dev/sdc1
+#1740296546
+sudo eject /dev/sdc
+#1740296784
+r
+#1740296841
+make build-windows
+#1740296844
+r
+#1740296849
+..
+#1740296850
+make clean
+#1740296854
+make build-windows
+#1740296857
+r
+#1740296889
+zip -r stp.zip *
+#1740296932
+r
+#1740298160
+make
+#1740298465
+ls
+#1740298465
+r
+#1740298473
+..
+#1740298474
+make
+#1740299357
+make clean
+#1740299358
+make
+#1740299489
+make clean
+#1740299496
+make build-windows
+#1740299500
+ls
+#1740299502
+r
+#1740299561
+make build
+#1740299563
+r
+#1740299632
+zip -r stp.zip *
+#1740299637
+clear
+#1740299638
+ls
+#1740299639
+r
+#1740299648
+ls
+#1740299650
+..
+#1740299654
+ls
+#1740299656
+lsblk
+#1740299659
+sudo mount /dev/sdc1 usb/
+#1740299693
+cd usb/
+#1740299693
+ls
+#1740299698
+sudo rm -fvr stp.zip 
+#1740299700
+..
+#1740299702
+sudo cp -fvr out/stp-production/windows/stp.zip ./usb/
+#1740299706
+sudo umount /dev/sdc1
+#1740299708
+clear
+#1740299708
+ls
+#1740299710
+clear
+#1740299711
+ls
+#1740299718
+clear
+#1740299718
+ls
+#1740299724
+sudo eject /dev/sdc
+#1740300045
+q
+#1740300047
+cdw
+#1740300049
+cd stp-api
+#1740300049
+ls
+#1740300050
+make
+#1740300075
+make clean
+#1740300076
+make
+#1740300359
+make clean
+#1740300360
+ls
+#1740300361
+clear
+#1740300361
+ls
+#1740300362
+gst
+#1740300393
+gca MILESTONE - Cross platform compatibility!
+#1740300398
+r
+#1740300407
+make build-windows
+#1740300411
+r
+#1740300432
+zip -r stp.zip *
+#1740300441
+clear
+#1740300441
+ls
+#1740300443
+..
+#1740300447
+lsblk
+#1740300452
+sudo mount /dev/sdc1 usb/
+#1740300460
+cd usb/
+#1740300468
+sudo rm -fvr stp.zip 
+#1740300469
+..
+#1740300478
+sudo cp -fvr out/stp-production/windows/stp.zip ./usb/
+#1740300483
+sudo umount /dev/sdc1
+#1740300488
+sudo eject /dev/sdc
+#1740300492
+clear
+#1740300492
+ls
+#1740300494
+gst
+#1740300495
+clear
+#1740300496
+ls
+#1740300502
+cdw
+#1740300504
+cd stp-api/
+#1740300504
+ls
+#1740300565
+gst
+#1740300744
+r
+#1740300768
+zip -r stp.zip *
+#1740300774
+ls
+#1740300775
+r
+#1740300792
+clear
+#1740300792
+ls
+#1740300808
+..
+#1740300809
+...
+#1740300809
+..
+#1740300813
+cd stp-api
+#1740300814
+cdw
+#1740300817
+cd stp-api/
+#1740300822
+gst
+#1740300824
+make
+#1740302771
+make'
+#1740302773
+make
+#1740303148
+make clean
+#1740303154
+make
+#1740303189
+make clean
+#1740303189
+ls
+#1740303190
+gst
+#1740303234
+gca fix ldap connection - now it doesnt stop the api because of failing to connect!
+#1740303336
+make build-windows
+#1740303339
+r
+#1740303357
+zip -r stp.zip *
+#1740303371
+ls
+#1740303389
+..
+#1740303394
+sudo mount /dev/sdc1 usb/
+#1740303404
+sudo cp -fvr out/stp-production/windows/stp.zip ./usb/
+#1740303408
+sudo umount /dev/sdc1
+#1740303411
+sudo eject /dev/sdc
+#1740304372
+cdw
+#1740304372
+cd stp
+#1740304373
+make
+#1740304394
+r
+#1740304399
+..
+#1740304418
+r
+#1740304428
+make
+#1740304504
+ls src/config/apiConfig.js
+#1740304925
+r
+#1740305270
+clear
+#1740305271
+ls
+#1740305272
+make
+#1740305677
+maq
+#1740305677
+q
+#1740305999
+cdw
+#1740306001
+cd stp-api/
+#1740306001
+make
+#1740317734
+sudo mount /dev/sdc1 usb/
+#1740317736
+cd usb/
+#1740317736
+ls
+#1740317740
+..
+#1740317758
+sudo cp -fvr usb/prscharge.pdf ./
+#1740317760
+ls
+#1740317761
+clear
+#1740317762
+q
+#1740317791
+sudo umount /dev/sdc1
+#1740317795
+sudo eject /dev/sdc
+#1740317800
+clear
+#1740317801
+ls
+#1740317801
+q
+#1740321711
+lsblk
+#1740321790
+cdw
+#1740321791
+cd stp-api/
+#1740321792
+make
+#1740321798
+cdw
+#1740321799
+cd stp
+#1740321799
+ls
+#1740321801
+r
+#1740335825
+q
+#1740335827
+cdw
+#1740335828
+cd stp
+#1740335829
+ls
+#1740337855
+r
+#1740337858
+..
+#1740337858
+r
+#1740338200
+make clean
+#1740338202
+make
+#1740343004
+make clean
+#1740343005
+make
+#1740343121
+make clean
+#1740343122
+r
+#1740343364
+make
+#1740343494
+make clean
+#1740343502
+mkdir assets
+#1740343505
+cd assets/
+#1740343508
+mkdir fonts
+#1740343511
+r
+#1740343534
+tar -xvjf dejavu-fonts-ttf-2.37.tar.bz2 
+#1740343536
+r
+#1740343577
+cdw
+#1740343579
+cd stp-api/
+#1740343601
+make
+#1740343655
+make clean
+#1740343657
+gst
+#1740343665
+gca add pdf generation tools
+#1740321787
+cdw
+#1740321787
+cd stp
+#1740321788
+make
+#1740343673
+make clean
+#1740343675
+ls
+#1740343677
+make stop
+#1740343678
+clear
+#1740343679
+ls
+#1740345293
+cdw
+#1740345297
+cd stp-api/
+#1740345299
+make
+#1740382906
+cdw
+#1740382907
+cd stp
+#1740382910
+ls
+#1740382911
+clear
+#1740382911
+ls
+#1740384331
+r
+#1740387583
+q
+#1740387702
+r
+#1740387720
+q
+#1740345245
+cdw
+#1740345247
+cd stp
+#1740345250
+make
+#1740388324
+gst
+#1740388329
+gst -u
+#1740388331
+gs
+#1740388332
+gd
+#1740388347
+gca add prscharge print functionality
+#1740388351
+make
+#1740422267
+cdw
+#1740422268
+cd stp
+#1740422269
+ls
+#1740423020
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740423274
+r
+#1740434280
+clear
+#1740434280
+q
+#1740434282
+cdw
+#1740434283
+cd stp
+#1740434284
+ls
+#1740434284
+r
+#1740435931
+gst
+#1740435959
+gca add divider - and generic drawer footer buttons!
+#1740435961
+gst
+#1740437080
+gca update drawer header collapse button animation!
+#1740437083
+gst
+#1740437083
+q
+#1740408132
+clear
+#1740408132
+ls
+#1740408133
+clear
+#1740408133
+ls
+#1740408135
+cdw
+#1740408136
+cd stp
+#1740408136
+ls
+#1740408137
+gst
+#1740408138
+make
+#1740437147
+clear
+#1740437147
+ls
+#1740437148
+q
+#1740437150
+cdw
+#1740437154
+cd stp-api
+#1740437155
+make
+#1740472528
+cdd
+#1740472530
+r
+#1740472548
+q
+#1740474532
+cdq
+#1740474533
+q
+#1740474535
+dcw
+#1740474536
+cdw
+#1740474539
+cd stp-api
+#1740474540
+make
+#1740487115
+cdw
+#1740487117
+cd stp-api
+#1740487118
+make
+#1740487124
+make clean
+#1740487128
+ls
+#1740487129
+r
+#1740487132
+..
+#1740487395
+r
+#1740487440
+make clean
+#1740487453
+make
+#1740487680
+r
+#1740487689
+make
+#1740487823
+r
+#1740487838
+make
+#1740474528
+cdw
+#1740474529
+cd stp
+#1740474530
+make
+#1740564347
+r
+#1740564361
+q
+#1740555588
+cdw
+#1740555590
+cd stp
+#1740555590
+ls
+#1740559380
+..
+#1740559383
+cd stp-api
+#1740559385
+make clean
+#1740559742
+make
+#1740492897
+clear
+#1740492898
+ls
+#1740492899
+cdw
+#1740492900
+cd stp
+#1740492901
+make
+#1740580241
+clear
+#1740580242
+ls
+#1740580242
+q
+#1740682533
+r
+#1740682549
+q
+#1740683025
+r
+#1740684858
+q
+#1740685962
+r
+#1740685989
+q
+#1740686090
+colors
+#1740686098
+cgrep
+#1740686120
+reflector --help | grep '-f'
+#1740686133
+q
+#1740686265
+grabc
+#1740686379
+q
+#1740689161
+r
+#1740689173
+q
+#1740679299
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740694543
+q
+#1740679095
+cdw
+#1740679100
+cd stp-api
+#1740679101
+make
+#1740691651
+male
+#1740691652
+make
+#1740697952
+make clean
+#1740697953
+gs
+#1740697955
+gst
+#1740697958
+gd
+#1740697991
+gca add prscharge print service!
+#1740697999
+clear
+#1740697999
+ls
+#1740698004
+clear
+#1740698016
+sudo systemctl disable oracle-xe
+#1740698022
+sudo systemctl disable docker
+#1740698032
+sudo systemctl stop docker
+#1740698050
+sudo systemctl stop --now docker
+#1740698057
+sudo systemctl stop --now oracle-xe
+#1740698106
+clear
+#1740698107
+q
+#1740580244
+cdw
+#1740580245
+cd stp
+#1740679084
+make
+#1740698111
+make stop
+#1740698114
+make clean
+#1740698116
+ls
+#1740698354
+clear
+#1740698355
+ls
+#1740698355
+q
+#1740736014
+r
+#1740752215
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740752244
+q
+#1740755859
+sqldeveloper
+#1740755866
+paru -S sqldeveloper
+#1740755879
+oracle-sqldeveloper 
+#1740755884
+paru -S oracle-sqldeveloper 
+#1740755945
+oracle-sqldeveloper 
+#1740755957
+sqldeveloper
+#1740755959
+oracle-sqldeveloper
+#1740755976
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+#1740755977
+oracle-sqldeveloper
+#1740756203
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+#1740756205
+oracle-sqldeveloper
+#1740756362
+oracle-sqldeveloper --verbose
+#1740756443
+clear
+#1740756443
+ls
+#1740756445
+q
+#1740756453
+paru -Rm oracle-sqldeveloper 
+#1740756456
+paru -R oracle-sqldeveloper 
+#1740756461
+clear
+#1740756461
+q
+#1740756336
+nano ~/sqldeveloper/sqldeveloper/bin/sqldeveloper.sh
+#1740756464
+q
+#1740735763
+cdw
+#1740735766
+cd stp-api/
+#1740735767
+ls
+#1740735792
+make clean
+#1740735797
+make
+#1740741045
+male
+#1740741045
+make
+#1740751570
+r
+#1740752176
+make
+#1740752940
+make clean
+#1740752941
+ls
+#1740752945
+ls bin
+#1740752948
+gst
+#1740752952
+gst -u
+#1740752976
+gca MILESTONE - Add prscharge print function and formatting !
+#1740755504
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740755838
+gca MILESTONE - Add prscharge print function and formatting !
+#1740755842
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740756660
+q
+#1740757011
+r
+#1740757578
+q
+#1740767205
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740768108
+q
+#1740767371
+r
+#1740768538
+cdw
+#1740768541
+cd stp-api
+#1740768543
+cd test/api/
+#1740768544
+ls
+#1740768544
+r
+#1740769812
+ls
+#1740769814
+./create 
+#1740770384
+r
+#1740770945
+./create 
+#1740771007
+r
+#1740771019
+./create 
+#1740771025
+r
+#1740771153
+./create
+#1740771558
+r
+#1740771565
+./create 
+#1740771576
+r
+#1740771585
+./create 
+#1740771587
+r
+#1740771595
+./create 
+#1740771597
+r
+#1740770549
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740779570
+q
+#1740778925
+cdw
+#1740778927
+cd stp-api
+#1740778929
+cd test/prs
+#1740778934
+cd test/api/prscharge/
+#1740778935
+ls
+#1740778936
+r
+#1740779005
+./delete 80000
+#1740779019
+r
+#1740779090
+./create 
+#1740779327
+r
+#1740779513
+gst
+#1740779515
+make
+#1740779530
+cd test/api/prscharge/
+#1740779530
+ls
+#1740779545
+./delete 80001
+#1740779577
+make clean
+#1740779581
+..
+#1740779586
+make clean
+#1740779589
+q
+#1740756663
+cdw
+#1740756665
+cd stp-api
+#1740756666
+clear
+#1740756666
+ls
+#1740756757
+make clean
+#1740756925
+make
+#1740757650
+make clean
+#1740757650
+gst
+#1740757660
+gca update print header position!
+#1740757664
+make
+#1740768110
+r
+#1740768907
+..
+#1740768908
+ls
+#1740768910
+gst
+#1740768912
+clear
+#1740768914
+gst
+#1740768917
+gst -u
+#1740768920
+clear
+#1740768922
+make
+#1740769156
+r
+#1740769176
+make
+#1740769567
+r
+#1740769696
+make
+#1740779574
+make clean
+#1740779590
+gst
+#1740779611
+gca add create prscharge and remove update test script!
+#1740779613
+gst
+#1740779613
+q
+#1740780987
+cdd
+#1740780987
+ls
+#1740780988
+r
+#1740781006
+q
+#1740779654
+cdw
+#1740779657
+cd stp-api/
+#1740779674
+make
+#1740781373
+make clean
+#1740781375
+make
+#1740781467
+go clean -cache -modcache -i -r
+#1740781471
+make
+#1740782037
+make clean
+#1740782038
+gst
+#1740782063
+gca add custom template filename for prscharge printing!
+#1740782079
+make
+#1740782166
+make clean
+#1740782166
+gst
+#1740782168
+gst -u
+#1740782168
+q
+#1740698358
+cdw
+#1740698359
+cd stp
+#1740698370
+sudo systemctl start oracle-xe
+#1740735784
+make
+#1740773199
+make clean
+#1740773200
+make
+#1740782171
+make clean
+#1740782176
+ls
+#1740782183
+gst 0u
+#1740782185
+gst -u
+#1740782187
+clear
+#1740782187
+q
+#1740824866
+ls
+#1740824868
+cd demo
+#1740824870
+r
+#1740824892
+make
+#1740824923
+sudo systemctl start oracle-xe
+#1740824984
+make clean
+#1740824985
+q
+#1740825012
+sqlcl aslstp@127.0.0.1:1521/XE
+#1740825136
+q
+#1740825652
+paru -S dbeaver
+#1740825685
+upd
+#1740825700
+n
+#1740825703
+paru -S dbeaver
+#1740824846
+cdw
+#1740824856
+cd stp
+#1740824857
+make
+#1740829004
+gst
+#1740829116
+gst -u
+#1740829139
+gca MILESTONE - Fix table footer position and update prestation list!
+#1740829143
+clear
+#1740829143
+ls
+#1740829145
+make
+#1740824988
+cdw
+#1740824989
+cd stp-api
+#1740824990
+ls
+#1740825138
+..
+#1740825141
+cd 06-02-2025/
+#1740825143
+cd api/
+#1740825143
+ls
+#1740825144
+make
+#1740825166
+r
+#1740825222
+make
+#1740825234
+r
+#1740826120
+make
+#1740827525
+gst
+#1740827526
+make clean
+#1740827553
+gca MILESTONE - Fetch from cvtprestation view which has more fields!
+#1740827604
+make
+#1740828999
+gst
+#1740829000
+gst -u
+#1740841651
+cdw
+#1740841654
+cd stp-api
+#1740841654
+ls
+#1740841657
+make
+#1740841686
+sudo systemctl start oracle-xe
+#1740912080
+r
+#1740912082
+q
+#1740912083
+cdw
+#1740912085
+cd stp
+#1740912086
+ls
+#1740912086
+r
+#1740912571
+..
+#1740912573
+gst
+#1740912577
+make clean
+#1740912581
+make stop
+#1740912584
+gst
+#1740912587
+gst -u
+#1740912599
+gca remove unnecessary create components!
+#1740912620
+ls
+#1740912649
+clear
+#1740912650
+ls
+#1740914759
+r
+#1740841637
+cdw
+#1740841643
+cd stp
+#1740841644
+make
+#1740912610
+make 
+#1740916734
+make
+#1740924705
+cdw
+#1740924707
+cd stp-api/
+#1740924708
+make
+#1740924717
+sudo systemctl start oracle-xe
+#1740924700
+cdw
+#1740924702
+cd stp
+#1740924704
+make
+#1740950060
+cdw
+#1740950065
+cd stp-api
+#1740950065
+ls
+#1740950066
+clear
+#1740950066
+ls
+#1740950093
+make
+#1740950121
+sudo systemctl start oracle-xe
+#1740987900
+r
+#1740949816
+clear
+#1740950050
+cdw
+#1740950052
+cd stp
+#1740950054
+make
+#1740990224
+cdw
+#1740990227
+cd stp-api
+#1740990228
+ls
+#1740990229
+make
+#1740990469
+sudo systemctl start oracle-xe
+#1740990217
+cdw
+#1740990219
+cd stp
+#1740990220
+make
+#1741008032
+gst
+#1741008034
+gst -u
+#1741008059
+gca add adherent search input field - Prscharge Creation
+#1741008062
+clear
+#1741008062
+ls
+#1741008068
+make
+#1741029301
+cdw
+#1741029307
+cd stp-api
+#1741029311
+make
+#1741035594
+q
+#1741029261
+sudo systemctl start oracle-xe
+#1741029287
+cdw
+#1741029291
+cd stp
+#1741029294
+make
+#1741042520
+gst
+#1741042523
+gst -u
+#1741042538
+gca update Form and SearchInput components - More generic!
+#1741042541
+clear
+#1741042541
+q
+#1741035596
+cdw
+#1741035598
+cd stp
+#1741035598
+r
+#1741042542
+q
+#1741073209
+cd .build/
+#1741073209
+ls
+#1741073210
+r
+#1741073234
+make
+#1741073238
+sudo make clean install
+#1741073242
+gst
+#1741073246
+gca update qwen link!
+#1741073252
+q
+#1741072976
+cdw
+#1741072979
+cd stp-api
+#1741072981
+make
+#1741073033
+sudo systemctl start oracle-xe
+#1741084032
+cdw
+#1741084035
+cd stp-api
+#1741084036
+ls
+#1741084037
+q
+#1741084038
+cdw
+#1741084039
+cd stp
+#1741084042
+gst
+#1741084043
+gst -u
+#1741084077
+gca MILESTONE - update prscharge creation frontend
+#1741084968
+gst
+#1741072967
+cdw
+#1741072970
+cd stp
+#1741072971
+make
+#1741089597
+cdw
+#1741089598
+cd stp
+#1741089600
+make
+#1741097945
+sudo systemctl start oracle-xe
+#1741117381
+cdw
+#1741117384
+cd stp-api
+#1741117385
+make
+#1741120165
+cdw
+#1741120166
+cd stp
+#1741120168
+gst
+#1741120190
+gca update search input field placeholder styles!
+#1741125638
+gst
+#1741125643
+gst -u
+#1741125676
+gca add disabled button styles
+#1741097934
+cd
+#1741097936
+cdw
+#1741097938
+cd srp
+#1741097941
+cd stp
+#1741097942
+make
+#1741125990
+sudo systemctl start oracle-xe
+#1741159825
+cdw
+#1741159828
+cd stp-api
+#1741159829
+make
+#1741161445
+r
+#1741161448
+make clean
+#1741161448
+r
+#1741161976
+make
+#1741162007
+gst
+#1741162010
+gst -u
+#1741162065
+make
+#1741163586
+r
+#1741163945
+make
+#1741164877
+make clean
+#1741164878
+gst
+#1741164881
+gst -u
+#1741164896
+gca MILESTONE - Optimized queries!
+#1741165133
+make
+#1741165714
+make clean
+#1741165755
+clear
+#1741165756
+ls
+#1741166126
+gst
+#1741166192
+gca MILESTONE - Update custom columns for optimale usage!
+#1741166220
+make
+#1741166826
+make clean
+#1741166827
+gst
+#1741166836
+gca MILESTONE - Update custom columns for optimale usage!
+#1741166919
+make
+#1741167434
+make clean
+#1741167436
+gst
+#1741167441
+gca MILESTONE - Update custom columns for optimale usage!
+#1741168017
+make
+#1741168638
+make clean
+#1741168639
+gst
+#1741168659
+gca MILESTONE - Update custom columns - GetByID!
+#1741168662
+clear
+#1741168662
+ls
+#1741169785
+make
+#1741171005
+make clean
+#1741171006
+gst
+#1741171027
+gca update search for prscharge with optimale columns
+#1741171683
+make
+#1741172769
+make clean
+#1741172770
+gst
+#1741172812
+gca fix search column fields when fetching from database and add minimal search for adherent and aytdroit
+#1741173226
+make
+#1741173819
+make clean
+#1741173820
+make
+#1741173825
+make clean
+#1741173827
+gst
+#1741173916
+gca add minimal etablissement and prestationByEtablissement handlers!
+#1741173941
+make
+#1741174287
+make clean
+#1741174288
+gst
+#1741174289
+gst -u
+#1741174305
+make
+#1741125992
+cdw
+#1741125993
+cd stp
+#1741125993
+ls
+#1741125994
+make
+#1741184254
+cdw
+#1741184256
+cd stp-api
+#1741184258
+make
+#1741184262
+cdw
+#1741184265
+sudo systemctl start oracle-xe
+#1741201970
+cdw
+#1741201971
+cd stp
+#1741201971
+ls
+#1741201973
+gst
+#1741201977
+gst -u
+#1741201978
+gd
+#1741201993
+gs
+#1741202006
+gca add minimal adherents search!
+#1741202308
+r
+#1741203340
+make clean
+#1741203342
+make
+#1741203358
+make clean
+#1741203368
+gca fix prscharge columns!
+#1741203371
+make
+#1741203374
+cdw
+#1741203375
+cd stp
+#1741203376
+ls
+#1741203376
+gs
+#1741203378
+gst
+#1741203449
+r
+#1741203537
+make
+#1741203573
+make clean
+#1741203574
+gst
+#1741203583
+gca fix aytdroit search columns!
+#1741203584
+q
+#1741203585
+cdw
+#1741203587
+cd stp
+#1741203588
+gst
+#1741203853
+..
+#1741203859
+cd stp-api
+#1741203860
+make
+#1741204803
+make clean
+#1741204804
+r
+#1741205000
+make
+#1741205012
+cdw
+#1741205013
+cd stp
+#1741205013
+ls
+#1741205014
+gst
+#1741205289
+gca MILESTONE - Add beneficiaire search by adherent id...
+#1741205737
+r
+#1741205761
+make
+#1741205768
+r
+#1741205781
+make
+#1741205821
+make clean
+#1741205822
+r
+#1741205836
+make
+#1741205839
+cdw
+#1741205840
+cd stp
+#1741205841
+ls
+#1741205841
+gst
+#1741207828
+gca MILESTONE - Add all fields in creation of prscharge!
+#1741207831
+r
+#1741184251
+cdw
+#1741184252
+cd stp
+#1741184253
+make
+#1741208172
+sudo systemctl start oracle-xe
+#1741208375
+cdw
+#1741208380
+cd stp-api
+#1741208382
+make
+#1741256425
+cdw
+#1741256426
+ls
+#1741256429
+cd stp-api
+#1741256432
+clear
+#1741256432
+ls
+#1741257245
+make
+#1741260196
+q
+#1741260198
+r
+#1741260204
+q
+#1741260205
+cdw
+#1741260207
+cd stp
+#1741260207
+ls
+#1741260208
+r
+#1741260563
+make build
+#1741260572
+r
+#1741260620
+make build-windows
+#1741260670
+ls
+#1741260670
+r
+#1741260744
+zip -r stp.zip *
+#1741260749
+ls
+#1741260750
+r
+#1741260760
+..
+#1741260768
+lsblk
+#1741260773
+sudo mount /dev/sdc1 usb/
+#1741260781
+clear
+#1741260781
+ls
+#1741260789
+r
+#1741260797
+sudo cp -fvr out/stp-production/windows/stp.zip ./usb/
+#1741260802
+sudo umount /dev/sdc1
+#1741260807
+sudo eject /dev/sdc
+#1741262502
+r
+#1741262559
+make build
+#1741262573
+r
+#1741262594
+zip -r stp.zip *
+#1741262599
+..
+#1741262606
+lsblk
+#1741262609
+sudo mount /dev/sdc1 usb/
+#1741262617
+sudo cp -fvr out/stp-production/windows/stp.zip ./usb/
+#1741262623
+sudo umount /dev/sdc1
+#1741262627
+sudo eject /dev/sdc
+#1741262628
+clear
+#1741262628
+ls
+#1741262638
+clear
+#1741262638
+ls
+#1741262641
+r
+#1741262861
+e
+#1741262863
+r
+#1741262896
+make build
+#1741262907
+r
+#1741262924
+zip -r stp.zip *
+#1741262929
+..
+#1741262932
+sudo mount /dev/sdc1 usb/
+#1741262939
+sudo cp -fvr out/stp-production/windows/stp.zip ./usb/
+#1741262943
+sudo umount /dev/sdc1
+#1741262946
+sudo eject /dev/sdc
+#1741262947
+clear
+#1741262947
+ls
+#1741263308
+q
+#1741208177
+cdw
+#1741208181
+cd stp
+#1741208183
+make
+#1741259993
+gst
+#1741260004
+gst -u
+#1741260006
+grh
+#1741260016
+make
+#1741260320
+..
+#1741260324
+cd 06-03-2025/
+#1741260325
+make
+#1741260328
+cd stp/
+#1741260328
+ls
+#1741260329
+make
+#1741263323
+..
+#1741263324
+cd stp
+#1741263325
+make
+#1741338518
+alsamixer
+#1741338543
+cdd
+#1741338544
+r
+#1741338573
+ins mpv
+#1741338581
+upd
+#1741338638
+ins ffmpeg
+#1741338666
+rem chromeaprint mpd
+#1741338670
+rem chromaprint mpd
+#1741338679
+ins ffmpeg
+#1741338708
+ins chromaprint mpd mpv
+#1741338719
+ins chromaprint mpd
+#1741338732
+ins mpd
+#1741338779
+r
+#1741338816
+ins vlc
+#1741338838
+r
+#1741338861
+vlc 27feb1de3697bc3a39683c7e466ff8ce.3gp 
+#1741338885
+ins libllvm
+#1741338890
+ins libLLVM
+#1741338930
+ins llvm
+#1741338947
+ins mpv
+#1741338954
+rem vlc
+#1741338969
+ins chromaprint mpd
+#1741338976
+r
+#1741338991
+mpv 27feb1de3697bc3a39683c7e466ff8ce.3gp 
+#1741339002
+ins gls
+#1741339005
+ins glslang
+#1741339009
+mpv 27feb1de3697bc3a39683c7e466ff8ce.3gp 
+#1741339022
+ins spirv
+#1741339124
+ins shaderc
+#1741339127
+mpv 27feb1de3697bc3a39683c7e466ff8ce.3gp 
+#1741339133
+r
+#1741339772
+clear
+#1741339775
+sudo systemctl start oracle-xe
+#1741346467
+cdw
+#1741346469
+cd stp-api
+#1741346470
+make
+#1741339779
+cdw
+#1741339780
+cd stp
+#1741339781
+ls
+#1741339782
+make
+#1741349005
+gst
+#1741349022
+gca add search to aytdroits by adherent! searchInput field!
+#1741349026
+make
+#1741349277
+gca add search to prestations by etablissement! searchInput field!
+#1741349280
+make
+#1741346476
+cdw
+#1741346478
+cd stp-api
+#1741346479
+ls
+#1741347527
+make
+#1741347700
+make clean
+#1741347701
+gst
+#1741347713
+gca update aytdroit search by adherent!
+#1741348053
+make
+#1741348155
+make clean
+#1741348156
+gst
+#1741348173
+gca update prestations search by etablissement!
+#1741348175
+make
+#1741438377
+cd .build/
+#1741438377
+ls
+#1741438392
+cd tily/
+#1741438393
+ls
+#1741438401
+nvim config.h 
+#1741438450
+make
+#1741438456
+sudo make clean install
+#1741438458
+q
+#1741438464
+cd .build/
+#1741438466
+cd tily/
+#1741438468
+gst
+#1741438477
+gca add new ai shortcut
+#1741438480
+clear
+#1741438480
+q
+#1741438230
+cdw
+#1741438233
+cd stp
+#1741438233
+ls
+#1741438234
+gst
+#1741438236
+clearls
+#1741438238
+clear
+#1741438238
+ls
+#1741438239
+clear
+#1741438239
+ls
+#1741438240
+gst
+#1741438242
+gst -u
+#1741438243
+clear
+#1741438243
+ls
+#1741438244
+gst
+#1741439552
+gca fix annuler button - it now clears the states!
+#1741440689
+gca MILESTONE - Etablissement des prise en charges!
+#1741441926
+..
+#1741441928
+cd stp-api
+#1741441930
+make
+#1741441936
+make clean
+#1741441938
+gst
+#1741441952
+gca add content-disposition header! 
+#1741441955
+make
+#1741367143
+clear
+#1741367143
+ls
+#1741367144
+cdw
+#1741367146
+cd stp
+#1741367147
+make
+#1741443537
+q
+#1741438567
+cdw
+#1741438569
+cd stp-api
+#1741438569
+r
+#1741439019
+./create
+#1741440330
+r
+#1741441959
+cdw
+#1741441960
+cd stp
+#1741441960
+ls
+#1741441961
+gst
+#1741442640
+gca MILESTONE - Fix prise en charge filename! 
+#1741443533
+make
+#1741445483
+gst
+#1741445491
+gca fix DarkModeToggle Button styles!
+#1741444234
+cdw
+#1741444235
+cd stp-api
+#1741444236
+make
+#1741444370
+make clean
+#1741444371
+gst
+#1741444388
+gca fix formatting on pdf generation!
+#1741444393
+make
+#1741444790
+gst
+#1741444792
+make clean
+#1741444793
+gst
+#1741444807
+gca fix prestation title formatting! 
+#1741444809
+make
+#1741445506
+make clean
+#1741445506
+gst
+#1741445508
+gst -u
+#1741445508
+q
+#1741445572
+clear
+#1741445573
+ls
+#1741445573
+q
+#1741506734
+sudo systemctl start oracle-xe
+#1741506765
+cdw
+#1741506767
+cd stp-api
+#1741506768
+make
+#1741511296
+q
+#1741511016
+nvim prompt.ai
+#1741511022
+ls
+#1741511298
+cdw
+#1741511300
+cd stp
+#1741511300
+gst
+#1741511302
+gst -u
+#1741511315
+..
+#1741511317
+cd stp-api
+#1741511318
+gst
+#1741511331
+gca prscharge by id now shows all informations! 
+#1741511335
+make
+#1741506728
+cdw
+#1741506730
+cd stp
+#1741506731
+make
+#1741531377
+cdw
+#1741531380
+cd stp-api
+#1741531382
+clear
+#1741531383
+ls
+#1741531385
+make
+#1741531353
+sudo systemctl start oracle-xe
+#1741531372
+cdw
+#1741531374
+cd stp
+#1741531375
+make
+#1741535495
+cdw
+#1741535497
+cd stp-api
+#1741535498
+make
+#1741535473
+sudo systemctl start oracle-xe
+#1741535492
+cdw
+#1741535493
+cd stp
+#1741535494
+make
+#1741535503
+cdw
+#1741535504
+cd stp
+#1741535504
+ls
+#1741694654
+lsblk
+#1741694663
+sudo mount /dev/sdc1 usb/
+#1741694675
+cd usb/
+#1741694676
+ls
+#1741694689
+sudo mkdir extras
+#1741694693
+..
+#1741694693
+r
+#1741694713
+zip -r nfs.zip *
+#1741694811
+..
+#1741694815
+sudo umount /dev/sdc1
+#1741694910
+lsblk
+#1741694917
+sudo eject /dev/sdc
+#1741694951
+sudo mount /dev/sdc1 usb/
+#1741694981
+cd dl/
+#1741694982
+ls
+#1741694984
+r
+#1741695039
+sudo cp -fvr nfs.zip ./usb/extras/
+#1741695577
+sudo umount /dev/sdc1
+#1741695772
+q
+#1741616562
+cdw
+#1741616570
+sudo systemctl start oracle-xe
+#1741689690
+cdw
+#1741689693
+cd stp
+#1741689697
+make
+#1741689702
+cdw
+#1741689708
+cd stp-api/
+#1741689710
+make
+#1741702800
+clear
+#1741702801
+cdw
+#1741702803
+q
+#1741853007
+cdw
+#1741853011
+cd stp-api
+#1741853012
+make
+#1741871947
+clear
+#1741871948
+ls
+#1741871950
+q
+#1741875149
+clear
+#1741875149
+ls
+#1741875150
+q
+#1741875151
+clear
+#1741875151
+ls
+#1741875152
+q
+#1741941514
+cdd
+#1741941514
+ls
+#1741941514
+r
+#1741941516
+cdD
+#1741941517
+ls
+#1741941518
+r
+#1741962117
+q
+#1741961036
+env WINEPREFIX="/home/n3m0/.wine" wine C:\\\\users\\\\Public\\\\Desktop\\\\Need\\ For\\ Speed\\ Most\\ Wanted\\ Black\\ Edition.lnk
+#1741961049
+r
+#1741961071
+unzip DirectX_11_Setup.zip 
+#1741961072
+r
+#1741961263
+nvim NFS
+#1741961274
+r
+#1741961293
+./NFS.desktop 
+#1741961297
+./NFS
+#1741961300
+sudo ./NFS
+#1741961321
+r
+#1741961373
+chmod +x NFS
+#1741961380
+./NFS
+#1741961439
+sudo pacman -Syu mesa lib32-mesa vulkan-intel lib32-vulkan-intel     libglvnd lib32-libglvnd
+#1741961453
+upd
+#1741961465
+ins rsync
+#1741961471
+upd
+#1741961498
+winecfg
+#1741961573
+./NFS
+#1741961586
+r
+#1741961610
+./NFS
+#1741961691
+r
+#1741961755
+upd
+#1741961815
+sudo pacman -Syu
+#1741961834
+sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel libglvnd lib32-libglvnd
+#1741961888
+sudo pacman -S wine winetricks
+#1741961898
+ins wine
+#1741961906
+sudo pacman -S wine winetricks
+#1741961920
+wine --version
+#1741961944
+rm -rf /home/n3m0/.wine  # Remove the old prefix (back up if needed)
+#1741961944
+WINEARCH=win32 WINEPREFIX=/home/n3m0/.wine winecfg
+#1741962031
+WINEPREFIX=/home/n3m0/.wine winetricks d3dx9
+#1741962036
+ins winetricks
+#1741962039
+WINEPREFIX=/home/n3m0/.wine winetricks d3dx9
+#1741962124
+./NFS
+#1741962150
+ls -l /home/n3m0/.wine/dosdevices/c:/Program\ Files\ \(x86\)/
+#1741962164
+find /home/n3m0 -name "speed.exe" 2>/dev/null
+#1741962212
+WINEARCH=win32 WINEPREFIX=/home/n3m0/.wine winecfg
+#1741962252
+WINEPREFIX=/home/n3m0/.wine wine ./dl/Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ/Setup.exe 
+#1741962557
+la
+#1741962567
+r
+#1741962578
+./NFS
+#1741962580
+r
+#1741962713
+./NFS
+#1741962735
+e
+#1741962736
+r
+#1741962777
+ls
+#1741962781
+./speed.exe 
+#1741962843
+glxinfo | grep -i "OpenGL renderer"
+#1741962866
+sudo pacman -S mesa-demos
+#1741962873
+glxinfo | grep -i "OpenGL renderer"
+#1741962876
+q
+#1741962878
+glxinfo | grep -i "OpenGL renderer"
+#1741962891
+ins glxinfo
+#1741962893
+glxinfo | grep -i "OpenGL renderer"
+#1741962914
+lspci | grep -i vga
+#1741962927
+lsmod | grep i915
+#1741962948
+pacman -Qs mesa
+#1741962968
+cat /var/log/Xorg.0.log | grep -i "intel\|error\|glx"
+#1741962997
+sudo mkdir -p /etc/X11/xorg.conf.d/
+#1741962997
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf
+#1741963038
+sudo systemctl restart display-manager
+#1741963045
+clear
+#1741963045
+q
+#1741963047
+clear
+#1741963047
+q
+#1741963095
+glxgears
+#1741963106
+sudo pacman -Syu
+#1741963108
+sudo pacman -S mesa lib32-mesa xf86-video-intel libglvnd lib32-libglvnd mesa-demos
+#1741963122
+glxinfo | grep -i "OpenGL renderer"
+#1741963155
+lspci | grep -i vga
+#1741963172
+lsmod | grep i915
+#1741963172
+dmesg | grep -i i915
+#1741963178
+sudo dmesg | grep -i i915
+#1741963198
+dmesg | grep -i i915
+#1741963200
+lsmod | grep i915
+#1741963225
+sudo dmesg | grep -i i915
+#1741963280
+cat /var/log/Xorg.0.log | grep -i "intel\|glx\|error\|ee"
+#1741963290
+echo $XDG_SESSION_TYPE
+#1741963309
+sudo pacman -S mesa lib32-mesa xf86-video-intel libglvnd lib32-libglvnd xorg-server xorg-xinit mesa-demos
+#1741963322
+pacman -Qs mesa
+#1741963322
+pacman -Qs xf86-video-intel
+#1741963361
+sudo nano /etc/X11/xorg.conf.d/20-intel.conf
+#1741963370
+sudo nvim /etc/X11/xorg.conf.d/20-intel.conf
+#1741963383
+sudo systemctl restart display-manager
+#1741963388
+clear
+#1741963389
+q
+#1741964153
+c
+#1741964154
+clear
+#1741964155
+ls
+#1741964161
+./NFS
+#1741964419
+clear
+#1741964420
+q
+#1741964423
+clear
+#1742028960
+q
+#1742030849
+r
+#1742030142
+curl -X POST https://example.com/submit -d "_token=cD7Ed1OxUVB5LMrySRyp5Au7zPlRqSBQUnuSsMQV&nim=109970558021650009&nss=972165002345&date_nais=02-09-1997&numero_tlf=0794696605&code=31600093583&captcha=tdxhh"
+#1742030359
+curl -X POST https://www.aadl.dz/register -d "_token=c4MFKJVxghcrl6KmlzoxP0qqRGFvAitTTRwGCeBu&nim=109970558021650009&nss=972165002345&date_nais=02-09-1997&numero_tlf=0794696605&code=31600093583&captcha=de248"
+#1742030640
+curl -X POST https://www.aadl.dz/register -d "_token=c4MFKJVxghcrl6KmlzoxP0qqRGFvAitTTRwGCeBu&nim=109970558021650009&nss=972165002345&date_nais=02-09-1997&numero_tlf=0794696605&code=31600093583&captcha=nmtc4"
+#1742030847
+curl -X POST https://www.aadl.dz/register -d "_token=c4MFKJVxghcrl6KmlzoxP0qqRGFvAitTTRwGCeBu&nim=109970558021650009&nss=972165002345&date_nais=02-09-1997&numero_tlf=0794696605&code=31600093583&captcha=thggp" -o aadlResponse
+#1742048381
+mkdir aadlBF
+#1742048385
+cd aadlBF/
+#1742048385
+ls
+#1742048389
+nvim main.go
+#1742048427
+go run main.go 
+#1742048432
+r
+#1742048440
+go run main.go 
+#1742048668
+r
+#1742048679
+nvim aadlBF
+#1742048686
+chmod +x aadlBF 
+#1742048688
+./aadlBF 
+#1742048950
+r
+#1742048959
+./aadlBF 
+#1742049016
+r
+#1742049023
+cdw
+#1742049024
+cd
+#1742049028
+cd aadlBF/
+#1742049028
+ls
+#1742049029
+./aadlBF 
+#1742049042
+r
+#1742049100
+ls
+#1742049109
+r
+#1742049362
+./aadlBF 
+#1742057391
+clear
+#1742057391
+q
+#1742057595
+lsblk
+#1742057602
+q
+#1742057603
+lsblk
+#1742057605
+q
+#1742057708
+ls
+#1742057715
+ls usb/
+#1742057717
+q
+#1742131291
+lsblk
+#1742131293
+q
+#1742057620
+lsblk
+#1742057641
+A
+#1742057641
+lsblk
+#1742057720
+sudo mount /dev/sdc3 usb
+#1742131194
+sudo dmesg | tail -n 20
+#1742131200
+sudo dmesg | tail -n 20 | less
+#1742131250
+sudo blkid /dev/sdc3
+#1742131276
+sudo fdisk -l /dev/sdc
+#1742131503
+sudo file -s /dev/sdc3
+#1742131534
+sudo mount -t ntfs /dev/sdc3 /home/n3m0/usb
+#1742131572
+sudo ntfsfix /dev/sdc3
+#1742131623
+sudo fsck /dev/sdc3
+#1742131813
+lsblk
+#1742131813
+ls -l /dev/sdc3
+#1742131825
+sudo file -s /dev/sdc3
+#1742131843
+ins testdisk
+#1742131855
+sudo testdisk /dev/sdc
+#1742131914
+c
+#1742131917
+lsblk
+#1742131929
+qq
+#1742131930
+q
+#1742131932
+lsblk
+#1742131998
+sudo testdisk /dev/sdc
+#1742132014
+sudo ntfsfix /dev/sdc3
+#1742132033
+sudo photorec /dev/sdc
+#1742132104
+sudo testdisk /dev/sdc
+#1742132113
+lsblk
+#1742132134
+sudo testdisk /dev/sdc
+#1742132136
+lsblk
+#1742132170
+sudo testdisk /dev/sdc
+#1742134854
+q
+#1742153117
+r
+#1742153177
+q
+#1742206582
+cdD
+#1742206583
+ls
+#1742206583
+r
+#1742207294
+clear
+#1742207294
+q
+#1742207296
+clear
+#1742207297
+q
+#1742424368
+clear
+#1742424369
+q
+#1742424379
+clear
+#1742424380
+ls
+#1742424380
+q
+#1742424430
+cdw
+#1742424431
+cd stp
+#1742424432
+ls
+#1742424433
+gst
+#1742456142
+ls
+#1742456144
+r
+#1742460154
+..
+#1742460155
+ls
+#1742460157
+gst
+#1742460159
+gst -u
+#1742461128
+gst
+#1742461131
+gst -u
+#1742461153
+gst
+#1742461228
+gca update PrsChargeDetails now expands correctly and with smooth animations! 
+#1742472670
+gst
+#1742472673
+gst 
+#1742472675
+gst -u
+#1742472681
+gd
+#1742472685
+gst
+#1742472715
+gd
+#1742474384
+gst
+#1742474401
+gca update modal card design and animations! 
+#1742424394
+cdw
+#1742424395
+cd stp
+#1742424396
+make
+#1742564041
+sudo pacman -S git base-devel
+#1742564060
+upd
+#1742564199
+sudo pacman -S clang cmake ninja pkgconfig zip unzip libstdc++ libglvnd
+#1742564207
+sudo pacman -S clang cmake ninja pkgconfig zip unzip libglvnd
+#1742564240
+clear
+#1742564241
+arem
+#1742564243
+q
+#1742564270
+clear
+#1742564270
+q
+#1742572030
+paru -S flutter
+#1742574722
+arem
+#1742574729
+paru -S flutter
+#1742574751
+paru -R flutter
+#1742574756
+paru -W flutter
+#1742574759
+Q
+#1742574761
+q
+#1742574913
+paru -Rns flutter-bin
+#1742574920
+rm -rf ~/.flutter ~/.flutter-devtools ~/.pub-cache
+#1742574928
+rm -rf ~/flutter
+#1742574939
+paru -S flutter-bin
+#1742574990
+rm -fvr .cache/paru/clone/flutter-bin/
+#1742574993
+paru -S flutter-bin
+#1742576562
+fusermount -uq ~/.cache/flutter_sdk
+#1742576570
+rm -rf ~/.cache/{flutter_sdk,flutter_local}
+#1742576601
+sudo usermod -a -G flutter n3m0
+#1742576605
+q
+#1742577788
+java
+#1742577789
+q
+#1742576610
+flutter
+#1742576626
+flutter doctor
+#1742576659
+ins android-sdk android-sdk-build-tools android-sdk-cmdline-tools-latest android-platform android-sdk-platform-tools
+#1742576662
+paru -S android-sdk android-sdk-build-tools android-sdk-cmdline-tools-latest android-platform android-sdk-platform-tools
+#1742577465
+flutter doctor
+#1742577663
+sudo pacman -S jdk17-openjdk
+#1742577738
+brc
+#1742577807
+q
+#1742577720
+ls /usr/lib/jvm/java-17-openjdk/
+#1742577724
+ls /usr/lib/jvm/java-17-openjdk/bin
+#1742577809
+q
+#1742577811
+java
+#1742577812
+q
+#1742577874
+brc
+#1742577905
+q
+#1742577817
+flutter doctor
+#1742577852
+ins clang
+#1742577938
+clang
+#1742577946
+ins clang
+#1742578128
+q
+#1742578131
+flutter doctor
+#1742578161
+flutter doctor --android-licenses
+#1742578172
+flutter doctor
+#1742578283
+sudo pacman -S clang
+#1742578296
+clang --version
+#1742578348
+sudo pacman -S clang llvm
+#1742578354
+clang --version
+#1742578361
+sudo pacman -Rns clang llvm
+#1742578361
+sudo pacman -S clang llvm
+#1742578372
+clang --version
+#1742578378
+pacman -Qs llvm
+#1742578393
+sudo pacman -Rns llvm-libs
+#1742578449
+flutter doctor
+#1742578516
+yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+#1742578529
+echo $ANDROID_HOME
+#1742578547
+ls ~/Android/Sdk
+#1742578563
+ls /opt/android-sdk
+#1742578589
+brc
+#1742578608
+sudo chown -R $USER:$USER /opt/android-sdk
+#1742578610
+q
+#1742578819
+cdw
+#1742578824
+cd hello_world/
+#1742578827
+flutter run
+#1742578899
+ls /opt/android-sdk/emulator
+#1742579017
+sudo find / -name "emulator" 2>/dev/null
+#1742579193
+brc
+#1742579218
+q
+#1742579219
+cdw
+#1742579223
+cd hello_world/
+#1742579242
+brc
+#1742579316
+q
+#1742578786
+emulator -avd Pixel_9_Pro
+#1742579327
+q
+#1742579328
+emulator -avd Pixel_9_Pro
+#1742579332
+q
+#1742579354
+emulator
+#1742579357
+brc
+#1742579754
+q
+#1742580275
+$ANDROID_HOME/cmdline-tools/latest/bin/avdmanager list sdk-manager --verbose
+#1742578621
+flutter doctor --android-licenses
+#1742578633
+flutter doctor
+#1742578732
+cdw
+#1742578734
+flutter create hello_world
+#1742578745
+cd hello_world/
+#1742578745
+ls
+#1742578753
+nvim .
+#1742582629
+clear
+#1742582629
+q
+#1742582646
+cdw
+#1742582686
+cd stp-api
+#1742582687
+mak
+#1742582689
+make
+#1742717715
+clear
+#1742717716
+ls
+#1742717717
+lsblk
+#1742717747
+sudo mount /dev/sdc1 usb/
+#1742717801
+sudo mkfs.fat -F32 -I /dev/sdc
+#1742717842
+lsblk
+#1742717846
+sudo mount /dev/sdc1 usb/
+#1742717886
+sudo mkfs.vfat /dev/sdc
+#1742717889
+sudo mkfs.vfat -I /dev/sdc
+#1742717908
+sudo mkfs.fat -F16 /dev/sdc
+#1742717913
+sudo mkfs.fat -F32 /dev/sdc
+#1742717917
+sudo mkfs.fat -F32 -I /dev/sdc
+#1742717929
+sudo mkfs.fat -F32 -I /dev/sdc1
+#1742717947
+sudo mkfs.vfat -I /dev/sdc1
+#1742717956
+sudo mount /dev/sdc1 usb/
+#1742717968
+cd usb/
+#1742717968
+ls
+#1742717970
+a
+#1742717971
+la
+#1742717972
+..
+#1742717974
+clear
+#1742717974
+ls
+#1742717976
+lsblk
+#1742717987
+sudo mkfs.fat -F32 -I /dev/sdc1
+#1742717996
+sudo mkfs.fat -F32 -I /dev/sdc
+#1742718059
+sudo lsof /dev/sdc
+#1742718073
+sudo fsck.vfat /dev/sdc
+#1742718078
+sudo fsck.vfat /dev/sdc1
+#1742718136
+sudo mount /dev/sdc1 usb/
+#1742720507
+q
+#1742582635
+cdw
+#1742582637
+cd stp
+#1742582639
+make
+#1742739722
+clar
+#1742824810
+lsblk
+#1742825665
+clear
+#1742825665
+q
+#1742887351
+clear
+#1742887351
+ls
+#1742887351
+q
+#1742887706
+r
+#1742887895
+ytm https://www.youtube.com/watch?v=vrey5sCcTDo
+#1742887914
+ins youtube-dlp
+#1742887924
+paru -S yt-dlp
+#1742887931
+ins yt-dlp
+#1742887946
+upd
+#1742887975
+paru -S yt-dlp
+#1742887986
+ytm https://www.youtube.com/watch?v=vrey5sCcTDo
+#1742888005
+alias ytm
+#1742888011
+yt-dlp
+#1742888021
+ins yt-dlp
+#1742888027
+yt-dlp
+#1742888171
+yt
+#1742888228
+sudo pacman -S yt-dlp
+#1742888232
+yt-dlp
+#1742888241
+python -c "import yt_dlp; print(yt_dlp.__file__)"
+#1742888250
+sudo pacman -Rns yt-dlp
+#1742888257
+sudo pacman -S yt-dlp
+#1742888264
+ytm
+#1742888302
+python -c "import sys; print(sys.path)"
+#1742888309
+python3 /sbin/yt-dlp --version
+#1742888328
+python --version
+#1742888328
+python3 --version
+#1742888341
+sudo fsck /dev/sda
+#1742888353
+sudo pacman -Rsc python
+#1742888357
+sudo pacman -S python
+#1742888361
+sudo pacman -Rsc python
+#1742888369
+sudo pacman -S python
+#1742888388
+ytm
+#1742888402
+ytm https://www.youtube.com/watch?v=vrey5sCcTDo
+#1742888528
+ytm https://www.youtube.com/watch?v=i2wmKcBm4Ik&list=PLrl15fpG8H1yY7UOoO2kJGo_yJ9UGX-ox
+#1742891005
+clear
+#1742891006
+ls
+#1742891008
+r
+#1742891017
+ins ranger
+#1742891021
+r
+#1742891026
+q
+#1742891028
+cdm
+#1742891028
+r
+#1742891123
+ytm https://www.youtube.com/watch?v=SMR8S154_zA&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb
+#1742891147
+yt-dlp
+#1742891152
+yt-dlp --help
+#1742891279
+ytm
+#1742891288
+alias ytm
+#1742891352
+yt-dlp -f bestaudio -iw --mark-watched --yes-playlist https://www.youtube.com/watch?v=SMR8S154_zA&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb
+#1742892258
+ins ncmpcpp
+#1742892269
+ins mpd
+#1742892271
+q
+#1742892303
+ytm https://www.youtube.com/watch?v=TxAAB58nNLs&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=2
+#1742892327
+r
+#1742892382
+q
+#1742892320
+ytm https://www.youtube.com/watch?v=0k63grkip5I&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=3
+#1742892354
+r
+#1742892385
+ytm https://www.youtube.com/watch?v=4fkfyKg001g&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=5
+#1742892402
+ytm https://www.youtube.com/watch?v=lzGmpqN9zZc&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=6
+#1742892416
+ytm https://www.youtube.com/watch?v=2bAMyiaIwNk&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=7
+#1742892428
+ytm https://www.youtube.com/watch?v=Stz8SQ_xeNk&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=8
+#1742892442
+ytm https://www.youtube.com/watch?v=TyMqgv5Djf0&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=9
+#1742892461
+ytm https://www.youtube.com/watch?v=LmrUeGogRbI&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=11
+#1742892479
+ytm https://www.youtube.com/watch?v=ZyKpkkuWEVc&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=12
+#1742896873
+clear
+#1742896874
+ls
+#1742896875
+q
+#1742896877
+r
+#1742897413
+..
+#1742897415
+lsblk
+#1742897427
+sudo mount /dev/sdc1 usb/
+#1742897437
+clear
+#1742897438
+ls
+#1742897476
+cd usb/
+#1742897477
+ls
+#1742897480
+..
+#1742897501
+sudo cp -fvr work/stp ./usb/
+#1742897507
+clear
+#1742897508
+ls
+#1742897508
+r
+#1742897515
+cd usb
+#1742897516
+ls
+#1742897516
+r
+#1742897568
+q
+#1742897579
+sudo umount usb/
+#1742904619
+cdd
+#1742904620
+ls
+#1742904621
+r
+#1742904638
+unzip SBK-X-Superbike-World-Championship_Win_EN-FR-DE-ES-IT_ISO.zip 
+#1742904757
+r
+#1742905021
+q
+#1742898222
+cd usb/
+#1742898222
+ls
+#1742898223
+..
+#1742898228
+lsblk
+#1742898236
+sudo mount /dev/sdc1 usb/
+#1742898239
+cd usb/
+#1742898239
+ls
+#1742898247
+sudo rm -fvr stp
+#1742898255
+sudo rm -fvr stp/
+#1742898259
+sudo rm -vr stp/
+#1742898262
+sudo rm -fv stp/
+#1742898265
+sudo rm -fvr stp/
+#1742898268
+ls
+#1742898269
+r
+#1742898302
+zip -r stp.zip stp/*
+#1742898309
+ls
+#1742898321
+sudo cp -fvr stp.zip ../usb/
+#1742898322
+ls
+#1742898324
+cd ..
+#1742898325
+cd usb
+#1742898327
+ls
+#1742898330
+cd
+#1742898339
+sudo umount usb/
+#1742898617
+sudo eject /dev/sdc
+#1742903703
+cd
+#1742903704
+cdd
+#1742903705
+r
+#1742904191
+..
+#1742904194
+lsblk
+#1742904214
+sudo mount /dev/sdc1 usb/
+#1742904218
+clear
+#1742904218
+ls
+#1742904228
+r
+#1742904260
+zip nfs.zip Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ/
+#1742904264
+r
+#1742904286
+zip -r nfs.zip Need\ For\ Speed\ Most\ Wanted\ Black\ Edition\ repack\ Mr\ DJ/
+#1742904455
+sudo cp -fvr nfs.zip ../usb/
+#1742905130
+sudo cp -fvr SBK-X-Superbike-World-Championship_Win_EN-FR-DE-ES-IT_ISO.zip ../usb/
+#1742905892
+..
+#1742905913
+sudo umount usb/
+#1742910785
+r
+#1742910796
+unzip GTA-San-Andreas.zip 
+#1742910804
+r
+#1742910852
+lsblk
+#1742910878
+..
+#1742910888
+sudo mount /dev/sdc3 usb/
+#1742910895
+cdd
+#1742910908
+sudo cp -fvr GTA-San-Andreas.zip ../usb/
+#1742910939
+sudo umount ../usb/
+#1742912571
+cdm
+#1742912572
+ls
+#1742930989
+ytm https://www.youtube.com/watch?v=ZyKpkkuWEVc&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=12
+#1742931096
+ytm https://www.youtube.com/watch?v=LACZU05vmbk&list=PLMmHE6UVFkH_YUAIHCnZi5jKWbPra7qrb&index=13
+#1742931155
+ytm https://www.youtube.com/watch?v=NmGix6GWoxw&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm
+#1742931188
+q
+#1742931367
+ytm https://www.youtube.com/watch?v=ORHCwuIC8xw&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=7
+#1742931412
+q
+#1742932547
+cd music.new/
+#1742932547
+ls
+#1742932548
+r
+#1742932561
+q
+#1742931435
+ytm https://www.youtube.com/watch?v=Kv9a82p7LaI&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=11
+#1742931507
+ytm https://www.youtube.com/watch?v=61FZrI35eSM&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=16
+#1742931604
+ytm https://www.youtube.com/watch?v=j2vQ1xwxfcQ&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=26
+#1742931638
+ytm https://www.youtube.com/watch?v=x7BSQRMddhI&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=27
+#1742931736
+ytm https://www.youtube.com/watch?v=Bo7dKCai-ak&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=35
+#1742931829
+ins mpd
+#1742931841
+ins icu
+#1742931972
+r
+#1742932060
+nvim script
+#1742932071
+chmod +x script 
+#1742932075
+./script 
+#1742933198
+r
+#1742933246
+./script 
+#1742933287
+q
+#1742932685
+alias ytm
+#1742932694
+cd music.new/
+#1742932702
+..
+#1742932710
+yt-dlp -f bestaudio -iw --mark-watched https://www.youtube.com/watch?v=4CiyKeSnSxk
+#1742932812
+yt-dlp -f bestaudio -iw --mark-watched https://www.youtube.com/watch?v=CrZ2NV7mSHY
+#1742932893
+yt-dlp -f bestaudio -iw --mark-watched https://www.youtube.com/watch?v=Z2OawuAcIF4
+#1742933096
+yt-dlp -f bestaudio -iw --mark-watched https://www.youtube.com/watch?v=OInvGk6_xXk
+#1742933193
+r
+#1742933681
+q
+#1742933686
+cd music.new/
+#1742933686
+ls
+#1742933717
+q
+#1742931179
+ytm https://www.youtube.com/watch?v=CvYzjPAgtyQ&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=2
+#1742931205
+ytm https://www.youtube.com/watch?v=F2kfhtx0nWQ&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=3
+#1742931233
+ytm https://www.youtube.com/watch?v=dN06ri-2zdc&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=4
+#1742931307
+ytm https://www.youtube.com/watch?v=cfujqxUBw5A&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=5
+#1742931351
+ytm https://www.youtube.com/watch?v=-Z7vOGRlsKE&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=6
+#1742931408
+ytm https://www.youtube.com/watch?v=iCKN6bUQ244&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=8
+#1742931475
+ytm https://www.youtube.com/watch?v=Iby6Udw5QkE&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=12
+#1742931529
+ytm https://www.youtube.com/watch?v=B53olOvKbbE&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=18
+#1742931574
+ytm https://www.youtube.com/watch?v=nSz-F4w_tKk&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=20
+#1742931654
+ytm https://www.youtube.com/watch?v=VWhFmN9gbjA&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=28
+#1742931689
+ytm https://www.youtube.com/watch?v=D6Du4d5lW5M&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=34
+#1742931719
+ytm https://www.youtube.com/watch?v=yag8RrzIM18&list=PLJqILRyNd-cVUDmaCkK1cqgDQYeP-zGOm&index=33
+#1742931768
+ytm https://www.youtube.com/watch?v=ky4ahCzahV0
+#1742932123
+r
+#1742932181
+play a-ha\ -\ Take\ On\ Me.mp3 
+#1742932186
+ins play
+#1742932199
+ins sox
+#1742932208
+play a-ha\ -\ Take\ On\ Me.mp3 
+#1742932231
+ins libmad
+#1742932234
+play a-ha\ -\ Take\ On\ Me.mp3 
+#1742932253
+ins sox
+#1742932265
+sudo pacman -Rns sox
+#1742932269
+ins sox
+#1742932274
+play a-ha\ -\ Take\ On\ Me.mp3 
+#1742932281
+sox --help | grep "AUDIO FILE FORMATS"
+#1742932306
+rem sox
+#1742932311
+rem libmad
+#1742932318
+ins mpg123
+#1742932326
+mpg123 a-ha\ -\ Take\ On\ Me.mp3 
+#1742932375
+mpg123 *
+#1742933718
+q
+#1742933720
+lsblk
+#1742933730
+sudo mount /dev/sdc1 usb/
+#1742933732
+cd usb
+#1742933733
+ls
+#1742933735
+r
+#1742933799
+sudo cp -fvr mp3/ ../usb/
+#1742934188
+..
+#1742934189
+r
+#1742934214
+sudo rm -fvr remix
+#1742934215
+r
+#1742934222
+..
+#1742934227
+sudo umount usb/
+#1742934228
+clear
+#1742934229
+q
+#1742981979
+cdw
+#1742981982
+cd stp-api
+#1742981983
+make
+#1742981986
+sudo systemctl start oracle-xe
+#1742981973
+cd stp
+#1742981974
+cdw
+#1742981976
+cd stp
+#1742981977
+make
+#1743002572
+lsblk
+#1743002577
+sudo mount /dev/sdc1 usb/
+#1743002580
+cd usb
+#1743002581
+l
+#1743002582
+ls
+#1743002598
+sudo cp -fvr mp3/ ../
+#1743002705
+ls
+#1743002708
+r
+#1743005965
+cd usb
+#1743005965
+ls
+#1743005985
+sudo rm -fvr mp3/*
+#1743005987
+ls
+#1743005995
+cd
+#1743005996
+ls
+#1743006038
+sudo cp -fvr Costa\ Mee\ -\ Deep\ Inside\ My\ Mind\ \(Dimitris\ Athanasiou\ Remix\)\ \[5Ua_aLtXE2k\].mp3 Daryl\ Hall\ \&\ John\ Oates\ -\ Maneater.mp3 Defqwop\ -\ Heart\ A\ Fire.mp3 Elton\ John\ -\ Blue\ Eyes\ \[4CiyKeSnSxk\].mp3 Kae\ Tempest\ -\ More\ Pressure.mp3 Keane\ -\ Somewhere\ Only\ We\ Know.mp3 Reality\ -\ Lost\ Frequencies.mp3 usb/mp3/
+#1743006039
+r
+#1743006051
+lsblk
+#1743006054
+sudo umount usb/
+#1743006062
+sudo eject /dev/sdc1
+#1743927018
+clear
+#1743927018
+q
+#1743927350
+cdw
+#1743927351
+q
+#1743927333
+cdw
+#1743927356
+cd stp-api
+#1743927357
+ls
+#1743927360
+sudo systemctl start oracle-xe
+#1743927397
+make
+#1743927324
+cdw
+#1743927325
+cd stp
+#1743927326
+make
+#1743927521
+cdw
+#1743927523
+cd stp
+#1743927524
+ls
+#1743944180
+clear
+#1743944181
+ls
+#1743944181
+q
+#1743946796
+sudo systemctl start oracle-xe
+#1743946798
+cdw
+#1743946800
+cd stp-api/
+#1743946801
+make
+#1743946791
+cdw
+#1743946792
+cd stp
+#1743946793
+make
+#1743951205
+clear
+#1743951205
+q
+#1743951207
+clear
+#1743951208
+q
+#1743951251
+cdw
+#1743951253
+q
+#1743951255
+cdw
+#1743951258
+cd stp-api
+#1743951259
+make
+#1743951220
+sudo systemctl start oracle-xe
+#1743951248
+cdw
+#1743951249
+cd stp
+#1743951250
+make
+#1743951263
+cdw
+#1743951264
+cd stp
+#1743951264
+ls
+#1744037690
+clear
+#1744037691
+q
+#1744037695
+clear
+#1744037695
+lq
+#1744098386
+ls
+#1744098386
+q
+#1744101564
+cdw
+#1744101566
+cd learn-
+#1744101569
+cd learn-camunda/
+#1744101569
+ls
+#1744101572
+r
+#1744103327
+cdw
+#1744103331
+cd stp-api
+#1744103333
+sudo systemctl start oracle-xe
+#1744103357
+make
+#1744103315
+cdw
+#1744103316
+cd stp
+#1744103316
+make
+#1744104355
+ls
+#1744104355
+r
+                                                                                                                   #1744231734
+clear
+#1744231734
+q
+#1744231737
+clear
+#1744231738
+q
+#1744296760
+clear
+#1744296760
+q
+#1744480546
+clear
+#1744480546
+q
+#1744480549
+clear
+#1744480549
+q
+#1744480551
+ls
+#1744480551
+q
+#1744480552
+r
+#1744481002
+sudo pacman -Qdt
+#1744481011
+q
+#1744481023
+sudo pacman -Rns $(pacman -Qdtq)
+#1744481033
+q
+#1744480619
+pacman -Qs libreoffice
+#1744480650
+sudo pacman -S libreoffice-fresh
+#1744480659
+upd
+#1744480673
+sudo pacman -S libreoffice-fresh
+#1744480769
+r
+#1744480818
+libreoffice --draw prscharge.pdf
+#1744480842
+ins icu
+#1744480861
+sudo ldconfig
+#1744480868
+libreoffice --draw prscharge.pdf
+#1744480871
+libreoffice
+#1744480896
+sudo pacman -S --overwrite '*' icu
+#1744480911
+pacman -Ss harfbuzz-icu raptor texlive-bin
+#1744480917
+sudo pacman -S harfbuzz-icu raptor texlive-bin
+#1744481182
+clear
+#1744481182
+q
+#1744481192
+ins icu
+#1744481195
+ins
+#1744481227
+firefox
+#1744481360
+chromium
+#1744481384
+cd /var/cache/pacman/pkg/
+#1744481385
+ls
+#1744481462
+sudo pacman -U icu-75.1-1-x86_64.pkg.tar.zst
+#1744481554
+libreoffice --draw prscharge.pdf
+#1744481729
+clear
+#1744481729
+q
+#1744482215
+chromium
+#1744482253
+q
+#1744481733
+ins pacman
+#1744481794
+cc
+#1744481799
+cd /usr/lib
+#1744481800
+ls
+#1744481809
+r
+#1744481966
+sudo ln -sf libicuuc.so.76.1 libicuuc.so.75
+#1744481972
+ins
+#1744481997
+ldd /usr/bin/pacman
+#1744482017
+r
+#1744482036
+rm libicuuc.so.75
+#1744482038
+sudo rm libicuuc.so.75
+#1744482045
+sudo ln -sf libicuuc.so.76 libicuuc.so.75
+#1744482048
+ldd /usr/bin/pacman
+#1744482062
+pacman
+#1744482302
+sudo rm -D libicuuc.so.75 | grep ucnv_setFromUCallBack_75
+#1744482308
+sudo rm libicuuc.so.75 | grep ucnv_setFromUCallBack_75
+#1744482328
+ldd /usr/lib/libxml2.so.2
+#1744482393
+sudo ldconfig
+#1744482396
+ldd /usr/lib/libxml2.so.2
+#1744482401
+ins
+#1744482852
+wget
+#1744482884
+ping archlinux.org
+#1744482955
+cd test
+#1744482956
+ls
+#1744482962
+mkdir pacman-fix
+#1744482964
+cd pacman-fix/
+#1744482964
+ls
+#1744483012
+wget https://mirror.archlinux.org/pacman-static/pacman-static-6.0.1-1-x86_64.pkg.tar.zst 
+#1744483050
+chromium
+#1744483225
+wget https://archive.archlinux.org/packages/i/icu/icu-75.1-1-x86_64.pkg.tar.zst
+#1744483249
+ls
+#1744483336
+tar -xvf icu-75.1-1-x86_64.pkg.tar.zst -C / ln -sf /usr/lib/libicuuc.so.75.1 /usr/lib/libicuuc.so.75
+#1744483352
+tar -xvf icu-75.1-1-x86_64.pkg.tar.zst -C
+#1744483356
+tar -xvf icu-75.1-1-x86_64.pkg.tar.zst
+#1744483359
+ls
+#1744483362
+ls usr/
+#1744483375
+r
+#1744483435
+ls
+#1744483543
+wget https://archive.archlinux.org/packages/p/pacman-static | grep ".pkg.tar.zst"
+#1744483575
+wget -O https://archive.archlinux.org/packages/p/pacman-static | grep ".pkg.tar.zst"
+#1744483589
+wget -O - https://archive.archlinux.org/packages/p/pacman-static | grep ".pkg.tar.zst"
+#1744483596
+wget -O - https://archive.archlinux.org/packages/p/pacman | grep ".pkg.tar.zst"
+#1744483653
+wget -O - https://archive.archlinux.org/packages/p/pacman-7.0.0.r6.gc685ae6-2-x86_64.pkg.tar.zst
+#1744483662
+ls
+#1744483668
+wget https://archive.archlinux.org/packages/p/pacman-7.0.0.r6.gc685ae6-2-x86_64.pkg.tar.zst
+#1744483684
+wget https://archive.archlinux.org/packages/p/pacman-7.0.0-x86_64.pkg.tar.zst
+#1744483688
+wget -O - https://archive.archlinux.org/packages/p/pacman | grep ".pkg.tar.zst"
+#1744483705
+wget https://archive.archlinux.org/packages/p/"pacman-6.1.0-3-x86_64.pkg.tar.zst
+#1744483712
+wget https://archive.archlinux.org/packages/p/pacman-6.1.0-3-x86_64.pkg.tar.zst
+#1744483717
+ls
+#1744483760
+tar -I zstd -svf pacman-6.1.0-3-x86_64.pkg.tar.zst -C /
+#1744483773
+sudo tar -I zstd -svf pacman-6.1.0-3-x86_64.pkg.tar.zst
+#1744483848
+tar -I zstd -xvf pacman-6.1.0-3-x86_64.pkg.tar.zst -C /
+#1744483855
+sudo tar -I zstd -xvf pacman-6.1.0-3-x86_64.pkg.tar.zst -C /
+#1744483959
+pacman -Q
+#1744483988
+sudo tar -I zstd -xvf icu-75.1-1-x86_64.pkg.tar.zst -C /
+#1744484049
+sudo ln -sf /usr/lib/libicuuc.so.75.1 /usr/lib/libicuuc.so.75
+#1744484094
+sudo ln -sf /usr/lib/libicui18n.so.75.1 /usr/lib/libicui18n.so.75
+#1744484103
+sudo ldconfig
+#1744484111
+pacman
+#1744484117
+upd
+#1744484149
+cd
+#1744484152
+libreoffice --draw prscharge.pdf
+#1744484176
+clear
+#1744484176
+q
+#1744484232
+libreoffice --draw prscharge.pdf
+#1744484284
+ldd /usr/lib/libreoffice/program/soffice.bin
+#1744484292
+ldd /usr/lib/libreoffice/program/soffice.bin | grep boost
+#1744484302
+ldd /usr/lib/libreoffice/program/soffice.bin | grep "not found"
+#1744484314
+ins boost-libs
+#1744484388
+sudo pacman -S libreoffice-fresh
+#1744484399
+libreoffice --draw prscharge.pdf
+#1744484413
+sudo ldconfig
+#1744484415
+sudo pacman -S libreoffice-fresh
+#1744484423
+libreoffice --draw prscharge.pdf
+#1744484464
+find /usr/lib /usr/lib64 -name "libboost_*"
+#1744484474
+find /usr/lib /usr/lib64 -name "libboost_locale_*"
+#1744484478
+sudo find /usr/lib /usr/lib64 -name "libboost_locale_*"
+#1744484484
+libreoffice --draw prscharge.pdf
+#1744484492
+sudo find /usr/lib /usr/lib64 -name "libboost_locale"
+#1744484500
+sudo find /usr/lib /usr/lib64 -name "libboost_loc"
+#1744484502
+sudo find /usr/lib /usr/lib64 -name "libboost_l"
+#1744484506
+sudo find /usr/lib /usr/lib64 -name "libboost_l*"
+#1744484585
+pacman -Q boost-libs
+#1744484597
+sudo pacman -Syu
+#1744484647
+cd test/pacman-fix/
+#1744484700
+wget https://archive.archlinux.org/packages/b/boost-libs/boost-libs-1.87.0-3-x86_64.pkg.tar.zst
+#1744484716
+sudo pacman -U boost-libs-1.87.0-3-x86_64.pkg.tar.zst 
+#1744484766
+sudo pacman -U boost-libs-1.87.0-3-x86_64.pkg.tar.zst --needed --verbose
+#1744484814
+sudo pacman -U boost-libs-1.87.0-3-x86_64.pkg.tar.zst --overwrite '*'
+#1744484836
+sudo pacman -U --overwrite '*' boost-libs-1.87.0-3-x86_64.pkg.tar.zst
+#1744484867
+cd
+#1744484874
+sudo nvim /etc/pacman.conf
+#1744484915
+upd
+#1744484962
+sudo nvim /etc/pacman.conf
+#1744484991
+q
+#1744484993
+upd
+#1744485103
+libreoffice --draw prscharge.pdf
+#1744488178
+clear
+#1744488179
+ls
+#1744488200
+lsblk
+#1744488206
+sudo mount /dev/sdc1 usb/
+#1744488207
+cd usb/
+#1744488208
+ls
+#1744488208
+r
+#1744488241
+mkdir ../test/MALIA sudo cp lpp* ../test/MALIA
+#1744488254
+mkdir ../test/MALIA && sudo cp lpp* ../test/MALIA
+#1744488261
+r
+#1744488275
+sudo cp lpp* ../test/MALIA
+#1744488277
+r
+#1744488393
+sudo umount usb/
+#1744488397
+sudo eject /dev/sdc
+#1744488451
+lsblk
+#1744488483
+r
+#1744489364
+sudo dd bs=4M if=./archlinux-2025.04.01-x86_64.iso of=/dev/sdc status=progress oflag=sync
+#1744489541
+sudo umount /dev/sdc
+#1744489552
+sudo eject /dev/sdc
+#1744490159
+ins ocrmypdf
+#1744490429
+libreoffice --draw prscharge.pdf
+#1744490434
+libreoffice --draw
+#1744490481
+ins boost-libs
+#1744490497
+rem ncmpcpp
+#1744490500
+ins boost-libs
+#1744490505
+ins ncmpcpp
+#1744490512
+libreoffice --draw prscharge.pdf
+#1744490543
+r
+#1744490554
+sudo libreoffice --draw prscharge.pdf
+#1744490581
+r
+#1744490594
+libreoffice --draw lpp\ 1.PDF 
+#1744490598
+r
+#1744490603
+libreoffice --draw lpp\ 2.PDF 
+#1744490609
+libreoffice --draw
+#1744490742
+r
+#1744490754
+sudo libreoffice --draw
+#1744490812
+chmod u+r *.pdf
+#1744490814
+ls
+#1744490817
+chmod u+r *
+#1744490820
+sudo chmod u+r *
+#1744490825
+libreoffice --draw
+#1744490921
+sudo pacman -Rns libreoffice
+#1744490937
+sudo pacman -S libreoffice
+#1744490941
+sudo pacman -S libreoffice-fresh
+#1744490945
+sudo pacman -Rns libreoffice-fresh
+#1744490955
+sudo pacman -S libreoffice-fresh
+#1744490981
+libreoffice --draw
+#1744490999
+cd ~/.config/libreoffice/4/user/config/
+#1744491000
+ls
+#1744491011
+r
+#1744491289
+chown n3m0:n3m0 *
+#1744491292
+sudo chown n3m0:n3m0 *
+#1744491292
+ls
+#1744491293
+r
+#1744491310
+libreoffice --draw
+#1744491332
+sudo pacman -S --needed $(pacman -Qsq "^lib") # Reinstall all libraries
+#1744491409
+libreoffice --draw TESTING.pdf 
+#1744491424
+journalctl -f
+#1744491457
+rem ollama
+#1744491465
+ollama
+#1744491496
+ins ollama
+#1744491501
+rem ollama
+#1744491522
+sudo docker rm ollama
+#1744491529
+sudo systemctl start docker
+#1744491532
+sudo docker rm ollama
+#1744491536
+sudo docker ls
+#1744491540
+sudo docker list
+#1744491558
+sudo systemctl stop --now docker
+#1744491567
+sudo systemctl stop docker
+#1744491570
+clear
+#1744491570
+ls
+#1744491573
+r
+#1744491817
+q
+#1744491030
+libreoffice --draw prscharge.pdf
+#1744491037
+libreoffice --draw
+#1744491101
+sudo libreoffice --draw
+#1744491186
+libreoffice
+#1744491821
+sudo pacman -S gimp
+#1744491860
+sudo pacman -S imagemagick
+#1744491903
+cd test/MALIA/
+#1744491903
+ls
+#1744491918
+convert lpp\ 1.PDF image.png
+#1744491924
+r
+#1744491944
+gimp image.png 
+#1744491950
+gimp
+#1744491983
+pacman -Q | grep gtk
+#1744491983
+pacman -Q | grep glib
+#1744491998
+gimp
+#1744492003
+q
+#1744500435
+lsblk
+#1744500446
+sudo mount /dev/sdc1 usb/
+#1744500448
+cd usb/
+#1744500449
+ls
+#1744500541
+sudo cp *.pdf ../dox/traffic/BENMAHDI_FATMA_ZOHRA/
+#1744500542
+..
+#1744500546
+sudo umount /dev/sdc
+#1744500551
+sudo umount /dev/sdc1
+#1744500560
+sudo eject /dev/sdc
+#1744500562
+r
+#1744500493
+cdD
+#1744500493
+ls
+#1744500495
+r
+#1744519656
+sudo systemctl start oracle-xe
+#1744519699
+cdw
+#1744519701
+cd stp-api
+#1744519702
+make
+#1744519648
+cdw
+#1744519650
+cd stp
+#1744519652
+make
+#1744550770
+mpv
+#1744550778
+ins mpv
+#1744550783
+mpv
+#1744550795
+r
+#1744556409
+clear
+#1744556410
+q
+#1744556411
+clear
+#1744556411
+q
+#1744556414
+clear
+#1744556414
+q
+#1744556417
+clear
+#1744556417
+q
+#1744658471
+clear
+#1744658471
+q
+#1744658489
+clear
+#1744658489
+q
+#1744660669
+clear
+#1744660669
+q
+#1744660724
+cdw
+#1744660725
+cd stp
+#1744660725
+ls
+#1745137238
+q
+#1745137239
+cdw
+#1745137241
+cd stp-api
+#1745137242
+ls
+#1745137246
+clear
+#1745137250
+..
+#1745137252
+cd stp
+#1745137252
+ls
+#1745137256
+lc
+#1745137256
+c
+#1745137257
+clear
+#1745137258
+ls
+#1745140142
+sudo systemctl stop oracle-xe
+#1744660686
+cdw
+#1744660686
+cd
+#1744660688
+cdw
+#1744660690
+cd stp
+#1744660691
+ls
+#1744660692
+make
+#1745140211
+clear
+#1745140212
+q
