@@ -17,6 +17,7 @@ exfatprogs
 f2fs-tools
 fatresize
 jfsutils
+libnotify
 libx11
 libxft
 libxinerama

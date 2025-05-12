@@ -129470,3 +129470,19 @@ pacman -Qs ttf-nerd
 pacman -Qs ttf
 #1747068164
 paru protonvpn
+#1747068661
+dunst
+#1747068773
+drc
+#1747068775
+r
+#1747068801
+dunst
+#1747068812
+killall dunst
+#1747068814
+dunst
+#1747068822
+dunst &
+#1747068823
+q
