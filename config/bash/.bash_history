@@ -129430,3 +129430,43 @@ gca update bashrc
 clear
 #1745140337
 q
+#1747067894
+ins ttf-fira-code
+#1747067896
+q
+#1747067828
+cd dots
+#1747067828
+ls
+#1747067829
+gst
+#1747067837
+grh
+#1747067839
+r
+#1747068344
+tremc
+#1747068359
+killall transmission
+#1747068361
+xrc
+#1747068368
+killall transmission-daemon
+#1747068374
+transmission-daemon
+#1747068387
+..
+#1747068387
+r
+#1747068393
+gst
+#1747067906
+ins ttf-nerd-fonts-symbols-2048-em
+#1747067912
+ins ttf-nerd-fonts-symbols-2048
+#1747067921
+pacman -Qs ttf-nerd
+#1747067923
+pacman -Qs ttf
+#1747068164
+paru protonvpn

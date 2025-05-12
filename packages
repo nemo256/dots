@@ -53,9 +53,9 @@ gtk2
 httpie
 htop
 irssi
+links
 lolcat
 luarocks
-lynx
 mpc
 mpd
 mpv
@@ -82,8 +82,7 @@ the_silver_searcher
 tmux
 transmission-cli
 tree
-ttf-fira-code
-ttf-nerd-fonts-symbols-2048-em
+ttf-firacode-nerd
 unclutter
 unrar
 unzip

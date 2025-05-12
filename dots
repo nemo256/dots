@@ -49,9 +49,9 @@ read
 # Information gathering
 prompt "Shell" SHELL /bin/bash
 prompt "Keymap" KEYMAP us
-prompt "Console font" CONSOLE_FONT ter-132b
-prompt "IRSSI username" IRSSI_USERNAME "None"
-prompt "IRSSI password" IRSSI_PASSWORD "None"
+prompt "Console font" CONSOLE_FONT ter-v32b
+prompt "IRSSI username (optional)" IRSSI_USERNAME "None"
+prompt "IRSSI password (optional)" IRSSI_PASSWORD "None"
 prompt "Github token (optional)" TOKEN "None"
 
 select AUR_HELPER in "Paru" "Yay"; do
@@ -98,13 +98,13 @@ sudo sed -ni "/^root/{a\
   ${USER} ALL=(ALL:ALL) NOPASSWD: ALL
 p}" /etc/sudoers
 
-logo "Adding yamete kudasai sound on usb mount / unmount..."
-echo -ne "KERNEL==\"sd*\", SUBSYSTEM==\"block\", ENV{DEVTYPE}==\"partition\", ACTION==\"add\", ENV{ID_FS_TYPE}!=\"vfat\", ENV{ID_FS_USAGE}==\"filesystem\", RUN+=\"/bin/aplay $HOME/bin/sound/yamete.wav\"\nKERNEL==\"sd*\", SUBSYSTEM==\"block\", ENV{DEVTYPE}==\"partition\", ACTION==\"remove\", ENV{ID_FS_TYPE}!=\"vfat\", ENV{ID_FS_USAGE}==\"filesystem\", RUN+=\"/bin/aplay $HOME/bin/sound/ahh.wav\"\n" | sudo tee /etc/udev/rules.d/99-usb-sound.rules >/dev/null
-sudo udevadm control --reload-rules
+# logo "Adding yamete kudasai sound on usb mount / unmount..."
+# echo -ne "KERNEL==\"sd*\", SUBSYSTEM==\"block\", ENV{DEVTYPE}==\"partition\", ACTION==\"add\", ENV{ID_FS_TYPE}!=\"vfat\", ENV{ID_FS_USAGE}==\"filesystem\", RUN+=\"/bin/aplay $HOME/bin/sound/yamete.wav\"\nKERNEL==\"sd*\", SUBSYSTEM==\"block\", ENV{DEVTYPE}==\"partition\", ACTION==\"remove\", ENV{ID_FS_TYPE}!=\"vfat\", ENV{ID_FS_USAGE}==\"filesystem\", RUN+=\"/bin/aplay $HOME/bin/sound/ahh.wav\"\n" | sudo tee /etc/udev/rules.d/99-usb-sound.rules >/dev/null
+# sudo udevadm control --reload-rules
 
-logo "Automount my usb drive..."
-sudo echo -ne "UUID=CA18-653E /mnt vfat noauto,nofail,x-systemd.automount,x-systemd.idle-timeout=2,x-systemd.device-timeout=2" | sudo tee -a /etc/fstab 1> /dev/null
-sudo systemctl daemon-reload && sudo systemctl restart local-fs.target
+# logo "Automount my usb drive..."
+# sudo echo -ne "UUID=CA18-653E /mnt vfat noauto,nofail,x-systemd.automount,x-systemd.idle-timeout=2,x-systemd.device-timeout=2" | sudo tee -a /etc/fstab 1> /dev/null
+# sudo systemctl daemon-reload && sudo systemctl restart local-fs.target
 
 logo "Disabling Screen Tear..."
 sudo echo -ne 'Section "Device"
@@ -150,12 +150,6 @@ if [ -v TOKEN ]; then
   git config --global credential.helper store 1> /dev/null
 fi
 
-logo "Font configuration..."
-cd /usr/share/fonts 1> /dev/null
-sudo curl -fLo "Fira Code Bold Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/Bold/complete/Fira%20Code%20Bold%20Nerd%20Font%20Complete.ttf 1> /dev/null
-sudo fc-cache -fv 1> /dev/null
-cd ${HOME} 1> /dev/null
-
 logo "Creating .build folder..."
 [[ ! -d .build ]] && mkdir .build 1> /dev/null
 cd .build 1> /dev/null
@@ -167,8 +161,8 @@ logo "Cloning dmenu..."
 [[ ! -d dmenu ]] && git clone https://github.com/nemo256/dmenu
 logo "Cloning slock..."
 [[ ! -d slock ]] && git clone https://github.com/nemo256/slock
-logo "Cloning slstatus..."
-[[ ! -d slstatus ]] && git clone https://github.com/nemo256/slstatus
+# logo "Cloning slstatus..."
+# [[ ! -d slstatus ]] && git clone https://github.com/nemo256/slstatus
 logo "Cloning fetchy..."
 [[ ! -d fetchy ]] && git clone https://github.com/nemo256/fetchy
 logo "Cloning ani-cli..."
@@ -187,8 +181,8 @@ logo "Installing dmenu..."
 cd ../dmenu && sudo make clean install 1> /dev/null
 logo "Installing slock..."
 cd ../slock && sudo make clean install 1> /dev/null
-logo "Installing slstatus..."
-cd ../slstatus && sudo make clean install 1> /dev/null
+# logo "Installing slstatus..."
+# cd ../slstatus && sudo make clean install 1> /dev/null
 logo "Installing fetchy..."
 cd ../fetchy && sudo make clean install 1> /dev/null
 logo "Installing ani-cli..."
@@ -234,12 +228,12 @@ logo "Make binary files executable..."
 chmod -R 755 ${HOME}/bin 1> /dev/null
 
 logo "Vimy configuration..."
-git clone https://github.com/nemo256/vimy \
-  ${HOME}/.config/nvim 1> /dev/null
-git clone --depth 1 https://github.com/wbthomason/packer.nvim \
-  ${HOME}/.local/share/nvim/site/pack/packer/start/packer.nvim 1> /dev/null
-nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync' 1> /dev/null
-mkdir ${HOME}/.config/nvim/session 1> /dev/null
+# git clone https://github.com/nemo256/vimy \
+#   ${HOME}/.config/nvim 1> /dev/null
+# git clone --depth 1 https://github.com/wbthomason/packer.nvim \
+#   ${HOME}/.local/share/nvim/site/pack/packer/start/packer.nvim 1> /dev/null
+# nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync' 1> /dev/null
+# mkdir ${HOME}/.config/nvim/session 1> /dev/null
 
 logo "Ranger Configuration..."
 git clone https://github.com/alexanderjeurissen/ranger_devicons \
@@ -249,8 +243,8 @@ python -m devicons 1> /dev/null
 cd ${HOME} 1> /dev/null
 
 logo "Protonvpn configuration..."
-paru -S --noconfirm protonvpn-cli
-protonvpn-cli config --vpn-accelerator enable
+paru -S --noconfirm protonvpn-cli-community
+protonvpn config --vpn-accelerator enable
 
 logo "Ly configuration..."
 paru -S --noconfirm ly
