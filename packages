@@ -24,6 +24,7 @@ libxinerama
 man-db
 man-pages
 mtools
+msr-tools
 nfs-utils
 nilfs-utils
 openssh
@@ -37,6 +38,7 @@ wireless_tools
 #######################
 #    User specific    #
 #######################
+chromium
 cmatrix
 composer
 docker
@@ -45,7 +47,6 @@ dunst
 edk2-ovmf
 exa
 feh
-firefox
 fzf
 git
 gnu-netcat

@@ -129486,3 +129486,69 @@ dunst
 dunst &
 #1747068823
 q
+#1747481584
+clea
+#1747481584
+q
+#1747481587
+clear
+#1747481587
+q
+#1747481612
+clea
+#1747481613
+clear
+#1747481614
+q
+#1747481626
+clear
+#1747481627
+q
+#1747481631
+cd dots
+#1747481631
+ls
+#1747481663
+sudo cp disable_prochot.service /etc/systemd/system/
+#1747481674
+sudo systemctl enable disable_prochot.service 
+#1747481679
+sudo systemctl start disable_prochot.service 
+#1747481690
+sudo systemctl status ly
+#1747481696
+ins ly
+#1747481702
+sudo systemctl status ly
+#1747481713
+nvim dots
+#1747481735
+sudo systemctl enable ly
+#1747481742
+sudo reboot
+#1747481775
+q
+#1747481823
+sudo systemctl status disable_prochot
+#1747481836
+cd dots
+#1747481836
+ls
+#1747481838
+nvim HINT.md 
+#1747481844
+ins msr-tools
+#1747481847
+reboot
+#1747481878
+q
+#1747481877
+clear
+#1747481878
+qq
+#1747481879
+q
+#1747481880
+clear
+#1747481880
+q
