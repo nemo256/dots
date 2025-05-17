@@ -129552,3 +129552,81 @@ q
 clear
 #1747481880
 q
+#1747481887
+cd dots
+#1747481888
+ls
+#1747481889
+r
+#1747481904
+gst
+#1747481914
+gca add msr-tools for prochot to work!
+#1747481917
+ls
+#1747482316
+clear
+#1747482317
+q
+#1747482350
+cdw
+#1747482350
+ls
+#1747482351
+q
+#1747482367
+cd dots
+#1747482368
+ls
+#1747482369
+nvim dots
+#1747482666
+gst
+#1747482318
+cd dots
+#1747482319
+ls
+#1747482320
+cd
+#1747482321
+ls
+#1747482332
+git clone https://github.com/nemo256/music
+#1747482669
+q
+#1747482450
+git clone https://github.com/nemo256/vimy ${HOME}/.config/nvim/
+#1747482457
+cd .config/nvim/
+#1747482457
+ls
+#1747482461
+la
+#1747482462
+..
+#1747482466
+git clone https://github.com/nemo256/vimy ${HOME}/.config/nvim/
+#1747482584
+git clone --depth 1 https://github.com/wbthomason/packer.nvim .local/share/nvim/site/pack/packer/start/packer.nvim
+#1747482687
+rm .local/share/nvim/site/pack/packer/start/packer.nvim/
+#1747482690
+ls
+#1747482697
+rm .local/share/nvim/
+#1747482700
+clear
+#1747482701
+ls
+#1747482779
+cd dots
+#1747482779
+ls
+#1747482782
+nvim dots
+#1747482909
+gst
+#1747482913
+r
+#1747483122
+q
