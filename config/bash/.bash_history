@@ -129630,3 +129630,728 @@ gst
 r
 #1747483122
 q
+git clone https://github.com/nemo256/dots
+nmtui
+clear
+ping google.com
+git clone https://github.com/nemo256/dots
+cd dots/
+ls
+cd ..
+ls
+ls -lah
+cd ..
+ls
+cd n3m0/
+ls
+cd dots/
+ls
+nvim packages 
+clear
+ls
+./dots
+sudo reboot
+#1747501049
+cd dots
+#1747501049
+ls
+#1747501062
+sudo cp disable_prochot.service /etc/systemd/system
+#1747501073
+sudo systemctl start disable_prochot.service 
+#1747501079
+sudo systemctl enable disable_prochot.service 
+#1747501080
+clear
+#1747501081
+ls
+#1747501083
+q
+#1747501088
+clear
+#1747501088
+q
+#1747501090
+clear
+#1747501090
+q
+#1747501093
+nmtui
+#1747501112
+clear
+#1747501112
+q
+#1747501126
+clear
+#1747501128
+qq
+#1747501128
+q
+#1747501136
+clear
+#1747501136
+q
+#1747501143
+r
+#1747501145
+q
+#1747501148
+ins docker
+#1747501174
+sudo systemctl enable docker
+#1747501179
+sudo systemctl start docker
+#1747501194
+sudo usermod -aG docker $USER
+#1747501200
+echo $USER
+#1747501206
+q
+#1747501302
+sudo systemctl stop disable_prochot
+#1747501303
+q
+#1747501790
+ls
+#1747501791
+r
+#1747501820
+..
+#1747501821
+ls
+#1747501831
+q
+#1747501903
+df -h /
+#1747501906
+q
+#1747502027
+ls
+#1747502033
+q
+#1747501248
+cdw
+#1747501249
+ls
+#1747501262
+clone https://github.com/nemo256/stp
+#1747501267
+..
+#1747501273
+clone https://github.com/nemo256/pix
+#1747501361
+clone https://github.com/nemo256/music
+#1747501623
+clone https://github.com/nemo256/dox
+#1747502110
+q
+#1747502314
+df -h /
+#1747502318
+q
+#1747502593
+cdw
+#1747502593
+ls
+#1747502599
+clone https://github.com/nemo256/stp-api
+#1747502626
+clone https://github.com/nemo256/stp-db
+#1747502632
+ls
+#1747502671
+c
+#1747502673
+q
+#1747503864
+cdw
+#1747503866
+cd stp
+#1747503867
+ls
+#1747503871
+make
+#1747504362
+q
+#1747501227
+docker pull gvenzl/oracle-xe
+#1747502460
+docker run -d --name oracle -p 1521:1521 -e ORACLE_PASSWORD=Oracle123 gvenzl/oracle-xe
+#1747502475
+docker logs -f oracle
+#1747502910
+docker stop oracle
+#1747502921
+docker start oracle
+#1747502925
+docker logs -f oracle
+#1747502969
+docker exec -it oracle sqlplus system/Oracle123@localhost/XEPDB1
+#1747503240
+docker cp work/stp-db/database/STP.sql oracle:/STP.sql
+#1747503263
+docker exec -it oracle sqlplus aslstp/aslstp@localhost/XEPDB1
+#1747503343
+docker exec -it oracle bash -c "echo exit | sqlplus aslstp/aslstp@localhost/XEPDB1 @/
+#1747503346
+docker exec -it oracle sqlplus aslstp/aslstp@localhost/XEPDB1
+#1747503658
+docker exec -it oracle sqlplus system/Oracle123@localhost/XEPDB1
+#1747503763
+docker exec -it oracle sqlplus aslstp/aslstp@localhost/XEPDB1
+#1747504116
+paru sqlcl
+#1747504152
+arem
+#1747504315
+brc
+#1747504365
+q
+#1747504367
+brc
+#1747504415
+q
+#1747504420
+sqlstp
+#1747504440
+htop
+#1747504447
+docker stop oracle
+#1747504460
+docker start oracle
+#1747504470
+sqlstp
+#1747504477
+q
+#1747504593
+cdw
+#1747504594
+q
+#1747504480
+cdq
+#1747504480
+cdw
+#1747504483
+cd stp-api
+#1747504484
+make
+#1747504487
+ins go
+#1747504522
+make
+#1747504598
+ls
+#1747504599
+r
+#1747504653
+make
+#1747505191
+q
+#1747505194
+cdw
+#1747505196
+cd stp-api/
+#1747505198
+make clean
+#1747505199
+q
+#1747505211
+cd .build/tily/
+#1747505213
+gst
+#1747505216
+nvim config.h
+#1747505229
+make
+#1747505236
+sudo make clean install
+#1747505239
+q
+#1747504689
+sqlstp
+#1747504798
+lsblk
+#1747504809
+sudo mount /dev/sdc /mnt
+#1747504811
+cd /mnt
+#1747504812
+ls
+#1747504815
+r
+#1747504887
+sudo cp -fvr database/ ~/
+#1747504899
+cd
+#1747504907
+sudo umount /dev/sdc
+#1747504945
+r
+#1747504964
+gst
+#1747504966
+gst -u
+#1747504993
+gca add new database!
+#1747505016
+..
+#1747505018
+ls
+#1747505020
+cd ..
+#1747505021
+ls
+#1747505064
+docker cp work/stp-db/database/STP_ALL.sql work/stp-db/database/STP_TABLES.sql oracle:/
+#1747505079
+docker cp work/stp-db/database/STP_ALL.sql oracle:/STP_ALL.sql
+#1747505092
+docker cp work/stp-db/database/STP_TABLES.sql oracle:/STP_TABLES.sql
+#1747505100
+sqlstp
+#1747505524
+cw
+#1747505526
+cd
+#1747505527
+cw
+#1747505534
+q
+#1747505539
+cw
+#1747505541
+q
+#1747505561
+sqlstp
+#1747505630
+r
+#1747505666
+sqlstp
+#1747505885
+docker exec -it oracle sqlplus system/Oracle123@localhost/XEPDB1
+#1747505905
+sqlstp
+#1747505935
+q
+#1747505944
+cdw
+#1747505946
+cd stp
+#1747505948
+make
+#1747506022
+make clean
+#1747506024
+make stop
+#1747506032
+make clean
+#1747506032
+ls
+#1747506034
+q
+#1747505543
+cdw
+#1747505545
+cd stp-api
+#1747505545
+make
+#1747506036
+make clean
+#1747506037
+clear
+#1747506038
+q
+#1747506051
+cw
+#1747506052
+q
+#1747506067
+sudo nvim /etc/default/grub
+#1747506225
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+#1747506226
+q
+#1747506077
+cd dots
+#1747506077
+ls
+#1747506078
+r
+#1747506093
+clone https://github.com/nemo256/archy
+#1747506097
+cd archy/
+#1747506098
+ls
+#1747506099
+r
+#1747506738
+clear
+#1747506738
+q
+#1747506741
+htop
+#1747506747
+q
+#1747506776
+df -h /
+#1747506778
+q
+#1747506811
+docker start oracle
+#1747506812
+q
+#1747506825
+cd .build/tily/
+#1747506828
+nvim config.h
+#1747506834
+make
+#1747506839
+sudo make clean install
+#1747506800
+cd stp-api
+#1747506802
+cdw
+#1747506804
+cd stp-api/
+#1747506805
+make
+#1747506862
+make clean
+#1747506863
+q
+#1747506791
+cdw
+#1747506793
+cd stp
+#1747506795
+make
+#1747506866
+make sto
+#1747506868
+make stop
+#1747506871
+make clean
+#1747506871
+q
+#1747506877
+cd .build/
+#1747506878
+cd tily/
+#1747506879
+ls
+#1747506880
+gst
+#1747506888
+gca fix localhost link on chromium
+#1747506890
+q
+#1747506896
+cdw
+#1747506897
+cd stp
+#1747506898
+make
+#1747506915
+make clean
+#1747506916
+q
+#1747509423
+cdw
+#1747509425
+cd stp-api/
+#1747509426
+make
+#1747509431
+cdw
+#1747556043
+cd stp
+#1747556044
+clear
+#1747556044
+ls
+#1747556109
+clear
+#1747556109
+ls
+#1747556356
+q
+#1747556359
+cd dots
+#1747556359
+ls
+#1747556361
+cd config/
+#1747556361
+ls
+#1747556366
+rm nvim/
+#1747556367
+ls
+#1747556368
+r
+#1747556405
+git clone https://github.com/nemo256/vimy
+#1747556409
+ls
+#1747556409
+r
+#1747556511
+sudo rm database/
+#1747556516
+sudo rm -fvr database/
+#1747556517
+clear
+#1747556518
+ls
+#1747556518
+r
+#1747556526
+cd dots
+#1747556526
+ls
+#1747556527
+clear
+#1747556527
+ls
+#1747556941
+cd /usr/share/fonts/
+#1747556946
+curl -LO https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+#1747556951
+sudo curl -LO https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+#1747556976
+unzip FiraCode.zip
+#1747556978
+sudo unzip FiraCode.zip
+#1747556985
+fc-cache -fv
+#1747557008
+rem ttf-firacode-nerd
+#1747557010
+q
+#1747557019
+fc-list | grep "FiraCode Nerd Font"
+#1747509363
+cdw
+#1747509365
+ls
+#1747509369
+rm archy/
+#1747509370
+clear
+#1747509371
+ls
+#1747509378
+docker start oracle
+#1747509381
+clear
+#1747509382
+ls
+#1747509408
+clear
+#1747509408
+ls
+#1747509410
+cd stp
+#1747509411
+make
+#1747557113
+q
+#1747557123
+cd .build/
+#1747557125
+cd st/
+#1747557126
+ls
+#1747557170
+fc-list | grep "FiraCode Nerd Font"
+#1747557204
+ls
+#1747557207
+nvim config.h 
+#1747557411
+make
+#1747557418
+sudo make clean install
+#1747557430
+nvim config.h 
+#1747557440
+make
+#1747557553
+clear
+#1747557554
+ls
+#1747557696
+make
+#1747557699
+sudo make clean
+#1747557701
+sudo make clean install
+#1747557704
+q
+#1747559145
+docker start oracle
+#1747559146
+q
+#1747559178
+gst
+#1747559180
+cdw
+#1747559181
+cd stp
+#1747559182
+gst
+#1747559186
+git show
+#1747559206
+git diff
+#1747559208
+ls
+#1747559671
+make
+#1747559821
+q
+#1747557155
+ls /usr/share/fonts/ | grep fira
+#1747557157
+ls /usr/share/fonts/ | grep Fira
+#1747557218
+fc-list | grep "FiraCode Nerd Font"
+#1747559118
+cdw
+#1747559120
+cd stp-api
+#1747559122
+clear
+#1747559122
+ls
+#1747559123
+make
+#1747559246
+nvim internal/handlers/adherent.go 
+#1747559269
+make
+#1747559274
+nvim internal/handlers/adherent.go 
+#1747559828
+make
+#1747559833
+make stop
+#1747559834
+gst
+#1747559835
+gst -u
+#1747559836
+q
+#1747559301
+cdw
+#1747559304
+cd stp-api/
+#1747559305
+make
+#1747559840
+make clean
+#1747559841
+q
+#1747559843
+cdw
+#1747559845
+cd stp
+#1747559845
+ls
+#1747559851
+fc-list | grep -i "fira.*nerd"
+#1747559880
+echo -e "\uE0B0 \uE0B1 \uF013 \uE7C5 \uF121 \uE0A0 \uF2C7 \uF105 \uF101"
+#1747559922
+echo "-> => != =="  # Do they render as joined symbols?
+#1747559932
+printf '\u2500\u2502\u250C\u2510\u2514\u2518\n'
+#1747559988
+q
+#1747559995
+cd .build/
+#1747559996
+ls
+#1747559997
+cd fetchy/
+#1747559998
+ls
+#1747560001
+make
+#1747560003
+make all
+#1747560005
+ls
+#1747560009
+make build
+#1747560010
+r
+#1747560129
+make clean
+#1747560133
+make all
+#1747560136
+r
+#1747560327
+make all
+#1747560333
+make install
+#1747560337
+sudo make install
+#1747560354
+nvim src/config.h 
+#1747560401
+make all
+#1747560402
+make clean
+#1747560405
+sudo make clean
+#1747560410
+sudo make clean install
+#1747560412
+clear
+#1747560412
+ls
+#1747560418
+q
+#1747560423
+cd .build/
+#1747560423
+ls
+#1747560426
+cd fetchy/
+#1747560426
+ls
+#1747560428
+gst
+#1747560438
+cd src/config.h 
+#1747560442
+nvim src/config.h 
+#1747560450
+make all
+#1747560454
+sudo make clean install
+#1747560455
+gst
+#1747560466
+sudo make clean install
+#1747560467
+gst
+#1747560473
+gca update fetchy config!
+#1747560475
+q
+#1747560499
+brc
+#1747560569
+cd dots
+#1747560569
+ls
+#1747560570
+gst
+#1747560574
+q

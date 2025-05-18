@@ -24,7 +24,7 @@ export HISTCONTROL=ignoreboth
 bind 'set completion-ignore-case on'
 
 # My Bash Theme...
-PS1=' \e[0m\[\e[0;1;38;5;55m\]\[  \] \[\e[0;1;38;5;19m\][\[\e[0;1;90m\]\w\[\e[0;1;38;5;19m\]]\[\e[0;1;38;5;19m\]>\[\e[0;1;38;5;19m\]>\[\e[0;1;38;5;19m\]>\[\e[0m\] '
+PS1=' \e[0m\[\e[0;1;38;5;55m\]   \[\e[0;1;38;5;19m\][\[\e[0;1;90m\]\w\[\e[0;1;38;5;19m\]]>>>\[\e[0m\] '
 
 # Aliases
 alias ls='exa --long --group-directories-first --icons'
@@ -123,6 +123,10 @@ alias grh='git reset --hard HEAD'
 # Greppers
 alias cgrep='messer --command="contacts" | grep -i'
 alias hgrep='history | grep -i'
+
+# ORACLE aliases
+alias sqlstp='docker exec -it oracle sqlplus aslstp/aslstp@localhost/XEPDB1
+'
 
 # Nerdy aliases...
 alias py='python'
