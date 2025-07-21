@@ -24,14 +24,17 @@ export HISTCONTROL=ignoreboth
 bind 'set completion-ignore-case on'
 
 # My Bash Theme...
-PS1=' \e[0m\[\e[0;1;38;5;55m\]   \[\e[0;1;38;5;19m\][\[\e[0;1;90m\]\w\[\e[0;1;38;5;19m\]]>>>\[\e[0m\] '
+PS1=' \[\e[0m\]\[\e[38;2;64;64;64m\][\[\e[38;2;192;192;192m\]\w\[\e[38;2;64;64;64m\]]>>>\[\e[0m\] '
+
+
+
 
 # Aliases
 alias ls='exa --long --group-directories-first --icons'
 alias la='exa --long --group-directories-first --icons --git --all'
 alias tree='alder'
-alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
-alias sr='sudo ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+# alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+# alias sr='sudo ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 alias v='nvim'
 alias sv='sudo nvim'
 alias e='neomutt; mbsync -a'
@@ -50,7 +53,7 @@ alias xrc='nvim ~/.xinitrc'
 alias brc='nvim ~/.bashrc'
 alias zrc='nvim ~/.zshrc'
 alias vrc='nvim ~/.config/nvim/init.vim'
-alias rrc='nvim ~/.config/ranger/rc.conf'
+# alias rrc='nvim ~/.config/ranger/rc.conf'
 alias nrc='nvim ~/.newsboat/config'
 alias urc='nvim ~/.newsboat/urls'
 alias arc='nvim ~/.config/alacritty/alacritty.yml'
@@ -163,5 +166,3 @@ export ANDROID_HOME=/opt/android-sdk
 
 # Android Emulator
 export ANDROID_EMULATOR_HOME=/opt/android-sdk/tools
-
-fetchy

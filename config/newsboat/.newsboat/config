@@ -61,18 +61,18 @@ macro , open-in-browser
 macro v set browser "mpv --fs --ytdl-format='bestvideo[ext=mp4][height<=?900]+bestaudio[ext=m4a]'" ; open-in-browser ; set browser "firefox %u"
 
 # Colors
-color background          white     black     bold
+color background          color15   black     bold
 color listnormal          color8    black     bold
-color listnormal_unread   white     default   bold
-color listfocus           black     white     bold
-color listfocus_unread    black     white     bold
-color info                color19   black     bold
-color article             white     default   bold
+color listnormal_unread   color15   default   bold
+color listfocus           black     color15   bold
+color listfocus_unread    black     color15   bold
+color info                color238  black     bold
+color article             color15   default   bold
 
 # Highlights
-highlight article "^(Feed|Link):.*$" color19 default bold
-highlight article "^(Title|Date|Author):.*$" color55 default bold
-highlight article "https?://[^ ]+" color55 default underline
-highlight article "\\[[0-9]+\\]" color8 default bold
-highlight article "\\[image\\ [0-9]+\\]" color8 default bold
-highlight feedlist "^─.*$" color61 color235 bold
+highlight article "^(Feed|Link):.*$"         color238 default bold
+highlight article "^(Title|Date|Author):.*$" color7   default bold
+highlight article "https?://[^ ]+"           color7   default underline
+highlight article "\\[[0-9]+\\]"             color8   default bold
+highlight article "\\[image\\ [0-9]+\\]"     color8   default bold
+highlight feedlist "^─.*$"                   color7   black bold

@@ -13,6 +13,7 @@
 
 # Key bindings
 # ------------
+
 __fzf_select__() {
   local cmd="${FZF_CTRL_T_COMMAND:-"command find -L . -mindepth 1 \\( -path '*/\\.*' -o -fstype 'sysfs' -o -fstype 'devfs' -o -fstype 'devtmpfs' -o -fstype 'proc' \\) -prune \
     -o -type f -print \
@@ -67,7 +68,7 @@ bind -m vi-insert '"\C-z": emacs-editing-mode'
 bind -m emacs-standard '"\C-z": vi-editing-mode'
 
 if (( BASH_VERSINFO[0] < 4 )); then
-  # CTRL-F - Paste the selected file path into the command line
+  # CTRL-F - Paste the selected file path into the command line (fallback)
   bind -m emacs-standard '"\C-f": " \C-b\C-k \C-u`__fzf_select__`\e\C-e\er\C-a\C-y\C-h\C-e\e \C-y\ey\C-x\C-x\C-f"'
   bind -m vi-command '"\C-f": "\C-z\C-f\C-z"'
   bind -m vi-insert '"\C-f": "\C-z\C-f\C-z"'
@@ -77,15 +78,15 @@ if (( BASH_VERSINFO[0] < 4 )); then
   bind -m vi-command '"\C-r": "\C-z\C-r\C-z"'
   bind -m vi-insert '"\C-r": "\C-z\C-r\C-z"'
 else
-  # CTRL-T - Paste the selected file path into the command line
-  bind -m emacs-standard -x '"\C-f": fzf-file-widget'
-  bind -m vi-command -x '"\C-f": fzf-file-widget'
-  bind -m vi-insert -x '"\C-f": fzf-file-widget'
+  # ✅ Ctrl+Shift+F for FZF file widget
+  bind -m emacs-standard -x '"\e[70;6u": fzf-file-widget'
+  bind -m vi-command     -x '"\e[70;6u": fzf-file-widget'
+  bind -m vi-insert      -x '"\e[70;6u": fzf-file-widget'
 
-  # CTRL-R - Paste the selected command from history into the command line
+  # CTRL-R - Paste selected command from history into the command line
   bind -m emacs-standard -x '"\C-r": __fzf_history__'
-  bind -m vi-command -x '"\C-r": __fzf_history__'
-  bind -m vi-insert -x '"\C-r": __fzf_history__'
+  bind -m vi-command     -x '"\C-r": __fzf_history__'
+  bind -m vi-insert      -x '"\C-r": __fzf_history__'
 fi
 
 # ALT-C - cd into the selected directory
@@ -94,3 +95,4 @@ bind -m vi-command '"\ec": "\C-z\ec\C-z"'
 bind -m vi-insert '"\ec": "\C-z\ec\C-z"'
 
 fi
+
