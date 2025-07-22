@@ -1,6 +1,7 @@
 Xft.dpi: 133
-Xcursor.theme: Adwaita
-Xcursor.size: 96
+Xcursor.theme: Bibata-Modern-Classic
+Xcursor.size: 200
 Sxiv.background: #000000
-Sxiv.foreground: #4b0088
+Sxiv.foreground: #c0c0c0
 Sxiv.font: Fira Code Bold 17
+

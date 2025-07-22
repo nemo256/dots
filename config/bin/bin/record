@@ -6,6 +6,6 @@ then
     kill `ps -e | grep ffmpeg | awk '{print $1}'`
 else
     notify-send "  Starting Record!"
-    ffmpeg -f x11grab -s 1440x900 -i :0.0 ~/out.mp4 -y
+    ffmpeg -f x11grab -s 1920x1080 -i :0.0 ~/out.mp4 -y
 fi
 
