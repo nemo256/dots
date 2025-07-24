@@ -56,9 +56,9 @@ unbind-key v # not bound
 # bind-key v open-in-browser
 
 # Urls
-browser "firefox %u"
+browser "chromium %u"
 macro , open-in-browser
-macro v set browser "mpv --fs --ytdl-format='bestvideo[ext=mp4][height<=?900]+bestaudio[ext=m4a]'" ; open-in-browser ; set browser "firefox %u"
+macro v set browser "mpv --fs --ytdl-format='bestvideo+bestaudio'" ; open-in-browser ; set browser "chromium %u"
 
 # Colors
 color background          color15   black     bold
