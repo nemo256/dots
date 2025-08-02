@@ -132584,3 +132584,255 @@ ls
 clear
 #1754131475
 q
+#1754131416
+scan
+#1754131417
+cdb
+#1754131418
+ls
+#1754131421
+cd
+#1754131428
+cdb
+#1754131428
+ls
+#1754131436
+brc
+#1754131495
+gca add wifi directory to PATH
+#1754131505
+cd ..
+#1754131506
+ls
+#1754131507
+q
+#1754131509
+status
+#1754131509
+q
+#1754131518
+cd .build/tilk
+#1754131526
+cd .build/tily/
+#1754131528
+gst
+#1754131529
+q
+#1754131550
+cd .build/tily/
+#1754131552
+nvim config.h
+#1754131579
+gca fix wifi shortcut!
+#1754131583
+sudo make clean install
+#1754131584
+q
+#1754131596
+scan
+#1754131616
+cd .build/tily/
+#1754131617
+nvim config.h
+#1754131782
+sudo make clean install
+#1754131802
+nvim config.h
+#1754131887
+sudo make clean install
+#1754131894
+gca fix wifi shortcut!
+#1754131913
+scan
+#1754131916
+sttatus
+#1754131918
+status
+#1754131918
+q
+#1754131923
+scan
+#1754131924
+q
+#1754131925
+wifi
+#1754131926
+q
+#1754131971
+cd .build/tily/
+#1754131974
+nvim config.
+#1754131978
+nvim config.h
+#1754132134
+gca update wifi shortcut!
+#1754132141
+sudo make clean install
+#1754132142
+q
+#1754132160
+cd .build/tily/
+#1754132169
+nvim config.h
+#1754132185
+gca fix wifi shortcut!
+#1754132191
+sudo make clean install
+#1754132193
+gca fix wifi shortcut!
+#1754132195
+clear
+#1754132195
+q
+#1754133033
+nvim
+#1754133052
+q
+#1754134364
+cd .config/nvim
+#1754134367
+cd colors/monochrome.lua 
+#1754134370
+nvim colors/monochrome.lua 
+#1754134432
+..
+#1754134444
+cd nvim
+#1754134446
+rm colors/
+#1754134454
+q
+#1754132946
+cd .config/nvim/
+#1754132948
+ls
+#1754132949
+nvim init.lua 
+#1754132954
+cd colors/
+#1754132954
+ls
+#1754132956
+nvim monochrome.lua 
+#1754132960
+..
+#1754132961
+ls
+#1754132962
+nvim init.lua 
+#1754134459
+ls
+#1754134461
+nvim init.lua 
+#1754134551
+cd .config/nvim/
+#1754134553
+nvim con
+#1754134555
+nvim init.lua 
+#1754135168
+mkdir test
+#1754135170
+cd tes
+#1754135172
+cd test/
+#1754135175
+nvim tes
+#1754135179
+..
+#1754135181
+nvim init.lua 
+#1754136983
+cd .config/nvim/
+#1754137046
+nvim init.lua 
+#1754139529
+clear
+#1754139531
+gst
+#1754139542
+ls
+#1754139545
+rm test/
+#1754139573
+ls
+#1754139576
+..
+#1754139579
+la
+#1754139656
+mkdir -p ../dots/config/nvim/.config && mv nvim ../dots/config/nvim
+#1754139672
+ls
+#1754139677
+nvim 
+#1754139680
+..
+#1754139682
+cd dots
+#1754139682
+ls
+#1754139684
+cd config/
+#1754139685
+ls
+#1754139688
+cd nvim 
+#1754139689
+ls
+#1754139690
+..
+#1754139699
+cd ncmpcpp/
+#1754139701
+ls
+#1754139703
+la
+#1754139706
+cd .config/
+#1754139707
+ls
+#1754139709
+..
+#1754139711
+cd nvim 
+#1754139712
+ls
+#1754139717
+mkdir .config
+#1754139720
+la
+#1754139725
+ls .config/
+#1754139727
+la .config/
+#1754139739
+mv nvim .config/
+#1754139742
+ls
+#1754139744
+la
+#1754139746
+cd .config/
+#1754139747
+ls
+#1754139749
+cd nvim
+#1754139749
+ls
+#1754139751
+..
+#1754139752
+...
+#1754139752
+..
+#1754139754
+ls
+#1754139774
+man stow
+#1754139786
+stow -t ~/ nvim
+#1754139788
+nvim
+#1754139790
+q
