@@ -26,9 +26,6 @@ bind 'set completion-ignore-case on'
 # My Bash Theme...
 PS1=' \[\e[0m\]\[\e[38;2;64;64;64m\][\[\e[38;2;192;192;192m\]\w\[\e[38;2;64;64;64m\]]>>>\[\e[0m\] '
 
-
-
-
 # Aliases
 alias ls='exa --long --group-directories-first --icons'
 alias la='exa --long --group-directories-first --icons --git --all'
@@ -128,8 +125,7 @@ alias cgrep='messer --command="contacts" | grep -i'
 alias hgrep='history | grep -i'
 
 # ORACLE aliases
-alias sqlstp='docker exec -it oracle sqlplus aslstp/aslstp@localhost/XEPDB1
-'
+alias sqlstp='docker exec -it oracle sqlplus aslstp/aslstp@localhost/XEPDB1'
 
 # Nerdy aliases...
 alias py='python'
@@ -144,7 +140,7 @@ alias start='startx -- -nocursor'
 
 # Fetching information aliases...
 # alias volumelevel="echo 'Volume is:   $(amixer get Master | grep Mono: | sed 's/[][]//g' | awk '{print $4}' | sed 's/[^0-9]*//g')%'"
-alias wifissid="echo 'Connected to:   $(iwgetid -r)'"
+alias wifi="echo 'Connected to:   $(iwgetid -r)'"
 
 # FZF configuration options
 export FZF_DEFAULT_OPTS='--layout=reverse --border --height=100%'
