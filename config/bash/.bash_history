@@ -132868,3 +132868,39 @@ q
 nvim .config/nvim/init.lua 
 #1754159856
 q
+#1754159858
+nvim 
+#1754159864
+nvim .config/nvim/init.lua 
+#1754160807
+cd dots/
+#1754160808
+gst
+#1754160816
+gca MILESTONE - Update neovim config!
+#1754160819
+clear
+#1754160819
+q
+#1754160859
+cdw
+#1754160860
+cd aps-db/
+#1754160861
+nvim 
+#1754160868
+clear
+#1754160868
+q
+#1754160927
+nvim
+#1754160931
+q
+#1754161294
+nvim
+#1754161427
+q
+#1754161428
+nvim
+#1754161452
+q
