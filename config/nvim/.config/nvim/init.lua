@@ -85,7 +85,30 @@ vim.opt.encoding = "UTF-8"
 -- Cursor settings
 vim.opt.guicursor = "n-v-c:block,i-ci-ve:block,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
 
--- Navigation and keybindings
+-- Keybindings
+-- Manage sessions
+vim.keymap.set("n", "<C-S-s>", ":mksession! ~/.config/nvim/_root_.vim<CR>")
+vim.keymap.set("n", "<C-S-d>", ":!rm ~/.config/nvim/_root_.vim<CR>")
+vim.keymap.set("n", "<C-S-l>", ":source ~/.config/nvim/_root_.vim<CR>")
+
+-- Substitute a word
+vim.keymap.set("n", "<C-s>", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+vim.keymap.set("n", "<C-x>", "<cmd>!chmod +x %<CR>", { silent = true })
+
+-- Compile and run C code
+vim.keymap.set("n", "<C-S-c>", ":w<CR>:! clear && cc %:p -o %:p:r -lm<CR>", { silent = true })
+vim.keymap.set("n", "<C-S-r>", "<cmd>! %:p:r<cr>", { silent = true })
+
+-- Compile LaTeX
+vim.keymap.set("n", "<C-p>", ":w<CR>:! clear && pdflatex -output-directory %:p:h %:p<CR>", { silent = true })
+
+-- Compile BibTeX
+vim.keymap.set("n", "<C-S-b>", ":w<cr>:!clear && cd %:p:h && bibtex %:t:r<cr>", { silent = true })
+
+-- Open pdfs
+vim.keymap.set("n", "<C-S-p>", "<cmd>! zathura $(echo % | sed 's/tex$/pdf/') & disown<CR><CR>", { silent = true })
+
+-- Navigation
 vim.keymap.set("n", "n", "nzzzv", { desc = "Next search result (centered)" })
 vim.keymap.set("n", "N", "Nzzzv", { desc = "Previous search result (centered)" })
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { desc = "Half page down (centered)" })
