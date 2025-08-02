@@ -9,7 +9,7 @@
 [ -f /etc/bash_completion ] && /etc/bash_completion
 
 # PATH variable
-export PATH="$HOME/bin:/$HOME/bin/status:/usr/local/bin:/sbin:$HOME/.config/composer/vendor/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:/opt/android-sdk/tools:$PATH"
+export PATH="$HOME/bin:/$HOME/bin/status:/$HOME/bin/wifi:/usr/local/bin:/sbin:$HOME/.config/composer/vendor/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/cmdline-tools/latest/bin:/opt/android-sdk/tools:$PATH"
 
 # Default Text Editor
 export EDITOR=nvim
