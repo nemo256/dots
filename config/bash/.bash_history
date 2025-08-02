@@ -131827,3 +131827,584 @@ iwctl
 alias v
 #1753350221
 q
+#1753350227
+v .newsboat/config 
+#1753350303
+ccd dots
+#1753350305
+cd dots
+#1753350307
+gca MILESTONE - PIPI
+#1753350310
+q
+#1753352387
+iwctl
+#1753352416
+q
+#1753360682
+lsblk
+#1753360691
+sudo mount /dev/sda1 /mnt
+#1753360694
+cd /mnt
+#1753360695
+ls
+#1753360705
+cd ./
+#1753360706
+ls
+#1753360712
+space
+#1753360746
+cd / /
+#1753360755
+cd "./ /"
+#1753360761
+"./"
+#1753360766
+cd "./"
+#1753360768
+ls
+#1753360780
+sudo rm System\ Volume\ Information/
+#1753360784
+sudo rm -fvr System\ Volume\ Information/
+#1753360815
+cd ".
+"
+#1753360820
+clear
+#1753360821
+ls
+#1753360824
+q
+#1753360829
+sudo eject /mnt
+#1753374171
+iwctl
+#1753374199
+q
+#1753600575
+clear
+#1753600576
+q
+#1753603802
+cdd
+#1753603803
+ls
+#1753603804
+la
+#1753603807
+clear
+#1753603807
+q
+#1753604533
+lsblk
+#1753604538
+sudo mount /dev/sda1 /mnt
+#1753604540
+cd /mnt
+#1753604541
+ls
+#1753604562
+sudo cp APS /home/lami/
+#1753604569
+sudo cp -fvr APS /home/lami/
+#1753604572
+clear
+#1753604572
+cd
+#1753604581
+sudo umount /mnt
+#1753604585
+q
+#1753604329
+cdD
+#1753604339
+clone https://github.com/nemo256/dox
+#1753606404
+ls
+#1753606405
+clear
+#1753606406
+q
+#1753604612
+cd
+#1753604613
+ls
+#1753604614
+cd APS/
+#1753604615
+ls
+#1753604660
+cd procedure/
+#1753604661
+ls
+#1753604676
+sxiv Les\ DEUX\ prestations\ APS.jpg 
+#1753616380
+iwctl
+#1753617354
+clear
+#1753617354
+q
+#1753623973
+iwctl
+#1753623988
+q
+#1753686453
+xrandr
+#1753686455
+q
+#1753775407
+lsblk
+#1753775412
+sudo mount /dev/sda1 /mnt
+#1753775415
+cd /mnt
+#1753775416
+ls
+#1753775451
+sudo cp capture\ mcd.PNG /home/lami/dl/
+#1753775452
+q
+#1753775463
+cdd
+#1753775466
+ls
+#1753775520
+cdd
+#1753775521
+ls
+#1753775524
+sxiv capture\ mcd.PNG 
+#1753775824
+q
+#1753775816
+sudo umount /mnt
+#1753776886
+cdw
+#1753776887
+cd aps
+#1753776889
+cd aps-db/
+#1753776890
+ls
+#1753776891
+nvim
+#1753776908
+nvim .
+#1753776936
+ls
+#1753776938
+nvim README.md 
+#1753776975
+clear
+#1753776983
+gca update boilerplate
+#1753776985
+clear
+#1753776986
+ls
+#1753777139
+nvim db.md 
+#1753777152
+nvim README.md 
+#1753777187
+rm db.md 
+#1753777188
+ls
+#1753777188
+clear
+#1753777202
+ls
+#1753777202
+q
+#1753776697
+cdw
+#1753776699
+ls
+#1753776825
+la
+#1753776826
+clear
+#1753776872
+new aps-db
+#1753776877
+ls
+#1753776878
+cd aps-db/
+#1753776879
+ls
+#1753777014
+nvim db.md
+#1753777124
+gca add aps tables - initial try
+#1753777204
+cdw
+#1753777207
+cd aps-db/
+#1753777208
+clear
+#1753777209
+ls
+#1753777320
+gca update markdown tables
+#1753777335
+nvim README.md 
+#1753777347
+gca update markdown
+#1753777368
+nvim README.md 
+#1753777404
+gca update markdown formatting
+#1753781271
+q
+#1753793694
+clear
+#1753793694
+q
+#1753793695
+cdw
+#1753793696
+cd asp
+#1753793698
+cd aps-db/
+#1753793698
+ls
+#1753793701
+clear
+#1753793701
+q
+#1753862113
+ls
+#1753862384
+clear
+#1753862385
+ls
+#1753862387
+cd
+#1753862387
+cdd
+#1753862388
+ls
+#1753862392
+rm capture\ mcd.PNG 
+#1753862394
+clear
+#1753862396
+lsblk
+#1753862406
+sudo mount /dev/sda1 /mnt
+#1753862409
+cd /mnt
+#1753862410
+ls
+#1753862481
+sudo cp 'mcd version 1.0loo.loo' /home/lami/dl
+#1753862483
+cddd
+#1753862484
+cdd
+#1753862485
+ls
+#1753862488
+nvim mcd\ version\ 1.0loo.loo 
+#1753862498
+xdg-open mcd\ version\ 1.0loo.loo 
+#1753862500
+cclear
+#1753862501
+cleare
+#1753862502
+q
+#1753860209
+iwctl\
+#1753860212
+iwctl
+#1753862811
+clear
+#1753862811
+ls
+#1753862819
+sudo mount /dev/sda1 /mnt
+#1753862821
+cd /mnt
+#1753862821
+ls
+#1753862845
+sudo cp 'mcd version 2.0 capture.PNG' /home/lami/dl/
+#1753862847
+cdd
+#1753862848
+clear
+#1753862848
+ls
+#1753862859
+sxiv -fv mcd\ version\ 2.0\ capture.PNG 
+#1753862866
+sxiv -f mcd\ version\ 2.0\ capture.PNG 
+#1753863662
+q
+#1753863725
+cdw
+#1753863726
+ls
+#1753863728
+cd aps-db/
+#1753863750
+cd ..
+#1753863758
+nvim .git-credentials 
+#1753863770
+cdw
+#1753863772
+cd aps-db/
+#1753863774
+clear
+#1753863775
+ls
+#1753863910
+nvim test
+#1753863920
+gst
+#1753863923
+git status
+#1753863925
+clear
+#1753863928
+git status
+#1753863930
+gst]
+#1753863932
+clear
+#1753863934
+git status
+#1753863957
+git add *
+#1753863960
+git status
+#1753864004
+git commit -m "add new file"
+#1753864011
+git status
+#1753864102
+git push origin master
+#1753864185
+rm test 
+#1753864186
+gst
+#1753864204
+cat ../../bin/gca 
+#1753864222
+clear
+#1753864229
+gca delete test file
+#1753864291
+clear
+#1753864291
+q
+#1753864292
+cdw
+#1753864294
+cd aps-db/
+#1753864418
+nvim README.md \
+#1753864420
+nvim README.md\
+#1753864423
+nvim README.md
+#1753864460
+gca test
+#1753864471
+nvim README.md 
+#1753864476
+gca test
+#1753864488
+nvim README.md 
+#1753864497
+gca test
+#1753864507
+nvim README.md 
+#1753864515
+gca remove test
+#1753862507
+sudo umount /mnt
+#1753863674
+sudo eject /mnt
+#1753868010
+clear
+#1753868013
+q
+#1753868014
+cdw
+#1753868016
+cd aps-db/
+#1753868017
+ls
+#1753868544
+clear
+#1753868565
+cd
+#1753868629
+clear
+#1753868956
+c
+#1753868961
+clear
+#1753869438
+cd
+#1753869440
+q
+#1753869987
+iwctl
+#1753870738
+q
+#1753870794
+cdd
+#1753870795
+ls
+#1753870804
+zathura AADL_FAVORABLE.pdf 
+#1753870826
+clear
+#1753870826
+q
+#1753945834
+clear
+#1753945834
+q
+#1753946525
+cd .build/
+#1753946526
+cd tily/
+#1753946527
+ls
+#1753946530
+nvim config.h\
+#1753946533
+nvim config.h
+#1753946574
+sudo make clean install
+#1753946595
+gca add iwctl instead of nmtui
+#1753946598
+iwctl
+#1753946627
+gca add iwctl instead of nmtui
+#1753946636
+clear
+#1753946636
+q
+#1753946643
+cd .build/tily/
+#1753946649
+sudo make clean install
+#1753946651
+q
+#1753946680
+clear
+#1753946681
+q
+#1753946683
+clear
+#1753946683
+q
+#1753946687
+clear
+#1753946687
+q
+#1753946694
+clear
+#1753946695
+q
+#1753946718
+cdw
+#1753946720
+cd aps-db/
+#1753946722
+clear
+#1753946722
+q
+#1753947116
+cdw
+#1753947117
+q
+#1753947122
+cdw
+#1753947123
+cd aps-db/
+#1753947125
+gst
+#1753947138
+gca add new tables and organized all tables!
+#1753947273
+gca fix typo
+#1753947367
+gca fix formatting
+#1753947432
+gca fix layout
+#1753947582
+gca fix typo
+#1753947584
+clear
+#1753947584
+q
+#1753947587
+cdw
+#1753947589
+cd aps-db/
+#1753947592
+gst
+#1753956377
+clear
+#1753956377
+q
+#1753956379
+cdw
+#1753956380
+cd aps-db/
+#1753956381
+clear
+#1753956382
+los
+#1753956383
+ls
+#1753956722
+clear
+#1753956723
+q
+#1753946723
+cdw
+#1753946725
+cd aps-db/
+#1753946726
+gst
+#1753946729
+nvim README.md 
+#1753956724
+cdw
+#1753956727
+cd aps-db/
+#1753956731
+gst
+#1754130200
+nvim
+#1754130203
+cd .config/nvim
+#1754130205
+ls
+#1754130207
+clear
+#1754130210
+..
+#1754130215
+la
+#1754130228
+clear
+#1754130228
+q
+#1754130617
+wifissid 
+#1754130620
+q
