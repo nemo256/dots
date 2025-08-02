@@ -132408,3 +132408,117 @@ q
 wifissid 
 #1754130620
 q
+#1754130459
+iwctl station wlan0 get-networks
+#1754130472
+iwctl man
+#1754130475
+man iwctl
+#1754130530
+brc
+#1754130650
+cd do
+#1754130653
+cd dots/
+#1754130655
+gst
+#1754130659
+gca add wifi aliases!
+#1754130662
+q
+#1754130665
+status
+#1754130680
+scan
+#1754130682
+cleaer
+#1754130683
+clear
+#1754130684
+q
+#1754130728
+scan
+#1754130741
+scan || iwctl
+#1754130743
+clear
+#1754130749
+scan; iwctl
+#1754130783
+clear
+#1754130784
+status]
+#1754130786
+status
+#1754130796
+scan; iwctl
+#1754130803
+q
+#1754130720
+brc
+#1754130685
+scan
+#1754130705
+cd .build/tily/
+#1754130707
+nvim config.h
+#1754130878
+gst
+#1754130888
+gca update wifi shortcut!
+#1754130889
+q
+#1754130919
+nvim .build/tily/config.h
+#1754130928
+cd .build/tily/
+#1754130933
+sudo make clean install
+#1754130954
+cd .build/tily/
+#1754130957
+nvim config.h
+#1754130972
+gca update wifi shortcut!
+#1754130977
+sudo make clean install
+#1754130979
+clear
+#1754130980
+q
+#1754130997
+iwctl
+#1754131000
+status
+#1754131003
+wifi
+#1754131007
+lswifi
+#1754131008
+clear
+#1754131008
+q
+#1754131011
+scan
+#1754131013
+clear
+#1754131013
+q
+#1754131014
+scan
+#1754131018
+q
+#1754131022
+cd .build/tily/
+#1754131023
+nvim config.h
+#1754131261
+sudo make clean install
+#1754131264
+gca update wifi shortcut!
+#1754131266
+q
+#1754131085
+iwctl station wlan0 get-networks
+#1754131268
+q

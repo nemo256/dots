@@ -110,11 +110,6 @@ alias hack='cmatrix | lolcat'
 # alias lswifi='nmcli d wifi list --rescan yes'
 # alias wifi='nmcli d wifi connect '
 
-# WIFI
-alias scan='iwctl station wlan0 get-networks'
-alias connect='iwctl station wlan0 connect'
-alias status='iwctl station wlan0 show'
-
 # Git operations
 alias clone='git clone'
 alias gaa='git add -vA'
