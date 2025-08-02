@@ -132836,3 +132836,35 @@ stow -t ~/ nvim
 nvim
 #1754139790
 q
+#1754139793
+cd .dots
+#1754139794
+cd do
+#1754139796
+cd odts
+#1754139798
+cd dots
+#1754139798
+ls
+#1754139802
+gst
+#1754139804
+gst -u
+#1754139820
+gca MILESTONE - Add neovim configuration!
+#1754139822
+q
+#1754159251
+clear
+#1754159251
+q
+#1754159356
+nvim
+#1754159371
+clear
+#1754159371
+q
+#1754159415
+nvim .config/nvim/init.lua 
+#1754159856
+q
