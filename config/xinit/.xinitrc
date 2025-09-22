@@ -41,6 +41,7 @@ mpd &
 xset r rate 220 40 &
 
 # Setting up screen locker (slock)
+xset s off &
 # xset s 600 30 &
 # xss-lock -n "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'" -- slock &
 

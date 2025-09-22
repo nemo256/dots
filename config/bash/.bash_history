@@ -133012,3 +133012,1199 @@ q
 adqw÷
 #1754163348
 clear
+#1754163111
+nvim .config/nvim/init.lua 
+#1754163414
+cd dots
+#1754163422
+gca MILESTONE - Update neovim config!
+#1754163424
+q
+#1754163472
+brc
+#1754163485
+q
+#1754163646
+cdw
+#1754163649
+cd aps-db/
+#1754163654
+sxiv db.png 
+#1754163695
+q
+#1754163700
+cdw
+#1754163701
+cd aps-db/
+#1754163703
+sxiv db.png 
+#1754163714
+q
+#1754163503
+cdw
+#1754163504
+cd aps-db/
+#1754163504
+ls
+#1754163506
+pip
+#1754163524
+venc
+#1754163526
+venv
+#1754163535
+brc
+#1754163551
+python -m venv venv
+#1754163556
+activate
+#1754163562
+pip install mocodo
+#1754163569
+mocodo db.mcd 
+#1754163610
+mocodo -i db.mcd --svg_to png
+#1754163622
+pip install cairosvg
+#1754163629
+mocodo -i db.mcd --svg_to png
+#1754163631
+ls
+#1754163739
+deactivate
+#1754163740
+clear
+#1754163740
+q
+#1754163742
+cdw
+#1754163743
+cd aps-db/
+#1754163744
+gst
+#1754163748
+ls
+#1754163748
+la
+#1754163758
+nvim db_geo.json 
+#1754163775
+nvim .gitignore
+#1754163822
+gst
+#1754163823
+gst -u
+#1754163828
+gca add mcd
+#1754163831
+clear
+#1754163831
+q
+#1754205594
+lsblk
+#1754205599
+sudo mount /dev/sda1 /mnt
+#1754205601
+cd /mnt
+#1754205602
+ls
+#1754205622
+cd
+#1754205624
+sudo eject /mnt
+#1754205635
+q
+#1754228757
+cdd
+#1754228758
+ls
+#1754228763
+lsblk
+#1754228782
+sudo mount /dev/sda /mnt
+#1754228813
+mv winmfscanutilityv12102.exe MFScan.exe
+#1754228819
+sudo cp -fvr MFScan.exe /mnt
+#1754228842
+cd /mnt
+#1754228843
+ls
+#1754228855
+cd
+#1754228863
+sudo eject /mnt
+#1754228917
+lsblk
+#1754228929
+sudo mount /dev/sda1 /mnt
+#1754228934
+sudo cp -fvr MFScan.exe /mnt
+#1754228938
+cddd
+#1754228939
+cdd
+#1754228939
+ls
+#1754228942
+sudo cp -fvr MFScan.exe /mnt
+#1754228948
+sudo eject /mnt
+#1754205317
+cdw
+#1754205319
+cd aps-db/
+#1754205325
+sxiv db.png 
+#1754205381
+cdw
+#1754205384
+cd aps-db/
+#1754205386
+ls
+#1754205391
+nvim db.mcd 
+#1754205412
+activate
+#1754205418
+mocodo -i db.mcd --svg_to png
+#1754205425
+nvim db.mcd 
+#1754205524
+mocodo -i db.mcd --svg_to png
+#1754207382
+nvim db.mcd 
+#1754291017
+clear
+#1754291018
+q
+#1754291125
+clearq
+#1754291126
+q
+#1754302764
+clear
+#1754302764
+q
+#1754381670
+xrc
+#1754381809
+cleare
+#1754381811
+clear
+#1754381812
+q
+#1754381814
+nvim
+#1754381868
+clear
+#1754381868
+q
+#1754381891
+cdw
+#1754381893
+cd aps-db/
+#1754381893
+ls
+#1754381944
+gst
+#1754381960
+gca remove all attributes
+#1754382016
+ls
+#1754382047
+clear
+#1754382048
+ls
+#1754382049
+gst
+#1754381968
+cdw
+#1754381969
+cd aps-db/
+#1754381969
+ls
+#1754381976
+nvim db.mcd 
+#1754810470
+clear
+#1754810471
+q
+#1755717394
+clear
+#1755717394
+q
+#1755717497
+cdw
+#1755717498
+ls
+#1755717499
+cd aps-db/
+#1755717500
+ls
+#1755719705
+activate
+#1755719714
+mocodo -i db.mcd --svg_to png
+#1755721155
+gst
+#1755721167
+gca update some table attributes!
+#1755721170
+clear
+#1755721170
+q
+#1755719718
+cdw
+#1755719719
+cd aps-db/
+#1755719720
+ls
+#1755719738
+sxiv db.png 
+#1755721455
+cdw
+#1755721456
+cd aps-db/
+#1755721457
+ls
+#1755721463
+nvim .git
+#1755721470
+nvim .gitignore 
+#1755721484
+gca add png output
+#1755721486
+q
+#1755753888
+cdp
+#1755753890
+ls
+#1755753896
+q
+#1755753866
+cdw
+#1755753869
+cd aps-db/
+#1755753870
+ls
+#1755753876
+sxiv db.png
+#1755891117
+clear
+#1755891117
+q
+#1755891119
+cdd
+#1755891119
+ls
+#1755891126
+rm MFScan.exe 
+#1755891126
+ls
+#1755891154
+mv demande_code_edhabiya.pdf DEMANDE_CODE_EDHABIYA.pdf
+#1755891155
+ls
+#1755891156
+clear
+#1755891156
+s
+#1755891158
+clear
+#1755891158
+q
+#1755891188
+cdd
+#1755891188
+ls
+#1755891204
+mv DEMANDE_CODE_EDHABIYA.pdf DEMANDE_CODE_EDHAHABIYA.pdf 
+#1755891206
+clear
+#1755891206
+q
+#1755974248
+paru -S oracle-datamodeler
+#1755974307
+oracle-datamodeler 
+#1755974542
+java -version
+#1755974583
+echo $XDG_SESSION_TYPE
+#1755974633
+sudo pacman -S jdk11-openjdk
+#1755974640
+upd
+#1755974647
+sudo pacman -S jdk11-openjdk
+#1755974673
+sudo archlinux-java set java-11-openjdk
+#1755974677
+java -version
+#1755974686
+oracle-datamodeler 
+#1755974734
+sudo archlinux-java set java-17-openjdk
+#1755974739
+oracle-datamodeler
+#1755974774
+cat /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755974795
+rem jdk11-openjdk
+#1755974797
+clear
+#1755974799
+arem
+#1755974812
+SetJavaHome /usr/lib/jvm/java-17-openjdk
+#1755974823
+cat /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755974874
+v /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755974911
+java -version
+#1755974937
+nano /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755974944
+nvim /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf9;5u
+#1755974964
+sudo nvim /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755974985
+cat /opt/oracle-datamodeler/datamodeler/bin/java11.conf
+#1755975002
+sudo nvim /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755975011
+oracle-datamodeler 
+#1755975029
+sudo nvim /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755975035
+oracle-datamodeler 
+#1755975071
+oracle-datamodeler --verbose
+#1755975100
+paru -R oracle-datamodeler
+#1755975110
+paru -S oracle-datamodeler
+#1755975123
+ora
+#1755975124
+oracle-datamodeler 
+#1755975215
+paru -R oracle-datamodeler
+#1755975217
+arem
+#1755975246
+cdd
+#1755975247
+ls
+#1755975264
+ins rpm-tools
+#1755975271
+mkdir ~/rpm-build && cd ~/rpm-build
+#1755975283
+..
+#1755975287
+cdd
+#1755975287
+ls
+#1755975291
+cd
+#1755975291
+ls
+#1755975293
+rm rpm-build/
+#1755975294
+cdd
+#1755975295
+ls
+#1755975306
+cd
+#1755975308
+mkdir ~/rpm-build && cd ~/rpm-build
+#1755975324
+cp ../dl/datamodeler-24.3.1.351.0831-1.noarch.rpm .
+#1755975326
+ls
+#1755975348
+nvim PKGBUILD
+#1755975363
+makepkg -s
+#1755975373
+nvim PKGBUILD
+#1755975408
+makepkg -s
+#1755975415
+ls
+#1755975425
+mv datamodeler-24.3.1.351.0831-1.noarch.rpm datamodeler-24.3.1.rpm
+#1755975428
+makepkg -s
+#1755975473
+..
+#1755975475
+rm rpm-build/
+#1755975478
+cdd
+#1755975479
+;ls
+#1755975479
+ls
+#1755975482
+rm datamodeler-24.3.1.351.0831-1.noarch.rpm 
+#1755975482
+ls
+#1755975483
+clear
+#1755975483
+q
+#1755975388
+ls
+#1755975390
+cd rm
+#1755975392
+cd rpm-build/
+#1755975392
+ls
+#1755975484
+q
+#1755975498
+paru -S oracle-datamodeler
+#1755975592
+cat /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755975604
+sudo nvim /opt/oracle-datamodeler/datamodeler/bin/datamodeler.conf
+#1755975696
+export J2D_D3D=false
+#1755975696
+export LIBGL_ALWAYS_SOFTWARE=1
+#1755975696
+oracle-datamodeler
+#1755975710
+echo $XDG_SESSION_TYPE
+#1755975768
+paru -R oracle-datamodeler
+#1755975771
+q
+#1755975774
+cdw
+#1755975775
+cd aps-db/
+#1755975776
+ls
+#1755975781
+sxiv db.png 
+#1755975798
+clear
+#1755975799
+q
+#1756028796
+clear
+#1756028796
+q
+#1756028853
+cdw
+#1756028854
+cd aps-db/
+#1756028855
+ls
+#1756028928
+mocodo -i db.mcd --svg_to png
+#1756028936
+activate
+#1756028938
+mocodo -i db.mcd --svg_to png
+#1756043953
+cdd
+#1756043953
+ls
+#1756043956
+rm db_relations.txt 
+#1756043957
+clear
+#1756043958
+q
+#1756028859
+cdw
+#1756028866
+cd aps-db/
+#1756028873
+ls
+#1756028887
+nvim db.mcd 
+#1756028974
+mv db.mcd db.mcd.bak
+#1756028985
+cp db.mcd.bak db.mcd
+#1756028985
+ls
+#1756029246
+nvim db.mcd
+#1756044078
+gst
+#1756044082
+gca add relations
+#1756044084
+q
+#1756028906
+cdw
+#1756028908
+cd aps-db/
+#1756028908
+ls
+#1756028910
+sxiv 
+#1756028915
+sxic db.png 
+#1756028920
+sxiv db.png 
+#1756028992
+nvim db.mcd
+#1756029020
+sxiv db.png 
+#1756114621
+clear
+#1756114621
+q
+#1756114629
+cdw
+#1756114630
+cd aps-db/
+#1756114631
+ls
+#1756114634
+cdw
+#1756114638
+cd aps-db/
+#1756114639
+ls
+#1756114642
+nvim db.mcd
+#1756114649
+cdw
+#1756114650
+cd aps-db/
+#1756114657
+sxiv db.png 
+#1756194186
+clear
+#1756194186
+q
+#1756194188
+cdw
+#1756194188
+ls
+#1756194190
+cd aps-db/
+#1756194191
+ls
+#1756194192
+clear
+#1756194192
+q
+#1756194193
+cdw
+#1756194195
+cd aps-db/
+#1756194197
+clear
+#1756194198
+ls
+#1756194392
+nvim aps.mcd
+#1756194400
+nvim db.mcd
+#1756305205
+clear
+#1756305205
+q
+#1756305209
+nvim
+#1756305442
+cdw
+#1756305442
+cd
+#1756305444
+cdw
+#1756305445
+ls
+#1756305469
+clone https://github.com/nemo256/stp
+#1756305473
+cd stp
+#1756305473
+ls
+#1756305477
+c
+#1756305478
+ls
+#1756305483
+nvim package.json 
+#1756305558
+cd src/
+#1756305559
+;s
+#1756305560
+ls
+#1756305561
+clear
+#1756305561
+ls
+#1756305566
+cd components/Button.vue 
+#1756305570
+nvim components/Button.vue 
+#1756305708
+ls
+#1756305710
+cd ..
+#1756305711
+ls
+#1756305716
+cd src/
+#1756305716
+ls
+#1756305719
+..
+#1756305720
+ls
+#1756305758
+nvim Makefile 
+#1756305788
+make
+#1756316932
+cdw
+#1756316934
+ls
+#1756316938
+rm stp
+#1756316940
+clear
+#1756316940
+ls
+#1756316960
+clone https://github.com/nemo256/asl_hd_db
+#1756316962
+clone https://github.com/nemo256/asl_hd
+#1756316966
+cd asl_hd/
+#1756316966
+ls
+#1756316971
+..
+#1756319819
+cdD
+#1756319820
+ls
+#1756319822
+cdd
+#1756319823
+ls
+#1756319825
+clear
+#1756319826
+l
+#1756319827
+ls
+#1756319828
+cd
+#1756319828
+ls
+#1756319835
+rm datamodeler.log*
+#1756319839
+cd APS/
+#1756319839
+ls
+#1756319844
+cd procedure/
+#1756319845
+ls
+#1756319847
+r
+#1756319849
+la
+#1756319850
+clear
+#1756319851
+ls
+#1756319885
+zathura procédure\ portant\ sur\ les\ aides\ annuelles\ aux\ familles\ d\'agents\ et\ retraités\ décédés\ a\ faible\ revenu.PDF 
+#1756321797
+ls
+#1756321799
+cdw
+#1756321800
+ls
+#1756321802
+cd aps-db/
+#1756321802
+ls
+#1756321805
+q
+#1756315296
+cdw
+#1756315297
+cd aps-db/
+#1756315304
+sxiv db.png 
+#1756315267
+cdw
+#1756315268
+cd aps-db/
+#1756315269
+ls
+#1756315292
+gca remove relations!
+#1756315313
+mocodo -i db.mcd --svg_to png
+#1756315316
+activate
+#1756315318
+mocodo -i db.mcd --svg_to png
+#1756317401
+ls
+#1756317407
+rm sandbox.mcd 
+#1756317408
+clear
+#1756317409
+ls
+#1756317418
+mocodo -i db.mcd --svg_to png
+#1756321790
+ls
+#1756321901
+mocodo -i db.mcd --svg_to png
+#1756324417
+gca update MCD relations!
+#1756325006
+mocodo -i db.mcd --svg_to png
+#1756331820
+gca MILESTONE - Add tables and associations
+#1756335640
+mocodo -i db.mcd --svg_to png
+#1756335667
+gca add personne attributes!
+#1756336739
+mocodo -i db.mcd --svg_to png
+#1756336752
+gca add agent attributes!
+#1756336819
+mocodo -i db.mcd --svg_to png
+#1756337067
+gca add type_agent, fonction and structure attributes!
+#1756337137
+mocodo -i db.mcd --svg_to png
+#1756337149
+gca add employeur attributes!
+#1756337425
+gca update personne table!
+#1756337429
+mocodo -i db.mcd --svg_to png
+#1756337432
+gca update personne table!
+#1756337549
+mocodo -i db.mcd --svg_to png
+#1756337598
+gca update ayant_droit and type_relation attributes!
+#1756337600
+mocodo -i db.mcd --svg_to png
+#1756337602
+gca update ayant_droit and type_relation attributes!
+#1756338022
+mocodo -i db.mcd --svg_to png
+#1756338036
+gca add retraite attributes and updated personne!
+#1756338252
+mocodo -i db.mcd --svg_to png
+#1756338262
+gca add participation attributes!
+#1756338292
+mocodo -i db.mcd --svg_to png
+#1756338637
+gca add participation attributes!
+#1756341908
+git pull
+#1756341932
+git pull master
+#1756341946
+git pull origin/master master
+#1756341967
+git branch --set-upstream-to=origin/master master
+#1756341973
+git pull
+#1756341978
+mocodo -i db.mcd --svg_to png
+#1756344192
+git pull
+#1756344199
+mocodo -i db.mcd --svg_to png
+#1756344764
+gca fix some associations!
+#1756315272
+cdw
+#1756315273
+cd aps-db/
+#1756315277
+nvim db.mcd
+#1756368886
+lsblk
+#1756368895
+sudo mount /dev/sdc1 /mnt
+#1756368908
+lsblk
+#1756368926
+sudo mount /dev/sdc1 /mnt
+#1756368930
+cd /mnt
+#1756368931
+ls
+#1756368939
+exit
+#1756370070
+mocodo -i db.mcd --svg_to png
+#1756370073
+cdw
+#1756370074
+cd aps-db/
+#1756370076
+activate
+#1756370078
+mocodo -i db.mcd --svg_to png
+#1756370258
+gca fix typo!
+#1756364997
+cdw
+#1756364998
+cd aps
+#1756365002
+cd aps-db/
+#1756365003
+ls
+#1756365011
+sxiv db.png
+#1756369248
+sxiv db.svg 
+#1756370027
+cdw
+#1756370029
+cd aps-db/
+#1756370034
+nvim db.mcd
+#1756370375
+cdw
+#1756370378
+cd aps-db/
+#1756370378
+ls
+#1756370380
+activate
+#1756370383
+ls
+#1756370384
+clear
+#1756370384
+ls
+#1756489743
+cdw
+#1756489744
+cd aps-db/
+#1756489747
+sxiv db.svg 
+#1756632187
+cdw
+#1756632188
+cd aps-db/
+#1756632195
+sxiv db.svg 
+#1756632173
+cdw
+#1756632175
+cd aps-db/
+#1756632175
+ls
+#1756632183
+nvim db.mcd
+#1756632164
+cdw
+#1756632165
+cd aps-db/
+#1756632166
+ls
+#1756632170
+gst
+#1756632522
+activate
+#1756632525
+mocodo -i db.mcd --svg_to png
+#1756633163
+gca add user relations!
+#1756633677
+mocodo -i db.mcd --svg_to png
+#1756635187
+gca add more relations and fix some typos!
+#1756635194
+mocodo -i db.mcd --svg_to png
+#1756635196
+gca add more relations and fix some typosparu -R oracle-datamodeler
+#1756643337
+cd
+#1756643338
+gst
+#1756643339
+cdw
+#1756643340
+cd apa
+#1756643342
+cd aps-db/
+#1756643342
+ls
+#1756643344
+gst\
+#1756643346
+gst
+#1756643348
+clear
+#1756643348
+gst
+#1756643766
+mocodo -i db.mcd --svg_to png
+#1756643867
+gca add relation names and fix some cardinalities!
+#1756644684
+mocodo -i db.mcd --svg_to png
+#1756645443
+gca add evenement table informations!
+#1756645592
+mocodo -i db.mcd --svg_to png
+#1756645600
+gca update some relation names!
+#1756649084
+mocodo -i db.mcd --svg_to png
+#1756651702
+gca update keys
+#1756711682
+cdw
+#1756711684
+cd aps
+#1756711687
+cd aps-db/
+#1756711687
+ls
+#1756711691
+cdw
+#1756711692
+cd aps-db/
+#1756711692
+ls
+#1756711695
+nvim db.mcd
+#1756711706
+cdw
+#1756711708
+cd aps-db/
+#1756711715
+sxiv db.svg 
+#1756823615
+cdw
+#1756823616
+q
+#1756823621
+ls
+#1756823624
+cdw
+#1756823628
+ls
+#1756823631
+cd aps-db/
+#1756823631
+ls
+#1756823633
+gst
+#1756823870
+activate
+#1756823872
+clear
+#1756823872
+ls
+#1756823894
+mocodo -i db.mcd --svg_to png
+#1756824021
+gst
+#1756824039
+gca add medecin entity with its attributes!
+#1756824099
+gst
+#1756823645
+cdw
+#1756823647
+cd aps-db/
+#1756823657
+v db.mcd
+#1756823675
+cdw
+#1756823677
+cd aps-db/
+#1756823678
+ls
+#1756823695
+sxiv db.svg
+#1757176145
+cdw
+#1757176146
+cd aps
+#1757176148
+cd aps-db/
+#1757176149
+ls
+#1757176150
+gst
+#1757176151
+activate
+#1757176152
+ls
+#1757176154
+gst
+#1757176155
+ls
+#1757177890
+..
+#1757177893
+deactivate
+#1757177894
+q
+#1757177895
+cdw
+#1757177896
+ls
+#1757177897
+cd asl_hd/
+#1757177898
+ls
+#1757177899
+..
+#1757177901
+rm asl_hd/
+#1757177902
+clear
+#1757177903
+ls
+#1757177905
+clear
+#1757177906
+q
+#1757541330
+clear
+#1757541330
+q
+#1757541423
+clear
+#1757541423
+q
+#1757541435
+clear
+#1757541436
+q
+#1757541437
+cdw
+#1757541439
+cdD
+#1757541439
+ls
+#1757541441
+cd
+#1757541443
+cdd
+#1757541443
+ls
+#1757541444
+clear
+#1757541444
+q
+#1757541445
+cdd
+#1757541445
+ls
+#1757541448
+cdD
+#1757541448
+ls
+#1757541449
+clear
+#1757541449
+ls
+#1757541452
+la
+#1757541453
+clear
+#1757541454
+la
+#1757541455
+ls
+#1757541456
+clear
+#1757541457
+ls
+#1757541459
+cat dev.md 
+#1757541462
+clear
+#1757541462
+ls
+#1757541465
+cat github-recovery-codes.txt 
+#1757541468
+ls
+#1757541474
+cd personal-stuff/
+#1757541475
+ls
+#1757541486
+zathura Passport.pdf 
+#1757541500
+zathura Residency.pdf 
+#1757541510
+zathura ID.pdf 
+#1757541516
+clear
+#1757541516
+q
+#1757541518
+cdw
+#1757541519
+ls
+#1757541521
+cd aps-db/
+#1757541522
+ls
+#1757541523
+clear
+#1757541523
+q
+#1757541427
+cdw
+#1757541428
+cd aps-db/
+#1757541429
+ls
+#1757541432
+nvim db.mcd
+#1757541795
+cdw
+#1757541796
+cd aps-db/
+#1757541797
+ls
+#1757541798
+gst
+#1757541800
+gst -u
+#1757541803
+clear
+#1757541803
+q
+#1758525584
+clear
+#1758525584
+q

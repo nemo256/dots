@@ -85,30 +85,123 @@ vim.opt.encoding = "UTF-8"
 -- Cursor settings
 vim.opt.guicursor = "n-v-c:block,i-ci-ve:block,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
 
+-- Custom UI functions
+local function buffer_select()
+  local bufs = {}
+  for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+    if vim.fn.buflisted(buf) == 1 then
+      local name = vim.api.nvim_buf_get_name(buf)
+      if name == "" then
+        name = "[No Name]"
+      else
+        name = vim.fn.fnamemodify(name, ":t")
+      end
+      table.insert(bufs, { buf = buf, name = name })
+    end
+  end
+  if #bufs == 0 then
+    print("No buffers available")
+    return
+  end
+  local lines = {}
+  local max_len = 0
+  for _, item in ipairs(bufs) do
+    local line = string.format("%d: %s", item.buf, item.name)
+    table.insert(lines, line)
+    max_len = math.max(max_len, #line)
+  end
+  local height = math.min(#lines, math.floor(vim.o.lines * 0.6))
+  local width = math.min(max_len + 4, math.floor(vim.o.columns * 0.8))
+  local buf = vim.api.nvim_create_buf(false, true)
+  vim.api.nvim_buf_set_lines(buf, 0, -1, false, lines)
+  vim.api.nvim_buf_set_option(buf, "modifiable", false)
+  vim.api.nvim_buf_set_option(buf, "bufhidden", "wipe")
+  local opts = {
+    relative = "editor",
+    width = width,
+    height = height,
+    col = (vim.o.columns - width) / 2,
+    row = (vim.o.lines - height) / 2 - 1,
+    style = "minimal",
+    border = "single",
+    title = " 📋 ",
+    title_pos = "center",
+  }
+  local win = vim.api.nvim_open_win(buf, true, opts)
+  vim.api.nvim_buf_set_keymap(buf, "n", "<CR>", "", {
+    noremap = true,
+    silent = true,
+    callback = function()
+      local ln = vim.api.nvim_win_get_cursor(win)[1]
+      local choice = bufs[ln]
+      vim.api.nvim_win_close(win, true)
+      if choice then
+        vim.api.nvim_set_current_buf(choice.buf)
+      end
+    end,
+  })
+  vim.api.nvim_buf_set_keymap(buf, "n", "<Esc>", "", {
+    noremap = true,
+    silent = true,
+    callback = function()
+      vim.api.nvim_win_close(win, true)
+    end,
+  })
+end
+
+local function custom_command()
+  local prompt = " "
+  local buf = vim.api.nvim_create_buf(false, true)
+  vim.api.nvim_buf_set_lines(buf, 0, -1, false, {prompt})
+  local width = 80
+  local height = 1
+  local opts = {
+    relative = "editor",
+    width = width,
+    height = height,
+    col = (vim.o.columns - width) / 2,
+    row = (vim.o.lines - height) / 2,
+    style = "minimal",
+    border = "single",
+    title = " 󰘳  ",
+    title_pos = "center",
+  }
+  local win = vim.api.nvim_open_win(buf, true, opts)
+  vim.api.nvim_win_set_cursor(win, {1, #prompt + 1})
+  vim.cmd("startinsert!")
+  vim.api.nvim_buf_set_keymap(buf, "i", "<CR>", "<Esc>", { noremap = true, silent = true })
+  vim.api.nvim_create_autocmd("InsertLeave", {
+    buffer = buf,
+    once = true,
+    callback = function()
+      local input = vim.api.nvim_buf_get_lines(buf, 0, 1, false)[1] or ""
+      input = input:sub(#prompt + 1):gsub("^%s+", "")
+      vim.api.nvim_win_close(win, true)
+      if input ~= "" then
+        pcall(vim.cmd, input)
+      end
+    end,
+  })
+  vim.api.nvim_create_autocmd("BufLeave", {
+    buffer = buf,
+    once = true,
+    callback = function()
+      vim.api.nvim_win_close(win, true)
+    end,
+  })
+end
+
 -- Keybindings
--- Manage sessions
 vim.keymap.set("n", "<C-S-s>", ":mksession! ~/.config/nvim/_root_.vim<CR>")
 vim.keymap.set("n", "<C-S-d>", ":!rm ~/.config/nvim/_root_.vim<CR>")
 vim.keymap.set("n", "<C-S-l>", ":source ~/.config/nvim/_root_.vim<CR>")
-
--- Substitute a word
 vim.keymap.set("n", "<C-s>", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "<C-x>", "<cmd>!chmod +x %<CR>", { silent = true })
-
--- Compile and run C code
 vim.keymap.set("n", "<C-S-c>", ":w<CR>:! clear && cc %:p -o %:p:r -lm<CR>", { silent = true })
 vim.keymap.set("n", "<C-S-r>", "<cmd>! %:p:r<cr>", { silent = true })
-
--- Compile LaTeX
 vim.keymap.set("n", "<C-p>", ":w<CR>:! clear && pdflatex -output-directory %:p:h %:p<CR>", { silent = true })
-
--- Compile BibTeX
 vim.keymap.set("n", "<C-S-b>", ":w<cr>:!clear && cd %:p:h && bibtex %:t:r<cr>", { silent = true })
-
--- Open pdfs
 vim.keymap.set("n", "<C-S-p>", "<cmd>! zathura $(echo % | sed 's/tex$/pdf/') & disown<CR><CR>", { silent = true })
-
--- Navigation
 vim.keymap.set("n", "n", "nzzzv", { desc = "Next search result (centered)" })
 vim.keymap.set("n", "N", "Nzzzv", { desc = "Previous search result (centered)" })
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { desc = "Half page down (centered)" })
@@ -133,3 +226,5 @@ vim.keymap.set("n", "<C-t>", function()
   end
 end, { noremap = true, silent = true, desc = "Toggle file explorer" })
 vim.keymap.set({"n", "v"}, "<C-c>", '"+y', { noremap = true, silent = true, desc = "Copy to system clipboard" })
+vim.keymap.set("n", "<C-b>", buffer_select, { noremap = true, silent = true, desc = "Select buffer" })
+vim.keymap.set({ "n", "v" }, ":", custom_command, { noremap = true, silent = true, desc = "Custom command input" })
