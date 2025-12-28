@@ -46,7 +46,7 @@ xset s off &
 # xss-lock -n "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'" -- slock &
 
 # Starting slstatus
-slstatus &
+# slstatus &
 
 # Disabling my pointer
 xinput set-prop 11 "Device Enabled" 0
