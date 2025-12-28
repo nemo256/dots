@@ -134248,3 +134248,7 @@ rem paru
 paru -R paru
 #1766910123
 q
+#1766910301
+nvim .git-credentials 
+#1766910377
+q
