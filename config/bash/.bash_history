@@ -134252,3 +134252,221 @@ q
 nvim .git-credentials 
 #1766910377
 q
+#1766910175
+xrc
+#1766910192
+cd dots/
+#1766910193
+gst
+#1766910204
+gca update xinitrc - remove slstatus
+#1766910220
+cd ..
+#1766910228
+nvim .git-credentials 
+#1766910234
+nvim .git-credentials
+#1766910239
+cd dots
+#1766910244
+nvim dots 
+#1766910411
+gca update xinitrc - remove slstatus
+#1766910414
+q
+#1766910423
+cd dots
+#1766910426
+nvim dots 
+#1766910436
+cdw
+#1766910436
+ls
+#1766910437
+cd
+#1766910439
+ls
+#1766910440
+clear
+#1766910440
+q
+#1766910445
+qq
+#1766910445
+q
+#1766910446
+ls
+#1766910481
+sudo nvim /etc/grub.d/README 
+#1766910496
+sudo nvim /etc/default/grub 
+#1766910662
+udo update-grub
+#1766910663
+q
+#1766910669
+sudo update-grub
+#1766910671
+clear
+#1766910678
+hrc
+#1766910679
+q
+#1766910688
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+#1766910689
+q
+#1766910170
+startx
+#1766910725
+ins mpd
+#1766910739
+cd .build/
+#1766910740
+ls
+#1766910757
+ins ly
+#1766910761
+q
+#1766910827
+enable 
+#1766910841
+sudo systemctl start ly
+#1766910866
+ins brightnessctl
+#1766910894
+sudo systemctl start ly@tty1
+#1766910955
+sudo systemctl enable ly@tty1
+#1766910961
+exit
+#1766911086
+q
+#1766912439
+ls
+#1766912440
+q
+#1766913310
+ls
+#1766913334
+q
+#1766918621
+ls
+#1766918622
+q
+#1766922760
+cdd
+#1766922760
+ls
+#1766922761
+cd
+#1766922762
+lks
+#1766922763
+ls
+#1766922814
+clear
+#1766922814
+q
+#1766922815
+cdd
+#1766922816
+ls
+#1766922863
+tar xvf Bibata-Modern-Classic.tar.xz -C ~/.local/share/icons
+#1766922971
+sudo tar xvf Bibata-Modern-Classic.tar.xz -C /usr/share/icons/
+#1766922989
+ls
+#1766922990
+cdd
+#1766922990
+ls
+#1766922992
+rm Bibata-Modern-Classic.tar.xz 
+#1766922993
+ls
+#1766922993
+clear
+#1766922994
+q
+#1766924003
+clear
+#1766924003
+q
+#1766924006
+ls
+#1766924007
+q
+#1766924015
+bleutoothctl
+#1766924016
+q
+#1766924596
+git clone https://github.com/nemo256/dots
+#1766924603
+clone https://github.com/nemo256/dox
+#1766925034
+rm dox
+#1766925036
+ls
+#1766925039
+clone https://github.com/nemo256/dox
+#1766925271
+cdD
+#1766925273
+ls
+#1766925280
+nvim links 
+#1766925287
+nvim portfolio.md 
+#1766925311
+nnvim dev.md 
+#1766925316
+nvim dev.md 
+#1766925318
+q
+#1766925320
+ls
+#1766925323
+clear
+#1766925323
+q
+#1766925417
+ls
+#1766925419
+cdv
+#1766925419
+ls
+#1766925422
+cdw
+#1766925423
+ls
+#1766925424
+cd
+#1766925425
+cdd
+#1766925425
+ls
+#1766925427
+q
+#1766995756
+ls
+#1766995758
+cdd
+#1766995758
+ls
+#1766995765
+nvim .bash_his
+#1766995767
+cd
+#1766995769
+nvim .bash_history 
+#1766995779
+q
+#1766995803
+ls
+#1766995805
+cdw
+#1766995815
+q
