@@ -14,3 +14,5 @@ if [[ "$(tty)" = "/dev/tty1" ]]; then
   # startx -- -nocursor
   startx
 fi
+
+. "$HOME/.local/bin/env"

@@ -134516,3 +134516,2607 @@ cdw
 ls
 #1767086146
 q
+#1767090024
+cd dots/
+#1767090024
+ls
+#1767090027
+nvim packages 
+#1767090058
+gst
+#1767090063
+gca add pnpm and remove yarn!
+#1767090090
+q
+#1767090036
+ins pnpm
+#1767090094
+q
+#1767090121
+search vite
+#1767090130
+pacman -S vite
+#1767090138
+ins vite
+#1767090140
+q
+#1767090360
+cdD
+#1767090361
+ls
+#1767090364
+v otaku.md 
+#1767090372
+v interview.md 
+#1767090380
+v logo-prompt.md 
+#1767090457
+v portfolio.md 
+#1767090461
+v TODO.md 
+#1767090508
+ls
+#1767090508
+q
+#1767090555
+ls
+#1767090556
+cdw
+#1767090558
+ls
+#1767090564
+new portfolio
+#1767090579
+cd portfolio/
+#1767090580
+ls
+#1767090583
+nvim AUTHORS 
+#1767090595
+gca update AUTHORS!
+#1767090731
+cdw
+#1767090732
+cd portfolio/
+#1767090733
+ls
+#1767090787
+q
+#1767090808
+v .config/nvim/init.lua 
+#1767095378
+cdw
+#1767095380
+cd portfolio/
+#1767095381
+ls
+#1767095386
+v README.md 
+#1767095952
+cd .build/
+#1767095952
+ls
+#1767095957
+cd tily/
+#1767095957
+ls
+#1767095959
+nvim config.
+#1767095962
+nvim config.h
+#1767095981
+sudo make clean install
+#1767095984
+gst
+#1767095989
+gca update localhost link!
+#1767096094
+..
+#1767096096
+cdw
+#1767096097
+cd portfolio/
+#1767096100
+q
+#1767095851
+cdw
+#1767095853
+cd portfolio/
+#1767095854
+;s
+#1767095855
+ls
+#1767095856
+cd src/
+#1767095857
+ls
+#1767095866
+rm App.css 
+#1767095867
+clea
+#1767095868
+clear
+#1767096102
+ls
+#1767096103
+clear
+#1767096104
+..
+#1767096105
+ls
+#1767096106
+gst
+#1767096110
+gst -u
+#1767096127
+gca update initial portfolio boilerplate
+#1767096222
+q
+#1767095431
+cdw
+#1767095432
+cd portfolio/
+#1767095433
+ls
+#1767095436
+v README.md 
+#1767095463
+v AUTHORS 
+#1767095482
+v LICENSE 
+#1767095507
+v AUTHORS 
+#1767095520
+gca update boilerplate code!
+#1767095572
+pnpm create vite@latest . -- --template react
+#1767095653
+cdw
+#1767095654
+cd portfolio/
+#1767095655
+v
+#1767096490
+cdw
+#1767096491
+cd portfolio/
+#1767096491
+ls
+#1767096493
+v
+#1767096227
+cdw
+#1767096228
+cd portfolio/
+#1767096229
+ls
+#1767096238
+pnpm start
+#1767096244
+v package.json 
+#1767096252
+pnpm dev
+#1767096518
+clear
+#1767096519
+q
+#1767096522
+cdw
+#1767096522
+ls
+#1767096523
+clear
+#1767096523
+q
+#1767174285
+clear
+#1767174285
+q
+#1767175135
+cdw
+#1767175138
+git clone https://github.com/nemo256/hotel
+#1767175145
+cd hotel/
+#1767175152
+pnpm install
+#1767175238
+..
+#1767175240
+rm hotel/
+#1767175241
+ls
+#1767175242
+q
+#1767513324
+clear
+#1767513324
+q
+#1768468869
+bleutoothctl
+#1768468870
+q
+#1771231015
+lsblk
+#1771231043
+clear
+#1771231044
+q
+#1771231046
+lsblk
+#1771231069
+q
+#1771231071
+lsblk
+#1771672627
+cdD
+#1771672628
+ls
+#1771672642
+cd
+#1771672643
+ls
+#1771672644
+la
+#1771672648
+cdD
+#1771672648
+ls
+#1771672653
+nvim prompt.md
+#1771673186
+htop
+#1771673188
+top
+#1771685114
+curl -L code.kimi.com/install.sh | bash
+#1771685126
+ins uv
+#1771688282
+cdw
+#1771688283
+ls
+#1771688284
+cd ASL/
+#1771688284
+ls
+#1771688289
+nvim index.html.old
+#1771688399
+q
+#1771688902
+cdw
+#1771688904
+cd ASL/
+#1771688915
+python3 -m http.server --bind 0.0.0.0 3000
+#1771691353
+ls
+#1771691364
+cd ..
+#1771691364
+ls
+#1771691369
+new asl
+#1771691374
+r
+#1771691375
+ls
+#1771691394
+cp ASL/index.html ASL/SONATRACH.png asl/
+#1771691394
+ls
+#1771691397
+ls asl
+#1771691400
+cd asl
+#1771691400
+ls
+#1771691409
+nvim README.md 
+#1771691441
+ls
+#1771691444
+nvim AUTHORS 
+#1771691477
+ls
+#1771691487
+clear
+#1771691488
+ls
+#1771691493
+nvim LICENSE 
+#1771691527
+gca ADD ASL WEBSITE
+#1771673633
+cdD
+#1771673670
+cdw
+#1771673671
+ls
+#1771673678
+mkdir ASL
+#1771673679
+cd ASL
+#1771673683
+nvim index.html
+#1771673696
+php -S localhost:3000
+#1771673700
+ins php
+#1771673733
+arem
+#1771673735
+php
+#1771673737
+python
+#1771673788
+python3 -m http.server --bind 0.0.0.0 3000
+#1771675900
+mv index.html index.html.old
+#1771675907
+nvim index.html
+#1771675914
+python3 -m http.server --bind 0.0.0.0 3000
+#1771675961
+ls
+#1771675966
+python3 -m http.server --bind 0.0.0.0 3000
+#1771676133
+mv index.html index.html.new
+#1771676140
+mv index.html.old index.html
+#1771676143
+python3 -m http.server --bind 0.0.0.0 3000
+#1771677834
+mv index.html index.html.old
+#1771677839
+nvim index.html.new 
+#1771677857
+mv index.html.new index.html
+#1771677861
+python3 -m http.server --bind 0.0.0.0 3000
+#1771680216
+ls
+#1771680230
+mv index.html index.html.new
+#1771680235
+nvim index.html
+#1771680243
+python3 -m http.server --bind 0.0.0.0 3000
+#1771680292
+cp ../../dl/SONATRACH.png ./
+#1771680297
+python3 -m http.server --bind 0.0.0.0 3000
+#1771683205
+ls
+#1771683224
+mv index.html index.html.old1
+#1771683230
+nvim index.html9;5u
+#1771683241
+mv index.html index.html.old1
+#1771683247
+ls
+#1771683261
+mv index.html.old1 index.html
+#1771683264
+python3 -m http.server --bind 0.0.0.0 3000
+#1771685624
+nvim index.html
+#1771688125
+ls
+#1771688143
+mv index.html index.html.new1
+#1771688147
+nvim index.html
+#1771688153
+python3 -m http.server --bind 0.0.0.0 3000
+#1771688403
+nvim index.html
+#1771689086
+nvim index.html.old 
+#1771689153
+ls
+#1771689157
+sxiv SONATRACH.png 
+#1771689179
+nvim index.html
+#1771709129
+ls
+#1771709130
+cdw
+#1771709130
+ls
+#1771709134
+q
+#1771754289
+top
+#1771762063
+cdw
+#1771762065
+cd asl
+#1771762065
+ls
+#1771762068
+cd ..
+#1771762071
+cd ASL
+#1771762071
+ls
+#1771762076
+python3 -m http.server --bind 0.0.0.0 3000
+#1771765799
+clear
+#1771765799
+q
+#1771766529
+cdw
+#1771766533
+cd ASL
+#1771766857
+gst
+#1771766860
+cd ..
+#1771766860
+ls
+#1771766868
+cd ASL
+#1771766879
+python3 -m http.server --bind 0.0.0.0 3000
+#1771767153
+clear
+#1771767155
+ls
+#1771767181
+cd ..
+#1771767182
+ls
+#1771767183
+cd asl
+#1771767185
+ls
+#1771767186
+c
+#1771767188
+ls
+#1771767466
+gst
+#1771767495
+gs
+#1771767506
+gst
+#1771767512
+gd
+#1771767537
+ls
+#1771767538
+clear
+#1771768138
+ls
+#1771768140
+gst
+#1771768153
+gca remove mot de directeur
+#1771768167
+python3 -m http.server --bind 0.0.0.0 3000
+#1771752458
+cdw
+#1771752461
+cd ASL
+#1771752461
+ls
+#1771752478
+mv index.html index.html.bak
+#1771752493
+ls
+#1771752525
+mv index.html.old index.html
+#1771752526
+c
+#1771752531
+python3 -m http.server --bind 0.0.0.0 3000
+#1771752716
+mv index.html index.html.old
+#1771752720
+nvim index.html
+#1771752727
+python3 -m http.server --bind 0.0.0.0 3000
+#1771755575
+nvim index.html
+#1771755586
+python3 -m http.server --bind 0.0.0.0 3000
+#1771755628
+vim index.html
+#1771755636
+python3 -m http.server --bind 0.0.0.0 3000
+#1771755698
+rm index.html
+#1771755701
+nvim index.html.
+#1771755705
+nvim index.html
+#1771755711
+python3 -m http.server --bind 0.0.0.0 3000
+#1771758484
+nvim index.html
+#1771763669
+ls
+#1771763672
+nvim inde
+#1771763678
+nmvi index.html
+#1771763682
+nvim index.html
+#1771765800
+ls
+#1771765804
+cd ..
+#1771765805
+ls
+#1771765806
+cd asl
+#1771765806
+ls
+#1771765809
+rm index.html 
+#1771765816
+cp ../ASL/index.html ./
+#1771765816
+ls
+#1771765818
+gst
+#1771765835
+gca add mot de directeur and calendar!
+#1771766509
+nvim index.html 
+#1771767011
+cd ..
+#1771767014
+cd ASL
+#1771767019
+nvim index.html
+#1771833932
+cdw
+#1771833933
+cd ASL
+#1771833936
+python3 -m http.server --bind 0.0.0.0 3000\
+#1771833939
+python3 -m http.server --bind 0.0.0.0 3000
+#1771834223
+cd ..
+#1771834225
+cd asl
+#1771834228
+nvim index.html 
+#1771834244
+gca update background colors - remove dark blue!
+#1771833911
+cdw
+#1771833914
+cd ASL
+#1771833916
+nvim index.html
+#1771837118
+cdw
+#1771837121
+cd ASL
+#1771837121
+ls
+#1771837126
+python3 -m http.server --bind 0.0.0.0 3000
+#1771837170
+cd ..
+#1771837173
+rm ASL
+#1771837174
+ls
+#1771837176
+cd asl
+#1771837179
+python3 -m http.server --bind 0.0.0.0 3000
+#1771837238
+nvim index.html 
+#1771838219
+python3 -m http.server --bind 0.0.0.0 3000
+#1771839181
+clear
+#1771839181
+q
+#1771837244
+cdw
+#1771837252
+cd asl
+#1771837253
+ls
+#1771837257
+python3 -m http.server --bind 0.0.0.0 3000
+#1771838009
+nvim index.html 
+#1771838013
+gst
+#1771838020
+nvim index.html 
+#1771839183
+gst
+#1771839200
+gca update background colors to a darker color!
+#1771844677
+nvim index.html 
+#1771844687
+cdw
+#1771844688
+cd asl/
+#1771844688
+ls
+#1771844692
+python3 -m http.server --bind 0.0.0.0 3000
+#1771844777
+gst
+#1771844784
+nvim index.html 
+#1771844813
+gst
+#1771844816
+gd
+#1771844821
+grh
+#1771844822
+gst
+#1771844792
+cdw
+#1771844793
+cd asl
+#1771844796
+python3 -m http.server --bind 0.0.0.0 3000
+#1772011247
+cd .build/tily/
+#1772011248
+ls
+#1772011249
+nvim config.h
+#1772011270
+sudo make
+#1772011276
+sudo make clean install
+#1772011278
+ls
+#1772011279
+clear
+#1772011279
+ls
+#1772011296
+gca update chatgpt key binding!
+#1772011299
+gst
+#1772018252
+cdw
+#1772018253
+cd portfolio
+#1772018254
+ls
+#1772018256
+cd src/
+#1772018257
+ls
+#1772018393
+mkdir components
+#1772011441
+cdD
+#1772011441
+;s
+#1772011442
+ls
+#1772011446
+nvim links 
+#1772011450
+clear
+#1772011451
+ls
+#1772011454
+nvim portfolio.md 
+#1772014068
+cdw
+#1772014085
+git clone https://github.com/nemo256/portfolio
+#1772014093
+git clone https://github.com/nemo256/
+#1772014136
+git clone https://github.com/nemo256/nemo256
+#1772014139
+cd nemo256/
+#1772014140
+gst
+#1772014142
+ls
+#1772014153
+cd ..
+#1772014155
+rm nemo256/
+#1772014168
+ls
+#1772014185
+clone https://github.com/nemo256/portfolio
+#1772014188
+ls\
+#1772014190
+ls
+#1772014192
+cd portfolio/
+#1772014193
+ls
+#1772014202
+cd public/
+#1772014203
+ls
+#1772014205
+cd ..
+#1772014205
+ls
+#1772014207
+cd src/
+#1772014207
+ls
+#1772014209
+cd assets/
+#1772014209
+ls
+#1772014215
+clear
+#1772014216
+ls
+#1772014216
+..
+#1772014217
+ls
+#1772014226
+cd public/
+#1772014227
+ls
+#1772014231
+sxiv vite.svg 
+#1772014233
+cd ..
+#1772014234
+;s
+#1772014237
+cd src/assets/
+#1772014237
+ls
+#1772014241
+sxiv react.svg 
+#1772014254
+cd ..
+#1772014257
+ls
+#1772014263
+nvim index.css 
+#1772014265
+..
+#1772014267
+clear
+#1772014267
+ls
+#1772014341
+cd ..
+#1772014342
+ls
+#1772014346
+rm portfolio/
+#1772014366
+clone https://github.com/nemo256/portfolio.old
+#1772014377
+cd portfolio.old/
+#1772014378
+ls
+#1772014386
+cd public/
+#1772014387
+ls
+#1772014395
+sxiv me.jpg 
+#1772014403
+sxic me2.jpeg 
+#1772014408
+sxiv me2.jpeg 
+#1772014413
+sxiv memoji.png 
+#1772017563
+..
+#1772017563
+ls
+#1772017564
+..
+#1772017565
+ls
+#1772017567
+..
+#1772017568
+cdd
+#1772017568
+ls
+#1772017578
+cp files.zip ../work/
+#1772017579
+cdw
+#1772017580
+ls
+#1772017586
+clone https://github.com/nemo256/portfolio
+#1772017599
+mv files.zip portfolio
+#1772017601
+cd portfolio
+#1772017602
+ls
+#1772017613
+pnpm
+#1772017615
+ls
+#1772017623
+mkdir TEMP
+#1772017627
+mv files.zip TEMP/
+#1772017630
+cd TEMP/
+#1772017633
+unzip files.zip 
+#1772017636
+clear
+#1772017636
+ls
+#1772017713
+rm files.zip 
+#1772017714
+ls
+#1772018021
+cp ../../portfolio.old/public/memoji.png ../public/
+#1772018024
+ls ../public/
+#1772018400
+mv ParticleBackground.jsx LoadingScreen.jsx TopNav.jsx HomeScreen.jsx ProjectsView.jsx ProjectDetail.jsx Carousel.jsx ../src/components/
+#1772018401
+ls
+#1772020003
+mv projects.js ../src/data/
+#1772020005
+ls
+#1772020006
+clear
+#1772020006
+ls
+#1772020063
+mv global.css ../src/styles/
+#1772020065
+ls
+#1772020067
+cleear
+#1772020068
+clear
+#1772020068
+ls
+#1772020091
+mv index.html ../
+#1772020091
+ls
+#1772020104
+mv App.jsx ../
+#1772020105
+ls
+#1772020128
+mv vite.config.js package.json ../
+#1772020129
+ls
+#1772020130
+clear
+#1772020131
+ls
+#1772020139
+nvim README.md 
+#1772020147
+rm README.md 
+#1772020148
+ls
+#1772020149
+cd ..
+#1772020153
+ls
+#1772020166
+pnpm install
+#1772020190
+pnpm dev
+#1772020244
+q
+#1772018410
+cdw
+#1772018411
+cd portfolio
+#1772018412
+ls
+#1772018804
+cd src/
+#1772018804
+ls
+#1772018811
+mkdir data
+#1772018814
+ls
+#1772018822
+mkdir styles
+#1772018824
+ls
+#1772019982
+rm App.jsx
+#1772020074
+..
+#1772020075
+ls
+#1772020080
+rm index.html 
+#1772020113
+rm package.json vite.config.js 
+#1772020205
+ls
+#1772020208
+cd src/
+#1772020208
+ls
+#1772020212
+rm main.jsx 
+#1772020242
+..
+#1772020255
+grh
+#1772020257
+clear
+#1772020258
+ls
+#1772020263
+cd TEMP/
+#1772020289
+cp ../../../dl/files.zip .
+#1772020294
+unzip files.zip 
+#1772020297
+rm files.zip 
+#1772020297
+ls
+#1772020662
+cd ../src/
+#1772020664
+ls
+#1772020670
+ls components/
+#1772020672
+q
+#1772020718
+cdw
+#1772020720
+cd portfolio
+#1772020720
+ls
+#1772020735
+cd src/
+#1772020735
+ls
+#1772020771
+..
+#1772020773
+grh
+#1772020775
+ls
+#1772020790
+nvim App.jsx 
+#1772020800
+rm src/App.jsx 
+#1772020806
+mv App.jsx src/
+#1772020820
+ls
+#1772020825
+cd src/
+#1772020826
+nvim App.jsx 
+#1772020835
+ls
+#1772020839
+cd components/
+#1772020840
+ls
+#1772020897
+cd ..
+#1772020897
+ls
+#1772020900
+cd styles/
+#1772020900
+ls
+#1772020943
+nvim app.css
+#1772020960
+cd ..
+#1772020968
+nvim components/ProjectsView.jsx 
+#1772021032
+cdd
+#1772021034
+ls
+#1772021038
+rm files.zip 
+#1772021043
+mv files\ \(1\).zip files.zip
+#1772021045
+ls
+#1772021048
+cdw
+#1772021051
+cd portfolio
+#1772021051
+ls
+#1772021054
+cd TEMP/
+#1772021054
+ls
+#1772021059
+rm *
+#1772021060
+ls
+#1772021064
+cd ..
+#1772021065
+grh
+#1772021082
+cp ../../dl/files.zip ./TEMP/
+#1772021082
+ls
+#1772021120
+clear
+#1772021120
+ls
+#1772021243
+clear
+#1772021244
+ls
+#1772021244
+c
+#1772021245
+ls
+#1772021253
+rm index.html 
+#1772021263
+rm package.json vite.config.js 
+#1772021264
+ls
+#1772021281
+cd temp
+#1772021284
+cd TEMP/
+#1772021284
+ls
+#1772021287
+unzip files.zip 
+#1772021290
+rm files.zip 
+#1772021290
+ls
+#1772021291
+clear
+#1772021291
+ls
+#1772021293
+..
+#1772021294
+ls
+#1772021317
+mv TEMP/index.html TEMP/package.json TEMP/vite.config.js .
+#1772021319
+clear
+#1772021319
+ls
+#1772021335
+ls public/
+#1772021346
+ls src
+#1772021346
+ls
+#1772021348
+clear
+#1772021348
+ls
+#1772021351
+ls src/
+#1772021364
+rm src/index.css 
+#1772021364
+ls
+#1772021390
+mv TEMP/App.jsx src/
+#1772021391
+ls
+#1772021400
+nvim src/App.jsx 
+#1772021425
+ls TEMP/
+#1772021488
+mv TEMP/Carousel.css TEMP/HomeScreen.css TEMP/LoadingScreen.css TEMP/ParticleBackground.css TEMP/ProjectDetail.css TEMP/ProjectsView.css TEMP/TopNav.css src/components/
+#1772021490
+ls temp[
+#1772021492
+ls TEMP/
+#1772021510
+nvim TEMP/main.jsx 
+#1772021518
+nvim src/main.jsx 
+#1772021526
+rm src/main.jsx 
+#1772021536
+mv TEMP/main.jsx src/
+#1772022410
+ls
+#1772022411
+cd src/
+#1772022412
+ls
+#1772022414
+cd components/
+#1772022415
+ls
+#1772022420
+nvim HomeScreen.css 
+#1772026098
+..
+#1772026100
+ls
+#1772026103
+gst
+#1772026118
+gca add foundation template!
+#1772026142
+gst
+#1772026762
+nvim package.json 
+#1772026774
+pnpm preview
+#1772020326
+cdw
+#1772020328
+cd portfolio
+#1772020330
+ls
+#1772020378
+rm App.jsx  index.html vite.config.js package.json 
+#1772020381
+ls
+#1772020635
+mv TEMP/App.jsx TEMP/index.html TEMP/vite.config.js TEMP/package.json .
+#1772020677
+cd src/components/
+#1772020677
+ls
+#1772020690
+gst
+#1772020699
+..
+#1772020704
+pnpm dev
+#1772027747
+scrot
+#1772027770
+cdb
+#1772027770
+ls
+#1772027784
+cat screenshot
+#1772027792
+scrot -b
+#1772027710
+cdw
+#1772027711
+cd portfolio
+#1772027713
+pnpm dev
+#1772097905
+cdD
+#1772097906
+ls
+#1772097908
+cd cv
+#1772097909
+ls
+#1772097919
+zathura web.pdf 
+#1772097982
+..
+#1772097984
+ls
+#1772101938
+q
+#1772102611
+top
+#1772110328
+cdD
+#1772110329
+ls
+#1772110332
+nvim portfolio.md 
+#1772110394
+q
+#1772090475
+cdw
+#1772090478
+cd portfolio
+#1772090478
+ls
+#1772090486
+pnpm dev
+#1772104380
+pnpm install
+#1772104392
+pnpm dev
+#1772104791
+pnpm preview
+#1772104805
+pnpm build
+#1772104812
+pnpm run
+#1772104820
+pnpm preview
+#1772105191
+pnpm dev
+#1772112266
+ls
+#1772112266
+q
+#1772101941
+cdw
+#1772101942
+cd portfolio
+#1772101943
+gst
+#1772101944
+ls
+#1772101947
+cd TEMP/
+#1772101948
+ls
+#1772102091
+nvim App.jsx
+#1772103957
+rm *
+#1772103957
+ls
+#1772103966
+cdd
+#1772103967
+ls
+#1772103971
+rm files.zip 
+#1772103977
+mv files\ \(1\).zip files.zip
+#1772104002
+mv files.zip ../work/portfolio/TEMP/
+#1772104008
+cdw
+#1772104011
+cd portfolio
+#1772104013
+clear
+#1772104016
+ls
+#1772104025
+cd TEMP/
+#1772104026
+ls
+#1772104029
+unzip files.zip 
+#1772104033
+rm files.zip 
+#1772104043
+ls ../
+#1772104086
+rm ../src/App.jsx 
+#1772104097
+cp App.jsx ../src/
+#1772104103
+ls
+#1772104109
+ls ../src/components/
+#1772104195
+rm ../src/components/Carousel.* ../src/components/HomeScreen.* ../src/components/TopNav.*
+#1772104243
+cp Carousel.css Carousel.jsx HomeScreen.css HomeScreen.jsx TopNav.css TopNav.jsx ../src/components/
+#1772104247
+ls
+#1772104262
+ls ../src/components/
+#1772104277
+rm ../src/components/ProjectDetail.*
+#1772104327
+cp ProjectDetail.css ProjectDetail.jsx ../src/components/
+#1772104330
+ls
+#1772104344
+rm ../src/styles/global.css 
+#1772104365
+cp global.css ../src/styles/
+#1772104410
+..
+#1772104410
+ls
+#1772104413
+cd src/
+#1772104413
+ls
+#1772104416
+nvim App.jsx 
+#1772104440
+cd ../TEMP/
+#1772104441
+ls
+#1772104453
+cp CursorEffect.css CursorEffect.jsx ../src/components/
+#1772105194
+..
+#1772105195
+ls
+#1772105199
+gst
+#1772105213
+gca update project section!
+#1772106532
+pnpm build
+#1772106536
+ls
+#1772107043
+pnpm install gh-pages --save-dev
+#1772107094
+nvim package.json 
+#1772107151
+pnpm deploy
+#1772107165
+pnpm run deploy
+#1772107683
+gst
+#1772107707
+ls
+#1772107711
+cd TEMP/
+#1772107712
+ls
+#1772107719
+rm *
+#1772107733
+mv ../../../dl/files.zip .
+#1772107736
+unzip files.zip 
+#1772107740
+ls
+#1772107766
+rm ../src/App.jsx ../src/styles/app.css 
+#1772107787
+mv app.css ../src/styles/
+#1772107797
+mv App.jsx ../src/
+#1772107799
+clear
+#1772107799
+ls
+#1772107812
+rm ../src/styles/global.css 
+#1772107817
+mv global.css ../src/styles/
+#1772107819
+clear
+#1772107819
+ls
+#1772107823
+rm files.zip 
+#1772107824
+clear
+#1772107824
+ls
+#1772107834
+rm ../index.html 
+#1772107838
+mv index.html ../
+#1772107840
+ls
+#1772107840
+clear
+#1772107841
+ls
+#1772107847
+cd ..
+#1772107849
+cd src/components/
+#1772107850
+ls
+#1772107882
+rm CursorEffect.* HomeScreen.* TopNav.*
+#1772107884
+cd ..
+#1772107887
+cd TEMP/
+#1772107888
+ls
+#1772107900
+mv * ../src/components/
+#1772107902
+ls
+#1772108094
+..
+#1772108113
+grh
+#1772108166
+alias grh
+#1772109588
+clear
+#1772109589
+ls
+#1772109625
+zip -r portfolio.zip *
+#1772109633
+ls
+#1772109636
+rm portfolio.zip 
+#1772109642
+rm dist node_modules/
+#1772109644
+ls
+#1772109769
+rm TEMP/
+#1772109777
+zip -r portfolio.zip *
+#1772110321
+clear
+#1772110321
+ls
+#1772110413
+mkdir TMP
+#1772110425
+mv ../../dl/files.zip ./TMP/
+#1772110427
+cd TMP/
+#1772110427
+ls
+#1772110429
+unzip files.zip 
+#1772110431
+clear
+#1772110432
+ls
+#1772110436
+rm files.zip 
+#1772110437
+ls
+#1772110437
+clear
+#1772110438
+ls
+#1772110450
+ls ../src/components/
+#1772110477
+..
+#1772110478
+lks
+#1772110479
+ls
+#1772110484
+cd src/
+#1772110484
+ls
+#1772110487
+cd data/
+#1772110487
+ls
+#1772110489
+..
+#1772110491
+cd TMP/
+#1772110524
+ls
+#1772110574
+rm ../src/components/ProjectDetail.* ../src/components/ProjectsView.* ../src/components/TopNav.*
+#1772110600
+mv ProjectDetail.* ProjectsView.* TopNav.* ../src/components/
+#1772110601
+ls
+#1772110610
+rm ../src/data/projects.js 
+#1772110614
+mv projects.js ../src/data/
+#1772110616
+clear
+#1772110619
+ls
+#1772111189
+..
+#1772111196
+nvim
+#1772111385
+ls
+#1772111418
+mv ../../dl/files.zip TMP/
+#1772111420
+cd TMP/
+#1772111422
+gst
+#1772111424
+ls
+#1772111431
+cd ..
+#1772111432
+ls
+#1772111442
+nvim .gitignore 
+#1772111452
+gst
+#1772111458
+gca update project items!
+#1772111475
+cd TMP/
+#1772111476
+ls
+#1772111479
+unzip files.zip 
+#1772111483
+gst
+#1772111486
+gst -u
+#1772111488
+clear
+#1772111488
+ls
+#1772111491
+rm files.zip 
+#1772111493
+ls
+#1772111494
+clear
+#1772111494
+ls
+#1772111506
+rm ../src/App.jsx 
+#1772111511
+mv App.jsx ../src/
+#1772111513
+clear
+#1772111513
+ls
+#1772111643
+rm ../src/components/CursorEffect.jsx ../src/components/HomeScreen.jsx ../src/components/ProjectDetail.* ../src/components/TopNav.*
+#1772111652
+mv * ../src/components/
+#1772111749
+nvim ../src/components/HomeScreen.jsx 
+#1772111782
+nvim ../src/components/TopNav.jsx
+#1772111808
+nvim ../src/components/TopNav.css
+#1772112173
+..
+#1772112174
+gst
+#1772112177
+rm TMP/
+#1772112178
+clear
+#1772112179
+ls
+#1772112195
+gst
+#1772112201
+gca update animations!
+#1772112212
+ls
+#1772112213
+clear
+#1772112213
+ls
+#1772112218
+rm portfolio.zip 
+#1772112219
+gst
+#1772112226
+gca remove zip
+#1772112252
+ls
+#1772112270
+pnpm install
+#1772112283
+pnpm approve-builds
+#1772112292
+cleare
+#1772112294
+clear
+#1772112294
+ls
+#1772112300
+pnpm install
+#1772112301
+clear
+#1772112301
+ls
+#1772112331
+nvim pnpm-workspace.yaml 
+#1772112336
+rm pnpm-workspace.yaml 
+#1772112339
+pnpm install
+#1772112340
+gst
+#1772112342
+gst -u
+#1772112345
+clear
+#1772112346
+ls
+#1772112350
+pnpm dev
+#1772112405
+pnpm deploy
+#1772112412
+pnpm build
+#1772112415
+pnpm deploy
+#1772112420
+pnpm preview
+#1772112425
+gst
+#1772112607
+nvim vite.config.js 
+#1772112690
+ls
+#1772112701
+pnpm build
+#1772112708
+mv dist docs
+#1772112710
+ls
+#1772112726
+gca deploy to github pages!
+#1772112839
+cd ..
+#1772112840
+ls
+#1772112845
+cd portfolio
+#1772112846
+ls
+#1772112849
+cd public/
+#1772112850
+ls
+#1772112878
+cp memoji.png ../src/assets/
+#1772112880
+clear
+#1772112880
+ls
+#1772112885
+..
+#1772112885
+ls
+#1772112899
+rm public/memoji.png 
+#1772112904
+pnpm dev
+#1772112917
+nvim vite.config.js 
+#1772112929
+pnpm dev
+#1772112939
+clear
+#1772112940
+ls
+#1772112943
+nvim vite.config.js 9;5u
+#1772112948
+pnpm dev
+#1772112980
+nvim src/components/HomeScreen.jsx 
+#1772113050
+pnpm dev
+#1772113088
+nvim package.json 
+#1772113101
+ls
+#1772113107
+nvim eslint.config.js 
+#1772113191
+nvim src/components/HomeScreen.jsx 
+#1772113208
+cdw
+#1772113209
+cd portfolion
+#1772113213
+pnpm dev
+#1772113333
+ls src/
+#1772113337
+tree src/
+#1772113341
+ins alder
+#1772113343
+clear
+#1772113344
+ls
+#1772113379
+pnpm dev
+#1772113388
+pnpm build
+#1772113396
+mv dist/ docs
+#1772113397
+clear
+#1772113397
+ls
+#1772113410
+gca fix memoji!
+#1772113538
+ls docs
+#1772113538
+ls
+#1772113548
+cd docs
+#1772113549
+ls
+#1772113556
+ls assets/
+#1772113605
+mv memoji.png assets/
+#1772113619
+ls
+#1772113621
+..
+#1772113622
+ls
+#1772113627
+gca testing memoji!
+#1772113788
+..
+#1772113794
+new nemo256.github.io
+#1772113800
+cd nemo256.github.io/
+#1772113801
+ls
+#1772113805
+nvim README.md 
+#1772113825
+nvim AUTHORS 
+#1772113838
+nvim LICENSE 
+#1772113850
+ls
+#1772113851
+clear
+#1772113851
+ls
+#1772113860
+..
+#1772113866
+cd portfolio
+#1772113866
+ls
+#1772113879
+cp docs/* ../nemo256.github.io/
+#1772113881
+ls
+#1772113886
+cd ..
+#1772113887
+cd nemo256.github.io/
+#1772113888
+gst
+#1772113895
+gca add portfolio!
+#1772113907
+ls
+#1772113913
+mv assets/memoji.png ./
+#1772113913
+ls
+#1772113921
+gca update memoji
+#1772114202
+ls
+#1772114209
+mv memoji.png assets/
+#1772114214
+gca fix memoji
+#1772114265
+cdw
+#1772114267
+cd nemo256.github.io/
+#1772114267
+ls
+#1772114319
+mv assets/memoji.png .
+#1772114320
+clear
+#1772114320
+ls
+#1772114328
+gca testing memoji
+#1772134672
+cdw
+#1772134673
+cd portfolio
+#1772134674
+ls
+#1772134678
+pnpm dev
+#1772134713
+ls
+#1772134724
+rm docs
+#1772134725
+ls
+#1772134731
+cd ..
+#1772134731
+ls
+#1772134745
+rm nemo256.github.io/*
+#1772134746
+clear
+#1772134747
+ls
+#1772134761
+cd portfolio
+#1772134769
+cp *.* ../nemo256.github.io/
+#1772134783
+rm ../nemo256.github.io/*
+#1772134787
+cd ..
+#1772134789
+cd nemo256.github.io/
+#1772134791
+grh
+#1772134792
+clear
+#1772134792
+ls
+#1772134811
+la
+#1772134827
+rm assets/ dist/ index.html memoji.png vite.svg 
+#1772134827
+ls
+#1772134830
+..
+#1772134833
+cd portfolio
+#1772134833
+ls
+#1772134868
+cp public/ src/ eslint.config.js index.html package.json pnpm-lock.yaml vite.config.js ../nemo256.github.io/
+#1772134870
+cd ..
+#1772134872
+cd nemo256.github.io/
+#1772134872
+ls
+#1772134877
+pnpm install
+#1772134884
+pnpm dev
+#1772134895
+pnpm build
+#1772134899
+ls
+#1772134904
+cd ..
+#1772134905
+cd portfolio
+#1772134906
+la
+#1772134928
+cp .vite .gitignore ../nemo256.github.io/
+#1772134929
+clear
+#1772134929
+ls
+#1772134930
+.
+#1772134931
+..
+#1772134932
+cd nemo256.github.io/
+#1772134933
+ls
+#1772134938
+pnpm ins
+#1772134942
+pnpm install
+#1772134945
+pnpm build
+#1772134947
+clear
+#1772134948
+ls
+#1772134951
+pnpm dev
+#1772134974
+gst
+#1772134975
+ls
+#1772134979
+mv dist docs
+#1772134979
+ls
+#1772134987
+nvim .gitignore 
+#1772134992
+gst
+#1772135005
+gca add portfolio
+#1772135184
+nvim package.json 
+#1772135222
+nvim vite.config.js 
+#1772135323
+ls
+#1772135326
+cd public/
+#1772135326
+ls
+#1772135328
+clear
+#1772135328
+ls
+#1772135331
+cd ..
+#1772135331
+ls
+#1772135347
+pnpm build
+#1772135349
+ls
+#1772135368
+pnpm preview
+#1772136241
+clear
+#1772136242
+ls
+#1772136244
+q
+#1772136872
+cdw
+#1772136875
+cd nemo256.github.io/
+#1772136877
+pnpm dev
+#1772137278
+q
+#1772136248
+cdw
+#1772136250
+cd portfolio
+#1772136250
+ls
+#1772136252
+..
+#1772136257
+rm portfolio
+#1772136258
+ls
+#1772136488
+cd nemo256.github.io/
+#1772136489
+ls
+#1772136523
+mkdir TMP
+#1772136533
+mv ../../dl/files.zip TMP/
+#1772136535
+cd TMP/
+#1772136535
+ls
+#1772136538
+unzip files.zip 
+#1772136538
+ls
+#1772136540
+clear
+#1772136540
+ls
+#1772136544
+rm files.zip 
+#1772136546
+clear
+#1772136546
+ls
+#1772136622
+rm ../src/components/Carousel.css ../src/components/CursorEffect.jsx ../src/components/HomeScreen.css ../src/components/ProjectDetail.css ../src/components/ProjectsView.css ../src/components/TopNav.css 
+#1772136641
+mv Carousel.css CursorEffect.jsx HomeScreen.css ProjectDetail.css ProjectsView.css TopNav.css ../src/components/
+#1772136643
+ls
+#1772136649
+rm ../src/styles/global.css 
+#1772136653
+mv global.css ../src/styles/
+#1772136654
+clear
+#1772136655
+..
+#1772136659
+pnpm dev
+#1772136733
+pnpm build
+#1772136735
+ls
+#1772136738
+rm docs/
+#1772136743
+mv dist/ docs
+#1772136746
+gst
+#1772136760
+gca fix responsiveness on mobile
+#1772136834
+nvim src/data/projects.js 
+#1772137280
+ls
+#1772137281
+gst
+#1772137284
+gd
+#1772137291
+nvim src/data/projects.js 
+#1772137295
+gst
+#1772137300
+cd ass
+#1772137302
+..
+#1772137304
+cd portfolio.old/
+#1772137305
+ls
+#1772137307
+cd src/ass
+#1772137310
+cd src/
+#1772137310
+ls
+#1772137313
+..
+#1772137315
+cd public/
+#1772137315
+ls
+#1772137321
+sxiv favicon.svg 
+#1772137352
+cp favicon.svg ../../nemo256.github.io/src/assets/
+#1772138951
+..
+#1772138954
+cd nemo256.github.io/
+#1772138955
+ls
+#1772138955
+gst
+#1772138960
+rm TMP/
+#1772138960
+ls
+#1772138969
+nvim .gitignore 
+#1772138974
+nvim 
+#1772139523
+nvim
+#1772139652
+gst
+#1772139667
+gca update head title
+#1772139671
+clear
+#1772139672
+ls
+#1772139680
+pnpm build
+#1772139686
+mv dist docs/
+#1772139689
+clear
+#1772139689
+ls
+#1772139693
+gst
+#1772139696
+gca deploy
+#1772139707
+nvim .gitignore 
+#1772139712
+gst
+#1772139713
+ls
+#1772139713
+clear
+#1772139714
+ls
+#1772139716
+rm docs
+#1772139723
+pnpm build
+#1772139731
+mv dist/ docs
+#1772139735
+gca deplot
+#1772139740
+gca deploy
+#1772139743
+clear
+#1772139743
+ls
+#1772140402
+nvim 
+#1772140455
+nvim
+#1772140683
+ls
+#1772140692
+zip -r portfolio.zip *
+#1772140701
+ls
+#1772140707
+rm node_modules/ docs/
+#1772140709
+clear
+#1772140709
+ls
+#1772140712
+zip -r portfolio.zip *
+#1772140714
+clear
+#1772141964
+gst
+#1772141974
+gd
+#1772141996
+gst
+#1772142001
+gca update head title
+#1772142003
+ls
+#1772142014
+pnpm build
+#1772142026
+pnpm install
+#1772142030
+pnpm build
+#1772142036
+mv dist/ docs
+#1772142037
+clear
+#1772142038
+ls
+#1772142046
+gca deploy
+#1772142056
+nvim 
+#1772142366
+gst
+#1772142381
+gca update animations and layout style!
+#1772142447
+ls
+#1772142449
+rm docs
+#1772142449
+ls
+#1772142452
+pnpm build
+#1772142457
+mv dist/ docs
+#1772142458
+gst
+#1772142462
+gca deploy
+#1772142510
+nvim
+#1772142839
+nvim 
+#1772143118
+gst
+#1772143137
+gca update responsiveness for mobile - remove dot on intitials
+#1772143143
+rm docs/
+#1772143144
+ls
+#1772143148
+gst
+#1772143160
+pnpm build
+#1772143165
+mv dist/ docs
+#1772143168
+gca deploy
+#1772143257
+ls
+#1772143265
+cds
+#1772143265
+ls
+#1772143270
+..
+#1772143306
+cdp
+#1772143306
+ls
+#1772143310
+..
+#1772143312
+rm pix
+#1772143319
+clone https://github.com/nemo256/pix
+#1772143327
+cdp
+#1772143327
+ls
+#1772143331
+cd sites/
+#1772143331
+l
+#1772143332
+ls
+#1772143422
+cp DashRecours/ ekrili/ hotel/ qafilaty/ sgt/ ../../work/nemo256.github.io/src/assets/
+#1772143423
+clear
+#1772143423
+ls
+#1772143425
+cdw
+#1772143426
+cd nemo256.github.io/
+#1772143428
+cd src/
+#1772143428
+ls
+#1772143430
+cd assets/
+#1772143431
+ls
+#1772143452
+mv sgt 1
+#1772143452
+ls
+#1772143461
+mv ekrili/ 2
+#1772143465
+mv DashRecours/ 3
+#1772143471
+mv hotel/ 4
+#1772143477
+mv qafilaty/ 5
+#1772143478
+clear
+#1772143479
+ls
+#1772143485
+cdp
+#1772143487
+ls
+#1772143490
+cd scrots/
+#1772143490
+ls
+#1772143492
+cd ..
+#1772143492
+ls
+#1772143495
+cd sites/
+#1772143496
+ls
+#1772143498
+cd ..
+#1772143498
+ls
+#1772143500
+cd dots/
+#1772143500
+ls
+#1772143505
+sxiv 1.png 
+#1772143529
+ls
+#1772143530
+..
+#1772143530
+ls
+#1772143533
+cd sites/
+#1772143533
+ls
+#1772143546
+mkdir portfolio
+#1772143552
+cd portfolio/
+#1772143553
+l;s
+#1772143554
+ls
+#1772143556
+sxiv 1
+#1772143558
+sxiv 1.png 
+#1772143563
+..
+#1772143567
+mv portfolio/ portfolio.old
+#1772143571
+mkdir portfolio.old/
+#1772143574
+mkdir portfolio
+#1772143575
+ls
+#1772143575
+
+#1772143576
+ls
+#1772143605
+clear
+#1772143606
+ls
+#1772143608
+cds
+#1772143608
+ls
+#1772143624
+sxiv 2026-02-2-
+#1772143644
+rm 2026*
+#1772143647
+clear
+#1772143647
+ls
+#1772143649
+q
+#1772143654
+clear
+#1772143655
+ls
+#1772143655
+q
+#1772145624
+fetch
+#1772145629
+myfetch
+#1772145631
+fetchy
+#1772145633
+q
+#1772145774
+cd .build/
+#1772145776
+cd fetchy/
+#1772145776
+ls
+#1772145778
+make
+#1772145785
+clear
+#1772145785
+ls
+#1772145637
+fetchy
+#1772145644
+fetchy && c
+#1772145651
+c && fetchy
+#1772145692
+cd .build/
+#1772145693
+ls
+#1772145695
+cd fetchy/
+#1772145695
+ls
+#1772145698
+cd src/
+#1772145698
+ls
+#1772145701
+nvim colour.h 
+#1772145712
+nvim config.h 
+#1772144555
+cdw
+#1772144556
+cd nemo256.github.io/
+#1772144558
+cd src/assets/
+#1772144559
+ls
+#1772144560
+cd 2
+#1772144560
+ls
+#1772144563
+sxiv 1.png 
+#1772144569
+sxiv 2.png 
+#1772144855
+..
+#1772144856
+cd 3
+#1772144857
+ls
+#1772144861
+sxiv 3.png 
+#1772145094
+..
+#1772145096
+cd 4
+#1772145097
+ls
+#1772145100
+sxiv 2.png 
+#1772145106
+sxiv 1.png 
+#1772145304
+..
+#1772145305
+cd 5
+#1772145306
+ls
+#1772145309
+sxiv 1.png 
+#1772145313
+sxiv 2.png 
+#1772146032
+..
+#1772146080
+mkdir work/nemo256.github.io/src/assets/6 && cp pix/dots/ work/nemo256.github.io/src/assets/6
+#1772146083
+cdw
+#1772146087
+cd nemo256.github.io/src/assets/
+#1772146087
+ls
+#1772146089
+cd 6
+#1772146090
+ls
+#1772146094
+cd dots
+#1772146094
+ls
+#1772146097
+rm old
+#1772146098
+ls
+#1772146106
+mv * ../
+#1772146107
+..
+#1772146107
+ls
+#1772146109
+rm dots
+#1772146109
+ls
+#1772143657
+cdw
+#1772143659
+cd nemo256.github.io/
+#1772143659
+ls
+#1772143661
+cd src/
+#1772143662
+ls
+#1772143663
+cd assets/
+#1772143664
+ls
+#1772143668
+cd 1
+#1772143669
+ls
+#1772143672
+sxiv 1
+#1772143673
+sxiv 1.png 
+#1772143680
+sxiv 2.png 
+#1772143685
+sxiv 3.png 
+#1772143719
+..
+#1772143729
+cd data/
+#1772143731
+nvim projects.js 
+#1772146225
+..
+#1772146228
+gst
+#1772146238
+gca add proper projects! 
+#1772146242
+gst
+#1772146245
+ls
+#1772146247
+rm docs
+#1772146247
+ls
+#1772146250
+pnpm build
+#1772146257
+mv dist/ docs
+#1772146271
+gca deploy - projects addition
+#1772146274
+clear
+#1772146275
+q
+#1772139009
+cdw
+#1772139011
+cd nemo256.github.io/
+#1772139014
+pnpm dev
+#1772146382
+gst
+#1772145558
+cds
+#1772145559
+ls
+#1772145560
+..
+#1772145562
+cdp
+#1772145562
+ls
+#1772145563
+cd sites/
+#1772145564
+ls
+#1772145567
+cd ..
+#1772145567
+ls
+#1772145569
+cd dots/
+#1772145569
+ls
+#1772145595
+sxiv *
+#1772145613
+sxiv 1.png 2.png 3.png 4.png 5.png 6.png 
+#1772192037
+upd
+#1772192072
+curl -fsSL https://claude.ai/install.sh | bash
+#1772192098
+claude
+#1772192685
+ollama
+#1772192687
+ins ollama
+#1772192693
+upd
+#1772192696
+ins ollama
+#1772192719
+upg
+#1772192721
+upd
+#1772192813
+reboot
+#1772192844
+clear
+#1772192844
+q

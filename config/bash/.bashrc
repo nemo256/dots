@@ -162,3 +162,5 @@ export ANDROID_HOME=/opt/android-sdk
 
 # Android Emulator
 export ANDROID_EMULATOR_HOME=/opt/android-sdk/tools
+
+. "$HOME/.local/bin/env"
