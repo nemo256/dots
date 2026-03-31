@@ -137120,3 +137120,4531 @@ reboot
 clear
 #1772192844
 q
+#1772224898
+cd dots/
+#1772224899
+ls
+#1772224906
+nvim config/picom/.config/picom/picom.conf 
+#1772224942
+gst
+#1772224951
+gca update picom configuration
+#1772224954
+cdp
+#1772224955
+sl
+#1772224956
+ls
+#1772224958
+cd dots/
+#1772224959
+ls
+#1772224960
+cd old/
+#1772224960
+ls
+#1772224963
+sxiv 1.png 
+#1772224968
+sxiv 2.png 
+#1772224973
+sxiv *
+#1772224982
+ls
+#1772224983
+clear
+#1772224983
+ls
+#1772224984
+..
+#1772224984
+ls
+#1772224989
+mv old veryold
+#1772225003
+mkdir old && mv *.png old
+#1772225004
+ls
+#1772225011
+clear
+#1772225011
+ls
+#1772225012
+clear
+#1772225012
+q
+#1772225035
+cd .build/
+#1772225035
+ls
+#1772225043
+cd tily/
+#1772225044
+ls
+#1772225046
+nvim config.h
+#1772225105
+gst
+#1772225105
+make
+#1772225109
+sudo make clean install
+#1772225120
+gca update ai model
+#1772225122
+clear
+#1772225122
+q
+#1772225413
+cdw
+#1772225415
+cd nemo256.github.io/
+#1772225417
+nvim
+#1772225150
+cdw
+#1772225153
+cd nemo256.github.io/
+#1772225153
+ls
+#1772225155
+rm docs/
+#1772225158
+rm node_modules/
+#1772225161
+ls
+#1772225162
+gst
+#1772225177
+ls
+#1772225178
+clear
+#1772225178
+ls
+#1772225192
+zip -r portfolio.zip *
+#1772269154
+cdw
+#1772269156
+cd nemo256.github.io/
+#1772269157
+nvim
+#1772270217
+ls
+#1772270219
+nvim
+#1772270277
+cd src/components/
+#1772270277
+ls
+#1772270325
+rm TopNav.*
+#1772270363
+..
+#1772270365
+cd styles/
+#1772270365
+ls
+#1772270367
+rm *
+#1772270384
+..
+#1772270387
+pnpm dev
+#1772270390
+pnpm install
+#1772270393
+pnpm dev
+#1772273841
+ls
+#1772273842
+cd src/
+#1772273843
+ls
+#1772273845
+cd components/
+#1772273846
+ls
+#1772273917
+rm AboutSection.* ExperienceSection.* HeroSection.* ProjectsSection.* StatsSection.* TopNav.*
+#1772273954
+..
+#1772273959
+rm styles/*
+#1772273970
+ls
+#1772273972
+rm App.jsx 
+#1772273985
+pnpm install
+#1772273987
+pnpm dev
+#1772275378
+q
+#1772269150
+cdw
+#1772269152
+cd nemo256.github.io/
+#1772269153
+ls
+#1772269375
+rm portfolio.zip 
+#1772269376
+clear
+#1772269377
+ls
+#1772269382
+cd src/
+#1772269383
+ls
+#1772269409
+rm assets/
+#1772269410
+ls
+#1772269415
+cd ..
+#1772269416
+ls
+#1772269420
+cd public/
+#1772269420
+ls
+#1772269423
+...
+#1772269424
+..
+#1772269426
+ls
+#1772269457
+zip -r portfolio.zip *
+#1772270091
+grh
+#1772270092
+ls
+#1772270097
+rm docs
+#1772270097
+ls
+#1772270116
+cp src/assets/ ../
+#1772270121
+ls
+#1772270122
+..
+#1772270122
+ls
+#1772270145
+cp ../dl/portfolio-refactor.zip 
+#1772270148
+cp ../dl/portfolio-refactor.zip .
+#1772270150
+ls
+#1772270163
+mkdir newportfolio
+#1772270170
+mv portfolio-refactor.zip newportfolio/
+#1772270171
+cd ne
+#1772270174
+cd newportfolio/
+#1772270174
+ls
+#1772270177
+unzip portfolio-refactor.zip 
+#1772270178
+;s
+#1772270179
+ls
+#1772270180
+clear
+#1772270181
+ls
+#1772270183
+rm portfolio-refactor.zip 
+#1772270183
+ls
+#1772270186
+cd src/
+#1772270187
+ls
+#1772270194
+dir
+#1772270199
+alder
+#1772270200
+clear
+#1772270201
+ls
+#1772270211
+nvim App.jsx 
+#1772270266
+cd components/
+#1772270267
+ls
+#1772270348
+cp * ../../../nemo256.github.io/src/components/
+#1772270349
+ls
+#1772270356
+cd ..
+#1772270357
+ls
+#1772270359
+cd styles/
+#1772270359
+ls
+#1772270379
+cp * ../../../nemo256.github.io/src/styles/
+#1772273335
+ls
+#1772273336
+..
+#1772273341
+clear
+#1772273341
+ls
+#1772273352
+rm newportfolio/*
+#1772273365
+cp ../dl/portfolio-refactor-v2.zip newportfolio/
+#1772273369
+cd newportfolio/
+#1772273370
+ls
+#1772273372
+unzip portfolio-refactor-v2.zip 
+#1772273810
+ls
+#1772273813
+rm portfolio-refactor-v2.zip 
+#1772273814
+ls
+#1772273815
+cd src/
+#1772273815
+ls
+#1772273820
+ls components/
+#1772273826
+ls styles/
+#1772273948
+cp components/* ../../nemo256.github.io/src/components/
+#1772273949
+ls
+#1772273967
+cp styles/* ../../nemo256.github.io/src/styles/
+#1772273979
+cp App.jsx ../../nemo256.github.io/src/
+#1772273980
+clear
+#1772275365
+..
+#1772275366
+ls
+#1772275371
+..
+#1772275372
+rm newportfolio/
+#1772275373
+ls
+#1772275374
+clear
+#1772275374
+l
+#1772275380
+ls
+#1772275381
+cd nemo256.github.io/
+#1772275381
+ls
+#1772275382
+gst
+#1772275385
+ls
+#1772275390
+pnpm build
+#1772275395
+mv dist/ docs
+#1772275396
+clear
+#1772275397
+ls
+#1772275399
+gst
+#1772275406
+rm portfolio.zip 
+#1772275407
+clear
+#1772275408
+ls
+#1772275409
+gst
+#1772275435
+gca update to landing page style portfolio
+#1772275705
+ls
+#1772275709
+cd ..
+#1772275709
+ls
+#1772275716
+mkdir tpm
+#1772275719
+rm tpm
+#1772275722
+mkdir tmp
+#1772275734
+cl ../dl/portfolio-refactor-v3.zip tmp/
+#1772275735
+cd tmp/
+#1772275736
+ls
+#1772275759
+cp ../dl/portfolio-refactor-v3.zip .
+#1772275765
+cp ../../dl/portfolio-refactor-v3.zip .
+#1772275766
+ls
+#1772275770
+unzip portfolio-refactor-v3.zip 
+#1772275772
+ls
+#1772275775
+rm portfolio-refactor-v3.zip 
+#1772275775
+ls
+#1772275777
+cd src/
+#1772275777
+ls
+#1772275781
+ls components/
+#1772275836
+cp * ../../nemo256.github.io/src/components/
+#1772275837
+ls
+#1772275843
+..
+#1772275844
+ls
+#1772275847
+cd src/
+#1772275847
+ls
+#1772275857
+cp App.jsx ../../nemo256.github.io/src/
+#1772275858
+clear
+#1772275883
+ls
+#1772275885
+ls components/
+#1772275914
+ls
+#1772275916
+ls components/
+#1772276075
+..
+#1772276076
+q
+#1772275788
+cdw
+#1772275790
+cd nemo256.github.io/
+#1772275790
+ls
+#1772275792
+cd src/
+#1772275792
+ls
+#1772275794
+cd components/
+#1772275794
+ls
+#1772275830
+rm AboutSection.* ExperienceSection.* HeroSection.* LoadingScreen.* ProjectsSection.* TopNav.*
+#1772275839
+..
+#1772275840
+ls
+#1772275852
+rm App.jsx 
+#1772275859
+..
+#1772275860
+gst
+#1772275864
+pnpm dev
+#1772275893
+ls
+#1772275897
+ls src/components/
+#1772275904
+ls
+#1772275907
+cd src/
+#1772275907
+ls
+#1772275922
+ls components/
+#1772275952
+ls
+#1772275963
+ls components/
+#1772275967
+ls components/components/
+#1772275980
+mv components/components/* components/
+#1772275983
+rm components/components/
+#1772275984
+ls
+#1772275986
+.
+#1772275986
+..
+#1772275988
+pnpm dev
+#1772276078
+q
+#1772276081
+cdw
+#1772276082
+cd nemo256.github.io/
+#1772276082
+ls
+#1772276086
+rm docs/
+#1772276086
+ls
+#1772276089
+pnpm build
+#1772276096
+mv dist/ docs
+#1772276097
+clear
+#1772276097
+ls
+#1772276113
+gca update subtle animations and remove unnecessary titles!
+#1772276141
+clear
+#1772276142
+q
+#1772276223
+sleep
+#1772276224
+q
+#1772307999
+cdw
+#1772308000
+cd nemo256.github.io/
+#1772308001
+ls
+#1772308003
+rm docs
+#1772308003
+ls
+#1772308006
+rm node_modules/
+#1772308007
+ls
+#1772308024
+cd src/components/
+#1772308024
+ls
+#1772308083
+rm AboutSection.* ExperienceSection.* Footer.* HeroSection.* LoadingScreen.* ProjectsSection.* ScrollBar.* SkillsSection.* TopNav.*
+#1772308116
+..
+#1772308119
+cd nemo256.github.io/
+#1772308119
+ls
+#1772308122
+pnpm install
+#1772308128
+pnpm dev
+#1772308337
+gst
+#1772308375
+gca update loading screen and titles and some subtle changes to the layout!
+#1772308377
+q
+#1772309919
+dcw
+#1772309921
+cdw
+#1772309924
+cd tmp/
+#1772309924
+ls
+#1772309925
+rm src/
+#1772309925
+ls
+#1772309937
+cp ../../dl/portfolio-refactor-v5.zip .
+#1772309938
+ls
+#1772309940
+unzip portfolio-refactor-v5.zip 
+#1772309941
+ls
+#1772309944
+cd src/
+#1772309944
+ls
+#1772309946
+cd components/
+#1772309946
+ls
+#1772309981
+cp * ../../../nemo256.github.io/src/components/
+#1772309981
+ls
+#1772310410
+..
+#1772310413
+rm *
+#1772310413
+ls
+#1772310426
+cp ../../dl/portfolio-patch-final.zip .
+#1772310426
+ls
+#1772310431
+unzip portfolio-patch-final.zip 
+#1772310432
+ls
+#1772310434
+rm portfolio-patch-final.zip 
+#1772310434
+ls
+#1772310435
+cd src/
+#1772310436
+ls
+#1772310437
+cd components/
+#1772310438
+ls
+#1772310476
+cp * ../../../nemo256.github.io/src/components/
+#1772310477
+s
+#1772310566
+q
+#1772307970
+cdw
+#1772307971
+ls
+#1772307975
+cd tmp/
+#1772307976
+ls
+#1772307977
+rm src/
+#1772307977
+ls
+#1772307990
+cp ../../dl/portfolio-refactor-v4.zip .
+#1772307991
+ls
+#1772307993
+unzip portfolio-refactor-v4.zip 
+#1772307994
+clear
+#1772307994
+ls
+#1772307995
+rm portfolio-refactor-v4.zip 
+#1772307996
+ls
+#1772308013
+cd src/
+#1772308013
+ls
+#1772308018
+cd components/
+#1772308019
+ls
+#1772308094
+cp * ../../../nemo256.github.io/src/components/
+#1772308095
+ls
+#1772308096
+..
+#1772308098
+cd styles/
+#1772308098
+ls
+#1772308103
+la
+#1772308359
+..
+#1772308361
+cd nemo256.github.io/
+#1772308361
+ls
+#1772308365
+pnpm build
+#1772308370
+mv dist/ docs
+#1772308371
+clear
+#1772308371
+ls
+#1772308381
+gst
+#1772309914
+ls
+#1772309916
+rm docs
+#1772309917
+ls
+#1772309952
+cd src/components/
+#1772309952
+ls
+#1772309971
+rm Carousel.css HomeScreen.* TopNav.*
+#1772309985
+ls
+#1772309985
+..
+#1772309987
+gst
+#1772309989
+pnpm install
+#1772309992
+pnpm dev
+#1772310445
+cd src/components/
+#1772310446
+ls
+#1772310467
+rm Carousel.css HomeScreen.* TopNav.css 
+#1772310481
+..
+#1772310484
+pnpm dev
+#1772310545
+grh
+#1772310547
+pnpm dev
+#1772310567
+cdw
+#1772310569
+cd nemo256.github.io/
+#1772310570
+nvim
+#1772310598
+cd src/components/
+#1772310598
+ls
+#1772310604
+rm App.jsx 
+#1772310606
+..
+#1772310608
+pnpm dev
+#1772310637
+gst
+#1772310644
+gca remove unnecessary file
+#1772310650
+ls
+#1772310652
+nvim
+#1772311418
+gst
+#1772311420
+rm docs
+#1772311420
+ls
+#1772311425
+pnpm build
+#1772311434
+mv dist/ docs
+#1772311434
+ls
+#1772311444
+gca fix memoji size
+#1772311488
+nvim
+#1772313191
+ls
+#1772313191
+q
+#1772311472
+cdw
+#1772311473
+cd nemo256.github.io/
+#1772311474
+ls
+#1772311476
+pnpm dev
+#1772313193
+gst
+#1772313195
+rm docs
+#1772313196
+ls
+#1772313198
+la
+#1772313199
+gst
+#1772313214
+gca add exprience and education!
+#1772313216
+gst
+#1772313223
+pnpm build
+#1772313228
+mv dist/ docs
+#1772313230
+gst
+#1772313233
+gst -u
+#1772313238
+gca deploy experience!
+#1772313242
+q
+#1772311787
+cdw
+#1772311789
+cd
+#1772311790
+cdD
+#1772311791
+ls
+#1772311792
+cd cv
+#1772311792
+ls
+#1772311802
+open web.pdf 
+#1772312083
+zathura web.pdf 
+#1772355431
+ls
+#1772355550
+curl -L code.kimi.com/install.sh | bash
+#1772355615
+kimi
+#1772355662
+clear
+#1772355662
+q
+#1772355757
+sh uv tool uninstall kimi-cli
+#1772369988
+q
+#1772369989
+cdw
+#1772369991
+cd nemo256.github.io/
+#1772369991
+ls
+#1772369993
+rm docs
+#1772369993
+ls
+#1772369995
+nvim
+#1772370015
+pnpm build
+#1772370019
+ls
+#1772370022
+mv dist/ docs
+#1772370026
+gca fix typo!
+#1772370029
+q
+#1772370606
+cdw
+#1772370607
+cd nemo256.github.io/
+#1772370613
+nvim 
+#1772370659
+gst
+#1772370662
+rm docs
+#1772370670
+pnpm build
+#1772370677
+gca fix typo
+#1772440726
+cdd
+#1772440727
+ls
+#1772440745
+rm Capture\ d\'écran\ 2026-03-01\ 091509.png 
+#1772440746
+ls
+#1772440762
+cp Untitled_Message.zip ../pix/sites/
+#1772440765
+cdp
+#1772440765
+ls
+#1772440767
+cd sites/
+#1772440767
+ls
+#1772440783
+mkdir stp
+#1772440789
+mv Untitled_Message.zip stp/
+#1772440791
+cd stp/
+#1772440791
+ls
+#1772440794
+unzip Untitled_Message.zip 
+#1772440794
+ls
+#1772440797
+rm Untitled_Message.zip 
+#1772440813
+mv Capture\ d\'├йcran\ 2026-03-01\ 091509.png 1.png
+#1772440836
+mv Capture\ d\'├йcran\ 2026-03-01\ 091605.png 2.png
+#1772440845
+mv Capture\ d\'├йcran\ 2026-03-01\ 091636.png 3.png
+#1772440846
+ls
+#1772440857
+mv Capture\ d\'├йcran\ 2026-03-01\ 093427.png 4.png
+#1772440868
+mv Capture\ d\'├йcran\ 2026-03-01\ 093635.png 5.png
+#1772440880
+mv Capture\ d\'├йcran\ 2026-03-01\ 093839.png 6.png
+#1772440882
+clear
+#1772440882
+ls
+#1772440883
+clear
+#1772440885
+ls
+#1772440897
+sxiv *
+#1772440924
+mv 5.png 55.png
+#1772440940
+mv 6.png 5.png
+#1772440940
+ls
+#1772441062
+mv 55.png 6.png
+#1772441063
+ls
+#1772441064
+clear
+#1772441064
+q
+#1772441067
+cdp
+#1772441068
+gst
+#1772441080
+gca add stp screenshots!
+#1772449794
+claude
+#1772544077
+cdd
+#1772544077
+ls
+#1772544082
+rm lamine.cc*
+#1772544088
+nvim lamine.cc.txt
+#1772544096
+nvim lamine.cc.txt 
+#1772609117
+clear
+#1772609118
+q
+#1772617792
+cdw
+#1772617795
+cd nemo256.github.io/
+#1772617800
+pnpm dev
+#1772618755
+gst
+#1772618757
+gst -u
+#1772619073
+ls
+#1772619079
+rm dist/
+#1772619081
+pnpm build
+#1772619087
+mv dist/ docs
+#1772619089
+ls
+#1772619099
+gca deploy to lamine.cc
+#1772619133
+git push --force
+#1772619144
+git push --set-upstream origin master
+#1772619147
+git push --force
+#1772619156
+git pull
+#1772619173
+..
+#1772619176
+rm nemo256.github.io/
+#1772619188
+clone https://github.com/nemo256/nemo256.github.io
+#1772619194
+ls
+#1772619195
+cd nemo256.github.io/
+#1772619196
+ls
+#1772619209
+rm docs
+#1772619210
+ls
+#1772619215
+pnpm build
+#1772619218
+pnpm install
+#1772619230
+pnpm build
+#1772619238
+mv dist/ docs
+#1772619238
+ls
+#1772619240
+cd docs/
+#1772619240
+ls
+#1772619243
+..
+#1772619244
+ls
+#1772619247
+gst
+#1772619259
+gca deploy to lamine.cc
+#1772619587
+cd docs
+#1772619588
+;s
+#1772619589
+ls
+#1772619593
+nvim CNAME
+#1772619603
+gca deploy to lamine.cc
+#1772619608
+..
+#1772619608
+ls
+#1772619617
+nvim .gitignore 
+#1772619621
+clear
+#1772619622
+ls
+#1772619742
+nvim package.json 
+#1772619806
+pnpm build
+#1772619809
+ls
+#1772619821
+nvim package.json 
+#1772619886
+pnpm build
+#1772619888
+ls
+#1772619895
+nvim package.json 
+#1772619908
+nvim CNAME
+#1772619916
+pnpm build
+#1772619919
+ls
+#1772619921
+cd docs/
+#1772619921
+ls
+#1772619924
+cat CNAME 
+#1772619924
+ls
+#1772619928
+clear
+#1772619929
+..
+#1772619929
+ls
+#1772619930
+gst
+#1772619948
+gca update build command to build and deploy!
+#1772627666
+q
+#1772630021
+cdw
+#1772630022
+cd nemo256.github.io/
+#1772630023
+ls
+#1772630025
+rm node_modules/
+#1772630026
+ls
+#1772630029
+..
+#1772630029
+ls
+#1772630031
+rm assets/
+#1772630032
+ls
+#1772630034
+cd nemo256.github.io/
+#1772630035
+ls
+#1772630040
+cd src/assets/
+#1772630040
+ls
+#1772630041
+..
+#1772630041
+ls
+#1772630049
+cp assets/ ../../
+#1772630050
+ls
+#1772630051
+cd ..
+#1772630052
+ls
+#1772630054
+..
+#1772630054
+ls
+#1772630057
+cd nemo256.github.io/
+#1772630057
+ls
+#1772630058
+cd src/
+#1772630061
+..
+#1772630061
+ls
+#1772630064
+rm docs/
+#1772630065
+ls
+#1772630069
+cd src/
+#1772630069
+ls
+#1772630072
+rm assets/
+#1772630072
+ls
+#1772630073
+..
+#1772630077
+cd nemo256.github.io/
+#1772630077
+ls
+#1772630109
+zip ../portfolio.zip *
+#1772630125
+ls
+#1772630130
+..
+#1772630132
+ls
+#1772630134
+rm portfolio.zip 
+#1772630135
+ls
+#1772630146
+zip -r nemo256.github.io/ portfolio.zip
+#1772630167
+zip -r portfolio.zip nemo256.github.io/
+#1772630177
+c
+#1772630179
+ls
+#1772630960
+cd tmp/
+#1772630961
+ls
+#1772630964
+rm *
+#1772630965
+ls
+#1772630971
+cp ../../dl/portfolio-updated.zip .
+#1772630976
+unzip portfolio-updated.zip 
+#1772630976
+ls
+#1772630986
+cd public/
+#1772630987
+ls
+#1772630988
+..
+#1772630989
+ls
+#1772630997
+rm portfolio-updated.zip 
+#1772631035
+pnpm install
+#1772631038
+pnpm dev
+#1772631050
+cd ..
+#1772631051
+ls
+#1772631053
+cd tmp/
+#1772631054
+ls
+#1772631066
+cp ../assets/ src/
+#1772631069
+pnpm dev
+#1772631792
+ls
+#1772631803
+rm *
+#1772631805
+ls
+#1772631806
+..
+#1772631807
+ls
+#1772631838
+rm ../dl/portfolio-updated.zip 
+#1772631851
+mv ../dl/portfolio-updated\ \(1\).zip tmp/
+#1772631853
+cd tmp/
+#1772631854
+ls
+#1772631864
+mv portfolio-updated\ \(1\).zip portfolio.new.zip
+#1772631867
+unzip portfolio.new.zip 
+#1772631869
+rm portfolio.new.zip 
+#1772631870
+ls
+#1772631873
+cd nemo256.github.io/
+#1772631874
+ls
+#1772631881
+pnpm install
+#1772631884
+pnpm dev
+#1772631887
+..
+#1772631888
+ls
+#1772631895
+cp assets/ tmp/nemo256.github.io/src/
+#1772631906
+cd tmp/
+#1772631906
+ls
+#1772631909
+cd nemo256.github.io/
+#1772631910
+ls
+#1772631912
+pnpm dev
+#1772631920
+pnpm install
+#1772631934
+clear
+#1772631934
+ls
+#1772631949
+pnpm dev
+#1772631977
+cd src/
+#1772631977
+ks
+#1772631978
+ls
+#1772631980
+cd data/
+#1772631980
+ls
+#1772631984
+nvim projects.js 
+#1772630949
+cdw
+#1772630951
+cd nemo256.github.io/
+#1772630951
+ls
+#1772630952
+nvim
+#1772632007
+clear
+#1772632008
+ls
+#1772632010
+cdw
+#1772632011
+ls
+#1772632076
+cdw
+#1772632078
+cd tmp/
+#1772632080
+cd nemo256.github.io/
+#1772632082
+pnpm dev
+#1772632100
+nvim src/components/ExperienceSection.jsx 
+#1772632205
+pnpm dev
+#1772632298
+ls
+#1772632310
+..
+#1772632310
+ls
+#1772632311
+..
+#1772632312
+ls
+#1772632314
+cd nemo256.github.io/
+#1772632314
+ls
+#1772632320
+cd src/
+#1772632320
+ls
+#1772632337
+..
+#1772632340
+rm src/
+#1772632340
+ls
+#1772632354
+cp ../tmp/nemo256.github.io/src/ ./
+#1772632354
+ls
+#1772632381
+clear
+#1772632381
+ls
+#1772632383
+pnpm dev
+#1772632389
+pnpm install
+#1772632391
+pnpm dev
+#1772632458
+gst
+#1772632459
+ls
+#1772632489
+gca update animated buttons and scroll effects - organize projects layout and style
+#1772632495
+pnpm build
+#1772632497
+ls
+#1772632504
+gca deploy to lamine.cc
+#1772699314
+clear
+#1772699314
+q
+#1772699324
+lsblk
+#1772699339
+sudo mount /dev/sda1 /mnt
+#1772699341
+cdm
+#1772699344
+cd /mnt
+#1772699345
+ls
+#1772699365
+sudo cp APS.zip ~/work/
+#1772699367
+cdw
+#1772699367
+ls
+#1772699383
+sudo chown n3m0:n3m0 APS.zip 
+#1772699393
+sudo chown l:l APS.zip 
+#1772699396
+ls
+#1772699399
+clear
+#1772699399
+ls
+#1772699406
+unzip APS.zip 
+#1772699407
+ls
+#1772699412
+rm APS.zip 
+#1772699413
+ls
+#1772699414
+cd APS/
+#1772699415
+ls
+#1772699422
+cd
+#1772699429
+sudo eject /mnt
+#1772699431
+clear
+#1772699431
+q
+#1772703287
+cdw
+#1772703289
+cd tmp/
+#1772703290
+ls
+#1772703291
+cd portfolio_out/
+#1772703292
+pnpm dev
+#1772704542
+q
+#1772701808
+cdw
+#1772701808
+ls
+#1772701812
+cd nemo256.github.io/
+#1772701812
+ls
+#1772701813
+gst
+#1772701816
+gst -u
+#1772701817
+clear
+#1772701818
+ls
+#1772701822
+rm docs node_modules/
+#1772701823
+ls
+#1772701828
+cd src/
+#1772701828
+ls
+#1772701835
+..
+#1772701836
+ls
+#1772701838
+rm assets/
+#1772701838
+ls
+#1772701845
+cp nemo256.github.io/src/assets/ .
+#1772701846
+ls
+#1772701857
+mv assets/ assets.bak
+#1772701857
+ls
+#1772701861
+cd nemo256.github.io/
+#1772701862
+ls
+#1772701866
+size
+#1772701872
+clear
+#1772701872
+ls
+#1772701877
+cd public/
+#1772701877
+ls
+#1772701879
+..
+#1772701884
+cd public/
+#1772701884
+ls
+#1772701886
+..
+#1772701887
+ls
+#1772701890
+..
+#1772701890
+ls
+#1772701897
+rm portfolio.zip 
+#1772701899
+ls9;5u
+#1772701911
+zip -r portfolio.zip nemo256.github.io/
+#1772701912
+ls
+#1772701919
+rm portfolio.
+#1772701922
+ls
+#1772701925
+rm portfolio.zip 
+#1772701925
+ls
+#1772701941
+cd nemo256.github.io/src/
+#1772701941
+ls
+#1772701942
+rm assets/
+#1772701943
+ls
+#1772701943
+clear
+#1772701944
+..
+#1772701945
+ls
+#1772701951
+zip -r portfolio.zip nemo256.github.io/
+#1772701952
+ls
+#1772701954
+clear
+#1772701954
+ls
+#1772702428
+cdd
+#1772702428
+ls
+#1772702439
+rm portfolio*
+#1772702446
+ls
+#1772702448
+cdw
+#1772702449
+ls
+#1772702452
+cd tmp/
+#1772702453
+ls
+#1772702455
+rm *
+#1772702456
+ls
+#1772702461
+cp ../../dl/portfolio_updated.zip .
+#1772702462
+ls
+#1772702465
+unzip portfolio_updated.zip 
+#1772702465
+ls
+#1772702472
+rm portfolio_updated.zip 
+#1772702472
+ls
+#1772702474
+cd portfolio_out/
+#1772702475
+ls
+#1772702491
+cp ../../assets.bak/ src/assets
+#1772702492
+ls
+#1772702494
+ls src/
+#1772702494
+ls
+#1772702498
+ls src/
+#1772702500
+ls
+#1772702501
+clear
+#1772702501
+ls
+#1772702505
+pnpm dev
+#1772702510
+pnpm install
+#1772702512
+pnpm dev
+#1772703105
+..
+#1772703107
+rm portfolio_out/
+#1772703108
+ls
+#1772703118
+rm ../../dl/portfolio_updated.zip 
+#1772703128
+mv ../../dl/portfolio_updated\ \(1\).zip .
+#1772703135
+mv portfolio_updated\ \(1\).zip portfolio.zip
+#1772703139
+unzip portfolio.zip 
+#1772703142
+rm portfolio.zip 
+#1772703143
+ls
+#1772703146
+cd portfolio_out/
+#1772703147
+ls
+#1772703149
+pnpm install
+#1772703152
+pnpm dev
+#1772703171
+cp ../../assets.bak/ src/assets
+#1772703171
+ls
+#1772703175
+pnpm dev
+#1772703191
+pnpm install
+#1772703193
+clear
+#1772703193
+ls
+#1772703196
+pnpm dev
+#1772703233
+rm node_modules/
+#1772703233
+ls
+#1772703236
+pnpm install
+#1772703243
+pnpm dev
+#1772703256
+nvim 
+#1772704545
+..
+#1772704546
+ls
+#1772704548
+rm portfolio_out/
+#1772704548
+ls
+#1772704549
+..
+#1772704550
+ls
+#1772704555
+cd tmp/
+#1772704556
+ls
+#1772704561
+mv ../../dl/portfolio_updated.zip .
+#1772704563
+ls
+#1772704564
+unzip portfolio_updated.zip 
+#1772704565
+ls
+#1772704568
+rm portfolio_updated.zip 
+#1772704569
+ls
+#1772704570
+cd portfolio_out/
+#1772704570
+ls
+#1772704574
+pnpm install
+#1772704584
+cp ../../assets.bak/ src/assets
+#1772704585
+ls
+#1772704586
+clear
+#1772704586
+ls
+#1772704590
+pnpm install
+#1772704592
+pnpm dev
+#1772705785
+..
+#1772705785
+ls
+#1772705787
+rm portfolio_out/
+#1772705787
+ls
+#1772705793
+mv ../../dl/portfolio_updated.zip .
+#1772705793
+ls
+#1772705796
+unzip portfolio_updated.zip 
+#1772705796
+ls
+#1772705799
+rm portfolio_updated.zip 
+#1772705799
+ls
+#1772705800
+cd portfolio_out/
+#1772705801
+ls
+#1772705805
+pnpm install
+#1772705814
+cp ../../assets.bak/ src/assets
+#1772705815
+ls
+#1772705817
+pnpm install
+#1772705818
+pnpm dev
+#1772706403
+nvim 
+#1772706584
+..
+#1772706588
+rm portfolio_out/
+#1772706589
+ls
+#1772706601
+mv ../../dl/portfolio_updated.zip .
+#1772706601
+ls
+#1772706604
+unzip portfolio_updated.zip 
+#1772706605
+ls
+#1772706609
+rm portfolio_updated.zip 
+#1772706611
+ls
+#1772706612
+clear
+#1772706612
+ls
+#1772706615
+cd portfolio_out/
+#1772706616
+ls
+#1772706633
+clear
+#1772706634
+ls
+#1772706646
+cp ../../assets.bak/ src/assets
+#1772706647
+ls
+#1772706648
+..
+#1772706649
+ls
+#1772706651
+cd portfolio_out/
+#1772706660
+pnpm install
+#1772706662
+pnpm dev
+#1772706901
+nvim 
+#1772706929
+pnpm dev
+#1772706990
+ls
+#1772706997
+la
+#1772707004
+..
+#1772707004
+ls
+#1772707006
+..
+#1772707006
+ls
+#1772707007
+cd nemo256.github.io/
+#1772707008
+ls
+#1772707011
+cd src/
+#1772707011
+ls
+#1772707013
+..
+#1772707013
+ls
+#1772707026
+rm src/
+#1772707029
+..
+#1772707030
+ls
+#1772707033
+cd tmp/
+#1772707033
+ls
+#1772707034
+cd portfolio_out/
+#1772707035
+ls
+#1772707042
+cp src/ ../../nemo256.github.io/
+#1772707043
+ls
+#1772707044
+cd ..
+#1772707045
+..
+#1772707045
+ls
+#1772707047
+cd nemo256.github.io/
+#1772707048
+ls
+#1772707052
+pnpm install
+#1772707055
+pnpm dev
+#1772707064
+/* TopNav.jsx */
+#1772707064
+import { useState, useEffect, useRef } from 'react';
+#1772707064
+import { motion, AnimatePresence } from 'framer-motion';
+#1772707064
+import { TextScramble } from './ui/text-scramble.jsx';
+#1772707064
+import './TopNav.css';
+#1772707064
+const NAV_LINKS = [
+#1772707064
+}
+#1772707064
+/* ── Tubelight pill nav ── */
+#1772707064
+function TubelightLinks({ activeTab, setActiveTab, onNav }) {
+#1772707064
+}
+#1772707064
+/* ── Logo: LN default → LAMINE NEGGAZI on hover with TextScramble ── */
+#1772707064
+function LogoExpand({ onClick }) {
+#1772707065
+}
+#1772707065
+/* ── Resume: icon only, label on hover ── */
+#1772707065
+function ResumeButton({ isMobile }) {
+#1772707065
+}
+#1772707065
+export default function TopNav() {
+#1772707065
+}
+#1772707071
+clear
+#1772707073
+q
+#1772707074
+cdw
+#1772707076
+cd nemo256.github.io/
+#1772707076
+ls
+#1772707080
+pnpm build
+#1772707102
+gca update navbar effects, update logo animation - add new project section!
+#1772707105
+ls
+#1772709090
+..
+#1772709091
+ls
+#1772709092
+clone https://github.com/nemo256/developer-portfolios
+#1772709109
+cd developer-portfolios/
+#1772709109
+ls
+#1772709245
+git branch -m add/lamine
+#1772709249
+gst
+#1772709269
+nvim README.md 
+#1772709478
+clear
+#1772709478
+ls
+#1772709493
+git add *
+#1772709494
+clear
+#1772709494
+ls
+#1772709495
+gst
+#1772709534
+git commit -m "add lamine's portfolio"
+#1772709573
+git push origin add/lamine
+#1772709755
+ls
+#1772715247
+..
+#1772715267
+clear
+#1772715267
+ls
+#1772715296
+cd tmp/
+#1772715297
+ls
+#1772715299
+rm portfolio_out/
+#1772715299
+ls
+#1772715325
+mv ../../dl/portfolio_updated.zip .
+#1772715325
+ls
+#1772715329
+unzip portfolio_updated.zip 
+#1772715330
+ls
+#1772715334
+rm portfolio_updated.zip 
+#1772715335
+ls
+#1772715335
+clear
+#1772715336
+ls
+#1772715338
+cd portfolio_out/
+#1772715338
+ls
+#1772715343
+pnpm install
+#1772715345
+pnpm dev
+#1772715359
+cp ../../assets.bak/ src/assets
+#1772715361
+pnpm dev
+#1772715444
+q
+#1772715671
+cdD
+#1772715671
+ls
+#1772715673
+cd cv
+#1772715674
+ls
+#1772715687
+cd old
+#1772715687
+ls
+#1772715690
+cd ..
+#1772715691
+ls
+#1772715694
+cd old
+#1772715696
+ls
+#1772715707
+zathura ResearcherFR.pdf 
+#1772715737
+clear
+#1772715737
+ls
+#1772715738
+..
+#1772715739
+ls
+#1772715744
+zathura web.pdf 
+#1772715755
+zathura fullstack.pdf 
+#1772715785
+cp fullstack.pdf ../../work/nemo256.github.io/src/assets/
+#1772715786
+ls
+#1772715788
+cdw
+#1772715789
+cd nemo256.github.io/
+#1772715789
+ls
+#1772715790
+cd src/
+#1772715791
+ls
+#1772715793
+cd assets/
+#1772715793
+ls
+#1772715800
+mv fullstack.pdf cv.pdf
+#1772715801
+ls
+#1772715804
+clear
+#1772715804
+ls
+#1772715804
+..
+#1772715819
+gst
+#1772715823
+gca add CV
+#1772715954
+pnpm build
+#1772715961
+gca add CV
+#1772715977
+gst -u
+#1772715990
+nvim src/components/Footer.jsx 
+#1772716115
+gst
+#1772716118
+pnpm build
+#1772716123
+gca add CV
+#1772803490
+cdd
+#1772803491
+ls
+#1772803495
+rm cv.pdf 
+#1772803496
+ls
+#1772803503
+q
+#1772798983
+cdw
+#1772798986
+cd nemo256.github.io/
+#1772798986
+ls
+#1772800044
+clear
+#1772800044
+ls
+#1772800048
+rm docs node_modules/
+#1772800049
+ls
+#1772800051
+..
+#1772800052
+ls
+#1772800054
+rm assets.bak/
+#1772800060
+cp nemo256.github.io/src/assets/ .
+#1772800061
+ls
+#1772800065
+cd nemo256.github.io/
+#1772800065
+ls
+#1772800071
+cd src/
+#1772800073
+rm assets/
+#1772800073
+ls
+#1772800074
+clear
+#1772800074
+ls
+#1772800075
+..
+#1772800075
+ls
+#1772800085
+taille
+#1772800086
+clear
+#1772800086
+ls
+#1772800099
+..
+#1772800100
+ls
+#1772800103
+rm portfolio.zip 
+#1772800104
+ls
+#1772800107
+zip -r portfolio.zip nemo256.github.io/
+#1772800109
+clear
+#1772800110
+ls
+#1772800551
+cd tmp
+#1772800551
+ls
+#1772800553
+rm portfolio_out/
+#1772800554
+ls
+#1772800564
+mv ../../dl/portfolio-updated.zip .
+#1772800565
+ls
+#1772800568
+unzip portfolio-updated.zip 
+#1772800568
+ls
+#1772800571
+rm portfolio-updated.zip 
+#1772800574
+cd nemo256.github.io/
+#1772800574
+ls
+#1772800575
+..
+#1772800575
+ls
+#1772800580
+mv nemo256.github.io/ test
+#1772800582
+cd test/
+#1772800582
+ls
+#1772800591
+cp ../../assets/ src/
+#1772800592
+ls
+#1772800593
+clear
+#1772800596
+pnpm install
+#1772800599
+pnpm dev
+#1772801207
+ls
+#1772801209
+cd ..
+#1772801211
+rm test/
+#1772801212
+ls
+#1772801214
+clear
+#1772801215
+ls
+#1772801225
+mv ../../dl/portfolio-updated.zip .
+#1772801226
+ls
+#1772801229
+unzip portfolio-updated.zip 
+#1772801230
+ls
+#1772801234
+mv nemo256.github.io/ test
+#1772801236
+rm portfolio-updated.zip 
+#1772801236
+ls
+#1772801238
+cd test/
+#1772801239
+ls
+#1772801244
+cp ../../assets/ src/
+#1772801245
+ls
+#1772801246
+clear
+#1772801247
+ls
+#1772801249
+pnpm install
+#1772801251
+pnpm dev
+#1772801322
+ls
+#1772801323
+..
+#1772801325
+rm test/
+#1772801330
+ls ../../dl
+#1772801354
+mv ../../dl/portfolio-updated.zip .
+#1772801354
+ls
+#1772801358
+unzip portfolio-updated.zip 
+#1772801358
+ls
+#1772801361
+rm portfolio-updated.zip 
+#1772801362
+ls
+#1772801366
+mv nemo256.github.io/ test
+#1772801367
+cd test
+#1772801367
+ls
+#1772801372
+cp ../../assets/ src/
+#1772801373
+ls
+#1772801376
+pnpm install
+#1772801378
+pnpm dev
+#1772802064
+ls
+#1772802065
+.
+#1772802066
+..
+#1772802066
+ls
+#1772802068
+rm test/
+#1772802068
+ls
+#1772802074
+mv ../../dl/portfolio-updated.zip .
+#1772802076
+ls
+#1772802079
+unzip portfolio-updated.zip 
+#1772802081
+ls
+#1772802082
+rm portfolio-updated.zip 
+#1772802085
+mv nemo256.github.io/ test
+#1772802086
+cd test
+#1772802087
+ls
+#1772802091
+cp ../../assets/ src/
+#1772802092
+ls
+#1772802095
+pnpm install
+#1772802097
+pnpm dev
+#1772803200
+..
+#1772803206
+mv test/ test.bak
+#1772803211
+ls
+#1772803220
+mv ../../dl/portfolio-updated.zip .
+#1772803220
+ls
+#1772803222
+unzip portfolio-updated.zip 
+#1772803223
+ls
+#1772803230
+rm portfolio-updated.zip 
+#1772803230
+ls
+#1772803234
+mv nemo256.github.io/ test
+#1772803235
+cd test
+#1772803236
+ls
+#1772803243
+cp ../../assets/ src/
+#1772803246
+pnpm install
+#1772803248
+pnpm dev
+#1772803509
+ls src/assets/
+#1772803548
+mv src/assets/cv.pdf public/
+#1772803550
+q
+#1772803553
+cdw
+#1772803554
+cd test
+#1772803558
+cd tmp/test
+#1772803559
+ls
+#1772803563
+pnpm dev
+#1772805264
+ls
+#1772805265
+..
+#1772805266
+ls
+#1772805273
+mv test test.newbak
+#1772805275
+ls
+#1772805276
+clear
+#1772805285
+ls
+#1772805291
+mv ../../dl/portfolio-updated.zip .
+#1772805292
+ls
+#1772805296
+unzip portfolio-updated.zip 
+#1772805297
+rm portfolio-updated.zip 
+#1772805298
+ls
+#1772805301
+mv nemo256.github.io/ test
+#1772805302
+cd test
+#1772805304
+ls
+#1772805310
+cp ../../assets/ src/
+#1772805311
+ls
+#1772805313
+pnpm dev
+#1772805316
+pnpm install
+#1772805319
+pnpm dev
+#1772805464
+nvim
+#1772805999
+clear
+#1772805999
+ls
+#1772806000
+gst
+#1772806005
+ls
+#1772806006
+clear
+#1772806006
+ls
+#1772808215
+cdw
+#1772808219
+cd tmp/nemo256.github.io/
+#1772808220
+pnpm dev
+#1772808498
+q
+#1772805505
+cdw
+#1772805508
+cd tmp/test
+#1772805510
+pnpm dev
+#1772806096
+ls
+#1772806096
+..
+#1772806097
+ls
+#1772806104
+mv ../../dl/portfolio-updated.zip .
+#1772806104
+ls
+#1772806107
+unzip portfolio-updated.zip 
+#1772806108
+ls
+#1772806114
+mv nemo256.github.io/ newtest
+#1772806115
+ls
+#1772806118
+cd newtest/
+#1772806118
+ls
+#1772806128
+cd src/
+#1772806129
+ls
+#1772806131
+cd components/
+#1772806132
+ls
+#1772806133
+..
+#1772806137
+pnpm install
+#1772806139
+pnpm dev
+#1772806153
+cp ../../assets/ src/
+#1772806155
+pnpm dev
+#1772806365
+ls
+#1772806367
+..
+#1772806368
+ls
+#1772806378
+mv ../../dl/portfolio-updated.zip .
+#1772806380
+ls
+#1772806389
+rm portfolio-updated.zip 
+#1772806389
+ls
+#1772806397
+mv ../../dl/portfolio-updated.zip .
+#1772806400
+unzip portfolio-updated.zip 
+#1772806400
+ls
+#1772806402
+cd nemo256.github.io/
+#1772806403
+ls
+#1772806405
+pnpm install
+#1772806411
+cp ../../assets/ src/
+#1772806413
+pnpm dev
+#1772806516
+//
+#1772806519
+..
+#1772806522
+rm nemo256.github.io/
+#1772806522
+ls
+#1772806525
+rm portfolio-updated.zip 
+#1772806525
+ls
+#1772806529
+mv ../../dl/portfolio-updated.zip .
+#1772806531
+unzip portfolio-updated.zip 
+#1772806533
+cd nemo256.github.io/
+#1772806539
+cp ../../assets/ src/
+#1772806540
+ls
+#1772806541
+pnpm install
+#1772806544
+pnpm dev
+#1772806703
+..
+#1772806706
+rm nemo256.github.io/
+#1772806707
+ls
+#1772806708
+rm portfolio-updated.zip 
+#1772806709
+ls
+#1772806715
+mv ../../dl/portfolio-updated.zip .
+#1772806717
+unzip portfolio-updated.zip 
+#1772806720
+cd nemo256.github.io/
+#1772806720
+ls
+#1772806723
+cp ../../assets/ src/
+#1772806724
+ls
+#1772806726
+pnpm install
+#1772806729
+pnpm dev
+#1772806904
+..
+#1772806906
+rm nemo256.github.io/
+#1772806906
+ls
+#1772806908
+rm portfolio-updated.zip 
+#1772806911
+mv ../../dl/portfolio-updated.zip .
+#1772806913
+unzip portfolio-updated.zip 
+#1772806915
+rm portfolio-updated.zip 
+#1772806917
+cd nemo256.github.io/
+#1772806919
+cp ../../assets/ src/
+#1772806923
+pnpm install
+#1772806926
+pnpm dev
+#1772807057
+..
+#1772807059
+rm nemo256.github.io/
+#1772807059
+ls
+#1772807062
+mv ../../dl/portfolio-updated.zip .
+#1772807064
+unzip portfolio-updated.zip 
+#1772807065
+ls
+#1772807069
+rm portfolio-updated.zip 
+#1772807071
+cd nemo256.github.io/
+#1772807071
+ls
+#1772807074
+cp ../../assets/ src/
+#1772807076
+pnpm install
+#1772807079
+pnpm dev
+#1772807184
+..
+#1772807187
+rm nemo256.github.io/
+#1772807188
+ls
+#1772807192
+mv ../../dl/portfolio-updated.zip .
+#1772807195
+unzip portfolio-updated.zip 
+#1772807198
+rm portfolio-updated.zip 
+#1772807200
+cd nemo256.github.io/
+#1772807201
+cp ../../assets/ src/
+#1772807205
+pnpm install
+#1772807210
+pnpm dev
+#1772807325
+.
+#1772807326
+..
+#1772807327
+rm nemo256.github.io/
+#1772807327
+ls
+#1772807330
+mv ../../dl/portfolio-updated.zip .
+#1772807334
+unzip portfolio-updated.zip 
+#1772807337
+rm portfolio-updated.zip 
+#1772807338
+cd nemo256.github.io/
+#1772807339
+ls
+#1772807341
+cp ../../assets/ src/
+#1772807343
+pnpm install
+#1772807345
+pnpm dev
+#1772807511
+..
+#1772807513
+rm nemo256.github.io/
+#1772807514
+ls
+#1772807516
+mv ../../dl/portfolio-updated.zip .
+#1772807518
+unzip portfolio-updated.zip 
+#1772807520
+rm portfolio-updated.zip 
+#1772807521
+cd nemo256.github.io/
+#1772807523
+cp ../../assets/ src/
+#1772807525
+clear
+#1772807525
+ls
+#1772807528
+pnpm install
+#1772807530
+pnpm dev
+#1772807563
+ls
+#1772807572
+..
+#1772807572
+ls
+#1772807573
+..
+#1772807575
+cd nemo256.github.io/
+#1772807575
+ls
+#1772807655
+rm src/
+#1772807655
+ls
+#1772807665
+cp ../tmp/nemo256.github.io/src/ .
+#1772807668
+ls
+#1772807671
+pnpm install
+#1772807674
+pnpm dev
+#1772807688
+pnpm build
+#1772807692
+ls
+#1772807721
+gca add light mode - memoji border beam - some effects and animations!
+#1772808097
+..
+#1772808098
+ls
+#1772808100
+cd tmp/
+#1772808101
+ls
+#1772808103
+rm nemo256.github.io/
+#1772808104
+ls
+#1772808106
+mv ../../dl/portfolio-updated.zip .
+#1772808107
+ls
+#1772808109
+unzip portfolio-updated.zip 
+#1772808111
+rm portfolio-updated.zip 
+#1772808112
+ls
+#1772808113
+cd nemo256.github.io/
+#1772808115
+cp ../tmp/nemo256.github.io/src/ .
+#1772808121
+cp ../../assets/ src/
+#1772808122
+ls
+#1772808126
+pnpm install
+#1772808129
+pnpm dev
+#1772808163
+nvim
+#1772808475
+..
+#1772808479
+cd tmp
+#1772808479
+ls
+#1772808481
+rm nemo256.github.io/
+#1772808481
+ls
+#1772808489
+rm nemo256.github.io/
+#1772808492
+ls
+#1772808503
+mv ../../dl/portfolio-updated.zip .
+#1772808508
+unzip portfolio-updated.zip 
+#1772808513
+rm portfolio-updated.zip 
+#1772808514
+ls
+#1772808519
+cd nemo256.github.io/
+#1772808519
+ls
+#1772808521
+cp ../../assets/ src/
+#1772808524
+pnpm install
+#1772808526
+pnpm dev
+#1772808931
+q
+#1772808548
+cdw
+#1772808549
+cd tmp
+#1772808549
+ls
+#1772808551
+cd nemo256.github.io/
+#1772808552
+ls
+#1772808553
+cd src/
+#1772808553
+ls
+#1772808555
+nvim
+#1772808926
+..
+#1772808928
+rm nemo256.github.io/
+#1772808928
+ls
+#1772808934
+rm nemo256.github.io/
+#1772808934
+ls
+#1772808942
+mv ../../dl/portfolio-updated.zip .
+#1772808942
+ls
+#1772808944
+unzip portfolio-updated.zip 
+#1772808945
+rm portfolio-updated.zip 
+#1772808946
+ls
+#1772808947
+cd nemo256.github.io/
+#1772808947
+ls
+#1772808951
+cp ../../assets/ src/
+#1772808953
+pnpm install
+#1772808955
+pnpm dev
+#1772808979
+..
+#1772808981
+cd nemo256.github.io/
+#1772808981
+ls
+#1772808990
+rm docs/ node_modules/ src/
+#1772808991
+ls
+#1772809002
+cp ../tmp/nemo256.github.io/src/ .
+#1772809002
+ls
+#1772809007
+pnpm install
+#1772809010
+pnpm dev
+#1772809052
+gst
+#1772809055
+pnpm build
+#1772809058
+gst
+#1772809080
+gca fix hamburger menu and icon sizes!
+#1772809345
+gst
+#1772809348
+nvim
+#1772809362
+pnpm dev
+#1772809414
+gst
+#1772809429
+gca fix nav items layout on mobile
+#1772809481
+clear
+#1772809482
+q
+#1772809840
+ls
+#1772809841
+cdwe
+#1772809844
+cdw
+#1772809844
+ls
+#1772809847
+cd tmp
+#1772809847
+ls
+#1772809849
+rm *
+#1772809851
+ls
+#1772809856
+mv ../../dl/portfolio-updated.zip .
+#1772809856
+ls
+#1772809858
+unzip portfolio-updated.zip 
+#1772809858
+;ls
+#1772809859
+ls
+#1772809861
+rm portfolio-updated.zip 
+#1772809861
+ls
+#1772809862
+cd nemo256.github.io/
+#1772809870
+cp ../../assets/ src/
+#1772809872
+ls
+#1772809875
+pnpm install
+#1772809876
+pnpm dev
+#1772809895
+..
+#1772809897
+cdw
+#1772809899
+cd nemo256.github.io/
+#1772809899
+ls
+#1772809905
+rm docs/ node_modules/ src/
+#1772809906
+ls
+#1772809910
+cp ../tmp/nemo256.github.io/src/ .
+#1772809911
+ls
+#1772809914
+pnpm install
+#1772809917
+pnpm dev
+#1772809941
+gst
+#1772809966
+gca fix nav items and exit project showcase!
+#1772809972
+pnpm build
+#1772809977
+gca deploy to lamine.cc
+#1772810372
+..
+#1772810372
+ls
+#1772810374
+cd tmp/
+#1772810374
+ls
+#1772810376
+rm *
+#1772810377
+ls
+#1772810380
+mv ../../dl/portfolio-updated.zip .
+#1772810382
+unzip portfolio-updated.zip 
+#1772810383
+rm portfolio-updated.zip 
+#1772810384
+ls
+#1772810385
+cd nemo256.github.io/
+#1772810386
+ls
+#1772810389
+cp ../../assets/ src/
+#1772810392
+pnpm install
+#1772810394
+pnpm dev
+#1772810416
+..
+#1772810418
+cd nemo256.github.io/
+#1772810418
+ls
+#1772810424
+rm docs/ node_modules/ src/
+#1772810425
+ls
+#1772810430
+cp ../tmp/nemo256.github.io/src/ .
+#1772810431
+ls
+#1772810434
+pnpm install
+#1772810440
+pnpm build
+#1772810446
+pnpm dev
+#1772810465
+gca fix project showcase layout on mobile!
+#1772807591
+cdw
+#1772807592
+cd nemo256.github.io/
+#1772807593
+ls
+#1772807594
+cd public/
+#1772807595
+s
+#1772807596
+ls
+#1772807597
+..
+#1772807599
+cd src/ass
+#1772807603
+cd src/
+#1772807603
+ls
+#1772807607
+..
+#1772807612
+cd assets/
+#1772807612
+ls
+#1772807616
+zahura cv.pdf 
+#1772807620
+zathura cv.pdf 
+#1772828257
+q
+#1772828359
+cdd
+#1772828359
+ls
+#1772828364
+mv image0.png me.png
+#1772828375
+mv me.png ../work/
+#1772828375
+ls
+#1772828377
+cdw
+#1772828378
+ls
+#1772828384
+rm portfolio.zip 
+#1772828385
+ls
+#1772828399
+mv ../dl/Video.mov .
+#1772828400
+ls
+#1772828417
+mv Video.mov attch.mov
+#1772828421
+mv attch.mov ../dl/
+#1772828422
+ls
+#1772828597
+cd nemo256.github.io/
+#1772828597
+ls
+#1772828612
+rm docs/ node_modules/
+#1772828613
+ls
+#1772828625
+rm ../assets/
+#1772828626
+ls
+#1772828631
+cp src/assets/ ../
+#1772828634
+..
+#1772828634
+ls
+#1772828637
+cd nemo256.github.io/
+#1772828637
+ls
+#1772828644
+cd src/
+#1772828644
+ls
+#1772828646
+rm assets/
+#1772828646
+ls
+#1772828655
+..
+#1772828655
+ls
+#1772828657
+cd public/
+#1772828658
+ls
+#1772828662
+rm vite.svg 
+#1772828663
+ls
+#1772828664
+clear
+#1772828664
+ls
+#1772828666
+..
+#1772828671
+zip -r portfolio.zip nemo256.github.io/
+#1772828673
+ls
+#1772828681
+rm portfolio.zip
+#1772828683
+zip -r portfolio.zip nemo256.github.io/
+#1772828684
+ls
+#1772829135
+cd tmp/
+#1772829135
+ls
+#1772829138
+rm nemo256.github.io/
+#1772829139
+ls
+#1772829145
+mv ../../dl/portfolio-updated.zip .
+#1772829157
+mv ../../dl/portfolio_updated.zip .
+#1772829159
+ls
+#1772829161
+unzip portfolio_updated.zip 
+#1772829161
+ls
+#1772829165
+rm portfolio_updated.zip 
+#1772829166
+ls
+#1772829167
+cd portfolio/
+#1772829168
+ls
+#1772829173
+cd src/
+#1772829173
+ls
+#1772829175
+..
+#1772829177
+ls
+#1772829181
+pnpm install
+#1772829189
+pnpm dev
+#1772829204
+ls
+#1772829217
+..
+#1772829218
+ls
+#1772829219
+..
+#1772829219
+ls
+#1772829221
+cd nemo256.github.io/
+#1772829221
+ls
+#1772829227
+rm src/
+#1772829227
+ls
+#1772829234
+cp ../tmp/portfolio/src/ .
+#1772829235
+ls
+#1772829238
+pnpm install
+#1772829240
+pnpm dev
+#1772829255
+ls
+#1772829258
+grh
+#1772829260
+ls
+#1772829265
+rm docs/ node_modules/
+#1772829266
+ls
+#1772829273
+cd src/
+#1772829273
+ls
+#1772829368
+rm assets/
+#1772829369
+ls
+#1772829381
+cp ../../assets/ .
+#1772829387
+cp ../../me.png assets/
+#1772829387
+ls
+#1772829389
+ls assets/
+#1772829390
+ls
+#1772829412
+rm components/ data/ styles/ App.jsx 
+#1772829413
+ls
+#1772829427
+cp ../../tmp/portfolio/src/* .
+#1772829428
+ls
+#1772829430
+..
+#1772829434
+pnpm install
+#1772829436
+pnpm dev
+#1772829468
+ls src/components/
+#1772829721
+..
+#1772829723
+cd nemo256.github.io/
+#1772829725
+grh
+#1772829727
+..
+#1772829728
+cd tmp/
+#1772829729
+ls
+#1772829731
+rm portfolio/
+#1772829732
+ls
+#1772829738
+mv ../../dl/portfolio_full.zip .
+#1772829740
+unzip portfolio_full.zip 
+#1772829741
+ls
+#1772829742
+rm portfolio_full.zip 
+#1772829744
+cd fullproject/
+#1772829744
+ls
+#1772829747
+pnpm install
+#1772829749
+pnpm dev
+#1772830064
+q
+#1772829277
+cdw
+#1772829279
+cd tmp/portfolio/
+#1772829280
+cd src/
+#1772829281
+ls
+#1772829287
+ls assets/
+#1772829346
+rm assets/
+#1772829347
+ls
+#1772829351
+ls data/
+#1772829356
+ls styles/
+#1772829359
+ls components/
+#1772829360
+ls
+#1772830065
+..
+#1772830067
+ls
+#1772830072
+cd nemo256.github.io/
+#1772830073
+grh
+#1772830074
+ls
+#1772830083
+rm docs/ node_modules/ 
+#1772830084
+;s
+#1772830084
+ls
+#1772830086
+cd src/
+#1772830086
+ls
+#1772830089
+rm assets/
+#1772830089
+ls
+#1772830090
+..
+#1772830091
+ls
+#1772830093
+..
+#1772830102
+zip -r portfolio.zip nemo256.github.io/
+#1772830108
+ls
+#1772830115
+rm portfolio.zip
+#1772830116
+ls
+#1772830121
+zip -r portfolio.zip nemo256.github.io/
+#1772830123
+clear
+#1772830123
+ls
+#1772830606
+rm portfolio.zip 
+#1772830607
+ls
+#1772830609
+cd tmp/
+#1772830610
+ls
+#1772830611
+rm fullproject/
+#1772830612
+ls
+#1772830619
+mv ../../dl/portfolio_v2.zip .
+#1772830619
+ls
+#1772830623
+unzip portfolio_v2.zip 
+#1772830624
+ls
+#1772830630
+rm portfolio_v2.zip 
+#1772830631
+ls
+#1772830632
+cd newbuild/
+#1772830633
+ls
+#1772830635
+pnpm install
+#1772830643
+cp ../../assets/ src/
+#1772830644
+ls
+#1772830648
+pnpm install
+#1772830650
+pnpm dev
+#1772831363
+ls
+#1772831363
+..
+#1772831364
+ls
+#1772831366
+rm newbuild/
+#1772831366
+ls
+#1772831372
+mv ../../dl/portfolio_v3.zip .
+#1772831373
+ls
+#1772831375
+unzip portfolio_v3.zip 
+#1772831376
+ls
+#1772831377
+rm portfolio_v3.zip 
+#1772831379
+cd newbuild/
+#1772831379
+ls
+#1772831383
+pnpm install
+#1772831386
+cp ../../assets/ src/
+#1772831387
+ls
+#1772831389
+pnpm dev
+#1772832021
+.rw-r--r-- 143k l  6 Mar 21:30  me.png
+#1772832023
+clear
+#1772832023
+ls
+#1772832025
+..
+#1772832027
+rm newbuild/
+#1772832027
+ls
+#1772832033
+mv ../../dl/portfolio_v4.zip .
+#1772832033
+ls
+#1772832035
+unzip portfolio_v4.zip 
+#1772832036
+ls
+#1772832037
+rm portfolio_v4.zip 
+#1772832038
+cd newbuild/
+#1772832038
+ls
+#1772832040
+pnpm install
+#1772832045
+cp ../../assets/ src/
+#1772832046
+ls
+#1772832056
+clear
+#1772832056
+ls
+#1772832057
+pnpm dev
+#1772832153
+..
+#1772832154
+cd nemo256.github.io/
+#1772832155
+ls
+#1772832170
+gst
+#1772832177
+rm src/
+#1772832178
+ls
+#1772832185
+cp ../tmp/newbuild/src/ .
+#1772832185
+ls
+#1772832192
+cd src/
+#1772832192
+ls
+#1772832195
+cd assets/
+#1772832196
+ls
+#1772832203
+..
+#1772832204
+ls
+#1772832205
+..
+#1772832205
+ls
+#1772832207
+..
+#1772832208
+ls
+#1772832215
+cd nemo256.github.io/
+#1772832215
+ls
+#1772832218
+cd src/assets/
+#1772832219
+ls
+#1772832223
+rm me.png 
+#1772832231
+cp ../../../me.png .
+#1772832231
+ls
+#1772832233
+..
+#1772832235
+pnpm dev
+#1772832238
+pnpm install
+#1772832240
+pnpm dev
+#1772832277
+ls src/assets/
+#1772832282
+clear
+#1772832282
+ls
+#1772832286
+cd public/
+#1772832286
+ls
+#1772832288
+..
+#1772832288
+ls
+#1772832294
+pnpm dev
+#1772832301
+clear
+#1772832303
+pnpm dev
+#1772832321
+nvim 
+#1772832350
+clear
+#1772832353
+pnpm build
+#1772832358
+rm docs/
+#1772832358
+ls
+#1772832360
+rm node_modules/
+#1772832361
+ls
+#1772832365
+pnpm install
+#1772832369
+pnpm build
+#1772832410
+gca add animated me - get in touch section and some subtle effects
+#1772832415
+ls
+#1772832417
+clear
+#1772832418
+ls
+#1772833043
+..
+#1772833043
+ls
+#1772833045
+cd tmp/
+#1772833045
+ls
+#1772833047
+rm newbuild/
+#1772833047
+ls
+#1772833055
+mv ../../dl/portfolio_v5.zip .
+#1772833055
+ls
+#1772833057
+unzip portfolio_v5.zip 
+#1772833057
+ls
+#1772833058
+rm portfolio_v5.zip 
+#1772833059
+ls
+#1772833060
+cd newbuild/
+#1772833061
+ls
+#1772833063
+pnpm install
+#1772833070
+cp ../../assets/ src/
+#1772833070
+ls
+#1772833072
+pnpm dev
+#1772833111
+..
+#1772833112
+cd nemo256.github.io/
+#1772833113
+ls
+#1772833124
+rm docs/ node_modules/ src/
+#1772833125
+ls
+#1772833133
+cp ../tmp/newbuild/src/ .
+#1772833133
+ls
+#1772833135
+cd src/
+#1772833135
+ls
+#1772833144
+cd assets/
+#1772833145
+ls
+#1772833148
+rm me.png 
+#1772833156
+cp ../../../me.png .
+#1772833156
+ls
+#1772833158
+..
+#1772833161
+pnpm install
+#1772833167
+pnpm build
+#1772833188
+gca fix animated me layout and animation
+#1772875162
+clear
+#1772875163
+q
+#1772885488
+cdw
+#1772885489
+ls
+#1772885491
+cd APS/
+#1772885492
+ls
+#1772885495
+..
+#1772885502
+cp APS/ APS.bak
+#1772885505
+ls
+#1772885510
+cd APS.bak/
+#1772885511
+ls
+#1772885512
+..
+#1772885512
+ls
+#1772885515
+cd APS
+#1772885515
+ls
+#1772885520
+cd Conception/
+#1772885520
+ls
+#1772885536
+looping
+#1772885538
+clear
+#1772885539
+ls
+#1772885588
+wine
+#1772885591
+ins wine
+#1772885598
+ls
+#1772885600
+..
+#1772885600
+ls
+#1772885605
+cd Conception/
+#1772885605
+ls
+#1772885607
+cd Archives/
+#1772885608
+ls
+#1772885614
+..
+#1772885614
+ls
+#1772885620
+wine MCD_APS.\ 04.11.2025.loo 
+#1772885646
+cdd
+#1772885646
+ls
+#1772885654
+mkdir looping
+#1772885662
+mv Looping.zip looping
+#1772885663
+l
+#1772885665
+cd looping/
+#1772885665
+ls
+#1772885667
+unzip Looping.zip 
+#1772885668
+ls
+#1772885672
+zine Looping.exe 
+#1772885677
+wine Looping.exe 
+#1772885857
+ls
+#1772885863
+sxiv MCD_APS.\ 04.11.2025.jpg 
+#1772889095
+wine Looping.exe 
+#1772891018
+wine Looping.exe
+#1772954080
+clear
+#1772954081
+q
+#1773485231
+cdd
+#1773485232
+ls
+#1773485235
+cd looping/
+#1773485239
+wine Looping.exe 
+#1773485643
+cdw
+#1773485647
+sxiv MCD_APS.jpg 
+#1773485673
+q
+#1773485821
+cdw
+#1773485823
+cd APS
+#1773485823
+ls
+#1773485829
+cd procedure/
+#1773485829
+ls
+#1773485839
+sxiv Les\ DEUX\ prestations\ APS.jpg 
+#1773487995
+cdd
+#1773487996
+ls
+#1773487998
+nvim APS_MCD.mcd 
+#1773488158
+mocodo -i APS_MCD.mcd --svg_to png
+#1773488161
+ins mocodo
+#1773488173
+mkdir test
+#1773488174
+ls
+#1773488180
+mv APS_MCD.mcd test/
+#1773488182
+cd test/
+#1773488182
+ls
+#1773488187
+python -m venv venv
+#1773488215
+activate
+#1773488222
+pip install mocodo
+#1773488229
+mocodo -i APS_MCD.mcd --svg_to png
+#1773488237
+pip install cairosvg
+#1773488242
+mocodo -i APS_MCD.mcd --svg_to png
+#1773488244
+ls
+#1773488250
+sxiv APS_MCD.png 
+#1773488495
+ls
+#1773488499
+exit
+#1773485103
+cdw
+#1773485105
+cd APS
+#1773485105
+l;s
+#1773485106
+ls
+#1773485107
+clear
+#1773485107
+ls
+#1773485110
+cdd
+#1773485111
+ls
+#1773485124
+rm APS*
+#1773485126
+ls
+#1773485127
+clear
+#1773485127
+ls
+#1773485129
+cd looping/
+#1773485129
+ls
+#1773485149
+mv MCD_APS.\ 04.11.2025.jpg MCD_APS.jpg
+#1773485152
+ls
+#1773485152
+clear
+#1773485153
+ls
+#1773485155
+sxiv MCD_APS.jpg 
+#1773485161
+rm MCD_APS.jpg 
+#1773485168
+wine Looping.exe 
+#1773488501
+cdd
+#1773488501
+ls
+#1773488505
+rm test/
+#1773488506
+ls
+#1773488508
+cdw
+#1773488508
+ls
+#1773488554
+clone https://github.com/nemo256/aps-db
+#1773488559
+cd aps-db/
+#1773488560
+ls
+#1773488564
+activate
+#1773488572
+python -m venv venv
+#1773488577
+activate
+#1773488592
+sxiv db.png 
+#1773488977
+mv ../../dl/APS_MCD.mcd .
+#1773488977
+ls
+#1773488982
+mocodo -i APS_MCD.mcd --svg_to png
+#1773488991
+pip install cairosvg mocodo
+#1773489003
+mocodo -i APS_MCD.mcd --svg_to png
+#1773489008
+sxiv APS_MCD.png 
+#1773489353
+mv APS_MCD.mcd APS_MCD.bak.mcd
+#1773489366
+mv ../../dl/APS_MCD.mcd .
+#1773489367
+ls
+#1773489370
+mocodo -i APS_MCD.mcd --svg_to png
+#1773489378
+sxiv APS_MCD.png 
+#1773489644
+mv APS_MCD.mcd APS_MCD.bak.mcd
+#1773489648
+mv ../../dl/APS_MCD.mcd .
+#1773489650
+mocodo -i APS_MCD.mcd --svg_to png
+#1773489654
+sxiv APS_MCD.png 
+#1773489807
+mv APS_MCD.mcd APS_MCD.bak.mcd
+#1773489811
+mv ../../dl/APS_MCD.mcd .
+#1773489814
+mocodo -i APS_MCD.mcd --svg_to png
+#1773489819
+sxiv APS_MCD.png 
+#1773491160
+mv APS_MCD.mcd APS_MCD.bak.mcd
+#1773491164
+mv ../../dl/APS_MCD.mcd .
+#1773491167
+mocodo -i APS_MCD.mcd --svg_to png
+#1773491170
+sxiv APS_MCD.png 
+#1773492588
+mv APS_MCD.mcd APS_MCD.bak.mcd
+#1773492591
+mv ../../dl/APS_MCD.mcd .
+#1773492594
+mocodo -i APS_MCD.mcd --svg_to png
+#1773492597
+sxiv APS_MCD.png 
+#1773526291
+cdw
+#1773526295
+cd aps-db/
+#1773526295
+ls
+#1773526301
+sxiv db.png 
+#1773526318
+q
+#1773526417
+cd
+#1773526418
+cdw
+#1773526422
+cd aps-db/
+#1773526424
+ls
+#1773526426
+sxiv db.png 
+#1773528663
+cdd
+#1773528668
+wine looping/Looping.exe 
+#1773528723
+cdw
+#1773528728
+cd APS
+#1773528729
+ls
+#1773528731
+cd Conception/
+#1773528732
+ls
+#1773528739
+q
+#1773517959
+cdw
+#1773517960
+cd aps
+#1773517961
+ls
+#1773517963
+cd APS
+#1773517963
+ls
+#1773517965
+..
+#1773517965
+ls
+#1773517975
+wine
+#1773517978
+cdd
+#1773517979
+ls
+#1773517981
+cdw
+#1773517983
+cd APS
+#1773517984
+ls
+#1773517986
+cd Conception/
+#1773517986
+ls
+#1773517990
+cd Archives/
+#1773517990
+ls
+#1773517999
+..
+#1773517999
+ls
+#1773518001
+..
+#1773518001
+ls
+#1773518007
+cdd
+#1773518007
+ls
+#1773518009
+cd looping/
+#1773518010
+ls
+#1773518016
+wine Looping.exe 
+#1773534249
+ls
+#1773534251
+cdw
+#1773534253
+cd APS
+#1773534253
+ls
+#1773534257
+cd Conception/
+#1773534257
+ls
+#1773533377
+cdd
+#1773533380
+cd looping/
+#1773533380
+ls
+#1773533385
+wine Looping.exe 
+#1773528836
+cdw
+#1773528838
+cd aps-db/
+#1773528839
+ls
+#1773528842
+sxiv db.png
+#1774273411
+cdD
+#1774273412
+ls
+#1774273420
+cd conferences/
+#1774273421
+ls
+#1774273424
+cd ICAISC23/
+#1774273425
+ls
+#1774273427
+..
+#1774273428
+ls
+#1774273433
+cd learn/
+#1774273433
+ls
+#1774273434
+..
+#1774273435
+ls
+#1774273439
+cd pro
+#1774273442
+cd prof/
+#1774273443
+;s
+#1774273443
+ls
+#1774273445
+..
+#1774273446
+ls
+#1774273452
+q
+#1774258632
+cdw
+#1774258634
+new belala
+#1774258643
+cd belal
+#1774258645
+cd belala/
+#1774258645
+ls
+#1774258651
+rm AUTHORS LICENSE 
+#1774258652
+ls
+#1774258656
+v README.md 
+#1774258738
+clear
+#1774258738
+ls
+#1774258745
+lsblk
+#1774258761
+sudo mount /dev/sda1 /mnt
+#1774258764
+cd /mnt
+#1774258765
+ls
+#1774258785
+cd Nouveau\ dossier
+#1774258787
+ls
+#1774258806
+cp belala.html ../../home/l/work/belala/
+#1774258807
+cdw
+#1774258808
+cd belala/
+#1774258809
+ls
+#1774258826
+chromium belala.html 
+#1774258899
+gca add coaching website!
+#1774258910
+mv belala.html index.html
+#1774258915
+gca update index file!
+#1774273339
+lsblk
+#1774273351
+sudo eject /mnt
+#1774273455
+cdw
+#1774273456
+ls
+#1774273467
+clone https://github.com/nemo256/DashRecours
+#1774273473
+clone https://github.com/nemo256/Dashrecours
+#1774273490
+clone https://github.com/nemo256/DashRecours
+#1774273555
+cd DashRecours/
+#1774273556
+ls
+#1774273559
+cd PFE/
+#1774273559
+l;s
+#1774273560
+ls
+#1774273564
+cd Memoir/
+#1774273565
+ls
+#1774273607
+zathura PFE.pdf 
+#1774338730
+cdw
+#1774338734
+cd aps
+#1774338737
+cd APS
+#1774338949
+cdw
+#1774338950
+ls
+#1774343997
+rm APS
+#1774344164
+new aps
+#1774344168
+cd aps
+#1774344168
+ls
+#1774344188
+nvim AUTHORS 
+#1774344210
+nvim LICENSE 
+#1774344224
+nvim README.md 
+#1774344257
+gst
+#1774344263
+gca update boilerplate files
+#1774344339
+cdd
+#1774344340
+ls
+#1774344350
+mv aps-manager.html ../work/aps
+#1774344351
+cdw
+#1774344353
+cd aps
+#1774344353
+ls
+#1774344361
+nvim index.html
+#1774344371
+mv aps-manager.html index.html
+#1774344424
+python3 -m http.server --bind 0.0.0.0 3000
+#1774357964
+q
+#1774346257
+cdw
+#1774346258
+ls
+#1774346262
+cd aps-db/
+#1774346269
+sxiv db.png
+#1774359597
+cd -- dox/datamining
+#1774359599
+cdd
+#1774359600
+ls
+#1774359618
+mv aps-sonatrach.zip ../work/aps
+#1774359619
+cdw
+#1774359620
+cd aps
+#1774359621
+ls
+#1774359627
+unzip aps-sonatrach.zip 
+#1774359630
+ls
+#1774359634
+rm aps-sonatrach.zip 
+#1774359635
+ls
+#1774359639
+cd aps-sonatrach/
+#1774359639
+ls
+#1774359644
+pnpm install
+#1774359699
+pnpm dev
+#1774359713
+nvim package.json 
+#1774359762
+pnpm start\
+#1774359766
+pnpm start
+#1774431429
+cdw
+#1774431430
+ls
+#1774432173
+nvim links
+#1774432709
+q
+#1774432710
+cdw
+#1774432712
+cd aps
+#1774432712
+;s
+#1774432713
+ls
+#1774432717
+cd aps-sonatrach/
+#1774432718
+ls
+#1774432721
+pnpm start
+#1774424516
+cdw
+#1774424517
+ls
+#1774638563
+cdw
+#1774638564
+cd PARC_IT/
+#1774638565
+ls
+#1774638566
+cd parc-it/
+#1774638567
+ls
+#1774638569
+rm node_modules/
+#1774638569
+ls
+#1774638574
+clear
+#1774638575
+ls
+#1774638964
+cdw
+#1774638967
+cd PARC_IT/
+#1774638967
+ls
+#1774638969
+pnpm dev
+#1774639229
+q
+#1774636990
+cd .build/
+#1774636991
+ls
+#1774636993
+cd tily/
+#1774636993
+ls
+#1774636996
+nvim config.h
+#1774637206
+sudo make clean install
+#1774637964
+cdw
+#1774637965
+ls
+#1774637972
+new PARC_IT
+#1774638022
+cd PARC_IT/
+#1774638023
+ls
+#1774638025
+nvim AUTHORS 
+#1774638040
+nvim LICENSE 
+#1774638050
+nvim README.md 
+#1774638086
+gca update boilerplate files!
+#1774638131
+mv ../../dl/parc-it-project.zip .
+#1774638131
+ls
+#1774638135
+unzip parc-it-project.zip 
+#1774638135
+ls
+#1774638142
+rm parc-it-project.zip 
+#1774638143
+ls
+#1774638146
+cd parc-it/
+#1774638147
+ls
+#1774638150
+pnpm install
+#1774638165
+pnpm dev
+#1774638539
+ls
+#1774638540
+..
+#1774638542
+ls
+#1774638595
+zip -r parc.zip parc-it/
+#1774638596
+ls
+#1774638672
+cd parc
+#1774638673
+ls
+#1774638677
+rm parc.zip 
+#1774638678
+ls
+#1774638680
+cd parc-it/
+#1774638680
+ls
+#1774638689
+cp * ../
+#1774638689
+ls
+#1774638693
+cd ..
+#1774638693
+ls
+#1774638696
+rm parc-it/
+#1774638697
+ls
+#1774638702
+pnpm install
+#1774638704
+pnpm dev
+#1774638710
+gst
+#1774638733
+gca add boilerplate ui
+#1774638739
+ls
+#1774638753
+..
+#1774638754
+r
+#1774638755
+ls
+#1774638763
+cd nemo256.github.io/
+#1774638763
+ls
+#1774638770
+cp .gitignore ../PARC_IT/
+#1774638770
+ls
+#1774638773
+cd ../PARC_IT/
+#1774638773
+ls
+#1774638780
+gca add boilerplate ui
+#1774638817
+nvim .gitignore 
+#1774638824
+rm node_modules/
+#1774638825
+ls
+#1774638831
+gca remove node modules
+#1774638842
+nvim .gitignore 
+#1774638850
+pnpm install
+#1774638856
+gca update gitignore
+#1774638892
+cp ../asl/SONATRACH.png public/
+#1774638896
+cd public/
+#1774638896
+ls
+#1774638904
+mv SONATRACH.png sonatrach.png
+#1774638906
+..
+#1774638908
+pnpm install
+#1774638911
+pnpm dev
+#1774638918
+ls
+#1774638919
+clear
+#1774638919
+ls
+#1774638921
+cd src/
+#1774638921
+ls
+#1774638932
+nvim components/Sidebar.jsx 
+#1774639178
+..
+#1774639179
+ls
+#1774639183
+gca update sidebar
+#1774639213
+rm public/sonatrach.png 
+#1774639217
+gca remove logo
+#1774639230
+gst
+#1774639473
+nvim package.json 
+#1774639486
+nvim vite.config.js 
+#1774639531
+gca update repo deployment
+#1774639577
+pnpm build
+#1774639584
+ls
+#1774639591
+mv dist/ docs
+#1774639592
+ls
+#1774639659
+gca add docs
+#1774640144
+..
+#1774640147
+rm nemo256.github.io/
+#1774640155
+clone https://github.com/nemo256/portfolio
+#1774640159
+cd portfolio
+#1774640159
+ls
+#1774640162
+,,
+#1774640164
+..
+#1774640165
+cd PARC_IT/
+#1774640165
+ls
+#1774640278
+pnpm build
+#1774640284
+pnpm preview
+#1774640304
+rm dist/
+#1774640304
+ls
+#1774640310
+nvim vite.config.js 
+#1774640319
+rm docs
+#1774640319
+ls
+#1774640322
+pnpm build
+#1774640328
+mv dist/ docs
+#1774640335
+gca deploy
+#1774640497
+ls
+#1774640519
+pnpm dev
+#1774640542
+pnpm build
+#1774640551
+pnpm preview
+#1774640621
+nvim vite.config.js 
+#1774640641
+rm docs
+#1774640641
+ls
+#1774640643
+rm dist/
+#1774640648
+pnpm dev
+#1774640662
+pnpm build
+#1774640665
+ls
+#1774640670
+cd docs/
+#1774640670
+ls
+#1774640672
+..
+#1774640680
+gca update deployment
+#1774641118
+nvim docs/index.html 
+#1774641130
+ls
+#1774641132
+cd docs/
+#1774641132
+ls
+#1774641144
+nvim index.html 
+#1774641164
+..
+#1774641166
+gca deploy
+#1774641210
+pnpm preview
+#1774641228
+pnpm build
+#1774641237
+nvim docs/index.html 
+#1774641242
+pnpm preview
+#1774739219
+cdw
+#1774739221
+cd PARC_IT/
+#1774739222
+ls
+#1774739225
+pnpm dev
+#1774739404
+pnpm build
+#1774739409
+ls
+#1774739417
+pnpm preview
+#1774769623
+cdd
+#1774769623
+ls
+#1774769645
+zathura MEMOIRE_GEC.pdf 
+#1774770960
+cdw
+#1774770963
+cd PARC_IT/
+#1774770965
+ls
+#1774770971
+pnpm dev
+#1774861796
+cdw
+#1774861799
+cd DashRecours/
+#1774861799
+ls
+#1774861803
+cd PFE/
+#1774861803
+ls
+#1774861807
+cd Memoir/
+#1774861812
+zathura PFE.pdf 
+#1774862007
+q
+#1774859044
+cdw
+#1774859046
+cd PARC_IT/
+#1774859048
+pnpm dev
+#1774863768
+clear
+#1774864740
+q
+#1774863569
+ls
+#1774872772
+sxiv dl/MCD_15-03-2026.jpg 
+#1774873734
+cdd
+#1774873735
+ls
+#1774873757
+sxiv MCD_15-03-2026.jpg 
+#1774945333
+cdw
+#1774945335
+cd PARC_IT/
+#1774945337
+pnpm dev
+#1774950969
+nvim dots/config/irssi/.irssi/config 
